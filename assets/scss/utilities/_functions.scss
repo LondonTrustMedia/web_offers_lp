@@ -1,0 +1,7 @@
+// ======================================
+//  function
+// ======================================
+
+@function px-tp-pc($targey, $content: $brk-max-width) {
+    @return ($target / $content) * 100%;
+}

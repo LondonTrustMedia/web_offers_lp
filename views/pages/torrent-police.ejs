@@ -1,0 +1,63 @@
+
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('/css/pages/torrent-police.css') %>">
+</head>
+
+<body>
+<% include ../partials/coupon %>
+    <% include ../navbar/navbar_white %>
+    <% include ../partials/lang_button %>
+    <header>
+        <div class="yoga">
+            <div class="apps">
+                <div>
+                    <img src="/img/utorrent_icon.png">
+                </div>
+                <div>
+                    <img src="/img/bitcomet_icon.png">
+                </div>
+                <div>
+                    <img src="/img/qbtorrent_icon.png">
+                </div>
+                <div>
+                    <img src="/img/bittorrent_icon.png">
+                </div>
+                <div>
+                    <img src="/img/bitlord_icon.png">
+                </div>
+                <div>
+                    <img src="/img/deluge_icon.png">
+                </div>
+                <div>
+                    <img src="/img/webtorrent_icon.png">
+                </div>
+                <div>
+                    <img src="/img/vuze_icon.png">
+                </div>
+            </div>
+            <img src="/img/police_yoga.png" class="yoga_man">
+        </div>
+        <div class="header_text">
+            <div>
+                <img src="/img/Logos_color_black.png" class="logo">
+                <h1><%- gettext('Avoid the torrent police and find your inner peace') %></h1>
+                <h3>ZenMate&nbsp;&nbsp;- <%- gettext('download your files in complete secrecy') %></h3><br><br>
+                <a href="<%- offerLink %>" class="orange_btn">
+                    <%- gettext('Get ZenMate VPN') %>&nbsp;&nbsp;|&nbsp;&nbsp;<%- prices.find(price => price.best)[currency].perMonthFull + gettext('/mo') %>
+                </a>
+            <% include ../partials/brand.ejs %>
+            </div>
+        </div>
+    </header>
+    <% include ../body/torrent_white_body %>
+
+    <% include ../footer/dark %>
+
+    <% include ../partials/tagManager %>
+    <script src="<%= asset('/js/yoga.js') %>"></script>
+</body>
+
+</html>

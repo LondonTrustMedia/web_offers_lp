@@ -1,0 +1,273 @@
+
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('/css/pages/blackfriday-cybermoday.css') %>">
+</head>
+
+<body>
+<% include ../partials/coupon %>
+    <% include ../navbar/navbar_white %>
+    <% include ../partials/lang_button %>
+    <header class="cybermonday">
+        <img src="/img/Logos_white.png" class="zen-logo">
+        <img src="/img/bg_opacity_triangle_dark.svg" alt="background triangles" class="bg_triangles">
+        <img src="/img/bg_opacity_triangle_dark.svg" alt="background triangles" class="bg_triangles">
+        <div class="container text-md-center">
+            <div class="text-center">
+                <img src="/img/cybermonday_h1.svg" alt="Black Friday" class="cybermonday_h1">
+                <h5 class="price_title"><%- format(gettext("Get ZenMate VPN Ultimate for<br><b>ONLY </b><big>%s</big><small>/month</small>"), [prices.find(price => price.best)[currency].perMonthFull]) %></h5>
+                <a href="<%- offerLink %>" class="orange_btn big_btn"><%- gettext('Get ZenMate VPN') %></a>
+                <% include ../partials/brand.ejs %>
+            </div>
+            <div>
+                <svg id="gift" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588 794.9" enable-background="new 0 0 588 794.9"><style type="text/css">#gift .st0{fill:#FFF;} #gift .st1{fill:url(#blue_path_4_);} #gift .st2{fill:url(#blue_path_5_);} #gift .st3{fill:url(#blue_path_6_);} #gift .st4{fill:url(#blue_path_7_);} #gift .st5{fill:url(#blue_4_);} #gift .st6{opacity:0.2;fill:#565656;} #gift .st7{fill:url(#blue_5_);} #gift .st8{opacity:0.1;fill:#050505;} #gift .st9{fill:#EFBB14;} #gift .st10{fill:#EA4949;}</style><g id="bottom_gift"><ellipse class="st6" cx="283.2" cy="779.5" rx="195.8" ry="15.5"/><path class="st0" d="M118 589.6h330.5v184.7h-330.5z"/><linearGradient id="blue_5_" gradientUnits="userSpaceOnUse" x1="265.163" y1="681.927" x2="301.268" y2="681.927"><stop offset="0" stop-color="#00E5FA"/><stop offset="1" stop-color="#006A88"/></linearGradient><path id="blue_1_" class="st7" d="M265.2 589.6h36.1v184.7h-36.1z"/><path class="st8" d="M118 589.6h330.5v28.1h-330.5z"/></g><g id="top_gift"><path class="st0" d="M470.7 243.2h-374.9v-93.3c0-2.1 1.7-3.9 3.9-3.9h367.1c2.1 0 3.9 1.7 3.9 3.9v93.3z"/><g id="blue_3_"><linearGradient id="blue_path_4_" gradientUnits="userSpaceOnUse" x1="174.657" y1="103.018" x2="237.755" y2="103.018"><stop offset="0" stop-color="#00E5FA"/><stop offset="1" stop-color="#006A88"/></linearGradient><path id="blue_path_3_" class="st1" d="M237.8 146h-23.1c-34.1-21.7-42.5-39.7-39.4-53.7.1-.5.2-1 .4-1.5.1-.5.3-1 .5-1.5s.4-1 .6-1.4l.6-1.4s0-.1.1-.1l.7-1.3c.5-.9 1-1.8 1.6-2.7.3-.5.6-.9.9-1.3.3-.4.6-.9 1-1.3l1-1.2c.7-.8 1.4-1.6 2.2-2.4.4-.4.8-.8 1.2-1.1l1.2-1.1c.3-.3.7-.6 1.1-.9l1.4-1.2 1-.8c.6-.5 1.2-1 1.9-1.4l1.8-1.2 3-2 1.7-1c.2-.2.5-.3.8-.5l1.9-1.1c1-.5 1.9-1.1 2.9-1.5l2.3-1.2c2.3-1.1 4.9-1.4 7.4-.9 2.3.5 4.5 1.1 6.7 1.8.9.2 1.7.5 2.5.8l.6.2c.7.2 1.4.5 2 .7l1.6.6 2.3.9c.8.3 1.5.6 2.3 1l.3.1c.9.4 1.8.8 2.7 1.3-20.5 5.8-28.7 15-30.2 24.9-4 24.2 32.5 53.4 32.5 53.4z"/><linearGradient id="blue_path_5_" gradientUnits="userSpaceOnUse" x1="175.255" y1="103.018" x2="283.215" y2="103.018"><stop offset="0" stop-color="#00E5FA"/><stop offset="1" stop-color="#006A88"/></linearGradient><path id="blue_path_2_" class="st2" d="M283.2 146h-18.2c-13.6-35-36.2-49.5-60.1-53.5-9.9-1.6-19.9-1.5-29.6-.2.1-.5.2-1 .4-1.5.1-.5.3-1 .5-1.5s.4-1 .6-1.4l.6-1.4s0-.1.1-.1l.7-1.3c.5-.9 1-1.8 1.6-2.7.3-.5.6-.9.9-1.3.3-.4.6-.9 1-1.3l1-1.2c.7-.8 1.4-1.6 2.2-2.4.4-.4.8-.8 1.2-1.1l1.2-1.1 1.1-.9 1.4-1.2 1-.8c.6-.5 1.2-1 1.9-1.4l1.8-1.2 3-2 1.7-1c.2-.2.5-.3.8-.5l1.9-1.1c1-.5 1.9-1.1 2.9-1.5l2.3-1.2c2.3-1.1 4.9-1.4 7.4-.9 2.3.5 4.5 1.1 6.7 1.8.9.2 1.7.5 2.5.8l.6.2c.7.2 1.4.5 2 .7l1.6.6 2.3.9c.8.3 1.5.6 2.3 1l.3.1c.9.4 1.8.8 2.7 1.3 47.3 23.3 47.7 78.3 47.7 78.3z"/></g><g id="blue_2_"><linearGradient id="blue_path_6_" gradientUnits="userSpaceOnUse" x1="328.675" y1="103.018" x2="391.773" y2="103.018"><stop offset="0" stop-color="#00E5FA"/><stop offset="1" stop-color="#006A88"/></linearGradient><path id="blue_path_1_" class="st3" d="M328.7 146h23.1c34.1-21.7 42.5-39.7 39.4-53.7-.1-.5-.2-1-.4-1.5-.1-.5-.3-1-.5-1.5s-.4-1-.6-1.4l-.6-1.4s0-.1-.1-.1l-.7-1.3c-.5-.9-1-1.8-1.6-2.7-.3-.5-.6-.9-.9-1.3-.3-.4-.6-.9-1-1.3l-1-1.2c-.7-.8-1.4-1.6-2.2-2.4-.4-.4-.8-.8-1.2-1.1l-1.2-1.1c-.3-.3-.7-.6-1.1-.9l-1.4-1.2-1-.8c-.6-.5-1.2-1-1.9-1.4l-1.8-1.2-3-2-1.7-1c-.2-.2-.5-.3-.8-.5l-1.9-1.1c-1-.5-1.9-1.1-2.9-1.5l-2.3-1.2c-2.3-1.1-4.9-1.4-7.4-.9-2.3.5-4.5 1.1-6.7 1.8-.9.2-1.7.5-2.5.8l-.6.2c-.7.2-1.4.5-2 .7l-1.6.6-2.3.9c-.8.3-1.5.6-2.3 1l-.3.1c-.9.4-1.8.8-2.7 1.3 20.5 5.8 28.7 15 30.2 24.9 4 24.2-32.5 53.4-32.5 53.4z"/><linearGradient id="blue_path_7_" gradientUnits="userSpaceOnUse" x1="283.215" y1="103.018" x2="391.175" y2="103.018"><stop offset="0" stop-color="#00E5FA"/><stop offset="1" stop-color="#006A88"/></linearGradient><path id="blue_path" class="st4" d="M283.2 146h18.2c13.6-35 36.2-49.5 60.1-53.5 9.9-1.6 19.9-1.5 29.6-.2-.1-.5-.2-1-.4-1.5-.1-.5-.3-1-.5-1.5s-.4-1-.6-1.4l-.6-1.4s0-.1-.1-.1l-.7-1.3c-.5-.9-1-1.8-1.6-2.7-.3-.5-.6-.9-.9-1.3-.3-.4-.6-.9-1-1.3l-1-1.2c-.7-.8-1.4-1.6-2.2-2.4-.4-.4-.8-.8-1.2-1.1l-1.2-1.1-1.1-.9-1.4-1.2-1-.8c-.6-.5-1.2-1-1.9-1.4l-1.8-1.2-3-2-1.7-1c-.2-.2-.5-.3-.8-.5l-1.9-1.1c-1-.5-1.9-1.1-2.9-1.5l-2.3-1.2c-2.3-1.1-4.9-1.4-7.4-.9-2.3.5-4.5 1.1-6.7 1.8-.9.2-1.7.5-2.5.8l-.6.2c-.7.2-1.4.5-2 .7l-1.6.6-2.3.9c-.8.3-1.5.6-2.3 1l-.3.1c-.9.4-1.8.8-2.7 1.3-47.3 23.3-47.7 78.3-47.7 78.3z"/></g><linearGradient id="blue_4_" gradientUnits="userSpaceOnUse" x1="265.163" y1="194.63" x2="301.268" y2="194.63"><stop offset="0" stop-color="#00E5FA"/><stop offset="1" stop-color="#006A88"/></linearGradient><path id="blue" class="st5" d="M265.2 146h36.1v97.2h-36.1z"/></g><g id="bottom_conffeti"><path id="yellow_plus_1_" class="st9" d="M587.2 729.5l-7.2-5.2 5.2-7.2c.7-.9.5-2.2-.5-2.9-.9-.7-2.2-.5-2.9.5l-5.2 7.2-7.2-5.2c-.9-.7-2.2-.5-2.9.5-.7.9-.5 2.2.5 2.9l7.2 5.2-5.2 7.2c-.7.9-.5 2.2.5 2.9s2.2.5 2.9-.5l5.2-7.2 7.2 5.2c.9.7 2.2.5 2.9-.5.6-.9.4-2.2-.5-2.9z"/><path id="yellow_plus" class="st9" d="M81.3 754.2l-7.2-5.2 5.2-7.2c.7-.9.5-2.2-.5-2.9-.9-.7-2.2-.5-2.9.5l-5.2 7.2-7.2-5.2c-.9-.7-2.2-.5-2.9.5-.7.9-.5 2.2.5 2.9l7.2 5.2-5.2 7.2c-.7.9-.5 2.2.5 2.9.9.7 2.2.5 2.9-.5l5.2-7.2 7.2 5.2c.9.7 2.2.5 2.9-.5.6-1 .4-2.3-.5-2.9z"/><path id="red_ring" class="st10" d="M11.8 733.8c-6.5 0-11.8-5.3-11.8-11.8s5.3-11.8 11.8-11.8c6.5 0 11.8 5.3 11.8 11.8s-5.3 11.8-11.8 11.8zm0-19.4c-4.2 0-7.6 3.4-7.6 7.6s3.4 7.6 7.6 7.6c4.2 0 7.6-3.4 7.6-7.6s-3.4-7.6-7.6-7.6z"/></g><g id="top_conffeti"><path id="red_triangle_1_" class="st10 conffeti" d="M202.3 27.3l-16.6-7.5c-1.6-.7-2.6-2.2-2.8-3.9-.2-1.7.6-3.4 2-4.4l14.8-10.6c1.4-1 3.2-1.2 4.8-.5 1.6.7 2.6 2.2 2.8 3.9l1.7 18.1c.2 1.7-.6 3.4-2 4.4-1.4 1-3.1 1.2-4.7.5zm-.4-23.3l-14.8 10.6c-.4.3-.5.8-.4.9 0 .2.1.6.6.8l16.6 7.5c.5.2.9 0 1-.1.1-.1.5-.4.4-.9l-1.7-18.1c-.1-.5-.4-.8-.6-.8-.2-.1-.6-.3-1.1.1z"/><path id="red_triangle" class="st10 conffeti" d="M459.2 109.3l-12.2-5.5c-1.2-.5-1.9-1.6-2-2.9-.1-1.3.4-2.5 1.5-3.2l10.9-7.8c1-.7 2.4-.9 3.5-.3s1.9 1.6 2.1 2.9l1.3 13.3c.1 1.3-.4 2.5-1.5 3.2-1.1.7-2.4.8-3.6.3zm-.3-17.2l-10.9 7.8c-.3.2-.3.6-.3.7 0 .1.1.5.4.6l12.2 5.5c.4.2.7 0 .8-.1.1-.1.4-.3.3-.7l-1.3-13.3c0-.4-.3-.6-.4-.6-.1 0-.4-.1-.8.1z"/><path id="yellow_pus" class="st9 conffeti" d="M428.9 25.3l-7.2-5.2 5.2-7.2c.7-.9.5-2.2-.5-2.9-.9-.7-2.2-.5-2.9.5l-5.2 7.2-7.2-5.2c-.9-.7-2.2-.5-2.9.5-.7.9-.5 2.2.5 2.9l7.2 5.2-5.2 7.2c-.7.9-.5 2.2.5 2.9.9.7 2.2.5 2.9-.5l5.2-7.2 7.2 5.2c.9.7 2.2.5 2.9-.5.6-1 .4-2.3-.5-2.9z"/><path id="yellow_plus_2_" class="st9 conffeti" d="M114.5 83l-7.2-5.2 5.2-7.2c.7-.9.5-2.2-.5-2.9-.9-.7-2.2-.5-2.9.5l-5.2 7.2-7.2-5.2c-.9-.7-2.2-.5-2.9.5-.7.9-.5 2.2.5 2.9l7.2 5.2-5.2 7.2c-.7.9-.5 2.2.5 2.9s2.2.5 2.9-.5l5.2-7.2 7.2 5.2c.9.7 2.2.5 2.9-.5.6-.9.4-2.2-.5-2.9z"/><path id="yellow_ring" class="st9 conffeti" d="M284 55.9c-6.5 0-11.8-5.3-11.8-11.8s5.3-11.8 11.8-11.8 11.8 5.3 11.8 11.8-5.3 11.8-11.8 11.8zm0-19.4c-4.2 0-7.6 3.4-7.6 7.6s3.4 7.6 7.6 7.6c4.2 0 7.6-3.4 7.6-7.6s-3.4-7.6-7.6-7.6z"/><path id="red_ring_1_" class="st10 conffeti" d="M323.1 27.6c-6.5 0-11.8-5.3-11.8-11.8s5.2-11.8 11.8-11.8c6.5 0 11.8 5.3 11.8 11.8s-5.3 11.8-11.8 11.8zm0-19.4c-4.2 0-7.6 3.4-7.6 7.6s3.4 7.6 7.6 7.6c4.2 0 7.6-3.4 7.6-7.6s-3.4-7.6-7.6-7.6z"/><path id="red_circle_1_" class="st10 conffeti" d="M372.3 32.3c0 2.4-1.9 4.3-4.3 4.3s-4.3-1.9-4.3-4.3 1.9-4.3 4.3-4.3c2.3 0 4.3 1.9 4.3 4.3z"/><path id="red_circle" class="st10 conffeti" d="M158.6 128.3c0 2.4-1.9 4.3-4.3 4.3s-4.3-1.9-4.3-4.3 1.9-4.3 4.3-4.3c2.3 0 4.3 1.9 4.3 4.3z"/></g></svg>
+                <div class="timer_gift color_white text-center">
+                    <img src="/img/close_gift2.svg" id="gift_close" alt="Gift">
+                    <h2><%- gettext('For a Limited Time Only') %></h2>
+                    <div class="clock_lables">
+                        <h5><%- gettext("Days") %> </h5>
+                        <h5><%- gettext("Hrs") %> </h5>
+                        <h5><%- gettext("Min") %> </h5>
+                        <h5><%- gettext("Sec") %> </h5>
+                    </div>
+                    <div class="clock flip-clock-wrapper" style="margin:2em;">
+                        <span class="flip-clock-divider days">
+                            <span class="flip-clock-label">Days</span>
+                        </span>
+                        <ul class="flip">
+                            <li class="flip-clock-before">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">9</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">9</div>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="flip-clock-active">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                            </a>
+                            </li>
+                        </ul>
+                        <ul class="flip">
+                            <li class="flip-clock-before">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="flip-clock-active">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">2</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">2</div>
+                                </div>
+                            </a>
+                            </li>
+                        </ul>
+                        <span class="flip-clock-divider hours">
+                            <span class="flip-clock-label">Hours</span>
+                        </span>
+                        <ul class="flip">
+                            <li class="flip-clock-before">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="flip-clock-active">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">1</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">1</div>
+                                </div>
+                            </a>
+                            </li>
+                        </ul>
+                        <ul class="flip">
+                            <li class="flip-clock-before">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="flip-clock-active">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">3</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">3</div>
+                                </div>
+                            </a>
+                            </li>
+                        </ul>
+                        <span class="flip-clock-divider minutes">
+                            <span class="flip-clock-label">Minutes</span>
+                        </span>
+                        <ul class="flip">
+                            <li class="flip-clock-before">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="flip-clock-active">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">2</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">2</div>
+                                </div>
+                            </a>
+                            </li>
+                        </ul>
+                        <ul class="flip">
+                            <li class="flip-clock-before">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="flip-clock-active">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">1</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">1</div>
+                                </div>
+                            </a>
+                            </li>
+                        </ul>
+                        <span class="flip-clock-divider seconds">
+                            <span class="flip-clock-label">Seconds</span>
+                        </span>
+                        <ul class="flip play">
+                            <li class="flip-clock-before">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">1</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">1</div>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="flip-clock-active">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">0</div>
+                                </div>
+                            </a>
+                            </li>
+                        </ul>
+                        <ul class="flip play">
+                            <li class="flip-clock-before">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">9</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">9</div>
+                                </div>
+                            </a>
+                            </li>
+                            <li class="flip-clock-active">
+                            <a href="#">
+                                <div class="up">
+                                <div class="shadow"></div>
+                                <div class="inn">8</div>
+                                </div>
+                                <div class="down">
+                                <div class="shadow"></div>
+                                <div class="inn">8</div>
+                                </div>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+     <% include ../body/white_body %>
+
+    <% include ../footer/dark %>
+
+    <% include ../partials/tagManager %>
+    <script>
+        var countDownDate = new Date('<%- event ? event.to : '' %>');
+        countDownDate =  countDownDate.getTime() - countDownDate.getTimezoneOffset() * 60000;
+    </script>
+    <script src="<%= asset('/js/blackfriday-cybermonday.js') %>"></script>
+</body>
+
+</html>

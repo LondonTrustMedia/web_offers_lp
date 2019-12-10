@@ -1,0 +1,127 @@
+
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('/css/pages/torrent-space.css') %>">
+</head>
+
+<body>
+<% include ../partials/coupon %>
+    <% include ../navbar/navbar_white %>
+    <% include ../partials/lang_button %>
+    <header>
+        <div class="box_astronaut">
+            <img class="object_astronaut" src="/img/astro.png">
+        </div>
+        <span class="falling-star"></span><span class="falling-star"></span><span class="falling-star"></span>
+        <div class="header_content">
+        <img src="/img/torrent_space_logos.png?v3" class="torrent-galaxy hidden-xs">
+        <img src="/img/mobile_torrent_space_logos.png?v3" class="torrent-galaxy visible-xs">
+            <div class="header_text">
+                <img src="/img/Logos_color.png" class="logo hidden-xs">
+                <h1><%- gettext('Torrent any time with complete peace of mind') %></h1>
+                <h3>ZenMate&nbsp;&nbsp;- <%- gettext('Fast, secret and unlimited downloads') %></h3><br>
+                <a href="<%- offerLink %>" class="orange_btn">
+                    <%- gettext('Get ZenMate VPN') %>&nbsp;&nbsp;|&nbsp;&nbsp;<%- prices.find(price => price.best)[currency].perMonthFull + gettext('/mo') %>
+                </a>
+                <% include ../partials/brand.ejs %>
+            </div>
+        </div>
+    </header>
+    <div class="body_container">
+        <section class="zenmate_steps">
+            <h1><%- gettext('Set up your own private downloading headquarters in 3 quick steps') %></h1>
+            <h3><%- gettext('It takes less than 3 minutes') %></h3>
+            <div class="flex-section">
+                <div>
+                    <h4 class="steps-text"> 
+                        <%- gettext('Subscribe to ZenMate VPN') %>
+                    </h4>
+                </div>
+                <div>
+                    <h4 class="steps-text"> 
+                        <%- gettext('Download ZenMate VPN') %>
+                    </h4>
+                </div>
+                <div>
+                    <h4 class="steps-text"> 
+                        <%- gettext('Start ZenMate & Download your Files') %>
+                    </h4>
+                </div>
+            </div>
+            <a href="<%- offerLink %>" class="blue_btn"><%- gettext('Get ZenMate VPN') %></a>
+            <h5><%- gettext('30-day money-back guarantee') %></h5>
+        </section>
+
+        <section class="trust">
+            <img src="/img/map.png" class="picture_map">
+            <h1><%- gettext('Join over 45 million ZenMate users who’ve discovered online freedom') %></h1>
+            <h3><%- gettext('Limitless downloads | Total anonymity | Elite encryption standards') %></h3>
+            <div class="flex-section">
+                <div>
+                    <img src="/img/wifi_protection_white.png" class="features_icon">
+                    <span><%- gettext('WiFi Protection') %></span>
+                </div>
+                <div>
+                    <img src="/img/bypass_geo_white.png" class="features_icon">
+                    <span><%- gettext('Bypass geo-restrictions') %></span>
+                </div>
+                <div>
+                    <img src="/img/unblock_streaming_white.png" class="features_icon">
+                    <span><%- gettext('Unblock streaming') %></span>
+                </div>
+                <div>
+                    <img src="/img/internet_ninja_white.png" class="features_icon">
+                    <span><%- gettext('Torrent like an Internet ninja') %></span>
+                </div>
+            </div>
+            <a href="<%- offerLink %>" class="blue_btn"><%- gettext('Get ZenMate VPN') %></a>
+            <h5><%- gettext('30-day money-back guarantee') %></h5>
+        </section>
+
+        <section class="features">
+            <div class="flex-section">
+                <div>
+                    <img src="/img/devices_white_icon.png" class="features_icon">
+                    <h2><%- gettext('Secure up to 5 different devices') %></h2>
+                    <p><%- gettext('One ZenMate subscription is enough to grant you total invisibility across 5 different devices – be it an Android or iOS smartphone, tablets, Windows or Mac desktops.') %></p>
+                </div>
+                <div>
+                    <img src="/img/fingerprint_white_icon.png" class="features_icon">
+                    <h2><%- gettext('Download in complete secrecy') %></h2>
+                    <p><%- gettext('ZenMate VPN guarantees total torrenting anonymity through its strict No-Logging policy.') %></p>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+    <footer>
+        <div class="box_spaceship">
+            <img class="object_spaceship" src="/img/space_cow.png">
+        </div>
+        <div class="footer_contaner">
+            <div class="left_side">
+                <img src="./img/moneyback_footer.svg" alt="Moneyback" class="moneyback">
+                <h1><%- gettext("You’re Covered By our 30-Day<br>Money-Back Guarantee") %></h1>
+                <p>
+                <%- gettext("We’re so confident you’ll love<img src='./img/Logos_color.png' alt='Zenmate logo' class='zm_logo'>, we’re willing to take all the risk here. After you get ZenMate VPN, you have 30 full days to decide if it’s right for you.") %>
+                </p>
+                <a href="<%- offerLink %>" class="orange_btn"><%- gettext('Get ZenMate VPN') %></a>
+            </div>
+            <div class="right_side">
+                <div class="cube">
+                    <h4><%- format(gettext('Slash %s% off<br>ZenMate VPN!'), [prices.find(price => price.best)[currency].discount]) %></h4>
+                    <div class="orange_line"><%- gettext('BEST DEAL') %></div>
+                    <div class="price"><%- prices.find(price => price.best)[currency].perMonthFull %></div>
+                    <div class="month"><%- gettext('/mo') %></div>
+                    <div class="calim"><%- gettext('Claim your discount') %></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <% include ../partials/tagManager %>
+</body>
+
+</html>

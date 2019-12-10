@@ -1,0 +1,217 @@
+// ======================================
+//  mixin Styles
+// ======================================
+
+// Web fonts
+
+@mixin font-face($family, $file) {
+    @font-face {
+        font-family: $family;
+        src: url('#{$path-font}/#{$file}-webfont.eot');
+        src: url('#{$path-font}/#{$file}-webfont.eot?#iefix') format('embedded-opentype'),
+        url('#{$path-font}/#{$file}-webfont.woff') format('woff'),
+        url('#{$path-font}/#{$file}-webfont.ttf') format('truetype');
+    }
+}
+
+// Text
+
+@mixin text($size, $l-height: null, $weight: null, $color: null) {
+    font-size: $size;
+    line-height: $l-height;
+    font-weight: $weight;
+    color: $color;
+}
+
+// Create a flex container
+@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $align-i: null, $align-c: null) {
+    display: $disp;
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+    justify-content: $just;
+    align-items: $align-i;
+    align-content: $align-c;
+}
+
+//   cube box 
+@mixin cube-box($width) {
+    height: $width;
+    width: $width;
+}
+
+// container
+@mixin container($width: $brk-desktop-width) {
+    width: 100%;
+    max-width: $width;
+    margin: 0 auto;
+}
+
+// background repeat-x center bottom
+@mixin background-repeat-x($img, $bg-pos: center bottom, $bg-re: repeat-x, $bg-size: auto 100%) {
+    background-image: url($img);
+    background-position: $bg-pos;
+    background-repeat: $bg-re;
+    background-size: $bg-size;
+}
+
+// center
+@mixin center-object($width) {
+    width: $width;
+    left: calc(50% - #{$width / 2});
+}
+
+// Mixin to prefix a property
+@mixin prefix($declarations, $prefixes: ()) {
+
+    @each $property,
+    $value in $declarations {
+        @each $prefix in $prefixes {
+            #{'-' + $prefix + '-' + $property}: $value;
+        }
+
+        // Output standard non-prefixed declaration
+        #{$property}: $value;
+    }
+}
+
+// Mixin to clearfix
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+// CSS3 Keyframes
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name} {
+        @content;
+    }
+
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+//   Background linear-gradient
+@mixin linear-gradient($angle:to bottom, $gradient1, $gradient2) {
+    background-color: $gradient2;
+    /* Fallback Color */
+    background-image: -webkit-gradient(linear, $angle, from($gradient1), to($gradient2));
+    /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient($angle, $gradient1, $gradient2);
+    /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image: -moz-linear-gradient($angle, $gradient1, $gradient2);
+    /* FF3.6 */
+    background-image: -ms-linear-gradient($angle, $gradient1, $gradient2);
+    /* IE10 */
+    background-image: -o-linear-gradient($angle, $gradient1, $gradient2);
+    /* Opera 11.10+ */
+    background-image: linear-gradient($angle, $gradient1, $gradient2);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle, StartColorStr='#{$gradient1}', EndColorStr='#{$gradient2}');
+}
+
+// btn color class
+@mixin btn($color) {
+    @if $color==$zenmate-orange {
+        .orange_btn {
+            background-color: $zenmate-orange;
+            @content;
+
+            &:hover,
+            &:active {
+                background-color: $dark-zenmate-orange;
+                color: $white;
+            }
+            &.grad {
+                @include linear-gradient(to right, $zenmate-orange, lighten($zenmate-orange, 10%)); 
+                &:hover,
+                &:active {
+                    @include linear-gradient(to right, $dark-zenmate-orange, lighten($dark-zenmate-orange, 10%));
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    @else if $color==$zenmate-blue {
+        .blue_btn {
+            background-color: $zenmate-blue;
+            @content;
+
+            &:hover,
+            &:active {
+                background-color: $dark-zenmate-blue;
+                color: $white;
+            }
+            &.grad {
+                @include linear-gradient(to right, $zenmate-blue, lighten($zenmate-blue, 10%));
+                &:hover,
+                &:active {
+                    @include linear-gradient(to right, $dark-zenmate-blue, lighten($dark-zenmate-blue, 10%));
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    @else {
+        .#{$color}_btn {
+            background-color: $color;
+            @content;
+
+            &:hover,
+            &:active {
+                background-color: darken($color, 10%);
+                color: $white;
+            }
+            &.grad {
+                @include linear-gradient(to right, $color, lighten($color, 10%));
+                &:hover,
+                &:active {
+                    @include linear-gradient(to right, darken($color, 10%), $color);
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+// Mozilla Firefox only
+@mixin firefox-only {
+    @at-root {
+      @-moz-document url-prefix() {
+        & {
+          @content;
+        }
+      }
+    }
+  }
+
+// Internet Explorer only
+  @mixin ie-only {
+      @at-root {
+          @media all and (-ms-high-contrast: none),
+          (-ms-high-contrast: active) {
+              & {
+                  @content;
+              }
+          }
+      }
+  }
+
+ // Safari only 
+  @mixin safari-only(){
+    @at-root {
+        @supports (overflow:-webkit-marquee) and (justify-content:inherit){
+            & {
+                @content;
+            }
+        }
+    }
+  }

@@ -1,0 +1,75 @@
+// ======================================
+//  default Styles
+// ======================================
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: $color-text;
+    font-family: $stack-lato;
+    overflow-x: hidden;
+}
+
+a {
+    color: $color-text;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        color: $color-text;
+        text-decoration: none;
+    }
+}
+
+.btn_container {
+    text-align: center;
+    display: inline-block;
+    & h5 {
+        font-size: 14px;
+    }
+}
+
+%nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    z-index: 11111111111111111;
+    margin: 0;
+    border: none;
+    border-radius: unset;
+}
+
+%container {
+    width: 100%;
+    max-width: $brk-desktop-width;
+    margin: 0 auto;
+}
+
+%contain-all {
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+
+// font color
+
+.color_zenmate_blue {
+    color: $zenmate-blue;
+}
+.color_zenmate_orange {
+    color: $zenmate-orange;
+}
+.color_mantis {
+    color: $mantis;
+}
+.color_white {
+    color: $white;
+}

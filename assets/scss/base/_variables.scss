@@ -1,0 +1,35 @@
+// ======================================
+//  variables Styles
+// ======================================
+
+// Colors
+
+$white: #fff;
+$black: #000;
+
+$night-Rider: #323232;
+$nero: #232323;
+$grey: #858585;
+$mantis: #84BF47;
+
+$zenmate-blue: #008ace;
+$zenmate-orange: #ff6e19;
+
+$dark-zenmate-blue: darken($zenmate-blue, 10%);
+$dark-zenmate-orange: darken($zenmate-orange, 10%);
+
+$color-text: $black;
+
+// Font stacks
+
+$stack-arial:  Arial, sans-serif;
+$stack-lato: "Lato", Helvetica, $stack-arial;
+$stack-helvetica: Helvetica, Calibri, $stack-arial;
+
+// Media query breakpoints
+
+$brk-desktop-width      : 1200px;
+$brk-min-desktop-width  : 991px;
+$brk-ipad-width         : 768px;
+$brk-mobile-width       : 420px;
+$brk-min-mobile-width   : 320px;

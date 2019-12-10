@@ -1,0 +1,45 @@
+// ======================================
+//  basges Styles
+// ======================================
+
+// import if setsticker
+
+// coupons
+@import 'badges_coupon_stickers/_coupon_blackfriday_cybermonday';
+// @import 'badges_coupon_stickers/_champions_league';
+// @import 'badges/_sticker_blackfriday_cybermonday';
+
+%badge {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 111111111;
+    cursor: pointer;
+}
+
+%coupon {
+    position: fixed;
+    z-index: 11111111111111113;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    transition: top .5s;
+}
+
+// when coupon on language button move down
+#coupon~#container-floating,
+#coupon~#container-floating #floating-button {
+    top: 75px !important;
+}
+
+// when coupon on header container move down
+#coupon~header {
+    margin-top: 70px !important;
+}
+
+// navbar move so sticker move to
+#coupon.coupon-move {
+    top: 70px;
+}

@@ -1,0 +1,38 @@
+
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('/css/clouds.css') %>">
+    <link rel="stylesheet" href="<%= asset('/css/pages/cliff.css') %>">
+</head>
+
+<body>
+<% include ../partials/coupon %>
+    <% include ../navbar/navbar_white %>
+    <% include ../partials/lang_button %>
+    <header>
+        <div id="viewport" style="perspective: 400px;">
+            <div id="world" ></div>
+        </div>
+        <img src="/img/left_rock.png" class="left_front_bg">
+        <img src="/img/girl_rock.png" class="right_front_bg">
+        <div class="header_text">
+            <img src="/img/Logos_color_black.png" class="logo">
+            <h1><%- gettext('Free your Mind, We Got you Covered.') %></h1>
+            <h3><%- gettext('Bypass restrictions, stay anonymous & enjoy a free Internet') %></h3>
+            <a href="<%- offerLink %>" class="orange_btn">
+                <%- gettext('Get ZenMate VPN') %>&nbsp;&nbsp;|&nbsp;&nbsp;<%- prices.find(price => price.best)[currency].perMonthFull + gettext('/mo') %>
+            </a>
+            <% include ../partials/brand.ejs %>
+        </div>
+    </header>
+    <% include ../body/white_body %>
+
+    <% include ../footer/dark %>
+    
+    <% include ../partials/tagManager %>
+    <script src="<%= asset('/js/clouds.js') %>"></script>
+</body>
+
+</html>

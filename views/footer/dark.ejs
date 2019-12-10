@@ -1,0 +1,22 @@
+<footer id="dark_footer">
+    <div class="footer_container">
+        <div class="left_side">
+            <img src="./img/moneyback_footer.svg" alt="Moneyback" class="moneyback">
+            <h1><%- gettext("You’re Covered By our 30-Day<br>Money-Back Guarantee") %></h1>
+            <p>
+            <%- gettext("We’re so confident you’ll love<img src='./img/Logos_color.png' alt='Zenmate logo' class='zm_logo'>, we’re willing to take all the risk here. After you get ZenMate VPN, you have 30 full days to decide if it’s right for you.") %>
+            </p>
+            <a href="<%- offerLink %>" class="orange_btn"><%- gettext('Get ZenMate VPN') %></a>
+        </div>
+        <div class="right_side">
+            <div class="cube text-center">
+                <h4><%- format(gettext('Slash %s% off<br>ZenMate VPN!'), [prices.find(price => price.best)[currency].discount]) %></h4>
+                <div class="orange_line"><%- gettext('BEST DEAL') %></div>
+                <div class="price"><%- prices.find(price => price.best)[currency].perMonthFull %></div>
+                <div class="month"><%- gettext('/mo') %></div>
+                <div class="calim"><%- gettext('Claim your discount') %></div>
+            </div>
+        </div>
+    </div>
+</footer>
+

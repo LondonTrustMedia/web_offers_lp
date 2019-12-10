@@ -1,0 +1,23 @@
+
+<footer>
+    <div class="footer_contaner">
+        <div class="left_side">
+            <img src="/img/gift_mcafee_blue.png">
+            <h1><%- gettext('We go the extra-mile') %></h1>
+            <p>
+            <%- gettext('Every 1-year or more ZenMate subscription gets you a 1-year McAfee Anti-Virus protection for free.') %>
+            </p>
+            <a href="<%- offerLink %>" class="blue_btn"><%- gettext('Get ZenMate VPN') %></a>
+        </div>
+        <div class="right_side">
+            <div class="cube">
+                <h4><%- format(gettext('Slash %s% off<br>ZenMate VPN!'), [prices.find(price => price.best)[currency].discount]) %></h4>
+                <div class="orange_line"><%- gettext('BEST DEAL') %></div>
+                <div class="price"><%- prices.find(price => price.best)[currency].perMonthFull %></div>
+                <div class="month"><%- gettext('/mo') %></div>
+                <div class="calim"><%- gettext('Claim your discount') %></div>
+            </div>
+        </div>
+    </div>
+</footer>
+

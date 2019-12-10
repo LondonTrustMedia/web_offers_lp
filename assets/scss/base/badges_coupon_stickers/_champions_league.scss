@@ -1,0 +1,138 @@
+
+
+#badge.champions_league {
+    @extend %badge;
+    width: 600px;
+    height: 350px;
+    @media screen and (max-width: $brk-min-desktop-width) {
+        width: 485px;
+        height: 225px;
+    }
+    @media screen and (max-width: $brk-mobile-width + 70) {
+        width: 100%;
+        height: 115px;
+    }
+    & .champions_league_globe {
+        width: 255px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            width: 170px;
+        }
+        @media screen and (max-width: $brk-mobile-width + 70) {
+            width: 85px;
+            top: 5px;
+        }
+    }
+    & .badge_text_container {
+        background-image: url(/img/bg_black_rectangle_spot_light.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: relative;
+        left: 105px;
+        height: 285px;
+        top: -15px;
+        width: 535px;
+        padding: 70px 80px 0 160px;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            left: 50px;
+            height: 180px;
+            top: -15px;
+            width: 415px;
+            padding: 35px 55px 0 120px;
+        }
+        @media screen and (max-width: $brk-mobile-width + 70) {
+            background-image: url(/img/bg_black_rectangle.svg);
+            text-align: left;
+            height: 115px;
+            padding: 45px 25px 0 85px;
+            top: 0;
+            width: 100%;
+            left: 0;
+        }
+        & .badge_title {
+            font-size: 32px;
+            margin: 0 0 9px 0;
+            @media screen and (max-width: $brk-min-desktop-width) {
+                font-size: 23px;
+                margin: 0 0 5px 0;
+            }
+            @media screen and (max-width: $brk-mobile-width + 70) {
+                font-size: 17px;
+                margin: 0;
+            }
+        }
+        & .orange_btn {
+            margin-top: 5px;
+            font-size: 18px;
+            margin-left: -35px;
+            min-width: 350px;
+            padding: 10px 25px;
+            @media screen and (max-width: $brk-min-desktop-width) {
+                font-size: 14px;
+                margin-left: -35px;
+                min-width: 285px;
+            }
+            @media screen and (max-width: $brk-mobile-width + 70) {
+                display: none;
+            }
+        }
+        & .badge_logo {
+            width: 150px;
+            margin-left: -30px;
+            @media screen and (max-width: $brk-min-desktop-width) {
+                width: 115px;
+            }
+            @media screen and (max-width: $brk-mobile-width + 70) {
+                width: 80px;
+                position: absolute;
+                display: inline-block;
+                left: calc(50% - 40px);
+                bottom: 5px;
+                margin-left: 0;
+            }
+        }
+        & span {
+            font-size: 19px;
+            vertical-align: text-top;
+            margin-left: 5px;
+            @media screen and (max-width: $brk-mobile-width + 70) {
+                display: none;
+            }
+        }
+    }
+    & .badge_confetti {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: -15px;
+        z-index: 2;
+        &.small_img {
+            display: none;
+        }
+        @media screen and (max-width: $brk-mobile-width + 70) {
+            display: none;
+            &.small_img {
+                display: block;
+            }
+        }
+    }
+    & .closeIt {
+        width: 25px;
+        position: absolute;
+        top: 0;
+        right: -50px;
+        z-index: 3;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            top: -20px;
+            right: 15px;
+        }
+        @media screen and (max-width: $brk-mobile-width + 70) {
+            top: 15px;
+            width: 20px;
+        }
+    }
+}

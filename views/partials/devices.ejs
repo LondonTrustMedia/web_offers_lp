@@ -1,0 +1,79 @@
+<% userAgent.os.name == 'Mac OS' ? userAgent.os.name='macos' : userAgent.os.name=userAgent.os.name %>
+
+<section class="sec_devices">
+    <img src="./img/films_strip.svg" class="films_strip" alt="Film strips">
+    <div class="spot_container">
+        <img src="./img/spot_blue_triangle.svg" class="blink" alt="blue triangle">
+        <img src="./img/spot_orange_plus.svg" class="blink" alt="orange plus">
+        <img src="./img/spot_green_hole_circle.svg" class="blink" alt="green circle">
+    </div>
+    <div class="container">
+        <img src="./img/arrow_dots_zenmate_blue.svg" class="arrow_dots" alt="arrow dots blue">
+        <div class="device_side <%- userAgent.os.name%>">
+            <div class="devices">
+                <img src="./img/iphone_device.png" alt="iphone" class="iphone">
+                <img src="./img/macos_device.png" alt="macos" class="mac">
+                <img src="./img/chrome_device.png" alt="chrome" class="chrome_ex">
+                <img src="./img/firefox_device.png" alt="firefox" class="firefox_ex">
+                <img src="./img/windows_device.png" alt="windows" class="windows_desktop">
+                <img src="./img/android_device.png" alt="android" class="android_phone">
+                <img src="./img/linux_device.png" alt="linux" class="linux_desktop">
+            </div>
+            <svg class="wave_circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 246" enable-background="new 0 0 246 245"><style type="text/css">.st0{fill:#ffffff00;stroke: #fff;stroke-miterlimit: 10;}</style><circle class="st0" cx="123" cy="123" r="123"/></svg>
+        </div>
+        <div class="text_side">
+            <h2 class="color_zenmate_blue"><%- gettext("And Don’t Worry!") %></h2>
+            <p><%- gettext("No Matter the Device You’re Using We’ve Got You Covered!") %></p>
+            <div class="circle_devices">
+                <img src="./img/device_icon_windows.svg" class="circle_device" alt="Windows icon" id="Windows">
+                <img src="./img/device_icon_android.svg" class="circle_device" alt="Android icon" id="Android">
+                <img src="./img/device_icon_macos.svg" class="circle_device" alt="Macos icon" id="macos">
+                <img src="./img/device_icon_ios.svg" class="circle_device" alt="IOS icon" id="iOS">
+                <img src="./img/device_icon_chrome.svg" class="circle_device" alt="Chrome icon" id="Chrome">
+                <img src="./img/device_icon_firefox.svg" class="circle_device" alt="Firefox icon" id="Firefox">
+                <img src="./img/device_icon_linux.svg" class="circle_device" alt="Linux icon" id="Linux">
+            </div>
+            <p><%- gettext("Plus, with just 1 single ZenMate subscription you can use up to <b>5 devices at the same time.</b> This way you can stream content on your TV, laptop and phones.") %></p>
+            <div class="btn_container">
+                <a href="<%- offerLink %>" class="orange_btn grad"><%- gettext("Get ZenMate VPN") %></a>
+                <h5><%- gettext("30-day money-back guarantee") %></h5>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="sec_devices mobile text-center">
+    <div class="spot_container">
+        <img src="./img/spot_blue_triangle.svg" class="blink" alt="blue triangle">
+        <img src="./img/spot_orange_plus.svg" class="blink" alt="orange plus">
+        <img src="./img/spot_green_hole_circle.svg" class="blink" alt="green circle">
+    </div>
+    <div class="container">
+        <h2 class="color_zenmate_blue"><%- gettext("And Don’t Worry!") %></h2>
+        <p><%- gettext("No Matter the Device You’re Using We’ve Got You Covered!") %></p>
+        <p><%- gettext("Plus, with just 1 single ZenMate subscription you can use up to <b>5 devices at the same time.</b> This way you can stream content on your TV, laptop and phones.") %></p>
+        <div class="circle_devices">
+            <img src="./img/device_icon_windows.svg" class="circle_device" alt="Windows icon" id="Windows">
+            <img src="./img/device_icon_android.svg" class="circle_device" alt="Android icon" id="Android">
+            <img src="./img/device_icon_macos.svg" class="circle_device" alt="Macos icon" id="macos">
+            <img src="./img/device_icon_ios.svg" class="circle_device" alt="IOS icon" id="iOS">
+            <img src="./img/device_icon_chrome.svg" class="circle_device" alt="Chrome icon" id="Chrome">
+            <img src="./img/device_icon_firefox.svg" class="circle_device" alt="Firefox icon" id="Firefox">
+            <img src="./img/device_icon_linux.svg" class="circle_device" alt="Linux icon" id="Linux">
+        </div>
+        <div class="device_side <%- userAgent.os.name %>">
+            <div class="devices">
+                <img src="./img/iphone_device.png" alt="iphone" class="iphone">
+                <img src="./img/macos_device.png" alt="macos" class="mac">
+                <img src="./img/chrome_device.png" alt="chrome" class="chrome_ex">
+                <img src="./img/firefox_device.png" alt="firefox" class="firefox_ex">
+                <img src="./img/windows_device.png" alt="windows" class="windows_desktop">
+                <img src="./img/android_device.png" alt="android" class="android_phone">
+                <img src="./img/linux_device.png" alt="linux" class="linux_desktop">
+            </div>
+            <svg class="wave_circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 246 246" enable-background="new 0 0 246 245"><style type="text/css">.st0{fill:#ffffff00;stroke: #fff;stroke-miterlimit: 10;}</style><circle class="st0" cx="123" cy="123" r="123"/></svg>
+        </div>
+        <a href="<%- offerLink %>" class="orange_btn grad"><%- gettext("Get ZenMate VPN") %></a>
+        <h5><%- gettext("30-day money-back guarantee") %></h5>
+    </div>
+</section>
+<script src="<%= asset('/js/devices_selector.js') %>"></script>

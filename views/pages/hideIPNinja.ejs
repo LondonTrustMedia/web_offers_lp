@@ -1,0 +1,38 @@
+
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('/css/pages/hideIPNinja.css') %>">
+</head>
+
+<body>
+<% include ../partials/coupon %>
+    <% include ../navbar/navbar_white %>
+    <% include ../partials/lang_button %>
+    <header>
+
+        <div class="header_text">
+            <img src="/img/Logos_color_black.png" class="logo">
+            <h1><%- gettext('Hide Your IP and an <br><b>Online Ninja you shall be</b>') %></h1>
+            <h2><%- gettext('Let ZenMate turn you invisible on the Internet') %></h2><br>
+
+            <a href="<%- offerLink %>" class="orange_btn"><%- gettext('Get ZenMate VPN') %></a>
+            <% include ../partials/brand.ejs %>
+        </div>
+
+        <div id="disintegration">
+            <img src="/img/hide_ip_ninja_shadow.png">
+        </div>
+
+    </header>
+    <% include ../body/hideIP_body %>
+
+    <% include ../footer/dark %>
+
+    <% include ../partials/tagManager %>
+    
+    <script src="<%= asset('/js/hideIPNinja.js') %>"></script>
+</body>
+
+</html>

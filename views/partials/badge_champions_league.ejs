@@ -1,0 +1,21 @@
+<div id="badge" class="champions_league">
+    <img src="img/champions_league_globe.png" alt="Champions league globe" class="champions_league_globe">
+    <div class="badge_text_container text-center color_white">
+        <h1 class="badge_title"><%- gettext("Real Champions Watch Live Sporting Events with") %></h1>
+        <img src="img/Logos_color.png" alt="Zenmate logo" class="badge_logo">
+        <span> VPN</span>
+        <a href="<%- offerLink %>" class="orange_btn grad"><%- gettext('Unblock Champions League Games') %></a>
+    </div>
+    <img src="img/blue_confetti.png" alt="Confetti" class="badge_confetti">
+    <img src="img/blue_confetti_small.png" alt="Confetti" class="badge_confetti small_img">
+    <img src="img/x_exit.svg" alt="X" class="closeIt">
+</div>
+<script>
+    $(document).ready(function () {
+        $("#badge").children().click(function (e) {
+            if (!$(this).hasClass("closeIt")){
+                window.location.href='<%- offerLink %>&aff_sub5=champions_league_Badge&conversionpoint=champions_league_Badge'
+            } else $("#badge").fadeOut("slow");
+        });
+    });
+</script>

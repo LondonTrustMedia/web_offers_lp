@@ -1,0 +1,19 @@
+
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('/css/pages/404.css') %>">
+</head>
+<body>
+    <% include ../navbar/navbar_white %>
+    <div class="body_container">
+        <img src="/img/experiment_404.png" class="img_404"/>
+        <h1><%- gettext('Oops! that experiment didn\'t work...') %></h1>
+        <div>
+            <a href="<%- offerLink %>" target="_self" class="blue_btn"><%- gettext('Go Home') %></a>
+        </div>
+    </div>
+</body>
+
+</html>

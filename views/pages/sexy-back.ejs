@@ -1,0 +1,171 @@
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('/css/pages/sexy-back.css') %>">
+</head>
+
+<body>
+<% include ../partials/coupon %>
+    <% include ../partials/lang_button %>
+    <header>
+        <div class="screen_contianer flex-section">
+            <div class="street_light">
+                <img src="/img/redlight.png">
+            </div>
+            <div class="text_container">
+                <img src="/img/Logos_color.png" class="logo">
+                <h1><%- gettext('We’re bringing <br>se<b class="red_x">XXX</b>y back') %></h1>
+                <div class="subtitle"><%- gettext('Bypass all porn restrictions with ZenMate VPN') %></div>
+                <a href="<%- offerLink %>" class="blue_btn"><%- gettext('Unblock porn') %></a>
+                <div class="devices">
+                    <img src="/img/Windows_icon_w.png">
+                    <img src="/img/Mac_icon_w.png">
+                    <img src="/img/Android_icon_w.png">
+                    <img src="/img/iOS_icon_w.png">
+                    <img src="/img/Chrome_icon_w.png">
+                    <img src="/img/Firefox_icon_w.png">
+                    <img src="/img/Opera_icon_w.png">
+                    <img src="/img/openvpn_icon_w.png">
+                </div>
+                <% include ../partials/brand.ejs %>
+            </div>
+
+            <div class="img_container">
+                <img src="/img/lips_top.png">
+            </div>
+        </div>
+    </header>
+
+    <div class="bar">
+        <div>
+            <img src="/img/buffer_free__icon.png">
+            <h3><%- gettext('Buffer-free streaming') %></h3>
+        </div>
+
+        <div>
+            <img src="/img/flawless_icon.png">
+            <h3><%- gettext('Flawless performance') %></h3>
+        </div>
+
+        <div>
+            <img src="/img/satisfaction_icon.png">
+            <h3><%- gettext('Satisfaction guaranteed (wink-wink)') %></h3>
+        </div>
+    </div>
+
+    <section class="screen_contianer" id="steps">
+        <h1 class="red-font"><%- gettext('Easy 1-minute setup') %></h1>
+        <p class="subtitle"><%- gettext('Lift the veil of porn censorship in 3 quick steps') %></p>
+
+        <div class="steps_flex">
+            <div class="step">
+                <p><%- gettext('Subscribe to ZenMate VPN') %></p>
+            </div>
+
+            <div class="step">
+                <p><%- gettext('Download ZenMate VPN') %></p>
+            </div>
+
+            <div class="step">
+                <p><%- gettext('Start up ZenMate and enjoy adult content as you wish') %></p>
+            </div>
+        </div>
+
+        <a href="<%- offerLink %>" class="blue_btn"><%- gettext('Unblock porn') %></a>
+        <div class="sub_btn"><%- gettext('30-day money-back guarantee') %></div>
+    </section>
+
+    <section id="users">
+        <div class="screen_contianer">
+            <div class="text_container">
+                <h2><%- gettext('ZenMate is always one step a Head') %></h2>
+                <h1 class="big_text red-font"><%- format(gettext('Our %s users'),["+45M"]) %></h1>
+                <div class="subtitle"><%- gettext('demand the highest standards') %></div>
+            </div>
+        </div>
+        <img src="/img/sperm.png" class="sperms">
+    </section>
+
+    <section id="benefits" class="screen_contianer">
+        <div class="flex-section desktop">
+            <img src="/img/benfits_shape.png" class="red_square">
+
+            <div>
+                <h1 class="title_white"><%- gettext('BENEFITS') %></h1>
+                <a href="<%- offerLink %>" class="blue_btn"><%- gettext('Unblock adult content') %></a>
+            </div>
+
+            <div class="benefit">
+                <img src="/img/streaming_experience_icon.png">
+                <h4 class="red-font"><%- gettext('5-star streaming experience') %></h4>
+                <p><%- gettext('Tired of buffering or long loading times? We know how it is. That’s why our servers are designed with speed in mind, so we can help our users avoid such frustration.') %></p>
+            </div>
+
+            <div class="benefit">
+                <img src="/img/one-click connect_Icon.png">
+                <h4 class="red-font"><%- gettext('One-click connect') %></h4>
+                <p><%- gettext('One click of your mouse grants you unrestricted access to all the adult content you’re now missing out on.') %></p>
+            </div>
+
+            <div class="benefit">
+                <img src="/img/fivesome_icon.png">
+                <h4 class="red-font"><%- gettext('Simultaneous fivesome protection') %></h4>
+                <p><%- gettext('ZenMate VPN will let you lift the veil of online porn restrictions on up to 5 different devices of your choosing.') %></p>
+            </div>
+        </div>
+
+
+        <div class="screen_contianer flex-section mobile">
+
+            <div class="benefit">
+                <img src="/img/streaming_experience_icon.png">
+                <h4 class="red-font"><%- gettext('5-star streaming experience') %></h4>
+                <p><%- gettext('Tired of buffering or long loading times? We know how it is. That’s why our servers are designed with speed in mind, so we can help our users avoid such frustration.') %></p>
+            </div>
+
+            <hr class="benefit_line">
+
+            <div class="benefit">
+                <h4 class="red-font"><%- gettext('One-click connect') %></h4>   
+                <p><%- gettext('One click of your mouse grants you unrestricted access to all the adult content you’re now missing out on.') %></p>
+                <img src="/img/one-click connect_Icon.png">
+            </div>
+
+            <hr class="benefit_line">
+
+            <div class="benefit">
+                <img src="/img/fivesome_icon.png">
+                <h4 class="red-font"><%- gettext('Simultaneous fivesome protection') %></h4>
+                <p><%- gettext('ZenMate VPN will let you lift the veil of online porn restrictions on up to 5 different devices of your choosing.') %></p>
+            </div>
+
+            <a href="<%- offerLink %>" class="blue_btn"><%- gettext('Unblock adult content') %></a>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="screen_contianer flex-section">
+            <div class="text_container">
+                <h2 class="red-font"><%- gettext("You’re Covered By our 30-Day<br>Money-Back Guarantee") %></h1>
+                <p>
+                <%- gettext("We’re so confident you’ll love<img src='./img/Logos_color.png' alt='Zenmate logo' class='zm_logo'>, we’re willing to take all the risk here. After you get ZenMate VPN, you have 30 full days to decide if it’s right for you.") %>
+                </p>
+            </div>
+            <div class="right_side">
+                <img src="/img/pricing_fire.png" class="fire">
+                <div class="cube">
+                    <h4><%- gettext('Take advantage of an') %></h4>
+                    <h3 class="red-font"><%- format(gettext('%s% discount now!'),[prices.find(price => price.best)[currency].discount])%></h3>
+                    <div class="price"><%- prices.find(price => price.best)[currency].perMonthFull %></div>
+                    <div class="month"><%- gettext('/month') %></div>
+                    <a href="<%- offerLink %>" class="blue_btn"><%- gettext('Get ZenMate VPN') %></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <% include ../partials/tagManager %>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<div id="cookie-disclaimer">
+    <div>
+        <span><%- gettext('This website uses cookies.') %></span><a class="ok"><%- gettext('Ok, I got it') %></a><a class="find" target="_blank" href="https://zenmate.com/cookies/"><%- gettext('Find out more') %></a>
+    </div>
+</div>
+
+<script>
+
+    var cookie = getCookie('agreed_on_cookies')
+
+    if (!cookie) {
+        $('#cookie-disclaimer').addClass('shown')
+
+        var expireDate = new Date();
+        expireDate.setTime(expireDate.getTime() + (365 * 24 * 60 * 60 * 1000));
+
+        $('#cookie-disclaimer a.ok').click(function(){
+            var cookieText = "agreed_on_cookies=yes; expires=" + expireDate.toGMTString() + "; path=/; <%- (offerType !== 'CPP' && offerType !== 'LOCAL' ? 'domain=.zenmate.com;' : '') %>";
+            $('#cookie-disclaimer').removeClass('shown')
+            document.cookie = cookieText;
+        })
+    }
+    
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+</script>

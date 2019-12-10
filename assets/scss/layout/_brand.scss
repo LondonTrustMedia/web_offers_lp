@@ -1,0 +1,13 @@
+div#brand {
+    display: inline-block;
+    font-size: 1em;
+    & img {
+        max-width: 200px;
+        max-height: 45px;
+        display: inline-block;
+    }
+    & span {
+        margin-right: 10px;
+    }
+}
+

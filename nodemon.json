@@ -1,0 +1,22 @@
+{
+    "restartable": "rs",
+    "ignore": [
+      "*.log",
+      "i18n/",
+      "local/",
+      "app/json/"
+    ],
+    "verbose": false,
+    "events": {
+      "restart": "osascript -e 'display notification \"App restarted due to:\n'$FILENAME'\" with title \"nodemon\"'"
+    },
+    "stdout": true,
+    "env": {
+      "NODE_ENV": "development",
+      "MYSQL_PRIVATELAND_URL": "intego-database.cvpcyexkw0cu.eu-west-1.rds.amazonaws.com",
+      "MYSQL_PRIVATELAND_USER": "nitaystaging",
+      "MYSQL_PRIVATELAND_PASSWORD": "91tPGyNsCaum",
+      "MYSQL_PRIVATELAND_DB": "privateland_production"
+    },
+    "ext": "js,json"
+  }

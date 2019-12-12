@@ -12,19 +12,20 @@ $nero: #232323;
 $grey: #858585;
 $mantis: #84BF47;
 
-$zenmate-blue: #008ace;
-$zenmate-orange: #ff6e19;
+$pia-green: #5EB258;
+$pia-orange: #f77422;
+$pia-yellow: #f9bc4f;
 
-$dark-zenmate-blue: darken($zenmate-blue, 10%);
-$dark-zenmate-orange: darken($zenmate-orange, 10%);
+$dark-pia-green: darken($pia-green, 10%);
+$lignt-pia-green: lighten($pia-green, 10%);
 
 $color-text: $black;
 
 // Font stacks
 
 $stack-arial:  Arial, sans-serif;
-$stack-lato: "Lato", Helvetica, $stack-arial;
-$stack-helvetica: Helvetica, Calibri, $stack-arial;
+$stack-helvetica: Helvetica, $stack-arial;
+$stack-roboto: Roboto, $stack-helvetica;
 
 // Media query breakpoints
 
@@ -33,3 +34,10 @@ $brk-min-desktop-width  : 991px;
 $brk-ipad-width         : 768px;
 $brk-mobile-width       : 420px;
 $brk-min-mobile-width   : 320px;
+
+// Media
+$media-min-desktop-width    : "@media screen and (max-width: 1200px)";
+$media-min-desktop-width    : "@media screen and (max-width: 991px)";
+$media-ipad-width           : "@media screen and (max-width: 768px)";
+$media-min-mobile-width     : "@media screen and (max-width: 420px)";
+$media-min-mobile-width     : "@media screen and (max-width: 320px)";

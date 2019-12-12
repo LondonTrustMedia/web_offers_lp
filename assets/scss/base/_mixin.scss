@@ -54,6 +54,24 @@
     background-size: $bg-size;
 }
 
+//   Background linear-gradient
+@mixin linear-gradient($angle:to bottom, $gradient1, $gradient2) {
+    background-color: $gradient2;
+    /* Fallback Color */
+    background-image: -webkit-gradient(linear, $angle, from($gradient1), to($gradient2));
+    /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient($angle, $gradient1, $gradient2);
+    /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image: -moz-linear-gradient($angle, $gradient1, $gradient2);
+    /* FF3.6 */
+    background-image: -ms-linear-gradient($angle, $gradient1, $gradient2);
+    /* IE10 */
+    background-image: -o-linear-gradient($angle, $gradient1, $gradient2);
+    /* Opera 11.10+ */
+    background-image: linear-gradient($angle, $gradient1, $gradient2);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle, StartColorStr='#{$gradient1}', EndColorStr='#{$gradient2}');
+}
+
 // center
 @mixin center-object($width) {
     width: $width;
@@ -98,120 +116,88 @@
     }
 }
 
-//   Background linear-gradient
-@mixin linear-gradient($angle:to bottom, $gradient1, $gradient2) {
-    background-color: $gradient2;
-    /* Fallback Color */
-    background-image: -webkit-gradient(linear, $angle, from($gradient1), to($gradient2));
-    /* Saf4+, Chrome */
-    background-image: -webkit-linear-gradient($angle, $gradient1, $gradient2);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: -moz-linear-gradient($angle, $gradient1, $gradient2);
-    /* FF3.6 */
-    background-image: -ms-linear-gradient($angle, $gradient1, $gradient2);
-    /* IE10 */
-    background-image: -o-linear-gradient($angle, $gradient1, $gradient2);
-    /* Opera 11.10+ */
-    background-image: linear-gradient($angle, $gradient1, $gradient2);
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle, StartColorStr='#{$gradient1}', EndColorStr='#{$gradient2}');
-}
+// ======================================
+//  btns
+// ======================================
 
-// btn color class
-@mixin btn($color) {
-    @if $color==$zenmate-orange {
-        .orange_btn {
-            background-color: $zenmate-orange;
-            @content;
-
-            &:hover,
-            &:active {
-                background-color: $dark-zenmate-orange;
-                color: $white;
-            }
-            &.grad {
-                @include linear-gradient(to right, $zenmate-orange, lighten($zenmate-orange, 10%)); 
-                &:hover,
-                &:active {
-                    @include linear-gradient(to right, $dark-zenmate-orange, lighten($dark-zenmate-orange, 10%));
-                    color: $white;
-                }
-            }
-        }
-    }
-
-    @else if $color==$zenmate-blue {
-        .blue_btn {
-            background-color: $zenmate-blue;
-            @content;
-
-            &:hover,
-            &:active {
-                background-color: $dark-zenmate-blue;
-                color: $white;
-            }
-            &.grad {
-                @include linear-gradient(to right, $zenmate-blue, lighten($zenmate-blue, 10%));
-                &:hover,
-                &:active {
-                    @include linear-gradient(to right, $dark-zenmate-blue, lighten($dark-zenmate-blue, 10%));
-                    color: $white;
-                }
-            }
-        }
-    }
-
-    @else {
-        .#{$color}_btn {
-            background-color: $color;
-            @content;
-
-            &:hover,
-            &:active {
-                background-color: darken($color, 10%);
-                color: $white;
-            }
-            &.grad {
-                @include linear-gradient(to right, $color, lighten($color, 10%));
-                &:hover,
-                &:active {
-                    @include linear-gradient(to right, darken($color, 10%), $color);
-                    color: $white;
-                }
-            }
-        }
-    }
-}
-
-// Mozilla Firefox only
-@mixin firefox-only {
-    @at-root {
-      @-moz-document url-prefix() {
-        & {
-          @content;
-        }
-      }
-    }
-  }
-
-// Internet Explorer only
-  @mixin ie-only {
-      @at-root {
-          @media all and (-ms-high-contrast: none),
-          (-ms-high-contrast: active) {
-              & {
-                  @content;
-              }
-          }
-      }
-  }
-
- // Safari only 
-  @mixin safari-only(){
-    @at-root {
-        @supports (overflow:-webkit-marquee) and (justify-content:inherit){
-            & {
+    // btn color class
+    @mixin btn($color) {
+        @if $color==$pia-orange {
+            .orange_btn {
+                background-color: $pia-orange;
                 @content;
+
+                &:hover,
+                &:active {
+                    background-color: darken($pia-orange, 10%);
+                    color: $white;
+                }
+                &.grad {
+                    @include linear-gradient($pia-orange, lighten($pia-orange, 10%)); 
+                    &:hover,
+                    &:active {
+                        @include linear-gradient(darken($pia-orange, 10%), $pia-orang);
+                        color: $white;
+                    }
+                }
+            }
+        }
+        @else {
+            .#{$color}_btn {
+                background-color: $color;
+                @content;
+
+                &:hover,
+                &:active {
+                    background-color: darken($color, 10%);
+                    color: $white;
+                }
+                &.grad {
+                    @include linear-gradient(to right, $color, lighten($color, 10%));
+                    &:hover,
+                    &:active {
+                        @include linear-gradient(to right, darken($color, 10%), $color);
+                        color: $white;
+                    }
+                }
             }
         }
     }
-  }
+
+// ======================================
+//  prifixs
+// ======================================
+
+    // Mozilla Firefox only
+    @mixin firefox-only {
+        @at-root {
+        @-moz-document url-prefix() {
+            & {
+            @content;
+            }
+        }
+        }
+    }
+
+    // Internet Explorer only
+    @mixin ie-only {
+        @at-root {
+            @media all and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                & {
+                    @content;
+                }
+            }
+        }
+    }
+
+    // Safari only 
+    @mixin safari-only(){
+        @at-root {
+            @supports (overflow:-webkit-marquee) and (justify-content:inherit){
+                & {
+                    @content;
+                }
+            }
+        }
+    }

@@ -25,14 +25,10 @@
 
 // btns
     // .orange_btn
-    @include btn($zenmate-orange) {
+    @include btn($pia-orange) {
         @extend %btn;
     }
 
-    // .blue_btn
-    @include btn($zenmate-blue) {
-        @extend %btn;
-    }
 
 // btn addons
     .shadow_btn {

@@ -1,47 +1,4 @@
 @import 'index';
 
 @import '../layout/navbar_white';
-
-body {
-    font-family: "Lato", "Helvetica";
-    overflow-x: hidden;
-  }
-  
-  .body_container {
-      width: 100vw;
-      height: calc(100vh - 70px);
-      overflow: hidden;
-      min-height: 700px;
-      text-align: center;
-      padding: 5% 5%;
-  }
-  #navbar-main {
-      background-color: #fff !important;
-      position: relative!important;
-  }
-  #navbar-main .nav_container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-  }
-  .img_404 {
-      width: 20vw;
-      margin: 0 auto;
-      max-width: 300px;
-      min-width: 250px;
-  }
-  .body_container h1 {
-      margin-bottom: 20px;
-  }
-  @media screen and (max-width: 768px) {
-      .body_container {
-          min-height: 600px;
-      }
-  }
-  @media screen and (max-width: 420px) {
-      .body_container h1 {
-          font-size: 27px;
-      }
-  
-  }
   

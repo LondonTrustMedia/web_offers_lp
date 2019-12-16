@@ -133,10 +133,10 @@
                     color: $white;
                 }
                 &.grad {
-                    @include linear-gradient($pia-orange, lighten($pia-orange, 10%)); 
+                    @include linear-gradient(to bottom,$pia-orange, lighten($pia-orange, 10%)); 
                     &:hover,
                     &:active {
-                        @include linear-gradient(darken($pia-orange, 10%), $pia-orang);
+                        @include linear-gradient(to bottom,darken($pia-orange, 10%), $pia-orange);
                         color: $white;
                     }
                 }

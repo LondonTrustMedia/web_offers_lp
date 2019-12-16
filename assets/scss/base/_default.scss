@@ -54,7 +54,7 @@ a {
 // font color
 
 .color_pia_orange {
-    color: $pia-orange;
+    color: $pia-orange; 
 }
 .color_pia_green {
     color: $pia-green;
@@ -65,13 +65,15 @@ a {
 .color_white {
     color: $white;
 }
-.flex_container {
+
+// flex containers
+.flex_container_column {
     @include flexy($just: center); 
     @media screen and (max-width: $brk-ipad-width ) {
         flex-direction: column;
     } 
 }
-
+// section
 section {
     padding: 50px 0;
 }

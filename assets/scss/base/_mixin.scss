@@ -23,16 +23,6 @@
     color: $color;
 }
 
-// Create a flex container
-@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $align-i: null, $align-c: null) {
-    display: $disp;
-    flex-direction: $dir;
-    flex-wrap: $wrap;
-    justify-content: $just;
-    align-items: $align-i;
-    align-content: $align-c;
-}
-
 //   cube box 
 @mixin cube-box($width) {
     height: $width;
@@ -114,6 +104,40 @@
     @keyframes #{$name} {
         @content;
     }
+}
+
+// Create a flex container
+@mixin flexbox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+@mixin inline-flex {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+
+@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $align-i: null, $align-c: null) {
+    @if $disp == flex {
+        @include flexbox();
+    } 
+    @else if $disp == inline-flex {
+        @include inline-flex();
+    }
+    @else {
+        display: $disp
+    }
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+    justify-content: $just;
+    align-items: $align-i;
+    align-content: $align-c;
 }
 
 // ======================================

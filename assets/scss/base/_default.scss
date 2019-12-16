@@ -65,3 +65,13 @@ a {
 .color_white {
     color: $white;
 }
+.flex_container {
+    @include flexy($just: center); 
+    @media screen and (max-width: $brk-ipad-width ) {
+        flex-direction: column;
+    } 
+}
+
+section {
+    padding: 50px 0;
+}

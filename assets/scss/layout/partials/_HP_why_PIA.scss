@@ -2,21 +2,15 @@
     width: 100%;
     border-top: 1px solid #ececec;
     border-bottom: 1px solid #ececec;
-    & h3 {
-        font-size: 23px;
-        color: #444;
-        padding: 20px 0 40px;
-        font-weight: 400;
-    }
     & h4 {
         padding: 10px 23px 20px;
-        color: #333;
+        color: lighten($black, 20%);
         font-size: 20px;
         font-weight: 500;
         line-height: 28px;
     }
     & p {
-        color: #999;
+        color: lighten($black, 60%);
         font-size: 15px;
         line-height: 26px;
         font-weight: 400;

@@ -1,17 +1,11 @@
 #vpn_features {
     width: 100%;
-    & h3 {
-        font-size: 23px;
-        color: #444;
-        padding: 20px 0 40px;
-        font-weight: 400;
-    }
     & .feature {
         width: 160px;
         flex-shrink: 0;
-        margin-bottom: 40px;
+        margin: 0 10px 40px;
         @media screen and (max-width: $brk-mobile-width)  {
-            width: 140px;
+            width: 120px;
         }
     }
     & img {
@@ -20,7 +14,7 @@
     & p {
         font-size: 14px;
         margin-bottom: 5px;
-        color: #666;
+        color: lighten($black, 40%);
         font-weight: 400;
         line-height: 1.4;
     }

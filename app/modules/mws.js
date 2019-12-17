@@ -287,33 +287,106 @@ module.exports = (app) => {
                 "Vatican City",
             ]
 
-            if (req.userLocation.cn === "United Kingdom" && isCurrencyExists(req.prices, "GBP"))
-                req.currency = "GBP"
-            else if (req.userLocation.cn === "Turkey" && isCurrencyExists(req.prices, "TRY"))
-                req.currency = "TRY"
-            else if ((req.userLocation.cn === "Russia" || req.userLocation.cn === "Ukraine") && isCurrencyExists(req.prices, "RUB"))
-                req.currency = "RUB"
-            else if (req.userLocation.cn === "Republic of Korea" && isCurrencyExists(req.prices, "KRW"))
-                req.currency = "KRW"
-            else if (req.userLocation.cn === "Switzerland" && isCurrencyExists(req.prices, "CHF"))
-                req.currency = "CHF"
-            else if (eurCountries.includes(req.userLocation.cn) && isCurrencyExists(req.prices, "EUR"))
-                req.currency = "EUR"
-            else 
-                req.currency = "USD"
-
-            res.locals.currency = req.currency
+            try {
+                if ((req.userLocation.cn === "Russia" || req.userLocation.cn === "Ukraine") && isCurrencyExists(req.price, "RUB"))
+                    res.locals.currency = req.currency = {
+                        iso: "RUB",
+                        symbol: "руб",
+                        text: req.gettext('Russian Rubles')
+            
+                    }
+                else if (req.userLocation.cn === "India" && isCurrencyExists(req.price, "INR"))
+                    res.locals.currency = req.currency = {
+                        iso: "INR",
+                        symbol: "₹",
+                        text: req.gettext('Indian Rupee')
+            
+                    }
+                else if (req.userLocation.cn === "Brazil" && isCurrencyExists(req.price, "BRL"))
+                        res.locals.currency = req.currency = {
+                            iso: "BRL",
+                            symbol: "R$",
+                            text: req.gettext('Brazilian Reals')
+                        }
+                else if (req.userLocation.cn === "United Kingdom" && isCurrencyExists(req.price, "GBP"))
+                    res.locals.currency = req.currency = {
+                        iso: "GBP",
+                        symbol: "£",
+                        text: 'British Pounds Sterling'
+                    }
+                else if (req.userLocation.cn === "Japan" && isCurrencyExists(req.price, "JPY"))
+                    res.locals.currency = req.currency = {
+                        iso: "JPY",
+                        symbol: "¥",
+                        text: req.gettext('Japanese Yen')
+            
+                    }
+                else if (req.userLocation.cn === "Australia" && isCurrencyExists(req.price, "AUD"))
+                        res.locals.currency = req.currency = {
+                            iso: "AUD",
+                            symbol: "AU$",
+                            text: req.gettext('Australian Dollars')
+                        }
+                else if (req.userLocation.cn === "Switzerland" && isCurrencyExists(req.price, "CHF"))
+                        res.locals.currency = req.currency = {
+                            iso: "CHF",
+                            symbol: "CHF",
+                            text: req.gettext('Swiss Francs')
+                        }
+                else if (eurCountries.includes(req.userLocation.cn))
+                    res.locals.currency = req.currency = {
+                        iso: "EUR",
+                        symbol: "€",
+                        text: req.gettext('Euros')
+                    }
+                else if (usdCountries.includes(req.userLocation.cn))
+                    res.locals.currency = req.currency = {
+                        iso: "USD",
+                        symbol: "$",
+                        text: req.gettext('US Dollars')
+                    }
+                else if (req.lang === 'de' ||
+                    req.lang === 'es' ||
+                    req.lang === 'fr' ||
+                    req.lang === 'it' ||
+                    req.lang === 'pl' ||
+                    req.lang === 'ro' ||
+                    req.lang === 'nl' ||
+                    req.lang === 'ko' )
+                    res.locals.currency = req.currency = {
+                        iso: "EUR",
+                        symbol: "€",
+                        text: req.gettext('Euros')
+                    }
+            
+                else 
+                    res.locals.currency = req.currency = {
+                        iso: "USD",
+                        symbol: "$",
+                        text: req.gettext('US Dollars')
+            
+                    }
+            } catch (e) {
+                console.log(e)
+                res.locals.currency = req.currency = {
+                    iso: "USD",
+                    symbol: "$",
+                    text: req.gettext('US Dollars')
+                }
+            }
             next()
         },
 
         setPrices: (req, res, next) => {
 
-            res.locals.oldPrices = req.oldPrices = prices.original
+            res.locals.oldPrices = req.oldPrices = prices.original.main
+            res.locals.prices = req.prices = prices.coupons.main
 
             if (req.query.coupon && prices.coupons[req.query.coupon])
                 res.locals.prices = req.prices = prices.coupons[req.query.coupon]
-            else
-                res.locals.prices = req.prices = prices.main
+
+            if (req.query.coupon && prices.original[req.query.coupon])
+                res.locals.oldPrices = req.oldPrices = prices.original[req.query.coupon]
         
             next()
         },

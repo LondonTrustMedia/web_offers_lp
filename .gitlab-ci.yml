@@ -1,33 +1,31 @@
 stages:
   - staging
-  - production
-
+  #- production
 build_image_staging:
   stage: staging
   script:
-    - current=$(kubectl describe deployment zenland-staging -n zenland | grep Image | awk '{print $2}' | cut -f 2 -d ':')
+    - current=$(kubectl describe deployment privateland-staging -n privateland | grep Image | awk '{print $2}' | cut -f 2 -d ':')
     - echo $current > versions
     - version=$(perl -pe 's/^((\d+\.)*)(\d+)(.*)$/$1.($3+1).$4/e' < versions)
     - echo $version
     - docker info
     - $(aws ecr get-login --no-include-email --region eu-west-1)
-    - docker build -t zenland:$version .
-    - docker tag zenland:$version 657354073878.dkr.ecr.eu-west-1.amazonaws.com/zenland:$version
-    - docker push 657354073878.dkr.ecr.eu-west-1.amazonaws.com/zenland:$version
-    - kubectl set image deployment.v1.apps/zenland-staging -n zenland zenland-staging=657354073878.dkr.ecr.eu-west-1.amazonaws.com/zenland:$version --record
+    - docker build -t privateland:$version .
+    - docker tag privateland:$version 657354073878.dkr.ecr.eu-west-1.amazonaws.com/privateland:$version
+    - docker push 657354073878.dkr.ecr.eu-west-1.amazonaws.com/privateland:$version
+    - kubectl set image deployment.v1.apps/privateland-staging -n privateland privateland-staging=657354073878.dkr.ecr.eu-west-1.amazonaws.com/privateland:$version --record
   tags:
-    - k8s-zenland
+    - privateland-k8s
   only:
     - staging
-    
-build_image_production:
-    stage: production
-    script:
-    - version=$(kubectl describe deployment zenland-staging -n zenland | grep Image | awk '{print $2}' | cut -f 2 -d ':')
-    - echo $version
-    - echo "Deploying to production"
-    - kubectl set image deployment.v1.apps/zenland -n zenland zenland=657354073878.dkr.ecr.eu-west-1.amazonaws.com/zenland:$version --record
-    tags:
-    - k8s-zenland
-    only:
-    - master
+#build_image_production:
+#    stage: production
+#    script:
+#    - version=$(kubectl describe deployment zenland-staging -n zenland | grep Image | awk '{print $2}' | cut -f 2 -d ':')
+#    - echo $version
+#    - echo "Deploying to production"
+#    - kubectl set image deployment.v1.apps/zenland -n zenland zenland=657354073878.dkr.ecr.eu-west-1.amazonaws.com/zenland:$version --record
+#    tags:
+#    - k8s-zenland
+#    only:
+#    - master

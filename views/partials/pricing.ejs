@@ -8,7 +8,9 @@
 
             <a href="<%- offerLink %>" class="pricing-price">
                 <% if (prices.blocks[0].months === 1) { %>
-                    <h5 class="pricing-duration"><%- gettext('Monthly') %></h5>
+                    <div class="title">
+                        <h5 class="pricing-duration"><%- gettext('Monthly') %></h5>
+                    </div>
                     <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[0].discount]) %></h3>
                     <div class="pricing-bill">
                         <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[0].USD.perMonthNumber %>
@@ -16,7 +18,7 @@
                     </div>
                     <div class="pricing-every">
                         <span class="price-details">
-                                <%- format(gettext('%s(Only %s /month)'), [prices.original.blocks[0].USD, prices.blocks[0].USD.total]) %>
+                                <%- format(gettext('%s(Only %s /month)'), [prices.blocks[0].USD, prices.blocks[0].USD.total]) %>
                         </span>
                     </div>
                     <div class="pricing-get"><%- gettext('Sign up now') %></div>
@@ -25,16 +27,18 @@
 
             <!-- __________________________________Second Block (center) __________________________________ -->
             <a href="<%- offerLink %>" class="pricing-price best-price">
-                 <% if (prices.blocks[1].months === 12) { %>
-                    <h5 class="pricing-duration"><%- gettext('Yearly') %></h5>
-                    <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[bestIndex].discount]) %></h3>
+                <% if (prices.blocks[1].months === 12) { %>
+                    <div class="title">
+                        <h5 class="pricing-duration"><%- gettext('Yearly') %></h5>
+                    </div>
+                    <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[1].discount]) %></h3>
                     <div class="pricing-bill">
-                        <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[bestIndex].USD.perMonthNumber %>
+                        <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[1].USD.perMonthNumber %>
                         <span class="month"><%- gettext('/mo') %></span>
                     </div>
                     <div class="pricing-every">
                         <span class="price-details">
-                                <%- format(gettext('Billed %s every month'), [prices.blocks[bestIndex].USD.total]) %>
+                                <%- format(gettext('Billed %s every month'), [prices.blocks[1].USD.total]) %>
                         </span>
                     </div>
                     <div class="pricing-get"><%- gettext('Sign up now') %></div>
@@ -47,7 +51,9 @@
 
             <a href="<%- offerLink %>" class="pricing-price">
                 <% if (prices.blocks[2].months === 6) { %>
-                    <h5 class="pricing-duration"><%- gettext('6 Months') %></h5>
+                    <div class="title">
+                        <h5 class="pricing-duration"><%- gettext('6 Months') %></h5>
+                    </div>
                     <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[2].discount]) %></h3>
                     <div class="pricing-bill">
                         <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[2].USD.perMonthNumber %>

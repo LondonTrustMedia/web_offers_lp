@@ -4,72 +4,66 @@
         <h1><%- gettext('Limited Time Only! Act Now') %></h1>
         <div class="flex-pricing">
 
-            <!-- __________________________________First Block (left) __________________________________ -->
-
             <a href="<%- offerLink %>" class="pricing-price">
                 <% if (prices.blocks[0].months === 1) { %>
                     <div class="title">
                         <h5 class="pricing-duration"><%- gettext('Monthly') %></h5>
                     </div>
-                    <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[0].discount]) %></h3>
-                    <div class="pricing-bill">
-                        <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[0].USD.perMonthNumber %>
-                        <span class="month"><%- gettext('/mo') %></span>
+                    <div class="pricing_container">
+                        <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[0].discount]) %></h3>
+                        <div class="pricing-bill">
+                            <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[0].USD.perMonthNumber %>
+                            <span class="month"><%- gettext('/mo') %></span>
+                        </div>
+                        <div class="pricing-every">
+                            <%- format(gettext('<span class="text-danger"><del>%s</del></span>(Only %s /month)'), [prices.blocks[0].USD, prices.blocks[0].USD.total]) %>
+                        </div>
+                        <div class="btn_hp_gradient_orange container-fluid"><%- gettext('Sign up now') %></div>
                     </div>
-                    <div class="pricing-every">
-                        <span class="price-details">
-                                <%- format(gettext('%s(Only %s /month)'), [prices.blocks[0].USD, prices.blocks[0].USD.total]) %>
-                        </span>
-                    </div>
-                    <div class="pricing-get"><%- gettext('Sign up now') %></div>
                 <% } %>
             </a>
 
-            <!-- __________________________________Second Block (center) __________________________________ -->
-            <a href="<%- offerLink %>" class="pricing-price best-price">
+            <a href="<%- offerLink %>" class="pricing-price best-price" data-text="<%- gettext('BEST VALUE') %>">
                 <% if (prices.blocks[1].months === 12) { %>
                     <div class="title">
                         <h5 class="pricing-duration"><%- gettext('Yearly') %></h5>
                     </div>
-                    <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[1].discount]) %></h3>
-                    <div class="pricing-bill">
-                        <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[1].USD.perMonthNumber %>
-                        <span class="month"><%- gettext('/mo') %></span>
+                    <div class="pricing_container">
+                        <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[1].discount]) %></h3>
+                        <div class="pricing-bill">
+                            <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[1].USD.perMonthNumber %>
+                            <span class="month"><%- gettext('/mo') %></span>
+                        </div>
+                        <div class="pricing-every">
+                            <%- format(gettext('<span class="text-danger"><del>%s</del></span>(Only %s /month)'), [prices.blocks[1].USD, prices.blocks[1].USD.total]) %>
+                        </div>
+                        <div class="btn_hp_gradient_orange container-fluid"><%- gettext('Sign up now') %></div>
                     </div>
-                    <div class="pricing-every">
-                        <span class="price-details">
-                                <%- format(gettext('Billed %s every month'), [prices.blocks[1].USD.total]) %>
-                        </span>
-                    </div>
-                    <div class="pricing-get"><%- gettext('Sign up now') %></div>
                 <% } %>
                 <% if (event && event.coupon) { %>
                     <img src="img/<%- event.name %>_bestprices.png" alt="<%- event.name %>" class="bestprice_img" onerror="this.style.display='none'">
                 <% } %>
             </a>
-            <!-- __________________________________Last Block (right) __________________________________ -->
-
+           
             <a href="<%- offerLink %>" class="pricing-price">
                 <% if (prices.blocks[2].months === 6) { %>
                     <div class="title">
                         <h5 class="pricing-duration"><%- gettext('6 Months') %></h5>
                     </div>
+                    <div class="pricing_container">
                     <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[2].discount]) %></h3>
-                    <div class="pricing-bill">
-                        <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[2].USD.perMonthNumber %>
-                        <span class="month"><%- gettext('/mo') %></span>
+                        <div class="pricing-bill">
+                            <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[2].USD.perMonthNumber %>
+                            <span class="month"><%- gettext('/mo') %></span>
+                        </div>
+                        <div class="pricing-every">
+                            <%- format(gettext('<span class="text-danger"><del>%s</del></span>(Only %s /month)'), [prices.blocks[2].USD, prices.blocks[2].USD.total]) %>
+                        </div>
+                        <div class="btn_hp_gradient_orange container-fluid"><%- gettext('Sign up now') %></div>
                     </div>
-                    <div class="pricing-every">
-                        <span class="price-details">
-                                <%- format(gettext('Billed %s every month'), [prices.blocks[2].USD.total]) %>
-                        </span>
-                    </div>
-                    <div class="pricing-get"><%- gettext('Sign up now') %></div>
                 <% } %>
             </a>
         </div>
-        <div class="cg-padd-vert-xs text-center">
-            <span class="currency-name">*<%- format(gettext('All amounts shown are in %s'), [currency.text]) %></span>
-        </div>
+        <div class="currency-alert">*<%- format(gettext('All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month'), [currency.symbol, prices.blocks[0].USD.perMonthNumber]) %></div>
     </div>
 </section>

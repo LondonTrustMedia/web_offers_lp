@@ -43,8 +43,13 @@
             height: 40px;
             margin: 15px 0;
     
-            @media screen and (max-width: $brk-ipad-width ) {
+            @media screen and (max-width: $brk-ipad-width) {
                 height: 35px;
+                margin: 17.5px 0;
+            } 
+            @media screen and (max-width: $brk-mobile-width) {
+                height: 20px;
+                margin: 25px 0;
             } 
         }
     }

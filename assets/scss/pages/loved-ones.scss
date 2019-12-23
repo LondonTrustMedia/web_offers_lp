@@ -1,18 +1,12 @@
 @import 'index';
 
 @import '../layout/navbar/navbar_white';
-@import '../layout/partials/HP_why_PIA';
-@import '../layout/partials/trusted_companies';
-@import '../layout/partials/vpn_features';
-@import '../layout/partials/pricing';
-@import '../layout/partials/servers';
-@import '../layout/partials/pcmag_bar';
-@import '../layout/partials/intro_video';
-@import '../layout/partials/lifehacker_bar';
-@import '../layout/partials/platforms_and_payment';
-@import '../layout/partials/why_us';
-@import '../layout/partials/sponsors';
-@import '../layout/partials/trustpilot/singal_review';
+
+@import '../layout/body/hp';
+
+@import '../layout/footer/people_discount';
+
+@import '../layout/partials/header_builder';
 
 header {
      width: 100%;

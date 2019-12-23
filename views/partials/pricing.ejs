@@ -16,7 +16,7 @@
                             <span class="month"><%- gettext('/mo') %></span>
                         </div>
                         <div class="pricing-every">
-                            <%- format(gettext('<span class="text-danger"><del>%s</del></span>(Only %s /month)'), [prices.blocks[0].USD, prices.blocks[0].USD.total]) %>
+                            <%- format(gettext('<span class="text-danger font-weight-bold"><del>%s</del></span> %s month'), [oldPrices.blocks[0].USD, prices.blocks[0].USD.total]) %>
                         </div>
                         <div class="btn_hp_gradient_orange container-fluid"><%- gettext('Sign up now') %></div>
                     </div>
@@ -35,7 +35,7 @@
                             <span class="month"><%- gettext('/mo') %></span>
                         </div>
                         <div class="pricing-every">
-                            <%- format(gettext('<span class="text-danger"><del>%s</del></span>(Only %s /month)'), [prices.blocks[1].USD, prices.blocks[1].USD.total]) %>
+                            <%- format(gettext('<span class="text-danger font-weight-bold"><del>%s</del></span> %s per year'), [oldPrices.blocks[1].USD, prices.blocks[1].USD.total]) %>
                         </div>
                         <div class="btn_hp_gradient_orange container-fluid"><%- gettext('Sign up now') %></div>
                     </div>
@@ -57,7 +57,7 @@
                             <span class="month"><%- gettext('/mo') %></span>
                         </div>
                         <div class="pricing-every">
-                            <%- format(gettext('<span class="text-danger"><del>%s</del></span>(Only %s /month)'), [prices.blocks[2].USD, prices.blocks[2].USD.total]) %>
+                            <%- format(gettext('<span class="text-danger font-weight-bold"><del>%s</del></span> %s per six months'), [oldPrices.blocks[2].USD, prices.blocks[2].USD.total]) %>
                         </div>
                         <div class="btn_hp_gradient_orange container-fluid"><%- gettext('Sign up now') %></div>
                     </div>

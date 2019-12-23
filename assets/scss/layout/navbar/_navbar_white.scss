@@ -2,6 +2,7 @@
     @extend %nav-bar;
     color: $night-Rider;
     background-color: $white;
+    padding: 0;
 
     & a {
         display: inline-block;
@@ -44,8 +45,8 @@
             margin: 15px 0;
     
             @media screen and (max-width: $brk-ipad-width) {
-                height: 35px;
-                margin: 17.5px 0;
+                height: 25px;
+                margin: 22.5px 0;
             } 
             @media screen and (max-width: $brk-mobile-width) {
                 height: 20px;

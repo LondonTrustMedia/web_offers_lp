@@ -1,0 +1,75 @@
+#singal_review {
+    background-image: url(/img/trustpilot_people.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    & .container {
+        &>div {
+            background-color: $white;
+            border-radius: 6px;
+            padding: 40px 75px;
+
+            @media screen and (max-width: $brk-min-desktop-width) {
+                padding: 40px 20px;
+            }
+
+            @media screen and (max-width: $brk-ipad-width) {
+                padding: 30px 5px;
+            }
+        }
+    }
+
+    & p {
+        margin: 0;
+
+        &:nth-of-type(1) {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        &:nth-of-type(2) {
+            font-size: 14px;
+            line-height: 28px;
+            font-weight: 300;
+            color: #777;
+        }
+    }
+
+    & .quote {
+        width: 40px;
+    }
+
+    & .review_img {
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            background-color: #ccc;
+            width: 1px;
+            right: 60px;
+
+            @media screen and (max-width: $brk-min-desktop-width) {
+                right: 20px;
+            }
+
+            @media screen and (max-width: $brk-ipad-width) {
+                left: 0;
+                top: unset;
+                bottom: 0;
+                width: 100%;
+                height: 1px;
+                right: 0;
+                background-color: #f0f0f0;
+            }
+        }
+
+        & img {
+            margin: 20px 0;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('/css/loved-ones.css') %>">
+</head>
+
+    <body>
+        <% include ../navbar/navbar_white %>
+         <%- include('../partials/header_price', {bg: 'header_bg_people2.png', 
+                                                title: gettext('Get the full family<br>protection package')}) %>
+        <% include ../body/hp %>
+        <% include ../partials/footers/people_discount %>
+    </body>
+
+</html>

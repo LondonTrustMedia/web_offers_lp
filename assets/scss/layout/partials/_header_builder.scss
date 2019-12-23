@@ -1,0 +1,49 @@
+header {
+    background-size: auto 100%;
+    background-position: center left calc(50% - -25px);
+    background-repeat: no-repeat;
+    @media screen and (max-width: $brk-ipad-width) {
+        background-position: center left calc(35% - -25px);
+    }
+    & h6 {
+        font-size: .8rem;
+    }
+    & h1 {
+        @media screen and (max-width: $brk-ipad-width) {
+            font-size: 2rem;
+        }
+    }
+    & h2 {
+        @media screen and (max-width: $brk-ipad-width) {
+            font-size: 1.8rem;
+        }
+    }
+    & img {
+        height: 45px;
+        @media screen and (max-width: $brk-ipad-width) {
+            height: 30px;
+        }
+    }
+    & p {
+        font-size: 1.2em;
+    }
+    & .price {
+        font-size: 4em;
+        font-weight: 600;
+        line-height: 1;
+        & span.mo {
+            line-height: 1;
+            font-size: .7em;
+            margin-left: -.3em;
+        }
+    }
+    & .btn_hp_gradient_orange {
+        min-width: 300px;
+        @media screen and (max-width: $brk-mobile-width) {
+            min-width: 100%;
+        }
+    }
+}
+#navbar-main ~ header {
+    margin-top: 70px;
+}

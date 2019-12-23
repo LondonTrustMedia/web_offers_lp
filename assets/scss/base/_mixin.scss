@@ -23,16 +23,6 @@
     color: $color;
 }
 
-// Create a flex container
-@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $align-i: null, $align-c: null) {
-    display: $disp;
-    flex-direction: $dir;
-    flex-wrap: $wrap;
-    justify-content: $just;
-    align-items: $align-i;
-    align-content: $align-c;
-}
-
 //   cube box 
 @mixin cube-box($width) {
     height: $width;
@@ -52,6 +42,24 @@
     background-position: $bg-pos;
     background-repeat: $bg-re;
     background-size: $bg-size;
+}
+
+//   Background linear-gradient
+@mixin linear-gradient($angle:to bottom, $gradient1, $gradient2) {
+    background-color: $gradient2;
+    /* Fallback Color */
+    background-image: -webkit-gradient(linear, $angle, from($gradient1), to($gradient2));
+    /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient($angle, $gradient1, $gradient2);
+    /* Chrome 10+, Saf5.1+, iOS 5+ */
+    background-image: -moz-linear-gradient($angle, $gradient1, $gradient2);
+    /* FF3.6 */
+    background-image: -ms-linear-gradient($angle, $gradient1, $gradient2);
+    /* IE10 */
+    background-image: -o-linear-gradient($angle, $gradient1, $gradient2);
+    /* Opera 11.10+ */
+    background-image: linear-gradient($angle, $gradient1, $gradient2);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle, StartColorStr='#{$gradient1}', EndColorStr='#{$gradient2}');
 }
 
 // center
@@ -98,120 +106,122 @@
     }
 }
 
-//   Background linear-gradient
-@mixin linear-gradient($angle:to bottom, $gradient1, $gradient2) {
-    background-color: $gradient2;
-    /* Fallback Color */
-    background-image: -webkit-gradient(linear, $angle, from($gradient1), to($gradient2));
-    /* Saf4+, Chrome */
-    background-image: -webkit-linear-gradient($angle, $gradient1, $gradient2);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: -moz-linear-gradient($angle, $gradient1, $gradient2);
-    /* FF3.6 */
-    background-image: -ms-linear-gradient($angle, $gradient1, $gradient2);
-    /* IE10 */
-    background-image: -o-linear-gradient($angle, $gradient1, $gradient2);
-    /* Opera 11.10+ */
-    background-image: linear-gradient($angle, $gradient1, $gradient2);
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=$angle, StartColorStr='#{$gradient1}', EndColorStr='#{$gradient2}');
+// Create a flex container
+@mixin flexbox {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: flex;
 }
 
-// btn color class
-@mixin btn($color) {
-    @if $color==$zenmate-orange {
-        .orange_btn {
-            background-color: $zenmate-orange;
-            @content;
+@mixin inline-flex {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
 
-            &:hover,
-            &:active {
-                background-color: $dark-zenmate-orange;
-                color: $white;
-            }
-            &.grad {
-                @include linear-gradient(to right, $zenmate-orange, lighten($zenmate-orange, 10%)); 
-                &:hover,
-                &:active {
-                    @include linear-gradient(to right, $dark-zenmate-orange, lighten($dark-zenmate-orange, 10%));
-                    color: $white;
-                }
-            }
-        }
+@mixin flexy($disp: flex, $dir: null, $wrap: null, $just: null, $align-i: null, $align-c: null) {
+    @if $disp == flex {
+        @include flexbox();
+    } 
+    @else if $disp == inline-flex {
+        @include inline-flex();
     }
-
-    @else if $color==$zenmate-blue {
-        .blue_btn {
-            background-color: $zenmate-blue;
-            @content;
-
-            &:hover,
-            &:active {
-                background-color: $dark-zenmate-blue;
-                color: $white;
-            }
-            &.grad {
-                @include linear-gradient(to right, $zenmate-blue, lighten($zenmate-blue, 10%));
-                &:hover,
-                &:active {
-                    @include linear-gradient(to right, $dark-zenmate-blue, lighten($dark-zenmate-blue, 10%));
-                    color: $white;
-                }
-            }
-        }
-    }
-
     @else {
-        .#{$color}_btn {
-            background-color: $color;
-            @content;
+        display: $disp
+    }
+    flex-direction: $dir;
+    flex-wrap: $wrap;
+    justify-content: $just;
+    align-items: $align-i;
+    align-content: $align-c;
+}
 
-            &:hover,
-            &:active {
-                background-color: darken($color, 10%);
-                color: $white;
-            }
-            &.grad {
-                @include linear-gradient(to right, $color, lighten($color, 10%));
+// ======================================
+//  btns
+// ======================================
+
+    // btn color class
+    @mixin btn($color) {
+        @if $color==$pia-orange {
+            .orange_btn {
+                background-color: $pia-orange;
+                @content;
+
                 &:hover,
                 &:active {
-                    @include linear-gradient(to right, darken($color, 10%), $color);
+                    background-color: darken($pia-orange, 10%);
                     color: $white;
+                }
+                &.grad {
+                    @include linear-gradient(to bottom,$pia-orange, lighten($pia-orange, 10%)); 
+                    &:hover,
+                    &:active {
+                        @include linear-gradient(to bottom,darken($pia-orange, 10%), $pia-orange);
+                        color: $white;
+                    }
+                }
+            }
+        }
+        @else {
+            .#{$color}_btn {
+                background-color: $color;
+                @content;
+
+                &:hover,
+                &:active {
+                    background-color: darken($color, 10%);
+                    color: $white;
+                }
+                &.grad {
+                    @include linear-gradient(to right, $color, lighten($color, 10%));
+                    &:hover,
+                    &:active {
+                        @include linear-gradient(to right, darken($color, 10%), $color);
+                        color: $white;
+                    }
                 }
             }
         }
     }
-}
 
-// Mozilla Firefox only
-@mixin firefox-only {
-    @at-root {
-      @-moz-document url-prefix() {
-        & {
-          @content;
-        }
-      }
-    }
-  }
+// ======================================
+//  prifixs
+// ======================================
 
-// Internet Explorer only
-  @mixin ie-only {
-      @at-root {
-          @media all and (-ms-high-contrast: none),
-          (-ms-high-contrast: active) {
-              & {
-                  @content;
-              }
-          }
-      }
-  }
-
- // Safari only 
-  @mixin safari-only(){
-    @at-root {
-        @supports (overflow:-webkit-marquee) and (justify-content:inherit){
+    // Mozilla Firefox only
+    @mixin firefox-only {
+        @at-root {
+        @-moz-document url-prefix() {
             & {
-                @content;
+            @content;
+            }
+        }
+        }
+    }
+
+    // Internet Explorer only
+    @mixin ie-only {
+        @at-root {
+            @media all and (-ms-high-contrast: none),
+            (-ms-high-contrast: active) {
+                & {
+                    @content;
+                }
             }
         }
     }
-  }
+
+    // Safari only 
+    @mixin safari-only(){
+        @at-root {
+            @supports (overflow:-webkit-marquee) and (justify-content:inherit){
+                & {
+                    @content;
+                }
+            }
+        }
+    }

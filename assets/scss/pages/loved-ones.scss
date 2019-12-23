@@ -1,0 +1,14 @@
+@import 'index';
+
+@import '../layout/navbar/navbar_white';
+
+@import '../layout/body/hp';
+
+@import '../layout/footer/people_discount';
+
+@import '../layout/partials/header_builder';
+
+header {
+     width: 100%;
+     height: 600px;
+}

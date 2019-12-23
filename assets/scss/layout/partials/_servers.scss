@@ -1,0 +1,62 @@
+#servers {
+    & .col_width {
+        padding: 0 15px;
+        width: 665px;
+
+        @media screen and (max-width: $brk-desktop-width) {
+            width: 550px;
+        }
+
+        @media screen and (max-width: $brk-ipad-width) {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        & .d-flex {
+            @media screen and (max-width: $brk-ipad-width) {
+                width: 315px;
+                margin: 0 auto;
+            }
+            @media screen and (max-width: $brk-mobile-width) {
+                width: 235px;
+            }
+        }
+    }
+
+    & h3.hp {
+        padding: 20px 0;
+    }
+
+    & .flag_text {
+        font-size: 19px;
+        color: #999;
+        align-self: center;
+    }
+
+    & .globe {
+        width: 300px;
+
+        @media screen and (max-width: $brk-min-desktop-width) {
+            width: 200px;
+        }
+
+        @media screen and (max-width: $brk-ipad-width) {
+            margin: 0 auto;
+        }
+    }
+
+    & .container {
+        @media screen and (max-width: $brk-ipad-width) {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    & .col-4 {
+        @media screen and (max-width: $brk-ipad-width) {
+            width: 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}

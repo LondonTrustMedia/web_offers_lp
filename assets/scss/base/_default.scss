@@ -8,7 +8,7 @@
 
 body {
     color: $color-text;
-    font-family: $stack-lato;
+    font-family: $stack-roboto;
     overflow-x: hidden;
 }
 
@@ -20,14 +20,6 @@ a {
     &:hover {
         color: $color-text;
         text-decoration: none;
-    }
-}
-
-.btn_container {
-    text-align: center;
-    display: inline-block;
-    & h5 {
-        font-size: 14px;
     }
 }
 
@@ -61,15 +53,33 @@ a {
 
 // font color
 
-.color_zenmate_blue {
-    color: $zenmate-blue;
+.color_pia_orange {
+    color: $pia-orange; 
 }
-.color_zenmate_orange {
-    color: $zenmate-orange;
+.color_pia_green {
+    color: $pia-green;
 }
-.color_mantis {
-    color: $mantis;
+.color_pia_yellow {
+    color: $pia-yellow;
 }
 .color_white {
     color: $white;
+}
+
+// flex containers
+.flex_container_column {
+    @include flexy($just: center); 
+    @media screen and (max-width: $brk-ipad-width ) {
+        flex-direction: column;
+    } 
+}
+// section
+section {
+    padding: 50px 0;
+}
+h3.hp {
+    font-size: 23px;
+    color: lighten($black, 26.5%);
+    padding: 20px 0 40px;
+    font-weight: 400;
 }

@@ -1,0 +1,17 @@
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('/css/loved-ones.css') %>">
+</head>
+
+    <body>
+        <% include ../navbar/navbar_white %>
+         <%- include('../partials/header_title', {bg: 'header_bg_baby.png', 
+                                                    title: gettext('Protect your loved ones'),
+                                                    subtitle: gettext('Without a VPN, snooper, hackers can track you down. Your location and online activity are unprotected!')}) %>
+        <% include ../body/hp %>
+        <% include ../partials/footers/people_discount %>
+    </body>
+
+</html>

@@ -25,16 +25,14 @@
 
     &.navbar-move {
         background-color: $white;
-        & .nav_container {
+        & .container {
             @include flexy(flex, $just: space-between, $align-i: center);
         }
     }
 
   
 
-    & .nav_container {
-        @extend %container;
-        // display: none;
+    & .container {
 
         @media screen and (max-width: $brk-desktop-width) {
             max-width: unset;

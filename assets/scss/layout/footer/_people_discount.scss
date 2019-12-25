@@ -32,9 +32,9 @@
     & .title {
         position: relative;
         top: 19%;
-        left: 24%;
-        font-size: 1.8em;
-        line-height: .8;
+        left: 22%;
+        font-size: 1.6em;
+        line-height: .9;
         font-weight: 600;
         text-transform: uppercase;
         display: inline-block;
@@ -42,13 +42,13 @@
     & .discount_container {
         top: 45%;
         font-size: 1.05em;
-        left: 16%;
-        & .discount,& .percent,& .off {
+        left: 5%;
+        & .discount,& .percent {
             line-height: 0.7;
             display: inline-block;
             text-transform: uppercase;
         }
-        &, & .percent, & .off {
+        &, & .percent {
             position: absolute;
         }
         & .discount {
@@ -61,10 +61,10 @@
             font-size: 3.5em;
             font-weight: 700;
         }
-        & .off {
-            bottom: -3px;
-            font-size: 1.3em;
-            font-weight: 700;
-        }
+        // & .off {
+        //     bottom: -3px;
+        //     font-size: 1.3em;
+        //     font-weight: 700;
+        // }
     }
 }

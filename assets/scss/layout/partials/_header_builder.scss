@@ -9,11 +9,28 @@ header {
         font-size: .8rem;
     }
     & h1 {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1;
+        & b {
+            font-size: 2.5em;
+        }
         @media screen and (max-width: $brk-ipad-width) {
             font-size: 2rem;
         }
     }
     & h2 {
+        & b {
+            font-size: 1.5em;
+            &.p {
+                font-size: 93.6px;
+                line-height: .9;
+                
+            }     
+        }
+        & span {
+            font-size: 24px;
+        }
         @media screen and (max-width: $brk-ipad-width) {
             font-size: 1.8rem;
         }
@@ -26,6 +43,7 @@ header {
     }
     & p {
         font-size: 1.2em;
+        line-height: 1.2;
     }
     & .price {
         font-size: 4em;

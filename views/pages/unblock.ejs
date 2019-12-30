@@ -1,0 +1,18 @@
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('/css/loved-ones.css') %>">
+    <link rel="stylesheet" href="https://use.typekit.net/syh7gcy.css">
+</head>
+
+    <body>
+        <% include ../navbar/navbar_white %>
+         <%- include('../partials/header_price', {bg: 'header_bg_3D_glass.jpg', 
+                                                title: gettext('<b class="p">Protect</b><br><span>your family’s devices, today</span>'),
+                                                btn_title: gettext('Try it risk free! 7 day money back guarantee')}) %>
+        <% include ../body/hp %>
+        <% include ../partials/footers/people_discount %>
+    </body>
+
+</html>

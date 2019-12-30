@@ -34,6 +34,42 @@
                     }
                 },
                 {
+                    "months": 24,
+                    "moneyBack": 7,
+                    "discount": "67",
+                    "USD": {
+                        "perMonthFull": "$3.33",
+                        "perMonthNumber": "3.33",
+                        "total": "$39.95"
+                    }
+                },
+                {
+                    "months": 12,
+                    "moneyBack": 7,
+                    "discount": "40",
+                    "USD": {
+                        "perMonthFull": "$5.99",
+                        "perMonthNumber": "5.99",
+                        "total": "$35.95"
+                    }
+                }
+            ]
+        },
+
+        "old":{
+            "bestIndex": 1,
+            "blocks": [
+                {
+                    "months": 1,
+                    "moneyBack": 7,
+                    "discount": "30",
+                    "USD": {
+                        "perMonthFull": "$6.95",
+                        "perMonthNumber": "6.95",
+                        "total": "$6.95"
+                    }
+                },
+                {
                     "months": 12,
                     "moneyBack": 7,
                     "discount": "67",

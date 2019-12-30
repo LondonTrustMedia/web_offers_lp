@@ -287,93 +287,93 @@ module.exports = (app) => {
                 "Vatican City",
             ]
 
-            try {
-                if ((req.userLocation.cn === "Russia" || req.userLocation.cn === "Ukraine") && isCurrencyExists(req.price, "RUB"))
-                    res.locals.currency = req.currency = {
-                        iso: "RUB",
-                        symbol: "руб",
-                        text: req.gettext('Russian Rubles')
+            // try {
+            //     if ((req.userLocation.cn === "Russia" || req.userLocation.cn === "Ukraine") && isCurrencyExists(req.price, "RUB"))
+            //         res.locals.currency = req.currency = {
+            //             iso: "RUB",
+            //             symbol: "руб",
+            //             text: req.gettext('Russian Rubles')
             
-                    }
-                else if (req.userLocation.cn === "India" && isCurrencyExists(req.price, "INR"))
-                    res.locals.currency = req.currency = {
-                        iso: "INR",
-                        symbol: "₹",
-                        text: req.gettext('Indian Rupee')
+            //         }
+            //     else if (req.userLocation.cn === "India" && isCurrencyExists(req.price, "INR"))
+            //         res.locals.currency = req.currency = {
+            //             iso: "INR",
+            //             symbol: "₹",
+            //             text: req.gettext('Indian Rupee')
             
-                    }
-                else if (req.userLocation.cn === "Brazil" && isCurrencyExists(req.price, "BRL"))
-                        res.locals.currency = req.currency = {
-                            iso: "BRL",
-                            symbol: "R$",
-                            text: req.gettext('Brazilian Reals')
-                        }
-                else if (req.userLocation.cn === "United Kingdom" && isCurrencyExists(req.price, "GBP"))
-                    res.locals.currency = req.currency = {
-                        iso: "GBP",
-                        symbol: "£",
-                        text: 'British Pounds Sterling'
-                    }
-                else if (req.userLocation.cn === "Japan" && isCurrencyExists(req.price, "JPY"))
-                    res.locals.currency = req.currency = {
-                        iso: "JPY",
-                        symbol: "¥",
-                        text: req.gettext('Japanese Yen')
+            //         }
+            //     else if (req.userLocation.cn === "Brazil" && isCurrencyExists(req.price, "BRL"))
+            //             res.locals.currency = req.currency = {
+            //                 iso: "BRL",
+            //                 symbol: "R$",
+            //                 text: req.gettext('Brazilian Reals')
+            //             }
+            //     else if (req.userLocation.cn === "United Kingdom" && isCurrencyExists(req.price, "GBP"))
+            //         res.locals.currency = req.currency = {
+            //             iso: "GBP",
+            //             symbol: "£",
+            //             text: 'British Pounds Sterling'
+            //         }
+            //     else if (req.userLocation.cn === "Japan" && isCurrencyExists(req.price, "JPY"))
+            //         res.locals.currency = req.currency = {
+            //             iso: "JPY",
+            //             symbol: "¥",
+            //             text: req.gettext('Japanese Yen')
             
-                    }
-                else if (req.userLocation.cn === "Australia" && isCurrencyExists(req.price, "AUD"))
-                        res.locals.currency = req.currency = {
-                            iso: "AUD",
-                            symbol: "AU$",
-                            text: req.gettext('Australian Dollars')
-                        }
-                else if (req.userLocation.cn === "Switzerland" && isCurrencyExists(req.price, "CHF"))
-                        res.locals.currency = req.currency = {
-                            iso: "CHF",
-                            symbol: "CHF",
-                            text: req.gettext('Swiss Francs')
-                        }
-                else if (eurCountries.includes(req.userLocation.cn))
-                    res.locals.currency = req.currency = {
-                        iso: "EUR",
-                        symbol: "€",
-                        text: req.gettext('Euros')
-                    }
-                else if (usdCountries.includes(req.userLocation.cn))
-                    res.locals.currency = req.currency = {
-                        iso: "USD",
-                        symbol: "$",
-                        text: req.gettext('US Dollars')
-                    }
-                else if (req.lang === 'de' ||
-                    req.lang === 'es' ||
-                    req.lang === 'fr' ||
-                    req.lang === 'it' ||
-                    req.lang === 'pl' ||
-                    req.lang === 'ro' ||
-                    req.lang === 'nl' ||
-                    req.lang === 'ko' )
-                    res.locals.currency = req.currency = {
-                        iso: "EUR",
-                        symbol: "€",
-                        text: req.gettext('Euros')
-                    }
+            //         }
+            //     else if (req.userLocation.cn === "Australia" && isCurrencyExists(req.price, "AUD"))
+            //             res.locals.currency = req.currency = {
+            //                 iso: "AUD",
+            //                 symbol: "AU$",
+            //                 text: req.gettext('Australian Dollars')
+            //             }
+            //     else if (req.userLocation.cn === "Switzerland" && isCurrencyExists(req.price, "CHF"))
+            //             res.locals.currency = req.currency = {
+            //                 iso: "CHF",
+            //                 symbol: "CHF",
+            //                 text: req.gettext('Swiss Francs')
+            //             }
+            //     else if (eurCountries.includes(req.userLocation.cn))
+            //         res.locals.currency = req.currency = {
+            //             iso: "EUR",
+            //             symbol: "€",
+            //             text: req.gettext('Euros')
+            //         }
+            //     else if (usdCountries.includes(req.userLocation.cn))
+            //         res.locals.currency = req.currency = {
+            //             iso: "USD",
+            //             symbol: "$",
+            //             text: req.gettext('US Dollars')
+            //         }
+            //     else if (req.lang === 'de' ||
+            //         req.lang === 'es' ||
+            //         req.lang === 'fr' ||
+            //         req.lang === 'it' ||
+            //         req.lang === 'pl' ||
+            //         req.lang === 'ro' ||
+            //         req.lang === 'nl' ||
+            //         req.lang === 'ko' )
+            //         res.locals.currency = req.currency = {
+            //             iso: "EUR",
+            //             symbol: "€",
+            //             text: req.gettext('Euros')
+            //         }
             
-                else 
-                    res.locals.currency = req.currency = {
-                        iso: "USD",
-                        symbol: "$",
-                        text: req.gettext('US Dollars')
+            //     else 
+            //         res.locals.currency = req.currency = {
+            //             iso: "USD",
+            //             symbol: "$",
+            //             text: req.gettext('US Dollars')
             
-                    }
-            } catch (e) {
-                console.log(e)
+            //         }
+            // } catch (e) {
+                // console.log(e)
                 res.locals.currency = req.currency = {
                     iso: "USD",
                     symbol: "$",
                     text: req.gettext('US Dollars')
                 }
-            }
+            // }
             next()
         },
 

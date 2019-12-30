@@ -25,15 +25,33 @@
 
 // btns
     // .orange_btn
-    @include btn($zenmate-orange) {
+    @include btn($pia-orange) {
         @extend %btn;
     }
 
-    // .blue_btn
-    @include btn($zenmate-blue) {
-        @extend %btn;
+    .btn_hp_gradient_orange {
+        color: #543802;
+        font-weight: 500;
+        background-image: linear-gradient(-180deg, #FAD961 0%, #F9C152 6%, #F89033 88%, #F76B1C 100%) !important;
+        border: 1px solid #D1900D;
+        border-radius: 4px;
+        text-decoration: none;
+        padding: 10px 16px;
+        font-size: 20px;
+        line-height: 1.3333333;
+        display: inline-block;
+        margin-bottom: 0;
+        text-align: center;
+        vertical-align: middle;
+        touch-action: manipulation;
+        cursor: pointer;
+        white-space: nowrap;
+        user-select: none;
+        min-width: 250px;
+        &:hover, &:focus {
+            background-image: linear-gradient(-180deg, #FAD961 0%, #F9C152 25%, #F89033 100%) !important;
+        }
     }
-
 // btn addons
     .shadow_btn {
         box-shadow: 0 0 10px rgba($black, 0.5);

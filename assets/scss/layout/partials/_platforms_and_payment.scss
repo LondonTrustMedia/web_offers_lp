@@ -1,0 +1,17 @@
+#platforms_and_payment {
+    & .operating_systems {
+        & img {
+            height: 30px;
+        }
+    }
+    & h6 {
+        font-weight: 400;
+    }
+    & .col-md-6 {
+        @media screen and (max-width: $brk-ipad-width)  {
+            width: 100%;
+            max-width: 320px;
+            margin: 0 auto;
+        }
+    }
+}

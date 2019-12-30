@@ -1,0 +1,23 @@
+#trusted_companies {
+    width: 100%;
+    & h5 {
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 400;
+        color: lighten($black, 60%);
+        margin: 20px auto 30px;
+    }
+    & img {
+        height: 40px;  
+    }
+    & .d-flex div {
+        width: 185px;
+        margin: 10px 0;
+        @media screen and (max-width: $brk-ipad-width)  {
+            width: 160px;
+        }
+        @media screen and (max-width: 540px) {
+            width: 100%;
+        }
+    }
+}

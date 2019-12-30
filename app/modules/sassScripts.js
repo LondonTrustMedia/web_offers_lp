@@ -8,9 +8,9 @@
 const path = require("path");
 const fs = require("fs");
 const scssPages = "../../assets/scss/pages/";
-const cssPages = "../../assets/css/pages/";
+const cssPages = "../../assets/css/";
 const scssPages2 = "assets/scss/pages/";
-const cssPages2 = "assets/css/pages/";
+const cssPages2 = "assets/css/";
 
 function getPages(callback) {
   var pages = [];

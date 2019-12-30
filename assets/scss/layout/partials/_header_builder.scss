@@ -5,6 +5,9 @@ header {
     @media screen and (max-width: $brk-ipad-width) {
         background-position: center left calc(35% - -25px);
     }
+    @media screen and (max-width: $brk-ipad-width - 1) {
+        background-position: top left;
+    }
     &.Hprice {
         & h2 {
             line-height: 1;

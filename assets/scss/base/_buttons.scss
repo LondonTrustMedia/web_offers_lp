@@ -22,11 +22,47 @@
         }
     }
 }
+%btn_default {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    min-width: 298px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+    transition: all .2s ease 0s;
+    padding: 15px 20px;
+    @media screen and (max-width: $brk-mobile-width) {
+        & {
+            font-size: 16px;
+            padding: 10px 5px;
+            width: 100%;
+        }
+    }
+}
 
 // btns
     // .orange_btn
     @include btn($pia-orange) {
         @extend %btn;
+    }
+
+    .btn_pia {
+        @extend %btn_default;
+        &:hover {
+            filter: hue-rotate(-25deg) brightness(1.1);
+            box-shadow: 0 0 8px #0000008c;
+            color: #fff;
+        }
+        &.small {
+            font-size: 16px;
+        }
+        &.orange {
+            background-image: url(/img/btn_orange_bg.svg);
+        }
+        &.green {
+            background-image: url(/img/btn_green_bg.svg);
+        }
     }
 
     .btn_hp_gradient_orange {

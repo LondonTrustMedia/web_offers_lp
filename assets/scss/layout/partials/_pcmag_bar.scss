@@ -1,11 +1,19 @@
 #pcmag_bar {
-    background: #eaf7e6;
-    padding: 12px 10px;
     & h5 {
         font-size: 18px;
-        color: #18681f;
+        color: #004249;
         font-weight: 400;
-        padding: 10px 0;
+        padding: 25px 15px;
         margin: 0;
+    }
+    & .quotes {
+        background-image: url(/img/quotes_bar_green.svg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    & img {
+        @media screen and (max-width: $brk-ipad-width) {
+            width: 80px;
+        }
     }
 }

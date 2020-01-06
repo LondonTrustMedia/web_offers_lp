@@ -13,10 +13,11 @@
     "stdout": true,
     "env": {
       "NODE_ENV": "development",
-      "MYSQL_PRIVATELAND_URL": "intego-database.cvpcyexkw0cu.eu-west-1.rds.amazonaws.com",
-      "MYSQL_PRIVATELAND_USER": "nitaystaging",
-      "MYSQL_PRIVATELAND_PASSWORD": "91tPGyNsCaum",
-      "MYSQL_PRIVATELAND_DB": "privateland_production"
+      "HOME": "/Users/nitaybz",
+      "MYSQL_PRIVATELAND_URL": "localhost",
+      "MYSQL_PRIVATELAND_USER": "root",
+      "MYSQL_PRIVATELAND_PASSWORD": "aa710556612a72dec1efb16a",
+      "MYSQL_PRIVATELAND_DB": "pia_offers"
     },
     "ext": "js,json"
   }

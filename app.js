@@ -21,22 +21,6 @@ try {
 }
 
 
-// MySQL ======================================================================
-
-app.db = mysql.createConnection({
-    host: process.env.MYSQL_PRIVATELAND_URL,
-    port: 3306,
-    user: process.env.MYSQL_PRIVATELAND_USER,
-    password: process.env.MYSQL_PRIVATELAND_PASSWORD,
-    database: process.env.MYSQL_PRIVATELAND_DB
-});
-  
-  app.db.connect(function(err) {
-      if (err) console.log(err);
-      console.log("Connected!");
-  });
-  
-
 
 // Settings ======================================================================
 

@@ -1,21 +1,19 @@
 #why_pia {
     width: 100%;
-    border-top: 1px solid #ececec;
-    border-bottom: 1px solid #ececec;
     & h4 {
         padding: 10px 23px 20px;
-        color: lighten($black, 20%);
-        font-size: 20px;
+        color: #004249;
+        font-size: 25px;
         font-weight: 500;
         line-height: 28px;
     }
     & p {
-        color: lighten($black, 60%);
-        font-size: 15px;
+        color: #4F4F4F;
+        font-size: 18px;
         line-height: 26px;
         font-weight: 400;
     }
     & img {
-        height: 100px; 
+        height: 235px; 
     }
 }

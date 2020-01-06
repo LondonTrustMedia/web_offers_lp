@@ -8,6 +8,23 @@
                     "USD": "$9.95"
                 },
                 {
+                    "months": 24,
+                    "USD": "$238.80"
+                },
+                {
+                    "months": 12,
+                    "USD": "$119.40"
+                }
+            ]
+        },
+        "old":{
+            "bestIndex": 1,
+            "blocks": [
+                {
+                    "months": 1,
+                    "USD": "$9.95"
+                },
+                {
                     "months": 12,
                     "USD": "$119.40"
                 },
@@ -21,6 +38,42 @@
 
     "coupons": {
         "main":{
+            "blocks": [
+                {
+                    "months": 1,
+                    "moneyBack": 7,
+                    "discount": null,
+                    "USD": {
+                        "perMonthFull": "$9.95",
+                        "perMonthNumber": "9.95",
+                        "total": "$9.95"
+                    }
+                },
+                {
+                    "best": true,
+                    "months": 24,
+                    "moneyBack": 7,
+                    "discount": 70,
+                    "USD": {
+                        "perMonthFull": "$2.97",
+                        "perMonthNumber": "2.97",
+                        "total": "$71.28"
+                    }
+                },
+                {
+                    "months": 12,
+                    "moneyBack": 7,
+                    "discount": 48,
+                    "USD": {
+                        "perMonthFull": "$5.09",
+                        "perMonthNumber": "5.09",
+                        "total": "$61.09"
+                    }
+                }
+            ]
+        },
+
+        "old":{
             "bestIndex": 1,
             "blocks": [
                 {

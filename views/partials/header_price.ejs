@@ -1,9 +1,10 @@
-<header style="background-image: url(/img/<%- bg %>)" class="pt-5">
+<header style="background-image: url(/img/<%- bg %>)" class="pt-5 Hprice">
     <div class="container text-center mt-5">
         <div class="col-lg-4 col-md-6 col-sm-9">
             <h2 class="d-inline-block mb-0"><%- title %></h2>
             <div class="d-block my-3 price">
-                <span><%- prices.blocks[1].USD.perMonthFull %></span>
+                <span class="for"><%- gettext("for ") %></span>
+                <span class="fullprice"><%- prices.blocks[1].USD.perMonthFull %></span>
                 <span class="mo"><%- gettext("/mo") %></span>
             </div>
             <div class="d-block">

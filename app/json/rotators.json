@@ -1,1 +1,24 @@
-{}
+{
+    "testing_qg2s1azip": {
+        "id": "testing_qg2s1azip",
+        "title": "test nitay",
+        "aff_id": "1234",
+        "domainType": "networks",
+        "ownerId": "5a2681cc7f4b0718291c0f76",
+        "ownerName": "Nitay Ben-Zvi",
+        "offers": [
+            {
+                "id": "https://nitool.app",
+                "link": "https://nitool.app?aff_id=1234",
+                "local": false,
+                "params": "",
+                "payout": "",
+                "weight": 1,
+                "language": "auto",
+                "offerName": "https://nitool.app"
+            }
+        ],
+        "updated": "2020-01-06T09:09:53.000Z",
+        "totalWeight": 1
+    }
+}

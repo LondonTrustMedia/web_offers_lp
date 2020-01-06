@@ -5,6 +5,88 @@ header {
     @media screen and (max-width: $brk-ipad-width) {
         background-position: center left calc(35% - -25px);
     }
+    @media screen and (max-width: $brk-ipad-width - 1) {
+        background-position: top left;
+    }
+    &.Hprice {
+        & h2 {
+            line-height: 1;
+            @media screen and (max-width: $brk-mobile-width ) {
+                font-size: 1.5rem;
+            }
+            & b {
+                font-size: 2em;
+                &.huge-text {
+                    font-size: 93.6px;
+                    line-height: .9;
+                    @media screen and (max-width: $brk-mobile-width ) {
+                        font-size: 75px;
+                    }
+                }
+                &.big-text {
+                    font-size: 2.5em;
+                    @media screen and (max-width: $brk-mobile-width ) {
+                        font-size: 2.3em;
+                    }
+                } 
+                  
+            }
+            & .small-text {
+                font-size: 30px;
+            } 
+            & span {
+                font-size: 24px;
+                font-weight: 500;
+                @media screen and (max-width: $brk-mobile-width ) {
+                    font-size: 20px;
+                }
+            }
+            @media screen and (max-width: $brk-ipad-width) {
+                font-size: 1.8rem;
+            }
+        }
+        & .price {
+            font-size: 16px;
+            & .for {
+                line-height: 1;
+                font-size: 1.5em;
+                font-weight: 500;
+            }
+            & .fullprice {
+                font-size: 4em;
+                font-weight: 600;
+                line-height: 1;
+                @media screen and (max-width: $brk-mobile-width ) {
+                    font-size: 3em;
+                }
+            }
+            & .mo {
+                line-height: 1;
+                font-size: 2.8em;
+                font-weight: 600;
+                margin-left: -0.3em;
+                @media screen and (max-width: $brk-mobile-width ) {
+                    font-size: 1.8em;
+                }
+            }
+        }
+    }
+    &.Htitle {
+        & h1 {
+            font-size: 2rem;
+            font-weight: 400;
+            line-height: 1;
+            & b {
+                font-size: 2.5em;
+            }
+            @media screen and (max-width: $brk-ipad-width) {
+                font-size: 2rem;
+            }
+            @media screen and (max-width: $brk-mobile-width ) {
+                font-size: 1.8rem;
+            }
+        }
+    }
     & .discount_badge {
         background-image: url(/img/discount_badge_green.svg);
         @include cube-box(150px);
@@ -65,47 +147,12 @@ header {
             font-size: .45em;
             line-height: 1;
             margin-bottom: -0.8em;
-            margin-left: -.1em;
         }
     }
     & h6 {
         font-size: .8rem;
     }
-    & h1 {
-        font-size: 2rem;
-        font-weight: 400;
-        line-height: 1;
-        & b {
-            font-size: 2.5em;
-        }
-        @media screen and (max-width: $brk-ipad-width) {
-            font-size: 2rem;
-        }
-        @media screen and (max-width: $brk-mobile-width ) {
-            font-size: 1.8rem;
-        }
-    }
-    & h2 {
-        & b {
-            font-size: 1.5em;
-            &.p {
-                font-size: 93.6px;
-                line-height: .9;
-                @media screen and (max-width: $brk-mobile-width ) {
-                    font-size: 75px;
-                }
-            }     
-        }
-        & span {
-            font-size: 24px;
-            @media screen and (max-width: $brk-mobile-width ) {
-                font-size: 20px;
-            }
-        }
-        @media screen and (max-width: $brk-ipad-width) {
-            font-size: 1.8rem;
-        }
-    }
+    
     & img {
         height: 45px;
         @media screen and (max-width: $brk-ipad-width) {
@@ -116,16 +163,7 @@ header {
         font-size: 1.2em;
         line-height: 1.2;
     }
-    & .price {
-        font-size: 4em;
-        font-weight: 600;
-        line-height: 1;
-        & span.mo {
-            line-height: 1;
-            font-size: .7em;
-            margin-left: -.3em;
-        }
-    }
+    
     & .btn_hp_gradient_orange {
         min-width: 300px;
         @media screen and (max-width: $brk-mobile-width) {

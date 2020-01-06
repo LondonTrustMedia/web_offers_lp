@@ -38,7 +38,7 @@
     "crowdin-upload": "node app/modules/crowdinScripts upload",
     "crowdin-download": "node app/modules/crowdinScripts download",
     "sass-compile": "sass assets/scss/pages:assets/css/pages --style compressed",
-    "sass-watch": "node app/modules/sassScripts watchAll",
+    "sass-watch": "node app/modules/sassWatch",
     "sass-all": "node app/modules/sassScripts all-pages"
   },
   "devDependencies": {

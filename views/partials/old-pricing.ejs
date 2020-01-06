@@ -1,0 +1,69 @@
+<section id="pricing" class="<%- event ? event.name : '' %>">
+    <div class="container text-center">
+        <h3 class="hp"><%- gettext('Risk Free. 7 day money back guarantee') %></h3>
+        <h1><%- gettext('Limited Time Only! Act Now') %></h1>
+        <div class="flex-pricing">
+
+            <a href="<%- offerLink %>" class="pricing-price">
+                <% if (prices.blocks[0].months === 1) { %>
+                    <div class="title">
+                        <h5 class="pricing-duration"><%- gettext('Monthly') %></h5>
+                    </div>
+                    <div class="pricing_container">
+                        <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[0].discount]) %></h3>
+                        <div class="pricing-bill">
+                            <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[0].USD.perMonthNumber %>
+                            <span class="month"><%- gettext('/mo') %></span>
+                        </div>
+                        <div class="pricing-every">
+                            <%- format(gettext('<span class="text-danger font-weight-bold"><del>%s</del></span> %s month'), [oldPrices.blocks[0].USD, prices.blocks[0].USD.total]) %>
+                        </div>
+                        <div class="btn_hp_gradient_orange container-fluid"><%- gettext('Sign up now') %></div>
+                    </div>
+                <% } %>
+            </a>
+
+            <a href="<%- offerLink %>" class="pricing-price best-price" data-text="<%- gettext('BEST VALUE') %>">
+                <% if (prices.blocks[1].months === 12) { %>
+                    <div class="title">
+                        <h5 class="pricing-duration"><%- gettext('Yearly') %></h5>
+                    </div>
+                    <div class="pricing_container">
+                        <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[1].discount]) %></h3>
+                        <div class="pricing-bill">
+                            <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[1].USD.perMonthNumber %>
+                            <span class="month"><%- gettext('/mo') %></span>
+                        </div>
+                        <div class="pricing-every">
+                            <%- format(gettext('<span class="text-danger font-weight-bold"><del>%s</del></span> %s per year'), [oldPrices.blocks[1].USD, prices.blocks[1].USD.total]) %>
+                        </div>
+                        <div class="btn_hp_gradient_orange container-fluid"><%- gettext('Sign up now') %></div>
+                    </div>
+                <% } %>
+                <% if (event && event.coupon) { %>
+                    <img src="img/<%- event.name %>_bestprices.png" alt="<%- event.name %>" class="bestprice_img" onerror="this.style.display='none'">
+                <% } %>
+            </a>
+           
+            <a href="<%- offerLink %>" class="pricing-price">
+                <% if (prices.blocks[2].months === 6) { %>
+                    <div class="title">
+                        <h5 class="pricing-duration"><%- gettext('6 Months') %></h5>
+                    </div>
+                    <div class="pricing_container">
+                    <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [prices.blocks[2].discount]) %></h3>
+                        <div class="pricing-bill">
+                            <span class="price-currency"><%- currency.symbol %></span><%- prices.blocks[2].USD.perMonthNumber %>
+                            <span class="month"><%- gettext('/mo') %></span>
+                        </div>
+                        <div class="pricing-every">
+                            <%- format(gettext('<span class="text-danger font-weight-bold"><del>%s</del></span> %s per six months'), [oldPrices.blocks[2].USD, prices.blocks[2].USD.total]) %>
+                        </div>
+                        <div class="btn_hp_gradient_orange container-fluid"><%- gettext('Sign up now') %></div>
+                    </div>
+                <% } %>
+            </a>
+        </div>
+        <div class="currency-alert">*<%- format(gettext('All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month'), [currency.symbol, prices.blocks[0].USD.perMonthNumber]) %></div>
+    </div>
+</section>

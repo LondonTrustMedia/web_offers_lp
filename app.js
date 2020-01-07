@@ -6,11 +6,9 @@ const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
 const norobot = require('norobot');
 const path = require('path')
-const mysql = require('mysql');
 const assets = require('express-asset-versions')
-const autoprefixer = require('express-autoprefixer')({ browsers: 'last 4 versions', grid: true })
+// const autoprefixer = require('express-autoprefixer')({ browsers: 'last 4 versions', grid: true })
 
-const offersApi = require('./app/modules/offersApi.js')
 const mws = require('./app/modules/mws.js')(app)
 const supportedLanguages = ['en', 'fr', 'de', 'ru', 'nl', 'es', 'ko']
 
@@ -50,20 +48,14 @@ app.use(i18n.abide({
     locale_on_url: true
 }));
 
-
-// Offer Type ======================================================================
-
-app.use(mws.setOfferType);
-
-
 // Static Files ======================================================================
 
 // AutoPrefix on live traffic only
-app.use(function(req, res, next){
-    if (req.offerType !== 'LOCAL') {
-        autoprefixer(req, res, next)
-    } else next()
-});
+// app.use(function(req, res, next){
+//     if (process.env.NODE_ENV !== 'LOCAL') {
+//         autoprefixer(req, res, next)
+//     } else next()
+// });
 
 // serving static files + versioning mechanism
 var assetPath = path.join(__dirname, 'assets');
@@ -88,6 +80,3 @@ require('./app/routes.js')(app); // load our routes and pass in our app and full
 app.listen(port, '0.0.0.0', function () {
     console.log('app listening on port ' + port + '!')
 })
-
-// if (process.env.NODE_ENV === 'development')
-//     offersApi.createNewOffers()

@@ -1,6 +1,4 @@
 const locationScan = require('./modules/locationScan.js');
-const offersApi = require('./modules/offersApi.js');
-const prices = require('./json/prices.json');
 const request = require('request');
 const uaParser = require('./modules/uaParser.js');
 
@@ -49,15 +47,10 @@ module.exports = function (app) {
         })
     })
 
-    app.get('/*', locationScan.check, offersApi.getLink, mws.setPrices, mws.setCurrency, mws.setSticker, uaParser, function (req, res) {
+    app.get('/*', locationScan.check, mws.setPrices, mws.setCurrency, mws.setSticker, uaParser, function (req, res) {
         
         console.log("Page Name: " + req.pageName)
         console.log("HOST: " + req.hostname)
-
-        // console.log("User Location Details: ")
-        // console.log(req.userLocation)
-
-        offersApi.impressionPixel(req)
 
         res.render('pages/' + req.pageName + '.ejs' , {
             userAgent: req.userAgent
@@ -68,7 +61,7 @@ module.exports = function (app) {
 
     // handle 404/Other Error
     app.use(function(err, req, res, next) {
-        mws.show404(err, req, res, offersApi)
+        mws.show404(err, req, res, next)
     });
 
 };

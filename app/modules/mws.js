@@ -2,7 +2,6 @@ const moment = require('moment');
 const fs = require('fs');
 const norobot = require('norobot');
 const prices = require('./../json/prices.json');
-const pageLangs = require('./../json/pageLangs.json');
 const slackApi = require('./slackApi.js');
 let event = getEvent()
 
@@ -28,9 +27,10 @@ module.exports = (app) => {
             res.locals.pageName = req.pageName = req.path.replace('/offer', '').replace('/amp', '').slice(1).replace('.html', '').replace('.HTML', '').replace(/\/$/, '')
             res.locals.path = req.path
             res.locals.event = req.event = event
-            if (event && event.coupon)
-                middleWares.forceCoupon(event.coupon, req, res)
-
+            // if (event && event.coupon)
+            //     middleWares.forceCoupon(event.coupon, req, res)
+            
+            res.locals.offerLink = req.offerLink = 'https://www.privateinternetaccess.com/pages/buy-now/' + (req.query && req.query.coupon ? req.query.coupon : '')
             next()
         },
 
@@ -49,6 +49,11 @@ module.exports = (app) => {
                     res.locals.urlSearch = req.search = req.search + '&coupon=' + coupon
                 }
             }
+        },
+
+        getLink: function(req, res, next){
+            res.locals.offerLink = req.offerLink = 'https://www.privateinternetaccess.com/pages/buy-now/' + (req.query && req.query.coupon ? req.query.coupon : '')
+            next()
         },
 
 
@@ -82,54 +87,6 @@ module.exports = (app) => {
                 console.log('cookie created successfully with value: ' + req.lang);
                 next()
             }
-        },
-
-
-        setOfferType: (req, res, next) => {
-            var cookie_offerType = req.cookies["offer_type"];
-        
-            if (cookie_offerType) {
-                console.log('Detected offer TYPE:', cookie_offerType)
-                req.offerType = cookie_offerType
-            } else {
-                switch (req.hostname) {
-                    case 'security.privateinternetaccess.com':
-                        req.offerType = 'GOOGLE'
-                        break;
-                    case 'safe.privateinternetaccess.com':
-                        req.offerType = 'CJ'
-                        break;
-                    case 'offer.privateinternetaccess.com':
-                        req.offerType = 'OFFER'
-                        break;
-                    case 'maskip.co':
-                        req.offerType = 'CPP'
-                        break;
-                    case 'hideip.tech':
-                        req.offerType = 'CPP'
-                        break;
-                    default:
-                        req.offerType = 'LOCAL'
-                        break;
-                }
-            }
-        
-            var forced_type_cookie = req.signedCookies['forced_type_cookie'];
-            if (req.offerType === 'LOCAL') {
-                if (req.query.type) {
-                    req.offerType = req.query.type
-                    const options = {
-                        httpOnly: true,
-                        signed: true,
-                        maxAge: (3 * 60 * 1000)
-                    }
-                    res.cookie('forced_type_cookie', req.offerType, options);
-                } else if (forced_type_cookie)
-                    req.offerType = forced_type_cookie
-            }
-
-            res.locals.offerType = req.offerType
-            next();
         },
 
         rotatorIdCheck: (req, res, next) => {
@@ -382,21 +339,18 @@ module.exports = (app) => {
             res.locals.oldPrices = req.oldPrices = prices.original.main
             res.locals.prices = req.prices = prices.coupons.main
 
-            if (req.query.coupon && prices.coupons[req.query.coupon])
-                res.locals.prices = req.prices = prices.coupons[req.query.coupon]
+            if (req.query.price && prices.coupons[req.query.price])
+                res.locals.prices = req.prices = prices.coupons[req.query.price]
 
-            if (req.query.coupon && prices.original[req.query.coupon])
-                res.locals.oldPrices = req.oldPrices = prices.original[req.query.coupon]
+            if (req.query.price && prices.original[req.query.price])
+                res.locals.oldPrices = req.oldPrices = prices.original[req.query.price]
         
             next()
         },
 
-        show404: (err, req, res, offersApi) => {
+        show404: (err, req, res, next) => {
             console.log(err)
             var query = req.query;
-            req.offerId = '757'
-            req.extraParams = '&aff_id=2009&aff_sub3=' + req.path + '&aff_sub2='+ req.offerType 
-            offersApi.impressionPixel(req)
             slackApi.sendErrorMessage('404 Error', err || {content: 'Not Found'}, req)
             res.status(404);
             res.format({
@@ -405,9 +359,7 @@ module.exports = (app) => {
                         url: req.path,
                         pageName: '404',
                         query: query,
-                        urlSearch: req.search,
-                        offerLink: 'https://ho-app.kape.com/SHUZ?aff_sub3=' + req.path + '&aff_sub2=' + req.offerType + '&' + req.search.slice(1),
-                        offerType: req.offerType
+                        urlSearch: req.search
                     })
                 },
                 json: function () {

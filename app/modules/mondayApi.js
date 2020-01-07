@@ -1,7 +1,7 @@
 const request = require("request");
 const async = require("async");
 
-const pageLang = require("./../json/pageLangs.json");
+// const pageLang = require("./../json/pageLangs.json");
 
 const api_key = "aea67a41d72ece012cddbb9a77ef82ee";
 const board_id = "397753478";
@@ -93,13 +93,13 @@ const setMondayOffer = module.exports = function (type, page, offerId, callback)
                 // Set Language Column
                 function (next) {
                     var url = textColumnUrl(CID_Languages)
-                    if (pageLang[page.path]) {
-                        var text = pageLang[page.path].button_type.toUpperCase()
+                    // if (pageLang[page.path]) {
+                    //     var text = pageLang[page.path].button_type.toUpperCase()
 
-                    } else {
+                    // } else {
                         console.log('NO LANGUAGE YET - Updating with ALL')
                         var text = 'ALL'
-                    }
+                    // }
 
                     updateTextColumn(url, pulse_id, text, (err) => {
                         if (err) next(err)

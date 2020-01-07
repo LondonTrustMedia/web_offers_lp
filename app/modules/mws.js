@@ -127,10 +127,10 @@ module.exports = (app) => {
                 //     }
                 //     redirectLink = removeDuplicatesInUrlParams(redirectLink, 'coupon')
                 // }
-
+                next('matched key ' + matchKey + ' rotatorId - ' + rotatorId + ' redirectLink - ' + redirectLink)
                 res.redirect(redirectLink);
         
-            } else next('matched key ' + matchKey + ' rotatorId - ', rotatorId)
+            } else next()
         },
 
         setFakeCookie: (req, res, next) => {

@@ -100,7 +100,6 @@ module.exports = (app) => {
                 let totalWeight = app.rotators[matchKey].totalWeight
                 let newWeight = 100
                 const randomNumber = Math.floor(Math.random() * 100) + 1
-                next('matched key ' + matchKey + ' rotatorId - ' + rotatorId + ' randomNumber - ' + randomNumber)
                 const redirectOffer = app.rotators[matchKey].offers.find(offer => {
                     newWeight = Math.floor(newWeight - ((offer.weight / totalWeight) * 100))
                     return (randomNumber > newWeight)

@@ -99,18 +99,22 @@ module.exports = (app) => {
                 console.log('Detected rotator ID:', matchKey)
                 const rotator = app.rotators[matchKey]
                 let redirectOffer
-                slackApi.sendErrorMessage('DEUBG', {"Detected rotator:": rotator}, req)
+                let rotatorOffers = rotator.offers
                 let totalWeight = rotator.totalWeight
                 let newWeight = 100
+
+                if (typeof rotatorOffers === 'string' || rotatorOffers instanceof String)
+                    rotatorOffers = JSON.parse(rotator.offers)
+
+                slackApi.sendErrorMessage('DEUBG', {"Detected rotator:": rotator}, req)
                 const randomNumber = Math.floor(Math.random() * 100) + 1
-                slackApi.sendErrorMessage('DEUBG', {error: 'matched key ' + matchKey + ' rotatorId - ' + rotatorId + ' totalWeight - ' + totalWeight}, req)
                 try {
-                    redirectOffer = rotator.offers.find(offer => {
+                    redirectOffer = rotatorOffers.find(offer => {
                         newWeight = Math.floor(newWeight - ((offer.weight / totalWeight) * 100))
                         return (randomNumber > newWeight)
                     });
                 } catch(err) {
-                    slackApi.sendErrorMessage('DEUBG', err, req)    
+                    slackApi.sendErrorMessage('DEUBG-ERROR', err, req)    
                 }
 
                 slackApi.sendErrorMessage('DEUBG', {error: 'matched key ' + matchKey + ' rotatorId - ' + rotatorId + ' redirectOffer - ' + JSON.stringify(redirectOffer)}, req)
@@ -123,7 +127,7 @@ module.exports = (app) => {
                 // if (redirectOffer.language && redirectOffer.language !== 'auto')
                 //     redirectLink += '/' + redirectOffer.language
 
-                redirectLink += redirectOffer.link + '&' + req.search.slice(1)
+                redirectLink += (redirectOffer.link + '&' + req.search.slice(1))
                 slackApi.sendErrorMessage('DEUBG', {error: 'matched key ' + matchKey + ' rotatorId - ' + rotatorId + ' redirectLink - ' + redirectLink}, req)
                 res.redirect(redirectLink);
                 

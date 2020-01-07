@@ -98,15 +98,21 @@ module.exports = (app) => {
             if (matchKey) {
                 console.log('Detected rotator ID:', matchKey)
                 const rotator = app.rotators[matchKey]
+                let redirectOffer
                 slackApi.sendErrorMessage('DEUBG', {"Detected rotator:": rotator}, req)
                 let totalWeight = rotator.totalWeight
                 let newWeight = 100
                 const randomNumber = Math.floor(Math.random() * 100) + 1
                 slackApi.sendErrorMessage('DEUBG', {error: 'matched key ' + matchKey + ' rotatorId - ' + rotatorId + ' totalWeight - ' + totalWeight}, req)
-                let redirectOffer = rotator.offers.find(offer => {
-                    newWeight = Math.floor(newWeight - ((offer.weight / totalWeight) * 100))
-                    return (randomNumber > newWeight)
-                });
+                try {
+                    redirectOffer = rotator.offers.find(offer => {
+                        newWeight = Math.floor(newWeight - ((offer.weight / totalWeight) * 100))
+                        return (randomNumber > newWeight)
+                    });
+                } catch(err) {
+                    slackApi.sendErrorMessage('DEUBG', err, req)    
+                }
+
                 slackApi.sendErrorMessage('DEUBG', {error: 'matched key ' + matchKey + ' rotatorId - ' + rotatorId + ' redirectOffer - ' + JSON.stringify(redirectOffer)}, req)
                 if (!redirectOffer) redirectOffer = rotator.offers[0]
                 // console.log('totalWeight', totalWeight)

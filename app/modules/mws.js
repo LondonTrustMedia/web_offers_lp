@@ -118,7 +118,12 @@ module.exports = (app) => {
                 if (redirectOffer.language && redirectOffer.language !== 'auto')
                     redirectLink += '/' + redirectOffer.language
 
-                redirectLink += (redirectOffer.link + '&' + req.search.slice(1))
+                redirectLink += redirectOffer.link
+                if (redirectLink.includes('?'))
+                    redirectLink += '&' + req.search.slice(1)
+                else
+                    redirectLink += req.search
+
                 res.redirect(redirectLink);
                 
                 // if (req.forceCoupon) {

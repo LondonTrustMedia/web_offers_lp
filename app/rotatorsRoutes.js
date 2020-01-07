@@ -102,10 +102,10 @@ function processData(req, res, next) {
             offer.local = false
             offer.link = offer.offerName
             offer.offerName = offer.offerName.replace('http://', 'https://')
-            if (!offer.offerName.includes('aff_id')) 
-                offer.offerName.includes('?') ? offer.link += '&aff_id=' + req.body.aff_id : offer.link += '?aff_id=' + req.body.aff_id
+            // if (!offer.offerName.includes('aff_id')) 
+            //     offer.offerName.includes('?') ? offer.link += '&aff_id=' + req.body.aff_id : offer.link += '?aff_id=' + req.body.aff_id
             if (offer.params) 
-                offer.link += '&' + offer.params
+                offer.link += '?' + offer.params
 
             return offer
         })

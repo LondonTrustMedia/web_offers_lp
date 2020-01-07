@@ -102,33 +102,27 @@ module.exports = (app) => {
                 let rotatorOffers = rotator.offers
                 let totalWeight = rotator.totalWeight
                 let newWeight = 100
+                const randomNumber = Math.floor(Math.random() * 100) + 1
 
                 if (typeof rotatorOffers === 'string' || rotatorOffers instanceof String)
                     rotatorOffers = JSON.parse(rotator.offers)
 
-                slackApi.sendErrorMessage('DEUBG', {"Detected rotator:": rotator}, req)
-                const randomNumber = Math.floor(Math.random() * 100) + 1
                 try {
                     redirectOffer = rotatorOffers.find(offer => {
                         newWeight = Math.floor(newWeight - ((offer.weight / totalWeight) * 100))
                         return (randomNumber > newWeight)
                     });
                 } catch(err) {
-                    slackApi.sendErrorMessage('DEUBG-ERROR', err, req)    
+                    next(err)  
                 }
 
-                slackApi.sendErrorMessage('DEUBG', {error: 'matched key ' + matchKey + ' rotatorId - ' + rotatorId + ' redirectOffer - ' + JSON.stringify(redirectOffer)}, req)
                 if (!redirectOffer) redirectOffer = rotator.offers[0]
-                // console.log('totalWeight', totalWeight)
-                // console.log('randomNumber', randomNumber)
-                // console.log('newWeight', newWeight)
-                // console.log('redirectOffer', redirectOffer)
+
                 let redirectLink = "" 
-                // if (redirectOffer.language && redirectOffer.language !== 'auto')
-                //     redirectLink += '/' + redirectOffer.language
+                if (redirectOffer.language && redirectOffer.language !== 'auto')
+                    redirectLink += '/' + redirectOffer.language
 
                 redirectLink += (redirectOffer.link + '&' + req.search.slice(1))
-                slackApi.sendErrorMessage('DEUBG', {error: 'matched key ' + matchKey + ' rotatorId - ' + rotatorId + ' redirectLink - ' + redirectLink}, req)
                 res.redirect(redirectLink);
                 
                 // if (req.forceCoupon) {

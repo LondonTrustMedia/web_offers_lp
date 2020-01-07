@@ -24,20 +24,13 @@ if (process.env.NODE_ENV === 'local') {
     
 } else {
     pool = mysql.createPool({
-        host: process.env.MYSQL_PRIVATELAND_URL,
+        host: 'localhost',
         port: 3306,
         user: process.env.MYSQL_PRIVATELAND_USER,
         password: process.env.MYSQL_PRIVATELAND_PASSWORD,
         database: process.env.MYSQL_PRIVATELAND_DB
     });
 }
-pool = mysql.createPool({
-    host: process.env.MYSQL_PRIVATELAND_URL,
-    port: 3306,
-    user: process.env.MYSQL_PRIVATELAND_USER,
-    password: process.env.MYSQL_PRIVATELAND_PASSWORD,
-    database: process.env.MYSQL_PRIVATELAND_DB
-});
 
 const dbQueries = module.exports = {
     rotators: {

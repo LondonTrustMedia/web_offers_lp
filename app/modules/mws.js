@@ -104,9 +104,6 @@ module.exports = (app) => {
                 let newWeight = 100
                 const randomNumber = Math.floor(Math.random() * 100) + 1
 
-                if (typeof rotatorOffers === 'string' || rotatorOffers instanceof String)
-                    rotatorOffers = JSON.parse(rotator.offers)
-
                 try {
                     redirectOffer = rotatorOffers.find(offer => {
                         newWeight = Math.floor(newWeight - ((offer.weight / totalWeight) * 100))

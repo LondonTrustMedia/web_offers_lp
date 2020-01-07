@@ -39,10 +39,10 @@ const dbQueries = module.exports = {
             pool.query("SELECT * FROM rotators ORDER BY updated DESC", function (err, result) {
                 if (err) callback(err);
                 else {
-                    result.map(rot => {
-                        rot.offers = rot.offers
-                        return rot
-                    });
+                    // result.map(rot => {
+                    //     rot.offers = rot.offers
+                    //     return rot
+                    // });
                     console.log("Got all rotators succesfully");
                     callback(null, result);
                 }
@@ -110,10 +110,10 @@ const dbQueries = module.exports = {
                     console.log(err);
                     callback(err)
                 } else {
-                    rotators.map(rot => {
-                        rot.offers = rot.offers
-                        return rot
-                    });
+                    // rotators.map(rot => {
+                    //     rot.offers = rot.offers
+                    //     return rot
+                    // });
                     console.log("Got all rotators succesfully");
                     let newRotatorsList = {}
                     rotators.forEach(rotator => {

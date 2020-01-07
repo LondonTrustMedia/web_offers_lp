@@ -110,32 +110,23 @@ module.exports = (app) => {
                 // console.log('newWeight', newWeight)
                 // console.log('redirectOffer', redirectOffer)
                 let redirectLink = "" 
-                if (redirectOffer.type) {
-                    res.cookie("offer_type", redirectOffer.type, {maxAge: 15000});
-        
-                    if (redirectOffer.type === "CPP")
-                        redirectLink += "https://maskip.co"
-        
-                    if (redirectOffer.language && redirectOffer.language !== 'auto')
-                        redirectLink += '/' + redirectOffer.language
-                }
+                if (redirectOffer.language && redirectOffer.language !== 'auto')
+                    redirectLink += '/' + redirectOffer.language
+
                 redirectLink += redirectOffer.link + '&' + req.search.slice(1)
-        
-                if (redirectOffer.type === "OFFER" || redirectOffer.type === "CPP")
-                        redirectLink += '&utm_medium=affiliate&utm_source=' + app.rotators[matchKey].aff_id
                 
-                if (req.forceCoupon) {
-                    const oldCoupon = getParameterByName('coupon', redirectLink)
-                    const affId = getParameterByName('aff_id', redirectLink)
+                // if (req.forceCoupon) {
+                //     const oldCoupon = getParameterByName('coupon', redirectLink)
+                //     const affId = getParameterByName('aff_id', redirectLink)
     
-                    if (oldCoupon && ((affId && !affFilter.includes(affId)) || !affId)) {
-                        var regex = new RegExp(oldCoupon, 'g')
-                        redirectLink = redirectLink.replace(regex, req.forceCoupon)
-                    } else {
-                        redirectLink += '&coupon=' + req.forceCoupon
-                    }
-                    redirectLink = removeDuplicatesInUrlParams(redirectLink, 'coupon')
-                }
+                //     if (oldCoupon && ((affId && !affFilter.includes(affId)) || !affId)) {
+                //         var regex = new RegExp(oldCoupon, 'g')
+                //         redirectLink = redirectLink.replace(regex, req.forceCoupon)
+                //     } else {
+                //         redirectLink += '&coupon=' + req.forceCoupon
+                //     }
+                //     redirectLink = removeDuplicatesInUrlParams(redirectLink, 'coupon')
+                // }
 
                 res.redirect(redirectLink);
         

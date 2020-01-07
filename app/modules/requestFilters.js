@@ -2,10 +2,7 @@ module.exports = (req) => {
     if (req.path !== "" && req.path !== "/" &&
 
         // Our Hostnames only
-        (   req. hostname === 'security.zenmate.com' ||
-            req. hostname === 'offer.zenmate.com' ||
-            req. hostname === 'maskip.co' ||
-            req. hostname === 'hideip.tech'
+        (   req.hostname.includes('privateinternetaccess.com')
 
         ) &&
 
@@ -63,7 +60,6 @@ module.exports = (req) => {
         !req.path.includes('.woff') &&
         
         // Page Name
-        req.pageName !== 'https://offer.zenmate.com' &&
         req.pageName !== '404javascript.js' &&
         req.pageName !== 'rss' &&
         req.pageName !== '404' &&

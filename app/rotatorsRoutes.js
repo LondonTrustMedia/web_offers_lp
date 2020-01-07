@@ -4,23 +4,23 @@ module.exports = function (app) {
 
 
 
-    setTimeout(() => {
-        dbQueries.rotators.updateCache((err, rotators) => {
-            if (!err) {
-                app.rotators = rotators
-                console.log("Rotators Cache Updated")
-            }
-        })
-    }, 5000)
+    // setTimeout(() => {
+    //     dbQueries.rotators.updateCache((err, rotators) => {
+    //         if (!err) {
+    //             app.rotators = rotators
+    //             console.log("Rotators Cache Updated")
+    //         }
+    //     })
+    // }, 5000)
 
-    setInterval(function(){
-        dbQueries.rotators.updateCache((err, rotators) => {
-            if (!err) {
-                app.rotators = rotators
-                console.log("Rotators Cache Updated")
-            }
-        })
-    }, 60000)
+    // setInterval(function(){
+    //     dbQueries.rotators.updateCache((err, rotators) => {
+    //         if (!err) {
+    //             app.rotators = rotators
+    //             console.log("Rotators Cache Updated")
+    //         }
+    //     })
+    // }, 60000)
     
     // dbQueries.rotators.delete('test_24nkf23', (err) => {
     //     if (err) console.log(err)

@@ -2,7 +2,6 @@
     width: 100%;
     & h4 {
         padding: 10px 23px 20px;
-        color: #004249;
         font-size: 25px;
         font-weight: 500;
         line-height: 28px;
@@ -15,5 +14,8 @@
     }
     & img {
         height: 235px; 
+        @media screen and (max-width: $brk-min-desktop-width) {
+            height: 190px;
+        }
     }
 }

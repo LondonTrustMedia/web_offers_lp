@@ -1,0 +1,63 @@
+#singal_review {
+    & .sitting {
+        background-image: url("/img/review_bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        @include cube-box(410px);
+        flex: 0 0 410px;
+        max-width: 410px;
+        position: relative;
+
+        & h1 {
+            font-size: 30px;
+            text-align: center;
+            position: absolute;
+            top: calc(50% - 55px);
+            right: 20px;
+        }
+    }
+
+    & .review {
+        margin-left: -10px;
+        z-index: 3;
+    }
+
+    & .review_card {
+        width: 415px;
+        box-shadow: 0 0 7px #0000008c;
+        border-radius: 5px;
+
+        & .green_title {
+            color: #fff;
+            background-color: $pia-green;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        & h5 {
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+
+        & .ago {
+            height: 45px;
+            float: right;
+            margin: 0;
+            padding-top: 10px;
+        }
+
+        & .content {
+            padding: 20px 20px;
+            font-size: 14px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+    }
+
+    & .trustpilot {
+        width: 300px;
+        margin: 30px auto 0;
+    }
+}

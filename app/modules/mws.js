@@ -110,8 +110,8 @@ module.exports = (app) => {
                 // console.log('newWeight', newWeight)
                 // console.log('redirectOffer', redirectOffer)
                 let redirectLink = "" 
-                if (redirectOffer.language && redirectOffer.language !== 'auto')
-                    redirectLink += '/' + redirectOffer.language
+                // if (redirectOffer.language && redirectOffer.language !== 'auto')
+                //     redirectLink += '/' + redirectOffer.language
 
                 redirectLink += redirectOffer.link + '&' + req.search.slice(1)
                 
@@ -130,7 +130,7 @@ module.exports = (app) => {
 
                 res.redirect(redirectLink);
         
-            } else next()
+            } else next('matched key ' + matchKey + ' rotatorId - ', rotatorId)
         },
 
         setFakeCookie: (req, res, next) => {

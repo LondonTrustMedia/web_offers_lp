@@ -36,16 +36,16 @@ const dbQueries = module.exports = {
     rotators: {
 
         getAll: function(callback){
-            pool.query("SELECT * FROM rotators ORDER BY updated DESC", function (err, result) {
+            pool.query("SELECT * FROM rotators ORDER BY updated DESC", function (err, rotators) {
                 if (err) callback(err);
                 else {
-                    rotators.map(rot => {
+                    rotators = rotators.map(rot => {
                         if (typeof rot.offers === 'string' || rot.offers instanceof String)
                             rot.offers = JSON.parse(rot.offers)
                         return rot
                     });
                     console.log("Got all rotators succesfully");
-                    callback(null, result);
+                    callback(null, rotators);
                 }
             });
         },
@@ -111,7 +111,7 @@ const dbQueries = module.exports = {
                     console.log(err);
                     callback(err)
                 } else {
-                    rotators.map(rot => {
+                    rotators = rotators.map(rot => {
                         if (typeof rot.offers === 'string' || rot.offers instanceof String)
                             rot.offers = JSON.parse(rot.offers)
                         return rot

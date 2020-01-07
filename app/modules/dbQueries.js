@@ -1,36 +1,43 @@
 const fs = require('fs')
 const mysql = require('mysql');
 
-const mysqlSsh = require('mysql-ssh');
+// const mysqlSsh = require('mysql-ssh');
 let pool
 
-if (process.env.HOME) {
+// if (process.env.HOME) {
 
-    mysqlSsh.createPool({
-        host: '45.79.174.84',
-        user: 'deployer',
-        privateKey: fs.readFileSync(process.env.HOME + '/.ssh/id_rsa')
-    },
-    {
-        host: process.env.MYSQL_PRIVATELAND_URL,
-        port: 3306,
-        user: process.env.MYSQL_PRIVATELAND_USER,
-        password: process.env.MYSQL_PRIVATELAND_PASSWORD,
-        database: process.env.MYSQL_PRIVATELAND_DB
-    })
-    .then(conn => {
-        pool = conn
-    })
+//     mysqlSsh.createPool({
+//         host: '45.79.174.84',
+//         user: 'deployer',
+//         privateKey: fs.readFileSync(process.env.HOME + '/.ssh/id_rsa')
+//     },
+//     {
+//         host: process.env.MYSQL_PRIVATELAND_URL,
+//         port: 3306,
+//         user: process.env.MYSQL_PRIVATELAND_USER,
+//         password: process.env.MYSQL_PRIVATELAND_PASSWORD,
+//         database: process.env.MYSQL_PRIVATELAND_DB
+//     })
+//     .then(conn => {
+//         pool = conn
+//     })
     
-} else {
-    pool = mysql.createPool({
-        host: process.env.MYSQL_PRIVATELAND_URL,
-        port: 3306,
-        user: process.env.MYSQL_PRIVATELAND_USER,
-        password: process.env.MYSQL_PRIVATELAND_PASSWORD,
-        database: process.env.MYSQL_PRIVATELAND_DB
-    });
-}
+// } else {
+//     pool = mysql.createPool({
+//         host: process.env.MYSQL_PRIVATELAND_URL,
+//         port: 3306,
+//         user: process.env.MYSQL_PRIVATELAND_USER,
+//         password: process.env.MYSQL_PRIVATELAND_PASSWORD,
+//         database: process.env.MYSQL_PRIVATELAND_DB
+//     });
+// }
+pool = mysql.createPool({
+    host: process.env.MYSQL_PRIVATELAND_URL,
+    port: 3306,
+    user: process.env.MYSQL_PRIVATELAND_USER,
+    password: process.env.MYSQL_PRIVATELAND_PASSWORD,
+    database: process.env.MYSQL_PRIVATELAND_DB
+});
 
 const dbQueries = module.exports = {
     rotators: {

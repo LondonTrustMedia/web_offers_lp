@@ -99,13 +99,12 @@ module.exports = (app) => {
                 console.log('Detected rotator ID:', matchKey)
                 const rotator = app.rotators[matchKey]
                 let redirectOffer
-                let rotatorOffers = rotator.offers
                 let totalWeight = rotator.totalWeight
                 let newWeight = 100
                 const randomNumber = Math.floor(Math.random() * 100) + 1
 
                 try {
-                    redirectOffer = rotatorOffers.find(offer => {
+                    redirectOffer = rotator.offers.find(offer => {
                         newWeight = Math.floor(newWeight - ((offer.weight / totalWeight) * 100))
                         return (randomNumber > newWeight)
                     });

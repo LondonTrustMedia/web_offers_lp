@@ -3,26 +3,26 @@ const mysql = require('mysql');
 
 let pool
 
-if (process.env.NODE_ENV === 'local') {
+// if (process.env.NODE_ENV === 'local') {
 
-    const mysqlSsh = require('mysql-ssh');
-    mysqlSsh.createPool({
-        host: '45.79.174.84',
-        user: 'deployer',
-        privateKey: fs.readFileSync(process.env.HOME + '/.ssh/id_rsa')
-    },
-    {
-        host: process.env.MYSQL_PRIVATELAND_URL,
-        port: 3306,
-        user: process.env.MYSQL_PRIVATELAND_USER,
-        password: process.env.MYSQL_PRIVATELAND_PASSWORD,
-        database: process.env.MYSQL_PRIVATELAND_DB
-    })
-    .then(conn => {
-        pool = conn
-    })
+//     const mysqlSsh = require('mysql-ssh');
+//     mysqlSsh.createPool({
+//         host: '45.79.174.84',
+//         user: 'deployer',
+//         privateKey: fs.readFileSync(process.env.HOME + '/.ssh/id_rsa')
+//     },
+//     {
+//         host: process.env.MYSQL_PRIVATELAND_URL,
+//         port: 3306,
+//         user: process.env.MYSQL_PRIVATELAND_USER,
+//         password: process.env.MYSQL_PRIVATELAND_PASSWORD,
+//         database: process.env.MYSQL_PRIVATELAND_DB
+//     })
+//     .then(conn => {
+//         pool = conn
+//     })
     
-} else {
+// } else {
     pool = mysql.createPool({
         host: 'localhost',
         port: 3306,
@@ -30,7 +30,7 @@ if (process.env.NODE_ENV === 'local') {
         password: process.env.MYSQL_PRIVATELAND_PASSWORD,
         database: process.env.MYSQL_PRIVATELAND_DB
     });
-}
+// }
 
 const dbQueries = module.exports = {
     rotators: {

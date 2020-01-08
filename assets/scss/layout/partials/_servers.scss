@@ -22,10 +22,43 @@
             }
         }
     }
+    & .new_title {
+        padding: 0px 0 10px;
+    }
+    & p {
+        width: 80%;
+        margin: 0 auto 40px;
+        font-size: 18px;
+    }
     & .countries_flag {
         & img {
             width: 35px;
             filter: drop-shadow(0px 5px 5px #00000040);
+            transition: all 1s ease;
+            opacity: 0;
+            transform: scale(0);
+            @media screen and (max-width: $brk-ipad-width) {
+                opacity: 1;
+                transform: scale(1);
+            }
+            &.active {
+                opacity: 1;
+                transform: scale(1);
+            }
+            
+        }
+        &>div {
+            $time: .1s;
+            $rows: 3;
+            $cols: 8;
+            @for $k from 0 through $rows {
+                @for $i from 1 through $cols {
+                    &:nth-of-type(#{8*$k + $i}) img {
+                        transition-delay: $i * $time + $k * .2s;
+                    }
+                }
+            }
+            
         }
     }
     & .sub_title {
@@ -50,7 +83,10 @@
     }
 
     & .globe {
-        width: 400px;
+        width: 540px;
+        margin-top: -40px;
+        margin-left: -40px;
+        margin-bottom: -60px;
 
         @media screen and (max-width: $brk-ipad-width) {
             margin: 0 auto;

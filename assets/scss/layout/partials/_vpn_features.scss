@@ -8,16 +8,18 @@
         min-height: 160px;
         @include flexy($dir: column, $align-i: center);
         border-radius: 15px;
-        box-shadow: 0 0 5px #00000069;
+        // box-shadow: 0 0 5px #00000069;
+        box-shadow: $shadow-light;
         padding-top: 30px;
         @media screen and (max-width: $brk-mobile-width)  {
             width: 120px;
         }
+        & img {
+            height: 40px;
+            margin-bottom: 15px;
+        }
     }
-    & img {
-        height: 40px;
-        margin-bottom: 15px;
-    }
+    
     & p {
         font-size: 16px;
         margin-bottom: 5px;
@@ -25,4 +27,46 @@
         font-weight: 400;
         line-height: 1.4;
     }
-}
+    & .lifehacker_container {
+            & .container {
+                padding: 20px 192px;
+                @media screen and (max-width: $brk-desktop-width) {
+                    padding: 20px 115px;
+                }
+                @media screen and (max-width: $brk-min-desktop-width) {
+                    padding: 20px 25px;
+                }
+                @media screen and (max-width: $brk-ipad-width) {
+                    padding: 0px 15px;
+                }
+            }
+        
+            & h5 {
+                font-size: 18px;
+                @media screen and (max-width: $brk-ipad-width) {
+                    font-size: 14px;
+                }
+            }
+            & .quote {
+                width: 550px;
+                @media screen and (max-width: $brk-ipad-width)  {
+                    width: 90%;
+                }
+                & .quotes {
+                    width: 20px;
+                    top: 0;
+                    &:nth-of-type(1) {
+                        left: -20px;
+                    }
+                    &:nth-of-type(2) {
+                        right: -20px;
+                    }
+                }
+            }
+            & .lifehacker {
+                height: 35px;
+                margin-left: 30px;
+                vertical-align: baseline;
+            }
+        }
+    }

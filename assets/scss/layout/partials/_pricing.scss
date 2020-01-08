@@ -43,6 +43,9 @@
         &.container-fluid {
             min-width: 100%;
         }
+        &:hover {
+            
+        }
     }
 
     & .best-price {
@@ -79,6 +82,7 @@
         font-size: 18px;
     line-height: 1.1;
     padding: 10px 0;
+    width: 90%;
     }
 
     & .pricing-price {
@@ -86,16 +90,18 @@
         width: calc(31.6% - 30px);
         margin: 15px;
         position: relative;
-        transition: .3s box-shadow;
+        transition: .3s all;
         min-height: 300px;
         background-color: #f6f9fe;
+        // background: linear-gradient(0deg, #f6f9fe 60%, transparent);
         border-radius: 25px;
-        box-shadow: 0px 4px 5px #00000045;
+        box-shadow: $shadow-light;
 
         &:hover,
         &:focus {
             text-decoration: none;    
             box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.17);
+            transform: scale(1.05) translateY(-10px);
         }
 
         @media screen and (max-width: $brk-min-desktop-width) {
@@ -146,7 +152,7 @@
     }
     & .payments {
         & img {
-            width: 45px;
+            height: 25px;
         }
     }
 }

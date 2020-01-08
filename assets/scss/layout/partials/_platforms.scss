@@ -2,16 +2,25 @@
     & .operating_systems {
         background-image: url(/img/platforms_bg.png);
         background-repeat: no-repeat;
-        background-size: calc(100% - 55px);
-        height: 350px;
-        padding: 0 55px;
+        background-size: calc(100% - 10px);
+        padding: 0 55px 265px;
         background-position: left calc(50% - 10px) bottom;
+        @media screen and (max-width: $brk-ipad-width) {
+            background-size: 100%;
+            background-position: center bottom;
+            padding: 0 0 130px;
+        }
         & img {
             height: 55px;
+            @media screen and (max-width: $brk-ipad-width) {
+                height: 30px;
+            }
         }
     }
     & h6 {
         font-weight: 400;
+        padding: 0px 0 30px;
+        margin: 0 auto .5rem;
     }
     & .os_title {
         font-size: 14px;

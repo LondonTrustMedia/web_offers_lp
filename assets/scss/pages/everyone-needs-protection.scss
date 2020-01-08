@@ -1,0 +1,111 @@
+@import 'index';
+
+@import '../layout/navbar/navbar_white';
+
+@import '../layout/body/hp';
+
+@import '../layout/footer/people_discount';
+
+header {
+    width: 100%;
+    padding-top: 80px;
+    overflow: hidden;
+
+    & .circle {
+        background-image: url(/img/Everyone_needs_Protection_bg.jpg);
+        background-size: cover;
+        background-position: -80px 0px;
+        background-repeat: no-repeat;
+        @include cube-box(580px);
+        border-radius: 50%;
+    }
+
+    & .header_circle {
+        background-color: #E1E7EF;
+        width: 2000px;
+        border-bottom-left-radius: 1000px;
+        border-top-left-radius: 1000px;
+        padding: 15px;
+    }
+
+    & h1 {
+        font-weight: 900;
+    }
+
+    & .sub_btn {
+        font-size: 14px;
+    }
+
+    & .price {
+        font-size: 60px;
+        line-height: 1;
+
+        & .currency,
+        & .full_price {
+            font-size: 1em;
+        }
+
+        & .month {
+            font-size: .8em;
+        }
+    }
+
+    & .brands {
+        & img {
+            height: 60px;
+        }
+    }
+
+    & .circle_discount_container {
+        $width-circle: 225px;
+        background-image: url("/img/footer_green_circle.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        @include cube-box($width-circle);
+        flex-basis: $width-circle;
+        position: relative;
+        color: $white;
+        font-size: 16px;
+        position: absolute;
+        left: -50px;
+        top: 50px;
+
+        & .title {
+            position: relative;
+            top: 19%;
+            left: 22%;
+            font-size: 1.6em;
+            line-height: .9;
+            font-weight: 600;
+            text-transform: uppercase;
+            display: inline-block;
+        }
+
+        & .discount_container {
+            position: absolute;
+            top: 45%;
+            font-size: 1.05em;
+            left: 5%;
+
+            & .discount {
+                font-size: 5em;
+                font-weight: 800;
+            }
+
+            & .percent {
+                top: 0px;
+                right: -0.7em;
+                font-size: 3.5em;
+                font-weight: 700;
+            }
+
+            & .discount,
+            & .percent {
+                line-height: .7;
+                display: inline-block;
+                text-transform: uppercase;
+                vertical-align: text-top;
+            }
+        }
+    }
+}

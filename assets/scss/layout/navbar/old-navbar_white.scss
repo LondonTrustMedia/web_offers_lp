@@ -3,7 +3,6 @@
     color: $night-Rider;
     background-color: $white;
     padding: 0;
-    height: 80px;
 
     &.navbar-move {
         background-color: $white;
@@ -11,7 +10,7 @@
             @include flexy(flex, $just: space-between, $align-i: center);
         }
     }
-    & .btn_pia {
+    & .btn_hp_gradient_orange {
         @media screen and (max-width: $brk-ipad-width) {
             display: none;
         }

@@ -20,7 +20,11 @@ function counterTo() {
       });  
     });
   }
-  
+ 
+  function activate() {
+    $(".countries_flag img").addClass("active");
+  }
+
     var inView = false
     $(window).scroll(function() {
       var counterTop = $('.show_in_position').offset().top,
@@ -33,6 +37,7 @@ function counterTo() {
       } else if (!inView){
         inView = true
         counterTo()
+        activate()
       }
    });
     // -------------------------------------------------------------------------------------------

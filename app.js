@@ -71,10 +71,14 @@ app.use(mws.versioning(__dirname + '/assets'));
 
 
 app.use('/*/img/', express.static(__dirname + '/assets/img', {maxAge: cacheTime }));
+app.use('/img/', express.static(__dirname + '/assets/img', {maxAge: cacheTime }));
 app.use('css/img', express.static(__dirname + '/assets/img', {maxAge: cacheTime }));
 app.use('/*/css/', express.static(__dirname + '/assets/css', {maxAge: cacheTime }));
+app.use('/css/', express.static(__dirname + '/assets/css', {maxAge: cacheTime }));
 app.use('/*/js/', express.static(__dirname + '/assets/js', {maxAge: cacheTime }));
+app.use('/js/', express.static(__dirname + '/assets/js', {maxAge: cacheTime }));
 app.use('/*/lib/', express.static(__dirname + '/assets/lib', {maxAge: cacheTime }));
+app.use('/lib/', express.static(__dirname + '/assets/lib', {maxAge: cacheTime }));
 app.use('/offer', express.static(__dirname + '/assets', {maxAge: cacheTime }));
 app.use('/pages/offer', express.static(__dirname + '/assets', {maxAge: cacheTime }));
 app.use(express.static(__dirname + '/assets', {maxAge: cacheTime }));

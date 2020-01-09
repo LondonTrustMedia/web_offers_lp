@@ -1,3 +1,5 @@
+$shadow-light: 0px 4px 5px #00000045;
+
 @import '../partials/pcmag_bar';
 @import '../partials/intro_video';
 @import '../partials/HP_why_PIA';
@@ -5,8 +7,7 @@
 @import '../partials/pricing';
 @import '../partials/vpn_features';
 @import '../partials/servers';
-@import '../partials/trustpilot/singal_review';
-@import '../partials/lifehacker_bar';
-@import '../partials/platforms_and_payment';
+@import '../partials/singal_review';
+@import '../partials/platforms';
 @import '../partials/why_us';
 @import '../partials/sponsors';

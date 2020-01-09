@@ -1,35 +1,37 @@
 <section id="pricing" class="<%- event ? event.name : '' %>">
     <div class="container text-center">
-        <h3 class="hp"><%- gettext('Risk Free. 7 day money back guarantee') %></h3>
-        <h1><%- gettext('Limited Time Only! Act Now') %></h1>
+        <h3 class="new_subtitle"><%- gettext('Risk Free. 7 day money back guarantee') %></h3>
+        <h1 class="new_title"><%- gettext('Limited Time Only! Act Now') %></h1>
         <div class="flex-pricing">
             <% prices.blocks.forEach((block, i) => { %>
                 <a href="<%- offerLink %>" class="d-flex flex-column justify-content-between pricing-price <%- block.best ? 'best-price' : '' %>" data-text=" <%- block.best ? gettext('BEST VALUE') : '' %>">
                     <div class="title">
                         <% if (block.months % 12 !== 0) { %>
                             <% if (block.months === 1) { %>
-                                <h5 class="pricing-duration"><%- gettext('Monthly') %></h5>
+                                <h5 class="pricing-duration color_dark_green"><%- gettext('Monthly') %></h5>
                             <% } else { %>
-                                <h5 class="pricing-duration"><%- block.months %>&nbsp;<%- gettext('Months') %></h5>
+                                <h5 class="pricing-duration color_dark_green"><%- block.months %>&nbsp;<%- gettext('Months') %></h5>
                             <% } %>
                         <% } else { %>
                             <% if (block.months === 12) { %>
-                                <h5 class="pricing-duration"><%- gettext('Yearly') %></h5>
+                                <h5 class="pricing-duration color_dark_green"><%- gettext('Yearly') %></h5>
                             <% } else { %>
-                                <h5 class="pricing-duration"><%- block.months/12 %>&nbsp;<%- gettext('Years') %></h5>
+                                <h5 class="pricing-duration color_dark_green"><%- block.months/12 %>&nbsp;<%- gettext('Years') %></h5>
                             <% } %>
                         <% } %>
                         <hr class="green_line">
                     </div>
                     <div class="pricing_container">
-                        <% if (block.discount) { %>
-                            <h3 class="pricing-save"><%- format(gettext('SAVE %s%'), [block.discount]) %></h3>
+                        <% if (block.best) { %>
+                            <h3 class="pricing-save color_pia_orange">- <%- format(gettext('SAVE %s%'), [block.discount]) %> -</h3>
+                            <img src="/img/pia_lockman/pia_lockman_superlock.svg" class="super_price">
                         <% } %>
-                        <div class="pricing-bill">
-                            <span class="price-currency"><%- currency.symbol %></span><%- block[currency.iso].perMonthNumber %>
+                        <div class="pricing-bill color_dark_green">
+                            <span class="price-currency"><%- currency.symbol %></span>
+                            <span class="perMonthNumber"><%- block[currency.iso].perMonthNumber %></span>
                             <span class="month"><%- gettext('/mo') %></span>
                         </div>
-                        <div class="pricing-every">
+                        <div class="pricing-every color_dark_green">
                             <% if (block.months % 12 !== 0) { %>
                                 <% if (block.months === 1) { %>
                                     <%- format(gettext('<span class="text-danger font-weight-bold"><del>%s</del></span> %s per month'), [oldPrices.blocks[i][currency.iso] == block[currency.iso].total ? '' : oldPrices.blocks[i][currency.iso], block[currency.iso].total]) %>
@@ -44,16 +46,22 @@
                                 <% } %>
                             <% } %>
                         </div>
-                        <div class="btn_hp_gradient_orange container-fluid"><%- gettext('Sign up now') %></div>
-                        <% if (block.best) { %>
-                            <% if (event && event.coupon) { %>
-                                <img src="img/<%- event.name %>_bestprices.png" alt="<%- event.name %>" class="bestprice_img" onerror="this.style.display='none'">
-                            <% } %>
-                        <% } %>
+                        <div class="btn_pia container-fluid small <%- block.best ? 'orange' : 'green' %>"><%- gettext('Sign up now') %></div>
                     </div>
                 </a>
             <% }) %>
         </div>
-        <div class="currency-alert">*<%- format(gettext('All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month'), [currency.symbol, prices.blocks[0][currency.iso].perMonthNumber]) %></div>
+        <div class="currency-alert color_dark_green mx-auto">*<%- format(gettext('All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month'), [currency.symbol, prices.blocks[0][currency.iso].perMonthNumber]) %></div>
+        <div class="payments">
+            <div class="d-inline-block mx-2 mb-2"><img src="/img/payments/payment_icon_paypal.png" alt="paypal"></div>
+            <div class="d-inline-block mx-2 mb-2"><img src="/img/payments/payment_icon_visa.png" alt="visa"></div>
+            <div class="d-inline-block mx-2 mb-2"><img src="/img/payments/payment_icon_mastercard.png" alt="mastercard"></div>
+            <div class="d-inline-block mx-2 mb-2"><img src="/img/payments/payment_icon_amex.png" alt="amex"></div>
+            <div class="d-inline-block mx-2 mb-2"><img src="/img/payments/payment_icon_discover.png" alt="discover"></div>
+            <div class="d-inline-block mx-2 mb-2"><img src="/img/payments/payment_icon_amazon.png" alt="amazon"></div>
+            <div class="d-inline-block mx-2 mb-2"><img src="/img/payments/payment_icon_bitcoin.png" alt="bitcoin"></div>
+            <div class="d-inline-block mx-2 mb-2"><img src="/img/payments/payment_icon_paygarden.png" alt="paygarden"></div>
+            <div class="d-inline-block mx-2 mb-2"><img src="/img/payments/payment_icon_target.png" alt="target"></div>
+        </div>
     </div>
 </section>

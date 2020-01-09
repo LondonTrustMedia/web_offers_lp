@@ -65,7 +65,9 @@ a {
 .color_white {
     color: $white;
 }
-
+.color_dark_green {
+    color: #004249;
+}
 // flex containers
 .flex_container_column {
     @include flexy($just: center); 
@@ -76,6 +78,9 @@ a {
 // section
 section {
     padding: 50px 0;
+    padding: 30px 0;
+    overflow: hidden;
+
 }
 h3.hp {
     font-size: 23px;
@@ -83,7 +88,7 @@ h3.hp {
     padding: 20px 0 40px;
     font-weight: 400;
 }
-h3.new {
+.new_title {
     font-size: 35px;
     color: #004249;
     padding: 0px 0 30px;
@@ -91,6 +96,15 @@ h3.new {
     @media screen and (max-width: $brk-ipad-width) {
         font-size: 25px;
         padding: 0px 0 20px;
+    }
+}
+.new_subtitle {
+    font-weight: 300;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #004249;
+    @media screen and (max-width: $brk-ipad-width) {
+        font-size: 20px;
     }
 }
 .tob_bottom_borders {

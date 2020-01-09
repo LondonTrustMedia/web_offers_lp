@@ -1,0 +1,50 @@
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('/css/everyone-needs-protection.css') %>">
+    <link rel="stylesheet" href="https://use.typekit.net/syh7gcy.css">
+</head>
+
+    <body>
+        <% include ../navbar/navbar_white %>
+        <header>
+            <div class="container color_dark_green d-flex justify-content-center">
+                <div class="col-5 d-flex justify-content-center flex-column">
+                    <h1><%- gettext("Everyone needs Protection") %></h1>
+                    <div class="price my-3">
+                        <span class="currency"><%- currency.symbol %></span>
+                        <span class="full_price"><%- prices.blocks[1].USD.perMonthNumber %></span>
+                        <span class="month"><%- gettext("/mo") %></span>
+                    </div>
+                    <div class="d-block">
+                        <a href="<%- offerLink %>" class="btn_pia orange"><%- gettext("Get Private Internet Access") %></a>
+                        <h5 class="sub_btn my-3"><%- gettext("Try it risk free! 7 day money back guarantee") %></h5>
+                    </div>
+                    <div class="brands">
+                        <div class="d-inline-block mr-4"><img src="/img/brand_logo_pcmag.png" alt="pcmag"></div>
+                        <div class="d-inline-block mr-4"><img src="/img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                        <div class="d-inline-block"><img src="/img/brand_logo_cnet.png" alt="cnet"></div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="circle_discount_container">
+                        <div class="title text-center"><%- gettext("today's<br>offer") %></div>
+                        <div class="discount_container">
+                            <div class="discount">-<%- prices.blocks[1].discount %></div>
+                            <div class="percent">%</div>
+                        </div>
+                    </div>
+                    <div class="header_circle">
+                        <div class="circle">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <% include ../body/hp %>
+        <% include ../partials/footers/people_discount %>
+        <% include ../partials/tag_manager %>
+    </body>
+
+</html>

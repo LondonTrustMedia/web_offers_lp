@@ -1,0 +1,86 @@
+#singal_review {
+    & .container {
+        @media screen and (max-width: $brk-min-desktop-width) {
+            flex-direction: column;
+        }
+    }
+    & .sitting {
+        background-image: url("/img/review_bg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        @include cube-box(410px);
+        flex: 0 0 410px;
+        max-width: 410px;
+        position: relative;
+        @media screen and (max-width: $brk-ipad-width) {
+            background: unset;
+            flex: unset;
+            max-width: 100%;
+            width: 100%;
+            height: unset;
+        }
+        & h1 {
+            font-size: 30px;
+            text-align: center;
+            position: absolute;
+            top: calc(50% - 55px);
+            right: 20px;
+            @media screen and (max-width: $brk-ipad-width) {
+                position: relative;
+                top: 0;
+                right: unset;
+                display: block!important;
+            }
+        }
+    }
+
+    & .review {
+        margin-left: -10px;
+        z-index: 3;
+        @media screen and (max-width: $brk-ipad-width) {
+            margin-left: 0;
+        } 
+    }
+
+    & .review_card {
+        width: 415px;
+        box-shadow: $shadow-light;
+        border-radius: 5px;
+        @media screen and (max-width: $brk-ipad-width) {
+            width: 100%;
+        }
+
+        & .green_title {
+            color: #fff;
+            background-color: $pia-green;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        & h5 {
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+
+        & .ago {
+            height: 45px;
+            float: right;
+            margin: 0;
+            padding-top: 10px;
+        }
+
+        & .content {
+            padding: 20px 20px;
+            font-size: 14px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+    }
+
+    & .trustpilot {
+        width: 300px;
+        margin: 30px auto 0;
+    }
+}

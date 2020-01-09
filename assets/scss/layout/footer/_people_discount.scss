@@ -3,7 +3,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-
+    & h3 {
+        padding: 0px;
+        margin: 0;
+    }
     & .circle {
         $width-circle: 225px;
         background-image: url("/img/footer_green_circle.png");
@@ -61,10 +64,5 @@
             font-size: 3.5em;
             font-weight: 700;
         }
-        // & .off {
-        //     bottom: -3px;
-        //     font-size: 1.3em;
-        //     font-weight: 700;
-        // }
     }
 }

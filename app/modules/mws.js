@@ -9,18 +9,18 @@ let event = getEvent()
 
 let cache = [];
 
-setInterval(() => {
-    event = getEvent()
-}, 60000);
+// setInterval(() => {
+//     event = getEvent()
+// }, 60000);
 
-var affFilter = [
-    '7212',
-    '7208',
-    '7109',
-    '6959',
-    '6476',
-    '5822'
-]
+// var affFilter = [
+//     '7212',
+//     '7208',
+//     '7109',
+//     '6959',
+//     '6476',
+//     '5822'
+// ]
 
 module.exports = (app) => {
 
@@ -28,7 +28,7 @@ module.exports = (app) => {
         setVariables: (req, res, next) => {
             res.locals.query = req.query
             res.locals.urlSearch = req.search = req.url.split('?').length > 1 ? '?' + req.url.split('?')[1] : "?"
-            res.locals.pageName = req.pageName = req.path.replace('/pages/offer', '').replace('/offer', '').replace('/amp', '').slice(1).replace('.html', '').replace('.HTML', '').replace(/\/$/, '')
+            res.locals.pageName = req.pageName = req.path.replace('/offer', '').replace('/amp', '').slice(1).replace('.html', '').replace('.HTML', '').replace(/\/$/, '')
             res.locals.path = req.path
             res.locals.event = req.event = event
             // if (event && event.coupon)
@@ -70,7 +70,7 @@ module.exports = (app) => {
             }
         
             var cookie = req.signedCookies['pia_lang'];
-            var noLangInUrl = req.originalUrl.replace('/pages/offer', '').replace('/offer', '').indexOf(req.pageName) == 1
+            var noLangInUrl = req.originalUrl.replace('/offer', '').indexOf(req.pageName) == 1
             // console.log('cookie', cookie)
             // console.log('noLangInUrl', noLangInUrl)
         

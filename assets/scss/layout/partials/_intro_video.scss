@@ -12,6 +12,10 @@
         border: solid 15px #F6F9FE;
         border-radius: 15px;
         box-shadow: $shadow-light;
+        width: 830px;
+        height: 480px;
+        overflow: hidden;
+        margin: 0 auto;
 
         @media screen and (max-width: $brk-ipad-width) {
             border: solid 5px #f6f9fe;
@@ -19,7 +23,6 @@
         }
 
         & img {
-            width: 800px;
             height: 450px;
             position: relative;
             z-index: 2;

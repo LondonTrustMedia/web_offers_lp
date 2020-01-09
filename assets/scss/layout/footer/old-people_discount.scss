@@ -1,12 +1,12 @@
 #people_discount {
-    background-image: url("/img/footer_bg_people.png");
+    background-image: url("img/footer_bg_people.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
 
     & .circle {
         $width-circle: 225px;
-        background-image: url("/img/footer_green_circle.png");
+        background-image: url("img/footer_green_circle.png");
         background-size: contain;
         background-repeat: no-repeat;
         @include cube-box($width-circle);

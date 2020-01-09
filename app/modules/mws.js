@@ -3,7 +3,11 @@ const fs = require('fs');
 const norobot = require('norobot');
 const prices = require('./../json/prices.json');
 const slackApi = require('./slackApi.js');
+const path = require('path')
+const cs = require('checksum');
 let event = getEvent()
+
+let cache = [];
 
 setInterval(() => {
     event = getEvent()
@@ -24,7 +28,7 @@ module.exports = (app) => {
         setVariables: (req, res, next) => {
             res.locals.query = req.query
             res.locals.urlSearch = req.search = req.url.split('?').length > 1 ? '?' + req.url.split('?')[1] : "?"
-            res.locals.pageName = req.pageName = req.path.replace('/offer', '').replace('/amp', '').slice(1).replace('.html', '').replace('.HTML', '').replace(/\/$/, '')
+            res.locals.pageName = req.pageName = req.path.replace('/pages/offer', '').replace('/offer', '').replace('/amp', '').slice(1).replace('.html', '').replace('.HTML', '').replace(/\/$/, '')
             res.locals.path = req.path
             res.locals.event = req.event = event
             // if (event && event.coupon)
@@ -66,7 +70,7 @@ module.exports = (app) => {
             }
         
             var cookie = req.signedCookies['pia_lang'];
-            var noLangInUrl = req.originalUrl.replace('/offer', '').indexOf(req.pageName) == 1
+            var noLangInUrl = req.originalUrl.replace('/pages/offer', '').replace('/offer', '').indexOf(req.pageName) == 1
             // console.log('cookie', cookie)
             // console.log('noLangInUrl', noLangInUrl)
         
@@ -369,6 +373,32 @@ module.exports = (app) => {
                     res.type('txt').send('Not found')
                 }
             })
+        },
+    
+        versioning: (rootPath) => {
+            var checksumify = function(file) {
+                file = file.toLowerCase()
+                if(cache[file])
+                    return cache[file]
+            
+                var filePath = path.join(rootPath, file)
+                // console.log('filePath', filePath)
+
+                if(!fs.existsSync(filePath))
+                    return file
+            
+                var data = fs.readFileSync(filePath)
+            
+                cache[file] = file + '?' + cs(data).substr(0, 10)
+                return cache[file]
+            }
+            
+            return function(req, res, next) {
+                res.locals.asset = function(file) {
+                    return checksumify(file)
+                }
+                next()
+            }
         }
     }
     return middleWares

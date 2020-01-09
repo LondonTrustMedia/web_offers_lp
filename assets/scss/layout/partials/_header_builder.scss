@@ -88,7 +88,7 @@ header {
         }
     }
     & .discount_badge {
-        background-image: url(/img/discount_badge_green.svg);
+        background-image: url(img/discount_badge_green.svg);
         @include cube-box(150px);
         background-size: contain;
         background-repeat: no-repeat;

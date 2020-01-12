@@ -1,8 +1,7 @@
 $(document).ready(function () {
-    var headerH = $("header").height();
     window.addEventListener('scroll', function (e) {
     
-        if (($(this).scrollTop()) > headerH) {
+        if (($(this).scrollTop()) > 0) {
             $("#navbar-main").addClass("navbar-move");
             // $("#coupon").addClass("coupon-move");
         } else {

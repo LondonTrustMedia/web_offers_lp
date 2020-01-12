@@ -14,11 +14,11 @@
 
         & .d-flex {
             @media screen and (max-width: $brk-ipad-width) {
-                width: 315px;
+                width: 350px;
                 margin: 0 auto;
             }
             @media screen and (max-width: $brk-mobile-width) {
-                width: 260px;
+                width: 280px;
             }
         }
     }
@@ -33,19 +33,16 @@
     & .countries_flag {
         & img {
             width: 40px;
-            // filter: drop-shadow(0px 5px 5px #00000040);
-            transition: all 1s ease;
-            opacity: 0;
-            transform: scale(0);
+            
+            @include prefix((
+                transition: all 1s ease,
+                transform: scale(0)), webkit moz ms);
             @media screen and (max-width: $brk-ipad-width) {
-                opacity: 1;
-                // transform: scale(1);
+                @include prefix((transform: scale(1)), webkit moz ms);
             }
             &.active {
-                opacity: 1;
-                // transform: scale(1);
+                @include prefix((transform: scale(1)), webkit moz ms);
             }
-            
         }
         &>div {
             $time: .1s;
@@ -54,7 +51,7 @@
             @for $k from 0 through $rows {
                 @for $i from 1 through $cols {
                     &:nth-of-type(#{8*$k + $i}) img {
-                        transition-delay: $i * $time + $k * .2s;
+                        @include prefix((transition-delay: $i * $time + $k * .2s), webkit moz ms);
                     }
                 }
             }

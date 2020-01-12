@@ -30,11 +30,12 @@
     font-size: 20px;
     text-align: center;
     border-radius: 30px;
-    transition: all .2s ease 0s;
+    @include prefix((transition: all .2s ease 0s), webkit moz ms);
     padding: 15px 20px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     text-transform: capitalize;
+    box-shadow: 0px 0px 5px #00000045;
 
     @media screen and (max-width: $brk-mobile-width) {
         & {
@@ -54,9 +55,8 @@
     .btn_pia {
         @extend %btn_default;
         &:hover {
-            // filter: hue-rotate(-25deg) brightness(1.1);
-            // box-shadow: 0 0 8px #0000008c;
             color: #fff;
+            @include prefix((transform: scale(1.05) translateY(-5px)), webkit moz ms);
         }
         &.small {    
             font-size: 20px;

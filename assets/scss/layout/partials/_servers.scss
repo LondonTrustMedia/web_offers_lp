@@ -39,11 +39,11 @@
             transform: scale(0);
             @media screen and (max-width: $brk-ipad-width) {
                 opacity: 1;
-                transform: scale(1);
+                // transform: scale(1);
             }
             &.active {
                 opacity: 1;
-                transform: scale(1);
+                // transform: scale(1);
             }
             
         }

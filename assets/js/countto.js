@@ -30,7 +30,7 @@ function counterTo() {
       var counterTop = $('.show_in_position').offset().top,
           counterBottom = $('.show_in_position').offset().top + $('.show_in_position').outerHeight(),
           scrollTop = $(this).scrollTop();
-          scrollBottom = $(this).scrollTop() + window.innerHeight;
+          scrollBottom = $(this).scrollTop() + window.innerHeight * 0.7;
   
       if (scrollBottom < counterTop || scrollTop > counterBottom) {
         inView = false

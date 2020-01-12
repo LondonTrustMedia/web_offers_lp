@@ -58,11 +58,30 @@ app.use(i18n.abide({
 // });
 
 // serving static files + versioning mechanism
-var assetPath = path.join(__dirname, 'assets');
-const cacheTime = 30 * 24 * 60 * 60 * 1000 /* 30 Days */
-app.use(express.static(assetPath, {maxAge: cacheTime }));
-app.use('/assets', express.static(assetPath, {maxAge: cacheTime }));
-app.use(assets('/assets', assetPath));
+// var assetPath = path.join(__dirname, 'assets');
+// const cacheTime = 30 * 24 * 60 * 60 * 1000 /* 30 Days */
+// app.use(express.static(assetPath, {maxAge: cacheTime }));
+// app.use('/assets', express.static(assetPath, {maxAge: cacheTime }));
+// app.use(assets('/assets', assetPath));
+
+
+const cacheTime = 365 * 24 * 60 * 60 * 1000 /* 365 Days - 1 Year */
+
+app.use(mws.versioning(__dirname + '/assets'));
+
+
+app.use('/*/img/', express.static(__dirname + '/assets/img', {maxAge: cacheTime }));
+app.use('/img/', express.static(__dirname + '/assets/img', {maxAge: cacheTime }));
+app.use('css/img', express.static(__dirname + '/assets/img', {maxAge: cacheTime }));
+app.use('/*/css/', express.static(__dirname + '/assets/css', {maxAge: cacheTime }));
+app.use('/css/', express.static(__dirname + '/assets/css', {maxAge: cacheTime }));
+app.use('/*/js/', express.static(__dirname + '/assets/js', {maxAge: cacheTime }));
+app.use('/js/', express.static(__dirname + '/assets/js', {maxAge: cacheTime }));
+app.use('/*/lib/', express.static(__dirname + '/assets/lib', {maxAge: cacheTime }));
+app.use('/lib/', express.static(__dirname + '/assets/lib', {maxAge: cacheTime }));
+app.use('/offer', express.static(__dirname + '/assets', {maxAge: cacheTime }));
+app.use(express.static(__dirname + '/assets', {maxAge: cacheTime }));
+
 
 
 // MiddleWares ======================================================================
@@ -70,7 +89,7 @@ app.use(assets('/assets', assetPath));
 app.use(mws.setVariables);
 // app.use(mws.forceCoupon('bf1643'))
 app.use(mws.rotatorIdCheck)
-app.use(mws.languageRedirects);
+// app.use(mws.languageRedirects);
 // app.use(mws.setFakeCookie);
 
 // routes ======================================================================

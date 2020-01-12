@@ -41,7 +41,7 @@
         }
         &:after {
             content: attr(data-text);
-            background-image: url(/img/pricing_badge.png);
+            background-image: url(img/pricing_badge.png);
             background-repeat: no-repeat;
             background-size: contain;
             @include cube-box(66px);

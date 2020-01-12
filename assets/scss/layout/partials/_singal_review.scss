@@ -5,7 +5,7 @@
         }
     }
     & .sitting {
-        background-image: url("/img/review_bg.png");
+        background-image: url("img/review_bg.png");
         background-repeat: no-repeat;
         background-size: contain;
         @include cube-box(410px);

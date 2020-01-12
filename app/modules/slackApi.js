@@ -57,14 +57,14 @@ var slackApi = module.exports = {
             ]
         }
 
-        if (requestFilter(req)) {
+        // if (requestFilter(req)) {
             webhook.send(options, function(err, res) {
                 if (err) 
                     console.log(err);
                 else 
                     console.log('Message sent to Slack');
             });
-        }
+        // }
     
     }
 }

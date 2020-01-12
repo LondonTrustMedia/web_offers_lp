@@ -3,20 +3,24 @@ const fs = require('fs');
 const norobot = require('norobot');
 const prices = require('./../json/prices.json');
 const slackApi = require('./slackApi.js');
+const path = require('path')
+const cs = require('checksum');
 let event = getEvent()
 
-setInterval(() => {
-    event = getEvent()
-}, 60000);
+let cache = [];
 
-var affFilter = [
-    '7212',
-    '7208',
-    '7109',
-    '6959',
-    '6476',
-    '5822'
-]
+// setInterval(() => {
+//     event = getEvent()
+// }, 60000);
+
+// var affFilter = [
+//     '7212',
+//     '7208',
+//     '7109',
+//     '6959',
+//     '6476',
+//     '5822'
+// ]
 
 module.exports = (app) => {
 
@@ -369,6 +373,32 @@ module.exports = (app) => {
                     res.type('txt').send('Not found')
                 }
             })
+        },
+    
+        versioning: (rootPath) => {
+            var checksumify = function(file) {
+                file = file.toLowerCase()
+                if(cache[file])
+                    return cache[file]
+            
+                var filePath = path.join(rootPath, file)
+                // console.log('filePath', filePath)
+
+                if(!fs.existsSync(filePath))
+                    return file
+            
+                var data = fs.readFileSync(filePath)
+            
+                cache[file] = file + '?' + cs(data).substr(0, 10)
+                return cache[file]
+            }
+            
+            return function(req, res, next) {
+                res.locals.asset = function(file) {
+                    return checksumify(file)
+                }
+                next()
+            }
         }
     }
     return middleWares

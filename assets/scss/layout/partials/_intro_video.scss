@@ -1,4 +1,7 @@
 #intro_video {
+    @media screen and (max-width: $brk-ipad-width) {
+        display: none;
+    }
     & .modal-content {
         background-color: transparent;
         border: none;

@@ -18,12 +18,16 @@
         &>div {
             padding: 20px 30px;
             white-space: nowrap;
-
-            @media screen and (max-width: $brk-ipad-width) {
+            &:nth-child(n+7) {
+                @media screen and (max-width: $brk-mobile-width) {
+                    display: none;
+                }
+            }
+            @media screen and (max-width: $brk-mobile-width) {
                 width: 100%;
                 max-width: 335px;
                 margin: 0 auto;
-                padding: 20px 0px;
+                padding: 10px 0px;
             }
         }
     }

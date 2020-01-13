@@ -25,6 +25,11 @@
             position: absolute;
             top: calc(50% - 55px);
             right: 20px;
+            & br {
+                @media screen and (max-width: $brk-ipad-width) {
+                    display: none;
+                }
+            }
             @media screen and (max-width: $brk-ipad-width) {
                 position: relative;
                 top: 0;

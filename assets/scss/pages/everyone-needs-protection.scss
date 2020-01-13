@@ -64,10 +64,13 @@ header {
     & .man {
        position: absolute;
        width: 850px;
+       width: 575px;
+
        left: 25px;
        z-index: 5;
        @media screen and (max-width: $brk-desktop-width) { 
         width: 665px;
+        width: 460px;
         left: -5px;
        }
     }

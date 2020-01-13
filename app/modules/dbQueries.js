@@ -7,7 +7,7 @@ if (process.env.NODE_ENV === 'local') {
 
     const mysqlSsh = require('mysql-ssh');
     mysqlSsh.createPool({
-        host: '45.79.174.84',
+        host: '66.175.208.210',
         user: 'deployer',
         privateKey: fs.readFileSync(process.env.HOME + '/.ssh/id_rsa')
     },

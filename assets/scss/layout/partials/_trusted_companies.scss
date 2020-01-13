@@ -11,6 +11,9 @@
 
     & img {
         height: 40px;
+        @media screen and (max-width: $brk-ipad-width) {
+            height: 30px;
+        }
     }
 
     & .d-flex {
@@ -26,11 +29,8 @@
             margin: 10px 0;
 
             @media screen and (max-width: $brk-ipad-width) {
-                width: 160px;
-            }
-
-            @media screen and (max-width: 540px) {
-                width: 100%;
+                width: 120px;
+                margin: 5px 0;
             }
         }
     }

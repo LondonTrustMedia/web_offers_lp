@@ -34,7 +34,7 @@ module.exports = (app) => {
             // if (event && event.coupon)
             //     middleWares.forceCoupon(event.coupon, req, res)
             
-            res.locals.offerLink = req.offerLink = 'https://www.privateinternetaccess.com/pages/buy-now/' + (req.query && req.query.coupon ? req.query.coupon : '')
+            res.locals.offerLink = req.offerLink = 'https://www.privateinternetaccess.com/pages/buy-now/' + (req.query && req.query.coupon ? req.query.coupon : '') + req.search
             next()
         },
 

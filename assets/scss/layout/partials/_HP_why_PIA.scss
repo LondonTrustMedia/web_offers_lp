@@ -1,23 +1,32 @@
 #why_pia {
     width: 100%;
     & h4 {
-        padding: 10px 23px 20px;
-        font-size: 25px;
+        padding: 10px 12%;
+        font-size: 20px;
         font-weight: 500;
         line-height: 28px;
         width: 90%;
         @media screen and (max-width: $brk-min-desktop-width){
-            padding: 10px 15px 20px;
-            font-size: 20px;
+            padding-bottom: 5px;
             line-height: 1.1;
             width: 100%;
         }
     }
     & p {
         color: #4F4F4F;
-        font-size: 18px;
+        font-size: 16px;
         line-height: 26px;
         font-weight: 400;
+        @media screen and (max-width: $brk-ipad-width){
+            margin-bottom: 40px;
+        }
+    }
+    & .col-lg-4:nth-last-child(1) {
+        & p {
+            @media screen and (max-width: $brk-ipad-width){
+                margin-bottom: 0;
+            }
+        }
     }
     & img {
         height: 200px;

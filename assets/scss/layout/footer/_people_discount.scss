@@ -13,24 +13,11 @@
         background-size: contain;
         background-repeat: no-repeat;
         @include cube-box($width-circle);
-        flex-basis: $width-circle;
+        width: 215px;
+        flex-basis: 215px;
         position: relative;
         color: $white;
         font-size: 16px;
-
-        & .new {
-            @include cube-box($width-circle/3.7);
-            background-color: $pia-orange;
-            border-radius: 50%;
-            position: absolute;
-            right: 5%;
-            top: 15%;
-            font-size: 1.2em;
-            text-transform: uppercase;
-            padding: 9% 4% 3%;
-            line-height: 1;
-            font-weight: 600;
-        }
     }
     & .title {
         position: relative;

@@ -4,19 +4,32 @@
     background-color: $white;
     padding: 0;
     height: 80px;
+    box-shadow: 0px 0px 0px #00000045;
+    @include prefix((transition: box-shadow .2s), webkit moz ms);
 
+    @media screen and (max-width: $brk-ipad-width) {
+        height: 60px;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+        height: 50px;
+    }
     &.navbar-move {
         background-color: $white;
+        box-shadow: 0px 4px 5px #00000045;
+
         & .container {
             @include flexy(flex, $just: space-between, $align-i: center);
         }
     }
+
     & .btn_pia {
         @media screen and (max-width: $brk-ipad-width) {
-            display: none;
+            font-size: 14px;
+            padding: 5px 10px;
+            min-width: 115px;
         }
     }
-  
+
 
     & .container {
 
@@ -24,18 +37,17 @@
             max-width: unset;
             padding: 0 10%;
         }
+
         & .logo {
             height: 40px;
-            margin: 15px 0;
-    
+
             @media screen and (max-width: $brk-ipad-width) {
                 height: 25px;
-                margin: 22.5px 0;
-            } 
+            }
+
             @media screen and (max-width: $brk-mobile-width) {
                 height: 20px;
-                margin: 25px 0;
-            } 
+            }
         }
     }
 
@@ -51,16 +63,16 @@
             font-size: 13px;
             text-transform: uppercase;
             font-weight: 700;
-    
+
             &:hover,
             &:active,
             &:hover span,
             &:active span {
                 color: $black;
             }
-    
+
             & span {
-                transition: color .1s linear;
+                @include prefix((transition: color .1s linear), webkit moz ms);
             }
         }
 
@@ -69,7 +81,7 @@
             position: absolute;
             top: 65px;
             background-color: #fff;
-            transition: opacity 0.3s ease;
+            @include prefix((transition: opacity 0.3s ease), webkit moz ms);
             visibility: hidden;
             opacity: 0;
             width: 200px;

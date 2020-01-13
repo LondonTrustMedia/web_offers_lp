@@ -80,7 +80,14 @@ section {
     padding: 50px 0;
     padding: 30px 0;
     overflow: hidden;
-
+    @media screen and (max-width: $brk-mobile-width) {
+        padding: 20px 0;
+    }
+}
+p,q {
+    @media screen and (max-width: $brk-mobile-width) {
+        font-size: 16px!important;
+    } 
 }
 h3.hp {
     font-size: 23px;
@@ -96,6 +103,9 @@ h3.hp {
     @media screen and (max-width: $brk-ipad-width) {
         font-size: 25px;
         padding: 0px 0 20px;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+        padding: 0px 0 10px;
     }
 }
 .new_subtitle {

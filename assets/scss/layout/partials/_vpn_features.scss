@@ -9,13 +9,14 @@
         @include flexy($dir: column, $align-i: center);
         border-radius: 15px;
         box-shadow: $shadow-light;
-        padding: 5px;
-        padding-top: 30px;
+        padding: 30px 5px 5px;
+        
         @media screen and (max-width: $brk-ipad-width - 1) {
             min-height: 120px;
             height: 120px;
             width: 120px;
             justify-content: center;
+            padding: 5px;
         }
         @media screen and (max-width: $brk-mobile-width)  {
             width: 120px;

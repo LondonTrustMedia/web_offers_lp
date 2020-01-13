@@ -4,7 +4,15 @@
         margin: 0;
     }
     & .logos {
+        @media screen and (max-width: $brk-desktop-width) {
+            width: 550px;
+            margin: 0 auto;
+        }
+        @media screen and (max-width: 580px) {
+            width: 100%; 
+        }
         & div{
+           
             &:nth-of-type(1) img {
                 width: 65px;
             }

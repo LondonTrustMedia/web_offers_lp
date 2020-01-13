@@ -56,7 +56,7 @@
         @extend %btn_default;
         &:hover {
             color: #fff;
-            @include prefix((transform: scale(1.05) translateY(-5px)), webkit moz ms);
+            @include prefix((transform: scale(1.05)), webkit moz ms);
         }
         &.small {    
             font-size: 20px;

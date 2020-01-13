@@ -52,19 +52,19 @@ header {
         padding: 15px;
     }
 
-    & h1 {
-        font-weight: 900;
+    & h2 {
+        line-height: 1;
         @media screen and (max-width: $brk-desktop-width) {
-            font-size: 35px;
+            font-size: 26px;
         }
         & b {
-            font-size: 1.5em;
+            font-size: 2em; 
         }
     }
     & .man {
        position: absolute;
        width: 850px;
-       left: -55px;
+       left: 25px;
        z-index: 5;
        @media screen and (max-width: $brk-desktop-width) { 
         width: 665px;

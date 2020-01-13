@@ -69,6 +69,7 @@
             float: right;
             margin: 0;
             padding-top: 10px;
+            display: none!important;
         }
 
         & .content {
@@ -82,5 +83,10 @@
     & .trustpilot {
         width: 300px;
         margin: 30px auto 0;
+    }
+    & .trustpilot_based {
+        font-weight: 300;
+        font-size: 1.1rem;
+        margin-top: 5px;
     }
 }

@@ -150,6 +150,13 @@
         align-self: flex-end;
     }
     & .payments {
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            width: 400px;
+            margin: 0 auto;
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            width: 100%;
+        }
         & img {
             height: 25px;
         }

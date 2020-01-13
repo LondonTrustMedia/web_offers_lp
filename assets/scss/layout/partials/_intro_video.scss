@@ -17,13 +17,25 @@
         overflow: hidden;
         margin: 0 auto;
 
+        @media screen and (max-width: $brk-desktop-width) {
+            width: 650px;
+            height: 380px;
+        }
+
         @media screen and (max-width: $brk-ipad-width) {
             border: solid 5px #f6f9fe;
             border-radius: 0px;
+            width: 395px;
+            height: 225px;
+        }
+
+        @media screen and (max-width: $brk-mobile-width) {
+            width: 270px;
+            height: 155px;
         }
 
         & img {
-            height: 450px;
+            width: 100%;
             position: relative;
             z-index: 2;
             opacity: 1;
@@ -33,17 +45,7 @@
                 z-index: -1;
             }
 
-            @media screen and (max-width: $brk-min-desktop-width) {
-                width: 620px;
-            }
 
-            @media screen and (max-width: $brk-ipad-width) {
-                width: 390px;
-            }
-
-            @media screen and (max-width: $brk-mobile-width) {
-                width: 100%;
-            }
         }
 
         & .video {

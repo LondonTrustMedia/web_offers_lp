@@ -10,7 +10,9 @@
     @media screen and (max-width: $brk-ipad-width) {
         height: 60px;
     }
-
+    @media screen and (max-width: $brk-mobile-width) {
+        height: 50px;
+    }
     &.navbar-move {
         background-color: $white;
         box-shadow: 0px 4px 5px #00000045;
@@ -22,13 +24,9 @@
 
     & .btn_pia {
         @media screen and (max-width: $brk-ipad-width) {
-            font-size: 16px;
-            padding: 8px 10px;
-            min-width: 150px;
-        }
-
-        @media screen and (max-width: 370px) {
-            display: none;
+            font-size: 14px;
+            padding: 5px 10px;
+            min-width: 115px;
         }
     }
 
@@ -42,16 +40,13 @@
 
         & .logo {
             height: 40px;
-            margin: 15px 0;
 
             @media screen and (max-width: $brk-ipad-width) {
                 height: 25px;
-                margin: 22.5px 0;
             }
 
             @media screen and (max-width: $brk-mobile-width) {
                 height: 20px;
-                margin: 25px 0;
             }
         }
     }

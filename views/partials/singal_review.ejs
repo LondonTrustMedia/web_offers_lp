@@ -1,7 +1,7 @@
 <section id="singal_review">
     <div class="container d-flex align-items-center justify-content-center">
         <div class="sitting">
-            <h1 class="d-inline-block new_title"><%- gettext("Coustmer<br>Reviews") %></h1>
+            <h1 class="d-inline-block new_title"><%- gettext("Coustmer<br>Review") %></h1>
         </div>
         <div class="review text-center position-relative">
             <div class="review_card text-left">
@@ -16,7 +16,10 @@
                     <p><%- gettext("…I'm glad you're here and I'm glad to put my money towards a great service. I wish you all the best of luck. I'm looking forward to enjoying a freer internet experience.") %></p>
                 </div>
             </div>
-            <img src="img/trustpilot2.svg" alt="trustpilot" class="trustpilot">
+            <div class="d-block text-center">
+                <img src="img/trustpilot2.svg" alt="trustpilot" class="trustpilot">
+                <h6 class="color_dark_green trustpilot_based"><%- format(gettext("Based on %s reviews"),[5548]) %></h6>
+            </div>
         </div>
     </div>
 </section>

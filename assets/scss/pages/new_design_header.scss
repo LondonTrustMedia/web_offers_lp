@@ -12,34 +12,39 @@ header {
     width: 100%;
     padding-top: 80px;
     overflow: hidden;
+
     &.mobile {
         & .bg {
-            background-image: url(img/Everyone_needs_Protection_bg_mobile.jpg);
+            // background-image: url(img/Everyone_needs_Protection_bg_mobile.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             padding-bottom: 90px;
             margin-bottom: 25px;
             background-position: right bottom calc(50% - 80px);
-            @media screen and (max-width: 550px ) {
+
+            @media screen and (max-width: 550px) {
                 background-position: right calc(50% + 20px) bottom calc(50% - 60px);
             }
         }
+
         & .container {
             z-index: 2;
             position: relative;
             padding-top: 0;
         }
     }
+
     & .circle {
-        background-image: url(img/Everyone_needs_Protection_bg_sky.jpg);
+        // background-image: url(img/Everyone_needs_Protection_bg_sky.jpg);
         background-size: cover;
-        background-position: -80px 0px;
+        background-position: 0px 0px;
         background-repeat: no-repeat;
         @include cube-box(580px);
         border-radius: 50%;
         overflow: hidden;
         position: relative;
         -webkit-mask-image: -webkit-radial-gradient(white, black);
+
         @media screen and (max-width: $brk-desktop-width) {
             @include cube-box(450px);
         }
@@ -55,51 +60,80 @@ header {
 
     & h2 {
         line-height: 1;
+
         @media screen and (max-width: $brk-desktop-width) {
             font-size: 26px;
         }
+
         & b {
-            font-size: 2em; 
+            font-size: 2em;
         }
     }
-    & .man {
-       position: absolute;
-       width: 850px;
-       width: 575px;
 
-       left: 5px;
-       z-index: 5;
-       @media screen and (max-width: $brk-desktop-width) { 
-        width: 665px;
-        width: 460px;
-        left: -5px;
-       }
+    & h1, & h2 {
+        line-height: 1;
+        &.privacy {
+            font-size: 2rem;
+            font-weight: 400;
+            & b {
+                font-size: 2.5em;
+            }
+        }
+
+        &.protect {
+            font-size: 24px;
+            font-weight: 500;
+            @media screen and (max-width: $brk-desktop-width) {
+                font-size: 20px;
+            }
+            & b {
+                font-size: 3.8em;
+                line-height: .9;
+            }
+        }
+        &.unblock {
+            & b {
+                font-size: 2.5em;
+            }
+        }
+        &.trust {
+            & b {
+                font-size: 2.5em;
+                text-transform: uppercase;
+            }
+        }
     }
+
     & .sub_btn {
         font-size: 14px;
     }
 
     & .price {
         font-size: 16px;
+
         & .for {
             line-height: 1;
             font-size: 1.5em;
             font-weight: 500;
         }
+
         & .fullprice {
             font-size: 4em;
             font-weight: 600;
             line-height: 1;
-            @media screen and (max-width: $brk-mobile-width ) {
+
+            @media screen and (max-width: $brk-mobile-width) {
                 font-size: 3em;
             }
         }
+
         & .mo {
             line-height: 1;
             font-size: 2.8em;
             font-weight: 600;
             margin-left: -0.3em;
-            @media screen and (max-width: $brk-mobile-width ) {
+
+            @media screen and (max-width: $brk-mobile-width) {
                 font-size: 1.8em;
             }
         }
@@ -108,6 +142,7 @@ header {
     & .brands {
         & img {
             height: 60px;
+
             @media screen and (max-width: $brk-ipad-width) {
                 height: 40px;
             }
@@ -128,20 +163,24 @@ header {
         left: -50px;
         top: 50px;
         z-index: 12;
+
         @media screen and (max-width: $brk-desktop-width) {
             $width-circle: 190px;
             @include cube-box($width-circle);
             flex-basis: $width-circle;
         }
+
         @media screen and (max-width: $brk-min-desktop-width) {
             position: relative;
             top: 0;
             left: 0;
         }
+
         @media screen and (max-width: $brk-mobile-width) {
             $width-circle: 140px;
             @include cube-box($width-circle);
         }
+
         & .title {
             position: relative;
             top: 19%;
@@ -151,12 +190,15 @@ header {
             font-weight: 600;
             text-transform: uppercase;
             display: inline-block;
+
             @media screen and (max-width: $brk-desktop-width) {
                 font-size: 1.4em;
             }
+
             @media screen and (max-width: $brk-min-desktop-width) {
                 left: -5%;
             }
+
             @media screen and (max-width: $brk-mobile-width) {
                 font-size: 1em;
             }
@@ -171,9 +213,11 @@ header {
             & .discount {
                 font-size: 5em;
                 font-weight: 800;
+
                 @media screen and (max-width: $brk-desktop-width) {
                     font-size: 4em;
                 }
+
                 @media screen and (max-width: $brk-mobile-width) {
                     font-size: 3em;
                 }
@@ -184,9 +228,11 @@ header {
                 right: -0.7em;
                 font-size: 3.5em;
                 font-weight: 700;
+
                 @media screen and (max-width: $brk-desktop-width) {
                     font-size: 3em;
                 }
+
                 @media screen and (max-width: $brk-mobile-width) {
                     font-size: 2em;
                 }

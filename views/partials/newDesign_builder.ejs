@@ -1,0 +1,80 @@
+<header class="mobile d-block d-lg-none text-center <%- pricing ? 'pricing' : 'text' %>">
+    <div class="bg" style="background-image: url(img/<%- bg_mobile %>)">
+        <div class="container color_dark_green">
+            <%- title %>
+            <% if (pricing) { %>
+                <div class="price my-md-3 my-1">
+                    <span class="for"><%- gettext("for ") %></span>
+                    <span class="fullprice"><%- prices.blocks[1].USD.perMonthFull %></span>
+                    <span class="mo"><%- gettext("/mo") %></span>
+                </div>
+            <% } else { %>
+                <p class="mb-0"><%- subtitle %></p>
+                <h5 class="mt-3 mb-3"><%- btn_title %></h5>
+            <% } %>
+            <div class="circle_discount_container">
+                <div class="title text-center"><%- gettext("today's<br>offer") %></div>
+                <div class="discount_container">
+                    <div class="discount">-<%- prices.blocks[1].discount %></div>
+                    <div class="percent">%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub_bg">
+        <div class="container color_dark_green">
+            <a href="<%- offerLink %>" class="btn_pia orange <%- pricing ? '' : 'mb-3' %>"><%- gettext("Get Private Internet Access") %></a>
+            <% if (pricing) { %>
+                <h5 class="sub_btn my-3"><%- gettext("Try it risk free! 7 day money back guarantee") %></h5>
+            <% } %>
+            <div class="brands">
+                <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                <div class="d-inline-block"><img src="img/brand_logo_cnet.png" alt="cnet"></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<header class="d-lg-block d-none <%- pricing ? 'pricing' : 'text' %>">
+    <div class="container color_dark_green d-flex justify-content-center">
+        <div class="col-5 d-flex justify-content-center flex-column <%- pricing ? 'text-center' : '' %>">
+            <%- title %>
+             <% if (pricing) { %>
+                <div class="price my-3">
+                    <span class="for"><%- gettext("for ") %></span>
+                    <span class="fullprice"><%- prices.blocks[1].USD.perMonthFull %></span>
+                    <span class="mo"><%- gettext("/mo") %></span>
+                </div>
+            <% } else { %>
+                <p class="mb-0"><%- subtitle %></p>
+                <h5 class="mt-3 mb-3"><%- btn_title %></h5>
+            <% } %>
+            <div class="d-block">
+                <a href="<%- offerLink %>" class="btn_pia orange <%- pricing ? '' : 'mb-3' %>"><%- gettext("Get Private Internet Access") %></a>
+                <% if (pricing) { %>
+                    <h5 class="sub_btn my-3"><%- gettext("Try it risk free! 7 day money back guarantee") %></h5>
+                <% } %>
+            </div>
+            <div class="brands">
+                <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                <div class="d-inline-block"><img src="img/brand_logo_cnet.png" alt="cnet"></div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="circle_discount_container">
+                <div class="title text-center"><%- gettext("today's<br>offer") %></div>
+                <div class="discount_container">
+                    <div class="discount">-<%- prices.blocks[1].discount %></div>
+                    <div class="percent">%</div>
+                </div>
+            </div>
+            <div class="header_circle">
+                <div class="circle" style="background-image: url(img/<%- bg %>)"> 
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

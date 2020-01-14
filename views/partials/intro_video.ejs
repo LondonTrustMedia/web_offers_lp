@@ -16,14 +16,4 @@
         $("#video_btn img").addClass("active");
         $("#video_btn iframe").attr("src", 'https://www.youtube.com/embed/SuD7aZQ4aq4?autoplay=1');
     });
-    if ($(window).innerWidth() > 768) {
-        $("#video_btn iframe").attr("src", 'https://www.youtube.com/embed/SuD7aZQ4aq4');
-    }
-    $( window ).resize(function() {
-        if ($(window).innerWidth() > 768) {
-            $("#video_btn iframe").attr("src", 'https://www.youtube.com/embed/SuD7aZQ4aq4');
-        } else {
-            $("#video_btn iframe").attr("src", '');
-        }
-    });
 </script>

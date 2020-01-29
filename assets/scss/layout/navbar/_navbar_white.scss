@@ -32,12 +32,6 @@
 
 
     & .container {
-
-        @media screen and (max-width: $brk-desktop-width) {
-            max-width: unset;
-            padding: 0 10%;
-        }
-
         & .logo {
             height: 40px;
 

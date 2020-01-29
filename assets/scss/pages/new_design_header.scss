@@ -15,7 +15,6 @@ header {
 
     &.mobile {
         & .bg {
-            // background-image: url(img/Everyone_needs_Protection_bg_mobile.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             padding-bottom: 90px;
@@ -44,6 +43,7 @@ header {
         overflow: hidden;
         position: relative;
         -webkit-mask-image: -webkit-radial-gradient(white, black);
+        mask-image: -webkit-radial-gradient(white, black);
 
         @media screen and (max-width: $brk-desktop-width) {
             @include cube-box(450px);
@@ -64,9 +64,17 @@ header {
         @media screen and (max-width: $brk-desktop-width) {
             font-size: 26px;
         }
-
+        html[lang=fra] & {
+            @media screen and (max-width: $brk-min-desktop-width) {
+                font-size: 20px;
+            }
+        }
         & b {
             font-size: 2em;
+            html[lang=fra] & {
+                font-size: 1.8em;
+                line-height: 1.2;
+            }
         }
     }
 
@@ -77,9 +85,27 @@ header {
             font-weight: 400;
             & b {
                 font-size: 2.5em;
+                html[lang=fra] & {
+                    font-size: 1.4em;
+                }
+                html[lang=deu] & {
+                    font-size: 2em;
+                    @media screen and (max-width: $brk-mobile-width) {
+                        font-size: 1.5em;
+                    }
+                }
             }
         }
-
+        &.top-vpn {
+            & b {
+                font-size: 2.5em;
+                text-transform: uppercase;
+                html[lang=fra] &,
+                html[lang=deu] & {
+                    font-size: 1.5em;
+                }
+            }
+        }
         &.protect {
             font-size: 24px;
             font-weight: 500;
@@ -89,17 +115,29 @@ header {
             & b {
                 font-size: 3.8em;
                 line-height: .9;
+                html[lang=deu] & {
+                    font-size: 3.5em;
+                }
             }
         }
         &.unblock {
             & b {
                 font-size: 2.5em;
+                html[lang=deu] & {
+                    font-size: 2em;
+                    @media screen and (max-width: $brk-mobile-width) {
+                        font-size: 1.5em;
+                    }
+                }
             }
         }
         &.trust {
             & b {
                 font-size: 2.5em;
                 text-transform: uppercase;
+                html[lang=deu] & {
+                    font-size: 1.8em;
+                }
             }
         }
     }
@@ -110,6 +148,9 @@ header {
 
     & .price {
         font-size: 16px;
+        html[lang=fra] & {
+            font-size: 14px;
+        }
 
         & .for {
             line-height: 1;

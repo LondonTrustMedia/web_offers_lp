@@ -17,6 +17,9 @@
             width: 120px;
             justify-content: center;
             padding: 5px;
+            html[lang=fra] & {
+                height: 155px;
+            }
         }
         @media screen and (max-width: $brk-mobile-width)  {
             width: 120px;
@@ -39,7 +42,7 @@
         line-height: 1.4;
         margin-bottom: 0;
         @media screen and (max-width: $brk-ipad-width - 1) {
-            font-size: 14px;
+            font-size: 14px!important;
         }
     }
     & .lifehacker_container {

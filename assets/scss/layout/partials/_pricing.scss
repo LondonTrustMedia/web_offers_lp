@@ -76,6 +76,12 @@
         color: $pia-orange;
         font-weight: 700;
         border-radius: 5px;
+        html[lang=fra] & {
+            font-size: 20px;
+        }
+        html[lang=deu] & {
+            font-size: 22px;
+        }
     }
 
     & .currency-alert {
@@ -134,6 +140,9 @@
         @include flexy($just: center);
         line-height: 1;
         font-weight: 300;
+        html[lang=fra] & {
+            font-size: 40px;
+        }
     }
 
     & .pricing-every {    

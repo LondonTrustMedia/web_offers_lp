@@ -98,7 +98,10 @@ app.use(express.static(__dirname + '/assets', {maxAge: cacheTime }));
 app.use((req, res, next) => {
     console.log('req.subdomains', req.subdomains)
     if (req.subdomains.length)
-        req.setLocale(req.subdomains[0]);
+        if (req.subdomains[0] === 'www')
+            req.setLocale('eng');
+        else
+            req.setLocale(req.subdomains[0]);
     next()
 });
 

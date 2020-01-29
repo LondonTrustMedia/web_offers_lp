@@ -11,7 +11,7 @@ module.exports = function (app) {
                 console.log("Rotators Cache Updated")
             }
         })
-    }, 5000)
+    }, 7000)
 
     setInterval(function(){
         dbQueries.rotators.updateCache((err, rotators) => {

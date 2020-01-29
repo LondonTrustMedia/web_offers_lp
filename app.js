@@ -28,8 +28,7 @@ app.enable('trust proxy');
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 
-if (process.env.NODE_ENV === 'local')
-    app.set('subdomain offset', 1);
+
 
 app.use(cookieParser('NitoolWasHere'))
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -50,6 +49,13 @@ app.use(i18n.abide({
     translation_directory: __dirname + '/i18n',
     locale_on_url: false
 }));
+
+
+app.use((req, res, next) => {
+    if (process.env.NODE_ENV === 'local' && req.hostname.includes('localhost'))
+        app.set('subdomain offset', 1);
+    next()
+})
 
 // Static Files ======================================================================
 

@@ -62,10 +62,18 @@ const watchAll =  async () => {
         
         watch.stdout.on('data', (data) => {
             console.log(`stdout: ${data}`);
-            const cssFile = process.cwd() + '/' + data.toString().split(' to ')[1].replace(/\.[ \t\s]+$/, '')
-            // console.log(cssFile)
+
+            data = data.toString()
+            // console.log('|' + data + '|');
+            // let cssFile = null 
+            if ( data.includes(' to '))
+                cssFile = process.cwd() + '/' + data.split(' to ')[1].replace(/\.[ \t\s]+$/, '')
+            else if ( data.includes('write '))
+                cssFile = process.cwd() + '/' + data.replace('write ', '').replace(/[\ \t\s]/g, '')
+
+            // console.log('|' + cssFile + '|')
             // console.log(fs.existsSync(cssFile))
-            // if (cssFile.includes('/amp/') && fs.existsSync(cssFile)) {
+            // if (cssFile !== null && cssFile.includes('/amp/') && !cssFile.includes('.css.map') && fs.existsSync(cssFile)) {
             //     console.log('AMP file ------>')
             //     createEJS(cssFile)
 

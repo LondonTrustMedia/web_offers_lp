@@ -72,6 +72,7 @@ app/json/rotators.json
 .DS_Store
 crowdin.yml
 nodemon.json
+.sass-cache
 
 # ignore all logs
 *.log

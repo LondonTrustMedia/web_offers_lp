@@ -8,7 +8,7 @@
         min-height: 160px;
         @include flexy($dir: column, $align-i: center);
         border-radius: 15px;
-        box-shadow: $shadow-light;
+        box-shadow: unquote($shadow-light);
         padding: 30px 5px 5px;
         
         @media screen and (max-width: $brk-ipad-width - 1) {

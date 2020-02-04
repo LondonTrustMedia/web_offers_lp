@@ -45,7 +45,7 @@
 }
 
 //   Background linear-gradient
-@mixin linear-gradient($angle:to bottom, $gradient1, $gradient2) {
+@mixin linear-gradient($angle:to bottom, $gradient1: null, $gradient2: null) {
     background-color: $gradient2;
     /* Fallback Color */
     background-image: -webkit-gradient(linear, $angle, from($gradient1), to($gradient2));

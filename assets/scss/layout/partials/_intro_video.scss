@@ -14,7 +14,7 @@
     & #video_btn {
         border: solid 15px #F6F9FE;
         border-radius: 15px;
-        box-shadow: $shadow-light;
+        box-shadow: unquote($shadow-light);
         width: 830px;
         height: 480px;
         overflow: hidden;

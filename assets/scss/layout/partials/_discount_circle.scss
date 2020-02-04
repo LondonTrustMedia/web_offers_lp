@@ -1,0 +1,73 @@
+.circle_discount_container {
+    background-image: url("img/footer_green_circle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 15px;
+    height: 225px;
+    width: 230px;
+    flex-basis: 230px;
+    font-size: 1rem;
+    z-index: 12;
+
+    @media screen and (max-width: $brk-desktop-width) {
+        height: 190px;
+        width: 195px;
+        flex-basis: 195px;
+        background-position: 10px;
+    }
+
+    @media screen and (max-width: $brk-mobile-width) {
+        height: 140px;
+        width: 145px;
+        flex-basis: 145px;
+    }
+
+    & .title {
+        position: relative;
+        font-size: 1.4em;
+        line-height: .9;
+        font-weight: 600;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-top: 20%;
+
+        @media screen and (max-width: $brk-mobile-width) {
+            font-size: 1em;
+        }
+    }
+
+    & .discount_container {
+        font-size: 1em;
+        white-space: nowrap;
+        margin-top: 5%;
+        & .discount,
+        & .percent {
+            display: inline-block;
+            text-transform: uppercase;
+            vertical-align: text-top;
+            line-height: .7;
+        }
+        & .discount {
+            font-size: 5.5em;
+            font-weight: 800;
+
+            @media screen and (max-width: $brk-desktop-width) {
+                font-size: 4em;
+            }
+
+            @media screen and (max-width: $brk-mobile-width) {
+                font-size: 3em;
+            }
+        }
+
+        & .percent {
+            font-size: 2.5em;
+            font-weight: 700;
+            line-height: .8 !important;
+
+            @media screen and (max-width: $brk-mobile-width) {
+                font-size: 2em;
+            }
+        }
+    }
+}

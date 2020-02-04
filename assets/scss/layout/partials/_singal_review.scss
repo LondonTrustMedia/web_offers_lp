@@ -49,7 +49,7 @@
 
     & .review_card {
         width: 415px;
-        box-shadow: $shadow-light;
+        box-shadow: unquote($shadow-light);
         border-radius: 5px;
         @media screen and (max-width: $brk-ipad-width) {
             width: 100%;

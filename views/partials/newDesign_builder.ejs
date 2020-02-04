@@ -27,18 +27,22 @@
             <% if (pricing) { %>
                 <h5 class="sub_btn my-3"><%- gettext("Try it risk free! 7 day money back guarantee") %></h5>
             <% } %>
-            <div class="brands">
-                <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
-                <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
-                <div class="d-inline-block"><img src="img/brand_logo_cnet.png" alt="cnet"></div>
-            </div>
+            <% if (query.brand) { %>
+                <% include brand %>
+            <% } else { %>
+                <div class="brands">
+                    <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                    <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                    <div class="d-inline-block"><img src="img/brand_logo_cnet.png" alt="cnet"></div>
+                </div>
+            <% } %>
         </div>
     </div>
 </header>
 
 
 <header class="d-lg-block d-none <%- pricing ? 'pricing' : 'text' %>">
-    <div class="container color_dark_green d-flex justify-content-center">
+    <div class="container color_dark_green d-flex justify-content-between">
         <div class="col-5 d-flex justify-content-center flex-column <%- pricing ? 'text-center' : '' %>">
             <%- title %>
              <% if (pricing) { %>
@@ -57,11 +61,15 @@
                     <h5 class="sub_btn my-3"><%- gettext("Try it risk free! 7 day money back guarantee") %></h5>
                 <% } %>
             </div>
-            <div class="brands">
-                <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
-                <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
-                <div class="d-inline-block"><img src="img/brand_logo_cnet.png" alt="cnet"></div>
-            </div>
+            <% if (query.brand) { %>
+                <% include brand %>
+            <% } else { %>
+                <div class="brands">
+                    <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                    <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                    <div class="d-inline-block"><img src="img/brand_logo_cnet.png" alt="cnet"></div>
+                </div>
+            <% } %>
         </div>
         <div class="col-6">
             <div class="circle_discount_container">

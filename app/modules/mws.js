@@ -13,28 +13,18 @@ let cache = [];
 //     event = getEvent()
 // }, 60000);
 
-// var affFilter = [
-//     '7212',
-//     '7208',
-//     '7109',
-//     '6959',
-//     '6476',
-//     '5822'
-// ]
-
 module.exports = (app) => {
 
     const middleWares = {
         setVariables: (req, res, next) => {
             res.locals.query = req.query
             res.locals.urlSearch = req.search = req.url.split('?').length > 1 ? '?' + req.url.split('?')[1] : "?"
+            res.locals.urlForLang = (req.get('host') + req.originalUrl).replace(/^.*privateinternetaccess.com/g, 'privateinternetaccess.com').replace(/^.*pialocal.com/g, 'pialocal.com')
             res.locals.pageName = req.pageName = req.path.replace('/offer', '').replace('/amp', '').slice(1).replace('.html', '').replace('.HTML', '').replace(/\/$/, '')
             res.locals.path = req.path
             res.locals.event = req.event = event
             // if (event && event.coupon)
             //     middleWares.forceCoupon(event.coupon, req, res)
-            
-            res.locals.offerLink = req.offerLink = 'https://www.privateinternetaccess.com/pages/buy-now/' + (req.query && req.query.coupon ? req.query.coupon : '') + req.search
             next()
         },
 
@@ -56,36 +46,50 @@ module.exports = (app) => {
         },
 
         getLink: function(req, res, next){
-            res.locals.offerLink = req.offerLink = 'https://www.privateinternetaccess.com/pages/buy-now/' + (req.query && req.query.coupon ? req.query.coupon : '')
+            switch (req.lang) {
+                case 'deu':
+                    res.locals.offerLink = req.offerLink = 'https://deu.privateinternetaccess.com/pages/jetzt-kaufen/' + (req.query && req.query.coupon ? req.query.coupon : '')
+                    break;
+            
+                case 'fra':
+                    res.locals.offerLink = req.offerLink = 'https://fra.privateinternetaccess.com/pages/acheter-maintenant/' + (req.query && req.query.coupon ? req.query.coupon : '')
+                    break;
+                    
+                default:
+                    res.locals.offerLink = req.offerLink = 'https://www.privateinternetaccess.com/pages/buy-now/' + (req.query && req.query.coupon ? req.query.coupon : '')
+                    break;
+            }
+                
             next()
         },
 
 
         languageRedirects: (req, res, next) => {
             var options = {
-                domain: '.privateinternetaccess.com',
+                domain: process.env.NODE_ENV === 'local' ? '.pialocal.com' : '.privateinternetaccess.com',
                 maxAge: 1000 * 60 * 60 * 24 * 30, // would expire after 30 days
                 httpOnly: true, // The cookie only accessible by the web server
                 signed: true // Indicates if the cookie should be signed
             }
         
             var cookie = req.signedCookies['pia_lang'];
-            var noLangInUrl = req.originalUrl.replace('/offer', '').indexOf(req.pageName) == 1
+            var noLangInUrl = req.subdomains.length === 0
             // console.log('cookie', cookie)
-            // console.log('noLangInUrl', noLangInUrl)
+            console.log('URL', req.originalUrl)
         
-            if (noLangInUrl && cookie !== undefined) {
+            console.log('noLangInUrl', noLangInUrl)
+            console.log('cookie', cookie)
+            console.log('req.lang', req.lang)
+            console.log('req.get(\'host\')', req.get('host'))
+            if (noLangInUrl && cookie !== undefined && cookie !== 'eng') {
                 // If lang cookie found
-                console.log('Found Cookie - Redirecting to', '/' + cookie + '/' + req.pageName + req.search)
-                res.redirect('/' + cookie + '/' + req.pageName + req.search)
+                console.log('Found Cookie - Redirecting to', req.protocol + '://' + cookie + '.' + req.get('host') + req.originalUrl)
+                res.redirect(req.protocol + '://' + cookie + '.' + req.get('host') + req.originalUrl)
                 return;
-            } else {
-                // If detected default locale (not in URL)
-                if (noLangInUrl) {
-                    console.log('Adding locale to the URL - Redirecting to', '/' + req.lang + req.path + req.search)
-                    res.redirect('/' + req.lang + req.path + req.search)
-                    return;
-                }   
+            } else if (noLangInUrl && req.lang !== 'eng') {
+                    console.log('Adding locale to the URL - Redirecting to', req.protocol + '://' + cookie + '.' + req.get('host') + req.originalUrl)
+                    res.redirect(req.protocol + '://' + req.lang + '.' + req.get('host') + req.originalUrl)
+            }  else { 
                 console.log(req.path)
                 res.cookie('pia_lang', req.lang, options);
                 console.log('cookie created successfully with value: ' + req.lang);
@@ -120,9 +124,10 @@ module.exports = (app) => {
 
                 let redirectLink = "" 
                 if (redirectOffer.language && redirectOffer.language !== 'auto')
-                    redirectLink += '/' + redirectOffer.language
+                    redirectLink = redirectOffer.link.replace('//privateinternetaccess.com', '//' + redirectOffer.language + 'privateinternetaccess.com')
+                else
+                    redirectLink = redirectOffer.link
 
-                redirectLink += redirectOffer.link
                 if (redirectLink.includes('?'))
                     redirectLink += '&' + req.search.slice(1)
                 else

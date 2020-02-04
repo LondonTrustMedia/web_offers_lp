@@ -10,7 +10,7 @@ const assets = require('express-asset-versions')
 // const autoprefixer = require('express-autoprefixer')({ browsers: 'last 4 versions', grid: true })
 
 const mws = require('./app/modules/mws.js')(app)
-const supportedLanguages = ['en', 'fr', 'de', 'ru', 'nl', 'es', 'ko']
+const supportedLanguages = ['eng', 'fra', 'deu']
 
 try {
     app.rotators = require('./app/json/rotators.json');
@@ -28,6 +28,8 @@ app.enable('trust proxy');
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 
+
+
 app.use(cookieParser('NitoolWasHere'))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
@@ -43,10 +45,17 @@ require('./app/rotatorsRoutes.js')(app); // rotators Routs
 
 app.use(i18n.abide({
     supported_languages: supportedLanguages,
-    default_lang: 'en',
+    default_lang: 'eng',
     translation_directory: __dirname + '/i18n',
-    locale_on_url: true
+    locale_on_url: false
 }));
+
+
+app.use((req, res, next) => {
+    if (process.env.NODE_ENV === 'local' && req.hostname.includes('localhost'))
+        app.set('subdomain offset', 1);
+    next()
+})
 
 // Static Files ======================================================================
 
@@ -85,6 +94,17 @@ app.use(express.static(__dirname + '/assets', {maxAge: cacheTime }));
 
 
 // MiddleWares ======================================================================
+
+app.use((req, res, next) => {
+    console.log('req.subdomains', req.subdomains)
+    if (req.subdomains.length)
+        if (req.subdomains[0] === 'www')
+            req.setLocale('eng');
+        else
+            req.setLocale(req.subdomains[0]);
+    next()
+});
+
 
 app.use(mws.setVariables);
 // app.use(mws.forceCoupon('bf1643'))

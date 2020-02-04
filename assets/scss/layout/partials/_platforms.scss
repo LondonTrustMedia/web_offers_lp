@@ -5,12 +5,21 @@
         background-size: calc(100% - 10px);
         padding: 0 55px 265px;
         background-position: left calc(50% - 10px) bottom;
+        html[lang=deu] & {
+            padding: 0 55px 315px;
+            @media screen and (max-width: $brk-min-desktop-width) {
+                padding: 0 55px 265px;
+            }
+        }
         @media screen and (max-width: $brk-ipad-width) {
             background-size: 100%;
             background-position: center bottom;
             padding: 0 0 100px;
             width: 320px;
             margin: 0 auto;
+            html[lang=deu] & {
+                padding: 0 0 100px;
+            }
         }
         @media screen and (max-width: $brk-mobile-width) {
             width: 100%;

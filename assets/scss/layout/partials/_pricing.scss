@@ -100,7 +100,7 @@
         min-height: 300px;
         background-color: #f6f9fe;
         border-radius: 25px;
-        box-shadow: $shadow-light;
+        box-shadow: unquote($shadow-light);
 
         &:hover,
         &:focus {

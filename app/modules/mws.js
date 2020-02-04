@@ -19,7 +19,7 @@ module.exports = (app) => {
         setVariables: (req, res, next) => {
             res.locals.query = req.query
             res.locals.urlSearch = req.search = req.url.split('?').length > 1 ? '?' + req.url.split('?')[1] : "?"
-            req.fixedHost = req.get('host').replace('offers-lp.piaservers', 'privateinternetaccess') + 'offer/'
+            req.fixedHost = req.get('host').includes('offers-lp.piaservers') ? req.get('host').replace('offers-lp.piaservers', 'privateinternetaccess') + '/offer' : req.get('host')
             res.locals.urlForLang = (req.fixedHost  + req.originalUrl).replace(/^.*privateinternetaccess.com/g, 'privateinternetaccess.com').replace(/^.*pialocal.com/g, 'pialocal.com')
             res.locals.pageName = req.pageName = req.path.replace('/offer', '').replace('/amp', '').slice(1).replace('.html', '').replace('.HTML', '').replace(/\/$/, '')
             res.locals.path = req.path

@@ -19,7 +19,7 @@ module.exports = (app) => {
         setVariables: (req, res, next) => {
             res.locals.query = req.query
             res.locals.urlSearch = req.search = req.url.split('?').length > 1 ? '?' + req.url.split('?')[1] : "?"
-            res.locals.urlForLang = (req.get('host') + req.originalUrl).replace(/^.*privateinternetaccess.com/g, 'privateinternetaccess.com').replace(/^.*pialocal.com/g, 'pialocal.com')
+            res.locals.urlForLang = (req.get('host').replace('offers-lp.piaservers', 'privateinternetaccess')  + req.originalUrl).replace(/^.*privateinternetaccess.com/g, 'privateinternetaccess.com').replace(/^.*pialocal.com/g, 'pialocal.com')
             res.locals.pageName = req.pageName = req.path.replace('/offer', '').replace('/amp', '').slice(1).replace('.html', '').replace('.HTML', '').replace(/\/$/, '')
             res.locals.path = req.path
             res.locals.event = req.event = event
@@ -80,15 +80,15 @@ module.exports = (app) => {
             console.log('noLangInUrl', noLangInUrl)
             console.log('cookie', cookie)
             console.log('req.lang', req.lang)
-            console.log('req.get(\'host\')', req.get('host'))
+            console.log('req.get(\'host\')', req.get('host').replace('offers-lp.piaservers', 'privateinternetaccess') )
             if (noLangInUrl && cookie !== undefined && cookie !== 'eng') {
                 // If lang cookie found
-                console.log('Found Cookie - Redirecting to', req.protocol + '://' + cookie + '.' + req.get('host') + req.originalUrl)
-                res.redirect(req.protocol + '://' + cookie + '.' + req.get('host') + req.originalUrl)
+                console.log('Found Cookie - Redirecting to', req.protocol + '://' + cookie + '.' + req.get('host').replace('offers-lp.piaservers', 'privateinternetaccess')  + req.originalUrl)
+                res.redirect(req.protocol + '://' + cookie + '.' + req.get('host').replace('offers-lp.piaservers', 'privateinternetaccess') + req.originalUrl)
                 return;
             } else if (noLangInUrl && req.lang !== 'eng') {
-                    console.log('Adding locale to the URL - Redirecting to', req.protocol + '://' + cookie + '.' + req.get('host') + req.originalUrl)
-                    res.redirect(req.protocol + '://' + req.lang + '.' + req.get('host') + req.originalUrl)
+                    console.log('Adding locale to the URL - Redirecting to', req.protocol + '://' + cookie + '.' + req.get('host').replace('offers-lp.piaservers', 'privateinternetaccess')  + req.originalUrl)
+                    res.redirect(req.protocol + '://' + req.lang + '.' + req.get('host').replace('offers-lp.piaservers', 'privateinternetaccess')  + req.originalUrl)
             }  else { 
                 console.log(req.path)
                 res.cookie('pia_lang', req.lang, options);

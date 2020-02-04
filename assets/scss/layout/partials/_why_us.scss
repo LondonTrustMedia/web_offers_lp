@@ -17,7 +17,8 @@
     & .advList {
         &>div {
             padding: 20px 30px;
-            white-space: nowrap;
+            display: flex;
+            align-items: center;
             &:nth-child(n+7) {
                 @media screen and (max-width: $brk-mobile-width) {
                     display: none;

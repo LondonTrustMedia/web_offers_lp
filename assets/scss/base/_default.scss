@@ -122,3 +122,12 @@ h3.hp {
     border-top: solid 3px #F6F9FE;
     padding: 30px 0;
 }
+
+#brand {
+    & p {
+        font-size: 16px;
+    }
+    & img {
+        height: 40px;
+    }
+}

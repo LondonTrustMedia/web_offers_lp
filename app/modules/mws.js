@@ -125,7 +125,7 @@ module.exports = (app) => {
 
                 let redirectLink = "" 
                 if (redirectOffer.language && redirectOffer.language !== 'auto')
-                    redirectLink = redirectOffer.link.replace('//privateinternetaccess.com', '//' + redirectOffer.language + 'privateinternetaccess.com')
+                    redirectLink = redirectOffer.link.replace('//privateinternetaccess.com', '//' + redirectOffer.language + '.'  + 'privateinternetaccess.com')
                 else
                     redirectLink = redirectOffer.link
 

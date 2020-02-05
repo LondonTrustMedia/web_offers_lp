@@ -47,17 +47,21 @@ module.exports = (app) => {
         },
 
         getLink: function(req, res, next){
+
+            let deal = ""
+            if (req.query.deal && prices.coupons[req.query.deal])
+                deal = req.query.deal
             switch (req.lang) {
                 case 'deu':
-                    res.locals.offerLink = req.offerLink = 'https://deu.privateinternetaccess.com/pages/jetzt-kaufen/' + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://deu.privateinternetaccess.com/pages/jetzt-kaufen${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
             
                 case 'fra':
-                    res.locals.offerLink = req.offerLink = 'https://fra.privateinternetaccess.com/pages/acheter-maintenant/' + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://fra.privateinternetaccess.com/pages/acheter-maintenant${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
                     
                 default:
-                    res.locals.offerLink = req.offerLink = 'https://www.privateinternetaccess.com/pages/buy-now/' + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://www.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
             }
                 
@@ -349,11 +353,11 @@ module.exports = (app) => {
             res.locals.oldPrices = req.oldPrices = prices.original.main
             res.locals.prices = req.prices = prices.coupons.main
 
-            if (req.query.price && prices.coupons[req.query.price])
-                res.locals.prices = req.prices = prices.coupons[req.query.price]
+            if (req.query.deal && prices.coupons[req.query.deal])
+                res.locals.prices = req.prices = prices.coupons[req.query.deal]
 
-            if (req.query.price && prices.original[req.query.price])
-                res.locals.oldPrices = req.oldPrices = prices.original[req.query.price]
+            if (req.query.deal && prices.original[req.query.deal])
+                res.locals.oldPrices = req.oldPrices = prices.original[req.query.deal]
         
             next()
         },

@@ -25,6 +25,9 @@
             position: absolute;
             top: calc(50% - 55px);
             right: 20px;
+            html[lang=deu] & {
+                font-size: 24px;
+            }
             & br {
                 @media screen and (max-width: $brk-ipad-width) {
                     display: none;

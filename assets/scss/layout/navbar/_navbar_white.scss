@@ -81,8 +81,12 @@
             width: 200px;
             box-shadow: 0 5px 8px 3px rgba($black, 0.08);
             right: -20px;
+            @media screen and (max-width: $brk-ipad-width) {
+                top: 55px;
+            }
             @media screen and (max-width: $brk-mobile-width) {
                 width: 165px;
+                top: 45px;
             }
         }
 
@@ -115,6 +119,12 @@
 
         & .language-content {
             height: 70px;
+            @media screen and (max-width: $brk-ipad-width) {
+                height: 60px;
+            }
+            @media screen and (max-width: $brk-mobile-width) {
+                height: 50px;
+            }
             @include flexy(flex, $align-i: center);
             & a {
                 &.active {

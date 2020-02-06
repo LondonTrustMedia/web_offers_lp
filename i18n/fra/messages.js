@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-01-29 11:30\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-01-29 11:29+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-02-06 10:06\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-02-06 10:04+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
       },
       "US Dollars": [
          null,
@@ -107,6 +107,114 @@
          null,
          "Fier Sponsor De"
       ],
+      "Customer <br>Review": [
+         null,
+         "Avis <br>Client"
+      ],
+      "Review by John S.": [
+         null,
+         "Avis fourni par John S."
+      ],
+      "31h ago": [
+         null,
+         "Il y a 31 h"
+      ],
+      "…I'm glad you're here and I'm glad to put my money towards a great service. I wish you all the best of luck. I'm looking forward to enjoying a freer internet experience.": [
+         null,
+         "... Je suis ravi que vous soyez là et d'autant plus ravis de dépenser mon argent dans un service de qualité. Je vous souhaite bonne continuation. Hâte de vivre une expérience Internet plus libre."
+      ],
+      "Based on %s reviews": [
+         null,
+         "Fondé sur %s avis"
+      ],
+      "Trusted By Companies Including:": [
+         null,
+         "Ces entreprises nous font confiance :"
+      ],
+      "Risk Free. 7 day money back guarantee": [
+         null,
+         "Aucune prise de risque. Remboursement garanti 7 jours"
+      ],
+      "Limited Time Only! Act Now": [
+         null,
+         "Offre limitée ! Saisissez-la sans tarder"
+      ],
+      "BEST VALUE": [
+         null,
+         "MEILLEUR RAPPORT QUALITÉ/PRIX"
+      ],
+      "Monthly": [
+         null,
+         "Mensuel"
+      ],
+      "Months": [
+         null,
+         "Mois"
+      ],
+      "Yearly": [
+         null,
+         "Annuel"
+      ],
+      "Years": [
+         null,
+         "Ans"
+      ],
+      "SAVE %s%": [
+         null,
+         "ÉCONOMISEZ %s%"
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per month": [
+         null,
+         "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s par mois"
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s months": [
+         null,
+         "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s chaque %s mois"
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per year": [
+         null,
+         "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s par an"
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s years": [
+         null,
+         "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s chaque %s ans"
+      ],
+      "Sign up now": [
+         null,
+         "Souscrivez maintenant"
+      ],
+      "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
+         null,
+         "Tous les montants affichés sont en %s et toute réduction se fait à partir du montant de l'abonnement actuel élevé à %s par mois"
+      ],
+      "Use the internet from wherever": [
+         null,
+         "Profitez d'Internet où que vous soyez"
+      ],
+      "Choose your location from cities in the United States, the United Kingdom, Japan, or 27 other countries. With Private Internet Access, you are in control of your connection and IP address. There are 200+ locations to choose from with our private, encrypted VPN connection.": [
+         null,
+         "Choisissez votre emplacement parmi les villes des États-Unis, du Royaume-Uni, Japon et 27 autres pays. Avec Private Internet Access, vous reprenez le contrôle de votre connexion et adresse IP. Vous disposez de plus de 200 emplacements parmi lesquels choisir avec notre connexion VPN privée et chiffrée."
+      ],
+      "Servers": [
+         null,
+         "Serveurs"
+      ],
+      "Countries": [
+         null,
+         "Pays"
+      ],
+      "7 day money back guarantee": [
+         null,
+         "Remboursement garanti 7 jours"
+      ],
+      "If you’re not 100% satisfied with Private Internet Access, we’ll give you your money back. Try us risk free, that’s our 7 day money back guarantee.": [
+         null,
+         "Si vous n'êtes pas entièrement satisfait de Private Internet Access, vous serez remboursé. Testez nos services sans prise de risque avec notre garantie de remboursement 7 jours."
+      ],
+      "new": [
+         null,
+         "nouveau"
+      ],
       "Why Choose Us?": [
          null,
          "Pourquoi nous choisir ?"
@@ -187,65 +295,9 @@
          null,
          "pour quitter, cliquez n'importe où"
       ],
-      "Customer <br>Review": [
-         null,
-         "Avis <br>Client"
-      ],
-      "Review by John S.": [
-         null,
-         "Avis fourni par John S."
-      ],
-      "31h ago": [
-         null,
-         "Il y a 31 h"
-      ],
-      "…I'm glad you're here and I'm glad to put my money towards a great service. I wish you all the best of luck. I'm looking forward to enjoying a freer internet experience.": [
-         null,
-         "... Je suis ravi que vous soyez là et d'autant plus ravis de dépenser mon argent dans un service de qualité. Je vous souhaite bonne continuation. Hâte de vivre une expérience Internet plus libre."
-      ],
-      "Based on %s reviews": [
-         null,
-         "Fondé sur %s avis"
-      ],
-      "Trusted By Companies Including:": [
-         null,
-         "Ces entreprises nous font confiance :"
-      ],
-      "Risk Free. 7 day money back guarantee": [
-         null,
-         "Aucune prise de risque. Remboursement garanti 7 jours"
-      ],
-      "Limited Time Only! Act Now": [
-         null,
-         "Offre limitée ! Saisissez-la sans tarder"
-      ],
-      "Monthly": [
-         null,
-         "Mensuel"
-      ],
-      "SAVE %s%": [
-         null,
-         "ÉCONOMISEZ %s%"
-      ],
       "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s month": [
          null,
          "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s mois"
-      ],
-      "Sign up now": [
-         null,
-         "Souscrivez maintenant"
-      ],
-      "BEST VALUE": [
-         null,
-         "MEILLEUR RAPPORT QUALITÉ/PRIX"
-      ],
-      "Yearly": [
-         null,
-         "Annuel"
-      ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per year": [
-         null,
-         "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s par an"
       ],
       "6 Months": [
          null,
@@ -255,49 +307,9 @@
          null,
          "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s chaque six mois"
       ],
-      "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
-         null,
-         "Tous les montants affichés sont en %s et toute réduction se fait à partir du montant de l'abonnement actuel élevé à %s par mois"
-      ],
       "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
          null,
          "Nos lecteurs sont formels là-dessus, Private Internet Access devrait-être votre premier choix lorsqu'il en va de la protection de vos données de navigation."
-      ],
-      "Months": [
-         null,
-         "Mois"
-      ],
-      "Years": [
-         null,
-         "Ans"
-      ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per month": [
-         null,
-         "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s par mois"
-      ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s months": [
-         null,
-         "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s chaque %s mois"
-      ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s years": [
-         null,
-         "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s chaque %s ans"
-      ],
-      "Use the internet from wherever": [
-         null,
-         "Profitez d'Internet où que vous soyez"
-      ],
-      "Choose your location from cities in the United States, the United Kingdom, Japan, or 27 other countries. With Private Internet Access, you are in control of your connection and IP address. There are 200+ locations to choose from with our private, encrypted VPN connection.": [
-         null,
-         "Choisissez votre emplacement parmi les villes des États-Unis, du Royaume-Uni, Japon et 27 autres pays. Avec Private Internet Access, vous reprenez le contrôle de votre connexion et adresse IP. Vous disposez de plus de 200 emplacements parmi lesquels choisir avec notre connexion VPN privée et chiffrée."
-      ],
-      "Servers": [
-         null,
-         "Serveurs"
-      ],
-      "Countries": [
-         null,
-         "Pays"
       ],
       "Compatible with all popular desktop and mobile operating systems": [
          null,
@@ -306,18 +318,6 @@
       "We accept all kinds of payment methods": [
          null,
          "Nous acceptons tous les moyens de paiement"
-      ],
-      "7 day money back guarantee": [
-         null,
-         "Remboursement garanti 7 jours"
-      ],
-      "If you’re not 100% satisfied with Private Internet Access, we’ll give you your money back. Try us risk free, that’s our 7 day money back guarantee.": [
-         null,
-         "Si vous n'êtes pas entièrement satisfait de Private Internet Access, vous serez remboursé. Testez nos services sans prise de risque avec notre garantie de remboursement 7 jours."
-      ],
-      "new": [
-         null,
-         "nouveau"
       ],
       "Private Internet Access out-performs and out-features the competition": [
          null,
@@ -350,10 +350,6 @@
       "Private Internet Access has the largest network capacity across the globe to provide the highest speeds and most encryption. Private Internet Access is the only proven no-log VPN service in the world.": [
          null,
          "Private Internet Access dispose de l'un des plus vastes réseaux à travers le monde permettant d'offrir d'incroyables vitesses et chiffrement. Private Internet Access est le seul VPN avéré à travers le monde à ne pas sauvegarder de Logs."
-      ],
-      "Get VPN Access": [
-         null,
-         "Obtenez un accès VPN"
       ],
       "VPN Features": [
          null,
@@ -407,9 +403,17 @@
          null,
          "Facile d'utilisation"
       ],
+      "Get VPN Access": [
+         null,
+         "Obtenez un accès VPN"
+      ],
       "Private Internet Access | Anonymous VPN Service Provider": [
          null,
          "Private Internet Access | Fournisseur VPN Anonyme"
+      ],
+      "As recommended by": [
+         null,
+         "Recommandé par"
       ]
    }
 }

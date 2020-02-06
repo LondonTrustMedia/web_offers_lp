@@ -64,6 +64,10 @@ module.exports = (app) => {
                     res.locals.offerLink = req.offerLink = `https://www.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
             }
+            
+            if (req.search !== '?')
+                res.locals.offerLink = req.offerLink += (req.offerLink.includes('?') ?  '&' + req.search.slice(1) :  req.search)
+
                 
             next()
         },

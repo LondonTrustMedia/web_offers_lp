@@ -11,7 +11,7 @@ function toCheckout(e) {
     if (affId) {
         var currentParams = window.location.search.slice(1);
 
-        var ajaxUrl = '/transaction?v=' + createRandom(8) + '&page_name=' + page_name ;
+        var ajaxUrl = '/offer/transaction?v=' + createRandom(8) + '&page_name=' + page_name ;
         if (currentParams && currentParams.length) {
             ajaxUrl += '&' + currentParams;
         }

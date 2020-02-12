@@ -6,7 +6,7 @@ module.exports = function (app) {
 
     const mws = require('./modules/mws.js')(app)
 
-    app.get('/transaction', locationScan.check, offersApi.getTransactionId)
+    app.get(['/transaction', '/offer/transaction'], locationScan.check, offersApi.getTransactionId)
 
     app.get('/*', mws.languageRedirects, locationScan.check, mws.setPrices, mws.setCurrency, mws.setSticker, mws.getLink, uaParser, function (req, res) {
         

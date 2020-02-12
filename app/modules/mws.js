@@ -117,8 +117,10 @@ module.exports = (app) => {
 
             if (matchKey) {
                 console.log('Detected rotator ID:', matchKey)
+
+                const langCookie = req.signedCookies['pia_lang'];
                 const rotator = app.rotators[matchKey]
-                let redirectOffer
+                let redirectOffer, linkLang
                 let totalWeight = rotator.totalWeight
                 let newWeight = 100
                 const randomNumber = Math.floor(Math.random() * 100) + 1
@@ -131,21 +133,39 @@ module.exports = (app) => {
                 } catch(err) {
                     next(err)  
                 }
-
-                if (!redirectOffer) redirectOffer = rotator.offers[0]
-
-                let redirectLink = "" 
+                
+                if (!redirectOffer) redirectOffer = app.rotators[matchKey].offers[0]
+                
                 if (redirectOffer.language && redirectOffer.language !== 'auto')
-                    redirectLink = redirectOffer.link.replace('//privateinternetaccess.com', '//' + redirectOffer.language + '.'  + 'privateinternetaccess.com')
+                    linkLang = redirectOffer.language
+                else if (langCookie)
+                    linkLang = (langCookie === 'eng' ? 'www' : langCookie)
                 else
-                    redirectLink = redirectOffer.link
+                    linkLang = (req.lang === 'eng' ? 'www' : req.lang)
+                
+                let redirectLink = "" 
+                if (redirectOffer.type) {
+                    res.cookie("offer_type", redirectOffer.type, {maxAge: 15000});
+                    
+                    redirectLink = 'https://' + linkLang + '.'
+
+                    if (redirectOffer.type === "OFFER")
+                        redirectLink += "privateinternetaccess.com/offer"
+                    else if (redirectOffer.type === "CPP")
+                        redirectLink += "privateinternetaccess.com/offer"
+                        
+                } else
+                    redirectOffer.link = redirectOffer.link.replace('//privateinternetaccess.com', '//' + linkLang + '.'  + 'privateinternetaccess.com')
+
+                redirectLink += redirectOffer.link
 
                 if (redirectLink.includes('?'))
                     redirectLink += '&' + req.search.slice(1)
                 else
                     redirectLink += req.search
 
-                res.redirect(redirectLink);
+                redirectLink = redirectLink.replace('&&', '&')
+
                 
                 // if (req.forceCoupon) {
                 //     const oldCoupon = getParameterByName('coupon', redirectLink)
@@ -159,6 +179,7 @@ module.exports = (app) => {
                 //     }
                 //     redirectLink = removeDuplicatesInUrlParams(redirectLink, 'coupon')
                 // }
+
         
             } else next()
         },

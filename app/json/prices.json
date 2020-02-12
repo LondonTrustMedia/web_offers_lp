@@ -5,15 +5,15 @@
             "blocks": [
                 {
                     "months": 1,
-                    "USD": "$10.95"
+                    "USD": "$11.95"
                 },
                 {
                     "months": 24,
-                    "USD": "$262.80"
+                    "USD": "$286.80"
                 },
                 {
                     "months": 12,
-                    "USD": "$131.40"
+                    "USD": "$143.40"
                 }
             ]
         },
@@ -42,12 +42,12 @@
                     "USD": "$10.95"
                 },
                 {
-                    "months": 12,
-                    "USD": "$119.40"
+                    "months": 24,
+                    "USD": "$262.80"
                 },
                 {
-                    "months": 6,
-                    "USD": "$59.70"
+                    "months": 12,
+                    "USD": "$131.40"
                 }
             ]
         }
@@ -61,16 +61,16 @@
                     "moneyBack": 7,
                     "discount": null,
                     "USD": {
-                        "perMonthFull": "$10.95",
-                        "perMonthNumber": "10.95",
-                        "total": "$10.95"
+                        "perMonthFull": "$11.95",
+                        "perMonthNumber": "11.95",
+                        "total": "$11.95"
                     }
                 },
                 {
                     "best": true,
                     "months": 24,
                     "moneyBack": 7,
-                    "discount": 73,
+                    "discount": 75,
                     "USD": {
                         "perMonthFull": "$2.97",
                         "perMonthNumber": "2.97",
@@ -80,7 +80,7 @@
                 {
                     "months": 12,
                     "moneyBack": 7,
-                    "discount": 54,
+                    "discount": 57,
                     "USD": {
                         "perMonthFull": "$5.09",
                         "perMonthNumber": "5.09",
@@ -132,31 +132,32 @@
                 {
                     "months": 1,
                     "moneyBack": 7,
-                    "discount": "30",
+                    "discount": null,
                     "USD": {
-                        "perMonthFull": "$6.95",
-                        "perMonthNumber": "6.95",
-                        "total": "$6.95"
+                        "perMonthFull": "$10.95",
+                        "perMonthNumber": "10.95",
+                        "total": "$10.95"
+                    }
+                },
+                {
+                    "best": true,
+                    "months": 24,
+                    "moneyBack": 7,
+                    "discount": 73,
+                    "USD": {
+                        "perMonthFull": "$2.97",
+                        "perMonthNumber": "2.97",
+                        "total": "$71.28"
                     }
                 },
                 {
                     "months": 12,
                     "moneyBack": 7,
-                    "discount": "67",
+                    "discount": 54,
                     "USD": {
-                        "perMonthFull": "$3.33",
-                        "perMonthNumber": "3.33",
-                        "total": "$39.95"
-                    }
-                },
-                {
-                    "months": 6,
-                    "moneyBack": 7,
-                    "discount": "40",
-                    "USD": {
-                        "perMonthFull": "$5.99",
-                        "perMonthNumber": "5.99",
-                        "total": "$35.95"
+                        "perMonthFull": "$5.09",
+                        "perMonthNumber": "5.09",
+                        "total": "$61.09"
                     }
                 }
             ]

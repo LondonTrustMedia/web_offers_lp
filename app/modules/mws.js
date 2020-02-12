@@ -181,6 +181,8 @@ module.exports = (app) => {
                 // }
 
         
+                res.redirect(301, redirectLink);
+                
             } else next()
         },
 

@@ -96,11 +96,11 @@ module.exports = (app) => {
             if (noLangInUrl && cookie !== undefined && cookie !== 'eng') {
                 // If lang cookie found
                 console.log('Found Cookie - Redirecting to', req.protocol + '://' + cookie + '.' + req.fixedHost  + req.originalUrl)
-                res.redirect(req.protocol + '://' + cookie + '.' + req.fixedHost + req.originalUrl)
+                res.redirect(301, req.protocol + '://' + cookie + '.' + req.fixedHost + req.originalUrl)
                 return;
             } else if (noLangInUrl && req.lang !== 'eng') {
                     console.log('Adding locale to the URL - Redirecting to', req.protocol + '://' + cookie + '.' + req.fixedHost  + req.originalUrl)
-                    res.redirect(req.protocol + '://' + req.lang + '.' + req.fixedHost  + req.originalUrl)
+                    res.redirect(301, req.protocol + '://' + req.lang + '.' + req.fixedHost  + req.originalUrl)
             }  else { 
                 console.log(req.path)
                 res.cookie('pia_lang', req.lang, options);
@@ -182,7 +182,7 @@ module.exports = (app) => {
 
         
                 res.redirect(301, redirectLink);
-                
+
             } else next()
         },
 

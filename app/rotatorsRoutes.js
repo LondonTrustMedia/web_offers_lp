@@ -1,3 +1,6 @@
+let hoOffers = require('./json/offers.json');
+const offersApi = require('./modules/offersApi.js');
+const async = require('async')
 
 module.exports = function (app) {
     const dbQueries = require('./modules/dbQueries.js');

@@ -5,6 +5,7 @@ $(document).ready(function() {
 
 function toCheckout(e) {
     e.preventDefault();
+    $('body').append('<div class="loading">Loading&#8230;</div>')
     var redirectUrl = $(this).attr('href');
     var affId = getUrlParam('aff_id')
 

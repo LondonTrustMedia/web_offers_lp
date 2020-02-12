@@ -3,6 +3,7 @@ const fs = require('fs');
 const norobot = require('norobot');
 const prices = require('./../json/prices.json');
 const slackApi = require('./slackApi.js');
+const offersApi = require('./offersApi.js');
 const path = require('path')
 const cs = require('checksum');
 let event = getEvent()
@@ -67,6 +68,8 @@ module.exports = (app) => {
             
             if (req.search !== '?')
                 res.locals.offerLink = req.offerLink += (req.offerLink.includes('?') ?  '&' + req.search.slice(1) :  req.search)
+
+                res.locals.offerLink = req.offerLink = RemoveParametersFromUrl(req.offerLink, ['aff_id', 'coupon'])
 
                 
             next()
@@ -368,15 +371,20 @@ module.exports = (app) => {
 
         show404: (err, req, res, next) => {
             console.log(err)
-            var query = req.query;
+        
+            req.offerId = '1332'
+            req.extraParams = '&aff_id=2009&aff_sub3=' + req.pageName
+            offersApi.impressionPixel(req)
             slackApi.sendErrorMessage('404 Error', err || {content: 'Not Found'}, req)
             res.status(404);
+        
             res.format({
                 html: function () {
                     res.render('errors/404', { 
                         url: req.path,
                         pageName: '404',
-                        query: query,
+                        offerLink: 'https://ho-app.kape.com/SHa5?aff_sub3=' + req.path + '&' + RemoveParametersFromUrl(req.search, ['aff_id', 'offer_id']).slice(1),
+                        query: req.query,
                         urlSearch: req.search
                     })
                 },
@@ -463,4 +471,19 @@ function isCurrencyExists(prices, currency) {
         return true
     else
         return false
+}
+
+function RemoveParametersFromUrl(url, parameters) {
+    parameters.forEach( parameter => {
+        url = url
+                .replace(new RegExp('[?&]' + parameter + '=[^&#]*(#.*)?$'), '$1')
+                .replace(new RegExp('([?&])' + parameter + '=[^&]*&'), '$1');
+    })
+    return url
+}
+
+function RemoveParameterFromUrl(url, parameter) {
+    return url
+      .replace(new RegExp('[?&]' + parameter + '=[^&#]*(#.*)?$'), '$1')
+      .replace(new RegExp('([?&])' + parameter + '=[^&]*&'), '$1');
 }

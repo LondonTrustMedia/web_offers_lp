@@ -1,215 +1,108 @@
 const request = require("request");
-const async = require("async");
+const api_key = "eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjE4MDc3NDU3LCJ1aWQiOjM0ODUwNjUsImlhZCI6IjIwMTktMDctMTZUMDg6NTY6NDFaIiwicGVyIjoibWU6d3JpdGUifQ.x6lOKLm2D9oUL5XlXYh1jF0H9JFG8rJWgYYKywvbmHk";
 
-// const pageLang = require("./../json/pageLangs.json");
-
-const api_key = "aea67a41d72ece012cddbb9a77ef82ee";
-const board_id = "397753478";
-const user_ID = "3485065";
-
-const CID_Offer_Id = 'text7'
-const CID_Page_Name = 'text5'
+const board_id = 413000065;
+const CID_Offer_Id = 'text'
+const CID_Link = 'link'
 const CID_Languages = 'text6'
 const CID_Status = 'status5'
 
 
-const groups = {
-    OFFER: {
-        url: 'https://offer.privateinternetaccess.com/',
-        id: 'topics'
-    },
-    GOOGLE: {
-        url: 'https://security.privateinternetaccess.com/',
-        id: 'duplicate_of_offer___for_affil'
-    },
-    CPP: {
-        url: 'https://maskip.co/',
-        id: 'cpp___for_networks__https___ma'
-    },
-}
+const old_api_key = "aea67a41d72ece012cddbb9a77ef82ee";
 
-
-const callUrl = `https://api.monday.com/v1/boards/${board_id}.json?api_key=${api_key}`;
+const callUrl = `https://api.monday.com/v1/boards/413000065.json?api_key=aea67a41d72ece012cddbb9a77ef82ee`;
 const getGroupsUrl = `https://api.monday.com:443/v1/boards/${board_id}/groups.json?api_key=${api_key}`;
 
 
-const createPulseUrl = `https://api.monday.com:443/v1/boards/${board_id}/pulses.json?api_key=${api_key}`;
-const textColumnUrl = function (column_id) {
-    return `https://api.monday.com:443/v1/boards/${board_id}/columns/${column_id}/text.json?api_key=${api_key}`;
+
+const groups = {
+    OFFER: {
+        url: 'https://privateinternetaccess.com/offer/',
+        id: 'topics'
+    },
+    // CPP: {
+    //     url: 'https://cyberprivacy.pro/',
+    //     id: 'duplicate_of_security___for_go'
+    // },
+    // SECURITY: {
+    //     url: 'https://security.privateinternetaccess.com/',
+    //     id: 'duplicate_of_offer___for_affil'
+    // }
 }
-const statusColumnUrl = `https://api.monday.com:443/v1/boards/${board_id}/columns/${CID_Status}/status.json?api_key=${api_key}`;
-const moveGroupUrl = `https://api.monday.com:443/v1/boards/${board_id}/pulses/move.json?api_key=${api_key}`;
 
 
-const setMondayOffer = module.exports = function (type, page, offerId, callback) {
-    const url = groups[type].url + page.path
-
-    request({
-        method: "POST",
-        uri: createPulseUrl,
-        json: {
-            user_id: user_ID,
-            pulse: {
-                name: url
+const mondayRequest =  (query) => {
+    return new Promise((resolve, reject) => {
+        // console.log("making a query:", query)
+        request({
+            method: "POST",
+            uri: "https://api.monday.com/v2",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": api_key
+            },
+            json: query
+        }, function (error, response, body) {
+            if (body && body.error_message)
+                reject(body)
+            else if (!error && (response.statusCode == 201 || response.statusCode == 200)) {
+                resolve(body)
+            } else {
+                // console.log(JSON.stringify(error || body || response, null, 4))
+                reject(error || body || response)
             }
-        }
-    }, function (error, response, body) {
-        
-        if (!error && (response.statusCode == 201 || response.statusCode == 200)) {
-            // console.log("-----pulse created-----");
-            var pulse_id = response.body.pulse.id;
-            // console.log("pulse id: " + pulse_id);
+    
+        })
+    })
+}
 
-            async.waterfall([
+const setMondayOffer = module.exports = async (type, page, offerId, callback) => {
 
-                // Set Offer ID Column
-                function (next) {
-                    if (type !== 'SECURITY') {
-                        var url = textColumnUrl(CID_Offer_Id)
-                        var text = offerId
-                        updateTextColumn(url, pulse_id, text, (err) => {
-                            if (err) next(err)
-                            else {
-                                // console.log("success updating offer id: " + text)
-                                next()
-                            }
-                        })
-                    } else next()
-                },
+    const pageUrl = groups[type].url + page.path
+    let langValue = "ALL"
+    const columnValues = {}
 
-                // Set Page Name Column
-                function (next) {
-                    var url = textColumnUrl(CID_Page_Name)
-                    var text = page.name
-                    updateTextColumn(url, pulse_id, text, (err) => {
-                        if (err) next(err)
-                        else {
-                            // console.log("success updating page name: " + text)
-                            next()
-                        }
-                    })
-                },
+    columnValues[CID_Link] = {
+        "url": pageUrl,
+        "text": pageUrl
+    }
 
-                // Set Language Column
-                function (next) {
-                    var url = textColumnUrl(CID_Languages)
-                    // if (pageLang[page.path]) {
-                    //     var text = pageLang[page.path].button_type.toUpperCase()
+    columnValues[CID_Status] = {
+        "label": "Live"
+    }
 
-                    // } else {
-                        console.log('NO LANGUAGE YET - Updating with ALL')
-                        var text = 'ALL'
-                    // }
+    columnValues[CID_Languages] = langValue
 
-                    updateTextColumn(url, pulse_id, text, (err) => {
-                        if (err) next(err)
-                        else {
-                            // console.log("success updating language: " + text)
-                            next()
-                        }
-                    })
-                },
+    if (type !== 'SECURITY')
+        columnValues[CID_Offer_Id] = offerId.toString()
 
-                // Set Status Column
-                function (next) {
-                    updateStatusColumn(statusColumnUrl, pulse_id, (err) => {
-                        if (err) next(err)
-                        else {
-                            // console.log('success setting status column to "Live"')
-                            next()
-                        }
-                    });
-                },
-
-                // Move Pulse to proper group
-                function (next) {
-                    movePulse(moveGroupUrl, pulse_id, groups[type].id, (err) => {
-                        if (err) next(err)
-                        else {
-                            // console.log('success moving pulse to ' + type)
-                            next()
-                        }
-                    });
-                },
-
-            ], function (err) {
-                if (err) 
-                    console.log(err);
-                else {
-                    console.log('Success Updating New Offer in Monday -', page.name, ' | type:', type);
-                    callback()
+    var query = {
+        query: `
+           mutation ($name: String!, $board: Int!, $group: String!, $values: JSON!) {
+                create_item (item_name: $name, board_id: $board, group_id: $group, column_values: $values ) { 
+                    id
                 }
-            })
-
-        } else {
-            console.log("statusCode: " + response ? response.statusCode : null);
-            console.log(error || body);
-            callback(error || body)
-        }
-    });
-}
-
-function movePulse(url, id, board, callback) {
-    request({
-        method: "POST",
-        uri: url,
-        json: {
-            user_id: user_ID,
-            group_id: board,
-            pulse_ids: id
-        }
-    }, function (error, response, body) {
-        if (!error && (response.statusCode == 201 || response.statusCode == 200)) {
-            // console.log('success Moving Column')
-            callback()
-        } else {
-            console.log("statusCode: " + response ? response.statusCode : null);
-            console.log(error || body);
-            callback(error || body)
+            }`,
+        variables: { 
+            "name": page.name,
+            "board": board_id,
+            "group": groups[type].id,
+            "values": JSON.stringify(columnValues)
         }
     }
-    );
-}
+    
+    try {
+        const response = await mondayRequest(query)
 
-function updateStatusColumn(url, id, callback) {
-
-    request({
-        method: "PUT",
-        uri: url,
-        json: {
-            pulse_id: id,
-            color_index: '1'
-        }
-    }, function (error, response, body) {
-        if (!error && (response.statusCode == 201 || response.statusCode == 200)) {
-            // console.log('success Updating Status Column')
+        console.log("res:", JSON.stringify(response))
+        if (response.errors && response.errors.length)
+            callback(response.errors)
+        else
             callback()
-        } else {
-            console.log("statusCode: " + response ? response.statusCode : null);
-            console.log(error || body);
-            callback(error || body)
-        }
-    }
-    );
-}
 
-function updateTextColumn(url, id, text, callback) {
-    request({
-        method: "PUT",
-        uri: url,
-        json: {
-            pulse_id: id,
-            text: text
-        }
-    }, function (error, response, body) {
-        if (!error && (response.statusCode == 201 || response.statusCode == 200)) {
-            // console.log('success Updating Text Column')
-            callback()
-        } else {
-            console.log("statusCode: " + response ? response.statusCode : null);
-            console.log(error || body);
-            callback(error || body)
-        }
+    } catch(err) {
+        console.log(err)
+        callback(err)
     }
-    );
+
 }

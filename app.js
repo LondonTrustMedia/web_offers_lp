@@ -10,6 +10,7 @@ const assets = require('express-asset-versions')
 // const autoprefixer = require('express-autoprefixer')({ browsers: 'last 4 versions', grid: true })
 
 const mws = require('./app/modules/mws.js')(app)
+const offersApi = require('./app/modules/offersApi.js');
 const supportedLanguages = ['eng', 'fra', 'deu']
 
 try {
@@ -19,6 +20,8 @@ try {
 }
 
 
+if (process.env.NODE_ENV === 'local')
+    offersApi.createNewOffers()
 
 // Settings ======================================================================
 

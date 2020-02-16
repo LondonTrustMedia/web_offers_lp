@@ -1,0 +1,152 @@
+@import 'index';
+@import '../layout/navbar/navbar_white';
+@import '../layout/footer/people_discount';
+@import '../layout/partials/discount_circle';
+@import '../layout/partials/faq';
+@import '../layout/partials/sponsors';
+
+body {
+    color: #004249;
+}
+section {
+    & .container {
+        &>h2 {
+            margin-top: 60px!important;
+            @media screen and (max-width: $brk-mobile-width) {
+                font-size: 1.5rem;
+            } 
+        }
+    }
+}
+
+header {
+    width: 100%;
+    padding-top: 80px;
+    margin-bottom: 30px;
+    overflow: hidden;
+
+    &.mobile {
+        & .bg {
+            background-image: url(img/header_bg_streaming_mobile.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-bottom: 90px;
+            margin-bottom: 25px;
+            background-position: right bottom calc(50% - 80px);
+
+            @media screen and (max-width: 550px) {
+                background-position: right calc(50% + 20px) bottom calc(50% - 60px);
+            }
+        }
+
+        & .container {
+            z-index: 2;
+            position: relative;
+            padding-top: 0;
+        }
+    }
+
+    & .circle {
+        background-image: url(img/header_bg_streaming.png.jpg);
+        background-size: cover;
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        @include cube-box(580px);
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        -webkit-mask-image: -webkit-radial-gradient(white, black);
+        mask-image: -webkit-radial-gradient(white, black);
+
+        @media screen and (max-width: $brk-desktop-width) {
+            @include cube-box(450px);
+        }
+    }
+
+    & .header_circle {
+        background-color: #E1E7EF;
+        width: 2000px;
+        border-bottom-left-radius: 1000px;
+        border-top-left-radius: 1000px;
+        padding: 15px;
+    }
+
+    & p {
+        max-width: 280px;
+
+        @media screen and (max-width: $brk-min-desktop-width) {
+            max-width: unset;
+        }
+    }
+
+    & h2 {
+        font-weight: 600;
+        max-width: 400px;
+        font-size: 3.5rem;
+        line-height: 1.2;
+        @media screen and (max-width: $brk-ipad-width) {
+            font-size: 1.5rem;
+            max-width: unset;
+        }
+    }
+
+    & .brands {
+        & img {
+            height: 60px;
+
+            @media screen and (max-width: $brk-ipad-width) {
+                height: 40px;
+            }
+        }
+    }
+
+    & .circle_discount_container {
+        position: absolute !important;
+        left: -50px;
+        top: 50px;
+
+        @media screen and (max-width: $brk-min-desktop-width) {
+            position: relative !important;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+#location {
+    & img {
+        width: 260px;
+        @media screen and (max-width: $brk-ipad-width) {
+            width: 235px;
+        }
+    }
+}
+#needs {
+    & .container {
+        border-top: solid 3px #F6F9FE;
+    }
+    & img {
+        width: 210px;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            width: 200px;
+        }
+    }
+}
+#easy_steps {
+    & .container {
+        border-top: solid 3px #F6F9FE;
+    }
+    & .unlock {
+        width: 150px;
+    }
+    & .d-table {
+        & img {
+            width: 25px;
+        }
+    }
+}
+#faq {
+    & .container {
+        border-top: solid 3px #F6F9FE;
+    }
+}

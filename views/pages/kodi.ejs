@@ -2,7 +2,7 @@
 
 <head>
     <% include ../partials/head %>
-    <link rel="stylesheet" href="<%= asset('css/streaming.css') %>">
+    <link rel="stylesheet" href="<%= asset('css/kodi.css') %>">
     <link rel="stylesheet" href="https://use.typekit.net/syh7gcy.css">
 </head>
 
@@ -11,8 +11,8 @@
         <header class="mobile d-block d-lg-none text-center text">
             <div class="bg">
                 <div class="container color_dark_green">
-                    <h2 class='d-inline-block mb-0'><%- gettext('The Best VPN for streaming ') %></h2>
-                    <p class="my-3"><%- gettext("Unblock new content libraries with Private Internet Access") %></p>
+                    <h2 class='d-inline-block mb-0'><%- gettext('The best VPN for Kodi') %></h2>
+                    <p class="my-3"><%- gettext("Stay safe while streaming on Kodi with Private Internet Access") %></p>
                     <% include ../partials/circle_discount %>
                 </div>
             </div>
@@ -31,13 +31,11 @@
                 </div>
             </div>
         </header>
-
-
         <header class="d-lg-block d-none text %>">
             <div class="container color_dark_green d-flex justify-content-between">
                 <div class="col-5 d-flex justify-content-center flex-column">
-                    <h2 class='d-inline-block mb-0'><%- gettext('The Best VPN for Streaming') %></h2>
-                    <p class="my-3"><%- gettext("Unblock new content libraries with Private Internet Access") %></p>
+                    <h2 class='d-inline-block mb-0'><%- gettext('The best VPN for Kodi') %></h2>
+                    <p class="my-3"><%- gettext("Stay safe while streaming on Kodi with Private Internet Access") %></p>
                     <div class="d-block">
                         <a href="<%- offerLink %>" class="btn_pia orange mb-3"><%- gettext("Get Private Internet Access") %></a>
                     </div>
@@ -55,35 +53,6 @@
                     <% include ../partials/circle_discount %>
                     <div class="header_circle">
                         <div class="circle">
-                            <div class="popcorn_container">
-                                <div class="big">
-                                    <% for(var i=1;i<9;i++){ %>
-                                        <% if(i>7) { %>
-                                            <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
-                                        <% } else { %>
-                                            <div class="pop"><img src="img/streaming_popcorn<%-i%>.png" alt="popcorn"></div>
-                                        <% } %>
-                                    <% } %>
-                                </div>
-                                <div class="medium">
-                                    <% for(var i=1;i<9;i++){ %>
-                                        <% if(i>7) { %>
-                                            <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
-                                        <% } else { %>
-                                            <div class="pop"><img src="img/streaming_popcorn<%-i%>.png" alt="popcorn"></div>
-                                        <% } %>
-                                    <% } %>
-                                </div>
-                                <div class="small">
-                                    <% for(var i=1;i<9;i++){ %>
-                                        <% if(i>7) { %>
-                                            <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
-                                        <% } else { %>
-                                            <div class="pop"><img src="img/streaming_popcorn<%-i%>.png" alt="popcorn"></div>
-                                        <% } %>
-                                    <% } %>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -91,50 +60,37 @@
         </header>
 
         <section id="location">
-            <div class="container d-flex flex-md-row flex-column justify-content-between align-items-center text-center text-md-left">
-                <div class="col-md-9">
-                    <h2><%- gettext("Discover Limitless Streaming Content") %></h2>
-                    <p><%- gettext("Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. Sign up for Private Internet Access today!") %></p>
-                </div>
-                <div class="col-md-3">
-                    <img src="img/pia_lockman/pia_lockman_geo_travel.png" alt="geo">
-                </div>
-            </div>
-        </section>
-
-        <section id="unblock">
-            <div class="container text-center">
-                <h2 class="mt-5"><%- gettext("Unblock content on:") %></h2>
-                <div class="d-flex justify-content-between align-items-center my-5 flex-wrap">
-                    <div class="netflix mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/Netflix_logo.svg" alt="Netflix"></div>
-                    <div class="mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/logo_HBOGO.svg" alt="HBOGO"></div>
-                    <div class="mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/logo_Disney+.svg" alt="Disney+"></div>
-                    <div class="amazon_prime mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/logo_Amazon_Prime_Video.svg" alt="Amazon Prime Video"></div>
-                    <div class="mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/logo_Comedy_Central.svg" alt="Comedy Central"></div>
-                    <div class="mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/logo_BBC_iPlayer.svg" alt="BBC Player"></div>
-                </div>
-                <a href="<%- offerLink %>" class="btn_pia orange mb-3"><%- gettext("Get Private Internet Access") %></a>
+            <div class="container d-flex flex-md-row flex-column justify-content-between align-items-center text-center">
+                <h2><%-  %></h2>
+                <p><%- gettext("Whether you use Kodi TV to watch your personal content library or for the titles you find on their website, make sure nobody will be able to find out what you're doing online.") %></p>
+                <p class="my-4"><%- gettext("<b>Why? </b>Streaming content on Kodi works is basically P2P torrenting which might be illegal in your country. Luckily, with the Private Internet Access VPN, you can make all your internet activity totally anonymous. So, you'll never have any trouble with governmental authorities while using Kodi.") %></p>
+                <a href="<%- offerLink %>" class="btn_pia orange"><%- gettext("Get Private Internet Access") %></a>
             </div>
         </section>
 
         <section id="needs">
             <div class="container text-center">
-                <h2 class="mt-5"><%- gettext("A must have for your streaming needs") %></h2>
+                <h2 class="mt-5"><%- gettext("A must have for streaming with Kodi") %></h2>
                 <div class="d-flex justify-content-center flex-md-row flex-column mt-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <img src="img/pia_lockman/box_pia_lockman_infinity.png" alt="infinity">
-                        <h5 class="my-3"><%- gettext("Unlimited bandwidth for streaming") %></h5>
-                        <p class="mb-0"><%- gettext("Private Internet Access has no logs, never records online activity and does not throttle users.") %></p>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <img src="img/pia_lockman/box_pia_lockman_p2p.svg" alt="infinity">
+                        <h5 class="my-3"><%- gettext("P2P traffic allowed ") %></h5>
+                        <p class="mb-0"><%- gettext("Private Internet Access supports P2P protocols such as torrents.") %></p>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <img src="img/pia_lockman/box_pia_lockman_one_click.png" alt="one click">
-                        <h5 class="my-3"><%- gettext("One-click solution to override geographical restrictions") %></h5>
-                        <p class="mb-0"><%- gettext("Once you have chosen your virtual location, you can connect to it using Private Internet Access with just one click.") %></p>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <img src="img/pia_lockman/box_pia_lockman_no_logs.svg" alt="one click">
+                        <h5 class="my-3"><%- gettext("No Logs Policy") %></h5>
+                        <p class="mb-0"><%- gettext("Private Internet Access never records its users' online activity and never keeps any logs, so you'll have complete anonymity from the moment you connect to our servers.") %></p>
                     </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <img src="img/pia_lockman/box_pia_lockman_devices.png" alt="devices">
-                        <h5 class="my-3"><%- gettext("Stream on multiple devices ") %></h5>
-                        <p class="mb-0"><%- gettext("1 Private Internet Access subscription can be used on up to 5 devices simultaneously. Share Private Internet Access with your entire family!") %></p>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <img src="img/pia_lockman/box_pia_lockman_break_wall.svg" alt="devices">
+                        <h5 class="my-3"><%- gettext("Bypass geographical restrictions") %></h5>
+                        <p class="mb-0"><%- gettext("Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.") %></p>
+                    </div>
+                    <div class="col-md-3 mb-3 mb-md-0">
+                        <img src="img/pia_lockman/box_pia_lockman_devices.svg" alt="devices">
+                        <h5 class="my-3"><%- gettext("Use Kodi TV on multiple devices") %></h5>
+                        <p class="mb-0"><%- gettext("1 Private Internet Access subscription can be used on up to 5 devices simultaneously. Share Private Internet Access with your whole family!") %></p>
                     </div>
                 </div>
             </div>

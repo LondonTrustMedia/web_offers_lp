@@ -1,0 +1,26 @@
+<section id="faq">
+    <div class="container text-center">
+        <h1><%- title %></h1>
+    </div>
+    <div class="text-left accordion" id="accordion_faq">
+        <% qas.forEach(function(qa,i) { %>
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" 
+                            data-toggle="collapse" data-target="#collapse<%- i %>" 
+                            aria-expanded="true" aria-controls="collapse<%- i %>">
+                        <%- qa.question %>
+                    </button>
+                    </h2>
+                </div>
+                <div id="collapse<%- i %>" class="collapse show" 
+                    aria-labelledby="heading<%- i %>" data-parent="#accordion_faq">
+                    <div class="card-body">
+                        <%- qa.answer %>
+                    </div>
+                </div>
+            </div>
+        <% }) %>
+    </div>
+</section>

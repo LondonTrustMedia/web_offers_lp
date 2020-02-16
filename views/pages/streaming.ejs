@@ -57,31 +57,31 @@
                         <div class="circle">
                             <div class="popcorn_container">
                                 <div class="big">
-                                    <div class="pop"><img src="img/streaming_popcorn1.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn2.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn3.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn4.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn5.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn6.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn7.png" alt="popcorn"></div>
+                                    <% for(var i=1;i<9;i++){ %>
+                                        <% if(i>7) { %>
+                                            <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
+                                        <% } else { %>
+                                            <div class="pop"><img src="img/streaming_popcorn<%-i%>.png" alt="popcorn"></div>
+                                        <% } %>
+                                    <% } %>
                                 </div>
                                 <div class="medium">
-                                    <div class="pop"><img src="img/streaming_popcorn1.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn2.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn3.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn4.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn5.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn6.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn7.png" alt="popcorn"></div>
+                                    <% for(var i=1;i<9;i++){ %>
+                                        <% if(i>7) { %>
+                                            <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
+                                        <% } else { %>
+                                            <div class="pop"><img src="img/streaming_popcorn<%-i%>.png" alt="popcorn"></div>
+                                        <% } %>
+                                    <% } %>
                                 </div>
                                 <div class="small">
-                                    <div class="pop"><img src="img/streaming_popcorn1.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn2.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn3.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn4.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn5.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn6.png" alt="popcorn"></div>
-                                    <div class="pop"><img src="img/streaming_popcorn7.png" alt="popcorn"></div>
+                                    <% for(var i=1;i<9;i++){ %>
+                                        <% if(i>7) { %>
+                                            <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
+                                        <% } else { %>
+                                            <div class="pop"><img src="img/streaming_popcorn<%-i%>.png" alt="popcorn"></div>
+                                        <% } %>
+                                    <% } %>
                                 </div>
                             </div>
                         </div>
@@ -91,12 +91,12 @@
         </header>
 
         <section id="location">
-            <div class="container d-flex flex-md-row flex-column">
-                <div class="col-md-7">
+            <div class="container d-flex flex-md-row flex-column justify-content-between align-items-center text-center text-md-left">
+                <div class="col-md-9">
                     <h2><%- gettext("Discover Limitless Streaming Content") %></h2>
                     <p><%- gettext("Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. Sign up for Private Internet Access today!") %></p>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-3">
                     <img src="img/pia_lockman/pia_lockman_geo_travel.png" alt="geo">
                 </div>
             </div>
@@ -105,13 +105,13 @@
         <section id="unblock">
             <div class="container text-center">
                 <h2 class="mt-5"><%- gettext("Unblock content on:") %></h2>
-                <div class="d-flex justify-content-center align-items-center my-5">
-                    <div class="mr-4 netflix"><img src="img/Netflix_logo.svg" alt="Netflix"></div>
-                    <div class="mx-4"><img src="img/logo_HBOGO.svg" alt="HBOGO"></div>
-                    <div class="mx-4"><img src="img/logo_Disney+.svg" alt="Disney+"></div>
-                    <div class="mx-4 amazon_prime"><img src="img/logo_Amazon_Prime_Video.svg" alt="Amazon Prime Video"></div>
-                    <div class="mx-4"><img src="img/logo_Comedy_Central.svg" alt="Comedy Central"></div>
-                    <div class="ml-4"><img src="img/logo_BBC_iPlayer.svg" alt="BBC Player"></div>
+                <div class="d-flex justify-content-between align-items-center my-5 flex-wrap">
+                    <div class="netflix mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/Netflix_logo.svg" alt="Netflix"></div>
+                    <div class="mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/logo_HBOGO.svg" alt="HBOGO"></div>
+                    <div class="mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/logo_Disney+.svg" alt="Disney+"></div>
+                    <div class="amazon_prime mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/logo_Amazon_Prime_Video.svg" alt="Amazon Prime Video"></div>
+                    <div class="mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/logo_Comedy_Central.svg" alt="Comedy Central"></div>
+                    <div class="mb-2 mb-xl-0 col-4 col-xl-2"><img src="img/logo_BBC_iPlayer.svg" alt="BBC Player"></div>
                 </div>
                 <a href="<%- offerLink %>" class="btn_pia orange mb-3"><%- gettext("Get Private Internet Access") %></a>
             </div>
@@ -119,21 +119,21 @@
 
         <section id="needs">
             <div class="container text-center">
-                <h2><%- gettext("A must have for your streaming needs") %></h2>
+                <h2 class="mt-5"><%- gettext("A must have for your streaming needs") %></h2>
                 <div class="d-flex justify-content-center flex-md-row flex-column mt-5">
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-3 mb-md-0">
                         <img src="img/pia_lockman/box_pia_lockman_infinity.png" alt="infinity">
-                        <h4 class="my-3"><%- gettext("Unlimited bandwidth for streaming") %></h4>
+                        <h5 class="my-3"><%- gettext("Unlimited bandwidth for streaming") %></h5>
                         <p class="mb-0"><%- gettext("Private Internet Access has no logs, never records online activity and does not throttle users.") %></p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-3 mb-md-0">
                         <img src="img/pia_lockman/box_pia_lockman_one_click.png" alt="one click">
-                        <h4 class="my-3"><%- gettext("One-click solution to override geographical restrictions") %></h4>
+                        <h5 class="my-3"><%- gettext("One-click solution to override geographical restrictions") %></h5>
                         <p class="mb-0"><%- gettext("Once you have chosen your virtual location, you can connect to it using Private Internet Access with just one click.") %></p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-3 mb-md-0">
                         <img src="img/pia_lockman/box_pia_lockman_devices.png" alt="devices">
-                        <h4 class="my-3"><%- gettext("Stream on multiple devices ") %></h4>
+                        <h5 class="my-3"><%- gettext("Stream on multiple devices ") %></h5>
                         <p class="mb-0"><%- gettext("1 Private Internet Access subscription can be used on up to 5 devices simultaneously. Share Private Internet Access with your entire family!") %></p>
                     </div>
                 </div>
@@ -142,20 +142,30 @@
 
         <section id="easy_steps">
             <div class="container text-center">
-                <h2><%- gettext("Unblock streaming in only 4 easy steps") %></h2>
-                <p class="mt-3 mb-5"><%- gettext("Watch your favorite movies and shows in minutes") %></p>
-                <div class="text-left d-flex">
-                    <div class="col-md-2">
-                        <img src="img/unlock_lock.svg" alt="Unlock">
+                <h2 class="mt-5"><%- gettext("Unblock streaming in only 4 easy steps") %></h2>
+                <p class="mt-3 mb-lg-5 mb-4"><%- gettext("Watch your favorite movies and shows in minutes") %></p>
+                <div class="text-left d-flex flex-lg-row flex-column justify-content-center align-items-center align-items-sm-center align-items-lg-start">
+                    <div class="col-lg-3 text-lg-left text-center mb-lg-0 mb-4">
+                        <img src="img/unlock_lock.svg" alt="Unlock" class="unlock">
                     </div>
-                    <div class="col-md-10">
-                        <ul>
-                            <li class="mb-3"><%- gettext("Subscribe to Private Internet Access") %></li>
-                            <li class="mb-3"><%- gettext("Download Private Internet Access on your device") %></li>
-                            <li class="mb-3"><%- gettext("Login-in using your username and password") %></li>
-                            <li><%- gettext("Turn on Private Internet Access and connect to the location of your choice") %></li>
-                        </ul>
-                        <p class="pl-5"><b><%- gettext("You’re ready to start streaming with Private Internet Access!") %></b></p>
+                    <div class="col-lg-9">
+                        <div class="d-table mb-4">
+                            <div class="d-table-cell pr-3"><img src="img/checkmark_icon_green2.svg" alt="check"></div>
+                            <div class="d-table-cell"><%- gettext("Subscribe to Private Internet Access") %></div>
+                        </div>
+                        <div class="d-table mb-4">
+                            <div class="d-table-cell pr-3"><img src="img/checkmark_icon_green2.svg" alt="check"></div>
+                            <div class="d-table-cell"><%- gettext("Download Private Internet Access on your device") %></div>
+                        </div>
+                        <div class="d-table mb-4">
+                            <div class="d-table-cell pr-3"><img src="img/checkmark_icon_green2.svg" alt="check"></div>
+                            <div class="d-table-cell"><%- gettext("Login-in using your username and password") %></div>
+                        </div>
+                        <div class="d-table mb-4">
+                            <div class="d-table-cell pr-3"><img src="img/checkmark_icon_green2.svg" alt="check"></div>
+                            <div class="d-table-cell"><%- gettext("Turn on Private Internet Access and connect to the location of your choice") %></div>
+                        </div>
+                        <p class="mb-4"><b><%- gettext("You’re ready to start streaming with Private Internet Access!") %></b></p>
                     </div>
                 </div>
                 <a href="<%- offerLink %>" class="btn_pia orange mb-3"><%- gettext("Get Private Internet Access") %></a>
@@ -185,6 +195,7 @@
                                             }
                                         ]
         }) %>
+        <% include ../partials/sponsors %>
         <% include ../partials/footers/people_discount %>
         <% include ../partials/tag_manager %>
     </body>

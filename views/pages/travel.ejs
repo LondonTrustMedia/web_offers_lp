@@ -1,0 +1,147 @@
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('css/travel.css') %>">
+    <link rel="stylesheet" href="https://use.typekit.net/syh7gcy.css">
+</head>
+
+    <body>
+        <% include ../navbar/navbar_white %>
+        <header class="mobile d-block d-lg-none text-center text">
+            <div class="bg">
+                <div class="container color_dark_green">
+                    <h2 class='d-inline-block mb-0'><%- gettext('The best VPN for travel') %></h2>
+                    <p class="my-3"><%- gettext("Get the best prices on flights and hotels with Private Internet Access") %></p>
+                    <% include ../partials/circle_discount %>
+                </div>
+            </div>
+            <div class="sub_bg">
+                <div class="container color_dark_green">
+                    <a href="<%- offerLink %>" class="btn_pia orange mb-3"><%- gettext("Get Private Internet Access") %></a>
+                    <% if (query.brand) { %>
+                        <% include ../partials/brand %>
+                    <% } else { %>
+                        <div class="brands">
+                            <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                            <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                            <div class="d-inline-block"><img src="img/brand_logo_cnet.png" alt="cnet"></div>
+                        </div>
+                    <% } %>
+                </div>
+            </div>
+        </header>
+        <header class="d-lg-block d-none text %>">
+            <div class="container color_dark_green d-flex justify-content-between">
+                <div class="col-5 d-flex justify-content-center flex-column">
+                    <h2 class='d-inline-block mb-0'><%- gettext('The best VPN for travel') %></h2>
+                    <p class="my-3"><%- gettext("Get the best prices on flights and hotels with Private Internet Access") %></p>
+                    <div class="d-block">
+                        <a href="<%- offerLink %>" class="btn_pia orange mb-3"><%- gettext("Get Private Internet Access") %></a>
+                    </div>
+                    <% if (query.brand) { %>
+                        <% include ../partials/brand %>
+                    <% } else { %>
+                        <div class="brands">
+                            <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                            <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                            <div class="d-inline-block"><img src="img/brand_logo_cnet.png" alt="cnet"></div>
+                        </div>
+                    <% } %>
+                </div>
+                <div class="col-6">
+                    <% include ../partials/circle_discount %>
+                    <div class="header_circle">
+                        <div class="circle">
+                            <div class="travel">
+                                <img src="img/header_bg_travel_bg2.jpg" alt="travel2">
+                                <img src="img/header_bg_travel_bg3.jpg" alt="travel3">
+                                <img src="img/header_bg_travel_bg4.jpg" alt="travel4">
+                            </div>
+                            <div class="people"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="location">
+            <div class="container d-flex flex-column justify-content-between align-items-center text-center">
+                <h2><%- gettext("Save Money When Shopping Online") %></h2>
+                <p><%- gettext("Using Private Internet Access when planning an upcoming trip or when booking a flight, rental car, or a hotel can get you the best prices. Connect to different servers from all over the world and check the best offers. The results just might surprise you and save you some money.") %></p>
+                <p class="my-4"><%- gettext("<b>Plus</b>, Private Internet Access protects you from hackers. Stay shielded against cyber-criminals, that are trying to get their hands on your banking details, passwords, pictures or emails, especially when traveling abroad.") %></p>
+                <div><img src="img/plane.png" alt="Plane" class="plane mb-5"></div>
+                <a href="<%- offerLink %>" class="btn_pia orange"><%- gettext("Get Private Internet Access") %></a>
+            </div>
+        </section>
+
+        <section id="needs">
+            <div class="container text-center">
+                <h2 class="mt-5"><%- gettext("A must have for travelers before and during your trip") %></h2>
+                <div class="d-flex justify-content-center flex-lg-row flex-column mt-5">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img src="img/pia_lockman/box_pia_lockman_p2p.svg" alt="p2p">
+                        <h5 class="my-3"><%- gettext("Change your virtual location") %></h5>
+                        <p class="mb-0"><%- gettext("Private Internet Access has a network of thousands of servers across dozens of locations in over 29 countries. Connect to servers from multiple countries to discover the best prices.") %></p>
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img src="img/pia_lockman/box_pia_lockman_infinity.png" alt="Unlimited bandwidth">
+                        <h5 class="my-3"><%- gettext("Unlimited bandwidth") %></h5>
+                        <p class="mb-0"><%- gettext("Private Internet Access has no logs and does not throttle users.") %></p>
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img src="img/pia_lockman/box_pia_lockman_super_protect.png" alt="protect">
+                        <h5 class="my-3"><%- gettext("Protect sensitive information while traveling") %></h5>
+                        <p class="mb-0"><%- gettext("Once you connect to one of Private Internet Access' remote servers your entire internet activity and sensitive data will be 100% shielded from hackers.") %></p>
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img src="img/pia_lockman/box_pia_lockman_devices.svg" alt="devices">
+                        <h5 class="my-3"><%- gettext("Protect multiple devices") %></h5>
+                        <p class="mb-0"><%- gettext("1 Private Internet Access subscription can be used on up to 5 devices simultaneously. Protect all your devices while you travel.") %></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <%- include('../partials/unblock_steps', {  title: gettext('Four easy steps to use Private Internet Access for traveling'),
+                                                    subtitle: gettext('Start protecting your internet with Private Internet Access in minutes'),
+                                                    steps:[
+                                                        gettext('Subscribe to Private Internet Access'),
+                                                        gettext('Download Private Internet Access'),
+                                                        gettext('Login on the Private Internet Access client with your username and password'),
+                                                        gettext('Turn on Private Internet Access and connect to the location of your choice')
+                                                    ],
+                                                    footer: gettext('Your internet connection is now being protected and your IP address has been changed by Private Internet Access.')
+
+        }) %>
+
+        <%- include('../partials/faq', {title: gettext('Check out a few of our FAQs about online travel safety'),
+                                    qas:[
+                                            {
+                                                'question': gettext('Is it safe to travel with Private Internet Access?'),
+                                                'answer': gettext('Yes. Private Internet Access provides a VPN service with thousands of servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. Our service encrypts your connection so you can use Wi-Fi networks in unknown places without fear. The better question is: Is it safe to travel without Private Internet Access?')
+                                            },
+                                            {
+                                                'question': gettext('Do you have a refund policy?'),
+                                                'answer': gettext('Yes. Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!')
+                                            },
+                                            {
+                                                'question': gettext('Will my IP address be exposed while I am traveling?'),
+                                                'answer': gettext('No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address.')
+                                            },
+                                            {
+                                                'question': gettext('Does Private Internet Access limit bandwidth for travelers?'),
+                                                'answer': gettext('No. Private Internet Access is the premier no log VPN - this means that we don’t analyze your traffic and try to limit your use, ever. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.')
+                                            },
+                                            {
+                                                'question': gettext('Will Private Internet Access be blocked in the country that I am traveling to?'),
+                                                'answer': gettext('No, but if it is please reach out to our 24/7 Customer Support team for help connecting. Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for travelers.')
+                                            }
+                                        ]
+        }) %>
+        <% include ../partials/sponsors %>
+        <% include ../partials/footers/people_discount %>
+        <% include ../partials/tag_manager %>
+    </body>
+
+</html>

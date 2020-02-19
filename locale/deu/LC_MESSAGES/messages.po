@@ -3,20 +3,20 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: German\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-02-06 10:06\n"
+"PO-Revision-Date: 2020-02-19 09:25\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-02-06 10:04+0000\n"
+"POT-Creation-Date: 2020-02-19 09:17+0000\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: de\n"
 "X-Crowdin-File: messages.pot\n"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/mws.js:345
+#: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/mws.js:375
 msgid "US Dollars"
-msgstr "US-Dollar"
+msgstr "US Dollar"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/navbar/old-navbar_white.ejs:9
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:6
@@ -123,8 +123,8 @@ msgstr "Holen Sie sich Private Internet Access"
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:53
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:22
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:55
-msgid "Try it risk free! 7 day money back guarantee"
-msgstr "Testen Sie uns ohne Risiko! 7 Tage Geld-zurück-Garantie"
+msgid "Try it risk free! %s day money back guarantee"
+msgstr "Testen Sie uns ohne Risiko! %s Tage Geld-zurück-Garantie"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trust.ejs:17
 msgid "a VPN you can<br><b>trust</b>"
@@ -176,8 +176,8 @@ msgstr "Uns vertrauen Unternehmen wie:"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:3
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:3
-msgid "Risk Free. 7 day money back guarantee"
-msgstr "Kein Risiko: 7 Tage Geld-zurück-Garantie"
+msgid "Risk Free. %s day money back guarantee"
+msgstr "Kein Risiko: %s Tage Geld-zurück-Garantie"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:4
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:4
@@ -187,12 +187,12 @@ msgstr "Nur für begrenzte Zeit! Handeln Sie jetzt"
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:7
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:26
 msgid "BEST VALUE"
-msgstr "BESTES ANGEBOT"
+msgstr "BESTER DEAL"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:11
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:10
 msgid "Monthly"
-msgstr "Monatlich"
+msgstr "Pro Monat"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:13
 msgid "Months"
@@ -201,7 +201,7 @@ msgstr "Monate"
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:17
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:29
 msgid "Yearly"
-msgstr "Jährlich"
+msgstr "jährlich"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:19
 msgid "Years"
@@ -212,7 +212,7 @@ msgstr "Jahre"
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:32
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:54
 msgid "SAVE %s%"
-msgstr "SPAREN SIE %s %"
+msgstr "SPARE %s%"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:37
 msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per month"
@@ -261,13 +261,13 @@ msgstr "Länder"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/people_discount.ejs:4
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:4
-msgid "7 day money back guarantee"
-msgstr "7 Tage Geld-zurück-Garantie"
+msgid "%s day money back guarantee"
+msgstr "%s Tage Geld-zurück-Garantie"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/people_discount.ejs:5
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:5
-msgid "If you’re not 100% satisfied with Private Internet Access, we’ll give you your money back. Try us risk free, that’s our 7 day money back guarantee."
-msgstr "Wenn Sie nicht zu 100 % zufrieden mit Private Internet Access sind, geben wir Ihnen Ihr Geld zurück. Testen Sie uns ohne Risiko – das ist unsere 7-tägige Geld-zurück-Garantie."
+msgid "If you’re not 100% satisfied with Private Internet Access, we’ll give you your money back. Try us risk free, that’s our %s day money back guarantee."
+msgstr "Wenn Sie nicht zu 100 % zufrieden mit Private Internet Access sind, geben wir Ihnen Ihr Geld zurück. Testen Sie uns ohne Risiko – das ist unsere %s-tägige Geld-zurück-Garantie."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:10
 msgid "new"
@@ -500,7 +500,7 @@ msgstr "Sofortiges Set-up"
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:51
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:51
 msgid "Easy to use"
-msgstr "Benutzerfreundlich"
+msgstr "Einfach zu bedienender"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/intro_video.ejs:11
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:66

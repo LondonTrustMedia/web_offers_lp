@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-02-06 10:06\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-02-06 10:04+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-02-19 09:25\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-02-19 09:17+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
       },
       "US Dollars": [
          null,
@@ -83,9 +83,9 @@
          null,
          "Obtenez Private Internet Access"
       ],
-      "Try it risk free! 7 day money back guarantee": [
+      "Try it risk free! %s day money back guarantee": [
          null,
-         "Testez-le sans aucun risque ! Remboursement garanti 7 jours"
+         "Testez-le sans aucun risque ! Remboursement garanti %s jours"
       ],
       "a VPN you can<br><b>trust</b>": [
          null,
@@ -131,9 +131,9 @@
          null,
          "Ces entreprises nous font confiance :"
       ],
-      "Risk Free. 7 day money back guarantee": [
+      "Risk Free. %s day money back guarantee": [
          null,
-         "Aucune prise de risque. Remboursement garanti 7 jours"
+         "Aucune prise de risque. Remboursement garanti %s jours"
       ],
       "Limited Time Only! Act Now": [
          null,
@@ -141,7 +141,7 @@
       ],
       "BEST VALUE": [
          null,
-         "MEILLEUR RAPPORT QUALITÉ/PRIX"
+         "MEILLEURE VALEUR"
       ],
       "Monthly": [
          null,
@@ -203,13 +203,13 @@
          null,
          "Pays"
       ],
-      "7 day money back guarantee": [
+      "%s day money back guarantee": [
          null,
-         "Remboursement garanti 7 jours"
+         "Garantie satisfait ou remboursé de %s jours"
       ],
-      "If you’re not 100% satisfied with Private Internet Access, we’ll give you your money back. Try us risk free, that’s our 7 day money back guarantee.": [
+      "If you’re not 100% satisfied with Private Internet Access, we’ll give you your money back. Try us risk free, that’s our %s day money back guarantee.": [
          null,
-         "Si vous n'êtes pas entièrement satisfait de Private Internet Access, vous serez remboursé. Testez nos services sans prise de risque avec notre garantie de remboursement 7 jours."
+         "Si vous n'êtes pas entièrement satisfait de Private Internet Access, vous serez remboursé. Testez nos services sans prise de risque avec notre garantie de remboursement %s jours."
       ],
       "new": [
          null,
@@ -301,7 +301,7 @@
       ],
       "6 Months": [
          null,
-         "6 Mois"
+         "6 mois"
       ],
       "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per six months": [
          null,
@@ -385,7 +385,7 @@
       ],
       "Unlimited Bandwidth": [
          null,
-         "Bande passante illimitée"
+         "Une bande passante illimitée"
       ],
       "SOCKS5 Proxy Includeds": [
          null,

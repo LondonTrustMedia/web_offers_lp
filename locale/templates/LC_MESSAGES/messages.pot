@@ -9,9 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-02-06 10:04+0000\n"
+"POT-Creation-Date: 2020-02-19 09:17+0000\n"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/mws.js:345
+#: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/mws.js:375
 msgid "US Dollars"
 msgstr ""
 
@@ -126,7 +126,7 @@ msgstr ""
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:53
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:22
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:55
-msgid "Try it risk free! 7 day money back guarantee"
+msgid "Try it risk free! %s day money back guarantee"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trust.ejs:17
@@ -182,7 +182,7 @@ msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:3
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:3
-msgid "Risk Free. 7 day money back guarantee"
+msgid "Risk Free. %s day money back guarantee"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:4
@@ -281,14 +281,14 @@ msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/people_discount.ejs:4
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:4
-msgid "7 day money back guarantee"
+msgid "%s day money back guarantee"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/people_discount.ejs:5
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:5
 msgid ""
 "If you’re not 100% satisfied with Private Internet Access, we’ll give you "
-"your money back. Try us risk free, that’s our 7 day money back guarantee."
+"your money back. Try us risk free, that’s our %s day money back guarantee."
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:10

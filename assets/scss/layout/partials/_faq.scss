@@ -2,6 +2,7 @@
     color: #004249;
     & .card-header {
        background-color: #F6F9FE;
+       padding:unset;
     }
     & .btn {
         color: inherit;
@@ -9,6 +10,8 @@
         font-size: 18px;
         text-decoration: none;
         text-align: left;
+        width: 100%;
+        padding: .75rem 1.25rem;
         @media screen and (max-width: $brk-ipad-width) {
             font-size: 16px;
         }

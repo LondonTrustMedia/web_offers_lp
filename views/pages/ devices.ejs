@@ -11,7 +11,8 @@
         <%- include('../partials/newDesign_builder', {  pricing: true,
                                                         bg: device.bg + 'DESKTOP.jpg', 
                                                         bg_mobile: device.bg_mobile + 'MOBILE.jpg', 
-                                                        title: "<h2 class='d-inline-block mb-0'>"+format(gettext('The Top VPN for <br><b>%s</b>'), [device.text]) +"</h2>" }) %>
+                                                        title: "<h2 class='d-inline-block mb-0'>" + format(gettext('The Top VPN for<br><b>%s</b>'), [device.text]) +"</h2>" 
+        }) %>
         <% include ../body/hp %>
         <% include ../partials/footers/people_discount %>
         <% include ../partials/tag_manager %>

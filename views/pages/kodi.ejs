@@ -31,7 +31,7 @@
                 </div>
             </div>
         </header>
-        <header class="d-lg-block d-none text %>">
+        <header class="d-lg-block d-none text">
             <div class="container color_dark_green d-flex justify-content-between">
                 <div class="col-5 d-flex justify-content-center flex-column">
                     <h2 class='d-inline-block mb-0'><%- gettext('The best VPN for Kodi') %></h2>
@@ -81,7 +81,7 @@
                 <div class="d-flex justify-content-center flex-lg-row flex-column mt-5">
                     <div class="col-lg-3 mb-3 mb-lg-0">
                         <img src="img/pia_lockman/box_pia_lockman_p2p.svg" alt="infinity">
-                        <h5 class="my-3"><%- gettext("P2P traffic allowed ") %></h5>
+                        <h5 class="my-3"><%- gettext("P2P traffic allowed") %></h5>
                         <p class="mb-0"><%- gettext("Private Internet Access supports P2P protocols such as torrents.") %></p>
                     </div>
                     <div class="col-lg-3 mb-3 mb-lg-0">
@@ -116,24 +116,24 @@
         }) %>
 
         <%- include('../partials/faq', {title: gettext('Got questions?<br>Check out our FAQs'),
-                                    qas:[
-                                            {
-                                                'question': gettext('Is it safe to use Kodi with Private Internet Access?'),
-                                                'answer': gettext('Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?')
-                                            },
-                                            {
-                                                'question': gettext('Do you have a refund policy?'),
-                                                'answer': gettext('Yes. Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!')
-                                            },
-                                            {
-                                                'question': gettext('Will my IP address be exposed while using Kodi add-ons?'),
-                                                'answer': gettext('No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Any service or website accessed will only see our Private Internet Access IP address, not your device’s IP address.')
-                                            },
-                                            {
-                                                'question': gettext('Does Private Internet Access limit bandwidth for Kodi users?'),
-                                                'answer': gettext('No. Private Internet Access is the premier no log VPN - this means that we don’t even know what software you use in conjunction with ours. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.')
-                                            }
-                                        ]
+                                        qas:[
+                                                {
+                                                    'question': gettext('Is it safe to use Kodi with Private Internet Access?'),
+                                                    'answer': gettext('Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?')
+                                                },
+                                                {
+                                                    'question': gettext('Do you have a refund policy?'),
+                                                    'answer': gettext('Yes. Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!')
+                                                },
+                                                {
+                                                    'question': gettext('Will my IP address be exposed while using Kodi add-ons?'),
+                                                    'answer': gettext('No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Any service or website accessed will only see our Private Internet Access IP address, not your device’s IP address.')
+                                                },
+                                                {
+                                                    'question': gettext('Does Private Internet Access limit bandwidth for Kodi users?'),
+                                                    'answer': gettext('No. Private Internet Access is the premier no log VPN - this means that we don’t even know what software you use in conjunction with ours. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.')
+                                                }
+                                            ]
         }) %>
         <% include ../partials/sponsors %>
         <% include ../partials/footers/people_discount %>

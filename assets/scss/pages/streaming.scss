@@ -4,6 +4,7 @@
 @import '../layout/partials/discount_circle';
 @import '../layout/partials/faq';
 @import '../layout/partials/sponsors';
+@import '../layout/partials/unblock_steps';
 
 body {
     color: #004249;
@@ -410,19 +411,7 @@ header {
         }
     }
 }
-#easy_steps {
-    & .container {
-        border-top: solid 3px #F6F9FE;
-    }
-    & .unlock {
-        width: 150px;
-    }
-    & .d-table {
-        & img {
-            width: 25px;
-        }
-    }
-}
+
 #faq {
     & .container {
         border-top: solid 3px #F6F9FE;

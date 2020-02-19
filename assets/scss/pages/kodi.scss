@@ -112,29 +112,33 @@ header {
         border-top-left-radius: 1000px;
         padding: 15px;
     }
-
     & p {
-        max-width: 280px;
-
+        max-width: 300px;
         @media screen and (max-width: $brk-min-desktop-width) {
             max-width: unset;
         }
     }
-
     & h2 {
-        font-weight: 600;
-        max-width: 400px;
+        font-weight: 900;
         font-size: 3.5rem;
         line-height: 1.2;
+        & span {
+            font-size: 4.3rem;
+            line-height: .8;
+        }
+        & small {
+            font-size: 50%;
+            font-weight: inherit;
+            margin: 0 -.3em;
+        }
         @media screen and (max-width: $brk-ipad-width) {
             font-size: 1.5rem;
-            max-width: unset;
         }
     }
 
     & .brands {
         & img {
-            height: 60px;
+            height: 45px;
 
             @media screen and (max-width: $brk-ipad-width) {
                 height: 40px;
@@ -171,6 +175,7 @@ header {
             top: -75px;
             width: 140px;
             left: calc(50% - 70px);
+            z-index: -1;
         }
     }
 }

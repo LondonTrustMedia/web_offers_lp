@@ -20,9 +20,14 @@
 
     & .img_404 {
         width: 335px;
-
+        html[lang=deu] & {
+            width: 285px;
+        }
         @media screen and (max-width: $brk-ipad-width - 1) {
             width: 190px;
+            html[lang=deu] & {
+                width: 190px;
+            }
         }
     }
 
@@ -30,10 +35,15 @@
         & div:nth-of-type(2) {
             width: 330px;
             margin-left: 30px;
-
+            html[lang=deu] & {
+                width: 350px;
+            }
             @media screen and (max-width: $brk-mobile-width) {
                 width: 100%;
                 margin: 0;
+                html[lang=deu] & {
+                    width: 100%;
+                }
             }
         }
 

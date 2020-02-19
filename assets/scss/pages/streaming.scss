@@ -72,14 +72,6 @@ header {
         padding: 15px;
     }
 
-    & p {
-        max-width: 280px;
-
-        @media screen and (max-width: $brk-min-desktop-width) {
-            max-width: unset;
-        }
-    }
-
     & h2 {
         font-weight: 600;
         max-width: 400px;

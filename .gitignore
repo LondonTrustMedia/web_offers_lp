@@ -70,7 +70,7 @@ node_modules/
 app/json/rotators.json
 .vscode/
 .DS_Store
-crowdin.yml
+crowdin.yaml
 nodemon.json
 .sass-cache
 

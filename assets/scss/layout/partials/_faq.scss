@@ -1,0 +1,35 @@
+#faq {
+    color: #004249;
+    & .card-header {
+       background-color: #F6F9FE;
+    }
+    & .btn {
+        color: inherit;
+        font-weight: 600;
+        font-size: 18px;
+        text-decoration: none;
+        text-align: left;
+        @media screen and (max-width: $brk-ipad-width) {
+            font-size: 16px;
+        }
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    & h2.d-table {
+        font-size: 16px
+    }
+    & .A {
+        color: #939393;
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+    & .Q {
+        color: #49C173;
+        font-size: 1.4em;
+    }
+    & .card {
+        margin-bottom: 20px;
+        box-shadow: 0 0 5px #00000073;
+    }
+}

@@ -1,0 +1,885 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pia-lps\n"
+"Language-Team: Dutch\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2020-02-19 13:41\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-02-19 13:37+0000\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: pia-lps\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: messages.pot\n"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/mws.js:375
+msgid "US Dollars"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/navbar/old-navbar_white.ejs:9
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:6
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/lifehacker_bar.ejs:11
+msgid "Get started now"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/navbar/navbar_white.ejs:10
+msgid "Join now"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/errors/404.ejs:16
+msgid "OOPS!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/errors/404.ejs:17
+msgid "It looks like the page you were looking for isn't here anymore. Feel free to visit our homepage by clicking the button below."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/errors/404.ejs:18
+msgid "Take Me To The Homepage"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-us.ejs:17
+msgid "The Top VPN for<br>the <b>USA</b>"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-au.ejs:17
+msgid "The Top VPN for<br><b>Australia</b>"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/protect-yourself.ejs:19
+msgid "<b>Protect</b><br>yourself & your family"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/protect-yourself.ejs:20
+msgid "With Private Internet Access®, your online activity is protected with encryption and an anonymous IP address."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/protect-yourself.ejs:21
+msgid "Reclaim your online privacy"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:14
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:37
+msgid "The best VPN for travel"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:15
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:38
+msgid "Get the best prices on flights and hotels with Private Internet Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:21
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:40
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:74
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:21
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:42
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:116
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:21
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:40
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:74
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:31
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:52
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/unblock_steps.ejs:19
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/people_discount.ejs:6
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/header_title.ejs:7
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/header_price.ejs:11
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:20
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:53
+msgid "Get Private Internet Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:70
+msgid "Save Money When Shopping Online"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:71
+msgid "Using Private Internet Access when planning an upcoming trip or when booking a flight, rental car, or a hotel can get you the best prices. Connect to different servers from all over the world and check the best offers. The results just might surprise you and save you some money."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:72
+msgid "<b>Plus</b>, Private Internet Access protects you from hackers. Stay shielded against cyber-criminals, that are trying to get their hands on your banking details, passwords, pictures or emails, especially when traveling abroad."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:80
+msgid "A must have for travelers before and during your trip"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:84
+msgid "Change your virtual location"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:85
+msgid "Private Internet Access has a network of thousands of servers across dozens of locations in over 29 countries. Connect to servers from multiple countries to discover the best prices."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:89
+msgid "Unlimited bandwidth"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:90
+msgid "Private Internet Access has no logs and does not throttle users."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:94
+msgid "Protect sensitive information while traveling"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:95
+msgid "Once you connect to one of Private Internet Access' remote servers your entire internet activity and sensitive data will be 100% shielded from hackers."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:99
+msgid "Protect multiple devices"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:100
+msgid "1 Private Internet Access subscription can be used on up to 5 devices simultaneously. Protect all your devices while you travel."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:116
+msgid "Four easy steps to use Private Internet Access for traveling"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:117
+msgid "Start protecting your internet with Private Internet Access in minutes"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:119
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:156
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:119
+msgid "Subscribe to Private Internet Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:120
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:120
+msgid "Download Private Internet Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:121
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:121
+msgid "Login on the Private Internet Access client with your username and password"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:122
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:159
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:122
+msgid "Turn on Private Internet Access and connect to the location of your choice"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:124
+msgid "Your internet connection is now being protected and your IP address has been changed by Private Internet Access."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:151
+msgid "Check out a few of our FAQs about online travel safety"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:154
+msgid "Is it safe to travel with Private Internet Access?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:155
+msgid "Yes. Private Internet Access provides a VPN service with thousands of servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. Our service encrypts your connection so you can use Wi-Fi networks in unknown places without fear. The better question is: Is it safe to travel without Private Internet Access?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:158
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:195
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:154
+msgid "Do you have a refund policy?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:159
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:155
+msgid "Yes. Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:162
+msgid "Will my IP address be exposed while I am traveling?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:163
+msgid "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:166
+msgid "Does Private Internet Access limit bandwidth for travelers?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:167
+msgid "No. Private Internet Access is the premier no log VPN - this means that we don’t analyze your traffic and try to limit your use, ever. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:170
+msgid "Will Private Internet Access be blocked in the country that I am traveling to?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:171
+msgid "No, but if it is please reach out to our 24/7 Customer Support team for help connecting. Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for travelers."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection.ejs:19
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:14
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:45
+msgid "Everyone needs<br><b>Protection</b>"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:14
+msgid "The Best VPN for streaming"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:15
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:40
+msgid "Unblock new content libraries with Private Internet Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:39
+msgid "The Best VPN for Streaming"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:96
+msgid "Discover Limitless Streaming Content"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:97
+msgid "Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. Sign up for Private Internet Access today!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:107
+msgid "Unblock content on:"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:122
+msgid "A must have for your streaming needs"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:126
+msgid "Unlimited bandwidth for streaming"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:127
+msgid "Private Internet Access has no logs, never records online activity and does not throttle users."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:131
+msgid "One-click solution to override geographical restrictions"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:132
+msgid "Once you have chosen your virtual location, you can connect to it using Private Internet Access with just one click."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:136
+msgid "Stream on multiple devices"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:137
+msgid "1 Private Internet Access subscription can be used on up to 5 devices simultaneously. Share Private Internet Access with your entire family!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:153
+msgid "Unblock streaming in only 4 easy steps"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:154
+msgid "Watch your favorite movies and shows in minutes"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:157
+msgid "Download Private Internet Access on your device"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:158
+msgid "Login-in using your username and password"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:161
+msgid "You’re ready to start streaming with Private Internet Access!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:188
+msgid "Got questions about streaming?<br>Here are a few of our FAQs"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:191
+msgid "Is it safe to stream with Private Internet Access?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:192
+msgid "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:196
+msgid "Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:199
+msgid "Will my IP address be exposed to streaming services or websites?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:200
+msgid "By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:203
+msgid "Does Private Internet Access limit the bandwidth that streamers can use?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:204
+msgid "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:207
+msgid "Will Private Internet Access be blocked on my favorite streaming service or website?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:208
+msgid "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-fr.ejs:17
+msgid "The Top VPN for<br><b>France</b>"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock.ejs:17
+msgid "<b>Unblock</b><br>a world of content"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-de.ejs:17
+msgid "The Top VPN for<br><b>Germany</b>"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/privacy.ejs:19
+msgid "<b>Privacy</b><br>is worth protecting"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/privacy.ejs:20
+msgid "Without our VPN, your internet activity can be tracked and you are vulnerable."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/privacy.ejs:21
+msgid "Reclaim your privacy today"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:14
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:37
+msgid "The best VPN for Kodi"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:15
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:38
+msgid "Stay safe while streaming on Kodi with Private Internet Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:71
+msgid "Don’t get into trouble while streaming on Kodi"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:72
+msgid "Whether you use Kodi TV to watch your personal content library or for the titles you find on their website, make sure nobody will be able to find out what you're doing online."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:73
+msgid "<b>Why? </b>Streaming content on Kodi works is basically P2P torrenting which might be illegal in your country. Luckily, with the Private Internet Access VPN, you can make all your internet activity totally anonymous. So, you'll never have any trouble with governmental authorities while using Kodi."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:80
+msgid "A must have for streaming with Kodi"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:84
+msgid "P2P traffic allowed"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:85
+msgid "Private Internet Access supports P2P protocols such as torrents."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:89
+msgid "No Logs Policy"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:90
+msgid "Private Internet Access never records its users' online activity and never keeps any logs, so you'll have complete anonymity from the moment you connect to our servers."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:94
+msgid "Bypass geographical restrictions"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:95
+msgid "Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:99
+msgid "Use Kodi TV on multiple devices"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:100
+msgid "1 Private Internet Access subscription can be used on up to 5 devices simultaneously. Share Private Internet Access with your whole family!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:116
+msgid "Start streaming with Private Internet Access in minutes"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:117
+msgid "Watch Kodi anonymously in 4 easy steps"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:124
+msgid "You’re ready to start using Private Internet Access with your Kodi TV."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:147
+msgid "Got questions?<br>Check out our FAQs"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:150
+msgid "Is it safe to use Kodi with Private Internet Access?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:151
+msgid "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:158
+msgid "Will my IP address be exposed while using Kodi add-ons?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:159
+msgid "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Any service or website accessed will only see our Private Internet Access IP address, not your device’s IP address."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:162
+msgid "Does Private Internet Access limit bandwidth for Kodi users?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:163
+msgid "No. Private Internet Access is the premier no log VPN - this means that we don’t even know what software you use in conjunction with ours. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:16
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:47
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/header_price.ejs:6
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:7
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:44
+msgid "for "
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:18
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:49
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:32
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:16
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:35
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:57
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/header_price.ejs:8
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:9
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:46
+msgid "/mo"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:21
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:63
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:9
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/circle_discount.ejs:2
+msgid "today's<br>offer"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:32
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:53
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:22
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:55
+msgid "Try it risk free! %s day money back guarantee"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trust.ejs:17
+msgid "a VPN you can<br><b>trust</b>"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-ca.ejs:17
+msgid "The Top VPN for<br><b>Canada</b>"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/protect.ejs:17
+msgid "<b>Protect</b><br>your family’s devices today"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-uk.ejs:17
+msgid "The Top VPN for<br>the <b>UK</b>"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sponsors.ejs:3
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-sponsors.ejs:3
+msgid "Proud Sponsor Of"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:4
+msgid "Customer <br>Review"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:10
+msgid "Review by John S."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:13
+msgid "31h ago"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:16
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trustpilot/singal_review.ejs:10
+msgid "…I'm glad you're here and I'm glad to put my money towards a great service. I wish you all the best of luck. I'm looking forward to enjoying a freer internet experience."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:21
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trustpilot/singal_review.ejs:6
+msgid "Based on %s reviews"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trusted_companies.ejs:3
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-trusted_companies.ejs:3
+msgid "Trusted By Companies Including:"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:3
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:3
+msgid "Risk Free. %s day money back guarantee"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:4
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:4
+msgid "Limited Time Only! Act Now"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:7
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:26
+msgid "BEST VALUE"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:11
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:10
+msgid "Monthly"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:13
+msgid "Months"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:17
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:29
+msgid "Yearly"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:19
+msgid "Years"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:26
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:13
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:32
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:54
+msgid "SAVE %s%"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:37
+msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per month"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:39
+msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s months"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:43
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:38
+msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per year"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:45
+msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s years"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:49
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:21
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:40
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:62
+msgid "Sign up now"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:54
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:67
+msgid "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers.ejs:3
+msgid "Use the internet from wherever"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers.ejs:4
+msgid "Choose your location from cities in the United States, the United Kingdom, Japan, or 27 other countries. With Private Internet Access, you are in control of your connection and IP address. There are 200+ locations to choose from with our private, encrypted VPN connection."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers.ejs:11
+msgid "Servers"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers.ejs:15
+msgid "Countries"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/people_discount.ejs:4
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:4
+msgid "%s day money back guarantee"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/people_discount.ejs:5
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:5
+msgid "If you’re not 100% satisfied with Private Internet Access, we’ll give you your money back. Try us risk free, that’s our %s day money back guarantee."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:10
+msgid "new"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:3
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:3
+msgid "Why Choose Us?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:7
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:7
+msgid "Dedicated VPN Service"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:11
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:11
+msgid "No Traffic or Request logs"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:15
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:15
+msgid "US based corporation"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:19
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:19
+msgid "Quality and reliability"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:23
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:23
+msgid "Unbeatable price"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:27
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:27
+msgid "Gigabit VPN port speeds"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:31
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:31
+msgid "VPN service specialists"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:35
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:35
+msgid "Professional support staff"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:39
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:39
+msgid "SOCKS5 Proxy Included"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:43
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:43
+msgid "OpenVPN, PPTP &amp; IPSEC/L2TP"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:47
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:47
+msgid "Premium VPN Bandwidth"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:51
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:51
+msgid "Unmetered VPN Transfer"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:55
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:55
+msgid "Anonymous VPN"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:59
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:59
+msgid "DD-WRT VPN Compatible"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:63
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:63
+msgid "Instant activation"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-servers.ejs:7
+msgid "%s+ Servers in %s Countries"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-servers.ejs:39
+msgid "... and growing"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-intro_video.ejs:3
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/intro_video.ejs:3
+msgid "Watch our 1 minute intro video"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-intro_video.ejs:15
+msgid "click anywhere to close"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:19
+msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s month"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:51
+msgid "6 Months"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:60
+msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per six months"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-lifehacker_bar.ejs:3
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/lifehacker_bar.ejs:6
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:59
+msgid "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/platforms_and_payment.ejs:4
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/platforms.ejs:4
+msgid "Compatible with all popular desktop and mobile operating systems"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/platforms_and_payment.ejs:17
+msgid "We accept all kinds of payment methods"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pcmag_bar.ejs:3
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pcmag_bar.ejs:4
+msgid "Private Internet Access out-performs and out-features the competition"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:3
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:3
+msgid "Why do I need Private Internet Access?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:8
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:8
+msgid "Protect your online privacy and identity"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:9
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:9
+msgid "Browse anonymously with a private IP, and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:14
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:14
+msgid "Unblock Censorship Filters"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:15
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:15
+msgid "Enjoy unrestricted access to our anonymous VPN network. Unlock any geographic restrictions and protocol filters. Whether you're browsing or streaming, Private Internet Access will deliver."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:20
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:20
+msgid "The World's Leading VPN"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:21
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:21
+msgid "Private Internet Access has the largest network capacity across the globe to provide the highest speeds and most encryption. Private Internet Access is the only proven no-log VPN service in the world."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:3
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:3
+msgid "VPN Features"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:7
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:7
+msgid "Secure VPN Account"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:11
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:11
+msgid "Encrypted WiFi"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:15
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:15
+msgid "P2P Support"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:19
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:19
+msgid "PPTP, OpenVPN and L2TP/IPSec"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:23
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:23
+msgid "10 devices simultaneously"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:27
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:27
+msgid "Block ads, trackers, and malware"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:31
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:31
+msgid "Multiple VPN Gateways"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:35
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:35
+msgid "Unlimited Bandwidth"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:39
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:39
+msgid "SOCKS5 Proxy Includeds"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:43
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:43
+msgid "No traffic logs"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:47
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:47
+msgid "Instant Setup"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:51
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:51
+msgid "Easy to use"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/intro_video.ejs:11
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:66
+msgid "Get VPN Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/head.ejs:1
+msgid "Private Internet Access | Anonymous VPN Service Provider"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/brand.ejs:2
+msgid "As recommended by"
+msgstr ""
+

@@ -7,6 +7,7 @@ const offersApi = require('./offersApi.js');
 const path = require('path')
 const cs = require('checksum');
 let event = getEvent()
+const devicesScript = require('./devicesScript.js');
 
 let cache = [];
 
@@ -419,7 +420,9 @@ module.exports = (app) => {
                 }
             })
         },
-    
+        
+        getDevices: devicesScript,
+
         versioning: (rootPath) => {
             var checksumify = function(file) {
                 file = file.toLowerCase()

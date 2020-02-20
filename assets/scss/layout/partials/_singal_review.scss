@@ -1,4 +1,22 @@
 #singal_review {
+    & #review_cards {
+        position: relative;
+        overflow: hidden;
+        width: 465px;
+        min-height: 180px;
+        padding: 0 25px;
+        @media screen and (max-width: 465px) {
+            width: 100%;
+        }
+        & img {
+            width: 95px;
+        }
+    }
+    & .carousel-control-next, & .carousel-control-prev {
+        color: $pia-green;
+        font-size: 30px;
+        width: 20px;
+    }
     & .container {
         @media screen and (max-width: $brk-min-desktop-width) {
             flex-direction: column;
@@ -12,12 +30,16 @@
         flex: 0 0 410px;
         max-width: 410px;
         position: relative;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            margin-bottom: 10px;
+        }
         @media screen and (max-width: $brk-ipad-width) {
             background: unset;
             flex: unset;
             max-width: 100%;
             width: 100%;
             height: unset;
+            margin-bottom: 0;
         }
         & h1 {
             font-size: 30px;
@@ -43,7 +65,7 @@
     }
 
     & .review {
-        margin-left: -10px;
+        margin-left: 10px;
         z-index: 3;
         @media screen and (max-width: $brk-ipad-width) {
             margin-left: 0;
@@ -51,11 +73,13 @@
     }
 
     & .review_card {
-        width: 415px;
+        width: 395px;
         box-shadow: unquote($shadow-light);
         border-radius: 5px;
+        min-height: 195px;
+        margin: 10px 10px;
         @media screen and (max-width: $brk-ipad-width) {
-            width: 100%;
+            width: calc(100% - 20px);
         }
 
         & .green_title {

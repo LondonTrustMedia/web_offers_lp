@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-    $('a[href]:not(.lang)').click(toCheckout);
+    $('a[href]:not(.lang):not([data-slide])').click(toCheckout);
 })
 
 function toCheckout(e) {

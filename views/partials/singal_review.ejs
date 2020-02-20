@@ -4,21 +4,92 @@
             <h1 class="d-inline-block new_title"><%- gettext("Customer <br>Review") %></h1>
         </div>
         <div class="review text-center position-relative">
-            <div class="review_card text-left">
-                <div class="green_title">
-                    <div class="user d-inline-block">
-                        <h5><%- gettext("Review by John S.") %></h5>
-                        <img src="img/five_stars.svg" alt="five_stars">
+            <div id="review_cards" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="review_card text-left">
+                            <div class="green_title">
+                                <div class="user d-inline-block">
+                                    <h5><%- gettext("Review by John S.") %></h5>
+                                    <img src="img/five_stars.svg" alt="five_stars">
+                                </div>
+                                <h5 class="d-inline-block ago"><%- gettext("31h ago") %></h5>
+                            </div>
+                            <div class="content">
+                                <p><%- gettext("…I'm glad you're here and I'm glad to put my money towards a great service. I wish you all the best of luck. I'm looking forward to enjoying a freer internet experience.") %></p>
+                            </div>
+                        </div>
                     </div>
-                    <h5 class="d-inline-block ago"><%- gettext("31h ago") %></h5>
+                    <div class="carousel-item">
+                        <div class="review_card text-left">
+                            <div class="green_title">
+                                <div class="user d-inline-block">
+                                    <h5><%- format(gettext("Review by %s"), ["Konstantin"]) %></h5>
+                                    <img src="img/five_stars.svg" alt="five_stars">
+                                </div>
+                                <h5 class="d-inline-block ago"><%- gettext("31h ago") %></h5>
+                            </div>
+                            <div class="content">
+                                <p>It works. Setup is easy, connection is stable. Took like 5 minutes to download and setup. Thanks! Bought a year plan!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="review_card text-left">
+                            <div class="green_title">
+                                <div class="user d-inline-block">
+                                    <h5><%- format(gettext("Review by %s"), ["Lex"]) %></h5>
+                                    <img src="img/five_stars.svg" alt="five_stars">
+                                </div>
+                                <h5 class="d-inline-block ago"><%- gettext("31h ago") %></h5>
+                            </div>
+                            <div class="content">
+                                <p>I have PIA installed on Amazon firestick as well as iPhone, MacBook and iPad and I cannot fault PIA. It is very easy to install on all devices and very easy to operate...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="review_card text-left">
+                            <div class="green_title">
+                                <div class="user d-inline-block">
+                                    <h5><%- format(gettext("Review by %s"), ["AJ Morin"]) %></h5>
+                                    <img src="img/five_stars.svg" alt="five_stars">
+                                </div>
+                                <h5 class="d-inline-block ago"><%- gettext("31h ago") %></h5>
+                            </div>
+                            <div class="content">
+                                <p>I have been a customer for only a few weeks but since then it’s been very useful and does a wonderful job at protecting me when using unsecured hotspots...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="review_card text-left">
+                            <div class="green_title">
+                                <div class="user d-inline-block">
+                                    <h5><%- format(gettext("Review by %s"), ["E. in Michigan"]) %></h5>
+                                    <img src="img/five_stars.svg" alt="five_stars">
+                                </div>
+                                <h5 class="d-inline-block ago"><%- gettext("31h ago") %></h5>
+                            </div>
+                            <div class="content">
+                                <p>Very happy new customer. I'm a very technical PC user (the "computer guy" in the family, you know the type) with a good ability to weigh the pro's and con's of different VPN products. PIA had an excellent combination...</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="content">
-                    <p><%- gettext("…I'm glad you're here and I'm glad to put my money towards a great service. I wish you all the best of luck. I'm looking forward to enjoying a freer internet experience.") %></p>
-                </div>
+                <a class="carousel-control-prev" href="#review_cards" role="button" data-slide="prev">
+                    <i class="fas fa-chevron-left"></i>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#review_cards" role="button" data-slide="next">
+                    <i class="fas fa-chevron-right"></i>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
+            
             <div class="d-block text-center">
                 <img src="img/trustpilot3.svg" alt="trustpilot" class="trustpilot">
-                <h6 class="color_dark_green trustpilot_based"><%- format(gettext("Based on %s reviews"),[5548]) %></h6>
+                <h6 class="color_dark_green trustpilot_based"><%- format(gettext("Based on %s reviews"),[5635]) %></h6>
             </div>
         </div>
     </div>

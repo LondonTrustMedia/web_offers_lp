@@ -9,9 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-02-19 15:38+0000\n"
+"POT-Creation-Date: 2020-02-20 09:10+0000\n"
 
-#: /home/guy/privateland/app/modules/mws.js:375
+#: /home/guy/privateland/app/modules/mws.js:376
 msgid "US Dollars"
 msgstr ""
 
@@ -866,6 +866,10 @@ msgid ""
 "Private Internet Access believes in an open internet and is always working "
 "to make sure that no blocks exist for our VPN users. Use our service today "
 "to see why Private Internet Access is the best VPN for streaming online."
+msgstr ""
+
+#: /home/guy/privateland/views/pages/devices.ejs:17
+msgid "The Top VPN for <br><b>%s</b>"
 msgstr ""
 
 #: /home/guy/privateland/views/pages/kodi.ejs:14

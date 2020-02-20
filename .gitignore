@@ -74,6 +74,7 @@ crowdin.yaml
 crowdin.yml
 nodemon.json
 .sass-cache
+crowdin.yaml
 
 # ignore all logs
 *.log

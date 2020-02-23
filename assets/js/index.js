@@ -1,10 +1,3 @@
-
-// window.onunload = window.onbeforeunload = function() {};
-
-$(window).on('pageshow', function() {
-    $('#loading-el').remove()
-});
-
 $(document).ready(function() {
     $('#loading-el').remove()
     $('a[href]:not(.lang):not([data-slide])').click(toCheckout);
@@ -36,13 +29,16 @@ function toCheckout(e) {
 
                 console.log('Transaction ID: ', result.transactionId)
             }
+            $('#loading-el').remove()
             window.location.href = redirectUrl;
 
         }).fail(function(e) {
             console.log(e);
+            $('#loading-el').remove()
             window.location.href = redirectUrl;
         })
     } else {
+        $('#loading-el').remove()
         window.location.href = redirectUrl;
     }
     

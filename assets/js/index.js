@@ -1,10 +1,13 @@
 
-window.onunload = window.onbeforeunload = function() {};
+// window.onunload = window.onbeforeunload = function() {};
+
+$(window).on('pageshow', function() {
+    $('#loading-el').remove()
+});
 
 $(document).ready(function() {
     $('#loading-el').remove()
     $('a[href]:not(.lang):not([data-slide])').click(toCheckout);
-    console.log('ready');
 });
 
 function toCheckout(e) {

@@ -1,5 +1,5 @@
 
-window.onunload = function() {};
+window.onunload = window.onbeforeunload = function() {};
 
 $(document).ready(function() {
     $('#loading-el').remove()

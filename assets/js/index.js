@@ -1,9 +1,11 @@
-window.onunload = function(){};
+
+window.onunload = function() {};
 
 $(document).ready(function() {
     $('#loading-el').remove()
     $('a[href]:not(.lang):not([data-slide])').click(toCheckout);
-})
+    console.log('ready');
+});
 
 function toCheckout(e) {
     e.preventDefault();

@@ -1,3 +1,4 @@
+window.onunload = function(){};
 
 $(document).ready(function() {
     $('#loading-el').remove()

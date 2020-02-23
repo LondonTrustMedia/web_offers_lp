@@ -1,11 +1,12 @@
 
 $(document).ready(function() {
+    $('#loading-el').remove()
     $('a[href]:not(.lang):not([data-slide])').click(toCheckout);
 })
 
 function toCheckout(e) {
     e.preventDefault();
-    $('body').append('<div class="loading">Loading&#8230;</div>')
+    $('body').append('<div class="loading" id="loading-el">Loading&#8230;</div>')
     var redirectUrl = $(this).attr('href');
     var affId = getUrlParam('aff_id')
 
@@ -29,16 +30,16 @@ function toCheckout(e) {
 
                 console.log('Transaction ID: ', result.transactionId)
             }
-
             window.location.href = redirectUrl;
 
         }).fail(function(e) {
             console.log(e);
             window.location.href = redirectUrl;
         })
-    } else
+    } else {
         window.location.href = redirectUrl;
-
+    }
+    
 }
 
 //URL HELPER

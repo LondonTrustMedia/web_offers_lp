@@ -399,9 +399,13 @@ module.exports = (app) => {
             req.offerId = '1332'
             req.extraParams = '&aff_id=2009&aff_sub3=' + req.pageName
             offersApi.impressionPixel(req)
-            slackApi.sendErrorMessage('404 Error', err || {content: 'Not Found'}, req)
+
+            if (req.originalUrl.includes('HasOffers_fallback'))
+                slackApi.sendFallbackMessage(req)
+            else
+                slackApi.sendErrorMessage('404 Error', err || {content: 'Not Found'}, req)
+
             res.status(404);
-        
             res.format({
                 html: function () {
                     res.render('errors/404', { 

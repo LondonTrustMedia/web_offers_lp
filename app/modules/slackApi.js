@@ -66,6 +66,46 @@ var slackApi = module.exports = {
             });
         }
     
+    },
+
+    sendFallbackMessage: function(req) {
+    
+        var url = "https://hooks.slack.com/services/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"
+        var webhook = new IncomingWebhook(url);
+
+
+        var fullUrl = req.protocol + '://' + req.hostname + req.originalUrl
+        var offerId = fullUrl.replace(/.*offerId:(.*?)&.*/, '$1')
+        var affId = fullUrl.replace(/.*affId:(.*?)&.*/, '$1')
+
+        var text = '\n HasOffers Fallback: \n'
+        text += '\n\n\n URL: ```' + fullUrl + '```\n'
+        text += '\n Offer ID: ```' + offerId + '```\n'
+        text += '\n Affiliate ID: ```' + affId + '```\n'
+        text += `\n \n *Affiliate ${affId} is NOT approved to run offer ${offerId}!!* \n **Please approve it in HasOffers** \n \n `
+        text += '\n User Location: ```' + JSON.stringify(req.userLocation, null, 4) + '```\n'
+        text += '\n User Agent: ```' + (JSON.stringify(req.userAgent, null, 4) || req.headers['user-agent'] || req.get('User-Agent')) + '```\n'
+        text += '\n Referrer: ```' + req.header('Referer') + '```\n'
+
+        var options = {
+            "attachments": [
+                {
+                    "author_name": "Nitool-Bot",
+                    "fallback": 'PIA Fallback Alert!',
+                    "title": 'PIA Fallback Alert',
+                    "text": slackEscape(text),
+                    "color": "#39b54a"
+                }
+            ]
+        }
+
+        webhook.send(options, function(err, res) {
+            if (err) 
+                console.log(err);
+            else 
+                console.log('Message sent to Slack');
+        });
+    
     }
 }
 

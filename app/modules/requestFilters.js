@@ -1,10 +1,11 @@
 module.exports = (req) => {
     if (req.path !== "" && req.path !== "/" &&
-
+    
         // Our Hostnames only
-        // (   req.hostname.includes('privateinternetaccess.com')
+        (   req.hostname.includes('privateinternetaccess.com') ||
+            req.hostname.includes('offers-lp.piaservers')
 
-        // ) &&
+        ) &&
 
         // Undefined
         (req.pageName !== 'undefined' && req.pageName !== undefined && !req.pageName.includes(undefined)) &&

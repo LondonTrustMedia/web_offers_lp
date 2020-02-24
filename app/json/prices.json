@@ -25,12 +25,12 @@
                     "USD": "$11.95"
                 },
                 {
-                    "months": 24,
-                    "USD": "$286.80"
-                },
-                {
                     "months": 12,
                     "USD": "$143.40"
+                },
+                {
+                    "months": 6,
+                    "USD": "$71.70"
                 }
             ]
         },
@@ -104,23 +104,23 @@
                 },
                 {
                     "best": true,
-                    "months": 24,
+                    "months": 12,
                     "moneyBack": 30,
-                    "discount": 75,
+                    "discount": 80,
                     "USD": {
-                        "perMonthFull": "$2.97",
-                        "perMonthNumber": "2.97",
-                        "total": "$71.28"
+                        "perMonthFull": "$2.42",
+                        "perMonthNumber": "2.42",
+                        "total": "$29.00"
                     }
                 },
                 {
-                    "months": 12,
+                    "months": 6,
                     "moneyBack": 30,
-                    "discount": 530,
+                    "discount": 62,
                     "USD": {
-                        "perMonthFull": "$5.09",
-                        "perMonthNumber": "5.09",
-                        "total": "$61.09"
+                        "perMonthFull": "$4.49",
+                        "perMonthNumber": "4.49",
+                        "total": "$26.95"
                     }
                 }
             ]

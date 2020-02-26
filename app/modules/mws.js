@@ -50,7 +50,7 @@ module.exports = (app) => {
 
         getLink: function(req, res, next){
 
-            let deal = ""
+            let deal = ''
             if (req.query.deal && prices.coupons[req.query.deal])
                 deal = req.query.deal
             switch (req.lang) {
@@ -70,7 +70,7 @@ module.exports = (app) => {
             if (req.search !== '?')
                 res.locals.offerLink = req.offerLink += (req.offerLink.includes('?') ?  '&' + req.search.slice(1) :  req.search)
 
-                res.locals.offerLink = req.offerLink = RemoveParametersFromUrl(req.offerLink, ['aff_id', 'coupon'])
+            res.locals.offerLink = req.offerLink = RemoveParametersFromUrl(req.offerLink, ['coupon'])
 
                 
             next()

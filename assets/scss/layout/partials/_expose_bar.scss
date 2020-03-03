@@ -1,0 +1,24 @@
+#expose_bar {
+    color: #fff;
+    background-color: #263238c7;
+    padding: 10px 0;
+    font-size: 14px;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    width: 100%;
+    & .conatiner {
+        @media screen and (max-width: $brk-ipad-width) {
+            max-width: 95%;
+        }
+    }
+    & .lable {
+        opacity: .6;
+    }
+    & .info {
+        opacity: .8;
+    }
+    & .status {
+        text-transform: uppercase;
+    }
+}

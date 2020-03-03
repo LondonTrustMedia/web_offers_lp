@@ -1,0 +1,9 @@
+<div id="only_price" class="d-flex align-items-center justify-content-center flex-column flex-md-row my-4">
+    <div class="white"><%- gettext("for ONLY") %></div>
+    <div class="color_pia_light_orange d-flex align-items-center mx-2">
+        <small><%- currency.symbol %></small>
+        <span><%- prices.blocks[1].USD.perMonthNumber.split(".")[0] %></span>
+        <small><u><%- prices.blocks[1].USD.perMonthNumber.split(".")[1] %></u></small>
+    </div>
+    <div class="white"><%- gettext("/month") %></div>
+</div>

@@ -2,17 +2,40 @@
 
 <head>
     <% include ../partials/head %>
-    <link rel="stylesheet" href="<%= asset('css/new_design_header.css') %>">
+    <link rel="stylesheet" href="<%= asset('css/trust.css') %>">
     <link rel="stylesheet" href="https://use.typekit.net/syh7gcy.css">
 </head>
 
     <body>
-        <% include ../navbar/navbar_white %>  
-        <%- include('../partials/newDesign_builder', {  pricing: true,
-                                                        bg: 'header_bg_trust.jpg', 
-                                                        bg_mobile: 'header_bg_trust_mobile.jpg', 
-                                                        title: "<h2 class='d-inline-block mb-0 trust'>"+gettext('a VPN you can<br><b>trust</b>') +"</h2>" }) %>
-        <% include ../body/hp %>
+        <% include ../navbar/navbar_dark %>  
+        <% include ../partials/expose_bar %>  
+        <header class="color_white">
+            <div class="container">
+                <div class="col-45">
+                    <h1 class="my-3"><%- gettext(`Try Out the World's<br>
+                                    <b>Most <span class='color_pia_light_orange'>Trusted</span>
+                                    <br>& <span class='color_pia_light_orange'>Secure VPN</span></b>`) %></h1>
+                    <% include ../partials/only_price %> 
+                    <div class="text-center">
+                        <a href="<%- offerLink %>" class="btn_wave orange mb-3"><%- gettext("Get Private Internet Access VPN") %></a>
+                        <p class=""><%- gettext("Try it risk free! <i class='fas fa-award'></i> 30 day money back guarantee") %></p>
+                    </div>
+                    <% if (query.brand) { %>
+                        <% include ../partials/brand %>
+                    <% } else { %>
+                        <div class="brands d-block text-center">
+                            <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                            <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                            <div class="d-inline-block"><img src="img/brand_logo_cnet_white.png" alt="cnet"></div>
+                        </div>
+                    <% } %>
+                </div>
+                <div class="bg_container">
+                    <img src="img/trust_background_people.png" class="people">
+                </div>
+            </div>
+        </header>
+        <% include ../body/general %>
         <% include ../partials/footers/people_discount %>
         <% include ../partials/tag_manager %>
     </body>

@@ -1,0 +1,46 @@
+<script src="<%= asset('js/navbar.js') %>"></script>
+
+<nav id="navbar-main" class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <a href ="<%- offerLink %>">
+            <img src="img/logo_pia_white.svg" class="logo">
+        </a>
+        <div class="d-flex align-items-center justify-content-between">
+            <a href ="<%- offerLink %>" class="btn_nav d-md-inline-block d-none">
+                <%- gettext("Join now") %>
+                <i class="fas fa-caret-down ml-2"></i>
+            </a>
+            <div id="language">
+                <div class="language-content">
+                    <a id="eng" class="active d-flex justify-content-between align-items-center">
+                        <div><img src="img/icon_globe.svg" alt="Globe" class="globe"></div>
+                        <span class="lang-text mx-1">English</span>
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                </div>
+                <div class="languages_list">
+                    <a href="//www.<%- urlForLang %>" id="eng" class="lang">
+                        <span class="lang-text">English</span>
+                    </a>
+                    <a href="//deu.<%- urlForLang %>" id="deu" class="lang">
+                        <span class="lang-text">DEUTSCH</span>
+                    </a>
+                    <a href="//fra.<%- urlForLang %>" id="fra" class="lang">
+                        <span class="lang-text">FRANÇAIS</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<script async>
+    $(window).ready(function() {
+        const language = '<%- lang %>';
+        if ($('#language a.active').attr('id') !== language) {
+            $('#language .languages_list a#' + language).clone().appendTo('#language .language-content');
+            $('#language a.active').remove();
+            $('#language .language-content a#' + language).addClass('active');
+            $('#language .language-content a#' + language).removeAttr('href');
+        }
+    });
+</script>

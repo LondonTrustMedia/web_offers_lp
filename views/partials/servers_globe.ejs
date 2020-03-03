@@ -1,0 +1,36 @@
+<section id="servers_globe" class="show_in_position">
+    <div class="container text-center">
+        <div><img src="" alt=""></div>
+        <div><img src="" alt=""></div>
+        <div><img src="" alt=""></div>
+        <div class="quotes_circle">
+            <img src="img/" alt="quotes">
+            <p><q><%- gettext("<b class='text-uppercase'>Private Internet Access</b><br>out-performs and out-features the competition") %></q></p>
+            <hr>
+            <img src="img/" alt="PCMAG">
+        </div>
+        <div class="color_white">
+            <h2 class="color_white"><%- gettext("Connect to servers from all over the world") %></h2>
+            <div class="d-flex">
+                <div>
+                    <div class="info">
+                        <span data-count="3335">3335</span>
+                        <span>+</span>
+                    </div>
+                    <div class="lable"><%- gettext('Servers') %></div>
+                </div>
+                <div>
+                    <div class="info" data-count="30">30</div>
+                    <div class="lable"><%- gettext('Countries') %></div>
+                </div>
+            </div>
+            <div class="flags d-flex justify-content-between flex-wrap">
+                <% let flags = ['ca', 'cz', 'gb', 'au', 'de', 'nz', 'nl', 'no', 'hk', 'ie', 'dk', 'sg', 'it', 'fi', 'lu', 'jp', 'ch', 'il', 'ro', 'fr', 'mx', 'hu', 'be', 'in', 'po', 'at', 'ae', 'se', 'us', 'es'] %>
+                <% flags.forEach(function(flag){ %>
+                    <img src="img/flag_<%- flag %>.png" alt="<%- flag %>" class="mx-1 my-1">
+                <% }); %>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="<%= asset('js/countTo.js') %>" async></script>

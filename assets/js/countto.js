@@ -2,7 +2,7 @@
 // counter
 
 function counterTo() {
-    $('.show_in_position h1').each(function() {
+    $('.show_in_position [data-count]').each(function() {
       var $this = $(this),
           countTo =  $this.attr('data-count');
       $({ countNum: 0}).animate({

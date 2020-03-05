@@ -99,14 +99,14 @@
         text-align: center;
         border-radius: 30px;
         @include prefix((transition: all 0.2s ease 0s), webkit moz ms);
-        padding: 5px 20px;
+        padding: 10px 20px;
         font-weight: 400;
-        min-width: 400px;
+        min-width: 420px;
         background-image: url(img/buttons_background.png);
         background-size: 110% 115%;
         background-repeat: no-repeat;
         background-position: bottom;
-        text-shadow: 0 0 5px #000;
+        text-shadow: 0 0 5px #0000008f;
         &.orange {
             background-color: $pia-light-orange;
             &:hover {

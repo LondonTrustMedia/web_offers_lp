@@ -1,13 +1,5 @@
-#servers_globe {
-    background-image: url(img/servers_bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 600px;
-    background-size: 3840px 600px;
-    overflow: initial;
-    margin-top: 165px;
-    position: relative;
-
+#why_pia {
+    
     & .quotes_circle {
         @include cube-box(260px);
         margin: -165px auto 30px;
@@ -48,33 +40,6 @@
 
         & .pcmag {
             width: 40%;
-        }
-    }
-    & .info {
-        font-size: 3em;
-        font-weight: 700;
-        line-height: 1;
-        & span {
-            margin-left: -.5rem;
-        }
-    }
-    & .astronaut {
-        position: absolute;
-        width: 100px;
-        & img {
-            width: 100%;
-        }
-        &:nth-of-type(1) {
-            top: -30px;
-            right: calc(50% - 300px);
-        }
-        &:nth-of-type(2) {
-            top: 140px;
-            left: calc(50% - 400px);
-        }
-        &:nth-of-type(3) {
-            bottom: -20px;
-            left: calc(50% - 500px);
         }
     }
 }

@@ -1,0 +1,17 @@
+#experience {
+    color: $color-text-dark;
+    & img {
+        width: 65px;
+    }
+    & p {
+        color: $color-text-light;
+    }
+    & .col-46 {
+        flex: 0 0 46%;
+        max-width: 46%;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}

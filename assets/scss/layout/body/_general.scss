@@ -2,10 +2,12 @@ $shadow-light: '0px 4px 5px #00000045';
 
 @import '../partials/trusted_companies';
 @import '../partials/servers_globe';
+@import '../partials/experience_system';
+
 h2 {
     font-weight: 400;
     font-size: 1.7rem;
-    color: #37474f;
+    color: $color-text-dark;
 }
 .border_bottom {
     border-bottom: 1px solid #5EB258;
@@ -16,10 +18,10 @@ h2 {
         width: 185px;
     }
     & p {
-        color: #6898b0;
+        color: $color-text-light;
     }
     & h5 {
-        color: #37474f;
+        color: $color-text-dark;
         height: 50px;
     }
 }

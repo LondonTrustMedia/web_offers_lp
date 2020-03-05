@@ -18,7 +18,7 @@
                     <% include ../partials/only_price %> 
                     <div class="text-center">
                         <a href="<%- offerLink %>" class="btn_wave orange mb-3"><%- gettext("Get Private Internet Access VPN") %></a>
-                        <p class=""><%- gettext("Try it risk free! <i class='fas fa-award'></i> 30 day money back guarantee") %></p>
+                        <p class=""><%- format(gettext("Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee"), [30]) %></p>
                     </div>
                     <% if (query.brand) { %>
                         <% include ../partials/brand %>

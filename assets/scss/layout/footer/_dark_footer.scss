@@ -1,0 +1,69 @@
+@import '../partials/super_price';
+@import '../partials/sponsors';
+
+footer {
+   
+    &>.container  {
+        margin-bottom: -290px;
+        position: relative;
+        z-index: 2;
+    }
+    & .corners {
+        background-image: url(img/even_corners.svg);
+        width: 100vw;
+        height: 4.11vw;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        top: -1%;
+        position: absolute;
+        background-size: 102%;
+    }
+    & .guarantee {
+        background-image: url(img/money_back_badge.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        background-position: center;
+        padding: 30px 33px;
+        & h1 {
+            font-size: 4.5rem;
+            font-weight: 600;
+            line-height: 1;
+            text-shadow: 0 0 5px #00000080;
+            margin-top: -.8rem;
+            margin-bottom: 1.3rem;
+
+            & span {
+                font-size: .3em;
+            }
+        }
+        & h5 {
+            font-size: .9rem;
+        }
+    }
+    & .bg {
+        background-color: $color-text-dark;
+        background-image: url(img/dark_footer_bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 1;
+        padding-top: 260px;
+        background-position: center top;
+    }
+    & #sponsors {
+        margin-bottom: 0!important;
+        & .new_title {
+            color: #fff;
+        }
+        & img[alt^="Fight"] {
+            content:url(img/sponsers/sponsor_logo_Fight_for_the_future_white.png);
+        }
+        & img[alt^="Internet"] {
+            content:url(img/sponsers/sponsor_logo_internet_society_white.png);
+        }
+        & img[alt="Accessnow"] {
+            content:url(img/sponsers/sponsor_logo_accessnow_white.png);
+        }
+    }
+}

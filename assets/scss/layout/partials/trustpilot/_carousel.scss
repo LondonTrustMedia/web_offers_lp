@@ -8,15 +8,15 @@
             position: absolute;
             width: 20%;
             top: 0;
-            height: 300px;
+            height: 325px;
             z-index: 1;
         }
         & .gradient_right {
-            right: 0;
+            right: -5px;
             background: linear-gradient(to left, #fff 25%, transparent);
         }
         & .gradient_left {
-            left: 0;
+            left: -5px;
             background: linear-gradient(to right, #fff 25%, transparent);
         }
     }
@@ -33,6 +33,10 @@
             color: $pia-green;
         }
     }
+    & .carousel-item {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
     & .carousel-indicators {
         height: 20px;
         bottom: -55px;
@@ -47,17 +51,24 @@
             -moz-border-radius: 50%;
             -ms-border-radius: 50%;
             -o-border-radius: 50%;
+            margin: 0 10px;
             &.active {
                 background-color: #5eb258;
             }
         }
     }
+    & .border_bottom {
+        padding-bottom: 100px;
+    }
     & .carousel-inner {
-        @include center-object(1730px);       
+        @include center-object(1730px);   
+        height: 325px;
+        align-items: center;    
     }
     & .card {
         height: 300px;
         overflow: hidden;
+        box-shadow: 0 0 15px #00000024;
         & .stars {
             color: #E9A854;
             font-size: 12px;

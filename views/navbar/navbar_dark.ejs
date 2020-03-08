@@ -36,11 +36,11 @@
 <script async>
     $(window).ready(function() {
         const language = '<%- lang %>';
-        if ($('#language a.active').attr('id') !== language) {
-            $('#language .languages_list a#' + language).clone().appendTo('#language .language-content');
-            $('#language a.active').remove();
-            $('#language .language-content a#' + language).addClass('active');
-            $('#language .language-content a#' + language).removeAttr('href');
+        if ($('#navbar-main #language a.active').attr('id') !== language) {
+            $('#navbar-main #language .languages_list a#' + language).clone().appendTo('#navbar-main #language .language-content');
+            $('#navbar-main #language a.active').remove();
+            $('#navbar-main #language .language-content a#' + language).addClass('active');
+            $('#navbar-main #language .language-content a#' + language).removeAttr('href');
         }
     });
 </script>

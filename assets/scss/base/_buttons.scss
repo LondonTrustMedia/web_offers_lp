@@ -123,6 +123,9 @@
                 background-color: lighten($pia-green, 20%);
             }
         }
+        &.small {
+            min-width: 220px;
+        }
     }
     .btn_hp_gradient_orange {
         color: #543802;

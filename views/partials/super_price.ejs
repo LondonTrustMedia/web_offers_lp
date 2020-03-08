@@ -1,0 +1,72 @@
+<section id="pricing" class="<%- event ? event.name : '' %>">
+    <div class="d-flex text-center justify-content-center align-items-center">
+       <% prices.blocks.forEach((block, i) => { %>
+            <a href="<%- offerLink %>" class="d-flex flex-column justify-content-between align-items-center pricing-price <%- block.best ? 'best-price' : '' %> position-relative">
+                <div class="header <%- block.best ? 'best-header' : 'container-fluid' %> d-flex flex-column align-items-center justify-content-center">
+                    <% if (block.months % 12 !== 0) { %>
+                        <% if (block.months === 1) { %>
+                            <h5 class="pricing-duration color_white mb-0"><%- gettext('Monthly') %></h5>
+                        <% } else { %>
+                            <h5 class="pricing-duration color_white mb-0"><%- block.months %>&nbsp;<%- gettext('Months') %></h5>
+                        <% } %>
+                    <% } else { %>
+                        <% if (block.months === 12) { %>
+                            <h5 class="pricing-duration color_white mb-0"><%- gettext('Yearly') %></h5>
+                        <% } else { %>
+                            <h5 class="pricing-duration color_white mb-0"><%- block.months/12 %>&nbsp;<%- gettext('Years') %></h5>
+                        <% } %>
+                    <% } %>
+                </div>
+
+                <div class="body container-fluid">
+                    <% if (block.best) { %>
+                        <div class="super_container">
+                            <img src="img/pia_lockman/pia_lockman_superlock.svg" alt="super">
+                        </div>
+                    <% } %>
+
+                    <% if (block.discount) { %>
+                        <h3 class="pricing-save color_pia_orange mt-3"><%- format(gettext('Save <b>%s%</b>'), [block.discount]) %>*</h3>
+                    <% } else { %>
+                        <div class="spacer mt-3"></div>
+                    <% } %>
+
+                    <div class="pricing-bill color_dark_green d-flex justify-content-center">
+                        <span class="price-currency"><%- currency.symbol %></span>
+                        <span class="perMonthNumber"><%- block[currency.iso].perMonthNumber %></span>
+                        <span class="month"><%- gettext('/mo') %>.</span>
+                    </div>
+
+                    <div class="pricing-every color_dark_green mt-3 mb-4">
+                        <% if (block.months % 12 !== 0) { %>
+                            <% if (block.months === 1) { %>
+                                <%- format(gettext('<del>%s</del> %s per month'), [oldPrices.blocks[i][currency.iso] == block[currency.iso].total ? '' : oldPrices.blocks[i][currency.iso], block[currency.iso].total]) %>
+                            <% } else { %>
+                                <%- format(gettext('<del>%s</del> %s per %s months'), [oldPrices.blocks[i][currency.iso] == block[currency.iso].total ? '' : oldPrices.blocks[i][currency.iso], block[currency.iso].total, block.months]) %>
+                            <% } %>
+                        <% } else { %>
+                            <% if (block.months === 12) { %>
+                                <%- format(gettext('<del>%s</del> %s per year'), [oldPrices.blocks[i][currency.iso], block[currency.iso].total]) %>
+                            <% } else { %>
+                                <%- format(gettext('<del>%s</del>%s per %s years'), [oldPrices.blocks[i][currency.iso], block[currency.iso].total, block.months/12]) %>
+                            <% } %>
+                        <% } %>
+                    </div>
+
+                    <div class="btn_container d-block">
+                        <div class="btn_wave orange small container-fluid"><%- gettext('Sign up now') %></div>
+                    </div>
+                </div>
+
+                <% if (block.best) { %>
+                    <div class="best-footer">
+                        <div class="green d-flex flex-column align-items-center justify-content-center">
+                            <h5 class="color_white text-uppercase font-weight-bold mb-0"><%- gettext('Best<br>value') %></h5>
+                        </div>
+                    </div>
+                <% } %>
+            </a>
+        <% }) %>
+    </div>
+    <div class="currency-alert container text-center mt-5">*<%- format(gettext('All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month'), [currency.symbol, prices.blocks[0][currency.iso].perMonthNumber]) %></div>
+</section>

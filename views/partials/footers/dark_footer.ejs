@@ -1,0 +1,20 @@
+<footer class="position-relative">
+    <div class="container text-center">
+        <h2 class="mt-5"><%- gettext("Limited Time Only! <span class='color_pia_green'>Act Now</span>") %></h2> 
+        <% include ../super_price %>
+    </div>
+    <div class="bg pb-5">
+        <div class="corners"></div>
+        <div class="container text-center mt-5">
+                <div class="guarantee_container border_bottom container-fluid">
+                    <div class="guarantee color_white">
+                        <h1 class="text-uppercase"><%- format(gettext("%s<br><span>day</span>"),[30])%></h1>
+                        <h5 class="text-uppercase"><%- gettext("money back guarantee") %></h5>
+                    </div>
+                    <h2 class="text-uppercase color_white font-weight-bold mt-3"><%- gettext("Remember, you're not risking anything.") %></h2>
+                    <p class="color_white"><%- gettext("If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have 30 full days to ask for a refund and we’ll give you your money back.") %></p>
+                </div>
+                <% include ../sponsors %>
+        </div>
+    </div>
+</footer>

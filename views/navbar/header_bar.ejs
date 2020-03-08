@@ -1,0 +1,34 @@
+<div class="bar container d-flex justify-content-between align-items-center position-relative" id="header-bar">
+    <a href ="<%- offerLink %>"><img src="img/logo_pia_white.svg" class="logo"></a>
+    <div id="language">
+        <div class="language-content">
+            <a id="eng" class="active d-flex justify-content-between align-items-center">
+                <div><img src="img/icon_globe.svg" alt="Globe" class="globe"></div>
+                <span class="lang-text mx-1">English</span>
+                <i class="fas fa-caret-down"></i>
+            </a>
+        </div>
+        <div class="languages_list">
+            <a href="//www.<%- urlForLang %>" id="eng" class="lang">
+                <span class="lang-text">English</span>
+            </a>
+            <a href="//deu.<%- urlForLang %>" id="deu" class="lang">
+                <span class="lang-text">DEUTSCH</span>
+            </a>
+            <a href="//fra.<%- urlForLang %>" id="fra" class="lang">
+                <span class="lang-text">FRANÇAIS</span>
+            </a>
+        </div>
+    </div>
+</div>
+<script async>
+    $(window).ready(function() {
+        const language = '<%- lang %>';
+        if ($('#header-bar #language a.active').attr('id') !== language) {
+            $('#header-bar #language .languages_list a#' + language).clone().appendTo('#header-bar #language .language-content');
+            $('#header-bar #language a.active').remove();
+            $('#header-bar #language .language-content a#' + language).addClass('active');
+            $('#header-bar #language .language-content a#' + language).removeAttr('href');
+        }
+    });
+</script>

@@ -1,0 +1,79 @@
+#header-bar {
+    z-index: 4;
+    & .logo {
+        height: 33px;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            height: 25px;
+        }
+    }
+   
+    & #language {
+        float: right;
+        position: relative;
+        height: $nav_height;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            height: $nav_height_mobile;
+        }
+        & a {
+            display: inline-block;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+
+            &:hover,
+            &:active,
+            &:hover span,
+            &:active span {
+                color: $pia-green;
+            }
+
+            & span {
+                @include prefix((transition: color .1s linear), webkit moz ms);
+            }
+        }
+
+        & .languages_list {
+            @include flexy(flex, column);
+            position: absolute;
+            top: $nav_height;
+            background-color: #263238;
+            @include prefix((transition: opacity 0.3s ease), webkit moz ms);
+            visibility: hidden;
+            opacity: 0;
+            width: 150px;
+            box-shadow: 0 5px 8px 3px rgba($black, 0.08);
+            right: -20px;
+            @media screen and (max-width: $brk-ipad-width - 1) {
+                top: $nav_height_mobile;
+            }
+        }
+
+        &:hover .languages_list {
+            visibility: visible;
+            opacity: 1;
+
+            & a {
+                padding: 10px 15px;
+
+                &:nth-of-type(1) {
+                    margin-top: 10px;
+                }
+
+                &:nth-last-of-type(1) {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        & .language-content {
+            height: $nav_height;
+            @include flexy(flex, $align-i: center);
+            & .globe {
+                width: 15px;
+            }
+            @media screen and (max-width: $brk-ipad-width - 1) {
+                height: $nav_height_mobile;
+            }
+        }
+    }
+}

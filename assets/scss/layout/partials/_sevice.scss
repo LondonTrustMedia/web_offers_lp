@@ -1,0 +1,52 @@
+#sevice {
+    & img {
+        width: 185px;
+        @media screen and (max-width: 575px) {
+            width: 85px;
+            margin-left: -25px;
+        }
+    }
+    & p {
+        color: $color-text-light;
+    }
+    & h5 {
+        color: $color-text-dark;
+        height: 50px;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            height: unset;
+        }
+        @media screen and (max-width: 575px) {
+            font-size: 1rem;
+        }
+    }
+    & .fa-minus {
+        display: none;
+    }
+    & .btn-link {
+        text-decoration: none;
+        & h5 ,& .fal {
+            text-decoration: none; 
+        }
+        & .fal {
+            font-size: 1rem;
+            color: $color-text-dark;
+            opacity: .7;
+        }
+        &[aria-expanded=true] {
+            & .fa-minus {
+                display: block;
+            }
+            & .fa-plus {
+                display: none;
+            }
+        }
+    }
+    & .card-body {
+        padding-left: 95px;
+    }
+    & .card-header, & .card {
+        background-color: #fff;
+        border: none;
+        border-bottom: solid 1px rgba($pia-green,.2);
+    }
+}

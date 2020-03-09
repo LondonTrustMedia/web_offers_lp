@@ -1,0 +1,96 @@
+<section id="sevice">
+    <div class="container text-center border_bottom d-none d-sm-block">
+        <h2 class="mb-3"><%- gettext("World-class VPN service:") %></h2>
+        <div class="d-lg-flex d-block justify-content-between flex-row">
+            <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
+                <div class="mr-lg-0 mr-3"><img src="img/pia_lockman/circle_box_pia_lockman_secret.png" alt="Secret"></div>
+                <div>
+                    <h5 class="my-lg-3 text-uppercase mb-2"><%- gettext("Protect your online privacy and identity") %></h5>
+                    <p class="mb-0"><%- gettext("Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.") %></p>
+                </div>
+            </div>
+            <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
+                <div class="mr-lg-0 mr-3"><img src="img/pia_lockman/cirlce_box_pia_lockman_unblock.png" alt="Unblock"></div>
+                <div>
+                    <h5 class="my-lg-3 text-uppercase mb-2"><%- gettext("Unblock Streaming") %></h5>
+                    <p class="mb-0"><%- gettext("Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.") %></p>
+                </div>
+            </div>
+            <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
+                <div class="mr-lg-0 mr-3"><img src="img/pia_lockman/cirlce_pia_lockman_bestvpn.png" alt="Best VPN"></div>
+                <div>
+                    <h5 class="my-lg-3 text-uppercase mb-2"><%- gettext("The World's Leading VPN") %></h5>
+                    <p class="mb-0"><%- gettext("Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.") %></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-block d-sm-none accordion" id="accordion_service">
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                        data-toggle="collapse" data-target="#collapse1" 
+                        aria-expanded="false" aria-controls="collapse1">
+                    <div class="d-flex align-items-center text-left">
+                        <img src="img/pia_lockman/circle_box_pia_lockman_secret.png" alt="Secret">
+                        <h5 class="mb-0 text-uppercase"><%- gettext("Protect your online privacy and identity") %></h5>
+                    </div>
+                    <div class="collapse_icon">
+                        <i class="fal fa-plus"></i>
+                        <i class="fal fa-minus"></i>
+                    </div>
+                </button>
+            </div>
+            <div id="collapse1" class="collapse" 
+                aria-labelledby="heading1" data-parent="#accordion_service">
+                <div class="card-body">
+                    <p class="mb-0"><%- gettext("Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.") %></p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                        data-toggle="collapse" data-target="#collapse2" 
+                        aria-expanded="false" aria-controls="collapse2">
+                    <div class="d-flex align-items-center text-left">
+                        <img src="img/pia_lockman/cirlce_box_pia_lockman_unblock.png" alt="Unblock">
+                        <h5 class="mb-0 text-uppercase"><%- gettext("Unblock Streaming") %></h5>
+                    </div>
+                    <div class="collapse_icon">
+                        <i class="fal fa-plus"></i>
+                        <i class="fal fa-minus"></i>
+                    </div>
+                </button>
+            </div>
+            <div id="collapse2" class="collapse" 
+                aria-labelledby="heading2" data-parent="#accordion_service">
+                <div class="card-body">
+                    <p class="mb-0"><%- gettext("Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.") %></p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                        data-toggle="collapse" data-target="#collapse3" 
+                        aria-expanded="false" aria-controls="collapse3">
+                    <div class="d-flex align-items-center text-left">
+                        <img src="img/pia_lockman/cirlce_pia_lockman_bestvpn.png" alt="Best VPN">
+                        <h5 class="mb-0 text-uppercase"><%- gettext("The World's Leading VPN") %></h5>
+                    </div>
+                    <div class="collapse_icon">
+                        <i class="fal fa-plus"></i>
+                        <i class="fal fa-minus"></i>
+                    </div>
+                </button>
+            </div>
+            <div id="collapse3" class="collapse" 
+                aria-labelledby="heading3" data-parent="#accordion_service">
+                <div class="card-body">
+                    <p class="mb-0"><%- gettext("Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.") %></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

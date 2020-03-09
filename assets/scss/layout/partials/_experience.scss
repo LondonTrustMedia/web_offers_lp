@@ -9,7 +9,7 @@
     & .col-46 {
         flex: 0 0 46%;
         max-width: 46%;
-        @media screen and (max-width: $brk-ipad-width - 1) {
+        @media screen and (max-width: $brk-min-desktop-width) {
             flex: 0 0 100%;
             max-width: 100%;
         }

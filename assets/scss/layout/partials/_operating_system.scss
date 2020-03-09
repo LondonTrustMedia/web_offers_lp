@@ -1,9 +1,21 @@
 #operating_system {
     & img {
-        height: 55px
+        height: 55px;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            height: 35px;
+        }
     }
     h6 {
         font-weight: 300;
         color: $color-text-dark;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            font-size: .7rem;
+            font-weight: 500;
+        }
+    }
+    & h2 {
+        @media screen and (max-width: $brk-min-desktop-width) {
+            font-size: 1.3rem;
+        }
     }
 }

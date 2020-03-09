@@ -7,7 +7,52 @@
     overflow: initial;
     margin-top: 165px;
     position: relative;
-
+    @media screen and (max-width: 575px) {
+        overflow: hidden;
+        background-image: none;
+        margin-top: 0;
+    }
+    & .bg {
+        @media screen and (max-width: 575px) {
+            background-image: url(img/servers_bg_tablet.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    & h2 {
+        @media screen and (max-width: 575px) {
+            font-size: 1.5rem;
+            width: 60%;
+            margin: 0 auto;
+        }
+    }
+    & .flags {
+        width: 680px;
+        & div {
+            width: 60px;
+            @media screen and (max-width: $brk-ipad-width) {
+                width: 40px;
+            }
+            @media screen and (max-width: 575px) {
+                width: 24px;
+            }
+        }
+        @media screen and (max-width: $brk-desktop-width) {
+            width: 700px;
+        }
+        @media screen and (max-width: $brk-ipad-width) {
+            width: 480px;
+        }
+        @media screen and (max-width: 575px) {
+            width: 320px;
+        }
+    }
+    & .dark {
+        @media screen and (max-width: 575px) {
+            background-color: #263238;
+            padding: 20px 0;
+        }
+    }
     & .quotes_circle {
         @include cube-box(260px);
         margin: -165px auto 30px;
@@ -20,12 +65,26 @@
         -o-border-radius: 50%;
         color: $color-text-dark;
         text-align: center;
-
+        @media screen and (max-width: 575px) {
+            margin: 0 auto 30px;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+            height: unset;
+            width: 100%;
+        }
         & .quotes {
             width: 45%;
             margin: -10% auto 10%;
             background-color: #fff;
             padding: 5%;
+            @media screen and (max-width: 575px) {
+                width: 75px;
+                margin: -30px auto 0;
+                padding: 10px;
+            }
         }
 
         & .quotes_text {
@@ -36,6 +95,9 @@
                 &:nth-of-type(2) {
                     width: 50%;
                     margin: 0 auto;
+                    @media screen and (max-width: 575px) {
+                        width: 90%;
+                    }
                 }
             }
         }
@@ -48,6 +110,10 @@
 
         & .pcmag {
             width: 40%;
+            @media screen and (max-width: 575px) {
+                width: 110px;
+                margin-bottom: 10px;      
+            }
         }
     }
     & .info {
@@ -63,6 +129,11 @@
         width: 100px;
         animation:lost_in_space 10s infinite ease-in-out;
         -webkit-animation:lost_in_space 10s infinite ease-in-out;
+
+        @media screen and (max-width: 575px) {
+            animation: none;
+            -webkit-animation: none;
+        }
 
         @include keyframes(lost_in_space) {
             from,to {
@@ -82,15 +153,23 @@
         }
         & img{
             width: 100%;
+            @media screen and (max-width: $brk-ipad-width) {
+            }
         }
         &:nth-of-type(1) {
             top: -30px;
             right: calc(50% - 300px);
+            @media screen and (max-width: $brk-ipad-width) {
+                right: calc(50% - 240px);
+            }
         }
         &:nth-of-type(2) {
             top: 140px;
             left: calc(50% - 400px);
             animation-delay: .5s;
+            & img {
+                width: 65%;
+            }
         }
         &:nth-of-type(3) {
             bottom: -20px;

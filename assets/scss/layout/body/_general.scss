@@ -1,6 +1,7 @@
 $shadow-light: '0px 4px 5px #00000045';
 
 @import '../partials/trusted_companies';
+@import '../partials/sevice';
 @import '../partials/servers_globe';
 @import '../partials/experience_system';
 @import '../partials/why_pia';
@@ -15,16 +16,4 @@ h2 {
 .border_bottom {
     border-bottom: 1px solid #5EB258;
     padding-bottom: 30px;
-}
-#sevice {
-    & img {
-        width: 185px;
-    }
-    & p {
-        color: $color-text-light;
-    }
-    & h5 {
-        color: $color-text-dark;
-        height: 50px;
-    }
 }

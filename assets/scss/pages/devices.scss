@@ -12,15 +12,22 @@ h2 {
     font-weight: 400;
     font-size: 2rem;
     color: $color-text-dark;
+
+    @media screen and (max-width: $brk-mobile-width) {
+        font-size: 1.5rem;
+    }
 }
+
 p {
     color: $color-text-light;
 }
+
 .container {
     @media screen and (max-width: $brk-min-desktop-width) {
         max-width: 95%;
     }
 }
+
 header {
     background-image: url(img/header_bg.jpg);
     min-height: 700px;
@@ -32,29 +39,53 @@ header {
     z-index: 1;
     color: #fff;
     overflow: hidden;
-    @media screen and (max-width: $brk-ipad-width) {
-    }
+
     @media screen and (max-width: $brk-ipad-width - 1) {
         background-color: #fff;
+        background-image: url(img/header_bg_wtihout_white.jpg);
+        background-position: right calc(100% + 1565px) top -140px;
+        min-height: 585px;
+        padding-bottom: 40px;
     }
-    @media screen and (max-width: 700px) {
-        min-height: 660px;
+
+    @media screen and (max-width: $brk-mobile-width) {
+        background-position: right calc(100% + 1565px) top -165px;
     }
+
     & .btn_wave {
         @media screen and (max-width: $brk-ipad-width - 1) {
             max-width: 420px;
         }
+
+        @media screen and (max-width: $brk-mobile-width) {
+            min-width: 180px;
+            width: 100%;
+        }
     }
+
     & .mobile_header {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+
         & .dark {
             background-color: #263238;
-            padding-bottom: 30px!important;
+            padding-bottom: 30px !important;
+
+            & p {
+                @media screen and (max-width: 575px) {
+                    font-size: 13px !important;
+                }
+            }
         }
+
         &>.container {
             margin-top: -25px;
-            margin-bottom: -25px;
+            margin-bottom: 0;
         }
     }
+
     & .corners {
         background-image: url(img/top_uneven_corners.svg);
         width: 100%;
@@ -66,17 +97,29 @@ header {
         background-size: 102%;
         z-index: 2;
         background-size: 3840px 181px;
-        @media screen and (max-width: $brk-ipad-width) {
+
+        @media screen and (max-width: $brk-ipad-width - 1) {
             display: none;
         }
     }
+
     & p {
         color: #fff;
     }
+
     & h1 {
         font-size: 1.8rem;
+
         @media screen and (max-width: 700px) {
             font-size: 1.5rem;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 1.2rem;
+        }
+
+        @media screen and (max-width: $brk-mobile-width) {
+            font-size: 1rem;
         }
 
         & b {
@@ -87,17 +130,32 @@ header {
     & .brands {
         & img {
             height: 50px;
+
             @media screen and (max-width: $brk-ipad-width - 1) {
                 height: 30px;
+            }
+
+            @media screen and (max-width: 575px) {
+                height: 25px;
+            }
+        }
+
+        &>div:nth-of-type(3) {
+            & img {
+                @media screen and (max-width: 575px) {
+                    display: none;
+                }
             }
         }
     }
 
     & .col-45 {
         width: 45%;
+
         @media screen and (max-width: $brk-desktop-width) {
             width: 65%;
         }
+
         @media screen and (max-width: $brk-ipad-width) {
             width: 100%;
         }
@@ -109,13 +167,76 @@ header {
         right: calc(50% - 600px);
         width: 715px;
         z-index: -1;
+
         @media screen and (max-width: $brk-min-desktop-width) {
             width: 605px;
         }
+
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            bottom: 50px;
+        }
+
+        @media screen and (max-width: 575px) {
+            width: 450px;
+            right: calc(50% - 415px);
+        }
+
         &.Windows {
             right: calc(50% - 790px);
             width: 955px;
+            @media screen and (max-width: $brk-min-desktop-width) {
+                right: calc(50% - 575px);
+                width: 720px;
+                bottom: 85px;
+            }
+            @media screen and (max-width: 575px) {
+                right: calc(50% - 340px);
+                width: 465px;
+                bottom: 50px;
+            }
+            @media screen and (max-width: $brk-mobile-width) {
+                right: calc(50% - 320px);
+                width: 400px;
+                bottom: 85px;
+            }
         }
+
+        &.iOS {
+            @media screen and (max-width: $brk-min-desktop-width) {
+                right: calc(50% - 335px);
+            }
+
+            @media screen and (max-width: 575px) {
+                right: calc(50% - 170px);
+            }
+        }
+
+        &.Mac {
+            bottom: 60px;
+            right: calc(50% - 675px);
+            width: 950px;
+
+            @media screen and (max-width: $brk-desktop-width) {
+                width: 825px;
+            }
+
+            @media screen and (max-width: $brk-min-desktop-width) {
+                width: 760px;
+                right: calc(50% - 650px);
+            }
+
+            @media screen and (max-width: $brk-ipad-width) {
+                right: calc(50% - 500px);
+                width: 600px;
+            }
+
+            @media screen and (max-width: 575px) {
+                width: 450px;
+                right: calc(50% - 415px);
+            }
+
+        }
+
         & img {
             width: 100%;
         }

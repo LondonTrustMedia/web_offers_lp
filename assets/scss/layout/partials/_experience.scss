@@ -2,6 +2,10 @@
     color: $color-text-dark;
     & img {
         width: 65px;
+        @media screen and (max-width: 575px) {
+            width: 40px;
+            margin-right: 1rem;
+        }
     }
     & p {
         color: $color-text-light;
@@ -13,5 +17,50 @@
             flex: 0 0 100%;
             max-width: 100%;
         }
+    }
+    & h5 {
+        @media screen and (max-width: 575px) {
+            color: $color-text-dark;
+            font-size: 1rem;
+        }
+    }
+    & .btn_wave {
+        @media screen and (max-width: 475px) {
+            min-width: 280px;
+            width: 100%;
+        }
+    }
+    & .fa-minus {
+        display: none;
+    }
+    & .btn-link {
+        text-decoration: none;
+        & h5 ,& .fal {
+            text-decoration: none; 
+        }
+        & .collapse_icon {
+            padding-left: 20px;
+        }
+        & .fal {
+            font-size: 1rem;
+            color: $color-text-dark;
+            opacity: .7;
+        }
+        &[aria-expanded=true] {
+            & .fa-minus {
+                display: block;
+            }
+            & .fa-plus {
+                display: none;
+            }
+        }
+    }
+    & .card-body {
+        padding-left: 95px;
+    }
+    & .card-header, & .card {
+        background-color: #fff;
+        border: none;
+        border-bottom: solid 1px rgba($pia-green,.2);
     }
 }

@@ -107,6 +107,9 @@
         background-repeat: no-repeat;
         background-position: bottom;
         text-shadow: 0 0 5px #0000008f;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            font-size: 16px;
+        }
         &.orange {
             background-color: $pia-light-orange;
             &:hover {

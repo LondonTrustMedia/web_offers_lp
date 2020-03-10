@@ -7,6 +7,9 @@ footer {
         margin-bottom: -290px;
         position: relative;
         z-index: 2;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            margin-bottom: 0;
+        }
     }
     & .corners {
         background-image: url(img/even_corners.svg);
@@ -50,6 +53,14 @@ footer {
         z-index: 1;
         padding-top: 260px;
         background-position: center top;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            padding-top: 30px;
+        }
+    }
+    & h2.text-uppercase {
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            font-size: 1.2rem;
+        }
     }
     & #sponsors {
         margin-bottom: 0!important;

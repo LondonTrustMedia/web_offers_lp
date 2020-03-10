@@ -18,6 +18,11 @@
             max-width: 210px;
             flex: 0 0 210px;
         }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            max-width: 100%;
+            flex: 0 0 100%;
+            margin-top: 2rem;
+        }
         & .btn_wave {
             @media screen and (max-width: $brk-desktop-width) {
                 min-width: unset;
@@ -38,6 +43,10 @@
 }
         &.best-price {
             background-color: #fff;
+            @media screen and (max-width: $brk-ipad-width - 1) {
+                -ms-flex-order: -1;
+                order: -1;
+            }
         }
 
         & .body {
@@ -48,6 +57,9 @@
             height: 360px;
             @media screen and (max-width: $brk-min-desktop-width) {
                 padding: 45px 10px;
+            }
+            @media screen and (max-width: $brk-ipad-width - 1) {
+                padding: 20px 10px;
             }
         }
 
@@ -99,6 +111,10 @@
                 @media screen and (max-width: $brk-min-desktop-width) {
                     padding: 15px 10px 0;
                     height: 55px;
+                }
+                @media screen and (max-width: $brk-ipad-width - 1) {
+                    padding: 0px 10px 0;
+                    width: 100%;
                 }
                 & h5 {
                     @media screen and (max-width: $brk-min-desktop-width) {
@@ -226,6 +242,10 @@
                 margin-top: 1.5rem!important;
                 margin-bottom: 1.5rem;
             }
+            @media screen and (max-width: $brk-ipad-width - 1) {
+                margin-top: .5rem !important;
+                margin-bottom: .5rem;
+            }
             & b {
                 font-weight: bold;
             }
@@ -236,6 +256,10 @@
             @media screen and (max-width: $brk-min-desktop-width) {
                 margin-top: 1.5rem!important;
                 margin-bottom: 1.5rem;
+            }
+            @media screen and (max-width: $brk-ipad-width - 1) {
+                margin-top: .5rem!important;
+                margin-bottom: .5rem;
             }
         }
         & .best-footer {

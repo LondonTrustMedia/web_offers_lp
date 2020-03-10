@@ -3,12 +3,14 @@
         <div class="astronaut d-none d-sm-block"><img src="img/pia_lockman/pia_lockman_astronaut1.png" alt="astronaut"></div>
         <div class="astronaut d-none d-sm-block"><img src="img/pia_lockman/pia_lockman_astronaut2.png" alt="astronaut"></div>
         <div class="astronaut d-none d-sm-block"><img src="img/pia_lockman/pia_lockman_astronaut3.png" alt="astronaut"></div>
-        <div class="quotes_circle">
-            <img src="img/qoutemarks.svg" alt="quotes" class="quotes">
-            <div class="quotes_text"><%- gettext(`<p><b class='text-uppercase'>"Private Internet Access</b></p>
-                                                    <p>out-performs and out-features the competition"</p>`) %></div>
-            <hr>
-            <img src="img/logo_pcmag_red.png" alt="PCMAG" class="pcmag">
+        <div class="container">
+            <div class="quotes_circle">
+                <img src="img/qoutemarks.svg" alt="quotes" class="quotes">
+                <div class="quotes_text"><%- gettext(`<p><b class='text-uppercase'>"Private Internet Access</b></p>
+                                                        <p>out-performs and out-features the competition"</p>`) %></div>
+                <hr>
+                <img src="img/logo_pcmag_red.png" alt="PCMAG" class="pcmag">
+            </div>
         </div>
         <div class="color_white bg">
             <div class="d-sm-none d-block">
@@ -34,11 +36,13 @@
                     </div>
                 </div>
             </div>
-            <div class="flags d-flex justify-content-between flex-wrap mx-auto">
+            <div class="flags">
+                <div class="container d-flex justify-content-between flex-wrap mx-auto">
                 <% let flags = ['ca', 'cz', 'gb', 'au', 'de', 'nz', 'nl', 'no', 'hk', 'ie', 'dk', 'sg', 'it', 'fi', 'lu', 'jp', 'ch', 'il', 'ro', 'fr', 'mx', 'hu', 'be', 'in', 'po', 'at', 'ae', 'se', 'us', 'es'] %>
                 <% flags.forEach(function(flag){ %>
-                    <div class="mx-1 my-1"><img src="img/flag_<%- flag %>.png" alt="<%- flag %>" class="w-100"></div>
+                    <div class="mx-1 my-1 flag"><img src="img/flag_<%- flag %>.png" alt="<%- flag %>" class="w-100"></div>
                 <% }); %>
+                </div>
             </div>
         </div>
     </div>

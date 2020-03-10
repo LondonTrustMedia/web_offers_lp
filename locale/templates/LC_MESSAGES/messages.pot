@@ -9,12 +9,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-02-20 09:10+0000\n"
+"POT-Creation-Date: 2020-03-10 12:30+0000\n"
 
 #: /home/guy/privateland/app/modules/mws.js:376
 msgid "US Dollars"
 msgstr ""
 
+#: /home/guy/privateland/views/navbar/navbar_dark.ejs:10
 #: /home/guy/privateland/views/navbar/navbar_white.ejs:10
 msgid "Join now"
 msgstr ""
@@ -23,6 +24,34 @@ msgstr ""
 #: /home/guy/privateland/views/partials/footers/old-people_discount.ejs:6
 #: /home/guy/privateland/views/partials/lifehacker_bar.ejs:11
 msgid "Get started now"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/servers_globe.ejs:24
+msgid "Connect to servers from all over the world"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/servers_globe.ejs:31
+#: /home/guy/privateland/views/partials/servers.ejs:11
+msgid "Servers"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/servers_globe.ejs:35
+#: /home/guy/privateland/views/partials/servers.ejs:15
+msgid "Countries"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/operating_system.ejs:4
+#: /home/guy/privateland/views/partials/platforms.ejs:4
+#: /home/guy/privateland/views/partials/old/platforms_and_payment.ejs:4
+msgid "Compatible with all popular desktop and mobile operating systems"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/discount_block.ejs:4
+msgid "For a Limited Time Only<br>Grab our"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/discount_block.ejs:9
+msgid "DISCOUNT"
 msgstr ""
 
 #: /home/guy/privateland/views/partials/sponsors.ejs:3
@@ -91,11 +120,15 @@ msgid "Instant Setup"
 msgstr ""
 
 #: /home/guy/privateland/views/partials/vpn_features.ejs:51
+#: /home/guy/privateland/views/partials/why_pia.ejs:16
+#: /home/guy/privateland/views/partials/why_pia.ejs:77
 #: /home/guy/privateland/views/partials/old/old-vpn_features.ejs:51
 msgid "Easy to use"
 msgstr ""
 
 #: /home/guy/privateland/views/partials/vpn_features.ejs:59
+#: /home/guy/privateland/views/partials/why_pia.ejs:36
+#: /home/guy/privateland/views/partials/why_pia.ejs:142
 #: /home/guy/privateland/views/partials/lifehacker_bar.ejs:6
 #: /home/guy/privateland/views/partials/old/old-lifehacker_bar.ejs:3
 msgid ""
@@ -110,6 +143,76 @@ msgstr ""
 
 #: /home/guy/privateland/views/partials/brand.ejs:2
 msgid "As recommended by"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/expose_bar.ejs:4
+msgid "Your IP:"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/expose_bar.ejs:8
+msgid "Your Location:"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/expose_bar.ejs:12
+msgid "Your ISP:"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/expose_bar.ejs:16
+msgid "Your Status:"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/expose_bar.ejs:18
+msgid "You are not protected"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/why_pia.ejs:4
+#: /home/guy/privateland/views/partials/why_pia.ejs:46
+msgid "Why choose Private Internet Access?"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/why_pia.ejs:9
+#: /home/guy/privateland/views/partials/why_pia.ejs:55
+msgid "Total Privacy"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/why_pia.ejs:10
+#: /home/guy/privateland/views/partials/why_pia.ejs:66
+msgid ""
+"Private Internet Access never keeps any records of users' online "
+"activities. You can rest assured knowing you have complete privacy, and "
+"nobody knows what you're doing online."
+msgstr ""
+
+#: /home/guy/privateland/views/partials/why_pia.ejs:17
+#: /home/guy/privateland/views/partials/why_pia.ejs:88
+msgid ""
+"No matter your technical skills Private Internet Access is one of the "
+"easiest VPN apps out there. All it takes to connect is just 1 click or tap "
+"and your data will be encrypted instantly."
+msgstr ""
+
+#: /home/guy/privateland/views/partials/why_pia.ejs:23
+#: /home/guy/privateland/views/partials/why_pia.ejs:99
+msgid "Secure VPN Protocols"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/why_pia.ejs:24
+#: /home/guy/privateland/views/partials/why_pia.ejs:110
+msgid ""
+"Our app is powered by the latest and most advanced protocols like: PPTP, "
+"OpenVPN and L2TP/IPSec."
+msgstr ""
+
+#: /home/guy/privateland/views/partials/why_pia.ejs:30
+#: /home/guy/privateland/views/partials/why_pia.ejs:121
+msgid "%s devices simultaneously"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/why_pia.ejs:31
+#: /home/guy/privateland/views/partials/why_pia.ejs:132
+msgid ""
+"Keep all your devices protected. With just 1 Private Internet Access VPN "
+"subscription you can connect on up to 10 devices at the same time."
 msgstr ""
 
 #: /home/guy/privateland/views/partials/unblock_steps.ejs:19
@@ -147,6 +250,7 @@ msgstr ""
 
 #: /home/guy/privateland/views/partials/newDesign_builder.ejs:9
 #: /home/guy/privateland/views/partials/newDesign_builder.ejs:46
+#: /home/guy/privateland/views/partials/super_price.ejs:41
 #: /home/guy/privateland/views/partials/old/header_price.ejs:8
 #: /home/guy/privateland/views/partials/old/old-pricing.ejs:16
 #: /home/guy/privateland/views/partials/old/old-pricing.ejs:35
@@ -164,9 +268,92 @@ msgstr ""
 msgid "Try it risk free! %s day money back guarantee"
 msgstr ""
 
-#: /home/guy/privateland/views/partials/platforms.ejs:4
-#: /home/guy/privateland/views/partials/old/platforms_and_payment.ejs:4
-msgid "Compatible with all popular desktop and mobile operating systems"
+#: /home/guy/privateland/views/partials/super_price.ejs:8
+#: /home/guy/privateland/views/partials/old/old-pricing.ejs:10
+#: /home/guy/privateland/views/partials/pricing.ejs:11
+msgid "Monthly"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:10
+#: /home/guy/privateland/views/partials/pricing.ejs:13
+msgid "Months"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:14
+#: /home/guy/privateland/views/partials/old/old-pricing.ejs:29
+#: /home/guy/privateland/views/partials/pricing.ejs:17
+msgid "Yearly"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:16
+#: /home/guy/privateland/views/partials/pricing.ejs:19
+msgid "Years"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:22
+msgid "Best value"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:33
+msgid "Save <b>%s%</b>"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:47
+msgid "<del>%s</del> %s per month"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:49
+msgid "<del>%s</del> %s per %s months"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:53
+msgid "<del>%s</del> %s per year"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:55
+msgid "<del>%s</del>%s per %s years"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:61
+#: /home/guy/privateland/views/partials/old/old-pricing.ejs:21
+#: /home/guy/privateland/views/partials/old/old-pricing.ejs:40
+#: /home/guy/privateland/views/partials/old/old-pricing.ejs:62
+#: /home/guy/privateland/views/partials/pricing.ejs:49
+msgid "Sign up now"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:68
+msgid "Best<br>value"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/super_price.ejs:75
+#: /home/guy/privateland/views/partials/old/old-pricing.ejs:67
+#: /home/guy/privateland/views/partials/pricing.ejs:54
+msgid ""
+"All amounts are shown in %s, and any discounts reflect a reduction based on "
+"the current monthly service pricing at %s per month"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/footers/dark_footer.ejs:3
+msgid "Limited Time Only! <span class='color_pia_green'>Act Now</span>"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/footers/dark_footer.ejs:11
+msgid "%s<br><span>day</span>"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/footers/dark_footer.ejs:12
+msgid "money back guarantee"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/footers/dark_footer.ejs:14
+msgid "Remember, you're not risking anything."
+msgstr ""
+
+#: /home/guy/privateland/views/partials/footers/dark_footer.ejs:15
+msgid ""
+"If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you "
+"have 30 full days to ask for a refund and we’ll give you your money back."
 msgstr ""
 
 #: /home/guy/privateland/views/partials/footers/people_discount.ejs:4
@@ -198,6 +385,8 @@ msgid "Why do I need Private Internet Access?"
 msgstr ""
 
 #: /home/guy/privateland/views/partials/HP_why_PIA.ejs:8
+#: /home/guy/privateland/views/partials/sevice.ejs:8
+#: /home/guy/privateland/views/partials/sevice.ejs:36
 #: /home/guy/privateland/views/partials/old/old-HP_why_PIA.ejs:8
 msgid "Protect your online privacy and identity"
 msgstr ""
@@ -223,6 +412,8 @@ msgid ""
 msgstr ""
 
 #: /home/guy/privateland/views/partials/HP_why_PIA.ejs:20
+#: /home/guy/privateland/views/partials/sevice.ejs:22
+#: /home/guy/privateland/views/partials/sevice.ejs:80
 #: /home/guy/privateland/views/partials/old/old-HP_why_PIA.ejs:20
 msgid "The World's Leading VPN"
 msgstr ""
@@ -233,6 +424,104 @@ msgid ""
 "Private Internet Access has the largest network capacity across the globe "
 "to provide the highest speeds and most encryption. Private Internet Access "
 "is the only proven no-log VPN service in the world."
+msgstr ""
+
+#: /home/guy/privateland/views/partials/experience.ejs:3
+msgid "Experience"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/experience.ejs:8
+#: /home/guy/privateland/views/partials/experience.ejs:45
+msgid "Total Online Freedom"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/experience.ejs:9
+#: /home/guy/privateland/views/partials/experience.ejs:56
+msgid "Bypass censorship and unblock sites and content you don't have access to"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/experience.ejs:15
+#: /home/guy/privateland/views/partials/experience.ejs:67
+msgid "Secure Protection on Public Wi-Fi"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/experience.ejs:16
+#: /home/guy/privateland/views/partials/experience.ejs:78
+msgid ""
+"Keep your data safe and private while connecting to any poorly secured "
+"network"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/experience.ejs:22
+#: /home/guy/privateland/views/partials/experience.ejs:89
+msgid "Unlimited Bandwidth & Fast Download Speeds"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/experience.ejs:23
+#: /home/guy/privateland/views/partials/experience.ejs:100
+msgid ""
+"Keep your downloads private and experience lightning fast speeds for P2P "
+"torrenting"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/experience.ejs:29
+#: /home/guy/privateland/views/partials/experience.ejs:111
+msgid "Ad blocking"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/experience.ejs:30
+#: /home/guy/privateland/views/partials/experience.ejs:122
+msgid "With Private Internet Access you can block ads, trackers, and malware"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/experience.ejs:34
+#: /home/guy/privateland/views/partials/experience.ejs:128
+#: /home/guy/privateland/views/pages/protect.ejs:60
+#: /home/guy/privateland/views/pages/top-vpn.ejs:26
+#: /home/guy/privateland/views/pages/top-vpn.ejs:68
+#: /home/guy/privateland/views/pages/trust.ejs:19
+#: /home/guy/privateland/views/pages/trust.ejs:56
+#: /home/guy/privateland/views/pages/privacy.ejs:61
+#: /home/guy/privateland/views/pages/devices.ejs:19
+#: /home/guy/privateland/views/pages/devices.ejs:61
+msgid "Get Private Internet Access VPN"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/sevice.ejs:3
+msgid "World-class VPN service:"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/sevice.ejs:9
+#: /home/guy/privateland/views/partials/sevice.ejs:47
+msgid ""
+"Browse anonymously with a private IP address and enable strong encryption "
+"to protect yourself from your ISP and public Wi-Fi networks."
+msgstr ""
+
+#: /home/guy/privateland/views/partials/sevice.ejs:15
+#: /home/guy/privateland/views/partials/sevice.ejs:58
+msgid "Unblock Streaming"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/sevice.ejs:16
+#: /home/guy/privateland/views/partials/sevice.ejs:69
+msgid ""
+"Get access to tons of new content on platforms like Netflix, Disney Plus, "
+"Amazon Prime Video, HBO GO, and more."
+msgstr ""
+
+#: /home/guy/privateland/views/partials/sevice.ejs:23
+#: /home/guy/privateland/views/partials/sevice.ejs:91
+msgid ""
+"Private Internet Access provides the highest speeds and most encryption. "
+"So, get a perfect streaming experience without any buffering or slow "
+"loading times."
+msgstr ""
+
+#: /home/guy/privateland/views/partials/trusted_companies_old.ejs:3
+#: /home/guy/privateland/views/partials/trusted_companies.ejs:3
+#: /home/guy/privateland/views/partials/old/old-trusted_companies.ejs:3
+msgid "Trusted By Companies Including:"
 msgstr ""
 
 #: /home/guy/privateland/views/partials/head.ejs:1
@@ -328,15 +617,19 @@ msgstr ""
 msgid "Customer <br>Review"
 msgstr ""
 
-#: /home/guy/privateland/views/partials/singal_review.ejs:10
+#: /home/guy/privateland/views/partials/singal_review.ejs:13
 msgid "Review by John S."
 msgstr ""
 
-#: /home/guy/privateland/views/partials/singal_review.ejs:13
+#: /home/guy/privateland/views/partials/singal_review.ejs:16
+#: /home/guy/privateland/views/partials/singal_review.ejs:30
+#: /home/guy/privateland/views/partials/singal_review.ejs:44
+#: /home/guy/privateland/views/partials/singal_review.ejs:58
+#: /home/guy/privateland/views/partials/singal_review.ejs:72
 msgid "31h ago"
 msgstr ""
 
-#: /home/guy/privateland/views/partials/singal_review.ejs:16
+#: /home/guy/privateland/views/partials/singal_review.ejs:19
 #: /home/guy/privateland/views/partials/trustpilot/singal_review.ejs:10
 msgid ""
 "…I'm glad you're here and I'm glad to put my money towards a great service. "
@@ -344,14 +637,17 @@ msgid ""
 "internet experience."
 msgstr ""
 
-#: /home/guy/privateland/views/partials/singal_review.ejs:21
-#: /home/guy/privateland/views/partials/trustpilot/singal_review.ejs:6
-msgid "Based on %s reviews"
+#: /home/guy/privateland/views/partials/singal_review.ejs:27
+#: /home/guy/privateland/views/partials/singal_review.ejs:41
+#: /home/guy/privateland/views/partials/singal_review.ejs:55
+#: /home/guy/privateland/views/partials/singal_review.ejs:69
+msgid "Review by %s"
 msgstr ""
 
-#: /home/guy/privateland/views/partials/trusted_companies.ejs:3
-#: /home/guy/privateland/views/partials/old/old-trusted_companies.ejs:3
-msgid "Trusted By Companies Including:"
+#: /home/guy/privateland/views/partials/singal_review.ejs:92
+#: /home/guy/privateland/views/partials/trustpilot/carousel.ejs:4
+#: /home/guy/privateland/views/partials/trustpilot/singal_review.ejs:6
+msgid "Based on %s reviews"
 msgstr ""
 
 #: /home/guy/privateland/views/partials/old/old-pricing.ejs:3
@@ -362,11 +658,6 @@ msgstr ""
 #: /home/guy/privateland/views/partials/old/old-pricing.ejs:4
 #: /home/guy/privateland/views/partials/pricing.ejs:4
 msgid "Limited Time Only! Act Now"
-msgstr ""
-
-#: /home/guy/privateland/views/partials/old/old-pricing.ejs:10
-#: /home/guy/privateland/views/partials/pricing.ejs:11
-msgid "Monthly"
 msgstr ""
 
 #: /home/guy/privateland/views/partials/old/old-pricing.ejs:13
@@ -380,21 +671,9 @@ msgstr ""
 msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s month"
 msgstr ""
 
-#: /home/guy/privateland/views/partials/old/old-pricing.ejs:21
-#: /home/guy/privateland/views/partials/old/old-pricing.ejs:40
-#: /home/guy/privateland/views/partials/old/old-pricing.ejs:62
-#: /home/guy/privateland/views/partials/pricing.ejs:49
-msgid "Sign up now"
-msgstr ""
-
 #: /home/guy/privateland/views/partials/old/old-pricing.ejs:26
 #: /home/guy/privateland/views/partials/pricing.ejs:7
 msgid "BEST VALUE"
-msgstr ""
-
-#: /home/guy/privateland/views/partials/old/old-pricing.ejs:29
-#: /home/guy/privateland/views/partials/pricing.ejs:17
-msgid "Yearly"
 msgstr ""
 
 #: /home/guy/privateland/views/partials/old/old-pricing.ejs:38
@@ -414,13 +693,6 @@ msgid ""
 "six months"
 msgstr ""
 
-#: /home/guy/privateland/views/partials/old/old-pricing.ejs:67
-#: /home/guy/privateland/views/partials/pricing.ejs:54
-msgid ""
-"All amounts are shown in %s, and any discounts reflect a reduction based on "
-"the current monthly service pricing at %s per month"
-msgstr ""
-
 #: /home/guy/privateland/views/partials/old/old-servers.ejs:7
 msgid "%s+ Servers in %s Countries"
 msgstr ""
@@ -437,6 +709,14 @@ msgstr ""
 msgid "click anywhere to close"
 msgstr ""
 
+#: /home/guy/privateland/views/partials/only_price.ejs:2
+msgid "for ONLY"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/only_price.ejs:8
+msgid "/month"
+msgstr ""
+
 #: /home/guy/privateland/views/partials/servers.ejs:3
 msgid "Use the internet from wherever"
 msgstr ""
@@ -447,22 +727,6 @@ msgid ""
 "Japan, or 27 other countries. With Private Internet Access, you are in "
 "control of your connection and IP address. There are 200+ locations to "
 "choose from with our private, encrypted VPN connection."
-msgstr ""
-
-#: /home/guy/privateland/views/partials/servers.ejs:11
-msgid "Servers"
-msgstr ""
-
-#: /home/guy/privateland/views/partials/servers.ejs:15
-msgid "Countries"
-msgstr ""
-
-#: /home/guy/privateland/views/partials/pricing.ejs:13
-msgid "Months"
-msgstr ""
-
-#: /home/guy/privateland/views/partials/pricing.ejs:19
-msgid "Years"
 msgstr ""
 
 #: /home/guy/privateland/views/partials/pricing.ejs:37
@@ -481,6 +745,13 @@ msgstr ""
 msgid ""
 "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s "
 "years"
+msgstr ""
+
+#: /home/guy/privateland/views/partials/trustpilot/carousel.ejs:33
+#: /home/guy/privateland/views/partials/trustpilot/carousel.ejs:55
+#: /home/guy/privateland/views/partials/trustpilot/carousel.ejs:77
+#: /home/guy/privateland/views/partials/trustpilot/carousel.ejs:99
+msgid "Read full review"
 msgstr ""
 
 #: /home/guy/privateland/views/errors/404.ejs:16
@@ -511,8 +782,36 @@ msgstr ""
 msgid "The Top VPN for<br><b>Germany</b>"
 msgstr ""
 
-#: /home/guy/privateland/views/pages/protect.ejs:17
-msgid "<b>Protect</b><br>your family’s devices today"
+#: /home/guy/privateland/views/pages/protect.ejs:16
+msgid ""
+"Experience the Best Way<br><b>to Stay <span "
+"class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on "
+"Public Wi-Fi</span><br>& <span class='color_pia_light_orange "
+"text-uppercase'>Never Risk</span> Getting Hacked </b>"
+msgstr ""
+
+#: /home/guy/privateland/views/pages/protect.ejs:18
+#: /home/guy/privateland/views/pages/privacy.ejs:18
+msgid "Private Internet Access VPN for %s% OFF"
+msgstr ""
+
+#: /home/guy/privateland/views/pages/protect.ejs:23
+#: /home/guy/privateland/views/pages/top-vpn.ejs:31
+#: /home/guy/privateland/views/pages/privacy.ejs:24
+#: /home/guy/privateland/views/pages/devices.ejs:24
+msgid ""
+"Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> "
+"%s-day money back guarantee</span>"
+msgstr ""
+
+#: /home/guy/privateland/views/pages/protect.ejs:55
+#: /home/guy/privateland/views/pages/top-vpn.ejs:63
+#: /home/guy/privateland/views/pages/trust.ejs:51
+#: /home/guy/privateland/views/pages/privacy.ejs:56
+#: /home/guy/privateland/views/pages/devices.ejs:56
+msgid ""
+"Try it risk free!<br><span class='text-uppercase'>%s-day money back "
+"guarantee</span>"
 msgstr ""
 
 #: /home/guy/privateland/views/pages/unblock.ejs:17
@@ -523,22 +822,52 @@ msgstr ""
 msgid "The Top VPN for<br>the <b>UK</b>"
 msgstr ""
 
-#: /home/guy/privateland/views/pages/trust.ejs:17
-msgid "a VPN you can<br><b>trust</b>"
+#: /home/guy/privateland/views/pages/top-vpn.ejs:17
+msgid ""
+"Rated as the Best VPN Service In<br><b><span "
+"class=\"color_pia_light_orange\">%s</span></b>"
+msgstr ""
+
+#: /home/guy/privateland/views/pages/top-vpn.ejs:20
+msgid "No Logs"
+msgstr ""
+
+#: /home/guy/privateland/views/pages/top-vpn.ejs:22
+msgid "Military-Grade Encryption"
+msgstr ""
+
+#: /home/guy/privateland/views/pages/top-vpn.ejs:24
+msgid "%s Devices"
+msgstr ""
+
+#: /home/guy/privateland/views/pages/trust.ejs:16
+msgid ""
+"Try Out the World's<br><b>Most <span "
+"class='color_pia_light_orange'>Trusted</span><br>& <span "
+"class='color_pia_light_orange'>Secure VPN</span></b>"
+msgstr ""
+
+#: /home/guy/privateland/views/pages/trust.ejs:20
+msgid "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee"
+msgstr ""
+
+#: /home/guy/privateland/views/pages/privacy.ejs:16
+msgid ""
+"Discover The Safest Way to Get<br><b><span class=\"text-uppercase "
+"color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private "
+"Internet Access VPN"
 msgstr ""
 
 #: /home/guy/privateland/views/pages/privacy.ejs:19
-msgid "<b>Privacy</b><br>is worth protecting"
+msgid "100%</span> No Logs & Records"
 msgstr ""
 
-#: /home/guy/privateland/views/pages/privacy.ejs:20
-msgid ""
-"Without our VPN, your internet activity can be tracked and you are "
-"vulnerable."
+#: /home/guy/privateland/views/pages/trust_old.ejs:17
+msgid "a VPN you can<br><b>trust</b>"
 msgstr ""
 
-#: /home/guy/privateland/views/pages/privacy.ejs:21
-msgid "Reclaim your privacy today"
+#: /home/guy/privateland/views/pages/devices-old.ejs:17
+msgid "The Top VPN for <br><b>%s</b>"
 msgstr ""
 
 #: /home/guy/privateland/views/pages/travel.ejs:14
@@ -869,7 +1198,9 @@ msgid ""
 msgstr ""
 
 #: /home/guy/privateland/views/pages/devices.ejs:17
-msgid "The Top VPN for <br><b>%s</b>"
+msgid ""
+"Get Unbreakable Online Security With<br><b>The Best VPN for<br><span "
+"class=\"color_pia_light_orange\">%s</span></b>"
 msgstr ""
 
 #: /home/guy/privateland/views/pages/kodi.ejs:14
@@ -999,6 +1330,24 @@ msgid ""
 "servers offer unlimited bandwidth and we do not throttle our users. Period. "
 "Sign up for Private Internet Access today to enjoy the unlimited and "
 "uncensored internet."
+msgstr ""
+
+#: /home/guy/privateland/views/pages/privacy-old.ejs:19
+msgid "<b>Privacy</b><br>is worth protecting"
+msgstr ""
+
+#: /home/guy/privateland/views/pages/privacy-old.ejs:20
+msgid ""
+"Without our VPN, your internet activity can be tracked and you are "
+"vulnerable."
+msgstr ""
+
+#: /home/guy/privateland/views/pages/privacy-old.ejs:21
+msgid "Reclaim your privacy today"
+msgstr ""
+
+#: /home/guy/privateland/views/pages/protect-old.ejs:17
+msgid "<b>Protect</b><br>your family’s devices today"
 msgstr ""
 
 #: /home/guy/privateland/views/pages/top-vpn-ca.ejs:17

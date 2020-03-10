@@ -1,0 +1,40 @@
+#discount_block {
+    & .right_line {
+        background-image: url(img/badge_frame_arrow_right.svg);
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 160px;
+        width: 295px;
+        & .top {
+            font-weight: 700;
+            margin-top: -35px;
+        }
+        & .discount {
+            font-size: 8.5rem;
+            line-height: 1;
+            align-items: end;
+            font-weight: 600;
+            & p:nth-of-type(1) {
+                font-size: 1em;
+            }
+
+            & p:nth-of-type(2) {
+                font-size: 0.6em;
+            }   
+        }
+        & .bottom {
+            font-weight: 700;
+            margin-top: -10px;
+            font-size: 1.5rem;
+            padding-left: .5rem;
+        }
+    }
+    & .left_line {
+        height: 160px;
+        width: 130px;
+        & img {
+            height: 100%;
+        }
+    }
+}

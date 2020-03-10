@@ -42,40 +42,22 @@ header {
         background-size: cover;
         background-position: top;
         background-color: #fff;
-        background-position: 0 calc(100% - 30px);
-        min-height: 665px;
+        background-position: 0 calc(100% - 65px);
     }
     @media screen and (max-width: 700px) {
         background-image: url(img/trust_background_people_mobile.jpg);
-        background-position: 0 calc(100% - 35px);
-        min-height: 620px;
-    }
-    @media screen and (max-width: 575px) {
-        background-position: 0 calc(100% - 25px);
-        min-height: 600px;
-    }
-    @media screen and (max-width: $brk-mobile-width) {
-        background-position: right calc(0% + -70px) top calc(100% - 30px);
-        min-height: 560px;
+        background-position: 0 calc(100% - 75px);
+        min-height: 660px;
     }
     & .btn_wave {
         @media screen and (max-width: $brk-ipad-width - 1) {
             max-width: 420px;
-        }
-        @media screen and (max-width: $brk-mobile-width) {
-            min-width: 180px;
-            width: 100%;
         }
     }
     & .mobile_header {
         & .dark {
             background-color: #263238;
             padding-bottom: 30px!important;
-            & p {
-                @media screen and (max-width: 575px) {
-                    font-size: 13px !important;
-                }
-            }
         }
         &>.container {
             margin-top: -25px;
@@ -97,16 +79,14 @@ header {
         color: #fff;
     }
     & h1 {
-        font-size: 2.2rem;
+        font-size: 1.5rem;
         @media screen and (max-width: $brk-desktop-width) {
-            font-size: 2rem
+            font-size: 1rem
         }
         @media screen and (max-width: 700px) {
             font-size: 1.5rem;
         }
-        @media screen and (max-width: $brk-mobile-width) {
-            font-size: 1rem;
-        }
+
         & b {
             font-size: 2em;
         }
@@ -122,21 +102,11 @@ header {
             @media screen and (max-width: $brk-ipad-width - 1) {
                 height: 30px;
             }
-            @media screen and (max-width: 575px) {
-                height: 25px;
-            }
-        }
-        &>div:nth-of-type(3) {
-            & img {
-                @media screen and (max-width: 575px) {
-                    display: none;
-                }
-            }
         }
     }
 
-    & .col-45 {
-        width: 45%;
+    & .col-65 {
+        width: 65%;
         @media screen and (max-width: $brk-desktop-width) {
             width: 65%;
         }

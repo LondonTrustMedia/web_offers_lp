@@ -1,8 +1,8 @@
 <section id="pricing" class="<%- event ? event.name : '' %>">
-    <div class="d-flex text-center justify-content-center align-items-center">
+    <div class="d-flex text-center justify-content-center align-items-center flex-column flex-md-row">
        <% prices.blocks.forEach((block, i) => { %>
             <a href="<%- offerLink %>" class="d-flex flex-column justify-content-between align-items-center pricing-price <%- block.best ? 'best-price' : '' %> position-relative">
-                <div class="header <%- block.best ? 'best-header' : 'container-fluid' %> d-flex flex-column align-items-center justify-content-center">
+                <div class="header <%- block.best ? 'best-header flex-md-column flex-row justify-content-md-center justify-content-between' : 'container-fluid justify-content-center flex-column' %> d-flex align-items-center">
                     <% if (block.months % 12 !== 0) { %>
                         <% if (block.months === 1) { %>
                             <h5 class="pricing-duration color_white mb-0"><%- gettext('Monthly') %></h5>
@@ -15,12 +15,16 @@
                         <% } else { %>
                             <h5 class="pricing-duration color_white mb-0"><%- block.months/12 %>&nbsp;<%- gettext('Years') %></h5>
                         <% } %>
+                    <% } if(block.best) { %>
+                        <div class="super_container d-block d-md-none">
+                            <img src="img/pia_lockman/pia_lockman_superlock.svg" alt="super">
+                        </div>
+                        <h5 class="color_white mb-0 d-block d-md-none text-nowrap"><%- gettext('Best value') %></h5>
                     <% } %>
                 </div>
-
                 <div class="body container-fluid">
                     <% if (block.best) { %>
-                        <div class="super_container">
+                        <div class="super_container d-none d-md-block">
                             <img src="img/pia_lockman/pia_lockman_superlock.svg" alt="super">
                         </div>
                     <% } %>
@@ -59,7 +63,7 @@
                 </div>
 
                 <% if (block.best) { %>
-                    <div class="best-footer">
+                    <div class="best-footer d-none d-md-block">
                         <div class="green d-flex flex-column align-items-center justify-content-center">
                             <h5 class="color_white text-uppercase font-weight-bold mb-0"><%- gettext('Best<br>value') %></h5>
                         </div>

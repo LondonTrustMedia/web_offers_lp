@@ -7,6 +7,9 @@
     z-index: 2;
     left: 0;
     width: 100%;
+    @media screen and (max-width: $brk-mobile-width) {
+        font-size: 10px;
+    }
     & .conatiner {
         @media screen and (max-width: $brk-ipad-width) {
             max-width: 95%;

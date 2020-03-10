@@ -1,18 +1,18 @@
 <div id="expose_bar">
     <div class="container d-flex">
-        <div class="mr-3 d-block">
+        <div class="mr-sm-3 mr-1 d-block">
             <div class="lable d-inline-block"><%- gettext("Your IP:") %></div>
             <div class="ip info d-inline-block"><%- userLocation.ip %></div>
         </div>
-        <div class="mx-3 d-md-block d-none">
+        <div class="mr-sm-3 mr-1 d-md-block d-none">
             <div class="lable d-inline-block"><%- gettext("Your Location:") %></div>
             <div class="location info d-inline-block"><%- userLocation.cty + "(" + userLocation.cn + ")" %></div>
         </div>
-        <div class="mx-3 d-lg-block d-none">
+        <div class="mr-sm-3 mr-1 d-lg-block d-none">
             <div class="lable d-inline-block"><%- gettext("Your ISP:") %></div>
             <div class="isp info d-inline-block"><%- userLocation.isp %></div>
         </div>
-         <div class="ml-3 d-block">
+         <div class="ml-sm-3 ml-1 d-block">
             <div class="lable d-inline-block"><%- gettext("Your Status:") %></div>
             <div class="status color_pia_light_orange d-inline-block">
                 <%- gettext("You are not protected") %>

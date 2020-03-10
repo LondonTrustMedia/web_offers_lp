@@ -32,6 +32,9 @@
             color: $color-text-dark;
             opacity: .7;
         }
+        & .collapse_icon {
+            padding-left: 20px;
+        }
         &[aria-expanded=true] {
             & .fa-minus {
                 display: block;

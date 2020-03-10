@@ -12,6 +12,9 @@ h2 {
     font-weight: 400;
     font-size: 2rem;
     color: $color-text-dark;
+    @media screen and (max-width: $brk-mobile-width) {
+        font-size: 1.5rem;
+    }
 }
 p {
     color: $color-text-light;
@@ -33,31 +36,48 @@ header {
     color: #fff;
     overflow: hidden;
     @media screen and (max-width: $brk-min-desktop-width) {
-        background-image: url(img/trust_background_people_tablet.jpg);
+        background-image: url(img/total_privacy_header_image_tablet.jpg);
         background-size: cover;
         background-position: bottom;
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
-        background-image: url(img/trust_background_people_tablet2.jpg);
+        background-image: url(img/total_privacy_header_image_mobile.jpg);
         background-size: cover;
         background-position: top;
         background-color: #fff;
-        background-position: 0 calc(100% - 65px);
+        background-position: 0 calc(100% - 30px);
+        min-height: 600px;
     }
     @media screen and (max-width: 700px) {
-        background-image: url(img/trust_background_people_mobile.jpg);
-        background-position: 0 calc(100% - 75px);
-        min-height: 660px;
+        background-position: 0 calc(100% - 35px);
+        min-height: 585px;
+    }
+    @media screen and (max-width: 575px) {
+        background-position: 0 calc(100% - 25px);
+        min-height: 565px;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+        background-position: right calc(0% + -10px) top calc(100% - 30px);
+        min-height: 560px;
     }
     & .btn_wave {
         @media screen and (max-width: $brk-ipad-width - 1) {
             max-width: 420px;
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            min-width: 180px;
+            width: 100%;
         }
     }
     & .mobile_header {
         & .dark {
             background-color: #263238;
             padding-bottom: 30px!important;
+            & p {
+                @media screen and (max-width: 575px) {
+                    font-size: 13px !important;
+                }
+            }
         }
         &>.container {
             margin-top: -25px;
@@ -81,18 +101,20 @@ header {
     & h1 {
         font-size: 1.5rem;
         @media screen and (max-width: $brk-desktop-width) {
-            font-size: 1rem
+            font-size: 1.2rem
         }
         @media screen and (max-width: 700px) {
-            font-size: 1.5rem;
+            font-size: 1rem;
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            font-size: 1rem;
         }
 
         & b {
             font-size: 2em;
-        }
-
-        & .color_pia_light_orange {
-            text-transform: uppercase;
+            @media screen and (max-width: $brk-mobile-width) {
+                font-size: 1.5em;
+            }
         }
     }
 
@@ -101,6 +123,16 @@ header {
             height: 50px;
             @media screen and (max-width: $brk-ipad-width - 1) {
                 height: 30px;
+            }
+            @media screen and (max-width: 575px) {
+                height: 25px;
+            }
+        }
+        &>div:nth-of-type(3) {
+            & img {
+                @media screen and (max-width: 575px) {
+                    display: none;
+                }
             }
         }
     }
@@ -117,9 +149,10 @@ header {
 
     & .bg_container {
         position: absolute;
-        top: 0;
-        right: calc(50% - 600px);
-        width: 600px;
+        top: 50px;
+        right: calc(50% - 670px);
+        width: 815px;
+        z-index: -1;
 
         & img {
             width: 100%;

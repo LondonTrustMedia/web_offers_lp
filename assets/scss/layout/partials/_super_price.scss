@@ -19,9 +19,14 @@
             flex: 0 0 210px;
         }
         @media screen and (max-width: $brk-ipad-width - 1) {
+            max-width: 370px;
+            flex: 0 0 370px;
+            width: 95%;
+            margin-top: 3rem;
+        }
+        @media screen and (max-width: $brk-mobile-width ) {
             max-width: 100%;
             flex: 0 0 100%;
-            margin-top: 2rem;
         }
         & .btn_wave {
             @media screen and (max-width: $brk-desktop-width) {
@@ -59,7 +64,11 @@
                 padding: 45px 10px;
             }
             @media screen and (max-width: $brk-ipad-width - 1) {
-                padding: 20px 10px;
+                padding: 10px 10px 0;
+                height: 275px;
+            }
+            @media screen and (max-width: $brk-mobile-width) {
+                height: 250px;
             }
         }
 
@@ -76,11 +85,27 @@
                 max-width: 255px;
                 flex: 0 0 255px;
             }
+            @media screen and (max-width: $brk-ipad-width - 1) {
+                max-width: 370px;
+                flex: 0 0 370px;
+                width: 95%;
+            }
+            @media screen and (max-width: $brk-mobile-width) {
+                max-width: 100%;
+                flex: 0 0 100%;
+            }
             & .body {
                 padding: 0 20px 45px;
                 height: unset;
                 @media screen and (max-width: $brk-min-desktop-width) {
                     padding: 0 20px 40px;
+                }
+                @media screen and (max-width: $brk-ipad-width - 1) {
+                    padding: 10px 20px 0;
+                    height: 275px;
+                }
+                @media screen and (max-width: $brk-mobile-width) {
+                    height: 250px;
                 }
             }
             & .perMonthNumber {
@@ -90,6 +115,12 @@
                 color: $color-text-dark;
                 font-size: 1.6em;
                 @media screen and (max-width: $brk-desktop-width) {
+                    font-size: 1.2em;
+                }
+                @media screen and (max-width: $brk-ipad-width - 1) {
+                    font-size: 1.5em;
+                }
+                @media screen and (max-width: $brk-mobile-width) {
                     font-size: 1.2em;
                 }
             }
@@ -155,6 +186,10 @@
                 width: 155px;
                 height: 105px;
             }
+            @media screen and (max-width: $brk-ipad-width - 1) {
+                width: 130px;
+                height: 85px;
+            }
             & img {
                 width: 80%;
                 position: absolute;
@@ -212,6 +247,12 @@
             align-items: baseline;
             @media screen and (max-width: $brk-desktop-width) {
                 font-size: 1em;
+            }
+            @media screen and (max-width: $brk-ipad-width - 1) {
+                font-size: 1.5em;
+            }
+            @media screen and (max-width: $brk-mobile-width) {
+                font-size: 1.2em;
             }
 
             & .price-currency,

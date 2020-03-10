@@ -12,6 +12,9 @@ h2 {
     font-weight: 400;
     font-size: 2rem;
     color: $color-text-dark;
+    @media screen and (max-width: $brk-mobile-width) {
+        font-size: 1.5rem;
+    }
 }
 p {
     color: $color-text-light;
@@ -33,31 +36,45 @@ header {
     color: #fff;
     overflow: hidden;
     @media screen and (max-width: $brk-min-desktop-width) {
-        background-image: url(img/trust_background_people_tablet.jpg);
+        background-image: url(img/stay_safe_header_image_tablet.jpg);
         background-size: cover;
         background-position: bottom;
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
-        background-image: url(img/trust_background_people_tablet2.jpg);
+        background-image: url(img/stay_safe_header_image_mobile.jpg);
         background-size: cover;
         background-position: top;
         background-color: #fff;
         background-position: 0 calc(100% - 65px);
+        min-height: 600px;
     }
     @media screen and (max-width: 700px) {
-        background-image: url(img/trust_background_people_mobile.jpg);
         background-position: 0 calc(100% - 75px);
-        min-height: 660px;
+    }
+    @media screen and (max-width: 575px) {
+        min-height: 575px;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+        background-position: right calc(0% + -10px) top calc(100% - 75px);
     }
     & .btn_wave {
         @media screen and (max-width: $brk-ipad-width - 1) {
             max-width: 420px;
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            min-width: 180px;
+            width: 100%;
         }
     }
     & .mobile_header {
         & .dark {
             background-color: #263238;
             padding-bottom: 30px!important;
+            & p {
+                @media screen and (max-width: 575px) {
+                    font-size: 13px !important;
+                }
+            }
         }
         &>.container {
             margin-top: -25px;
@@ -83,12 +100,12 @@ header {
         @media screen and (max-width: $brk-desktop-width) {
             font-size: 1rem
         }
-        @media screen and (max-width: 700px) {
-            font-size: 1.5rem;
-        }
 
         & b {
             font-size: 2em;
+            @media screen and (max-width: 575px) {
+                font-size: 1.3em;
+            }
         }
 
         & .color_pia_light_orange {
@@ -101,6 +118,16 @@ header {
             height: 50px;
             @media screen and (max-width: $brk-ipad-width - 1) {
                 height: 30px;
+            }
+            @media screen and (max-width: 575px) {
+                height: 25px;
+            }
+        }
+        &>div:nth-of-type(3) {
+            & img {
+                @media screen and (max-width: 575px) {
+                    display: none;
+                }
             }
         }
     }
@@ -119,7 +146,8 @@ header {
         position: absolute;
         top: 0;
         right: calc(50% - 600px);
-        width: 600px;
+        width: 920px;
+        z-index: -1;
 
         & img {
             width: 100%;

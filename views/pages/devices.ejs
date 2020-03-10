@@ -34,8 +34,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg_container parallax d-none d-lg-block">
-                    <img src="img/trust_background_people.png" class="people">
+                <div class="bg_container parallax <%- device.name %>">
+                    <img src="img/<%- device.background %>-LP.png" class="people">
                 </div>
             </div>
             <div class="d-block d-md-none mobile_header">
@@ -61,6 +61,7 @@
                     <a href="<%- offerLink %>" class="btn_wave orange"><%- gettext("Get Private Internet Access VPN") %></a>
                 </div>
             </div>
+            <div class="corners"></div>
         </header>
         <% include ../body/general %>
         <% include ../partials/tag_manager %>

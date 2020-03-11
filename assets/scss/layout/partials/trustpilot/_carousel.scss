@@ -121,9 +121,11 @@
             color: #E9A854;
             font-size: 12px;
             margin-left: 10px;
+            @media screen and (max-width: 575px) {
+                margin-left: 5px;
+            }
             @media screen and (max-width: $brk-mobile-width) {
                 font-size: 10px;
-                margin-left: 5px;
             }
         }
 
@@ -143,14 +145,16 @@
                 color: #fff;
                 font-size: 12px;
                 margin-bottom: 0;
-                @media screen and (max-width: $brk-mobile-width) {
-                    font-size: 10px;
+                @media screen and (max-width: 575px) {
                     width: 40px;
                     white-space: nowrap;
                     text-overflow: ellipsis;
                     overflow: hidden;
                     height: 15px;
                     vertical-align: middle;
+                }
+                @media screen and (max-width: $brk-mobile-width) {
+                    font-size: 10px;
                 }
             }
 

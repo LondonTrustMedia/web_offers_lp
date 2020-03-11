@@ -56,6 +56,9 @@ header {
     }
     @media screen and (max-width: $brk-mobile-width) {
         background-position: right calc(0% + -10px) top calc(100% - 75px);
+        html[lang=deu] &,html[lang=fra] & {
+            background-position: right calc(0% + -10px) top calc(100% - 45px);
+        }
     }
     & .btn_wave {
         @media screen and (max-width: $brk-ipad-width - 1) {
@@ -67,18 +70,35 @@ header {
         }
     }
     & .mobile_header {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+
         & .dark {
             background-color: #263238;
-            padding-bottom: 30px!important;
+            padding-bottom: 30px !important;
+
             & p {
                 @media screen and (max-width: 575px) {
                     font-size: 13px !important;
                 }
             }
         }
+
         &>.container {
             margin-top: -25px;
-            margin-bottom: -25px;
+            margin-bottom: 0;
+        }
+    }
+    &>.content {
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            margin-bottom: 115px;
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            html[lang=fra] &  {
+                margin-bottom: 155px;
+            }
         }
     }
     & .corners {
@@ -103,6 +123,9 @@ header {
 
         & b {
             font-size: 2em;
+            html[lang=deu] &,html[lang=fra] & {
+                font-size: 1em;
+            }
             @media screen and (max-width: 575px) {
                 font-size: 1.3em;
             }

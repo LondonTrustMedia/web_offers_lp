@@ -172,7 +172,6 @@ module.exports = (req, res, next) => {
         "OM": req.gettext("Oman"),
         "PK": req.gettext("Pakistan"),
         "PW": req.gettext("Palau"),
-        "PS": req.gettext("Palestine"),
         "PA": req.gettext("Panama"),
         "PG": req.gettext("Papua New Guinea"),
         "PY": req.gettext("Paraguay"),

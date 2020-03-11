@@ -59,6 +59,17 @@ header {
     @media screen and (max-width: $brk-mobile-width) {
         background-position: right calc(0% + -10px) top calc(100% - 30px);
         min-height: 560px;
+        html[lang=deu] &,html[lang=fra] & {
+            background-position: right calc(0% + -10px) top calc(100% - 45px);
+        }
+    }
+    & .pam {
+        @media screen and (max-width: $brk-mobile-width) {
+            html[lang=deu] & {
+                font-size: 14px;
+                margin-bottom: 8rem!important;
+            }
+        }
     }
     & .btn_wave {
         @media screen and (max-width: $brk-ipad-width - 1) {
@@ -70,18 +81,35 @@ header {
         }
     }
     & .mobile_header {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+
         & .dark {
             background-color: #263238;
-            padding-bottom: 30px!important;
+            padding-bottom: 30px !important;
+
             & p {
                 @media screen and (max-width: 575px) {
                     font-size: 13px !important;
                 }
             }
         }
+
         &>.container {
             margin-top: -25px;
-            margin-bottom: -25px;
+            margin-bottom: 0;
+        }
+    }
+    &>.content {
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            margin-bottom: 115px;
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            html[lang=fra] &  {
+                margin-bottom: 155px;
+            }
         }
     }
     & .corners {

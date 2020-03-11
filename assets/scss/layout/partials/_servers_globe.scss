@@ -132,6 +132,9 @@
         font-size: 3em;
         font-weight: 700;
         line-height: 1;
+        @media screen and (max-width: $brk-mobile-width) {
+            font-size: 2em;
+        }
         & span {
             margin-left: -.5rem;
         }
@@ -183,7 +186,7 @@
             }
         }
         &:nth-of-type(2) {
-            top: 140px;
+            top: 105px;
             left: calc(50% - 400px);
             animation-delay: .5s;
             @media screen and (max-width: 575px) {

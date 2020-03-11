@@ -50,6 +50,9 @@ header {
 
     @media screen and (max-width: $brk-mobile-width) {
         background-position: right calc(100% + 1565px) top -165px;
+        html[lang=deu] &,html[lang=fra] & {
+            background-position: right calc(0% + -10px) top calc(100% - 45px);
+        }
     }
 
     & .btn_wave {
@@ -62,7 +65,16 @@ header {
             width: 100%;
         }
     }
-
+    &>.content {
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            margin-bottom: 115px;
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            html[lang=fra] &  {
+                margin-bottom: 155px;
+            }
+        }
+    }
     & .mobile_header {
         position: absolute;
         left: 0;

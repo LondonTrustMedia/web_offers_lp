@@ -28,6 +28,12 @@ footer {
         display: inline-block;
         background-position: center;
         padding: 30px 33px;
+        html[lang=fra] & {
+            padding: 70px 40px 45px;
+            @media screen and (max-width: $brk-mobile-width) {
+                padding: 40px 40px 43px;
+            }
+        }
         & h1 {
             font-size: 4.5rem;
             font-weight: 600;
@@ -42,6 +48,11 @@ footer {
         }
         & h5 {
             font-size: .9rem;
+            @media screen and (max-width: $brk-mobile-width) {
+                html[lang=fra] & {
+                    font-size: .65rem;
+                }
+            }
         }
     }
     & .bg {

@@ -10,6 +10,13 @@
         <% include ../navbar/navbar_dark %>  
         <% include ../partials/expose_bar %>  
         <header class="color_white parallax_container">
+            <style>
+                @media screen and (max-width: 767px) {
+                    header {
+                        background-image: url(img/best/mobile/piaMOBIflag_<%- bestGeo.code.toLowerCase() %>.jpg); 
+                    }
+                }
+            </style>
             <% include ../navbar/header_bar %>  
             <div class="container content">
                 <div class="col-65">
@@ -43,7 +50,7 @@
                     <div class="d-block d-md-none">
                         <% include ../partials/discount_block %>
                     </div>
-                    <div class="text-left d-block color_white d-md-none">
+                    <div class="text-left d-block color_white d-md-none pam">
                         <p class="mb-0 d-inline-block"><%- gettext("No Logs") %></p>
                         <i class="fas fa-star color_pia_light_orange mx-2 d-inline-block"></i>
                         <p class="mb-0 d-inline-block"><%- gettext("Military-Grade Encryption") %></p>

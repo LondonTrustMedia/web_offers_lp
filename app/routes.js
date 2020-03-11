@@ -26,8 +26,8 @@ module.exports = function (app) {
 
     app.get(['/transaction', '/offer/transaction'], locationScan.check, offersApi.getTransactionId)
 
-    app.get(['/top-vpn-:geo([a-z]{2})',
-        '/top-vpn',
+    app.get(['/best-vpn-:geo([a-z]{2})',
+        '/best-vpn',
     ], mws.languageRedirects, locationScan.check, mws.setPrices, mws.setCurrency, mws.setSticker, mws.getLink, uaParser, mws.getBestCountry, function (req, res) {
         console.log("GEO: " + req.params.geo)
         console.log("Page Name: " + req.pageName)
@@ -35,7 +35,7 @@ module.exports = function (app) {
 
         offersApi.impressionPixel(req)
 
-        res.render('pages/top-vpn.ejs', {
+        res.render('pages/best-vpn.ejs', {
             userAgent: req.userAgent
         });
 

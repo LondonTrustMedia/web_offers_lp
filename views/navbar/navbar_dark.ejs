@@ -14,13 +14,13 @@
                 <div class="language-content">
                     <a id="eng" class="active d-flex justify-content-between align-items-center">
                         <div><img src="img/icon_globe.svg" alt="Globe" class="globe"></div>
-                        <span class="lang-text mx-1">English</span>
+                        <span class="lang-text mx-1">ENGLISH</span>
                         <i class="fas fa-caret-down"></i>
                     </a>
                 </div>
                 <div class="languages_list">
                     <a href="//www.<%- urlForLang %>" id="eng" class="lang">
-                        <span class="lang-text">English</span>
+                        <span class="lang-text">ENGLISH</span>
                     </a>
                     <a href="//deu.<%- urlForLang %>" id="deu" class="lang">
                         <span class="lang-text">DEUTSCH</span>
@@ -36,11 +36,9 @@
 <script async>
     $(window).ready(function() {
         const language = '<%- lang %>';
-        if ($('#navbar-main #language a.active').attr('id') !== language) {
-            $('#navbar-main #language .languages_list a#' + language).clone().appendTo('#navbar-main #language .language-content');
-            $('#navbar-main #language a.active').remove();
-            $('#navbar-main #language .language-content a#' + language).addClass('active');
-            $('#navbar-main #language .language-content a#' + language).removeAttr('href');
+        if (language !== 'eng') {
+            const langText = $('#header-bar #language .languages_list a#' + language + ' span').text()
+            $('#header-bar #language .language-content a span').text(langText);
         }
     });
 </script>

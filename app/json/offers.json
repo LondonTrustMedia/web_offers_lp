@@ -42,5 +42,25 @@
     "top-vpn-au": {
         "offer_ID": 1347,
         "CPP_ID": ""
+    },
+    "online-privacy": {
+        "offer_ID": 1371,
+        "CPP_ID": ""
+    },
+    "trusted-vpn": {
+        "offer_ID": 1373,
+        "CPP_ID": ""
+    },
+    "safe-wifi": {
+        "offer_ID": 1370,
+        "CPP_ID": ""
+    },
+    "devices": {
+        "offer_ID": 1369,
+        "CPP_ID": ""
+    },
+    "best-vpn": {
+        "offer_ID": 1372,
+        "CPP_ID": ""
     }
 }

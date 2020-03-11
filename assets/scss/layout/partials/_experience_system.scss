@@ -1,0 +1,14 @@
+@import '../partials/experience';
+@import '../partials/operating_system';
+
+#experience_system {
+    background-color: #eceff1;
+    background-image: url(img/exp_background.png);
+    background-position:  center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0 0;
+    @media screen and (max-width: 575px) {
+        background-color: #fff;
+    }
+}

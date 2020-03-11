@@ -1,0 +1,130 @@
+<section id="experience">
+    <div class="container text-center d-none d-sm-block">
+        <h2 class="mb-5"><%- gettext("Experience")%></h2>
+        <div class="text-left d-flex flex-lg-wrap justify-content-lg-between flex-lg-row justify-content-start flex-column">
+            <div class="col-46 d-flex mb-5">
+                <div class="mr-3"><img src="img/icon_global.svg" alt="Global"></div>
+                <div>
+                    <h5 class="mb-2"><%- gettext("Total Online Freedom") %></h5>
+                    <p class="mb-0"><%- gettext("Bypass censorship and unblock sites and content you don't have access to") %></p>
+                </div>
+            </div>
+            <div class="col-46 d-flex mb-5">
+                <div class="mr-3"><img src="img/icon_fast.svg" alt="Fast"></div>
+                <div>
+                    <h5 class="mb-2"><%- gettext("Secure Protection on Public Wi-Fi") %></h5>
+                    <p class="mb-0"><%- gettext("Keep your data safe and private while connecting to any poorly secured network") %></p>
+                </div>
+            </div>
+            <div class="col-46 d-flex mb-5">
+                <div class="mr-3"><img src="img/icon_secure.svg" alt="Secure"></div>
+                <div>
+                    <h5 class="mb-2"><%- gettext("Unlimited Bandwidth & Fast Download Speeds") %></h5>
+                    <p class="mb-0"><%- gettext("Keep your downloads private and experience lightning fast speeds for P2P torrenting") %></p>
+                </div>
+            </div>
+            <div class="col-46 d-flex mb-5">
+                <div class="mr-3"><img src="img/icon_block.svg" alt="Block"></div>
+                <div>
+                    <h5 class="mb-2"><%- gettext("Ad blocking") %></h5>
+                    <p class="mb-0"><%- gettext("With Private Internet Access you can block ads, trackers, and malware") %></p>
+                </div>
+            </div>
+        </div>
+        <a href="<%- offerLink %>" class="btn_wave orange mt-3"><%- gettext("Get Private Internet Access VPN") %></a>
+    </div>
+
+    <div class="d-block d-sm-none accordion" id="accordion_experience">
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                        data-toggle="collapse" data-target="#collapse1" 
+                        aria-expanded="false" aria-controls="collapse1">
+                    <div class="d-flex align-items-center text-left">
+                        <img src="img/icon_global.svg" alt="Global">
+                        <h5 class="mb-0 text-uppercase"><%- gettext("Total Online Freedom") %></h5>
+                    </div>
+                    <div class="collapse_icon">
+                        <i class="fal fa-plus"></i>
+                        <i class="fal fa-minus"></i>
+                    </div>
+                </button>
+            </div>
+            <div id="collapse1" class="collapse" 
+                aria-labelledby="heading1" data-parent="#accordion_experience">
+                <div class="card-body">
+                    <p class="mb-0"><%- gettext("Bypass censorship and unblock sites and content you don't have access to") %></p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                        data-toggle="collapse" data-target="#collapse2" 
+                        aria-expanded="false" aria-controls="collapse2">
+                    <div class="d-flex align-items-center text-left">
+                        <img src="img/icon_fast.svg" alt="Fast">
+                        <h5 class="mb-0 text-uppercase"><%- gettext("Secure Protection on Public Wi-Fi") %></h5>
+                    </div>
+                    <div class="collapse_icon">
+                        <i class="fal fa-plus"></i>
+                        <i class="fal fa-minus"></i>
+                    </div>
+                </button>
+            </div>
+            <div id="collapse2" class="collapse" 
+                aria-labelledby="heading2" data-parent="#accordion_experience">
+                <div class="card-body">
+                    <p class="mb-0"><%- gettext("Keep your data safe and private while connecting to any poorly secured network") %></p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                        data-toggle="collapse" data-target="#collapse3" 
+                        aria-expanded="false" aria-controls="collapse3">
+                    <div class="d-flex align-items-center text-left">
+                        <img src="img/icon_secure.svg" alt="Secure">
+                        <h5 class="mb-0 text-uppercase"><%- gettext("Unlimited Bandwidth & Fast Download Speeds") %></h5>
+                    </div>
+                    <div class="collapse_icon">
+                        <i class="fal fa-plus"></i>
+                        <i class="fal fa-minus"></i>
+                    </div>
+                </button>
+            </div>
+            <div id="collapse3" class="collapse" 
+                aria-labelledby="heading3" data-parent="#accordion_experience">
+                <div class="card-body">
+                    <p class="mb-0"><%- gettext("Keep your downloads private and experience lightning fast speeds for P2P torrenting") %></p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                        data-toggle="collapse" data-target="#collapse3" 
+                        aria-expanded="false" aria-controls="collapse3">
+                    <div class="d-flex align-items-center text-left">
+                        <img src="img/icon_block.svg" alt="Block">
+                        <h5 class="mb-0 text-uppercase"><%- gettext("Ad blocking") %></h5>
+                    </div>
+                    <div class="collapse_icon">
+                        <i class="fal fa-plus"></i>
+                        <i class="fal fa-minus"></i>
+                    </div>
+                </button>
+            </div>
+            <div id="collapse3" class="collapse" 
+                aria-labelledby="heading3" data-parent="#accordion_experience">
+                <div class="card-body">
+                    <p class="mb-0"><%- gettext("With Private Internet Access you can block ads, trackers, and malware") %></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container d-block d-sm-none">
+        <a href="<%- offerLink %>" class="btn_wave orange mt-3"><%- gettext("Get Private Internet Access VPN") %></a>
+    </div>
+</section>

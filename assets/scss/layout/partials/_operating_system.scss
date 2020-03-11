@@ -1,0 +1,33 @@
+#operating_system {
+    & .d-flex {
+        @media screen and (max-width: 575px) {
+            width: 275px;
+        }
+    }
+    & img {
+        height: 55px;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            height: 35px;
+        }
+        @media screen and (max-width: 575px) {
+            height: 55px;
+        }
+    }
+    h6 {
+        font-weight: 300;
+        color: $color-text-dark;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            font-size: .7rem;
+            font-weight: 500;
+        }
+    }
+    & h2 {
+        @media screen and (max-width: $brk-min-desktop-width) {
+            font-size: 1.3rem;
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            font-size: 1rem;
+            margin-bottom: 2rem!important;
+        }
+    }
+}

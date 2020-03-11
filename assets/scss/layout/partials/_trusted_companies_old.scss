@@ -1,0 +1,42 @@
+#trusted_companies {
+    width: 100%;
+    margin-top: 4%;
+
+    & h5 {
+        text-transform: uppercase;
+        font-weight: 400;
+        color: lighten($black, 60%);
+        font-size: 12px;
+        margin: 0 auto 10px !important;
+        opacity: .6;
+    }
+
+    & img {
+        height: 40px;
+        filter: saturate(0);
+        opacity: .6;
+
+        @media screen and (max-width: $brk-ipad-width) {
+            height: 30px;
+        }
+    }
+
+    & .d-flex {
+        @media screen and (max-width: $brk-desktop-width) {
+            width: 570px;
+            margin: 0 auto;
+        }
+        @media screen and (max-width: $brk-ipad-width) {
+            width: 100%;
+        }
+        & div {
+            width: 185px;
+            margin: 10px 0;
+
+            @media screen and (max-width: $brk-ipad-width) {
+                width: 120px;
+                margin: 5px 0;
+            }
+        }
+    }
+}

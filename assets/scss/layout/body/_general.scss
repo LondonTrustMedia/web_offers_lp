@@ -1,0 +1,22 @@
+$shadow-light: '0px 4px 5px #00000045';
+
+@import '../partials/trusted_companies';
+@import '../partials/sevice';
+@import '../partials/servers_globe';
+@import '../partials/experience_system';
+@import '../partials/why_pia';
+@import '../partials/trustpilot/carousel';
+@import '../footer/dark_footer';
+
+h2 {
+    font-weight: 400;
+    font-size: 1.7rem;
+    color: $color-text-dark;
+    @media screen and (max-width: $brk-mobile-width) {
+        font-size: 1.5rem;
+    }
+}
+.border_bottom {
+    border-bottom: 1px solid #5EB258;
+    padding-bottom: 30px;
+}

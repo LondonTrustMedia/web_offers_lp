@@ -8,6 +8,7 @@ const path = require('path')
 const cs = require('checksum');
 let event = getEvent()
 const devicesScript = require('./devicesScript.js');
+const bestScript = require('./best-script.js');
 
 let cache = [];
 
@@ -451,7 +452,8 @@ module.exports = (app) => {
                 }
                 next()
             }
-        }
+        },
+        getBestCountry: bestScript
     }
     return middleWares
 }

@@ -14,13 +14,15 @@ $mantis: #84BF47;
 
 $pia-green: #5EB258;
 $pia-orange: #f77422;
+$pia-light-orange: #FFA000;
 $pia-yellow: #f9bc4f;
 
 $dark-pia-green: darken($pia-green, 10%);
 $lignt-pia-green: lighten($pia-green, 10%);
 
 $color-text: $black;
-
+$color-text-dark: #37474f;
+$color-text-light: #6898b0;
 // Font stacks
 
 $stack-arial:  Arial, sans-serif;

@@ -1,0 +1,103 @@
+#discount_block {
+    & .right_line {
+        background-image: url(img/badge_frame_arrow_right.svg);
+        background-position: center right;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 160px;
+        width: 295px;
+        html[lang=deu] &,html[lang=fra] & {
+            background-image: url(img/badge_frame_arrow_right_short.svg);
+        }
+        @media screen and (max-width: $brk-ipad-width) {
+            height: 105px;
+            width: 215px;
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            background-image: url(img/badge_frame_right.svg);
+            width: 180px;
+            html[lang=deu] &,html[lang=fra] & {
+                background-image: url(img/badge_frame_right_short.svg);
+            }
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            width: 165px;
+            height: 85px;
+            html[lang=fra] & {
+                width: 195px;
+            }
+        }
+        & .top {
+            font-weight: 700;
+            margin-top: -35px;
+            html[lang=deu] & {
+                @media screen and (max-width: $brk-ipad-width - 1) {
+                    margin-top: -25px;
+                    font-size: .8em;
+                }
+            }
+            @media screen and (max-width: $brk-mobile-width) {
+                font-size: 14px;
+                margin-top: -30px;
+                html[lang=deu] & {
+                    font-size: .7em;
+                    margin-top: -20px;
+                }
+                html[lang=fra] & {
+                    font-size: 12px;
+                    margin-top: -25px;
+                }
+            }
+        }
+        & .discount {
+            font-size: 8.5rem;
+            line-height: 1;
+            align-items: end;
+            font-weight: 600;
+            @media screen and (max-width: $brk-ipad-width) {
+                font-size: 5rem;
+            }
+            @media screen and (max-width: $brk-mobile-width) {
+                font-size: 4rem;
+            }
+            & p:nth-of-type(1) {
+                font-size: 1em;
+            }
+
+            & p:nth-of-type(2) {
+                font-size: 0.6em;
+            }   
+        }
+        & .bottom {
+            font-weight: 700;
+            margin-top: -10px;
+            font-size: 1.5rem;
+            padding-left: .5rem;
+            @media screen and (max-width: $brk-ipad-width) {
+                margin-top: -5px;
+                font-size: 1.2rem;
+            }
+            @media screen and (max-width: $brk-mobile-width) {
+                font-size: 1rem;
+            }
+        }
+    }
+    & .left_line {
+        height: 160px;
+        width: 130px;
+        @media screen and (max-width: $brk-ipad-width) {
+            height: 105px;
+            width: 80px;
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            width: 40px;
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            width: 30px;
+            height: 85px;
+        }
+        & img {
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,261 @@
+#carousel {
+    & .trustpilot {
+        height: 30px;
+        @media screen and (max-width: $brk-mobile-width) {
+            height: 20px;
+        }
+    }
+    & .container-fluid {
+        @media screen and (max-width: $brk-mobile-width) {
+            padding: 0;
+        }
+    }
+    & .grad {
+        overflow: hidden;
+        @media screen and (max-width: $brk-mobile-width) {
+            padding: 0;
+        }
+        & .gradient_left,
+        & .gradient_right {
+            position: absolute;
+            width: 20%;
+            top: 0;
+            height: 325px;
+            z-index: 1;
+        }
+
+        & .gradient_right {
+            right: -5px;
+            background: linear-gradient(to left, #fff 25%, transparent);
+        }
+
+        & .gradient_left {
+            left: -5px;
+            background: linear-gradient(to right, #fff 25%, transparent);
+        }
+    }
+
+    & .controls {
+        position: absolute;
+        top: 130px;
+        width: 640px;
+        left: calc(50% - 320px);
+        display: flex;
+        justify-content: space-between;
+        font-size: 30px;
+        color: $pia-green;
+
+        @media screen and (max-width: $brk-min-desktop-width) {
+            width: 100%;
+            max-width: 100%;
+            left: 0;
+        }
+
+        & i {
+            color: $pia-green;
+        }
+    }
+
+    & .carousel-item {
+        padding-right: 40px;
+        padding-left: 40px;
+        @media screen and (max-width: 575px) {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+    }
+
+    & .carousel-indicators {
+        height: 20px;
+        bottom: -55px;
+
+        & li {
+            background-color: #e5e5e5;
+            opacity: 1;
+            width: 8px;
+            height: 8px;
+            border: none;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            margin: 0 10px;
+
+            &.active {
+                background-color: #5eb258;
+            }
+        }
+    }
+
+    & .border_bottom {
+        padding-bottom: 100px;
+    }
+
+    & .carousel-inner {
+        @include center-object(1730px);
+        height: 325px;
+        align-items: center;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+
+        @media screen and (max-width: $brk-min-desktop-width) {
+            width: 100%;
+            left: 0;
+            display: block;
+        }
+    }
+
+    & .card {
+        height: 300px;
+        overflow: hidden;
+        box-shadow: 0 0 15px #00000024;
+
+        & .stars {
+            color: #E9A854;
+            font-size: 12px;
+            margin-left: 10px;
+            @media screen and (max-width: 575px) {
+                margin-left: 5px;
+            }
+            @media screen and (max-width: $brk-mobile-width) {
+                font-size: 10px;
+            }
+        }
+
+        & .card-body {
+            overflow: hidden;
+            position: relative;
+        }
+
+        & .card-footer {
+            height: 50px;
+            color: #fff;
+            background-color: $color-text-dark;
+            @media screen and (max-width: $brk-mobile-width) {
+                padding: 0.75rem 0.5rem;
+            }
+            & .name {
+                color: #fff;
+                font-size: 12px;
+                margin-bottom: 0;
+                @media screen and (max-width: 575px) {
+                    width: 40px;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    height: 15px;
+                    vertical-align: middle;
+                }
+                @media screen and (max-width: $brk-mobile-width) {
+                    font-size: 10px;
+                }
+            }
+
+            & a {
+                float: right;
+                font-size: 12px;
+                margin-top: 5px;
+                color: $color-text-light;
+                @media screen and (max-width: $brk-mobile-width) {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    & .gradient {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 45%;
+        background: linear-gradient(to top, #fff 25%, transparent);
+    }
+}
+
+/* Desktop and up */
+
+@media screen and (min-width: 992px) {
+
+    .carousel-inner .active,
+    .carousel-inner .active+.carousel-item,
+    .carousel-inner .active+.carousel-item+.carousel-item {
+        display: block;
+    }
+
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left)+.carousel-item+.carousel-item {
+        transition: none;
+        -webkit-transition: none;
+        -moz-transition: none;
+        -ms-transition: none;
+        -o-transition: none;
+    }
+
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+        position: relative;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+    }
+
+    .carousel-inner .active.carousel-item+.carousel-item+.carousel-item+.carousel-item {
+        position: absolute;
+        //   top: 0;
+        right: -33.3333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* left or forward direction */
+    .active.carousel-item-left+.carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left+.carousel-item,
+    .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item,
+    .carousel-item-next.carousel-item-left+.carousel-item+.carousel-item+.carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        -moz-transform: translate3d(-100%, 0, 0);
+        -ms-transform: translate3d(-100%, 0, 0);
+        -o-transform: translate3d(-100%, 0, 0);
+    }
+
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        //   top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    /* right or prev direction */
+    .active.carousel-item-right+.carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right+.carousel-item,
+    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item,
+    .carousel-item-prev.carousel-item-right+.carousel-item+.carousel-item+.carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+        -webkit-transform: translate3d(100%, 0, 0);
+        -moz-transform: translate3d(100%, 0, 0);
+        -ms-transform: translate3d(100%, 0, 0);
+        -o-transform: translate3d(100%, 0, 0);
+    }
+}

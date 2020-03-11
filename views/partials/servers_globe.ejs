@@ -1,0 +1,50 @@
+<section id="servers_globe" class="show_in_position">
+    <div class="text-center">
+        <div class="astronaut d-none d-sm-block"><img src="img/pia_lockman/pia_lockman_astronaut1.png" alt="astronaut"></div>
+        <div class="astronaut d-none d-sm-block"><img src="img/pia_lockman/pia_lockman_astronaut2.png" alt="astronaut"></div>
+        <div class="astronaut d-none d-sm-block"><img src="img/pia_lockman/pia_lockman_astronaut3.png" alt="astronaut"></div>
+        <div class="container">
+            <div class="quotes_circle">
+                <img src="img/qoutemarks.svg" alt="quotes" class="quotes">
+                <div class="quotes_text"><%- gettext(`<p><b class='text-uppercase'>"Private Internet Access</b></p>
+                                                        <p>out-performs and out-features the competition"</p>`) %></div>
+                <hr>
+                <img src="img/logo_pcmag_red.png" alt="PCMAG" class="pcmag">
+            </div>
+        </div>
+        <div class="color_white bg">
+            <div class="d-sm-none d-block">
+                <div class="astronaut"><img src="img/pia_lockman/pia_lockman_astronaut1.png" alt="astronaut"></div>
+                <div class="astronaut"><img src="img/pia_lockman/pia_lockman_astronaut2.png" alt="astronaut"></div>
+                <div class="astronaut"><img src="img/pia_lockman/pia_lockman_astronaut3.png" alt="astronaut"></div>
+            </div>
+            <div class="dark">
+                <div class="container">
+                    <h2 class="color_white mb-4 mt-sm-5 mt-0"><%- gettext("Connect to servers from all over the world") %></h2>
+                    <div class="d-flex justify-content-center mb-sm-5 mb-0">
+                        <div class="mr-5 text-center">
+                            <div class="info">
+                                <span data-count="3335">3335</span>
+                                <span>+</span>
+                            </div>
+                            <div class="lable"><%- gettext('Servers') %></div>
+                        </div>
+                        <div class="ml-5 text-center">
+                            <div class="info" data-count="30">30</div>
+                            <div class="lable"><%- gettext('Countries') %></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flags">
+                <div class="container d-flex justify-content-between flex-wrap mx-auto">
+                <% let flags = ['ca', 'cz', 'gb', 'au', 'de', 'nz', 'nl', 'no', 'hk', 'ie', 'dk', 'sg', 'it', 'fi', 'lu', 'jp', 'ch', 'il', 'ro', 'fr', 'mx', 'hu', 'be', 'in', 'po', 'at', 'ae', 'se', 'us', 'es'] %>
+                <% flags.forEach(function(flag){ %>
+                    <div class="mx-1 my-1 flag"><img src="img/flag_<%- flag %>.png" alt="<%- flag %>" class="w-100"></div>
+                <% }); %>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="<%= asset('js/countTo.js') %>" async></script>

@@ -1,0 +1,147 @@
+<section id="why_pia">
+    <div class="container text-center position-relative d-none d-sm-block">
+        <img src="img/choose_people_bg.png" alt="people" class="people">
+        <h2 class="mb-5 position-relative color_white"><%- gettext("Why choose Private Internet Access?") %></h2>
+        <div class="position-relative text-left d-flex flex-lg-wrap justify-content-lg-between flex-lg-row justify-content-start flex-column">
+            <div class="col-46 d-flex mb-5">
+                <div class="mr-3"><img src="img/icon_privacy.svg" alt="Privacy"></div>
+                <div>
+                    <h5 class="mb-2"><%- gettext("Total Privacy") %></h5>
+                    <p class="mb-0"><%- gettext("Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.") %></p>
+                </div>
+            </div>
+            <div class="col-46 d-flex mb-5">
+                <div class="mr-3"><img src="img/icon_secure2.svg" alt="Secure"></div>
+                <div>
+                    <h5 class="mb-2"><%- gettext("Easy to use") %></h5>
+                    <p class="mb-0"><%- gettext("No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.") %></p>
+                </div>
+            </div>
+            <div class="col-46 d-flex mb-5">
+                <div class="mr-3"><img src="img/icon_easy.svg" alt="Easy"></div>
+                <div>
+                    <h5 class="mb-2"><%- gettext("Secure VPN Protocols") %></h5>
+                    <p class="mb-0"><%- gettext("Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.") %></p>
+                </div>
+            </div>
+            <div class="col-46 d-flex mb-5">
+                <div class="mr-3"><img src="img/icon_simultaneously.svg" alt="Simultaneously"></div>
+                <div>
+                    <h5 class="mb-2"><%- format(gettext("%s devices simultaneously"),[10]) %></h5>
+                    <p class="mb-0"><%- format(gettext("Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time."),[10]) %></p>
+                </div>
+            </div>
+        </div>
+        <div class="quotes_circle position-relative">
+            <p class="quotes_text"><b><q><%- gettext("Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.") %></q></b></p>
+            <hr>
+            <img src="img/logo_lifehacker_bar.png" alt="lifehacker" class="lifehacker">
+            <img src="img/qoutemarks.svg" alt="quotes" class="quotes">
+        </div>
+    </div>
+    <div class="corners d-none d-sm-block"></div>
+    <div class="bg d-block d-sm-none">
+        <img src="img/choose_people_bg.png" alt="people" class="people w-100">
+        <div class="container">
+            <h4 class="mb-5 color_white text-center"><%- gettext("Why choose Private Internet Access?") %></h4>
+            <div class="d-block d-sm-none accordion" id="accordion_why">
+                <div class="card">
+                    <div class="card-header">
+                        <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                                data-toggle="collapse" data-target="#collapse1" 
+                                aria-expanded="false" aria-controls="collapse1">
+                            <div class="d-flex align-items-center text-left">
+                                <img src="img/icon_privacy.svg" alt="Privacy">
+                                <h5 class="mb-0 text-uppercase"><%- gettext("Total Privacy") %></h5>
+                            </div>
+                            <div class="collapse_icon">
+                                <i class="fal fa-plus"></i>
+                                <i class="fal fa-minus"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapse1" class="collapse" 
+                        aria-labelledby="heading1" data-parent="#accordion_why">
+                        <div class="card-body">
+                            <p class="mb-0"><%- gettext("Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.") %></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                                data-toggle="collapse" data-target="#collapse2" 
+                                aria-expanded="false" aria-controls="collapse2">
+                            <div class="d-flex align-items-center text-left">
+                                <img src="img/icon_secure2.svg" alt="Secure">
+                                <h5 class="mb-0 text-uppercase"><%- gettext("Easy to use") %></h5>
+                            </div>
+                            <div class="collapse_icon">
+                                <i class="fal fa-plus"></i>
+                                <i class="fal fa-minus"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapse2" class="collapse" 
+                        aria-labelledby="heading2" data-parent="#accordion_why">
+                        <div class="card-body">
+                            <p class="mb-0"><%- gettext("No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.") %></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                                data-toggle="collapse" data-target="#collapse3" 
+                                aria-expanded="false" aria-controls="collapse3">
+                            <div class="d-flex align-items-center text-left">
+                                <img src="img/icon_easy.svg" alt="Easy">
+                                <h5 class="mb-0 text-uppercase"><%- gettext("Secure VPN Protocols") %></h5>
+                            </div>
+                            <div class="collapse_icon">
+                                <i class="fal fa-plus"></i>
+                                <i class="fal fa-minus"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapse3" class="collapse" 
+                        aria-labelledby="heading3" data-parent="#accordion_why">
+                        <div class="card-body">
+                            <p class="mb-0"><%- gettext("Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.") %></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                                data-toggle="collapse" data-target="#collapse4" 
+                                aria-expanded="false" aria-controls="collapse4">
+                            <div class="d-flex align-items-center text-left">
+                                <img src="img/icon_simultaneously.svg" alt="Simultaneously">
+                                <h5 class="mb-0 text-uppercase"><%- format(gettext("%s devices simultaneously"),[10]) %></h5>
+                            </div>
+                            <div class="collapse_icon">
+                                <i class="fal fa-plus"></i>
+                                <i class="fal fa-minus"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="collapse4" class="collapse" 
+                        aria-labelledby="heading4" data-parent="#accordion_why">
+                        <div class="card-body">
+                            <p class="mb-0"><%- format(gettext("Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time."),[10]) %></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container d-block d-sm-none mt-5">
+        <div class="quotes_circle position-relative">
+            <img src="img/qoutemarks.svg" alt="quotes" class="quotes">
+            <p class="quotes_text"><b><q><%- gettext("Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.") %></q></b></p>
+            <hr>
+            <img src="img/logo_lifehacker_bar.png" alt="lifehacker" class="lifehacker">
+        </div>
+    </div>
+</section>

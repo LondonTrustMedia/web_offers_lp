@@ -1,0 +1,20 @@
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('css/new_design_header.css') %>">
+    <link rel="stylesheet" href="https://use.typekit.net/syh7gcy.css">
+</head>
+
+    <body>
+        <% include ../navbar/navbar_white %>
+        <%- include('../partials/newDesign_builder', {  pricing: true,
+                                                        bg: 'header_bg_people.jpg', 
+                                                        bg_mobile: 'header_bg_people_mobile.jpg', 
+                                                        title: "<h2 class='d-inline-block mb-0 protect'>"+gettext('<b>Protect</b><br>your family’s devices today') +"</h2>" }) %>
+        <% include ../body/hp %>
+        <% include ../partials/footers/people_discount %>
+        <% include ../partials/tag_manager %>
+    </body>
+
+</html>

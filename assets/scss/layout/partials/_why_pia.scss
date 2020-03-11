@@ -1,0 +1,180 @@
+#why_pia {
+    color: #fff;
+    background-color: #263238;
+    min-height: 600px;
+    overflow: initial;
+    margin-bottom: 190px;
+    position: relative;
+    @media screen and (max-width: 575px) {
+        background-color: #fff;
+        padding-top: 0;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+    & .container {
+        @media screen and (max-width: 575px) {
+            position: relative;
+            z-index: 1;
+        }
+    }
+    & .bg {
+        background-color: #263238;
+        position: relative;
+    }
+    & .corners {
+        background-image: url(img/even_corners_reflect.svg);
+        width: 100%;
+        height: 30%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        bottom: -1%;
+        position: absolute;
+        background-size: 102%;
+    }
+    & .people {
+        width: 80%;
+        position: absolute;
+        left: calc(10%);
+        top: 0;
+        z-index: 0;
+        @media screen and (max-width: 575px) {
+            top: unset;
+            bottom: 0;
+        }
+    }
+    & .col-46 {
+        flex: 0 0 46%;
+        max-width: 46%;
+
+        @media screen and (max-width: $brk-min-desktop-width) {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        & img {
+            width: 65px;
+        }
+    }
+    & .text-left.d-flex {
+        z-index: 2;
+        
+    }
+    & h2, & h4 {
+        z-index: 2;
+    }
+    & h4 {
+        font-weight: 300;
+        padding-top: 2rem;
+    }
+    & p {
+        color: #cfd8dc;
+    }
+    & .quotes_circle {
+        @include cube-box(260px);
+        margin: 0px auto -130px;
+        background-color: #fff;
+        border: solid 2px $pia-green;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        color: $color-text-dark;
+        text-align: center;
+        z-index: 2;
+        @media screen and (max-width: 575px) {
+            margin: 0 auto 30px;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+            height: unset;
+            width: 100%;
+        }
+        & .quotes {
+            width: 45%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 5%;
+            @media screen and (max-width: 575px) {
+                width: 75px;
+                margin: -30px auto 0;
+                padding: 10px;
+            }
+        }
+
+        & .quotes_text {
+            margin: 35px auto 0;
+            font-style: italic;
+            color: $color-text-dark;
+            width: 80%;
+            @media screen and (max-width: 575px) {
+                width: 90%;
+                margin: 0px auto;
+            }
+        }
+
+        & hr {
+            border-top: 2px solid $pia-green;
+            width: 10%;
+            margin: 10px auto;
+        }
+
+        & .lifehacker {
+            width: 30%;
+            margin: 0 auto;
+            display: block;
+            @media screen and (max-width: 575px) {
+                width: 90px;
+                margin: 0 auto 10px;
+            }
+        }
+    }
+    & h5 {
+        @media screen and (max-width: 575px) {
+            color: #fff;
+            font-size: 1rem;
+        }
+    }
+    & .fa-minus {
+        display: none;
+    }
+    & .btn-link {
+        text-decoration: none;
+        & img {
+            @media screen and (max-width: 575px) {
+                width: 40px;
+                margin-right: 1rem;
+            }
+        }
+        & .collapse_icon {
+            padding-left: 20px;
+        }
+        & h5 ,& .fal {
+            text-decoration: none; 
+        }
+        & .fal {
+            font-size: 1rem;
+            color: $color-text-light;
+            opacity: .7;
+        }
+        &[aria-expanded=true] {
+            & .fa-minus {
+                display: block;
+            }
+            & .fa-plus {
+                display: none;
+            }
+        }
+    }
+    & .card-body {
+        padding-left: 70px;
+    }
+    & .card-header, & .card {
+        background-color: transparent;
+        border: none;
+        border-bottom: solid 1px rgba($pia-green,.2);
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

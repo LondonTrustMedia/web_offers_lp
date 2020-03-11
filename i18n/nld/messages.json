@@ -1,9 +1,1005 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Dutch\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-02-19 13:41\nLanguage: nl_NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-02-19 13:37+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: nl\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Dutch\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-03-11 12:51\nLanguage: nl_NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-11 12:51+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: nl\nX-Crowdin-File: messages.pot\n"
       },
       "US Dollars": [
+         null,
+         "Amerikaanse Dollars"
+      ],
+      "Afghanistan": [
+         null,
+         ""
+      ],
+      "Åland Islands": [
+         null,
+         ""
+      ],
+      "Albania": [
+         null,
+         ""
+      ],
+      "Algeria": [
+         null,
+         "Algerije"
+      ],
+      "American Samoa": [
+         null,
+         ""
+      ],
+      "Andorra": [
+         null,
+         ""
+      ],
+      "Angola": [
+         null,
+         ""
+      ],
+      "Anguilla": [
+         null,
+         ""
+      ],
+      "Antarctica": [
+         null,
+         ""
+      ],
+      "Antigua and Barbuda": [
+         null,
+         ""
+      ],
+      "Argentina": [
+         null,
+         ""
+      ],
+      "Armenia": [
+         null,
+         ""
+      ],
+      "Aruba": [
+         null,
+         ""
+      ],
+      "Australia": [
+         null,
+         "Australië"
+      ],
+      "Austria": [
+         null,
+         "Oostenrijk"
+      ],
+      "Azerbaijan": [
+         null,
+         "Azerbeidzjan"
+      ],
+      "Bahamas": [
+         null,
+         ""
+      ],
+      "Bahrain": [
+         null,
+         "Bahrein"
+      ],
+      "Bangladesh": [
+         null,
+         "Bangladesh"
+      ],
+      "Barbados": [
+         null,
+         ""
+      ],
+      "Belarus": [
+         null,
+         ""
+      ],
+      "Belgium": [
+         null,
+         "België"
+      ],
+      "Belize": [
+         null,
+         "Belize"
+      ],
+      "Benin": [
+         null,
+         ""
+      ],
+      "Bermuda": [
+         null,
+         ""
+      ],
+      "Bhutan": [
+         null,
+         ""
+      ],
+      "Bolivia": [
+         null,
+         ""
+      ],
+      "Caribbean Netherlands": [
+         null,
+         ""
+      ],
+      "Bosnia and Herzegovina": [
+         null,
+         ""
+      ],
+      "Botswana": [
+         null,
+         ""
+      ],
+      "Bouvet Island": [
+         null,
+         ""
+      ],
+      "Brazil": [
+         null,
+         "Brazilië"
+      ],
+      "British Indian Ocean Territory": [
+         null,
+         ""
+      ],
+      "Brunei Darussalam": [
+         null,
+         ""
+      ],
+      "Bulgaria": [
+         null,
+         ""
+      ],
+      "Burkina Faso": [
+         null,
+         ""
+      ],
+      "Burundi": [
+         null,
+         ""
+      ],
+      "Cabo Verde": [
+         null,
+         ""
+      ],
+      "Cambodia": [
+         null,
+         ""
+      ],
+      "Cameroon": [
+         null,
+         ""
+      ],
+      "Canada": [
+         null,
+         "Canada"
+      ],
+      "Cayman Islands": [
+         null,
+         ""
+      ],
+      "Central African Republic": [
+         null,
+         ""
+      ],
+      "Chad": [
+         null,
+         ""
+      ],
+      "Chile": [
+         null,
+         ""
+      ],
+      "China": [
+         null,
+         "China"
+      ],
+      "Christmas Island": [
+         null,
+         ""
+      ],
+      "Cocos (Keeling) Islands": [
+         null,
+         ""
+      ],
+      "Colombia": [
+         null,
+         ""
+      ],
+      "Comoros": [
+         null,
+         ""
+      ],
+      "Congo": [
+         null,
+         ""
+      ],
+      "Democratic Republic of the Congo": [
+         null,
+         ""
+      ],
+      "Cook Islands": [
+         null,
+         ""
+      ],
+      "Costa Rica": [
+         null,
+         ""
+      ],
+      "Côte d'Ivoire": [
+         null,
+         ""
+      ],
+      "Croatia": [
+         null,
+         ""
+      ],
+      "Cuba": [
+         null,
+         ""
+      ],
+      "Curaçao": [
+         null,
+         ""
+      ],
+      "Cyprus": [
+         null,
+         ""
+      ],
+      "Czechia": [
+         null,
+         ""
+      ],
+      "Denmark": [
+         null,
+         "Denemarken"
+      ],
+      "Djibouti": [
+         null,
+         ""
+      ],
+      "Dominica": [
+         null,
+         ""
+      ],
+      "Dominican Republic": [
+         null,
+         ""
+      ],
+      "Ecuador": [
+         null,
+         ""
+      ],
+      "Egypt": [
+         null,
+         "Egypte"
+      ],
+      "El Salvador": [
+         null,
+         ""
+      ],
+      "Equatorial Guinea": [
+         null,
+         ""
+      ],
+      "Eritrea": [
+         null,
+         ""
+      ],
+      "Estonia": [
+         null,
+         ""
+      ],
+      "Eswatini": [
+         null,
+         ""
+      ],
+      "Ethiopia": [
+         null,
+         "Ethiopië"
+      ],
+      "Falkland Islands (Malvinas)": [
+         null,
+         ""
+      ],
+      "Faroe Islands": [
+         null,
+         ""
+      ],
+      "Fiji": [
+         null,
+         ""
+      ],
+      "Finland": [
+         null,
+         "Finland"
+      ],
+      "France": [
+         null,
+         "Frankrijk"
+      ],
+      "French Guiana": [
+         null,
+         ""
+      ],
+      "French Polynesia": [
+         null,
+         ""
+      ],
+      "French Southern Territories": [
+         null,
+         ""
+      ],
+      "Gabon": [
+         null,
+         ""
+      ],
+      "Gambia": [
+         null,
+         ""
+      ],
+      "Georgia": [
+         null,
+         ""
+      ],
+      "Germany": [
+         null,
+         "Duitsland"
+      ],
+      "Ghana": [
+         null,
+         ""
+      ],
+      "Gibraltar": [
+         null,
+         ""
+      ],
+      "Greece": [
+         null,
+         ""
+      ],
+      "Greenland": [
+         null,
+         ""
+      ],
+      "Grenada": [
+         null,
+         ""
+      ],
+      "Guadeloupe": [
+         null,
+         ""
+      ],
+      "Guam": [
+         null,
+         ""
+      ],
+      "Guatemala": [
+         null,
+         ""
+      ],
+      "Guernsey": [
+         null,
+         ""
+      ],
+      "Guinea": [
+         null,
+         ""
+      ],
+      "Guinea-Bissau": [
+         null,
+         ""
+      ],
+      "Guyana": [
+         null,
+         "Guyana"
+      ],
+      "Haiti": [
+         null,
+         ""
+      ],
+      "Heard Island and McDonald Islands": [
+         null,
+         ""
+      ],
+      "Holy See": [
+         null,
+         ""
+      ],
+      "Honduras": [
+         null,
+         ""
+      ],
+      "Hong Kong": [
+         null,
+         "Hong Kong"
+      ],
+      "Hungary": [
+         null,
+         "Hongarije"
+      ],
+      "Iceland": [
+         null,
+         "Ijsland"
+      ],
+      "India": [
+         null,
+         "India"
+      ],
+      "Indonesia": [
+         null,
+         "Indonesië"
+      ],
+      "Iran": [
+         null,
+         "Iran"
+      ],
+      "Iraq": [
+         null,
+         ""
+      ],
+      "Ireland": [
+         null,
+         "Ierland"
+      ],
+      "Isle of Man": [
+         null,
+         ""
+      ],
+      "Israel": [
+         null,
+         "Israël"
+      ],
+      "Italy": [
+         null,
+         "Italië"
+      ],
+      "Jamaica": [
+         null,
+         ""
+      ],
+      "Japan": [
+         null,
+         ""
+      ],
+      "Jersey": [
+         null,
+         ""
+      ],
+      "Jordan": [
+         null,
+         "Jordanië"
+      ],
+      "Kazakhstan": [
+         null,
+         "Kazachstan"
+      ],
+      "Kenya": [
+         null,
+         ""
+      ],
+      "Kiribati": [
+         null,
+         ""
+      ],
+      "North Korea": [
+         null,
+         "Noord-Korea"
+      ],
+      "South Korea": [
+         null,
+         "Zuid-Korea"
+      ],
+      "Kuwait": [
+         null,
+         "Koeweit"
+      ],
+      "Kyrgyzstan": [
+         null,
+         ""
+      ],
+      "Laos": [
+         null,
+         ""
+      ],
+      "Latvia": [
+         null,
+         ""
+      ],
+      "Lebanon": [
+         null,
+         ""
+      ],
+      "Lesotho": [
+         null,
+         ""
+      ],
+      "Liberia": [
+         null,
+         ""
+      ],
+      "Libya": [
+         null,
+         "Libië"
+      ],
+      "Liechtenstein": [
+         null,
+         ""
+      ],
+      "Lithuania": [
+         null,
+         ""
+      ],
+      "Luxembourg": [
+         null,
+         "Luxemburg"
+      ],
+      "Macao": [
+         null,
+         ""
+      ],
+      "Madagascar": [
+         null,
+         ""
+      ],
+      "Malawi": [
+         null,
+         ""
+      ],
+      "Malaysia": [
+         null,
+         "Maleisië"
+      ],
+      "Maldives": [
+         null,
+         ""
+      ],
+      "Mali": [
+         null,
+         ""
+      ],
+      "Malta": [
+         null,
+         ""
+      ],
+      "Marshall Islands": [
+         null,
+         ""
+      ],
+      "Martinique": [
+         null,
+         ""
+      ],
+      "Mauritania": [
+         null,
+         ""
+      ],
+      "Mauritius": [
+         null,
+         "Mauritius"
+      ],
+      "Mayotte": [
+         null,
+         ""
+      ],
+      "Mexico": [
+         null,
+         "Mexico"
+      ],
+      "Federated States of Micronesia": [
+         null,
+         ""
+      ],
+      "Moldova": [
+         null,
+         ""
+      ],
+      "Monaco": [
+         null,
+         ""
+      ],
+      "Mongolia": [
+         null,
+         ""
+      ],
+      "Montenegro": [
+         null,
+         ""
+      ],
+      "Montserrat": [
+         null,
+         ""
+      ],
+      "Morocco": [
+         null,
+         "Marokko"
+      ],
+      "Mozambique": [
+         null,
+         ""
+      ],
+      "Myanmar": [
+         null,
+         ""
+      ],
+      "Namibia": [
+         null,
+         ""
+      ],
+      "Nauru": [
+         null,
+         ""
+      ],
+      "Nepal": [
+         null,
+         ""
+      ],
+      "Netherlands": [
+         null,
+         "Nederland"
+      ],
+      "New Caledonia": [
+         null,
+         ""
+      ],
+      "New Zealand": [
+         null,
+         "Nieuw Zeeland"
+      ],
+      "Nicaragua": [
+         null,
+         ""
+      ],
+      "Niger": [
+         null,
+         ""
+      ],
+      "Nigeria": [
+         null,
+         ""
+      ],
+      "Niue": [
+         null,
+         ""
+      ],
+      "Norfolk Island": [
+         null,
+         ""
+      ],
+      "North Macedonia": [
+         null,
+         ""
+      ],
+      "Northern Mariana Islands": [
+         null,
+         ""
+      ],
+      "Norway": [
+         null,
+         "Noorwegen"
+      ],
+      "Oman": [
+         null,
+         ""
+      ],
+      "Pakistan": [
+         null,
+         "Pakistan"
+      ],
+      "Palau": [
+         null,
+         ""
+      ],
+      "Panama": [
+         null,
+         ""
+      ],
+      "Papua New Guinea": [
+         null,
+         ""
+      ],
+      "Paraguay": [
+         null,
+         ""
+      ],
+      "Peru": [
+         null,
+         ""
+      ],
+      "Philippines": [
+         null,
+         ""
+      ],
+      "Pitcairn": [
+         null,
+         ""
+      ],
+      "Poland": [
+         null,
+         "Polen"
+      ],
+      "Portugal": [
+         null,
+         ""
+      ],
+      "Puerto Rico": [
+         null,
+         ""
+      ],
+      "Qatar": [
+         null,
+         "Qatar"
+      ],
+      "Réunion": [
+         null,
+         ""
+      ],
+      "Romania": [
+         null,
+         "Romenië"
+      ],
+      "Russia": [
+         null,
+         "Russia"
+      ],
+      "Rwanda": [
+         null,
+         ""
+      ],
+      "Saint Barthélemy": [
+         null,
+         ""
+      ],
+      "Saint Helena, Ascension and Tristan da Cunha": [
+         null,
+         ""
+      ],
+      "Saint Kitts and Nevis": [
+         null,
+         ""
+      ],
+      "Saint Lucia": [
+         null,
+         ""
+      ],
+      "Saint Martin (French part)": [
+         null,
+         ""
+      ],
+      "Saint Pierre and Miquelon": [
+         null,
+         ""
+      ],
+      "Saint Vincent and the Grenadines": [
+         null,
+         ""
+      ],
+      "Samoa": [
+         null,
+         ""
+      ],
+      "San Marino": [
+         null,
+         ""
+      ],
+      "Sao Tome and Principe": [
+         null,
+         ""
+      ],
+      "Saudi Arabia": [
+         null,
+         "Saoedi-Arabië"
+      ],
+      "Senegal": [
+         null,
+         ""
+      ],
+      "Serbia": [
+         null,
+         ""
+      ],
+      "Seychelles": [
+         null,
+         ""
+      ],
+      "Sierra Leone": [
+         null,
+         ""
+      ],
+      "Singapore": [
+         null,
+         "Singapore"
+      ],
+      "Sint Maarten (Dutch part)": [
+         null,
+         ""
+      ],
+      "Slovakia": [
+         null,
+         ""
+      ],
+      "Slovenia": [
+         null,
+         ""
+      ],
+      "Solomon Islands": [
+         null,
+         ""
+      ],
+      "Somalia": [
+         null,
+         ""
+      ],
+      "South Africa": [
+         null,
+         ""
+      ],
+      "South Georgia and the South Sandwich Islands": [
+         null,
+         ""
+      ],
+      "South Sudan": [
+         null,
+         ""
+      ],
+      "Spain": [
+         null,
+         "Spanje"
+      ],
+      "Sri Lanka": [
+         null,
+         "Sri Lanka"
+      ],
+      "Sudan": [
+         null,
+         "Soedan"
+      ],
+      "Suriname": [
+         null,
+         ""
+      ],
+      "Svalbard and Jan Mayen": [
+         null,
+         ""
+      ],
+      "Sweden": [
+         null,
+         "Zweden"
+      ],
+      "Switzerland": [
+         null,
+         "Zwitserland"
+      ],
+      "Syria": [
+         null,
+         "Syrië"
+      ],
+      "Taiwan, Province of China": [
+         null,
+         ""
+      ],
+      "Tajikistan": [
+         null,
+         "Tadzjikistan"
+      ],
+      "Tanzania": [
+         null,
+         ""
+      ],
+      "Thailand": [
+         null,
+         "Thailand"
+      ],
+      "Timor-Leste": [
+         null,
+         ""
+      ],
+      "Togo": [
+         null,
+         ""
+      ],
+      "Tokelau": [
+         null,
+         ""
+      ],
+      "Tonga": [
+         null,
+         ""
+      ],
+      "Trinidad and Tobago": [
+         null,
+         ""
+      ],
+      "Tunisia": [
+         null,
+         ""
+      ],
+      "Turkey": [
+         null,
+         "Turkije"
+      ],
+      "Turkmenistan": [
+         null,
+         ""
+      ],
+      "Turks and Caicos Islands": [
+         null,
+         ""
+      ],
+      "Tuvalu": [
+         null,
+         ""
+      ],
+      "Uganda": [
+         null,
+         "Oeganda"
+      ],
+      "Ukraine": [
+         null,
+         "Oekraïne"
+      ],
+      "the United Arab Emirates": [
+         null,
+         ""
+      ],
+      "the United Kingdom": [
+         null,
+         ""
+      ],
+      "the United States": [
+         null,
+         ""
+      ],
+      "the United States Minor Outlying Islands": [
+         null,
+         ""
+      ],
+      "Uruguay": [
+         null,
+         ""
+      ],
+      "Uzbekistan": [
+         null,
+         "Oezbekistan"
+      ],
+      "Vanuatu": [
+         null,
+         ""
+      ],
+      "Venezuela": [
+         null,
+         ""
+      ],
+      "Viet Nam": [
+         null,
+         ""
+      ],
+      "Virgin Islands (British)": [
+         null,
+         ""
+      ],
+      "Virgin Islands (U.S.)": [
+         null,
+         ""
+      ],
+      "Wallis and Futuna": [
+         null,
+         ""
+      ],
+      "Western Sahara": [
+         null,
+         ""
+      ],
+      "Yemen": [
+         null,
+         ""
+      ],
+      "Zambia": [
+         null,
+         ""
+      ],
+      "Zimbabwe": [
+         null,
+         "Zimbabwe"
+      ],
+      "Join now": [
          null,
          ""
       ],
@@ -11,47 +1007,143 @@
          null,
          ""
       ],
-      "Join now": [
+      "Connect to servers from all over the world": [
          null,
          ""
       ],
-      "OOPS!": [
+      "Servers": [
+         null,
+         "Servers"
+      ],
+      "Countries": [
+         null,
+         "Landen"
+      ],
+      "Compatible with all popular desktop and mobile operating systems": [
          null,
          ""
       ],
-      "It looks like the page you were looking for isn't here anymore. Feel free to visit our homepage by clicking the button below.": [
+      "For a Limited Time Only<br>Grab our": [
          null,
          ""
       ],
-      "Take Me To The Homepage": [
+      "DISCOUNT": [
          null,
          ""
       ],
-      "The Top VPN for<br>the <b>USA</b>": [
+      "Proud Sponsor Of": [
          null,
          ""
       ],
-      "The Top VPN for<br><b>Australia</b>": [
+      "VPN Features": [
          null,
          ""
       ],
-      "<b>Protect</b><br>yourself & your family": [
+      "Secure VPN Account": [
          null,
          ""
       ],
-      "With Private Internet Access®, your online activity is protected with encryption and an anonymous IP address.": [
+      "Encrypted WiFi": [
          null,
          ""
       ],
-      "Reclaim your online privacy": [
+      "P2P Support": [
          null,
          ""
       ],
-      "The best VPN for travel": [
+      "PPTP, OpenVPN and L2TP/IPSec": [
          null,
          ""
       ],
-      "Get the best prices on flights and hotels with Private Internet Access": [
+      "%s devices simultaneously": [
+         null,
+         ""
+      ],
+      "Block ads, trackers, and malware": [
+         null,
+         ""
+      ],
+      "Multiple VPN Gateways": [
+         null,
+         ""
+      ],
+      "Unlimited Bandwidth": [
+         null,
+         "Ongelimiteerde bandbreedte"
+      ],
+      "SOCKS5 Proxy Includeds": [
+         null,
+         ""
+      ],
+      "No traffic logs": [
+         null,
+         ""
+      ],
+      "Instant Setup": [
+         null,
+         ""
+      ],
+      "Easy to use": [
+         null,
+         "Gebruiksvriendelijk"
+      ],
+      "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
+         null,
+         ""
+      ],
+      "Get VPN Access": [
+         null,
+         ""
+      ],
+      "As recommended by": [
+         null,
+         "Zoals aanbevolen door:"
+      ],
+      "Your IP:": [
+         null,
+         "Uw IP:"
+      ],
+      "Your Location:": [
+         null,
+         "Uw locatie:"
+      ],
+      "Your ISP:": [
+         null,
+         "Uw ISP:"
+      ],
+      "Your Status:": [
+         null,
+         "Uw status:"
+      ],
+      "You are not protected": [
+         null,
+         ""
+      ],
+      "Why choose Private Internet Access?": [
+         null,
+         ""
+      ],
+      "Total Privacy": [
+         null,
+         ""
+      ],
+      "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.": [
+         null,
+         ""
+      ],
+      "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.": [
+         null,
+         ""
+      ],
+      "Secure VPN Protocols": [
+         null,
+         ""
+      ],
+      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
+         null,
+         ""
+      ],
+      "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time.": [
          null,
          ""
       ],
@@ -59,359 +1151,7 @@
          null,
          ""
       ],
-      "Save Money When Shopping Online": [
-         null,
-         ""
-      ],
-      "Using Private Internet Access when planning an upcoming trip or when booking a flight, rental car, or a hotel can get you the best prices. Connect to different servers from all over the world and check the best offers. The results just might surprise you and save you some money.": [
-         null,
-         ""
-      ],
-      "<b>Plus</b>, Private Internet Access protects you from hackers. Stay shielded against cyber-criminals, that are trying to get their hands on your banking details, passwords, pictures or emails, especially when traveling abroad.": [
-         null,
-         ""
-      ],
-      "A must have for travelers before and during your trip": [
-         null,
-         ""
-      ],
-      "Change your virtual location": [
-         null,
-         ""
-      ],
-      "Private Internet Access has a network of thousands of servers across dozens of locations in over 29 countries. Connect to servers from multiple countries to discover the best prices.": [
-         null,
-         ""
-      ],
-      "Unlimited bandwidth": [
-         null,
-         ""
-      ],
-      "Private Internet Access has no logs and does not throttle users.": [
-         null,
-         ""
-      ],
-      "Protect sensitive information while traveling": [
-         null,
-         ""
-      ],
-      "Once you connect to one of Private Internet Access' remote servers your entire internet activity and sensitive data will be 100% shielded from hackers.": [
-         null,
-         ""
-      ],
-      "Protect multiple devices": [
-         null,
-         ""
-      ],
-      "1 Private Internet Access subscription can be used on up to 5 devices simultaneously. Protect all your devices while you travel.": [
-         null,
-         ""
-      ],
-      "Four easy steps to use Private Internet Access for traveling": [
-         null,
-         ""
-      ],
-      "Start protecting your internet with Private Internet Access in minutes": [
-         null,
-         ""
-      ],
-      "Subscribe to Private Internet Access": [
-         null,
-         ""
-      ],
-      "Download Private Internet Access": [
-         null,
-         ""
-      ],
-      "Login on the Private Internet Access client with your username and password": [
-         null,
-         ""
-      ],
-      "Turn on Private Internet Access and connect to the location of your choice": [
-         null,
-         ""
-      ],
-      "Your internet connection is now being protected and your IP address has been changed by Private Internet Access.": [
-         null,
-         ""
-      ],
-      "Check out a few of our FAQs about online travel safety": [
-         null,
-         ""
-      ],
-      "Is it safe to travel with Private Internet Access?": [
-         null,
-         ""
-      ],
-      "Yes. Private Internet Access provides a VPN service with thousands of servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. Our service encrypts your connection so you can use Wi-Fi networks in unknown places without fear. The better question is: Is it safe to travel without Private Internet Access?": [
-         null,
-         ""
-      ],
-      "Do you have a refund policy?": [
-         null,
-         ""
-      ],
-      "Yes. Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
-         null,
-         ""
-      ],
-      "Will my IP address be exposed while I am traveling?": [
-         null,
-         ""
-      ],
-      "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
-         null,
-         ""
-      ],
-      "Does Private Internet Access limit bandwidth for travelers?": [
-         null,
-         ""
-      ],
-      "No. Private Internet Access is the premier no log VPN - this means that we don’t analyze your traffic and try to limit your use, ever. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
-         null,
-         ""
-      ],
-      "Will Private Internet Access be blocked in the country that I am traveling to?": [
-         null,
-         ""
-      ],
-      "No, but if it is please reach out to our 24/7 Customer Support team for help connecting. Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for travelers.": [
-         null,
-         ""
-      ],
-      "Everyone needs<br><b>Protection</b>": [
-         null,
-         ""
-      ],
-      "The Best VPN for streaming": [
-         null,
-         ""
-      ],
-      "Unblock new content libraries with Private Internet Access": [
-         null,
-         ""
-      ],
-      "The Best VPN for Streaming": [
-         null,
-         ""
-      ],
-      "Discover Limitless Streaming Content": [
-         null,
-         ""
-      ],
-      "Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. Sign up for Private Internet Access today!": [
-         null,
-         ""
-      ],
-      "Unblock content on:": [
-         null,
-         ""
-      ],
-      "A must have for your streaming needs": [
-         null,
-         ""
-      ],
-      "Unlimited bandwidth for streaming": [
-         null,
-         ""
-      ],
-      "Private Internet Access has no logs, never records online activity and does not throttle users.": [
-         null,
-         ""
-      ],
-      "One-click solution to override geographical restrictions": [
-         null,
-         ""
-      ],
-      "Once you have chosen your virtual location, you can connect to it using Private Internet Access with just one click.": [
-         null,
-         ""
-      ],
-      "Stream on multiple devices": [
-         null,
-         ""
-      ],
-      "1 Private Internet Access subscription can be used on up to 5 devices simultaneously. Share Private Internet Access with your entire family!": [
-         null,
-         ""
-      ],
-      "Unblock streaming in only 4 easy steps": [
-         null,
-         ""
-      ],
-      "Watch your favorite movies and shows in minutes": [
-         null,
-         ""
-      ],
-      "Download Private Internet Access on your device": [
-         null,
-         ""
-      ],
-      "Login-in using your username and password": [
-         null,
-         ""
-      ],
-      "You’re ready to start streaming with Private Internet Access!": [
-         null,
-         ""
-      ],
-      "Got questions about streaming?<br>Here are a few of our FAQs": [
-         null,
-         ""
-      ],
-      "Is it safe to stream with Private Internet Access?": [
-         null,
-         ""
-      ],
-      "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
-         null,
-         ""
-      ],
-      "Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
-         null,
-         ""
-      ],
-      "Will my IP address be exposed to streaming services or websites?": [
-         null,
-         ""
-      ],
-      "By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
-         null,
-         ""
-      ],
-      "Does Private Internet Access limit the bandwidth that streamers can use?": [
-         null,
-         ""
-      ],
-      "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
-         null,
-         ""
-      ],
-      "Will Private Internet Access be blocked on my favorite streaming service or website?": [
-         null,
-         ""
-      ],
-      "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
-         null,
-         ""
-      ],
-      "The Top VPN for<br><b>France</b>": [
-         null,
-         ""
-      ],
-      "<b>Unblock</b><br>a world of content": [
-         null,
-         ""
-      ],
-      "The Top VPN for<br><b>Germany</b>": [
-         null,
-         ""
-      ],
-      "<b>Privacy</b><br>is worth protecting": [
-         null,
-         ""
-      ],
-      "Without our VPN, your internet activity can be tracked and you are vulnerable.": [
-         null,
-         ""
-      ],
-      "Reclaim your privacy today": [
-         null,
-         ""
-      ],
-      "The best VPN for Kodi": [
-         null,
-         ""
-      ],
-      "Stay safe while streaming on Kodi with Private Internet Access": [
-         null,
-         ""
-      ],
-      "Don’t get into trouble while streaming on Kodi": [
-         null,
-         ""
-      ],
-      "Whether you use Kodi TV to watch your personal content library or for the titles you find on their website, make sure nobody will be able to find out what you're doing online.": [
-         null,
-         ""
-      ],
-      "<b>Why? </b>Streaming content on Kodi works is basically P2P torrenting which might be illegal in your country. Luckily, with the Private Internet Access VPN, you can make all your internet activity totally anonymous. So, you'll never have any trouble with governmental authorities while using Kodi.": [
-         null,
-         ""
-      ],
-      "A must have for streaming with Kodi": [
-         null,
-         ""
-      ],
-      "P2P traffic allowed": [
-         null,
-         ""
-      ],
-      "Private Internet Access supports P2P protocols such as torrents.": [
-         null,
-         ""
-      ],
-      "No Logs Policy": [
-         null,
-         ""
-      ],
-      "Private Internet Access never records its users' online activity and never keeps any logs, so you'll have complete anonymity from the moment you connect to our servers.": [
-         null,
-         ""
-      ],
-      "Bypass geographical restrictions": [
-         null,
-         ""
-      ],
-      "Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.": [
-         null,
-         ""
-      ],
-      "Use Kodi TV on multiple devices": [
-         null,
-         ""
-      ],
-      "1 Private Internet Access subscription can be used on up to 5 devices simultaneously. Share Private Internet Access with your whole family!": [
-         null,
-         ""
-      ],
-      "Start streaming with Private Internet Access in minutes": [
-         null,
-         ""
-      ],
-      "Watch Kodi anonymously in 4 easy steps": [
-         null,
-         ""
-      ],
-      "You’re ready to start using Private Internet Access with your Kodi TV.": [
-         null,
-         ""
-      ],
-      "Got questions?<br>Check out our FAQs": [
-         null,
-         ""
-      ],
-      "Is it safe to use Kodi with Private Internet Access?": [
-         null,
-         ""
-      ],
-      "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?": [
-         null,
-         ""
-      ],
-      "Will my IP address be exposed while using Kodi add-ons?": [
-         null,
-         ""
-      ],
-      "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Any service or website accessed will only see our Private Internet Access IP address, not your device’s IP address.": [
-         null,
-         ""
-      ],
-      "Does Private Internet Access limit bandwidth for Kodi users?": [
-         null,
-         ""
-      ],
-      "No. Private Internet Access is the premier no log VPN - this means that we don’t even know what software you use in conjunction with ours. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
+      "Private Internet Access out-performs and out-features the competition": [
          null,
          ""
       ],
@@ -421,69 +1161,9 @@
       ],
       "/mo": [
          null,
-         ""
-      ],
-      "today's<br>offer": [
-         null,
-         ""
+         "p/m"
       ],
       "Try it risk free! %s day money back guarantee": [
-         null,
-         ""
-      ],
-      "a VPN you can<br><b>trust</b>": [
-         null,
-         ""
-      ],
-      "The Top VPN for<br><b>Canada</b>": [
-         null,
-         ""
-      ],
-      "<b>Protect</b><br>your family’s devices today": [
-         null,
-         ""
-      ],
-      "The Top VPN for<br>the <b>UK</b>": [
-         null,
-         ""
-      ],
-      "Proud Sponsor Of": [
-         null,
-         ""
-      ],
-      "Customer <br>Review": [
-         null,
-         ""
-      ],
-      "Review by John S.": [
-         null,
-         ""
-      ],
-      "31h ago": [
-         null,
-         ""
-      ],
-      "…I'm glad you're here and I'm glad to put my money towards a great service. I wish you all the best of luck. I'm looking forward to enjoying a freer internet experience.": [
-         null,
-         ""
-      ],
-      "Based on %s reviews": [
-         null,
-         ""
-      ],
-      "Trusted By Companies Including:": [
-         null,
-         ""
-      ],
-      "Risk Free. %s day money back guarantee": [
-         null,
-         ""
-      ],
-      "Limited Time Only! Act Now": [
-         null,
-         ""
-      ],
-      "BEST VALUE": [
          null,
          ""
       ],
@@ -493,37 +1173,45 @@
       ],
       "Months": [
          null,
-         ""
+         "Maanden"
       ],
       "Yearly": [
          null,
-         ""
+         "Jaarlijks"
       ],
       "Years": [
          null,
-         ""
+         "Jaren"
       ],
-      "SAVE %s%": [
+      "Best value": [
          null,
          ""
       ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per month": [
+      "Save <b>%s%</b>": [
          null,
          ""
       ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s months": [
+      "<del>%s</del> %s per month": [
          null,
          ""
       ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per year": [
+      "<del>%s</del> %s per %s months": [
          null,
          ""
       ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s years": [
+      "<del>%s</del> %s per year": [
+         null,
+         ""
+      ],
+      "<del>%s</del>%s per %s years": [
          null,
          ""
       ],
       "Sign up now": [
+         null,
+         "Meld u nu aan"
+      ],
+      "Best<br>value": [
          null,
          ""
       ],
@@ -531,19 +1219,23 @@
          null,
          ""
       ],
-      "Use the internet from wherever": [
+      "Limited Time Only! <span class='color_pia_green'>Act Now</span>": [
          null,
          ""
       ],
-      "Choose your location from cities in the United States, the United Kingdom, Japan, or 27 other countries. With Private Internet Access, you are in control of your connection and IP address. There are 200+ locations to choose from with our private, encrypted VPN connection.": [
+      "%s<br><span>day</span>": [
          null,
          ""
       ],
-      "Servers": [
+      "money back guarantee": [
          null,
          ""
       ],
-      "Countries": [
+      "Remember, you're not risking anything.": [
+         null,
+         ""
+      ],
+      "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back.": [
          null,
          ""
       ],
@@ -555,7 +1247,111 @@
          null,
          ""
       ],
+      "today's<br>offer": [
+         null,
+         ""
+      ],
       "new": [
+         null,
+         "nieuw"
+      ],
+      "Why do I need Private Internet Access?": [
+         null,
+         ""
+      ],
+      "Protect your online privacy and identity": [
+         null,
+         ""
+      ],
+      "Browse anonymously with a private IP, and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
+         null,
+         ""
+      ],
+      "Unblock Censorship Filters": [
+         null,
+         ""
+      ],
+      "Enjoy unrestricted access to our anonymous VPN network. Unlock any geographic restrictions and protocol filters. Whether you're browsing or streaming, Private Internet Access will deliver.": [
+         null,
+         ""
+      ],
+      "The World's Leading VPN": [
+         null,
+         ""
+      ],
+      "Private Internet Access has the largest network capacity across the globe to provide the highest speeds and most encryption. Private Internet Access is the only proven no-log VPN service in the world.": [
+         null,
+         ""
+      ],
+      "Experience": [
+         null,
+         ""
+      ],
+      "Total Online Freedom": [
+         null,
+         ""
+      ],
+      "Bypass censorship and unblock sites and content you don't have access to": [
+         null,
+         ""
+      ],
+      "Secure Protection on Public Wi-Fi": [
+         null,
+         ""
+      ],
+      "Keep your data safe and private while connecting to any poorly secured network": [
+         null,
+         ""
+      ],
+      "Unlimited Bandwidth & Fast Download Speeds": [
+         null,
+         ""
+      ],
+      "Keep your downloads private and experience lightning fast speeds for P2P torrenting": [
+         null,
+         ""
+      ],
+      "Ad blocking": [
+         null,
+         ""
+      ],
+      "With Private Internet Access you can block ads, trackers, and malware": [
+         null,
+         ""
+      ],
+      "Get Private Internet Access VPN": [
+         null,
+         ""
+      ],
+      "World-class VPN service:": [
+         null,
+         ""
+      ],
+      "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
+         null,
+         ""
+      ],
+      "Unblock Streaming": [
+         null,
+         "Deblokkeer Streaming"
+      ],
+      "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.": [
+         null,
+         ""
+      ],
+      "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.": [
+         null,
+         ""
+      ],
+      "Trusted By Companies Including:": [
+         null,
+         ""
+      ],
+      "Private Internet Access | Anonymous VPN Service Provider": [
+         null,
+         ""
+      ],
+      "Watch our 1 minute intro video": [
          null,
          ""
       ],
@@ -623,6 +1419,62 @@
          null,
          ""
       ],
+      "Customer <br>Review": [
+         null,
+         ""
+      ],
+      "Review by John S.": [
+         null,
+         ""
+      ],
+      "31h ago": [
+         null,
+         ""
+      ],
+      "…I'm glad you're here and I'm glad to put my money towards a great service. I wish you all the best of luck. I'm looking forward to enjoying a freer internet experience.": [
+         null,
+         ""
+      ],
+      "Review by %s": [
+         null,
+         ""
+      ],
+      "Based on %s reviews": [
+         null,
+         "Op basis van %s beoordelingen"
+      ],
+      "Risk Free. %s day money back guarantee": [
+         null,
+         ""
+      ],
+      "Limited Time Only! Act Now": [
+         null,
+         ""
+      ],
+      "SAVE %s%": [
+         null,
+         "Bespaar %s%"
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s month": [
+         null,
+         ""
+      ],
+      "BEST VALUE": [
+         null,
+         "BESTE KEUZE"
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per year": [
+         null,
+         ""
+      ],
+      "6 Months": [
+         null,
+         "6 maanden"
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per six months": [
+         null,
+         ""
+      ],
       "%s+ Servers in %s Countries": [
          null,
          ""
@@ -631,7 +1483,7 @@
          null,
          ""
       ],
-      "Watch our 1 minute intro video": [
+      "We accept all kinds of payment methods": [
          null,
          ""
       ],
@@ -639,123 +1491,511 @@
          null,
          ""
       ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s month": [
+      "for ONLY": [
          null,
          ""
       ],
-      "6 Months": [
+      "/month": [
+         null,
+         "/maand"
+      ],
+      "Use the internet from wherever": [
          null,
          ""
       ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per six months": [
+      "Choose your location from cities in the United States, the United Kingdom, Japan, or 27 other countries. With Private Internet Access, you are in control of your connection and IP address. There are 200+ locations to choose from with our private, encrypted VPN connection.": [
          null,
          ""
       ],
-      "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per month": [
          null,
          ""
       ],
-      "Compatible with all popular desktop and mobile operating systems": [
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s months": [
          null,
          ""
       ],
-      "We accept all kinds of payment methods": [
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s years": [
          null,
          ""
       ],
-      "Private Internet Access out-performs and out-features the competition": [
+      "Read full review": [
          null,
          ""
       ],
-      "Why do I need Private Internet Access?": [
+      "OOPS!": [
          null,
          ""
       ],
-      "Protect your online privacy and identity": [
+      "It looks like the page you were looking for isn't here anymore. Feel free to visit our homepage by clicking the button below.": [
          null,
          ""
       ],
-      "Browse anonymously with a private IP, and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
+      "Take Me To The Homepage": [
          null,
          ""
       ],
-      "Unblock Censorship Filters": [
+      "The Top VPN for<br><b>Australia</b>": [
          null,
          ""
       ],
-      "Enjoy unrestricted access to our anonymous VPN network. Unlock any geographic restrictions and protocol filters. Whether you're browsing or streaming, Private Internet Access will deliver.": [
+      "Everyone needs<br><b>Protection</b>": [
          null,
          ""
       ],
-      "The World's Leading VPN": [
+      "The Top VPN for<br><b>Germany</b>": [
          null,
          ""
       ],
-      "Private Internet Access has the largest network capacity across the globe to provide the highest speeds and most encryption. Private Internet Access is the only proven no-log VPN service in the world.": [
+      "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
          null,
          ""
       ],
-      "VPN Features": [
+      "Private Internet Access VPN for %s% OFF": [
          null,
          ""
       ],
-      "Secure VPN Account": [
+      "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>": [
          null,
          ""
       ],
-      "Encrypted WiFi": [
+      "Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>": [
          null,
          ""
       ],
-      "P2P Support": [
+      "<b>Unblock</b><br>a world of content": [
          null,
          ""
       ],
-      "PPTP, OpenVPN and L2TP/IPSec": [
+      "The Top VPN for<br>the <b>UK</b>": [
          null,
          ""
       ],
-      "10 devices simultaneously": [
+      "Rated as the Best VPN Service In<br><b><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
          ""
       ],
-      "Block ads, trackers, and malware": [
+      "No Logs": [
+         null,
+         "Geen logs"
+      ],
+      "Military-Grade Encryption": [
          null,
          ""
       ],
-      "Multiple VPN Gateways": [
+      "%s Devices": [
+         null,
+         "%s Apparaten"
+      ],
+      "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
          null,
          ""
       ],
-      "Unlimited Bandwidth": [
+      "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
          null,
          ""
       ],
-      "SOCKS5 Proxy Includeds": [
+      "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN": [
          null,
          ""
       ],
-      "No traffic logs": [
+      "100%</span> No Logs & Records": [
          null,
          ""
       ],
-      "Instant Setup": [
+      "a VPN you can<br><b>trust</b>": [
          null,
          ""
       ],
-      "Easy to use": [
+      "The Top VPN for <br><b>%s</b>": [
          null,
          ""
       ],
-      "Get VPN Access": [
+      "The best VPN for travel": [
          null,
          ""
       ],
-      "Private Internet Access | Anonymous VPN Service Provider": [
+      "Get the best prices on flights and hotels with Private Internet Access": [
          null,
          ""
       ],
-      "As recommended by": [
+      "<span>The best</span><br>VPN <small>for</small> travel": [
+         null,
+         ""
+      ],
+      "Save Money When Shopping Online": [
+         null,
+         ""
+      ],
+      "Using Private Internet Access when planning an upcoming trip or when booking a flight, rental car, or a hotel can get you the best prices. Connect to different servers from all over the world and check the best offers. The results just might surprise you and save you some money.": [
+         null,
+         ""
+      ],
+      "<b>Plus</b>, Private Internet Access protects you from hackers. Stay shielded against cyber-criminals, that are trying to get their hands on your banking details, passwords, pictures or emails, especially when traveling abroad.": [
+         null,
+         ""
+      ],
+      "A must have for travelers before and during your trip": [
+         null,
+         ""
+      ],
+      "Change your virtual location": [
+         null,
+         ""
+      ],
+      "Private Internet Access has a network of thousands of servers across dozens of locations in over 29 countries. Connect to servers from multiple countries to discover the best prices.": [
+         null,
+         ""
+      ],
+      "Unlimited bandwidth": [
+         null,
+         "Onbeperkte bandbreedte"
+      ],
+      "Private Internet Access has no logs and does not throttle users.": [
+         null,
+         ""
+      ],
+      "Protect sensitive information while traveling": [
+         null,
+         ""
+      ],
+      "Once you connect to one of Private Internet Access' remote servers your entire internet activity and sensitive data will be 100% shielded from hackers.": [
+         null,
+         ""
+      ],
+      "Protect multiple devices": [
+         null,
+         ""
+      ],
+      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Protect all your devices while you travel.": [
+         null,
+         ""
+      ],
+      "Four easy steps to use Private Internet Access for traveling": [
+         null,
+         ""
+      ],
+      "Start protecting your internet with Private Internet Access in minutes": [
+         null,
+         ""
+      ],
+      "Subscribe to Private Internet Access": [
+         null,
+         ""
+      ],
+      "Download Private Internet Access": [
+         null,
+         ""
+      ],
+      "Login on the Private Internet Access client with your username and password": [
+         null,
+         ""
+      ],
+      "Turn on Private Internet Access and connect to the location of your choice": [
+         null,
+         ""
+      ],
+      "Your internet connection is now being protected and your IP address has been changed by Private Internet Access.": [
+         null,
+         ""
+      ],
+      "Check out a few of our FAQs about online travel safety": [
+         null,
+         ""
+      ],
+      "Is it safe to travel with Private Internet Access?": [
+         null,
+         ""
+      ],
+      "Yes. Private Internet Access provides a VPN service with thousands of servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. Our service encrypts your connection so you can use Wi-Fi networks in unknown places without fear. The better question is: Is it safe to travel without Private Internet Access?": [
+         null,
+         ""
+      ],
+      "Do you have a refund policy?": [
+         null,
+         "Hebt een restitutiebeleid?"
+      ],
+      "Yes. Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
+         null,
+         ""
+      ],
+      "Will my IP address be exposed while I am traveling?": [
+         null,
+         ""
+      ],
+      "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
+         null,
+         ""
+      ],
+      "Does Private Internet Access limit bandwidth for travelers?": [
+         null,
+         ""
+      ],
+      "No. Private Internet Access is the premier no log VPN - this means that we don’t analyze your traffic and try to limit your use, ever. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
+         null,
+         ""
+      ],
+      "Will Private Internet Access be blocked in the country that I am traveling to?": [
+         null,
+         ""
+      ],
+      "No, but if it is please reach out to our 24/7 Customer Support team for help connecting. Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for travelers.": [
+         null,
+         ""
+      ],
+      "The Best VPN for streaming": [
+         null,
+         ""
+      ],
+      "Unblock new content libraries with Private Internet Access": [
+         null,
+         ""
+      ],
+      "The Best VPN for Streaming": [
+         null,
+         "De beste VPN voor streaming"
+      ],
+      "Discover Limitless Streaming Content": [
+         null,
+         ""
+      ],
+      "Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. Sign up for Private Internet Access today!": [
+         null,
+         ""
+      ],
+      "Unblock content on:": [
+         null,
+         ""
+      ],
+      "A must have for your streaming needs": [
+         null,
+         ""
+      ],
+      "Unlimited bandwidth for streaming": [
+         null,
+         ""
+      ],
+      "Private Internet Access has no logs, never records online activity and does not throttle users.": [
+         null,
+         ""
+      ],
+      "One-click solution to override geographical restrictions": [
+         null,
+         ""
+      ],
+      "Once you have chosen your virtual location, you can connect to it using Private Internet Access with just one click.": [
+         null,
+         ""
+      ],
+      "Stream on multiple devices": [
+         null,
+         ""
+      ],
+      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
+         null,
+         ""
+      ],
+      "Unblock streaming in only 4 easy steps": [
+         null,
+         ""
+      ],
+      "Watch your favorite movies and shows in minutes": [
+         null,
+         ""
+      ],
+      "Download Private Internet Access on your device": [
+         null,
+         ""
+      ],
+      "Login-in using your username and password": [
+         null,
+         ""
+      ],
+      "You’re ready to start streaming with Private Internet Access!": [
+         null,
+         ""
+      ],
+      "Got questions about streaming?<br>Here are a few of our FAQs": [
+         null,
+         ""
+      ],
+      "Is it safe to stream with Private Internet Access?": [
+         null,
+         ""
+      ],
+      "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
+         null,
+         ""
+      ],
+      "Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
+         null,
+         ""
+      ],
+      "Will my IP address be exposed to streaming services or websites?": [
+         null,
+         ""
+      ],
+      "By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
+         null,
+         ""
+      ],
+      "Does Private Internet Access limit the bandwidth that streamers can use?": [
+         null,
+         ""
+      ],
+      "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
+         null,
+         ""
+      ],
+      "Will Private Internet Access be blocked on my favorite streaming service or website?": [
+         null,
+         ""
+      ],
+      "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
+         null,
+         ""
+      ],
+      "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
+         null,
+         ""
+      ],
+      "The best VPN for Kodi": [
+         null,
+         ""
+      ],
+      "Stay safe while streaming on Kodi with Private Internet Access": [
+         null,
+         ""
+      ],
+      "<span>The best</span><br>VPN <small>for</small> Kodi": [
+         null,
+         ""
+      ],
+      "Don’t get into trouble while streaming on Kodi": [
+         null,
+         ""
+      ],
+      "Whether you use Kodi TV to watch your personal content library or for the titles you find on their website, make sure nobody will be able to find out what you're doing online.": [
+         null,
+         ""
+      ],
+      "<b>Why? </b>Streaming content on Kodi works is basically P2P torrenting which might be illegal in your country. Luckily, with the Private Internet Access VPN, you can make all your internet activity totally anonymous. So, you'll never have any trouble with governmental authorities while using Kodi.": [
+         null,
+         ""
+      ],
+      "A must have for streaming with Kodi": [
+         null,
+         ""
+      ],
+      "P2P traffic allowed": [
+         null,
+         ""
+      ],
+      "Private Internet Access supports P2P protocols such as torrents.": [
+         null,
+         ""
+      ],
+      "No Logs Policy": [
+         null,
+         "Geen logbestanden-beleid"
+      ],
+      "Private Internet Access never records its users' online activity and never keeps any logs, so you'll have complete anonymity from the moment you connect to our servers.": [
+         null,
+         ""
+      ],
+      "Bypass geographical restrictions": [
+         null,
+         ""
+      ],
+      "Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.": [
+         null,
+         ""
+      ],
+      "Use Kodi TV on multiple devices": [
+         null,
+         ""
+      ],
+      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
+         null,
+         ""
+      ],
+      "Start streaming with Private Internet Access in minutes": [
+         null,
+         ""
+      ],
+      "Watch Kodi anonymously in 4 easy steps": [
+         null,
+         ""
+      ],
+      "You’re ready to start using Private Internet Access with your Kodi TV.": [
+         null,
+         ""
+      ],
+      "Got questions?<br>Check out our FAQs": [
+         null,
+         ""
+      ],
+      "Is it safe to use Kodi with Private Internet Access?": [
+         null,
+         ""
+      ],
+      "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?": [
+         null,
+         ""
+      ],
+      "Will my IP address be exposed while using Kodi add-ons?": [
+         null,
+         ""
+      ],
+      "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Any service or website accessed will only see our Private Internet Access IP address, not your device’s IP address.": [
+         null,
+         ""
+      ],
+      "Does Private Internet Access limit bandwidth for Kodi users?": [
+         null,
+         ""
+      ],
+      "No. Private Internet Access is the premier no log VPN - this means that we don’t even know what software you use in conjunction with ours. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
+         null,
+         ""
+      ],
+      "<b>Privacy</b><br>is worth protecting": [
+         null,
+         ""
+      ],
+      "Without our VPN, your internet activity can be tracked and you are vulnerable.": [
+         null,
+         ""
+      ],
+      "Reclaim your privacy today": [
+         null,
+         ""
+      ],
+      "<b>Protect</b><br>your family’s devices today": [
+         null,
+         ""
+      ],
+      "The Top VPN for<br><b>Canada</b>": [
+         null,
+         ""
+      ],
+      "The Top VPN for<br>the <b>USA</b>": [
+         null,
+         ""
+      ],
+      "The Top VPN for<br><b>France</b>": [
+         null,
+         ""
+      ],
+      "<b>Protect</b><br>yourself & your family": [
+         null,
+         ""
+      ],
+      "With Private Internet Access®, your online activity is protected with encryption and an anonymous IP address.": [
+         null,
+         ""
+      ],
+      "Reclaim your online privacy": [
          null,
          ""
       ]

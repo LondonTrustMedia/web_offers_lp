@@ -71,7 +71,65 @@
             background-image: url(img/btn_green_bg.png);
         }
     }
-
+    .btn_nav {
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        border-radius: 30px;
+        @include prefix((transition: all 0.2s ease 0s), webkit moz ms);
+        text-transform: capitalize;
+        font-size: 16px;
+        padding: 5px 20px;
+        font-weight: 300;
+        min-width: 140px;
+        background-color: $pia-green;
+        &:hover {
+            text-decoration: none;
+            color: #fff;
+            background-color: lighten($pia-green, 20%)
+        }
+    }
+    .btn_wave {
+        text-transform: capitalize; 
+        font-size: 18px;
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        border-radius: 30px;
+        @include prefix((transition: all 0.2s ease 0s), webkit moz ms);
+        padding: 10px 20px;
+        font-weight: 400;
+        min-width: 420px;
+        background-image: url(img/buttons_background.png);
+        background-size: 110% 115%;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        text-shadow: 0 0 5px #0000008f;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            font-size: 16px;
+        }
+        &.orange {
+            background-color: $pia-light-orange;
+            &:hover {
+                text-decoration: none;
+                color: #fff;
+                background-color: lighten($pia-light-orange, 20%);
+            }
+        }
+        &.green {
+            background-color: $pia-green;
+            &:hover {
+                text-decoration: none;
+                color: #fff;
+                background-color: lighten($pia-green, 20%);
+            }
+        }
+        &.small {
+            min-width: 220px;
+        }
+    }
     .btn_hp_gradient_orange {
         color: #543802;
         font-weight: 500;

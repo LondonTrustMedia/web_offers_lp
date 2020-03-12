@@ -185,9 +185,11 @@ header {
         z-index: -1;
 
         @media screen and (max-width: $brk-ipad-width - 1) {
-            right: calc(250px - 20%);
+            right: calc(250px - 18%);
         }
-
+        @media screen and (max-width: $brk-mobile-width) {
+            right: calc(250px - 40%);
+        }
         & .flag {
             width: 100%;
             @media screen and (max-width: $brk-ipad-width - 1) {
@@ -201,12 +203,12 @@ header {
             left: 30%;
             @media screen and (max-width: $brk-ipad-width - 1) {
                 width: 320px;
-                bottom: 10%;
+                bottom: 15%;
                 right: 0;
             }
             @media screen and (max-width: $brk-mobile-width) {
                 width: 250px;
-                bottom: 20%;
+                bottom: 23%;
             }
         }
     }

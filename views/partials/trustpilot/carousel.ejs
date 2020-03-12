@@ -105,18 +105,11 @@
                 </div>
             </div>
             <div class="container controls d-none d-sm-flex">
-                <a class="mx-1 prev d-none d-lg-block" href="javascript:void(0)" title="Previous">
-                    <i class="fa fa-lg fa-chevron-left"></i>
+                <a class="mx-1 prev" href="#reviews_caousel" role="button" data-slide="prev">
+                    <i class="fal fa-chevron-left"></i>
                 </a>
-                <a class="mx-1 next d-none d-lg-block" href="javascript:void(0)" title="Next">
-                    <i class="fa fa-lg fa-chevron-right"></i>
-                </a>
-
-                <a class="mx-1 prev d-block d-lg-none" href="#reviews_caousel" role="button" data-slide="prev">
-                    <i class="fa fa-lg fa-chevron-left"></i>
-                </a>
-                <a class="mx-1 next d-block d-lg-none" href="#reviews_caousel" role="button" data-slide="next">
-                    <i class="fa fa-lg fa-chevron-right"></i>
+                <a class="mx-1 next" href="#reviews_caousel" role="button" data-slide="next">
+                    <i class="fal fa-chevron-right"></i>
                 </a>
             </div>
         </div>
@@ -128,16 +121,16 @@
         function carouselScroll(e) {
             var $e = $(e.relatedTarget);
             var idx = $e.index();
+           console.log(e.direction)
             var itemsPerSlide = 3;
             var totalItems = $(".carousel-item").length;
             if (idx >= totalItems - (itemsPerSlide - 1)) {
                 var it = itemsPerSlide - (totalItems - idx);
                 for (var i = 0; i < it; i++) {
-                    // append slides to end 
                     if (e.direction == "left") {
-                    $(".carousel-item").eq(i).appendTo(".carousel-inner");
+                        $(".carousel-item").eq(i).appendTo(".carousel-inner");
                     } else {
-                    $(".carousel-item").eq(0).appendTo(".carousel-inner");
+                        $(".carousel-item").eq(0).appendTo(".carousel-inner");
                     }
                 }
             }
@@ -146,7 +139,7 @@
             "use strict";
             // Auto-scroll
             $('#reviews_caousel').carousel({
-                interval: 5000
+                interval: false
             });
 
             // Control buttons

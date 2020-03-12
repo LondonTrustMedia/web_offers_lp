@@ -5,14 +5,14 @@
     overflow: initial;
     margin-bottom: 190px;
     position: relative;
-    @media screen and (max-width: 575px) {
+    @media screen and (max-width: $brk-ipad-width - 1) {
         background-color: #fff;
         padding-top: 0;
         overflow: hidden;
         margin-bottom: 0;
     }
     & .container {
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: $brk-ipad-width - 1) {
             position: relative;
             z-index: 1;
         }
@@ -20,6 +20,7 @@
     & .bg {
         background-color: #263238;
         position: relative;
+        overflow: hidden;
     }
     & .corners {
         background-image: url(img/even_corners_reflect.svg);
@@ -37,9 +38,9 @@
         left: calc(10%);
         top: 0;
         z-index: 0;
-        @media screen and (max-width: 575px) {
-            top: unset;
-            bottom: 0;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            top: 95px;
+            left: 0;
         }
     }
     & .col-46 {
@@ -81,7 +82,7 @@
         color: $color-text-dark;
         text-align: center;
         z-index: 2;
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: $brk-ipad-width - 1) {
             margin: 0 auto 30px;
             border-radius: 0;
             -webkit-border-radius: 0;
@@ -96,7 +97,7 @@
             margin: 0 auto;
             background-color: #fff;
             padding: 5%;
-            @media screen and (max-width: 575px) {
+            @media screen and (max-width: $brk-ipad-width - 1) {
                 width: 75px;
                 margin: -30px auto 0;
                 padding: 10px;
@@ -108,7 +109,7 @@
             font-style: italic;
             color: $color-text-dark;
             width: 80%;
-            @media screen and (max-width: 575px) {
+            @media screen and (max-width: $brk-ipad-width - 1) {
                 width: 90%;
                 margin: 0px auto;
             }
@@ -124,14 +125,14 @@
             width: 30%;
             margin: 0 auto;
             display: block;
-            @media screen and (max-width: 575px) {
+            @media screen and (max-width: $brk-ipad-width - 1) {
                 width: 90px;
                 margin: 0 auto 10px;
             }
         }
     }
     & h5 {
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: $brk-ipad-width - 1) {
             color: #fff;
             font-size: 1rem;
         }
@@ -142,7 +143,7 @@
     & .btn-link {
         text-decoration: none;
         & img {
-            @media screen and (max-width: 575px) {
+            @media screen and (max-width: $brk-ipad-width - 1) {
                 width: 40px;
                 margin-right: 1rem;
             }

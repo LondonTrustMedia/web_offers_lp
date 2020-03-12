@@ -89,6 +89,7 @@
                 max-width: 370px;
                 flex: 0 0 370px;
                 width: 95%;
+                max-height: 400px;
             }
             @media screen and (max-width: $brk-mobile-width) {
                 max-width: 100%;
@@ -325,6 +326,6 @@
     }
 
     & .currency-alert {
-        color: $color-text-light;
+        color: lighten($color-text-light, 20%)
     }
 }

@@ -142,8 +142,8 @@
     & .astronaut {
         position: absolute;
         width: 100px;
-        animation:lost_in_space 10s infinite ease-in-out;
-        -webkit-animation:lost_in_space 10s infinite ease-in-out;
+        animation:lost_in_space 20s infinite linear;
+        -webkit-animation:lost_in_space 20s infinite linear;
 
         @media screen and (max-width: 575px) {
             animation: none;
@@ -151,20 +151,20 @@
         }
 
         @include keyframes(lost_in_space) {
-            from,to {
+            from {
                 transform: translate(0,0) rotate(0);
                 -webkit-transform: translate(0,0) rotate(0);
                 -moz-transform: translate(0,0) rotate(0);
                 -ms-transform: translate(0,0) rotate(0);
                 -o-transform: translate(0,0) rotate(0);
             }
-            50% {
-                transform: translate(5px,5px) rotate(45deg);
-                -webkit-transform: translate(5px,5px) rotate(45deg);
-                -moz-transform: translate(5px,5px) rotate(45deg);
-                -ms-transform: translate(5px,5px) rotate(45deg);
-                -o-transform: translate(5px,5px) rotate(45deg);
-            }
+            to {
+                transform: translate(0,0) rotate(1turn);
+                -webkit-transform: translate(0,0) rotate(1turn);
+                -moz-transform: translate(0,0) rotate(1turn);
+                -ms-transform: translate(0,0) rotate(1turn);
+                -o-transform: translate(0,0) rotate(1turn);
+}
         }
         & img{
             width: 100%;

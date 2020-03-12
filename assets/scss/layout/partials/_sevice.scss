@@ -1,7 +1,7 @@
 #sevice {
     & img {
         width: 185px;
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: $brk-ipad-width - 1) {
             width: 85px;
             margin-left: -25px;
         }
@@ -15,7 +15,7 @@
         @media screen and (max-width: $brk-min-desktop-width) {
             height: unset;
         }
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: $brk-ipad-width - 1) {
             font-size: 1rem;
         }
     }

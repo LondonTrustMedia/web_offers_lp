@@ -6,8 +6,11 @@
         background-size: contain;
         height: 160px;
         width: 295px;
-        html[lang=deu] &,html[lang=fra] & {
+        html[lang=deu] & {
             background-image: url(img/badge_frame_arrow_right_short.svg);
+        }
+        html[lang=fra] & {
+            background-image: url(img/badge_frame_arrow_right_short_fr.svg);
         }
         @media screen and (max-width: $brk-ipad-width) {
             height: 105px;
@@ -16,15 +19,21 @@
         @media screen and (max-width: $brk-ipad-width - 1) {
             background-image: url(img/badge_frame_right.svg);
             width: 180px;
-            html[lang=deu] &,html[lang=fra] & {
+            html[lang=deu] & {
                 background-image: url(img/badge_frame_right_short.svg);
+            }
+            html[lang=fra] & {
+                background-image: url(img/badge_frame_right_short_fr.svg);
             }
         }
         @media screen and (max-width: $brk-mobile-width) {
             width: 165px;
             height: 85px;
             html[lang=fra] & {
-                width: 195px;
+                width: 140px;
+            }
+            html[lang=deu] & {
+                width: 155px;
             }
         }
         & .top {
@@ -59,6 +68,9 @@
             }
             @media screen and (max-width: $brk-mobile-width) {
                 font-size: 4rem;
+                html[lang=fra] & {
+                    font-size: 3rem;
+                }
             }
             & p:nth-of-type(1) {
                 font-size: 1em;

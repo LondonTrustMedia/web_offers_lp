@@ -6,7 +6,7 @@
             <img src="img/logo_pia_white.svg" class="logo">
         </a>
         <div class="d-flex align-items-center justify-content-between">
-            <a href ="<%- offerLink %>" class="btn_nav d-md-inline-block d-none">
+            <a href ="<%- offerLink %>" class="btn_nav d-md-inline-block d-none mr-1">
                 <%- gettext("Join now") %>
                 <i class="fas fa-caret-down ml-2"></i>
             </a>
@@ -37,8 +37,8 @@
     $(window).ready(function() {
         const language = '<%- lang %>';
         if (language !== 'eng') {
-            const langText = $('#header-bar #language .languages_list a#' + language + ' span').text()
-            $('#header-bar #language .language-content a span').text(langText);
+            const langText = $('#navbar-main #language .languages_list a#' + language + ' span').text()
+            $('#navbar-main #language .language-content a span').text(langText);
         }
     });
 </script>

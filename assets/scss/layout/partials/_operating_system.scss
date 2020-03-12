@@ -1,6 +1,6 @@
 #operating_system {
     & .d-flex {
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: $brk-ipad-width - 1) {
             width: 275px;
         }
     }
@@ -9,7 +9,7 @@
         @media screen and (max-width: $brk-min-desktop-width) {
             height: 35px;
         }
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: $brk-ipad-width - 1) {
             height: 55px;
         }
     }

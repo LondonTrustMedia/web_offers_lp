@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-03-11 15:40\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-11 12:51+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-03-12 14:06\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-11 12:51+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
       },
       "US Dollars": [
          null,
@@ -9,191 +9,191 @@
       ],
       "Afghanistan": [
          null,
-         "Afghanistan"
+         "en Afghanistan"
       ],
       "Åland Islands": [
          null,
-         "Åland Islands"
+         "aux Îles Åland"
       ],
       "Albania": [
          null,
-         "Albanie"
+         "en Albanie"
       ],
       "Algeria": [
          null,
-         "Algérie"
+         "en Algérie"
       ],
       "American Samoa": [
          null,
-         "Samoa Américain"
+         "aux Samoa américaines"
       ],
       "Andorra": [
          null,
-         "Andorre"
+         "à Andorre"
       ],
       "Angola": [
          null,
-         "Angola"
+         "en Angola"
       ],
       "Anguilla": [
          null,
-         "Anguilla"
+         "à Anguilla"
       ],
       "Antarctica": [
          null,
-         "L'Antarctique"
+         "en Antarctique"
       ],
       "Antigua and Barbuda": [
          null,
-         "Antigua et Barbuda"
+         "à Antigua et Barbuda"
       ],
       "Argentina": [
          null,
-         "Argentine"
+         "en Argentine"
       ],
       "Armenia": [
          null,
-         "Armenie"
+         "en Arménie"
       ],
       "Aruba": [
          null,
-         "Aruba"
+         "à Aruba"
       ],
       "Australia": [
          null,
-         "Australie"
+         "en Australie"
       ],
       "Austria": [
          null,
-         "Autriche"
+         "en Autriche"
       ],
       "Azerbaijan": [
          null,
-         "Azerbaïdjan"
+         "en Azerbaïdjan"
       ],
       "Bahamas": [
          null,
-         "Bahamas"
+         "aux Bahamas"
       ],
       "Bahrain": [
          null,
-         "Bahreïn"
+         "au Bahreïn"
       ],
       "Bangladesh": [
          null,
-         "Bangladesh"
+         "au Bangladesh"
       ],
       "Barbados": [
          null,
-         "Barbade"
+         "à la Barbade"
       ],
       "Belarus": [
          null,
-         "Biélorussie"
+         "en Biélorussie"
       ],
       "Belgium": [
          null,
-         "Belgique"
+         "en Belgique"
       ],
       "Belize": [
          null,
-         "Belize"
+         "au Belize"
       ],
       "Benin": [
          null,
-         "Bénin"
+         "au Bénin"
       ],
       "Bermuda": [
          null,
-         "Bermudes"
+         "aux Bermudes"
       ],
       "Bhutan": [
          null,
-         "Bhoutan"
+         "au Bhoutan"
       ],
       "Bolivia": [
          null,
-         "Bolivie"
+         "en Bolivie"
       ],
       "Caribbean Netherlands": [
          null,
-         "les Caraïbes néerlandaises"
+         "aux Caraïbes néerlandaises"
       ],
       "Bosnia and Herzegovina": [
          null,
-         "Bosnie Herzegovine"
+         "en Bosnie Herzégovine"
       ],
       "Botswana": [
          null,
-         "Botswana"
+         "au Botswana"
       ],
       "Bouvet Island": [
          null,
-         "Île Bouvet"
+         "à Île Bouvet"
       ],
       "Brazil": [
          null,
-         "Brésil"
+         "au Brésil"
       ],
       "British Indian Ocean Territory": [
          null,
-         "Territoire britannique de l'océan Indien"
+         "dans le Territoire britannique de l'océan Indien"
       ],
       "Brunei Darussalam": [
          null,
-         "Brunei"
+         "au Brunei Darussalam"
       ],
       "Bulgaria": [
          null,
-         "Bulgarie"
+         "en Bulgarie"
       ],
       "Burkina Faso": [
          null,
-         "Burkina Faso"
+         "au Burkina Faso"
       ],
       "Burundi": [
          null,
-         "Burundi"
+         "au Burundi"
       ],
       "Cabo Verde": [
          null,
-         "Cap-Vert"
+         "au Cap-Vert"
       ],
       "Cambodia": [
          null,
-         "Cambodge"
+         "au Cambodge"
       ],
       "Cameroon": [
          null,
-         "Cameron"
+         "au Cameroun"
       ],
       "Canada": [
          null,
-         "Canada"
+         "au Canada"
       ],
       "Cayman Islands": [
          null,
-         "Îles Caïmans"
+         "aux Îles Caïmans"
       ],
       "Central African Republic": [
          null,
-         "République centrafricaine"
+         "en République centrafricaine"
       ],
       "Chad": [
          null,
-         "Tchad"
+         "au Tchad"
       ],
       "Chile": [
          null,
-         "Chili"
+         "au Chili"
       ],
       "China": [
          null,
-         "Chine"
+         "en Chine"
       ],
       "Christmas Island": [
          null,
-         "Île Christmas"
+         "à Île Christmas"
       ],
       "Cocos (Keeling) Islands": [
          null,
@@ -201,803 +201,803 @@
       ],
       "Colombia": [
          null,
-         "Chine"
+         "en Colombie"
       ],
       "Comoros": [
          null,
-         "Comores"
+         "aux Comores"
       ],
       "Congo": [
          null,
-         "Comoros"
+         "au Congo"
       ],
       "Democratic Republic of the Congo": [
          null,
-         "la République démocratique du Congo"
+         "en République démocratique du Congo"
       ],
       "Cook Islands": [
          null,
-         "Îles Cook"
+         "aux Îles Cook"
       ],
       "Costa Rica": [
          null,
-         "Costa Rica"
+         "au Costa Rica"
       ],
       "Côte d'Ivoire": [
          null,
-         "Côte d'Ivoire"
+         "en Côte d'Ivoire"
       ],
       "Croatia": [
          null,
-         "Croatie"
+         "en Croatie"
       ],
       "Cuba": [
          null,
-         "Cuba"
+         "à Cuba"
       ],
       "Curaçao": [
          null,
-         "Curacao"
+         "à Curaçao"
       ],
       "Cyprus": [
          null,
-         "Chypre"
+         "à Chypre"
       ],
       "Czechia": [
          null,
-         "Tchéquie"
+         "en Tchéquie"
       ],
       "Denmark": [
          null,
-         "Danemark"
+         "au Danemark"
       ],
       "Djibouti": [
          null,
-         "Djibouti"
+         "au Djibouti"
       ],
       "Dominica": [
          null,
-         "République Dominicaine"
+         "en République Dominicaine"
       ],
       "Dominican Republic": [
          null,
-         "République dominicaine"
+         "en République dominicaine"
       ],
       "Ecuador": [
          null,
-         "Équateur"
+         "en Équateur"
       ],
       "Egypt": [
          null,
-         "Égypte"
+         "en Égypte"
       ],
       "El Salvador": [
          null,
-         "Eritrea"
+         "au Salvador"
       ],
       "Equatorial Guinea": [
          null,
-         "La Guinée équatoriale"
+         "en Guinée équatoriale"
       ],
       "Eritrea": [
          null,
-         "L'Érythrée"
+         "en Érythrée"
       ],
       "Estonia": [
          null,
-         "Estonie"
+         "en Estonie"
       ],
       "Eswatini": [
          null,
-         "Eswatini"
+         "en Eswatini"
       ],
       "Ethiopia": [
          null,
-         "Éthiopie"
+         "en Éthiopie"
       ],
       "Falkland Islands (Malvinas)": [
          null,
-         "Malouines"
+         "aux Malouines"
       ],
       "Faroe Islands": [
          null,
-         "Îles Féroé"
+         "aux Îles Féroé"
       ],
       "Fiji": [
          null,
-         "Fidji"
+         "aux Fidji"
       ],
       "Finland": [
          null,
-         "Finlande"
+         "en Finlande"
       ],
       "France": [
          null,
-         "France"
+         "en France"
       ],
       "French Guiana": [
          null,
-         "Guinée Française"
+         "en Guyane française"
       ],
       "French Polynesia": [
          null,
-         "Polynésie Française"
+         "en Polynésie Française"
       ],
       "French Southern Territories": [
          null,
-         "Territoires d’outre-mer (France)"
+         "aux Terres australes et antarctiques françaises"
       ],
       "Gabon": [
          null,
-         "Gabon"
+         "au Gabon"
       ],
       "Gambia": [
          null,
-         "Gambie"
+         "en Gambie"
       ],
       "Georgia": [
          null,
-         "Géorgie"
+         "en Géorgie"
       ],
       "Germany": [
          null,
-         "Allemagne"
+         "en Allemagne"
       ],
       "Ghana": [
          null,
-         "Ghana"
+         "au Ghana"
       ],
       "Gibraltar": [
          null,
-         "Gibraltar"
+         "à Gibraltar"
       ],
       "Greece": [
          null,
-         "Grèce"
+         "en Grèce"
       ],
       "Greenland": [
          null,
-         "Groënland"
+         "au Groenland"
       ],
       "Grenada": [
          null,
-         "Grenade"
+         "à Grenade"
       ],
       "Guadeloupe": [
          null,
-         "Guadeloupe"
+         "en Guadeloupe"
       ],
       "Guam": [
          null,
-         "Guam"
+         "à Guam"
       ],
       "Guatemala": [
          null,
-         "Guatémala"
+         "au Guatemala"
       ],
       "Guernsey": [
          null,
-         "Bailliage de Guernesey"
+         "à Guernesey"
       ],
       "Guinea": [
          null,
-         "Guinée"
+         "en Guinée"
       ],
       "Guinea-Bissau": [
          null,
-         "Guinée-Bissau"
+         "en Guinée-Bissau"
       ],
       "Guyana": [
          null,
-         "Guyane"
+         "en Guyane"
       ],
       "Haiti": [
          null,
-         "Haïti"
+         "à Haïti"
       ],
       "Heard Island and McDonald Islands": [
          null,
-         "Heard Island and McDonald Islands"
+         "à l'Île Heard et aux Îles McDonald"
       ],
       "Holy See": [
          null,
-         "Holy See"
+         "au Vatican"
       ],
       "Honduras": [
          null,
-         "Honduras"
+         "au Honduras"
       ],
       "Hong Kong": [
          null,
-         "Hong-Kong"
+         "à Hong-Kong"
       ],
       "Hungary": [
          null,
-         "Hongrie"
+         "en Hongrie"
       ],
       "Iceland": [
          null,
-         "Islande"
+         "en Islande"
       ],
       "India": [
          null,
-         "Inde"
+         "en Inde"
       ],
       "Indonesia": [
          null,
-         "Indonésie"
+         "en Indonésie"
       ],
       "Iran": [
          null,
-         "Iran"
+         "en Iran"
       ],
       "Iraq": [
          null,
-         "Iraq"
+         "en Iraq"
       ],
       "Ireland": [
          null,
-         "Irlande"
+         "en Irlande"
       ],
       "Isle of Man": [
          null,
-         "Île de Man"
+         "à l'Île de Man"
       ],
       "Israel": [
          null,
-         "Israël"
+         "en Israël"
       ],
       "Italy": [
          null,
-         "Italie"
+         "en Italie"
       ],
       "Jamaica": [
          null,
-         "Jamaïque"
+         "en Jamaïque"
       ],
       "Japan": [
          null,
-         "Japon"
+         "au Japon"
       ],
       "Jersey": [
          null,
-         "Jersey"
+         "à Jersey"
       ],
       "Jordan": [
          null,
-         "Jordanie"
+         "en Jordanie"
       ],
       "Kazakhstan": [
          null,
-         "Kazakhstan"
+         "au Kazakhstan"
       ],
       "Kenya": [
          null,
-         "Kenya"
+         "au Kenya"
       ],
       "Kiribati": [
          null,
-         "Kiribati"
+         "à Kiribati"
       ],
       "North Korea": [
          null,
-         "La Corée du Nord"
+         "en Corée du Nord"
       ],
       "South Korea": [
          null,
-         "Corée du Sud"
+         "en Corée du Sud"
       ],
       "Kuwait": [
          null,
-         "Koweit"
+         "au Koweit"
       ],
       "Kyrgyzstan": [
          null,
-         "Kyrgyzstan"
+         "au Kyrgyzstan"
       ],
       "Laos": [
          null,
-         "Laos"
+         "au Laos"
       ],
       "Latvia": [
          null,
-         "Lettonie"
+         "en Lettonie"
       ],
       "Lebanon": [
          null,
-         "Liban"
+         "au Liban"
       ],
       "Lesotho": [
          null,
-         "Lesotho"
+         "au Lesotho"
       ],
       "Liberia": [
          null,
-         "Libéria"
+         "au Libéria"
       ],
       "Libya": [
          null,
-         "Libye"
+         "en Libye"
       ],
       "Liechtenstein": [
          null,
-         "Liechtenstein"
+         "au Liechtenstein"
       ],
       "Lithuania": [
          null,
-         "Lituanie"
+         "en Lituanie"
       ],
       "Luxembourg": [
          null,
-         "Luxembourg"
+         "au Luxembourg"
       ],
       "Macao": [
          null,
-         "Macao"
+         "à Macao"
       ],
       "Madagascar": [
          null,
-         "Madagascar"
+         "au Madagascar"
       ],
       "Malawi": [
          null,
-         "Malawi"
+         "au Malawi"
       ],
       "Malaysia": [
          null,
-         "Malaisie"
+         "en Malaisie"
       ],
       "Maldives": [
          null,
-         "Maldives"
+         "aux Maldives"
       ],
       "Mali": [
          null,
-         "Mali"
+         "au Mali"
       ],
       "Malta": [
          null,
-         "Malte"
+         "à Malte"
       ],
       "Marshall Islands": [
          null,
-         "Îles Marshall"
+         "aux Îles Marshall"
       ],
       "Martinique": [
          null,
-         "Martinique"
+         "en Martinique"
       ],
       "Mauritania": [
          null,
-         "Mauritanie"
+         "en Mauritanie"
       ],
       "Mauritius": [
          null,
-         "Ile Maurice"
+         "à l'Île Maurice"
       ],
       "Mayotte": [
          null,
-         "Mayotte"
+         "à Mayotte"
       ],
       "Mexico": [
          null,
-         "Mexique"
+         "au Mexique"
       ],
       "Federated States of Micronesia": [
          null,
-         "les États fédérés de Micronésie"
+         "aux États fédérés de Micronésie"
       ],
       "Moldova": [
          null,
-         "Moldavie"
+         "en Moldavie"
       ],
       "Monaco": [
          null,
-         "Monaco"
+         "à Monaco"
       ],
       "Mongolia": [
          null,
-         "Mongolie"
+         "en Mongolie"
       ],
       "Montenegro": [
          null,
-         "Monténégro"
+         "au Monténégro"
       ],
       "Montserrat": [
          null,
-         "Montserrat"
+         "à Montserrat"
       ],
       "Morocco": [
          null,
-         "Maroc"
+         "au Maroc"
       ],
       "Mozambique": [
          null,
-         "Mozambique"
+         "au Mozambique"
       ],
       "Myanmar": [
          null,
-         "Myanmar"
+         "au Myanmar"
       ],
       "Namibia": [
          null,
-         "Namibie"
+         "en Namibie"
       ],
       "Nauru": [
          null,
-         "Nauru"
+         "à Nauru"
       ],
       "Nepal": [
          null,
-         "Au Népal"
+         "au Népal"
       ],
       "Netherlands": [
          null,
-         "Pays-Bas"
+         "aux Pays-Bas"
       ],
       "New Caledonia": [
          null,
-         "Nouvelle-Calédonie"
+         "en Nouvelle-Calédonie"
       ],
       "New Zealand": [
          null,
-         "Nouvelle-Zélande"
+         "en Nouvelle-Zélande"
       ],
       "Nicaragua": [
          null,
-         "Au Nicaragua"
+         "au Nicaragua"
       ],
       "Niger": [
          null,
-         "Au Niger"
+         "au Niger"
       ],
       "Nigeria": [
          null,
-         "Au Nigeria"
+         "au Nigeria"
       ],
       "Niue": [
          null,
-         "Niue"
+         "à Niue"
       ],
       "Norfolk Island": [
          null,
-         "Île Norfolk"
+         "aux Île Norfolk"
       ],
       "North Macedonia": [
          null,
-         "la Macédoine du Nord"
+         "en Macédoine du Nord"
       ],
       "Northern Mariana Islands": [
          null,
-         "Îles Mariannes du Nord"
+         "aux Îles Mariannes du Nord"
       ],
       "Norway": [
          null,
-         "Norvège"
+         "en Norvège"
       ],
       "Oman": [
          null,
-         "Oman"
+         "à Oman"
       ],
       "Pakistan": [
          null,
-         "Pakistan"
+         "au Pakistan"
       ],
       "Palau": [
          null,
-         "Palau"
+         "à Palau"
       ],
       "Panama": [
          null,
-         "Panama"
+         "au Panama"
       ],
       "Papua New Guinea": [
          null,
-         "Papouasie-Nouvelle Guinée"
+         "en Papouasie-Nouvelle Guinée"
       ],
       "Paraguay": [
          null,
-         "Paraguay"
+         "au Paraguay"
       ],
       "Peru": [
          null,
-         "Perou"
+         "au Pérou"
       ],
       "Philippines": [
          null,
-         "Philippinnes"
+         "aux Philippines"
       ],
       "Pitcairn": [
          null,
-         "Îles Pitcairn"
+         "aux Îles Pitcairn"
       ],
       "Poland": [
          null,
-         "Pologne"
+         "en Pologne"
       ],
       "Portugal": [
          null,
-         "Portugal"
+         "au Portugal"
       ],
       "Puerto Rico": [
          null,
-         "Porto Rico"
+         "à Porto Rico"
       ],
       "Qatar": [
          null,
-         "Au Qatar"
+         "au Qatar"
       ],
       "Réunion": [
          null,
-         "Réunion"
+         "à La Réunion"
       ],
       "Romania": [
          null,
-         "Roumanie"
+         "en Roumanie"
       ],
       "Russia": [
          null,
-         "Russie"
+         "en Russie"
       ],
       "Rwanda": [
          null,
-         "Rwanda"
+         "au Rwanda"
       ],
       "Saint Barthélemy": [
          null,
-         "Saint-Barthélemy"
+         "à Saint-Barthélemy"
       ],
       "Saint Helena, Ascension and Tristan da Cunha": [
          null,
-         "Sainte-Hélène, à l'Ascension et à Tristan da Cunha"
+         "à Sainte-Hélène, à l'Ascension et à Tristan da Cunha"
       ],
       "Saint Kitts and Nevis": [
          null,
-         "Saint-Christophe-et-Niévès"
+         "à Saint-Christophe-et-Niévès"
       ],
       "Saint Lucia": [
          null,
-         "Sainte-Lucie"
+         "à Sainte-Lucie"
       ],
       "Saint Martin (French part)": [
          null,
-         "Saint-Martin (Antilles françaises)"
+         "à Saint-Martin (Antilles françaises)"
       ],
       "Saint Pierre and Miquelon": [
          null,
-         "Saint-Pierre-et-Miquelon"
+         "à Saint-Pierre-et-Miquelon"
       ],
       "Saint Vincent and the Grenadines": [
          null,
-         "Saint Vincent and the Grenadines"
+         "à Saint Vincent and the Grenadines"
       ],
       "Samoa": [
          null,
-         "Samoa"
+         "aux Îles Samoa"
       ],
       "San Marino": [
          null,
-         "Saint-Marin"
+         "à Saint-Marin"
       ],
       "Sao Tome and Principe": [
          null,
-         "Sao Tomé-et-Principe"
+         "à Sao Tomé-et-Principe"
       ],
       "Saudi Arabia": [
          null,
-         "Arabie Saoudite"
+         "en Arabie Saoudite"
       ],
       "Senegal": [
          null,
-         "Au Sénégal"
+         "au Sénégal"
       ],
       "Serbia": [
          null,
-         "Serbie"
+         "en Serbie"
       ],
       "Seychelles": [
          null,
-         "Seychelles"
+         "aux Seychelles"
       ],
       "Sierra Leone": [
          null,
-         "Au Sierra Leone"
+         "au Sierra Leone"
       ],
       "Singapore": [
          null,
-         "Au Singapour"
+         "au Singapour"
       ],
       "Sint Maarten (Dutch part)": [
          null,
-         "Saint-Martin (partie néerlandaise)"
+         "à Saint-Martin (partie néerlandaise)"
       ],
       "Slovakia": [
          null,
-         "Slovaquie"
+         "en Slovaquie"
       ],
       "Slovenia": [
          null,
-         "Slovénie"
+         "en Slovénie"
       ],
       "Solomon Islands": [
          null,
-         "Îles Salomon"
+         "aux Îles Salomon"
       ],
       "Somalia": [
          null,
-         "La Somalie"
+         "en Somalie"
       ],
       "South Africa": [
          null,
-         "Afrique du Sud"
+         "en Afrique du Sud"
       ],
       "South Georgia and the South Sandwich Islands": [
          null,
-         "Géorgie du Sud et îles Sandwich du Sud"
+         "en Géorgie du Sud et îles Sandwich du Sud"
       ],
       "South Sudan": [
          null,
-         "Sud-Soudan"
+         "au Sud-Soudan"
       ],
       "Spain": [
          null,
-         "Espagne"
+         "en Espagne"
       ],
       "Sri Lanka": [
          null,
-         "Sri Lanka"
+         "au Sri Lanka"
       ],
       "Sudan": [
          null,
-         "Soudan"
+         "au Soudan"
       ],
       "Suriname": [
          null,
-         "Suriname"
+         "au Suriname"
       ],
       "Svalbard and Jan Mayen": [
          null,
-         "Svalbard and Jan Mayen"
+         "au Svalbard et Jan Mayen"
       ],
       "Sweden": [
          null,
-         "Suède"
+         "en Suède"
       ],
       "Switzerland": [
          null,
-         "Suisse"
+         "en Suisse"
       ],
       "Syria": [
          null,
-         "Syrie"
+         "en Syrie"
       ],
       "Taiwan, Province of China": [
          null,
-         "le Taïwan, province de Chine"
+         "au Taïwan, province de Chine"
       ],
       "Tajikistan": [
          null,
-         "Tadjikistan"
+         "au Tadjikistan"
       ],
       "Tanzania": [
          null,
-         "Tanzanie"
+         "en Tanzanie"
       ],
       "Thailand": [
          null,
-         "Thaïlande"
+         "en Thaïlande"
       ],
       "Timor-Leste": [
          null,
-         "Timor-Leste"
+         "au Timor oriental"
       ],
       "Togo": [
          null,
-         "Togo"
+         "au Togo"
       ],
       "Tokelau": [
          null,
-         "Tokélaou"
+         "aux Îles Tokelau"
       ],
       "Tonga": [
          null,
-         "Tonga"
+         "aux Îles Tonga"
       ],
       "Trinidad and Tobago": [
          null,
-         "Trinidad et Tobago"
+         "à Trinidad et Tobago"
       ],
       "Tunisia": [
          null,
-         "Tunisie"
+         "en Tunisie"
       ],
       "Turkey": [
          null,
-         "Turquie"
+         "en Turquie"
       ],
       "Turkmenistan": [
          null,
-         "Turkménistan"
+         "au Turkménistan"
       ],
       "Turks and Caicos Islands": [
          null,
-         "Îles Turques-et-Caïques"
+         "aux Îles Turques-et-Caïques"
       ],
       "Tuvalu": [
          null,
-         "Tuvalu"
+         "aux île des Tuvalu"
       ],
       "Uganda": [
          null,
-         "Ouganda"
+         "en Ouganda"
       ],
       "Ukraine": [
          null,
-         "Ukraine"
+         "en Ukraine"
       ],
       "the United Arab Emirates": [
          null,
-         "les Émirats-Arabe-Unis"
+         "aux Émirats-Arabe-Unis"
       ],
       "the United Kingdom": [
          null,
-         "le Royaume-Uni"
+         "au Royaume-Uni"
       ],
       "the United States": [
          null,
-         "les États-Unis"
+         "aux États-Unis"
       ],
       "the United States Minor Outlying Islands": [
          null,
-         "les Îles mineures éloignées des États-Unis"
+         "aux Îles mineures éloignées des États-Unis"
       ],
       "Uruguay": [
          null,
-         "Uruguay"
+         "en Uruguay"
       ],
       "Uzbekistan": [
          null,
-         "Ouzbékistan"
+         "en Ouzbékistan"
       ],
       "Vanuatu": [
          null,
-         "Vanuatu"
+         "à Vanuatu"
       ],
       "Venezuela": [
          null,
-         "Venezuela"
+         "au Venezuela"
       ],
       "Viet Nam": [
          null,
-         "Au Vietnam"
+         "au Vietnam"
       ],
       "Virgin Islands (British)": [
          null,
-         "Virgin Islands (British)"
+         "aux îles Vierges (britanniques)"
       ],
       "Virgin Islands (U.S.)": [
          null,
-         "Virgin Islands (U.S.)"
+         "aux îles Vierges (États-Unis)"
       ],
       "Wallis and Futuna": [
          null,
-         "Wallis et Futuna"
+         "à Wallis et Futuna"
       ],
       "Western Sahara": [
          null,
-         "Au Sahara Occidental"
+         "au Sahara Occidental"
       ],
       "Yemen": [
          null,
-         "Au Yemen"
+         "au Yemen"
       ],
       "Zambia": [
          null,
-         "Zambie"
+         "en Zambie"
       ],
       "Zimbabwe": [
          null,
-         "Au Zimbabwe"
+         "au Zimbabwe"
       ],
       "Join now": [
          null,
@@ -1589,7 +1589,7 @@
       ],
       "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
          null,
-         "Testez<br><b>Most <span class='color_pia_light_orange'>Le VPN le plus fiable</span><br>& <span class='color_pia_light_orange'>dans le Monde</span></b>"
+         "Testez le VPN<br><b><span class='color_pia_light_orange'>le plus fiable</span><br>et <span class='color_pia_light_orange'>sécurisé dans le Monde</span></b>"
       ],
       "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
          null,

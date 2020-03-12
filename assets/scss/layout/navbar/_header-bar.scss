@@ -74,6 +74,14 @@
             @media screen and (max-width: $brk-ipad-width - 1) {
                 height: $nav_height_mobile;
             }
+            & a {
+                &:hover,
+                &:active,
+                &:hover span,
+                &:active span {
+                    color: $color-text-dark;
+                }
+            }
         }
     }
 }

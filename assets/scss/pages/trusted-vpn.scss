@@ -121,22 +121,31 @@ header {
     }
     & h1 {
         font-size: 2.2rem;
+        html[lang=deu] & {
+            font-size: 2rem
+        }
+        html[lang=fra] & { 
+            font-size: 1.5rem;
+        }
         @media screen and (max-width: $brk-desktop-width) {
             font-size: 2rem
         }
         @media screen and (max-width: 700px) {
             font-size: 1.5rem;
+            html[lang=fra] &,html[lang=deu] & { 
+                font-size: 1.2rem;
+            }
         }
         @media screen and (max-width: $brk-mobile-width) {
             font-size: 1rem;
+            html[lang=fra] &,html[lang=deu] & {
+                font-size: 1rem;
+            }
         }
         & b {
             font-size: 2em;
-            html[lang=deu] & {
-                font-size: 1.1em;
-            }
-            html[lang=fra] & {
-                font-size: 1em;
+            html[lang=deu] &,html[lang=fra] & {
+                font-size: 1.85em;
             }
         }
 

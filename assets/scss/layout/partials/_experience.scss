@@ -2,7 +2,7 @@
     color: $color-text-dark;
     & img {
         width: 65px;
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: $brk-ipad-width - 1) {
             width: 40px;
             margin-right: 1rem;
         }
@@ -19,7 +19,7 @@
         }
     }
     & h5 {
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: $brk-ipad-width - 1) {
             color: $color-text-dark;
             font-size: 1rem;
         }

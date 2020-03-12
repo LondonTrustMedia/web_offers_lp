@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: German\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-11 15:40\n"
+"PO-Revision-Date: 2020-03-12 14:06\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1264,7 +1264,7 @@ msgstr "Monate"
 #: /home/guy/privateland/views/partials/old/old-pricing.ejs:29
 #: /home/guy/privateland/views/partials/pricing.ejs:17
 msgid "Yearly"
-msgstr "jährlich"
+msgstr "Jährlich"
 
 #: /home/guy/privateland/views/partials/super_price.ejs:16
 #: /home/guy/privateland/views/partials/pricing.ejs:19
@@ -1772,7 +1772,7 @@ msgstr "%s Geräte"
 
 #: /home/guy/privateland/views/pages/trust.ejs:16
 msgid "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>"
-msgstr "Testen Sie das <br><b>weltweit <span class='color_pia_light_orange'>zuverlässigste</span><br>& <span class='color_pia_light_orange'>sicherste VPN</span></b>"
+msgstr "Testen Sie das weltweit <br><b><span class='color_pia_light_orange'>zuverlässigste</span><br>& <span class='color_pia_light_orange'>sicherste VPN</span></b>"
 
 #: /home/guy/privateland/views/pages/trust.ejs:20
 msgid "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee"

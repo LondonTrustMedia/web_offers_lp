@@ -1,50 +1,70 @@
 #sponsors {
+    margin-bottom: 0 !important;
+
     & h5 {
         padding: 0px;
         margin: 0;
     }
+
+    & .new_title {
+        color: #fff;
+    }
+
     & .logos {
         @media screen and (max-width: $brk-desktop-width) {
             width: 550px;
             margin: 0 auto;
         }
+
         @media screen and (max-width: 580px) {
             width: 100%;
         }
-        & div{
-           
+
+        & div {
+
             &:nth-of-type(1) img {
                 width: 65px;
+
                 @media screen and (max-width: 580px) {
                     width: 50px;
                 }
             }
+
             &:nth-of-type(2) img {
                 width: 195px;
+
                 @media screen and (max-width: 580px) {
                     width: 155px;
                 }
             }
+
             &:nth-of-type(3) img {
                 width: 130px;
+
                 @media screen and (max-width: 580px) {
                     width: 90px;
                 }
             }
+
             &:nth-of-type(4) img {
                 width: 125px;
+
                 @media screen and (max-width: 580px) {
                     width: 90px;
                 }
             }
+
             &:nth-of-type(5) img {
                 width: 145px;
+
                 @media screen and (max-width: 580px) {
                     width: 115px;
                 }
             }
+
             &:nth-of-type(6) img {
                 width: 125px;
+
                 @media screen and (max-width: 580px) {
                     width: 90px;
                 }
@@ -52,6 +72,7 @@
         }
     }
 }
+
 .tooltip-inner {
     max-width: 235px;
 }

@@ -73,19 +73,4 @@ footer {
             font-size: 1.2rem;
         }
     }
-    & #sponsors {
-        margin-bottom: 0!important;
-        & .new_title {
-            color: #fff;
-        }
-        & img[alt^="Fight"] {
-            content:url(img/sponsers/sponsor_logo_Fight_for_the_future_white.png);
-        }
-        & img[alt^="Internet"] {
-            content:url(img/sponsers/sponsor_logo_internet_society_white.png);
-        }
-        & img[alt="Accessnow"] {
-            content:url(img/sponsers/sponsor_logo_accessnow_white.png);
-        }
-    }
 }

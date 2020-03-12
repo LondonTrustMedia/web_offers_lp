@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: French\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-11 15:40\n"
+"PO-Revision-Date: 2020-03-12 14:06\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,191 +20,191 @@ msgstr "Dollars américains"
 
 #: /home/guy/privateland/app/modules/best-script.js:5
 msgid "Afghanistan"
-msgstr "Afghanistan"
+msgstr "en Afghanistan"
 
 #: /home/guy/privateland/app/modules/best-script.js:6
 msgid "Åland Islands"
-msgstr "Åland Islands"
+msgstr "aux Îles Åland"
 
 #: /home/guy/privateland/app/modules/best-script.js:7
 msgid "Albania"
-msgstr "Albanie"
+msgstr "en Albanie"
 
 #: /home/guy/privateland/app/modules/best-script.js:8
 msgid "Algeria"
-msgstr "Algérie"
+msgstr "en Algérie"
 
 #: /home/guy/privateland/app/modules/best-script.js:9
 msgid "American Samoa"
-msgstr "Samoa Américain"
+msgstr "aux Samoa américaines"
 
 #: /home/guy/privateland/app/modules/best-script.js:10
 msgid "Andorra"
-msgstr "Andorre"
+msgstr "à Andorre"
 
 #: /home/guy/privateland/app/modules/best-script.js:11
 msgid "Angola"
-msgstr "Angola"
+msgstr "en Angola"
 
 #: /home/guy/privateland/app/modules/best-script.js:12
 msgid "Anguilla"
-msgstr "Anguilla"
+msgstr "à Anguilla"
 
 #: /home/guy/privateland/app/modules/best-script.js:13
 msgid "Antarctica"
-msgstr "L'Antarctique"
+msgstr "en Antarctique"
 
 #: /home/guy/privateland/app/modules/best-script.js:14
 msgid "Antigua and Barbuda"
-msgstr "Antigua et Barbuda"
+msgstr "à Antigua et Barbuda"
 
 #: /home/guy/privateland/app/modules/best-script.js:15
 msgid "Argentina"
-msgstr "Argentine"
+msgstr "en Argentine"
 
 #: /home/guy/privateland/app/modules/best-script.js:16
 msgid "Armenia"
-msgstr "Armenie"
+msgstr "en Arménie"
 
 #: /home/guy/privateland/app/modules/best-script.js:17
 msgid "Aruba"
-msgstr "Aruba"
+msgstr "à Aruba"
 
 #: /home/guy/privateland/app/modules/best-script.js:18
 msgid "Australia"
-msgstr "Australie"
+msgstr "en Australie"
 
 #: /home/guy/privateland/app/modules/best-script.js:19
 msgid "Austria"
-msgstr "Autriche"
+msgstr "en Autriche"
 
 #: /home/guy/privateland/app/modules/best-script.js:20
 msgid "Azerbaijan"
-msgstr "Azerbaïdjan"
+msgstr "en Azerbaïdjan"
 
 #: /home/guy/privateland/app/modules/best-script.js:21
 msgid "Bahamas"
-msgstr "Bahamas"
+msgstr "aux Bahamas"
 
 #: /home/guy/privateland/app/modules/best-script.js:22
 msgid "Bahrain"
-msgstr "Bahreïn"
+msgstr "au Bahreïn"
 
 #: /home/guy/privateland/app/modules/best-script.js:23
 msgid "Bangladesh"
-msgstr "Bangladesh"
+msgstr "au Bangladesh"
 
 #: /home/guy/privateland/app/modules/best-script.js:24
 msgid "Barbados"
-msgstr "Barbade"
+msgstr "à la Barbade"
 
 #: /home/guy/privateland/app/modules/best-script.js:25
 msgid "Belarus"
-msgstr "Biélorussie"
+msgstr "en Biélorussie"
 
 #: /home/guy/privateland/app/modules/best-script.js:26
 msgid "Belgium"
-msgstr "Belgique"
+msgstr "en Belgique"
 
 #: /home/guy/privateland/app/modules/best-script.js:27
 msgid "Belize"
-msgstr "Belize"
+msgstr "au Belize"
 
 #: /home/guy/privateland/app/modules/best-script.js:28
 msgid "Benin"
-msgstr "Bénin"
+msgstr "au Bénin"
 
 #: /home/guy/privateland/app/modules/best-script.js:29
 msgid "Bermuda"
-msgstr "Bermudes"
+msgstr "aux Bermudes"
 
 #: /home/guy/privateland/app/modules/best-script.js:30
 msgid "Bhutan"
-msgstr "Bhoutan"
+msgstr "au Bhoutan"
 
 #: /home/guy/privateland/app/modules/best-script.js:31
 msgid "Bolivia"
-msgstr "Bolivie"
+msgstr "en Bolivie"
 
 #: /home/guy/privateland/app/modules/best-script.js:32
 msgid "Caribbean Netherlands"
-msgstr "les Caraïbes néerlandaises"
+msgstr "aux Caraïbes néerlandaises"
 
 #: /home/guy/privateland/app/modules/best-script.js:33
 msgid "Bosnia and Herzegovina"
-msgstr "Bosnie Herzegovine"
+msgstr "en Bosnie Herzégovine"
 
 #: /home/guy/privateland/app/modules/best-script.js:34
 msgid "Botswana"
-msgstr "Botswana"
+msgstr "au Botswana"
 
 #: /home/guy/privateland/app/modules/best-script.js:35
 msgid "Bouvet Island"
-msgstr "Île Bouvet"
+msgstr "à Île Bouvet"
 
 #: /home/guy/privateland/app/modules/best-script.js:36
 msgid "Brazil"
-msgstr "Brésil"
+msgstr "au Brésil"
 
 #: /home/guy/privateland/app/modules/best-script.js:37
 msgid "British Indian Ocean Territory"
-msgstr "Territoire britannique de l'océan Indien"
+msgstr "dans le Territoire britannique de l'océan Indien"
 
 #: /home/guy/privateland/app/modules/best-script.js:38
 msgid "Brunei Darussalam"
-msgstr "Brunei"
+msgstr "au Brunei Darussalam"
 
 #: /home/guy/privateland/app/modules/best-script.js:39
 msgid "Bulgaria"
-msgstr "Bulgarie"
+msgstr "en Bulgarie"
 
 #: /home/guy/privateland/app/modules/best-script.js:40
 msgid "Burkina Faso"
-msgstr "Burkina Faso"
+msgstr "au Burkina Faso"
 
 #: /home/guy/privateland/app/modules/best-script.js:41
 msgid "Burundi"
-msgstr "Burundi"
+msgstr "au Burundi"
 
 #: /home/guy/privateland/app/modules/best-script.js:42
 msgid "Cabo Verde"
-msgstr "Cap-Vert"
+msgstr "au Cap-Vert"
 
 #: /home/guy/privateland/app/modules/best-script.js:43
 msgid "Cambodia"
-msgstr "Cambodge"
+msgstr "au Cambodge"
 
 #: /home/guy/privateland/app/modules/best-script.js:44
 msgid "Cameroon"
-msgstr "Cameron"
+msgstr "au Cameroun"
 
 #: /home/guy/privateland/app/modules/best-script.js:45
 msgid "Canada"
-msgstr "Canada"
+msgstr "au Canada"
 
 #: /home/guy/privateland/app/modules/best-script.js:46
 msgid "Cayman Islands"
-msgstr "Îles Caïmans"
+msgstr "aux Îles Caïmans"
 
 #: /home/guy/privateland/app/modules/best-script.js:47
 msgid "Central African Republic"
-msgstr "République centrafricaine"
+msgstr "en République centrafricaine"
 
 #: /home/guy/privateland/app/modules/best-script.js:48
 msgid "Chad"
-msgstr "Tchad"
+msgstr "au Tchad"
 
 #: /home/guy/privateland/app/modules/best-script.js:49
 msgid "Chile"
-msgstr "Chili"
+msgstr "au Chili"
 
 #: /home/guy/privateland/app/modules/best-script.js:50
 msgid "China"
-msgstr "Chine"
+msgstr "en Chine"
 
 #: /home/guy/privateland/app/modules/best-script.js:51
 msgid "Christmas Island"
-msgstr "Île Christmas"
+msgstr "à Île Christmas"
 
 #: /home/guy/privateland/app/modules/best-script.js:52
 msgid "Cocos (Keeling) Islands"
@@ -212,804 +212,804 @@ msgstr "Îles Cocos (Keeling)"
 
 #: /home/guy/privateland/app/modules/best-script.js:53
 msgid "Colombia"
-msgstr "Chine"
+msgstr "en Colombie"
 
 #: /home/guy/privateland/app/modules/best-script.js:54
 msgid "Comoros"
-msgstr "Comores"
+msgstr "aux Comores"
 
 #: /home/guy/privateland/app/modules/best-script.js:55
 msgid "Congo"
-msgstr "Comoros"
+msgstr "au Congo"
 
 #: /home/guy/privateland/app/modules/best-script.js:56
 msgid "Democratic Republic of the Congo"
-msgstr "la République démocratique du Congo"
+msgstr "en République démocratique du Congo"
 
 #: /home/guy/privateland/app/modules/best-script.js:57
 msgid "Cook Islands"
-msgstr "Îles Cook"
+msgstr "aux Îles Cook"
 
 #: /home/guy/privateland/app/modules/best-script.js:58
 msgid "Costa Rica"
-msgstr "Costa Rica"
+msgstr "au Costa Rica"
 
 #: /home/guy/privateland/app/modules/best-script.js:59
 msgid "Côte d'Ivoire"
-msgstr "Côte d'Ivoire"
+msgstr "en Côte d'Ivoire"
 
 #: /home/guy/privateland/app/modules/best-script.js:60
 msgid "Croatia"
-msgstr "Croatie"
+msgstr "en Croatie"
 
 #: /home/guy/privateland/app/modules/best-script.js:61
 msgid "Cuba"
-msgstr "Cuba"
+msgstr "à Cuba"
 
 #: /home/guy/privateland/app/modules/best-script.js:62
 msgid "Curaçao"
-msgstr "Curacao"
+msgstr "à Curaçao"
 
 #: /home/guy/privateland/app/modules/best-script.js:63
 msgid "Cyprus"
-msgstr "Chypre"
+msgstr "à Chypre"
 
 #: /home/guy/privateland/app/modules/best-script.js:64
 msgid "Czechia"
-msgstr "Tchéquie"
+msgstr "en Tchéquie"
 
 #: /home/guy/privateland/app/modules/best-script.js:65
 msgid "Denmark"
-msgstr "Danemark"
+msgstr "au Danemark"
 
 #: /home/guy/privateland/app/modules/best-script.js:66
 msgid "Djibouti"
-msgstr "Djibouti"
+msgstr "au Djibouti"
 
 #: /home/guy/privateland/app/modules/best-script.js:67
 msgid "Dominica"
-msgstr "République Dominicaine"
+msgstr "en République Dominicaine"
 
 #: /home/guy/privateland/app/modules/best-script.js:68
 msgid "Dominican Republic"
-msgstr "République dominicaine"
+msgstr "en République dominicaine"
 
 #: /home/guy/privateland/app/modules/best-script.js:69
 msgid "Ecuador"
-msgstr "Équateur"
+msgstr "en Équateur"
 
 #: /home/guy/privateland/app/modules/best-script.js:70
 msgid "Egypt"
-msgstr "Égypte"
+msgstr "en Égypte"
 
 #: /home/guy/privateland/app/modules/best-script.js:71
 msgid "El Salvador"
-msgstr "Eritrea"
+msgstr "au Salvador"
 
 #: /home/guy/privateland/app/modules/best-script.js:72
 msgid "Equatorial Guinea"
-msgstr "La Guinée équatoriale"
+msgstr "en Guinée équatoriale"
 
 #: /home/guy/privateland/app/modules/best-script.js:73
 msgid "Eritrea"
-msgstr "L'Érythrée"
+msgstr "en Érythrée"
 
 #: /home/guy/privateland/app/modules/best-script.js:74
 msgid "Estonia"
-msgstr "Estonie"
+msgstr "en Estonie"
 
 #: /home/guy/privateland/app/modules/best-script.js:75
 msgid "Eswatini"
-msgstr "Eswatini"
+msgstr "en Eswatini"
 
 #: /home/guy/privateland/app/modules/best-script.js:76
 msgid "Ethiopia"
-msgstr "Éthiopie"
+msgstr "en Éthiopie"
 
 #: /home/guy/privateland/app/modules/best-script.js:77
 msgid "Falkland Islands (Malvinas)"
-msgstr "Malouines"
+msgstr "aux Malouines"
 
 #: /home/guy/privateland/app/modules/best-script.js:78
 msgid "Faroe Islands"
-msgstr "Îles Féroé"
+msgstr "aux Îles Féroé"
 
 #: /home/guy/privateland/app/modules/best-script.js:79
 msgid "Fiji"
-msgstr "Fidji"
+msgstr "aux Fidji"
 
 #: /home/guy/privateland/app/modules/best-script.js:80
 msgid "Finland"
-msgstr "Finlande"
+msgstr "en Finlande"
 
 #: /home/guy/privateland/app/modules/best-script.js:81
 msgid "France"
-msgstr "France"
+msgstr "en France"
 
 #: /home/guy/privateland/app/modules/best-script.js:82
 msgid "French Guiana"
-msgstr "Guinée Française"
+msgstr "en Guyane française"
 
 #: /home/guy/privateland/app/modules/best-script.js:83
 msgid "French Polynesia"
-msgstr "Polynésie Française"
+msgstr "en Polynésie Française"
 
 #: /home/guy/privateland/app/modules/best-script.js:84
 msgid "French Southern Territories"
-msgstr "Territoires d’outre-mer (France)"
+msgstr "aux Terres australes et antarctiques françaises"
 
 #: /home/guy/privateland/app/modules/best-script.js:85
 msgid "Gabon"
-msgstr "Gabon"
+msgstr "au Gabon"
 
 #: /home/guy/privateland/app/modules/best-script.js:86
 msgid "Gambia"
-msgstr "Gambie"
+msgstr "en Gambie"
 
 #: /home/guy/privateland/app/modules/best-script.js:87
 msgid "Georgia"
-msgstr "Géorgie"
+msgstr "en Géorgie"
 
 #: /home/guy/privateland/app/modules/best-script.js:88
 msgid "Germany"
-msgstr "Allemagne"
+msgstr "en Allemagne"
 
 #: /home/guy/privateland/app/modules/best-script.js:89
 msgid "Ghana"
-msgstr "Ghana"
+msgstr "au Ghana"
 
 #: /home/guy/privateland/app/modules/best-script.js:90
 msgid "Gibraltar"
-msgstr "Gibraltar"
+msgstr "à Gibraltar"
 
 #: /home/guy/privateland/app/modules/best-script.js:91
 msgid "Greece"
-msgstr "Grèce"
+msgstr "en Grèce"
 
 #: /home/guy/privateland/app/modules/best-script.js:92
 msgid "Greenland"
-msgstr "Groënland"
+msgstr "au Groenland"
 
 #: /home/guy/privateland/app/modules/best-script.js:93
 msgid "Grenada"
-msgstr "Grenade"
+msgstr "à Grenade"
 
 #: /home/guy/privateland/app/modules/best-script.js:94
 msgid "Guadeloupe"
-msgstr "Guadeloupe"
+msgstr "en Guadeloupe"
 
 #: /home/guy/privateland/app/modules/best-script.js:95
 msgid "Guam"
-msgstr "Guam"
+msgstr "à Guam"
 
 #: /home/guy/privateland/app/modules/best-script.js:96
 msgid "Guatemala"
-msgstr "Guatémala"
+msgstr "au Guatemala"
 
 #: /home/guy/privateland/app/modules/best-script.js:97
 msgid "Guernsey"
-msgstr "Bailliage de Guernesey"
+msgstr "à Guernesey"
 
 #: /home/guy/privateland/app/modules/best-script.js:98
 msgid "Guinea"
-msgstr "Guinée"
+msgstr "en Guinée"
 
 #: /home/guy/privateland/app/modules/best-script.js:99
 msgid "Guinea-Bissau"
-msgstr "Guinée-Bissau"
+msgstr "en Guinée-Bissau"
 
 #: /home/guy/privateland/app/modules/best-script.js:100
 msgid "Guyana"
-msgstr "Guyane"
+msgstr "en Guyane"
 
 #: /home/guy/privateland/app/modules/best-script.js:101
 msgid "Haiti"
-msgstr "Haïti"
+msgstr "à Haïti"
 
 #: /home/guy/privateland/app/modules/best-script.js:102
 msgid "Heard Island and McDonald Islands"
-msgstr "Heard Island and McDonald Islands"
+msgstr "à l'Île Heard et aux Îles McDonald"
 
 #: /home/guy/privateland/app/modules/best-script.js:103
 msgid "Holy See"
-msgstr "Holy See"
+msgstr "au Vatican"
 
 #: /home/guy/privateland/app/modules/best-script.js:104
 msgid "Honduras"
-msgstr "Honduras"
+msgstr "au Honduras"
 
 #: /home/guy/privateland/app/modules/best-script.js:105
 msgid "Hong Kong"
-msgstr "Hong-Kong"
+msgstr "à Hong-Kong"
 
 #: /home/guy/privateland/app/modules/best-script.js:106
 msgid "Hungary"
-msgstr "Hongrie"
+msgstr "en Hongrie"
 
 #: /home/guy/privateland/app/modules/best-script.js:107
 msgid "Iceland"
-msgstr "Islande"
+msgstr "en Islande"
 
 #: /home/guy/privateland/app/modules/best-script.js:108
 msgid "India"
-msgstr "Inde"
+msgstr "en Inde"
 
 #: /home/guy/privateland/app/modules/best-script.js:109
 msgid "Indonesia"
-msgstr "Indonésie"
+msgstr "en Indonésie"
 
 #: /home/guy/privateland/app/modules/best-script.js:110
 msgid "Iran"
-msgstr "Iran"
+msgstr "en Iran"
 
 #: /home/guy/privateland/app/modules/best-script.js:111
 msgid "Iraq"
-msgstr "Iraq"
+msgstr "en Iraq"
 
 #: /home/guy/privateland/app/modules/best-script.js:112
 msgid "Ireland"
-msgstr "Irlande"
+msgstr "en Irlande"
 
 #: /home/guy/privateland/app/modules/best-script.js:113
 msgid "Isle of Man"
-msgstr "Île de Man"
+msgstr "à l'Île de Man"
 
 #: /home/guy/privateland/app/modules/best-script.js:114
 msgid "Israel"
-msgstr "Israël"
+msgstr "en Israël"
 
 #: /home/guy/privateland/app/modules/best-script.js:115
 msgid "Italy"
-msgstr "Italie"
+msgstr "en Italie"
 
 #: /home/guy/privateland/app/modules/best-script.js:116
 msgid "Jamaica"
-msgstr "Jamaïque"
+msgstr "en Jamaïque"
 
 #: /home/guy/privateland/app/modules/best-script.js:117
 msgid "Japan"
-msgstr "Japon"
+msgstr "au Japon"
 
 #: /home/guy/privateland/app/modules/best-script.js:118
 msgid "Jersey"
-msgstr "Jersey"
+msgstr "à Jersey"
 
 #: /home/guy/privateland/app/modules/best-script.js:119
 msgid "Jordan"
-msgstr "Jordanie"
+msgstr "en Jordanie"
 
 #: /home/guy/privateland/app/modules/best-script.js:120
 msgid "Kazakhstan"
-msgstr "Kazakhstan"
+msgstr "au Kazakhstan"
 
 #: /home/guy/privateland/app/modules/best-script.js:121
 msgid "Kenya"
-msgstr "Kenya"
+msgstr "au Kenya"
 
 #: /home/guy/privateland/app/modules/best-script.js:122
 msgid "Kiribati"
-msgstr "Kiribati"
+msgstr "à Kiribati"
 
 #: /home/guy/privateland/app/modules/best-script.js:123
 msgid "North Korea"
-msgstr "La Corée du Nord"
+msgstr "en Corée du Nord"
 
 #: /home/guy/privateland/app/modules/best-script.js:124
 msgid "South Korea"
-msgstr "Corée du Sud"
+msgstr "en Corée du Sud"
 
 #: /home/guy/privateland/app/modules/best-script.js:125
 msgid "Kuwait"
-msgstr "Koweit"
+msgstr "au Koweit"
 
 #: /home/guy/privateland/app/modules/best-script.js:126
 msgid "Kyrgyzstan"
-msgstr "Kyrgyzstan"
+msgstr "au Kyrgyzstan"
 
 #: /home/guy/privateland/app/modules/best-script.js:127
 msgid "Laos"
-msgstr "Laos"
+msgstr "au Laos"
 
 #: /home/guy/privateland/app/modules/best-script.js:128
 msgid "Latvia"
-msgstr "Lettonie"
+msgstr "en Lettonie"
 
 #: /home/guy/privateland/app/modules/best-script.js:129
 msgid "Lebanon"
-msgstr "Liban"
+msgstr "au Liban"
 
 #: /home/guy/privateland/app/modules/best-script.js:130
 msgid "Lesotho"
-msgstr "Lesotho"
+msgstr "au Lesotho"
 
 #: /home/guy/privateland/app/modules/best-script.js:131
 msgid "Liberia"
-msgstr "Libéria"
+msgstr "au Libéria"
 
 #: /home/guy/privateland/app/modules/best-script.js:132
 msgid "Libya"
-msgstr "Libye"
+msgstr "en Libye"
 
 #: /home/guy/privateland/app/modules/best-script.js:133
 msgid "Liechtenstein"
-msgstr "Liechtenstein"
+msgstr "au Liechtenstein"
 
 #: /home/guy/privateland/app/modules/best-script.js:134
 msgid "Lithuania"
-msgstr "Lituanie"
+msgstr "en Lituanie"
 
 #: /home/guy/privateland/app/modules/best-script.js:135
 msgid "Luxembourg"
-msgstr "Luxembourg"
+msgstr "au Luxembourg"
 
 #: /home/guy/privateland/app/modules/best-script.js:136
 msgid "Macao"
-msgstr "Macao"
+msgstr "à Macao"
 
 #: /home/guy/privateland/app/modules/best-script.js:137
 msgid "Madagascar"
-msgstr "Madagascar"
+msgstr "au Madagascar"
 
 #: /home/guy/privateland/app/modules/best-script.js:138
 msgid "Malawi"
-msgstr "Malawi"
+msgstr "au Malawi"
 
 #: /home/guy/privateland/app/modules/best-script.js:139
 msgid "Malaysia"
-msgstr "Malaisie"
+msgstr "en Malaisie"
 
 #: /home/guy/privateland/app/modules/best-script.js:140
 msgid "Maldives"
-msgstr "Maldives"
+msgstr "aux Maldives"
 
 #: /home/guy/privateland/app/modules/best-script.js:141
 msgid "Mali"
-msgstr "Mali"
+msgstr "au Mali"
 
 #: /home/guy/privateland/app/modules/best-script.js:142
 msgid "Malta"
-msgstr "Malte"
+msgstr "à Malte"
 
 #: /home/guy/privateland/app/modules/best-script.js:143
 msgid "Marshall Islands"
-msgstr "Îles Marshall"
+msgstr "aux Îles Marshall"
 
 #: /home/guy/privateland/app/modules/best-script.js:144
 msgid "Martinique"
-msgstr "Martinique"
+msgstr "en Martinique"
 
 #: /home/guy/privateland/app/modules/best-script.js:145
 msgid "Mauritania"
-msgstr "Mauritanie"
+msgstr "en Mauritanie"
 
 #: /home/guy/privateland/app/modules/best-script.js:146
 msgid "Mauritius"
-msgstr "Ile Maurice"
+msgstr "à l'Île Maurice"
 
 #: /home/guy/privateland/app/modules/best-script.js:147
 msgid "Mayotte"
-msgstr "Mayotte"
+msgstr "à Mayotte"
 
 #: /home/guy/privateland/app/modules/best-script.js:148
 msgid "Mexico"
-msgstr "Mexique"
+msgstr "au Mexique"
 
 #: /home/guy/privateland/app/modules/best-script.js:149
 msgid "Federated States of Micronesia"
-msgstr "les États fédérés de Micronésie"
+msgstr "aux États fédérés de Micronésie"
 
 #: /home/guy/privateland/app/modules/best-script.js:150
 msgid "Moldova"
-msgstr "Moldavie"
+msgstr "en Moldavie"
 
 #: /home/guy/privateland/app/modules/best-script.js:151
 msgid "Monaco"
-msgstr "Monaco"
+msgstr "à Monaco"
 
 #: /home/guy/privateland/app/modules/best-script.js:152
 msgid "Mongolia"
-msgstr "Mongolie"
+msgstr "en Mongolie"
 
 #: /home/guy/privateland/app/modules/best-script.js:153
 msgid "Montenegro"
-msgstr "Monténégro"
+msgstr "au Monténégro"
 
 #: /home/guy/privateland/app/modules/best-script.js:154
 msgid "Montserrat"
-msgstr "Montserrat"
+msgstr "à Montserrat"
 
 #: /home/guy/privateland/app/modules/best-script.js:155
 msgid "Morocco"
-msgstr "Maroc"
+msgstr "au Maroc"
 
 #: /home/guy/privateland/app/modules/best-script.js:156
 msgid "Mozambique"
-msgstr "Mozambique"
+msgstr "au Mozambique"
 
 #: /home/guy/privateland/app/modules/best-script.js:157
 msgid "Myanmar"
-msgstr "Myanmar"
+msgstr "au Myanmar"
 
 #: /home/guy/privateland/app/modules/best-script.js:158
 msgid "Namibia"
-msgstr "Namibie"
+msgstr "en Namibie"
 
 #: /home/guy/privateland/app/modules/best-script.js:159
 msgid "Nauru"
-msgstr "Nauru"
+msgstr "à Nauru"
 
 #: /home/guy/privateland/app/modules/best-script.js:160
 msgid "Nepal"
-msgstr "Au Népal"
+msgstr "au Népal"
 
 #: /home/guy/privateland/app/modules/best-script.js:161
 msgid "Netherlands"
-msgstr "Pays-Bas"
+msgstr "aux Pays-Bas"
 
 #: /home/guy/privateland/app/modules/best-script.js:162
 msgid "New Caledonia"
-msgstr "Nouvelle-Calédonie"
+msgstr "en Nouvelle-Calédonie"
 
 #: /home/guy/privateland/app/modules/best-script.js:163
 msgid "New Zealand"
-msgstr "Nouvelle-Zélande"
+msgstr "en Nouvelle-Zélande"
 
 #: /home/guy/privateland/app/modules/best-script.js:164
 msgid "Nicaragua"
-msgstr "Au Nicaragua"
+msgstr "au Nicaragua"
 
 #: /home/guy/privateland/app/modules/best-script.js:165
 msgid "Niger"
-msgstr "Au Niger"
+msgstr "au Niger"
 
 #: /home/guy/privateland/app/modules/best-script.js:166
 msgid "Nigeria"
-msgstr "Au Nigeria"
+msgstr "au Nigeria"
 
 #: /home/guy/privateland/app/modules/best-script.js:167
 msgid "Niue"
-msgstr "Niue"
+msgstr "à Niue"
 
 #: /home/guy/privateland/app/modules/best-script.js:168
 msgid "Norfolk Island"
-msgstr "Île Norfolk"
+msgstr "aux Île Norfolk"
 
 #: /home/guy/privateland/app/modules/best-script.js:169
 msgid "North Macedonia"
-msgstr "la Macédoine du Nord"
+msgstr "en Macédoine du Nord"
 
 #: /home/guy/privateland/app/modules/best-script.js:170
 msgid "Northern Mariana Islands"
-msgstr "Îles Mariannes du Nord"
+msgstr "aux Îles Mariannes du Nord"
 
 #: /home/guy/privateland/app/modules/best-script.js:171
 msgid "Norway"
-msgstr "Norvège"
+msgstr "en Norvège"
 
 #: /home/guy/privateland/app/modules/best-script.js:172
 msgid "Oman"
-msgstr "Oman"
+msgstr "à Oman"
 
 #: /home/guy/privateland/app/modules/best-script.js:173
 msgid "Pakistan"
-msgstr "Pakistan"
+msgstr "au Pakistan"
 
 #: /home/guy/privateland/app/modules/best-script.js:174
 msgid "Palau"
-msgstr "Palau"
+msgstr "à Palau"
 
 #: /home/guy/privateland/app/modules/best-script.js:175
 msgid "Panama"
-msgstr "Panama"
+msgstr "au Panama"
 
 #: /home/guy/privateland/app/modules/best-script.js:176
 msgid "Papua New Guinea"
-msgstr "Papouasie-Nouvelle Guinée"
+msgstr "en Papouasie-Nouvelle Guinée"
 
 #: /home/guy/privateland/app/modules/best-script.js:177
 msgid "Paraguay"
-msgstr "Paraguay"
+msgstr "au Paraguay"
 
 #: /home/guy/privateland/app/modules/best-script.js:178
 msgid "Peru"
-msgstr "Perou"
+msgstr "au Pérou"
 
 #: /home/guy/privateland/app/modules/best-script.js:179
 msgid "Philippines"
-msgstr "Philippinnes"
+msgstr "aux Philippines"
 
 #: /home/guy/privateland/app/modules/best-script.js:180
 msgid "Pitcairn"
-msgstr "Îles Pitcairn"
+msgstr "aux Îles Pitcairn"
 
 #: /home/guy/privateland/app/modules/best-script.js:181
 msgid "Poland"
-msgstr "Pologne"
+msgstr "en Pologne"
 
 #: /home/guy/privateland/app/modules/best-script.js:182
 msgid "Portugal"
-msgstr "Portugal"
+msgstr "au Portugal"
 
 #: /home/guy/privateland/app/modules/best-script.js:183
 msgid "Puerto Rico"
-msgstr "Porto Rico"
+msgstr "à Porto Rico"
 
 #: /home/guy/privateland/app/modules/best-script.js:184
 msgid "Qatar"
-msgstr "Au Qatar"
+msgstr "au Qatar"
 
 #: /home/guy/privateland/app/modules/best-script.js:185
 msgid "Réunion"
-msgstr "Réunion"
+msgstr "à La Réunion"
 
 #: /home/guy/privateland/app/modules/best-script.js:186
 msgid "Romania"
-msgstr "Roumanie"
+msgstr "en Roumanie"
 
 #: /home/guy/privateland/app/modules/best-script.js:187
 msgid "Russia"
-msgstr "Russie"
+msgstr "en Russie"
 
 #: /home/guy/privateland/app/modules/best-script.js:188
 msgid "Rwanda"
-msgstr "Rwanda"
+msgstr "au Rwanda"
 
 #: /home/guy/privateland/app/modules/best-script.js:189
 msgid "Saint Barthélemy"
-msgstr "Saint-Barthélemy"
+msgstr "à Saint-Barthélemy"
 
 #: /home/guy/privateland/app/modules/best-script.js:190
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr "Sainte-Hélène, à l'Ascension et à Tristan da Cunha"
+msgstr "à Sainte-Hélène, à l'Ascension et à Tristan da Cunha"
 
 #: /home/guy/privateland/app/modules/best-script.js:191
 msgid "Saint Kitts and Nevis"
-msgstr "Saint-Christophe-et-Niévès"
+msgstr "à Saint-Christophe-et-Niévès"
 
 #: /home/guy/privateland/app/modules/best-script.js:192
 msgid "Saint Lucia"
-msgstr "Sainte-Lucie"
+msgstr "à Sainte-Lucie"
 
 #: /home/guy/privateland/app/modules/best-script.js:193
 msgid "Saint Martin (French part)"
-msgstr "Saint-Martin (Antilles françaises)"
+msgstr "à Saint-Martin (Antilles françaises)"
 
 #: /home/guy/privateland/app/modules/best-script.js:194
 msgid "Saint Pierre and Miquelon"
-msgstr "Saint-Pierre-et-Miquelon"
+msgstr "à Saint-Pierre-et-Miquelon"
 
 #: /home/guy/privateland/app/modules/best-script.js:195
 msgid "Saint Vincent and the Grenadines"
-msgstr "Saint Vincent and the Grenadines"
+msgstr "à Saint Vincent and the Grenadines"
 
 #: /home/guy/privateland/app/modules/best-script.js:196
 msgid "Samoa"
-msgstr "Samoa"
+msgstr "aux Îles Samoa"
 
 #: /home/guy/privateland/app/modules/best-script.js:197
 msgid "San Marino"
-msgstr "Saint-Marin"
+msgstr "à Saint-Marin"
 
 #: /home/guy/privateland/app/modules/best-script.js:198
 msgid "Sao Tome and Principe"
-msgstr "Sao Tomé-et-Principe"
+msgstr "à Sao Tomé-et-Principe"
 
 #: /home/guy/privateland/app/modules/best-script.js:199
 msgid "Saudi Arabia"
-msgstr "Arabie Saoudite"
+msgstr "en Arabie Saoudite"
 
 #: /home/guy/privateland/app/modules/best-script.js:200
 msgid "Senegal"
-msgstr "Au Sénégal"
+msgstr "au Sénégal"
 
 #: /home/guy/privateland/app/modules/best-script.js:201
 msgid "Serbia"
-msgstr "Serbie"
+msgstr "en Serbie"
 
 #: /home/guy/privateland/app/modules/best-script.js:202
 msgid "Seychelles"
-msgstr "Seychelles"
+msgstr "aux Seychelles"
 
 #: /home/guy/privateland/app/modules/best-script.js:203
 msgid "Sierra Leone"
-msgstr "Au Sierra Leone"
+msgstr "au Sierra Leone"
 
 #: /home/guy/privateland/app/modules/best-script.js:204
 msgid "Singapore"
-msgstr "Au Singapour"
+msgstr "au Singapour"
 
 #: /home/guy/privateland/app/modules/best-script.js:205
 msgid "Sint Maarten (Dutch part)"
-msgstr "Saint-Martin (partie néerlandaise)"
+msgstr "à Saint-Martin (partie néerlandaise)"
 
 #: /home/guy/privateland/app/modules/best-script.js:206
 msgid "Slovakia"
-msgstr "Slovaquie"
+msgstr "en Slovaquie"
 
 #: /home/guy/privateland/app/modules/best-script.js:207
 msgid "Slovenia"
-msgstr "Slovénie"
+msgstr "en Slovénie"
 
 #: /home/guy/privateland/app/modules/best-script.js:208
 msgid "Solomon Islands"
-msgstr "Îles Salomon"
+msgstr "aux Îles Salomon"
 
 #: /home/guy/privateland/app/modules/best-script.js:209
 msgid "Somalia"
-msgstr "La Somalie"
+msgstr "en Somalie"
 
 #: /home/guy/privateland/app/modules/best-script.js:210
 msgid "South Africa"
-msgstr "Afrique du Sud"
+msgstr "en Afrique du Sud"
 
 #: /home/guy/privateland/app/modules/best-script.js:211
 msgid "South Georgia and the South Sandwich Islands"
-msgstr "Géorgie du Sud et îles Sandwich du Sud"
+msgstr "en Géorgie du Sud et îles Sandwich du Sud"
 
 #: /home/guy/privateland/app/modules/best-script.js:212
 msgid "South Sudan"
-msgstr "Sud-Soudan"
+msgstr "au Sud-Soudan"
 
 #: /home/guy/privateland/app/modules/best-script.js:213
 msgid "Spain"
-msgstr "Espagne"
+msgstr "en Espagne"
 
 #: /home/guy/privateland/app/modules/best-script.js:214
 msgid "Sri Lanka"
-msgstr "Sri Lanka"
+msgstr "au Sri Lanka"
 
 #: /home/guy/privateland/app/modules/best-script.js:215
 msgid "Sudan"
-msgstr "Soudan"
+msgstr "au Soudan"
 
 #: /home/guy/privateland/app/modules/best-script.js:216
 msgid "Suriname"
-msgstr "Suriname"
+msgstr "au Suriname"
 
 #: /home/guy/privateland/app/modules/best-script.js:217
 msgid "Svalbard and Jan Mayen"
-msgstr "Svalbard and Jan Mayen"
+msgstr "au Svalbard et Jan Mayen"
 
 #: /home/guy/privateland/app/modules/best-script.js:218
 msgid "Sweden"
-msgstr "Suède"
+msgstr "en Suède"
 
 #: /home/guy/privateland/app/modules/best-script.js:219
 msgid "Switzerland"
-msgstr "Suisse"
+msgstr "en Suisse"
 
 #: /home/guy/privateland/app/modules/best-script.js:220
 msgid "Syria"
-msgstr "Syrie"
+msgstr "en Syrie"
 
 #: /home/guy/privateland/app/modules/best-script.js:221
 msgid "Taiwan, Province of China"
-msgstr "le Taïwan, province de Chine"
+msgstr "au Taïwan, province de Chine"
 
 #: /home/guy/privateland/app/modules/best-script.js:222
 msgid "Tajikistan"
-msgstr "Tadjikistan"
+msgstr "au Tadjikistan"
 
 #: /home/guy/privateland/app/modules/best-script.js:223
 msgid "Tanzania"
-msgstr "Tanzanie"
+msgstr "en Tanzanie"
 
 #: /home/guy/privateland/app/modules/best-script.js:224
 msgid "Thailand"
-msgstr "Thaïlande"
+msgstr "en Thaïlande"
 
 #: /home/guy/privateland/app/modules/best-script.js:225
 msgid "Timor-Leste"
-msgstr "Timor-Leste"
+msgstr "au Timor oriental"
 
 #: /home/guy/privateland/app/modules/best-script.js:226
 msgid "Togo"
-msgstr "Togo"
+msgstr "au Togo"
 
 #: /home/guy/privateland/app/modules/best-script.js:227
 msgid "Tokelau"
-msgstr "Tokélaou"
+msgstr "aux Îles Tokelau"
 
 #: /home/guy/privateland/app/modules/best-script.js:228
 msgid "Tonga"
-msgstr "Tonga"
+msgstr "aux Îles Tonga"
 
 #: /home/guy/privateland/app/modules/best-script.js:229
 msgid "Trinidad and Tobago"
-msgstr "Trinidad et Tobago"
+msgstr "à Trinidad et Tobago"
 
 #: /home/guy/privateland/app/modules/best-script.js:230
 msgid "Tunisia"
-msgstr "Tunisie"
+msgstr "en Tunisie"
 
 #: /home/guy/privateland/app/modules/best-script.js:231
 msgid "Turkey"
-msgstr "Turquie"
+msgstr "en Turquie"
 
 #: /home/guy/privateland/app/modules/best-script.js:232
 msgid "Turkmenistan"
-msgstr "Turkménistan"
+msgstr "au Turkménistan"
 
 #: /home/guy/privateland/app/modules/best-script.js:233
 msgid "Turks and Caicos Islands"
-msgstr "Îles Turques-et-Caïques"
+msgstr "aux Îles Turques-et-Caïques"
 
 #: /home/guy/privateland/app/modules/best-script.js:234
 msgid "Tuvalu"
-msgstr "Tuvalu"
+msgstr "aux île des Tuvalu"
 
 #: /home/guy/privateland/app/modules/best-script.js:235
 msgid "Uganda"
-msgstr "Ouganda"
+msgstr "en Ouganda"
 
 #: /home/guy/privateland/app/modules/best-script.js:236
 msgid "Ukraine"
-msgstr "Ukraine"
+msgstr "en Ukraine"
 
 #: /home/guy/privateland/app/modules/best-script.js:237
 msgid "the United Arab Emirates"
-msgstr "les Émirats-Arabe-Unis"
+msgstr "aux Émirats-Arabe-Unis"
 
 #: /home/guy/privateland/app/modules/best-script.js:238
 #: /home/guy/privateland/app/modules/best-script.js:239
 msgid "the United Kingdom"
-msgstr "le Royaume-Uni"
+msgstr "au Royaume-Uni"
 
 #: /home/guy/privateland/app/modules/best-script.js:240
 msgid "the United States"
-msgstr "les États-Unis"
+msgstr "aux États-Unis"
 
 #: /home/guy/privateland/app/modules/best-script.js:241
 msgid "the United States Minor Outlying Islands"
-msgstr "les Îles mineures éloignées des États-Unis"
+msgstr "aux Îles mineures éloignées des États-Unis"
 
 #: /home/guy/privateland/app/modules/best-script.js:242
 msgid "Uruguay"
-msgstr "Uruguay"
+msgstr "en Uruguay"
 
 #: /home/guy/privateland/app/modules/best-script.js:243
 msgid "Uzbekistan"
-msgstr "Ouzbékistan"
+msgstr "en Ouzbékistan"
 
 #: /home/guy/privateland/app/modules/best-script.js:244
 msgid "Vanuatu"
-msgstr "Vanuatu"
+msgstr "à Vanuatu"
 
 #: /home/guy/privateland/app/modules/best-script.js:245
 msgid "Venezuela"
-msgstr "Venezuela"
+msgstr "au Venezuela"
 
 #: /home/guy/privateland/app/modules/best-script.js:246
 msgid "Viet Nam"
-msgstr "Au Vietnam"
+msgstr "au Vietnam"
 
 #: /home/guy/privateland/app/modules/best-script.js:247
 msgid "Virgin Islands (British)"
-msgstr "Virgin Islands (British)"
+msgstr "aux îles Vierges (britanniques)"
 
 #: /home/guy/privateland/app/modules/best-script.js:248
 msgid "Virgin Islands (U.S.)"
-msgstr "Virgin Islands (U.S.)"
+msgstr "aux îles Vierges (États-Unis)"
 
 #: /home/guy/privateland/app/modules/best-script.js:249
 msgid "Wallis and Futuna"
-msgstr "Wallis et Futuna"
+msgstr "à Wallis et Futuna"
 
 #: /home/guy/privateland/app/modules/best-script.js:250
 msgid "Western Sahara"
-msgstr "Au Sahara Occidental"
+msgstr "au Sahara Occidental"
 
 #: /home/guy/privateland/app/modules/best-script.js:251
 msgid "Yemen"
-msgstr "Au Yemen"
+msgstr "au Yemen"
 
 #: /home/guy/privateland/app/modules/best-script.js:252
 msgid "Zambia"
-msgstr "Zambie"
+msgstr "en Zambie"
 
 #: /home/guy/privateland/app/modules/best-script.js:253
 msgid "Zimbabwe"
-msgstr "Au Zimbabwe"
+msgstr "au Zimbabwe"
 
 #: /home/guy/privateland/views/navbar/navbar_dark.ejs:10
 #: /home/guy/privateland/views/navbar/navbar_white.ejs:10
@@ -1772,7 +1772,7 @@ msgstr "%s Appareils"
 
 #: /home/guy/privateland/views/pages/trust.ejs:16
 msgid "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>"
-msgstr "Testez<br><b>Most <span class='color_pia_light_orange'>Le VPN le plus fiable</span><br>& <span class='color_pia_light_orange'>dans le Monde</span></b>"
+msgstr "Testez le VPN<br><b><span class='color_pia_light_orange'>le plus fiable</span><br>et <span class='color_pia_light_orange'>sécurisé dans le Monde</span></b>"
 
 #: /home/guy/privateland/views/pages/trust.ejs:20
 msgid "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee"

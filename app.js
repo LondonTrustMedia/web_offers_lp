@@ -27,7 +27,7 @@ if (process.env.NODE_ENV === 'local')
 
 app.disable('x-powered-by');
 app.enable('verbose errors');
-app.enable('trust proxy');
+// app.enable('trust proxy');
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 

@@ -142,8 +142,8 @@
     & .astronaut {
         position: absolute;
         width: 100px;
-        animation:lost_in_space 20s infinite linear;
-        -webkit-animation:lost_in_space 20s infinite linear;
+        animation:lost_in_space 40s infinite linear;
+        -webkit-animation:lost_in_space 100s infinite linear;
 
         @media screen and (max-width: 575px) {
             animation: none;

@@ -14,7 +14,7 @@
                 <div class="gradient_left d-lg-block d-none"></div>
                 <div class="gradient_right d-lg-block d-none"></div>
                 <div class="carousel-inner mx-auto justify-content-between text-left">
-                    <div class="carousel-item col-lg-4 active">
+                    <div class="carousel-item col-lg-4 active" id="1">
                         <div class="card">
                             <div class="card-body">
                                 <p class="card-text">I tested a lot of VPNs, often (even very often) the quality of the servers was zero, very long to connect to the VPN and to Internet sites, the ping was high and I had a very poor speed. Since I moved to Private_Internet_Access, everything has become fluid. The ping is good, the speed too, the speed of connection to the VPN as well as to Internet sites are instantaneous. In short I think I will stay on this VPN for a long time. I recommend this VPN if you want to take on</p>
@@ -36,7 +36,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item col-lg-4">
+                    <div class="carousel-item col-lg-4" id="2">
                         <div class="card">
                             <div class="card-body">
                                 <p class="card-text">Best VPN, I've used other VPNs and this is by far the best one if you are looking for low ping server. No need to relog when you launch your computer. Just launch PIA and click on a server.</p>
@@ -58,7 +58,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item col-lg-4">
+                    <div class="carousel-item col-lg-4" id="3">
                         <div class="card">
                             <div class="card-body">
                                 <p class="card-text">Excellent combination of features, ease of use, and price, Very happy new customer. I'm a very technical PC user (the "computer guy" in the family, you know the type) with a good ability to weigh the pro's and con's of different VPN products. PIA had an excellent combination of (1) features, (2) ease of use, and (3) price. Easy enough to install and use that even non-technical users could easily use it. Has all the key features I was looking for. Excellent price and value. I would happily recommend this to anyone wanting a VPN.</p>
@@ -80,7 +80,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item col-lg-4">
+                    <div class="carousel-item col-lg-4" id="4">
                         <div class="card">
                             <div class="card-body">
                                 <p class="card-text">I tested a lot of VPNs, often (even very often) the quality of the servers was zero, very long to connect to the VPN and to Internet sites, the ping was high and I had a very poor speed. Since I moved to Private_Internet_Access, everything has become fluid. The ping is good, the speed too, the speed of connection to the VPN as well as to Internet sites are instantaneous. In short I think I will stay on this VPN for a long time. I recommend this VPN if you want to take on</p>
@@ -117,20 +117,27 @@
 </section>
 <script type="text/javascript" src="https://unpkg.com/bootstrap@4.0.0/dist/js/bootstrap.js"></script>
 <script>
+    let ca = false;
     (function ($) {
         function carouselScroll(e) {
             var $e = $(e.relatedTarget);
             var idx = $e.index();
-           console.log(e.direction)
+            console.log("idx "+ idx)
             var itemsPerSlide = 3;
-            var totalItems = $(".carousel-item").length;
+            var totalItems = $(".carousel-item").length; // 4
+            console.log("totalItems - (itemsPerSlide - 1) "+ (totalItems - (itemsPerSlide - 1))) // 2 
             if (idx >= totalItems - (itemsPerSlide - 1)) {
-                var it = itemsPerSlide - (totalItems - idx);
+                var it = itemsPerSlide - (totalItems - idx); // 3 - (4 - idx)
+                console.log("it "+ it)
                 for (var i = 0; i < it; i++) {
                     if (e.direction == "left") {
+                        console.log(i + "left")
                         $(".carousel-item").eq(i).appendTo(".carousel-inner");
+                        // $("#reviews_caousel").carousel(i);
                     } else {
+                        console.log(i + "right")
                         $(".carousel-item").eq(0).appendTo(".carousel-inner");
+                        // $("#reviews_caousel").carousel(i);
                     }
                 }
             }
@@ -154,16 +161,19 @@
 
         }
         $( window ).resize(function() {
-            if(window.innerWidth > 991) {
+            if(window.innerWidth > 991 && !ca) {
             settings();
             $("#reviews_caousel").on("slide.bs.carousel", carouselScroll );
-        } else {
+            ca = true
+        } else if(window.innerWidth <= 991 && ca) {
             $("#reviews_caousel").off("slide.bs.carousel", carouselScroll );
+            ca = false
         }
         });
-        if(window.innerWidth > 991) {
+        if(window.innerWidth > 991 && !ca) {
             settings();
             $("#reviews_caousel").on("slide.bs.carousel", carouselScroll );
+            ca = true
         }
     })(jQuery);
 </script>

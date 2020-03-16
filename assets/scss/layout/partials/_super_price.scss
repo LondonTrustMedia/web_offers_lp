@@ -23,7 +23,7 @@
             flex: 0 0 370px;
             width: 95%;
             margin-top: 3rem;
-            max-height: 305px;
+            max-height: 335px;
         }
         @media screen and (max-width: $brk-mobile-width ) {
             max-width: 100%;
@@ -31,8 +31,9 @@
         }
         & .btn_wave {
             @media screen and (max-width: $brk-desktop-width) {
-                min-width: unset;
-                width: 180px;
+                min-width: 180px;
+                width: unset;
+                max-width: 100%;
             }
         }
         &:hover {
@@ -90,6 +91,8 @@
                 max-width: 370px;
                 flex: 0 0 370px;
                 width: 95%;
+                margin-top: 0;
+                max-height: 350px;
             }
             @media screen and (max-width: $brk-mobile-width) {
                 max-width: 100%;
@@ -133,6 +136,7 @@
             height: 55px;
             border-top-right-radius: 5px;
             border-top-left-radius: 5px;
+            flex: 0 0 55px;
 
             &.best-header {
                 @include linear-gradient(to bottom, $pia-green, darken($pia-green, 10%));
@@ -158,17 +162,29 @@
         &:nth-of-type(1) {
             & .header {
                 border-top-right-radius: 0;
+                @media screen and (max-width: $brk-ipad-width - 1) {
+                    border-top-right-radius: 5px;
+                }
             }
             & .body {
                 border-bottom-right-radius: 0;
+                @media screen and (max-width: $brk-ipad-width - 1) {
+                    border-bottom-right-radius: 5px;
+                }
             }
         }
         &:nth-of-type(3) {
             & .header {
                 border-top-left-radius: 0;
+                @media screen and (max-width: $brk-ipad-width - 1) {
+                    border-top-left-radius: 5px;
+                }
             }
             & .body {
                 border-bottom-left-radius: 0;
+                @media screen and (max-width: $brk-ipad-width - 1) {
+                    border-bottom-left-radius: 5px;
+                }
             }
         }
         & .super_container {

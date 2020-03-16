@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+=======
+
+>>>>>>> 753392f203d5f7ee9340b01fccd3ee2e3064646c
 <section id="carousel">
     <div class="container text-center border_bottom">
         <div class="mb-3"><img src="img/trustpilot3.svg" alt="trustpilot" class="trustpilot"></div>
@@ -117,14 +121,14 @@
         </div>
     </div>
 </section>
-<script type="text/javascript" src="https://unpkg.com/bootstrap@4.0.0/dist/js/bootstrap.js"></script>
+
 <script>
     let ca = false;
     (function ($) {
-        $("#reviews_caousel").swiperight(function() {
+        $("#reviews_caousel").on("swiperight",function() {
             $(this).carousel('prev');
-            });
-        $("#reviews_caousel").swipeleft(function() {
+        });
+        $("#reviews_caousel").on("swipeleft",function() {
             $(this).carousel('next');
         });
         function carouselScroll(e) {
@@ -136,13 +140,10 @@
             if (idx >= totalItems - (itemsPerSlide - 1)) {
                 var it = itemsPerSlide - (totalItems - idx); // 3 - (4 - idx)
                 for (var i = 0; i < it; i++) {
-                    if (e.direction == "left") {
-                        console.log(i + "left")
+                    if (e.direction == "left") 
                         $(".carousel-item").eq(i).appendTo(".carousel-inner");
-                    } else {
-                        console.log(i + "right")
+                     else 
                         $(".carousel-item").eq(0).appendTo(".carousel-inner");
-                    }
                 }
             }
         }

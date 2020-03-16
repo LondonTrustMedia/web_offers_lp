@@ -14,8 +14,11 @@
             <div class="container content">
                 <div class="col-45">
                     <h1 class="mt-3 mb-0"><%- gettext("Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>") %></h1>
-                    <% include ../partials/only_price %> 
+                    <div class="d-md-none d-block">
+                        <% include ../partials/only_price %> 
+                    </div>
                     <div class="text-center d-md-inline-block d-xl-block d-none">
+                        <% include ../partials/only_price %> 
                         <a href="<%- offerLink %>" class="btn_wave orange mb-3"><%- gettext("Get Private Internet Access VPN") %></a>
                         <p><%- format(gettext("Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee"), [30]) %></p>
                         <% if (query.brand) { %>

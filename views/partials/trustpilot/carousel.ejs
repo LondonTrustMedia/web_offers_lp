@@ -1,3 +1,5 @@
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 <section id="carousel">
     <div class="container text-center border_bottom">
         <div class="mb-3"><img src="img/trustpilot3.svg" alt="trustpilot" class="trustpilot"></div>
@@ -168,12 +170,27 @@
         } else if(window.innerWidth <= 991 && ca) {
             $("#reviews_caousel").off("slide.bs.carousel", carouselScroll );
             ca = false
+            if (window.innerWidth <= 575) {
+                $("#reviews_caousel").swiperight(function() {
+                    $(this).carousel('prev');
+                    });
+                $("#reviews_caousel").swipeleft(function() {
+                    $(this).carousel('next');
+                });
+            }
         }
         });
         if(window.innerWidth > 991 && !ca) {
             settings();
             $("#reviews_caousel").on("slide.bs.carousel", carouselScroll );
             ca = true
+        } else if (window.innerWidth <= 575) {
+            $("#reviews_caousel").swiperight(function() {
+                $(this).carousel('prev');
+                });
+            $("#reviews_caousel").swipeleft(function() {
+                $(this).carousel('next');
+            });
         }
     })(jQuery);
 </script>

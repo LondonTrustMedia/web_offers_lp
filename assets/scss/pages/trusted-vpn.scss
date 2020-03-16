@@ -58,7 +58,7 @@ header {
         min-height: 600px;
     }
     @media screen and (max-width: $brk-mobile-width) {
-        background-position: right calc(0% + -70px) top calc(100% - 30px);
+        background-position: right calc(0% + -33px) top calc(100% - 30px);
         min-height: 560px;
         html[lang=deu] &,html[lang=fra] & {
             background-position: right calc(0% + -10px) top calc(100% - 45px);

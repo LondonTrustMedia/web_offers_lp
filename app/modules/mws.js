@@ -95,14 +95,14 @@ module.exports = (app) => {
             console.log('cookie', cookie)
             console.log('req.lang', req.lang)
             console.log('req.get(\'host\')', req.fixedHost )
-            if (noLangInUrl && cookie !== undefined && cookie !== 'eng') {
+            if (noLangInUrl && cookie !== undefined) {
                 // If lang cookie found
                 console.log('Found Cookie - Redirecting to', req.protocol + '://' + cookie + '.' + req.fixedHost  + req.originalUrl)
-                res.redirect(301, req.protocol + '://' + cookie + '.' + req.fixedHost + req.originalUrl)
+                res.redirect(301, req.protocol + '://' + (cookie === 'eng' ? 'www' : cookie) + '.' + req.fixedHost + req.originalUrl)
                 return;
-            } else if (noLangInUrl && req.lang !== 'eng') {
+            } else if (noLangInUrl) {
                     console.log('Adding locale to the URL - Redirecting to', req.protocol + '://' + cookie + '.' + req.fixedHost  + req.originalUrl)
-                    res.redirect(301, req.protocol + '://' + req.lang + '.' + req.fixedHost  + req.originalUrl)
+                    res.redirect(301, req.protocol + '://' + (req.lang === 'eng' ? 'www' : req.lang) + '.' + req.fixedHost  + req.originalUrl)
             }  else { 
                 console.log(req.path)
                 res.cookie('pia_lang', req.lang, options);

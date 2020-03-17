@@ -27,14 +27,26 @@ p {
 }
 .price .b2mfree {
     left: 445px;
+    html[lang=fra] & {
+        left: 480px;
+      }
     @media screen and (max-width: $brk-desktop-width) {
         left: calc(50% + 200px);
+        html[lang=fra] & {
+            left: calc(50% + 225px);
+          }
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
         left: 200px;
+        html[lang=fra] & {
+            left: 200px;
+          }
     }
     @media screen and (max-width: $brk-mobile-width) {
         left: 170px;
+        html[lang=fra] & {
+            left: 185px;
+          }
     }
 }
 header {

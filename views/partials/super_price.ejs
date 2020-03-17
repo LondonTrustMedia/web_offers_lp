@@ -65,7 +65,8 @@
                 <% if (block.best) { %>
                     <div class="best-footer d-none d-md-block">
                         <div class="green d-flex flex-column align-items-center justify-content-center">
-                            <h5 class="color_white text-uppercase font-weight-bold mb-0"><%- gettext('Best<br>value') %></h5>
+                            <h5 class="color_white text-uppercase font-weight-bold mb-0 d-none"><%- gettext('Best<br>value') %></h5>
+                            <h5 class="color_white text-uppercase font-weight-bold mb-0"><%- format(gettext("+%s extra<br>months free"),[2]) %></h5>
                         </div>
                     </div>
                 <% } %>

@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Italian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-03-11 12:51\nLanguage: it_IT\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-11 12:51+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: it\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Italian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-03-17 16:44\nLanguage: it_IT\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-17 16:43+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: it\nX-Crowdin-File: messages.pot\n"
       },
       "US Dollars": [
          null,
@@ -1007,522 +1007,6 @@
          null,
          ""
       ],
-      "Connect to servers from all over the world": [
-         null,
-         ""
-      ],
-      "Servers": [
-         null,
-         ""
-      ],
-      "Countries": [
-         null,
-         ""
-      ],
-      "Compatible with all popular desktop and mobile operating systems": [
-         null,
-         ""
-      ],
-      "For a Limited Time Only<br>Grab our": [
-         null,
-         ""
-      ],
-      "DISCOUNT": [
-         null,
-         ""
-      ],
-      "Proud Sponsor Of": [
-         null,
-         ""
-      ],
-      "VPN Features": [
-         null,
-         ""
-      ],
-      "Secure VPN Account": [
-         null,
-         ""
-      ],
-      "Encrypted WiFi": [
-         null,
-         ""
-      ],
-      "P2P Support": [
-         null,
-         ""
-      ],
-      "PPTP, OpenVPN and L2TP/IPSec": [
-         null,
-         ""
-      ],
-      "%s devices simultaneously": [
-         null,
-         ""
-      ],
-      "Block ads, trackers, and malware": [
-         null,
-         ""
-      ],
-      "Multiple VPN Gateways": [
-         null,
-         ""
-      ],
-      "Unlimited Bandwidth": [
-         null,
-         ""
-      ],
-      "SOCKS5 Proxy Includeds": [
-         null,
-         ""
-      ],
-      "No traffic logs": [
-         null,
-         ""
-      ],
-      "Instant Setup": [
-         null,
-         ""
-      ],
-      "Easy to use": [
-         null,
-         ""
-      ],
-      "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
-         null,
-         ""
-      ],
-      "Get VPN Access": [
-         null,
-         ""
-      ],
-      "As recommended by": [
-         null,
-         ""
-      ],
-      "Your IP:": [
-         null,
-         ""
-      ],
-      "Your Location:": [
-         null,
-         ""
-      ],
-      "Your ISP:": [
-         null,
-         ""
-      ],
-      "Your Status:": [
-         null,
-         ""
-      ],
-      "You are not protected": [
-         null,
-         ""
-      ],
-      "Why choose Private Internet Access?": [
-         null,
-         ""
-      ],
-      "Total Privacy": [
-         null,
-         ""
-      ],
-      "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.": [
-         null,
-         ""
-      ],
-      "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.": [
-         null,
-         ""
-      ],
-      "Secure VPN Protocols": [
-         null,
-         ""
-      ],
-      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
-         null,
-         ""
-      ],
-      "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time.": [
-         null,
-         ""
-      ],
-      "Get Private Internet Access": [
-         null,
-         ""
-      ],
-      "Private Internet Access out-performs and out-features the competition": [
-         null,
-         ""
-      ],
-      "for ": [
-         null,
-         ""
-      ],
-      "/mo": [
-         null,
-         ""
-      ],
-      "Try it risk free! %s day money back guarantee": [
-         null,
-         ""
-      ],
-      "Monthly": [
-         null,
-         ""
-      ],
-      "Months": [
-         null,
-         ""
-      ],
-      "Yearly": [
-         null,
-         ""
-      ],
-      "Years": [
-         null,
-         ""
-      ],
-      "Best value": [
-         null,
-         ""
-      ],
-      "Save <b>%s%</b>": [
-         null,
-         ""
-      ],
-      "<del>%s</del> %s per month": [
-         null,
-         ""
-      ],
-      "<del>%s</del> %s per %s months": [
-         null,
-         ""
-      ],
-      "<del>%s</del> %s per year": [
-         null,
-         ""
-      ],
-      "<del>%s</del>%s per %s years": [
-         null,
-         ""
-      ],
-      "Sign up now": [
-         null,
-         ""
-      ],
-      "Best<br>value": [
-         null,
-         ""
-      ],
-      "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
-         null,
-         ""
-      ],
-      "Limited Time Only! <span class='color_pia_green'>Act Now</span>": [
-         null,
-         ""
-      ],
-      "%s<br><span>day</span>": [
-         null,
-         ""
-      ],
-      "money back guarantee": [
-         null,
-         ""
-      ],
-      "Remember, you're not risking anything.": [
-         null,
-         ""
-      ],
-      "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back.": [
-         null,
-         ""
-      ],
-      "%s day money back guarantee": [
-         null,
-         ""
-      ],
-      "If you’re not 100% satisfied with Private Internet Access, we’ll give you your money back. Try us risk free, that’s our %s day money back guarantee.": [
-         null,
-         ""
-      ],
-      "today's<br>offer": [
-         null,
-         ""
-      ],
-      "new": [
-         null,
-         ""
-      ],
-      "Why do I need Private Internet Access?": [
-         null,
-         ""
-      ],
-      "Protect your online privacy and identity": [
-         null,
-         ""
-      ],
-      "Browse anonymously with a private IP, and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
-         null,
-         ""
-      ],
-      "Unblock Censorship Filters": [
-         null,
-         ""
-      ],
-      "Enjoy unrestricted access to our anonymous VPN network. Unlock any geographic restrictions and protocol filters. Whether you're browsing or streaming, Private Internet Access will deliver.": [
-         null,
-         ""
-      ],
-      "The World's Leading VPN": [
-         null,
-         ""
-      ],
-      "Private Internet Access has the largest network capacity across the globe to provide the highest speeds and most encryption. Private Internet Access is the only proven no-log VPN service in the world.": [
-         null,
-         ""
-      ],
-      "Experience": [
-         null,
-         ""
-      ],
-      "Total Online Freedom": [
-         null,
-         ""
-      ],
-      "Bypass censorship and unblock sites and content you don't have access to": [
-         null,
-         ""
-      ],
-      "Secure Protection on Public Wi-Fi": [
-         null,
-         ""
-      ],
-      "Keep your data safe and private while connecting to any poorly secured network": [
-         null,
-         ""
-      ],
-      "Unlimited Bandwidth & Fast Download Speeds": [
-         null,
-         ""
-      ],
-      "Keep your downloads private and experience lightning fast speeds for P2P torrenting": [
-         null,
-         ""
-      ],
-      "Ad blocking": [
-         null,
-         ""
-      ],
-      "With Private Internet Access you can block ads, trackers, and malware": [
-         null,
-         ""
-      ],
-      "Get Private Internet Access VPN": [
-         null,
-         ""
-      ],
-      "World-class VPN service:": [
-         null,
-         ""
-      ],
-      "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
-         null,
-         ""
-      ],
-      "Unblock Streaming": [
-         null,
-         ""
-      ],
-      "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.": [
-         null,
-         ""
-      ],
-      "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.": [
-         null,
-         ""
-      ],
-      "Trusted By Companies Including:": [
-         null,
-         ""
-      ],
-      "Private Internet Access | Anonymous VPN Service Provider": [
-         null,
-         ""
-      ],
-      "Watch our 1 minute intro video": [
-         null,
-         ""
-      ],
-      "Why Choose Us?": [
-         null,
-         ""
-      ],
-      "Dedicated VPN Service": [
-         null,
-         ""
-      ],
-      "No Traffic or Request logs": [
-         null,
-         ""
-      ],
-      "US based corporation": [
-         null,
-         ""
-      ],
-      "Quality and reliability": [
-         null,
-         ""
-      ],
-      "Unbeatable price": [
-         null,
-         ""
-      ],
-      "Gigabit VPN port speeds": [
-         null,
-         ""
-      ],
-      "VPN service specialists": [
-         null,
-         ""
-      ],
-      "Professional support staff": [
-         null,
-         ""
-      ],
-      "SOCKS5 Proxy Included": [
-         null,
-         ""
-      ],
-      "OpenVPN, PPTP &amp; IPSEC/L2TP": [
-         null,
-         ""
-      ],
-      "Premium VPN Bandwidth": [
-         null,
-         ""
-      ],
-      "Unmetered VPN Transfer": [
-         null,
-         ""
-      ],
-      "Anonymous VPN": [
-         null,
-         ""
-      ],
-      "DD-WRT VPN Compatible": [
-         null,
-         ""
-      ],
-      "Instant activation": [
-         null,
-         ""
-      ],
-      "Customer <br>Review": [
-         null,
-         ""
-      ],
-      "Review by John S.": [
-         null,
-         ""
-      ],
-      "31h ago": [
-         null,
-         ""
-      ],
-      "…I'm glad you're here and I'm glad to put my money towards a great service. I wish you all the best of luck. I'm looking forward to enjoying a freer internet experience.": [
-         null,
-         ""
-      ],
-      "Review by %s": [
-         null,
-         ""
-      ],
-      "Based on %s reviews": [
-         null,
-         ""
-      ],
-      "Risk Free. %s day money back guarantee": [
-         null,
-         ""
-      ],
-      "Limited Time Only! Act Now": [
-         null,
-         ""
-      ],
-      "SAVE %s%": [
-         null,
-         ""
-      ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s month": [
-         null,
-         ""
-      ],
-      "BEST VALUE": [
-         null,
-         ""
-      ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per year": [
-         null,
-         ""
-      ],
-      "6 Months": [
-         null,
-         ""
-      ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per six months": [
-         null,
-         ""
-      ],
-      "%s+ Servers in %s Countries": [
-         null,
-         ""
-      ],
-      "... and growing": [
-         null,
-         ""
-      ],
-      "We accept all kinds of payment methods": [
-         null,
-         ""
-      ],
-      "click anywhere to close": [
-         null,
-         ""
-      ],
-      "for ONLY": [
-         null,
-         ""
-      ],
-      "/month": [
-         null,
-         ""
-      ],
-      "Use the internet from wherever": [
-         null,
-         ""
-      ],
-      "Choose your location from cities in the United States, the United Kingdom, Japan, or 27 other countries. With Private Internet Access, you are in control of your connection and IP address. There are 200+ locations to choose from with our private, encrypted VPN connection.": [
-         null,
-         ""
-      ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per month": [
-         null,
-         ""
-      ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s months": [
-         null,
-         ""
-      ],
-      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s years": [
-         null,
-         ""
-      ],
-      "Read full review": [
-         null,
-         ""
-      ],
       "OOPS!": [
          null,
          ""
@@ -1535,79 +1019,23 @@
          null,
          ""
       ],
+      "The Top VPN for<br>the <b>USA</b>": [
+         null,
+         ""
+      ],
       "The Top VPN for<br><b>Australia</b>": [
          null,
          ""
       ],
-      "Everyone needs<br><b>Protection</b>": [
+      "<b>Protect</b><br>yourself & your family": [
          null,
          ""
       ],
-      "The Top VPN for<br><b>Germany</b>": [
+      "With Private Internet Access®, your online activity is protected with encryption and an anonymous IP address.": [
          null,
          ""
       ],
-      "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
-         null,
-         ""
-      ],
-      "Private Internet Access VPN for %s% OFF": [
-         null,
-         ""
-      ],
-      "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>": [
-         null,
-         ""
-      ],
-      "Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>": [
-         null,
-         ""
-      ],
-      "<b>Unblock</b><br>a world of content": [
-         null,
-         ""
-      ],
-      "The Top VPN for<br>the <b>UK</b>": [
-         null,
-         ""
-      ],
-      "Rated as the Best VPN Service In<br><b><span class=\"color_pia_light_orange\">%s</span></b>": [
-         null,
-         ""
-      ],
-      "No Logs": [
-         null,
-         ""
-      ],
-      "Military-Grade Encryption": [
-         null,
-         ""
-      ],
-      "%s Devices": [
-         null,
-         ""
-      ],
-      "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
-         null,
-         ""
-      ],
-      "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
-         null,
-         ""
-      ],
-      "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN": [
-         null,
-         ""
-      ],
-      "100%</span> No Logs & Records": [
-         null,
-         ""
-      ],
-      "a VPN you can<br><b>trust</b>": [
-         null,
-         ""
-      ],
-      "The Top VPN for <br><b>%s</b>": [
+      "Reclaim your online privacy": [
          null,
          ""
       ],
@@ -1616,6 +1044,10 @@
          ""
       ],
       "Get the best prices on flights and hotels with Private Internet Access": [
+         null,
+         ""
+      ],
+      "Get Private Internet Access": [
          null,
          ""
       ],
@@ -1743,6 +1175,10 @@
          null,
          ""
       ],
+      "Everyone needs<br><b>Protection</b>": [
+         null,
+         ""
+      ],
       "The Best VPN for streaming": [
          null,
          ""
@@ -1859,6 +1295,138 @@
          null,
          ""
       ],
+      "Get Private Internet Access VPN": [
+         null,
+         ""
+      ],
+      "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>": [
+         null,
+         ""
+      ],
+      "Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>": [
+         null,
+         ""
+      ],
+      "Private Internet Access VPN for %s% OFF": [
+         null,
+         ""
+      ],
+      "The Top VPN for<br><b>France</b>": [
+         null,
+         ""
+      ],
+      "<b>Unblock</b><br>a world of content": [
+         null,
+         ""
+      ],
+      "Rated as the Best VPN Service In<br><b><span class=\"color_pia_light_orange\">%s</span></b>": [
+         null,
+         ""
+      ],
+      "No Logs": [
+         null,
+         ""
+      ],
+      "Military-Grade Encryption": [
+         null,
+         ""
+      ],
+      "%s Devices": [
+         null,
+         ""
+      ],
+      "Best VPN for <b>streaming</b>": [
+         null,
+         ""
+      ],
+      "Private Internet Access<br>streamlines your internet": [
+         null,
+         ""
+      ],
+      "According to the Video Advertising Bureau (VAB), <b>over 71%</b> of internet users in the United States stream and watch video over the internet.<br>Online streaming services and websites are becoming more popular every day all over the world.<br><b class='mt-1 d-inline-block'>Don’t miss out on video streaming opportunities because of your location.</b>": [
+         null,
+         ""
+      ],
+      "Sign up for Private Internet Access today!": [
+         null,
+         ""
+      ],
+      "Private Internet Access has no logs and does not throttle users": [
+         null,
+         ""
+      ],
+      "One click solution to bypass geographic restrictions": [
+         null,
+         ""
+      ],
+      "Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.": [
+         null,
+         ""
+      ],
+      "One Private Internet Access subscription can be used on up to five devices simultaneously. Share Private Internet Access with your whole family!": [
+         null,
+         ""
+      ],
+      "Four easy steps to stream with Private Internet Access": [
+         null,
+         ""
+      ],
+      "Start streaming with Private Internet Access in minutes": [
+         null,
+         ""
+      ],
+      "<b>Subscribe</b><br>to Private Internet Access": [
+         null,
+         ""
+      ],
+      "<b>Download</b><br>Private Internet Access": [
+         null,
+         ""
+      ],
+      "<b>Login</b><br>on the Private Internet Access client with your username and password": [
+         null,
+         ""
+      ],
+      "<b>Turn on</b><br>Private Internet Access and connect to the location of your choice": [
+         null,
+         ""
+      ],
+      "You’re ready to start streaming with <span>Private Internet Access</span>": [
+         null,
+         ""
+      ],
+      "Private Internet Access Streaming FAQ": [
+         null,
+         ""
+      ],
+      "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
+         null,
+         ""
+      ],
+      " Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
+         null,
+         ""
+      ],
+      "The Top VPN for<br><b>Germany</b>": [
+         null,
+         ""
+      ],
+      "<b>Privacy</b><br>is worth protecting": [
+         null,
+         ""
+      ],
+      "Without our VPN, your internet activity can be tracked and you are vulnerable.": [
+         null,
+         ""
+      ],
+      "Reclaim your privacy today": [
+         null,
+         ""
+      ],
+      "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
+         null,
+         ""
+      ],
       "The best VPN for Kodi": [
          null,
          ""
@@ -1907,19 +1475,11 @@
          null,
          ""
       ],
-      "Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.": [
-         null,
-         ""
-      ],
       "Use Kodi TV on multiple devices": [
          null,
          ""
       ],
       "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
-         null,
-         ""
-      ],
-      "Start streaming with Private Internet Access in minutes": [
          null,
          ""
       ],
@@ -1959,19 +1519,35 @@
          null,
          ""
       ],
-      "<b>Privacy</b><br>is worth protecting": [
+      "for ": [
          null,
          ""
       ],
-      "Without our VPN, your internet activity can be tracked and you are vulnerable.": [
+      "/mo": [
          null,
          ""
       ],
-      "Reclaim your privacy today": [
+      "%s extra<br>months free": [
          null,
          ""
       ],
-      "<b>Protect</b><br>your family’s devices today": [
+      "Try it risk free! %s day money back guarantee": [
+         null,
+         ""
+      ],
+      "a VPN you can<br><b>trust</b>": [
+         null,
+         ""
+      ],
+      "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
+         null,
+         ""
+      ],
+      "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
+         null,
+         ""
+      ],
+      "The Top VPN for <br><b>%s</b>": [
          null,
          ""
       ],
@@ -1979,23 +1555,527 @@
          null,
          ""
       ],
-      "The Top VPN for<br>the <b>USA</b>": [
+      "<b>Protect</b><br>your family’s devices today": [
          null,
          ""
       ],
-      "The Top VPN for<br><b>France</b>": [
+      "The Top VPN for<br>the <b>UK</b>": [
          null,
          ""
       ],
-      "<b>Protect</b><br>yourself & your family": [
+      "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN": [
          null,
          ""
       ],
-      "With Private Internet Access®, your online activity is protected with encryption and an anonymous IP address.": [
+      "100%</span> No Logs & Records": [
          null,
          ""
       ],
-      "Reclaim your online privacy": [
+      "Proud Sponsor Of": [
+         null,
+         ""
+      ],
+      "Customer <br>Review": [
+         null,
+         ""
+      ],
+      "Review by John S.": [
+         null,
+         ""
+      ],
+      "31h ago": [
+         null,
+         ""
+      ],
+      "…I'm glad you're here and I'm glad to put my money towards a great service. I wish you all the best of luck. I'm looking forward to enjoying a freer internet experience.": [
+         null,
+         ""
+      ],
+      "Review by %s": [
+         null,
+         ""
+      ],
+      "Based on %s reviews": [
+         null,
+         ""
+      ],
+      "Monthly": [
+         null,
+         ""
+      ],
+      "Months": [
+         null,
+         ""
+      ],
+      "Yearly": [
+         null,
+         ""
+      ],
+      "Years": [
+         null,
+         ""
+      ],
+      "Best value": [
+         null,
+         ""
+      ],
+      "Save <b>%s%</b>": [
+         null,
+         ""
+      ],
+      "<del>%s</del> %s per month": [
+         null,
+         ""
+      ],
+      "<del>%s</del> %s per %s months": [
+         null,
+         ""
+      ],
+      "<del>%s</del> %s per year": [
+         null,
+         ""
+      ],
+      "<del>%s</del>%s per %s years": [
+         null,
+         ""
+      ],
+      "Sign up now": [
+         null,
+         ""
+      ],
+      "Best<br>value": [
+         null,
+         ""
+      ],
+      "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
+         null,
+         ""
+      ],
+      "Trusted By Companies Including:": [
+         null,
+         ""
+      ],
+      "Why choose Private Internet Access?": [
+         null,
+         ""
+      ],
+      "Total Privacy": [
+         null,
+         ""
+      ],
+      "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.": [
+         null,
+         ""
+      ],
+      "Easy to use": [
+         null,
+         ""
+      ],
+      "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.": [
+         null,
+         ""
+      ],
+      "Secure VPN Protocols": [
+         null,
+         ""
+      ],
+      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
+         null,
+         ""
+      ],
+      "%s devices simultaneously": [
+         null,
+         ""
+      ],
+      "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time.": [
+         null,
+         ""
+      ],
+      "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
+         null,
+         ""
+      ],
+      "Risk Free. %s day money back guarantee": [
+         null,
+         ""
+      ],
+      "Limited Time Only! Act Now": [
+         null,
+         ""
+      ],
+      "BEST VALUE": [
+         null,
+         ""
+      ],
+      "SAVE %s%": [
+         null,
+         ""
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per month": [
+         null,
+         ""
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s months": [
+         null,
+         ""
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per year": [
+         null,
+         ""
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s years": [
+         null,
+         ""
+      ],
+      "World-class VPN service:": [
+         null,
+         ""
+      ],
+      "Protect your online privacy and identity": [
+         null,
+         ""
+      ],
+      "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
+         null,
+         ""
+      ],
+      "Unblock Streaming": [
+         null,
+         ""
+      ],
+      "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.": [
+         null,
+         ""
+      ],
+      "The World's Leading VPN": [
+         null,
+         ""
+      ],
+      "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.": [
+         null,
+         ""
+      ],
+      "Use the internet from wherever": [
+         null,
+         ""
+      ],
+      "Choose your location from cities in the United States, the United Kingdom, Japan, or 27 other countries. With Private Internet Access, you are in control of your connection and IP address. There are 200+ locations to choose from with our private, encrypted VPN connection.": [
+         null,
+         ""
+      ],
+      "Servers": [
+         null,
+         ""
+      ],
+      "Countries": [
+         null,
+         ""
+      ],
+      "Experience": [
+         null,
+         ""
+      ],
+      "Total Online Freedom": [
+         null,
+         ""
+      ],
+      "Bypass censorship and unblock sites and content you don't have access to": [
+         null,
+         ""
+      ],
+      "Secure Protection on Public Wi-Fi": [
+         null,
+         ""
+      ],
+      "Keep your data safe and private while connecting to any poorly secured network": [
+         null,
+         ""
+      ],
+      "Unlimited Bandwidth & Fast Download Speeds": [
+         null,
+         ""
+      ],
+      "Keep your downloads private and experience lightning fast speeds for P2P torrenting": [
+         null,
+         ""
+      ],
+      "Ad blocking": [
+         null,
+         ""
+      ],
+      "With Private Internet Access you can block ads, trackers, and malware": [
+         null,
+         ""
+      ],
+      "<b>+%s</b><br>extra months<br><span>free</span>": [
+         null,
+         ""
+      ],
+      "%s day money back guarantee": [
+         null,
+         ""
+      ],
+      "If you’re not 100% satisfied with Private Internet Access, we’ll give you your money back. Try us risk free, that’s our %s day money back guarantee.": [
+         null,
+         ""
+      ],
+      "new": [
+         null,
+         ""
+      ],
+      "Limited Time Only! <span class='color_pia_green'>Act Now</span>": [
+         null,
+         ""
+      ],
+      "%s<br><span>day</span>": [
+         null,
+         ""
+      ],
+      "money back guarantee": [
+         null,
+         ""
+      ],
+      "Remember, you're not risking anything.": [
+         null,
+         ""
+      ],
+      "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back.": [
+         null,
+         ""
+      ],
+      "Read full review": [
+         null,
+         ""
+      ],
+      "Compatible with all popular desktop and mobile operating systems": [
+         null,
+         ""
+      ],
+      "Why Choose Us?": [
+         null,
+         ""
+      ],
+      "Dedicated VPN Service": [
+         null,
+         ""
+      ],
+      "No Traffic or Request logs": [
+         null,
+         ""
+      ],
+      "US based corporation": [
+         null,
+         ""
+      ],
+      "Quality and reliability": [
+         null,
+         ""
+      ],
+      "Unbeatable price": [
+         null,
+         ""
+      ],
+      "Gigabit VPN port speeds": [
+         null,
+         ""
+      ],
+      "VPN service specialists": [
+         null,
+         ""
+      ],
+      "Professional support staff": [
+         null,
+         ""
+      ],
+      "SOCKS5 Proxy Included": [
+         null,
+         ""
+      ],
+      "OpenVPN, PPTP &amp; IPSEC/L2TP": [
+         null,
+         ""
+      ],
+      "Premium VPN Bandwidth": [
+         null,
+         ""
+      ],
+      "Unmetered VPN Transfer": [
+         null,
+         ""
+      ],
+      "Anonymous VPN": [
+         null,
+         ""
+      ],
+      "DD-WRT VPN Compatible": [
+         null,
+         ""
+      ],
+      "Instant activation": [
+         null,
+         ""
+      ],
+      "%s+ Servers in %s Countries": [
+         null,
+         ""
+      ],
+      "... and growing": [
+         null,
+         ""
+      ],
+      "Watch our 1 minute intro video": [
+         null,
+         ""
+      ],
+      "click anywhere to close": [
+         null,
+         ""
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s month": [
+         null,
+         ""
+      ],
+      "6 Months": [
+         null,
+         ""
+      ],
+      "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per six months": [
+         null,
+         ""
+      ],
+      "We accept all kinds of payment methods": [
+         null,
+         ""
+      ],
+      "Private Internet Access out-performs and out-features the competition": [
+         null,
+         ""
+      ],
+      "Why do I need Private Internet Access?": [
+         null,
+         ""
+      ],
+      "Browse anonymously with a private IP, and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
+         null,
+         ""
+      ],
+      "Unblock Censorship Filters": [
+         null,
+         ""
+      ],
+      "Enjoy unrestricted access to our anonymous VPN network. Unlock any geographic restrictions and protocol filters. Whether you're browsing or streaming, Private Internet Access will deliver.": [
+         null,
+         ""
+      ],
+      "Private Internet Access has the largest network capacity across the globe to provide the highest speeds and most encryption. Private Internet Access is the only proven no-log VPN service in the world.": [
+         null,
+         ""
+      ],
+      "VPN Features": [
+         null,
+         ""
+      ],
+      "Secure VPN Account": [
+         null,
+         ""
+      ],
+      "Encrypted WiFi": [
+         null,
+         ""
+      ],
+      "P2P Support": [
+         null,
+         ""
+      ],
+      "PPTP, OpenVPN and L2TP/IPSec": [
+         null,
+         ""
+      ],
+      "Block ads, trackers, and malware": [
+         null,
+         ""
+      ],
+      "Multiple VPN Gateways": [
+         null,
+         ""
+      ],
+      "Unlimited Bandwidth": [
+         null,
+         ""
+      ],
+      "SOCKS5 Proxy Includeds": [
+         null,
+         ""
+      ],
+      "No traffic logs": [
+         null,
+         ""
+      ],
+      "Instant Setup": [
+         null,
+         ""
+      ],
+      "FREE": [
+         null,
+         ""
+      ],
+      "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE": [
+         null,
+         ""
+      ],
+      "For a Limited Time Only<br>Grab our": [
+         null,
+         ""
+      ],
+      "DISCOUNT": [
+         null,
+         ""
+      ],
+      "Get VPN Access": [
+         null,
+         ""
+      ],
+      "for ONLY": [
+         null,
+         ""
+      ],
+      "/month": [
+         null,
+         ""
+      ],
+      "Private Internet Access | Anonymous VPN Service Provider": [
+         null,
+         ""
+      ],
+      "Connect to servers from all over the world": [
+         null,
+         ""
+      ],
+      "Your IP:": [
+         null,
+         ""
+      ],
+      "Your Location:": [
+         null,
+         ""
+      ],
+      "Your ISP:": [
+         null,
+         ""
+      ],
+      "Your Status:": [
+         null,
+         ""
+      ],
+      "You are not protected": [
+         null,
+         ""
+      ],
+      "As recommended by": [
+         null,
+         ""
+      ],
+      "today's<br>offer": [
          null,
          ""
       ]

@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Italian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-03-17 16:44\nLanguage: it_IT\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-17 16:43+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: it\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Italian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-03-17 17:52\nLanguage: it_IT\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-17 17:50+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: it\nX-Crowdin-File: messages.pot\n"
       },
       "US Dollars": [
          null,
@@ -1644,6 +1644,10 @@
          ""
       ],
       "Best<br>value": [
+         null,
+         ""
+      ],
+      "+%s extra<br>months free": [
          null,
          ""
       ],

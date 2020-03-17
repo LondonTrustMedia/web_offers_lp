@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: Spanish\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-17 17:04\n"
+"PO-Revision-Date: 2020-03-17 17:52\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-03-17 16:43+0000\n"
+"POT-Creation-Date: 2020-03-17 17:50+0000\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: es-ES\n"
@@ -1355,8 +1355,8 @@ msgstr ""
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:90
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:19
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:63
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:23
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:60
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:24
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:61
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:65
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:34
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:128
@@ -1375,14 +1375,14 @@ msgstr ""
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:85
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:57
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:58
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:55
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:56
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:60
 msgid "Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:62
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:62
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:18
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:21
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:18
 msgid "Private Internet Access VPN for %s% OFF"
 msgstr ""
@@ -1643,7 +1643,7 @@ msgstr ""
 msgid "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:24
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:25
 msgid "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee"
 msgstr ""
 
@@ -1770,7 +1770,11 @@ msgstr ""
 msgid "Best<br>value"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:75
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:69
+msgid "+%s extra<br>months free"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:76
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:54
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:67
 msgid "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month"
@@ -2227,11 +2231,11 @@ msgstr ""
 msgid "Instant Setup"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/b2mfree_new.ejs:13
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/b2mfree_new.ejs:14
 msgid "FREE"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/b2mfree_new.ejs:16
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/b2mfree_new.ejs:17
 msgid "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE"
 msgstr ""
 

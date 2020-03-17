@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-03-17 17:04\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-17 16:43+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-03-17 17:52\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-17 17:50+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
       },
       "US Dollars": [
          null,
@@ -1646,6 +1646,10 @@
       "Best<br>value": [
          null,
          "Meilleure<br>offre"
+      ],
+      "+%s extra<br>months free": [
+         null,
+         "+%s mois<br>extra gratuits"
       ],
       "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
          null,

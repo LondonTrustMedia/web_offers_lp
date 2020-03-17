@@ -66,67 +66,46 @@
         <% include ../partials/trusted_companies %>
         <section id="streaming_needs">
             <div class="container text-center">
-                <div class="mb-5">
+                <div class="mb-lg-5 mb-3">
                     <h2 class="mb-0"><%- gettext("A must have for your streaming needs") %></h2>
-                    <p class="my-5 color_dark"><%- gettext("According to the Video Advertising Bureau (VAB), <b>over 71%</b> of internet users in the United States stream and watch video over the internet.<br>Online streaming services and websites are becoming more popular every day all over the world.<br><b class='mt-1 d-inline-block'>Don’t miss out on video streaming opportunities because of your location.</b>") %></p>
+                    <p class="my-lg-5 my-3 color_dark mb-"><%- gettext("According to the Video Advertising Bureau (VAB), <b>over 71%</b> of internet users in the United States stream and watch video over the internet.<br>Online streaming services and websites are becoming more popular every day all over the world.<br><b class='mt-1 d-inline-block'>Don’t miss out on video streaming opportunities because of your location.</b>") %></p>
                     <a href="<%- offerLink %>" class="btn_wave orange my-3 d-md-inline-block d-none"><%- gettext("Sign up for Private Internet Access today!") %></a>
                 </div>
-                <div class="d-flex justify-content-md-between justify-content-center flex-md-row flex-column">
+                <div class="d-flex justify-content-md-between justify-content-center flex-lg-row flex-column">
                     <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
-                        <div class="mb-3"><img src="img/pia_lockman/circle_box_pia_lockman_infinity.svg" alt="Infinity"></div>
-                        <h6 class="my-2 text-uppercase"><%- gettext("Unlimited bandwidth for streaming") %></h6>
-                        <p class="mb-0"><%- gettext("Private Internet Access has no logs and does not throttle users") %></p>
+                        <div class="mb-3 mr-3 mr-lg-0"><img src="img/pia_lockman/circle_box_pia_lockman_infinity.svg" alt="Infinity"></div>
+                        <div>
+                            <h6 class="my-2 text-uppercase"><%- gettext("Unlimited bandwidth for streaming") %></h6>
+                            <p class="mb-0"><%- gettext("Private Internet Access has no logs and does not throttle users") %></p>
+                        </div>
                     </div>
                     <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
-                        <div class="mb-3"><img src="img/pia_lockman/circle_box_pia_lockman_devices.svg" alt="Devices"></div>
-                        <h6 class="my-2 text-uppercase"><%- gettext("One click solution to bypass geographic restrictions") %></h6>
-                        <p class="mb-0"><%- gettext("Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.") %></p>
+                        <div class="mb-3 mr-3 mr-lg-0"><img src="img/pia_lockman/circle_box_pia_lockman_devices.svg" alt="Devices"></div>
+                        <div>
+                            <h6 class="my-2 text-uppercase"><%- gettext("One click solution to bypass geographic restrictions") %></h6>
+                            <p class="mb-0"><%- gettext("Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.") %></p>
+                        </div>
                     </div>
                     <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
-                        <div class="mb-3"><img src="img/pia_lockman/circle_box_pia_lockman_one_click.svg" alt="One click"></div>
-                        <h6 class="my-2 text-uppercase"><%- gettext("Stream on multiple devices") %></h6>
-                        <p class="mb-0"><%- gettext("One Private Internet Access subscription can be used on up to five devices simultaneously. Share Private Internet Access with your whole family!") %></p>
+                        <div class="mb-3 mr-3 mr-lg-0"><img src="img/pia_lockman/circle_box_pia_lockman_one_click.svg" alt="One click"></div>
+                        <div>
+                            <h6 class="my-2 text-uppercase"><%- gettext("Stream on multiple devices") %></h6>
+                            <p class="mb-0"><%- gettext("One Private Internet Access subscription can be used on up to five devices simultaneously. Share Private Internet Access with your whole family!") %></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="steps">
-            <div class="container text-center">
-                <h2><%- gettext("Four easy steps to stream with Private Internet Access") %></h2>
-                <h3><%- gettext("Start streaming with Private Internet Access in minutes") %></h3>
-                <div class="d-flex justify-content-md-between justify-content-center flex-md-row flex-column">
-                    <div class="step">
-                        <div class="circle">
-                            <div class="num">1</div>
-                        </div>
-                        <p class="mb-0"><%- gettext("<b>Subscribe</b><br>to Private Internet Access") %></p>
-                    </div>
-                    <div class="arrow"><i class="fal fa-arrow-right"></i></div>
-                    <div class="step">
-                        <div class="circle">
-                            <div class="num">2</div>
-                        </div>
-                        <p class="mb-0"><%- gettext("<b>Download</b><br>Private Internet Access") %></p>
-                    </div>
-                    <div class="arrow"><i class="fal fa-arrow-right"></i></div>
-                    <div class="step">
-                        <div class="circle">
-                            <div class="num">3</div>
-                        </div>
-                        <p class="mb-0"><%- gettext("<b>Login</b><br>on the Private Internet Access client with your username and password") %></p>
-                    </div>
-                    <div class="arrow"><i class="fal fa-arrow-right"></i></div>
-                    <div class="step">
-                        <div class="circle">
-                            <div class="num">4</div>
-                        </div>
-                        <p class="mb-0"><%- gettext("<b>Turn on</b><br>Private Internet Access and connect to the location of your choice") %></p>
-                    </div>
-                    <div class="arrow"><i class="fal fa-arrow-right"></i></div>
-                </div>
-                <h2 class="text-uppercase"><%- gettext("You’re ready to start streaming with <span>Private Internet Access</span>") %></h2>
-            </div>
-        </section>
+        <%- include('../partials/steps', {title: gettext('Four easy steps to stream with Private Internet Access'),
+                                            subtitle: gettext('Start streaming with Private Internet Access in minutes'),
+                                            steps:[
+                                                    gettext('<b>Subscribe</b><br>to Private Internet Access'),
+                                                    gettext('<b>Download</b><br>Private Internet Access'),
+                                                    gettext('<b>Login</b><br>on the Private Internet Access client with your username and password'),
+                                                    gettext('<b>Turn on</b><br>Private Internet Access and connect to the location of your choice')
+                                                ],
+                                            footer: gettext('You’re ready to start streaming with <span>Private Internet Access</span>')
+        }) %>
         <%- include('../partials/new_faq', {title: gettext('Private Internet Access Streaming FAQ'),
                                     qas:[
                                             {

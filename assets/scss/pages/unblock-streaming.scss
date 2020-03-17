@@ -211,6 +211,9 @@ header {
 #streaming_needs {
     & img {
         width: 185px;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            width: 100px;
+        }
         @media screen and (max-width: $brk-ipad-width - 1) {
             width: 85px;
             margin-left: -25px;

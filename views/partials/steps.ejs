@@ -1,0 +1,23 @@
+<section id="steps">
+    <div class="container text-center">
+        <h2><%- title %></h2>
+        <h3><%- subtitle %></h3>
+        <div class="d-flex justify-content-md-between justify-content-center flex-md-row flex-column">
+            <% steps.forEach(function(step,i) { %>
+                <div class="step" data-percent="<%- (((i + 1) / steps.length ) * 100 ) %>">
+                    <div class="circle">
+                        <div class="num"><%- (i + 1) %></div>
+                        <svg width="200" height="200">
+                            <circle class="outer" cx="95" cy="95" r="85"/>
+                        </svg>
+                    </div>
+                    <p class="mb-0"><%- step[i] %></p>
+                </div>
+                <% if (steps.length != i) { %>
+                    <div class="arrow"><i class="fal fa-arrow-right"></i></div>
+                <% } %>
+            <% }) %>
+        </div>
+        <h2 class="text-uppercase">><%- footer %></h2>
+    </div>
+</section>

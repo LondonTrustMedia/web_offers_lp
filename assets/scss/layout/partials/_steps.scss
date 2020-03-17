@@ -1,0 +1,18 @@
+#steps {
+  & h2 {
+  }
+  & h3 {
+  }
+  & .step {
+    & .circle {
+      & .outer {
+        stroke-linecap: round;
+        transform: rotate(-90, 95, 95);
+        -webkit-transform: rotate(-90, 95, 95);
+        -moz-transform: rotate(-90, 95, 95);
+        -ms-transform: rotate(-90, 95, 95);
+        -o-transform: rotate(-90, 95, 95);
+      }
+    }
+  }
+}

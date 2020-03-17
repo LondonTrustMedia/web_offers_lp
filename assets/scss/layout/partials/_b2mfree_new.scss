@@ -1,11 +1,17 @@
 .price {
   & .b2mfree {
-    top: -15px;
-    left: 370px;
+    top: 30px;
+    left: 390px;
     right: unset;
+    html[lang=fra] & {
+      left: 460px;
+    }
     @media screen and (max-width: $brk-ipad-width - 1) {
       top: 15px;
       left: 185px;
+      html[lang=fra] & {
+        left: 220px;
+      }
     }
     @media screen and (max-width: $brk-mobile-width) {
       height: 120px;
@@ -13,21 +19,20 @@
       top: 0px;
       left: 160px;
       right: unset;
+      html[lang=fra] & {
+        left: 195px;
+      }
     }
   }
 }
 .b2mfree {
-  height: 225px;
-  width: 250px;
+  height: 200px;
+  width: 180px;
   z-index: 12;
   position: absolute;
   top: 85px;
   right: -175px;
 
-  @media screen and (max-width: $brk-desktop-width) {
-    height: 190px;
-    width: 195px;
-  }
   @media screen and (max-width: $brk-ipad-width - 1) {
     top: 10px;
   }
@@ -41,6 +46,19 @@
   & svg {
     & .Text_White {
       fill: #fff;
+       & text:nth-of-type(4) {
+        html[lang=fra] & {
+          font-size: 30px;
+        }
+       }
+    }
+    & .text {
+      & text:nth-of-type(3) {
+        html[lang=fra] & {
+          font-size: 20px;
+          transform: translate(55px, 130px) rotate(13deg);
+        }
+      }
     }
   }
   & .title {

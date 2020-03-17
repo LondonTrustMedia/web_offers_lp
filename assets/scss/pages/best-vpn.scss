@@ -22,7 +22,17 @@ h2 {
 p {
     color: $color-text-light;
 }
-
+.b2mfree {
+    top: 0;
+    right: -160px;
+    @media screen and (max-width: $brk-ipad-width - 1) {
+        top: -60px;
+        left: 235px;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+        left: 180px;
+    }
+}
 .container {
     @media screen and (max-width: $brk-min-desktop-width) {
         max-width: 95%;

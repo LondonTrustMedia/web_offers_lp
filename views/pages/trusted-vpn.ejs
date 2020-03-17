@@ -18,8 +18,9 @@
                         <% include ../partials/only_price %> 
                         <% include ../partials/b2mfree_new %>
                     </div>
-                    <div class="text-center d-md-inline-block d-xl-block d-none">
+                    <div class="text-center d-md-inline-block d-xl-block d-none position-relative price">
                         <% include ../partials/only_price %> 
+                        <% include ../partials/b2mfree_new %>
                         <a href="<%- offerLink %>" class="btn_wave orange mb-3"><%- gettext("Get Private Internet Access VPN") %></a>
                         <p><%- format(gettext("Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee"), [30]) %></p>
                         <% if (query.brand) { %>

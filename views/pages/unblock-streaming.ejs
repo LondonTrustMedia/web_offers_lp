@@ -68,23 +68,23 @@
             <div class="container text-center">
                 <div class="mb-5">
                     <h2 class="mb-0"><%- gettext("A must have for your streaming needs") %></h2>
-                    <p class="my-5"><%- gettext("According to the Video Advertising Bureau (VAB), <b>over 71%</b> of internet users in the United States stream and watch video over the internet.<br>Online streaming services and websites are becoming more popular every day all over the world.<br><b>Don’t miss out on video streaming opportunities because of your location.</b>") %></p>
+                    <p class="my-5 color_dark"><%- gettext("According to the Video Advertising Bureau (VAB), <b>over 71%</b> of internet users in the United States stream and watch video over the internet.<br>Online streaming services and websites are becoming more popular every day all over the world.<br><b class='mt-1 d-inline-block'>Don’t miss out on video streaming opportunities because of your location.</b>") %></p>
                     <a href="<%- offerLink %>" class="btn_wave orange my-3 d-md-inline-block d-none"><%- gettext("Sign up for Private Internet Access today!") %></a>
                 </div>
                 <div class="d-flex justify-content-md-between justify-content-center flex-md-row flex-column">
-                    <div class="col-md-4">
-                        <div><img src="img/pia_lockman/circle_box_pia_lockman_infinity.svg" alt="Infinity"></div>
-                        <h5 class="my-2 text-uppercase"><%- gettext("Unlimited bandwidth for streaming") %></h5>
+                    <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
+                        <div class="mb-3"><img src="img/pia_lockman/circle_box_pia_lockman_infinity.svg" alt="Infinity"></div>
+                        <h6 class="my-2 text-uppercase"><%- gettext("Unlimited bandwidth for streaming") %></h6>
                         <p class="mb-0"><%- gettext("Private Internet Access has no logs and does not throttle users") %></p>
                     </div>
-                    <div class="col-md-4">
-                        <div><img src="img/pia_lockman/circle_box_pia_lockman_devices.svg" alt="Devices"></div>
-                        <h5 class="my-2 text-uppercase"><%- gettext("One click solution to bypass geographic restrictions") %></h5>
+                    <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
+                        <div class="mb-3"><img src="img/pia_lockman/circle_box_pia_lockman_devices.svg" alt="Devices"></div>
+                        <h6 class="my-2 text-uppercase"><%- gettext("One click solution to bypass geographic restrictions") %></h6>
                         <p class="mb-0"><%- gettext("Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.") %></p>
                     </div>
-                    <div class="col-md-4">
-                        <div><img src="img/pia_lockman/circle_box_pia_lockman_one_click.svg" alt="One click"></div>
-                        <h5 class="my-2 text-uppercase"><%- gettext("Stream on multiple devices") %></h5>
+                    <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
+                        <div class="mb-3"><img src="img/pia_lockman/circle_box_pia_lockman_one_click.svg" alt="One click"></div>
+                        <h6 class="my-2 text-uppercase"><%- gettext("Stream on multiple devices") %></h6>
                         <p class="mb-0"><%- gettext("One Private Internet Access subscription can be used on up to five devices simultaneously. Share Private Internet Access with your whole family!") %></p>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
         <section id="steps">
             <div class="container text-center">
                 <h2><%- gettext("Four easy steps to stream with Private Internet Access") %></h2>
-                <h3><%- gettext(Start streaming with Private Internet Access in minutes) %></h3>
+                <h3><%- gettext("Start streaming with Private Internet Access in minutes") %></h3>
                 <div class="d-flex justify-content-md-between justify-content-center flex-md-row flex-column">
                     <div class="step">
                         <div class="circle">
@@ -127,6 +127,31 @@
                 <h2 class="text-uppercase"><%- gettext("You’re ready to start streaming with <span>Private Internet Access</span>") %></h2>
             </div>
         </section>
+        <%- include('../partials/new_faq', {title: gettext('Private Internet Access Streaming FAQ'),
+                                    qas:[
+                                            {
+                                                'question': gettext('Is it safe to stream with Private Internet Access?'),
+                                                'answer': gettext('Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?')
+                                            },
+                                            {
+                                                'question': gettext('Do you have a refund policy?'),
+                                                'answer': gettext('Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!')
+                                            },
+                                            {
+                                                'question': gettext('Will my IP address be exposed to streaming services or websites?'),
+                                                'answer': gettext('By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address.')
+                                            },
+                                            {
+                                                'question': gettext('Does Private Internet Access limit the bandwidth that streamers can use?'),
+                                                'answer': gettext('Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.')
+                                            },
+                                            {
+                                                'question': gettext('Will Private Internet Access be blocked on my favorite streaming service or website?'),
+                                                'answer': gettext(' Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.')
+                                            }
+                                        ]
+        }) %>
+        <% include ../partials/footers/dark_footer %>
         <% include ../partials/tag_manager %>
         <script src="<%= asset('js/trust.js') %>"></script>
     </body>

@@ -6,7 +6,9 @@
 
 @import '../layout/partials/discount_block';
 
-@import '../layout/body/general';
+@import '../layout/partials/trusted_companies';
+@import '../layout/partials/new_faq';
+@import '../layout/footer/dark_footer';
 
 h2 {
     font-weight: 400;
@@ -18,6 +20,10 @@ h2 {
     }
 }
 
+.border_bottom {
+    border-bottom: 1px solid #5EB258;
+    padding-bottom: 30px;
+}
 p {
     color: $color-text-light;
 }
@@ -203,7 +209,27 @@ header {
     }
 }
 #streaming_needs {
-    & h5 {
+    & img {
+        width: 185px;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            width: 85px;
+            margin-left: -25px;
+        }
+    }
+    & p {
+        color: $color-text-light;
+        &.color_dark {
+            color: $color-text-dark;
+        }
+    }
+    & h6 {
         color: $color-text-dark;
+        height: 50px;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            height: unset;
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            font-size: 1rem;
+        }
     }
 }

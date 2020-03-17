@@ -42,6 +42,9 @@
         font-size: 2.2em;
         margin-top: .25rem;
         display: inline-block;
+        html[lang=fra] & {
+          font-size: 1.4em;
+        }
     }
   }
 }

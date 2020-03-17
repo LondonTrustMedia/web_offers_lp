@@ -1,7 +1,7 @@
 .price {
   & .b2mfree {
-    top: -15px;
-    left: 370px;
+    top: 30px;
+    left: 390px;
     right: unset;
     @media screen and (max-width: $brk-ipad-width - 1) {
       top: 15px;
@@ -17,17 +17,13 @@
   }
 }
 .b2mfree {
-  height: 225px;
-  width: 250px;
+  height: 200px;
+  width: 180px;
   z-index: 12;
   position: absolute;
   top: 85px;
   right: -175px;
 
-  @media screen and (max-width: $brk-desktop-width) {
-    height: 190px;
-    width: 195px;
-  }
   @media screen and (max-width: $brk-ipad-width - 1) {
     top: 10px;
   }

@@ -4,9 +4,25 @@
   background-size: 3840px 705px;
   background-position: center top;
   min-height: 705px;
-  & h2 {
+  padding-top: 120px;
+  color: #fff;
+  & p {
+    & b {
+      color: $pia-green;
+    }
   }
   & h3 {
+    font-weight: 300;
+  }
+  & .footer_text {
+    font-weight: 600;
+    & span {
+      color: $pia-green;
+    }
+  }
+  & .arrow {
+    margin-top: 85px;
+    font-size: 2.5rem;
   }
   & .step {
     $strokeFill: 534;
@@ -32,7 +48,7 @@
       }
       & .shadow_circle {
         fill: transparent;
-        stroke: rgba($color-text-light,0.2);
+        stroke: rgba($color-text-light, 0.2);
         stroke-width: 20;
       }
       & .num {

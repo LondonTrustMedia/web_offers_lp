@@ -18,7 +18,10 @@
                         <a href="<%- offerLink %>" class="btn_wave orange my-3"><%- format(gettext("Private Internet Access VPN for %s% OFF"),[prices.blocks[1].discount]) %></a>
                         <p class="color_white mb-0"><span class="color_pia_light_orange"><i class="fas fa-circle mr-2"></i><%- gettext("100%</span> No Logs & Records") %><span class="color_pia_light_orange"><i class="fas fa-circle ml-2"></i></span></p>
                     </div>
-                    <% include ../partials/only_price %> 
+                    <div class="position-relative price">
+                        <% include ../partials/only_price %> 
+                        <% include ../partials/b2mfree_new %>
+                    </div>
                     <p class="color_white mb-0 text-left d-block d-md-none mb-2 pam"><span class="color_pia_light_orange"><i class="fas fa-circle mr-2"></i><%- gettext("100%</span> No Logs & Records") %><span class="color_pia_light_orange"><i class="fas fa-circle ml-2"></i></span></p>
                     <div class="d-md-inline-block text-left d-none">
                         <div class="text-center">

@@ -31,7 +31,10 @@
                             <p class="mb-0 d-inline-block"><%- format(gettext("%s Devices"),[10]) %></p>
                         </div>
                         <a href="<%- offerLink %>" class="btn_wave orange my-3"><%- gettext("Get Private Internet Access VPN") %></a>
-                        <% include ../partials/discount_block %>
+                        <div class="position-relative">
+                            <% include ../partials/discount_block %>
+                            <% include ../partials/b2mfree_new %>
+                        </div>
                     </div>
                     <div class="d-md-block text-left d-none">
                         <div class="text-center d-inline-block">
@@ -47,8 +50,9 @@
                             <% } %>
                         </div>
                     </div>
-                    <div class="d-block d-md-none">
+                    <div class="d-block d-md-none position-relative">
                         <% include ../partials/discount_block %>
+                        <% include ../partials/b2mfree_new %>
                     </div>
                     <div class="text-left d-block color_white d-md-none pam">
                         <p class="mb-0 d-inline-block"><%- gettext("No Logs") %></p>

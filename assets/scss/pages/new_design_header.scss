@@ -9,6 +9,7 @@
 @import '../layout/partials/rain';
 
 @import '../layout/partials/discount_circle';
+@import '../layout/partials/b2mfree';
 
 header {
     width: 100%;
@@ -191,7 +192,7 @@ header {
         }
     }
 
-    & .circle_discount_container {
+    & .circle_discount_container, & .b2mfree {
         position: absolute!important;
         left: -50px;
         top: 50px;

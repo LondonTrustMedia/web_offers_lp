@@ -1,0 +1,24 @@
+<section id="steps">
+    <div class="container text-center">
+        <h2 class="color_white"><%- title %></h2>
+        <h3 class="color_pia_green"><%- subtitle %></h3>
+        <div class="d-flex justify-content-md-between justify-content-center flex-md-row flex-column mt-5 wow bounceInUp">
+            <% steps.forEach(function(step,i) { %>
+                <div class="step text-center col-<%- (12/steps.length) %>" data-percent="<%- (((i + 1) / steps.length ) * 100 ) %>">
+                    <div class="circle mx-auto mb-3">
+                        <div class="num"><%- (i + 1) %></div>
+                        <svg width="200" height="200">
+                            <circle class="outer" cx="95" cy="95" r="85"/>
+                            <circle class="shadow_circle" cx="95" cy="95" r="85"/>
+                        </svg>
+                    </div>
+                    <p class="mb-0 color_white"><%- step %></p>
+                </div>
+                <% if (steps.length != i + 1) { %>
+                    <div class="arrow"><i class="fal fa-arrow-right"></i></div>
+                <% } %>
+            <% }) %>
+        </div>
+        <h2 class="text-uppercase mt-5 footer_text color_white"><%- footer %></h2>
+    </div>
+</section>

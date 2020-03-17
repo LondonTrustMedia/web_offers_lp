@@ -153,20 +153,20 @@ header {
         & .title {
             position: relative;
             top: 19%;
-            left: 22%;
-            font-size: 1.6em;
+            left: 12%;
+            font-size: 1.4em;
             line-height: .9;
             font-weight: 600;
             text-transform: uppercase;
             display: inline-block;
             @media screen and (max-width: $brk-desktop-width) {
-                font-size: 1.4em;
+                font-size: 1.2em;
             }
             @media screen and (max-width: $brk-min-desktop-width) {
                 left: -5%;
             }
             @media screen and (max-width: $brk-mobile-width) {
-                font-size: 1em;
+                font-size: .9em;
             }
         }
 

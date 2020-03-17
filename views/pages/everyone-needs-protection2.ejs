@@ -18,7 +18,7 @@
                         <span class="mo"><%- gettext("/mo") %></span>
                     </div>
                     <div class="circle_discount_container">
-                        <div class="title text-center"><%- gettext("today's<br>offer") %></div>
+                        <div class="title text-center"><%- format(gettext("%s extra<br>months free"),[2]) %></div>
                         <div class="discount_container">
                             <div class="discount">-<%- prices.blocks[1].discount %></div>
                             <div class="percent">%</div>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="col-6">
                     <div class="circle_discount_container">
-                        <div class="title text-center"><%- gettext("today's<br>offer") %></div>
+                        <div class="title text-center"><%- format(gettext("%s extra<br>months free"),[2]) %></div>
                         <div class="discount_container">
                             <div class="discount">-<%- prices.blocks[1].discount %></div>
                             <div class="percent">%</div>

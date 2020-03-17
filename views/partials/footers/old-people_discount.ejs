@@ -6,7 +6,7 @@
             <a href="<%- offerLink %>" class="btn_hp_gradient_orange"><%- gettext("Get started now") %></a>
         </div>
         <div class="circle mb-md-0 mb-4">
-            <div class="title text-center"><%- gettext("today's<br>offer") %></div>
+            <div class="title text-center"><%- format(gettext("%s extra<br>months free"),[2]) %></div>
             <div class="new"><%- gettext("new") %></div>
             <div class="discount_container">
                 <div class="discount">-<%- prices.blocks[1].discount %></div>

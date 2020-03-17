@@ -1,17 +1,113 @@
 #steps {
+  background-image: url(img/steps_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 3840px 705px;
+  background-position: center top;
+  min-height: 705px;
   & h2 {
   }
   & h3 {
   }
   & .step {
+    $strokeFill: 534;
     & .circle {
+      position: relative;
+      width: 190px;
+      height: 190px;
       & .outer {
         stroke-linecap: round;
-        transform: rotate(-90, 95, 95);
-        -webkit-transform: rotate(-90, 95, 95);
-        -moz-transform: rotate(-90, 95, 95);
-        -ms-transform: rotate(-90, 95, 95);
-        -o-transform: rotate(-90, 95, 95);
+        transform-origin: 95px 95px;
+        transform: rotateZ(-90deg);
+        -webkit-transform: rotateZ(-90deg);
+        -moz-transform: rotateZ(-90deg);
+        -ms-transform: rotateZ(-90deg);
+        -o-transform: rotateZ(-90deg);
+        fill: transparent;
+        stroke: $pia-green;
+        stroke-width: 20;
+        stroke-dasharray: $strokeFill;
+        transition: stroke-dashoffset 1s;
+        -webkit-animation-play-state: running;
+        -moz-transform: rotate(-89deg) translateX(-190px);
+      }
+      & .shadow_circle {
+        fill: transparent;
+        stroke: rgba($color-text-light,0.2);
+        stroke-width: 20;
+      }
+      & .num {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        font-size: 3em;
+        color: #fff;
+      }
+    }
+    &[data-percent="25"] {
+      & .outer {
+        stroke-dashoffset: $strokeFill * 0.75;
+        -webkit-animation: show25 2s;
+        animation: show25 2s;
+        @include keyframes(show25) {
+          0% {
+            stroke-dashoffset: $strokeFill + 3;
+          }
+          100% {
+            stroke-dashoffset: $strokeFill * 0.75;
+          }
+        }
+      }
+    }
+    &[data-percent="50"] {
+      & .outer {
+        stroke-dashoffset: $strokeFill * 0.5;
+        -webkit-animation: show50 2s;
+        animation: show50 2s;
+
+        @include keyframes(show50) {
+          0% {
+            stroke-dashoffset: $strokeFill + 3;
+          }
+          100% {
+            stroke-dashoffset: $strokeFill * 0.5;
+          }
+        }
+      }
+    }
+    &[data-percent="75"] {
+      & .outer {
+        stroke-dashoffset: $strokeFill * 0.25;
+        -webkit-animation: show75 2s;
+        animation: show75 2s;
+
+        @include keyframes(show75) {
+          0% {
+            stroke-dashoffset: $strokeFill + 3;
+          }
+          100% {
+            stroke-dashoffset: $strokeFill * 0.25;
+          }
+        }
+      }
+    }
+    &[data-percent="100"] {
+      & .outer {
+        stroke-dashoffset: 0;
+        -webkit-animation: show100 2s;
+        animation: show100 2s;
+
+        @include keyframes(show100) {
+          0% {
+            stroke-dashoffset: $strokeFill;
+          }
+          100% {
+            stroke-dashoffset: 0;
+          }
+        }
       }
     }
   }

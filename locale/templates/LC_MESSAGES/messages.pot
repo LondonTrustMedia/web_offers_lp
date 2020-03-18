@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-03-17 17:50+0000\n"
+"POT-Creation-Date: 2020-03-18 14:37+0000\n"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/mws.js:377
 msgid "US Dollars"
@@ -1067,9 +1067,9 @@ msgstr ""
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:21
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:40
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:74
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:21
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:42
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:116
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:21
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:42
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:116
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:21
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:40
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:74
@@ -1161,7 +1161,7 @@ msgid "Start protecting your internet with Private Internet Access in minutes"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:119
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:156
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:156
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:119
 msgid "Subscribe to Private Internet Access"
 msgstr ""
@@ -1177,7 +1177,7 @@ msgid "Login on the Private Internet Access client with your username and passwo
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:122
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:159
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:159
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:122
 msgid "Turn on Private Internet Access and connect to the location of your choice"
 msgstr ""
@@ -1206,8 +1206,8 @@ msgid ""
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:158
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:195
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:149
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:248
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:195
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:154
 msgid "Do you have a refund policy?"
 msgstr ""
@@ -1266,103 +1266,155 @@ msgstr ""
 msgid "Everyone needs<br><b>Protection</b>"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:14
-msgid "The Best VPN for streaming"
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:16
+msgid "Best VPN for <b>streaming</b>"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:15
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:40
-msgid "Unblock new content libraries with Private Internet Access"
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:17
+msgid "Private Internet Access<br>streamlines your internet"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:39
-msgid "The Best VPN for Streaming"
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:19
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:19
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:33
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:90
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:63
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:24
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:61
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:65
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:34
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:128
+msgid "Get Private Internet Access VPN"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:96
-msgid "Discover Limitless Streaming Content"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:97
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:25
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:25
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:41
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:26
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:28
 msgid ""
-"Online streaming services and websites are becoming more popular every day "
-"all over the world. But sometimes geo-restrictions can limit the content "
-"you have access to. Don’t miss out on video streaming opportunities because "
-"of your location. Sign up for Private Internet Access today!"
+"Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> "
+"%s-day money back guarantee</span>"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:107
-msgid "Unblock content on:"
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:86
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:57
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:85
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:58
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:56
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:60
+msgid ""
+"Try it risk free!<br><span class='text-uppercase'>%s-day money back "
+"guarantee</span>"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:122
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:71
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:91
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:62
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:21
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:18
+msgid "Private Internet Access VPN for %s% OFF"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:100
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:122
 msgid "A must have for your streaming needs"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:126
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:79
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:101
+msgid ""
+"According to the Video Advertising Bureau (VAB), <b>over 71%</b> of "
+"internet users in the United States stream and watch video over the "
+"internet.<br>Online streaming services and websites are becoming more "
+"popular every day all over the world.<br><b class='mt-1 "
+"d-inline-block'>Don’t miss out on video streaming opportunities because of "
+"your location.</b>"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:102
+msgid "Sign up for Private Internet Access today!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:108
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:136
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:126
 msgid "Unlimited bandwidth for streaming"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:127
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:109
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:147
+msgid "Private Internet Access has no logs and does not throttle users"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:115
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:158
+msgid "One click solution to bypass geographic restrictions"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:116
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:169
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:95
 msgid ""
-"Private Internet Access has no logs, never records online activity and does "
-"not throttle users."
+"Once you have chosen the location you want to use the internet from, "
+"Private Internet Access will always be one click away."
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:131
-msgid "One-click solution to override geographical restrictions"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:132
-msgid ""
-"Once you have chosen your virtual location, you can connect to it using "
-"Private Internet Access with just one click."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:136
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:93
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:122
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:180
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:136
 msgid "Stream on multiple devices"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:137
-msgid ""
-"1 Private Internet Access subscription can be used on up to %s devices "
-"simultaneously. Share Private Internet Access with your entire family!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:153
-msgid "Unblock streaming in only 4 easy steps"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:154
-msgid "Watch your favorite movies and shows in minutes"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:157
-msgid "Download Private Internet Access on your device"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:158
-msgid "Login-in using your username and password"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:161
-msgid "You’re ready to start streaming with Private Internet Access!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:188
-msgid "Got questions about streaming?<br>Here are a few of our FAQs"
-msgstr ""
-
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:123
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:191
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:145
+msgid ""
+"One Private Internet Access subscription can be used on up to five devices "
+"simultaneously. Share Private Internet Access with your whole family!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:208
+msgid "Four easy steps to stream with Private Internet Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:209
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:116
+msgid "Start streaming with Private Internet Access in minutes"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:211
+msgid "<b>Subscribe</b><br>to Private Internet Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:212
+msgid "<b>Download</b><br>Private Internet Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:213
+msgid ""
+"<b>Login</b><br>on the Private Internet Access client with your username "
+"and password"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:214
+msgid ""
+"<b>Turn on</b><br>Private Internet Access and connect to the location of "
+"your choice"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:216
+msgid "You’re ready to start streaming with <span>Private Internet Access</span>"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:241
+msgid "Private Internet Access Streaming FAQ"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:244
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:191
 msgid "Is it safe to stream with Private Internet Access?"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:192
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:146
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:245
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:192
 msgid ""
 "Yes. Private Internet Access provides a VPN service with servers in 49 "
 "locations across 29 countries, including the United States, United Kingdom, "
@@ -1370,20 +1422,20 @@ msgid ""
 "Private Internet Access?"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:196
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:249
 msgid ""
-"Private Internet Access has a no questions asked 7-day money back "
+"Private Internet Access has a no questions asked 7 day money back "
 "guarantee. Subscribe to Private Internet Access today to start streaming "
 "now!"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:199
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:153
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:252
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:199
 msgid "Will my IP address be exposed to streaming services or websites?"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:200
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:154
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:253
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:200
 msgid ""
 "By using Private Internet Access, you are encrypting your traffic through "
 "our VPN tunnel which accesses the internet from one of our servers’ IP "
@@ -1391,13 +1443,13 @@ msgid ""
 "Internet Access IP address, not your device’s IP address."
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:203
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:157
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:256
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:203
 msgid "Does Private Internet Access limit the bandwidth that streamers can use?"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:204
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:158
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:257
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:204
 msgid ""
 "Private Internet Access is the premier no log VPN - this means that we "
 "don’t even know if you are streaming. All of our servers offer unlimited "
@@ -1405,16 +1457,16 @@ msgid ""
 "Internet Access today to enjoy the unlimited and uncensored internet."
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:207
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:161
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:260
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:207
 msgid ""
 "Will Private Internet Access be blocked on my favorite streaming service or "
 "website?"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:208
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:261
 msgid ""
-"Private Internet Access believes in an open internet and is always working "
+" Private Internet Access believes in an open internet and is always working "
 "to make sure that no blocks exist for our VPN users. Use our service today "
 "to see why Private Internet Access is the best VPN for streaming online."
 msgstr ""
@@ -1425,53 +1477,101 @@ msgid ""
 "class=\"color_pia_light_orange\">%s</span></b>"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:19
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:33
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:90
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:19
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:63
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:24
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:61
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:65
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:34
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:128
-msgid "Get Private Internet Access VPN"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:25
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:41
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:25
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:26
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:28
-msgid ""
-"Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> "
-"%s-day money back guarantee</span>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:57
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:85
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:57
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:58
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:56
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:60
-msgid ""
-"Try it risk free!<br><span class='text-uppercase'>%s-day money back "
-"guarantee</span>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:62
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:62
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:21
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:18
-msgid "Private Internet Access VPN for %s% OFF"
-msgstr ""
-
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-fr.ejs:17
 msgid "The Top VPN for<br><b>France</b>"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock.ejs:17
 msgid "<b>Unblock</b><br>a world of content"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:14
+msgid "The Best VPN for streaming"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:15
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:40
+msgid "Unblock new content libraries with Private Internet Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:39
+msgid "The Best VPN for Streaming"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:96
+msgid "Discover Limitless Streaming Content"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:97
+msgid ""
+"Online streaming services and websites are becoming more popular every day "
+"all over the world. But sometimes geo-restrictions can limit the content "
+"you have access to. Don’t miss out on video streaming opportunities because "
+"of your location. Sign up for Private Internet Access today!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:107
+msgid "Unblock content on:"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:127
+msgid ""
+"Private Internet Access has no logs, never records online activity and does "
+"not throttle users."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:131
+msgid "One-click solution to override geographical restrictions"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:132
+msgid ""
+"Once you have chosen your virtual location, you can connect to it using "
+"Private Internet Access with just one click."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:137
+msgid ""
+"1 Private Internet Access subscription can be used on up to %s devices "
+"simultaneously. Share Private Internet Access with your entire family!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:153
+msgid "Unblock streaming in only 4 easy steps"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:154
+msgid "Watch your favorite movies and shows in minutes"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:157
+msgid "Download Private Internet Access on your device"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:158
+msgid "Login-in using your username and password"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:161
+msgid "You’re ready to start streaming with Private Internet Access!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:188
+msgid "Got questions about streaming?<br>Here are a few of our FAQs"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:196
+msgid ""
+"Private Internet Access has a no questions asked 7-day money back "
+"guarantee. Subscribe to Private Internet Access today to start streaming "
+"now!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:208
+msgid ""
+"Private Internet Access believes in an open internet and is always working "
+"to make sure that no blocks exist for our VPN users. Use our service today "
+"to see why Private Internet Access is the best VPN for streaming online."
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:24
@@ -1493,100 +1593,6 @@ msgstr ""
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:31
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:62
 msgid "%s Devices"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:16
-msgid "Best VPN for <b>streaming</b>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:17
-msgid "Private Internet Access<br>streamlines your internet"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:72
-msgid ""
-"According to the Video Advertising Bureau (VAB), <b>over 71%</b> of "
-"internet users in the United States stream and watch video over the "
-"internet.<br>Online streaming services and websites are becoming more "
-"popular every day all over the world.<br><b class='mt-1 "
-"d-inline-block'>Don’t miss out on video streaming opportunities because of "
-"your location.</b>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:73
-msgid "Sign up for Private Internet Access today!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:80
-msgid "Private Internet Access has no logs and does not throttle users"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:86
-msgid "One click solution to bypass geographic restrictions"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:87
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:95
-msgid ""
-"Once you have chosen the location you want to use the internet from, "
-"Private Internet Access will always be one click away."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:94
-msgid ""
-"One Private Internet Access subscription can be used on up to five devices "
-"simultaneously. Share Private Internet Access with your whole family!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:109
-msgid "Four easy steps to stream with Private Internet Access"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:110
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:116
-msgid "Start streaming with Private Internet Access in minutes"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:112
-msgid "<b>Subscribe</b><br>to Private Internet Access"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:113
-msgid "<b>Download</b><br>Private Internet Access"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:114
-msgid ""
-"<b>Login</b><br>on the Private Internet Access client with your username "
-"and password"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:115
-msgid ""
-"<b>Turn on</b><br>Private Internet Access and connect to the location of "
-"your choice"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:117
-msgid "You’re ready to start streaming with <span>Private Internet Access</span>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:142
-msgid "Private Internet Access Streaming FAQ"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:150
-msgid ""
-"Private Internet Access has a no questions asked 7 day money back "
-"guarantee. Subscribe to Private Internet Access today to start streaming "
-"now!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock-streaming.ejs:162
-msgid ""
-" Private Internet Access believes in an open internet and is always working "
-"to make sure that no blocks exist for our VPN users. Use our service today "
-"to see why Private Internet Access is the best VPN for streaming online."
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-de.ejs:17

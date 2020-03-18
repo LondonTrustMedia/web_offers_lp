@@ -2,13 +2,13 @@
     <div class="container text-center">
         <h2 class="color_white"><%- title %></h2>
         <h3 class="color_pia_green"><%- subtitle %></h3>
-        <div class="d-flex justify-content-md-between justify-content-center flex-md-row flex-column mt-5 wow bounceInUp">
+        <div class="d-flex justify-content-md-between justify-content-center flex-md-row flex-column mt-5 align-items-center align-items-md-start" steps="<%- steps.length %>">
             <% steps.forEach(function(step,i) { %>
-                <div class="step text-center col-<%- (12/steps.length) %>" data-percent="<%- (((i + 1) / steps.length ) * 100 ) %>">
+                <div class="step text-center wow fadeIn" data-percent="<%- (((i + 1) / steps.length ) * 100 ) %>" data-wow-duration="1s" data-wow-delay="<%- i %>s">
                     <div class="circle mx-auto mb-3">
                         <div class="num"><%- (i + 1) %></div>
                         <svg width="200" height="200">
-                            <circle class="outer" cx="95" cy="95" r="85"/>
+                            <circle class="outer" cx="95" cy="95" r="85" style="animation-delay: <%- i+0.5 %>s"/>
                             <circle class="shadow_circle" cx="95" cy="95" r="85"/>
                         </svg>
                     </div>
@@ -22,3 +22,13 @@
         <h2 class="text-uppercase mt-5 footer_text color_white"><%- footer %></h2>
     </div>
 </section>
+<script>
+$(function() {
+    $(document).scroll(function(){
+        if($(this).scrollTop() >= $('.step').offset().top - $("#steps").innerHeight() -100) {
+            for(let i=0;i< <%- steps.length%> ;i++)
+            $($(".step")[i]).addClass("ani")
+        }
+    });
+});
+</script>

@@ -5,10 +5,10 @@
             <% qas.forEach(function(qa,i) { %>
                 <div class="card">
                     <div class="card-header">
-                        <button class="btn btn-link d-table-cell" type="button" 
+                        <button class="btn btn-link text-left" type="button" 
                                 data-toggle="collapse" data-target="#collapse<%- i %>" 
                                 aria-expanded="false" aria-controls="collapse<%- i %>">
-                                <div class="justify-content-between align-items-center">
+                                <div class="justify-content-between align-items-center d-flex flex-nowrap">
                                     <h5 class="mb-0"><%- qa.question %></h5>
                                     <div class="icon">
                                         <i class="fal fa-arrow-circle-down"></i>

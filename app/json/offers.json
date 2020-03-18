@@ -62,5 +62,9 @@
     "best-vpn": {
         "offer_ID": 1372,
         "CPP_ID": ""
+    },
+    "streaming": {
+        "offer_ID": 1378,
+        "CPP_ID": ""
     }
 }

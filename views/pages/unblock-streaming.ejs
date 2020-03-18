@@ -3,7 +3,7 @@
 <head>
     <% include ../partials/head %>
     <link rel="stylesheet" href="<%= asset('css/unblock-streaming.css') %>">
-    <link rel="stylesheet" href="https://use.typekit.net/syh7gcy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 
     <body>
@@ -35,8 +35,37 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg_container parallax">
+                <div class="bg_container parallax d-md-block d-none">
                     <img src="img/streaming_LP_header_image.png" class="people">
+                    <div class="popcorn_container">
+                        <div class="big">
+                            <% for(var i=1;i<9;i++){ %>
+                                <% if(i>7) { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
+                                <% } else { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- i %>.png" alt="popcorn"></div>
+                                <% } %>
+                            <% } %>
+                        </div>
+                        <div class="medium">
+                            <% for(var i=1;i<9;i++){ %>
+                                <% if(i>7) { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
+                                <% } else { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- i %>.png" alt="popcorn"></div>
+                                <% } %>
+                            <% } %>
+                        </div>
+                        <div class="small">
+                            <% for(var i=1;i<9;i++){ %>
+                                <% if(i>7) { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
+                                <% } else { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- i %>.png" alt="popcorn"></div>
+                                <% } %>
+                            <% } %>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="d-block d-md-none mobile_header">
@@ -67,27 +96,27 @@
         <% include ../partials/trusted_companies %>
         <section id="streaming_needs">
             <div class="container text-center">
-                <div class="mb-lg-5 mb-3">
+                <div class="mb-lg-5 mb-3 wow fadeInUp">
                     <h2 class="mb-0"><%- gettext("A must have for your streaming needs") %></h2>
                     <p class="my-lg-5 my-3 color_dark mb-"><%- gettext("According to the Video Advertising Bureau (VAB), <b>over 71%</b> of internet users in the United States stream and watch video over the internet.<br>Online streaming services and websites are becoming more popular every day all over the world.<br><b class='mt-1 d-inline-block'>Don’t miss out on video streaming opportunities because of your location.</b>") %></p>
                     <a href="<%- offerLink %>" class="btn_wave orange my-3 d-md-inline-block d-none"><%- gettext("Sign up for Private Internet Access today!") %></a>
                 </div>
-                <div class="d-flex justify-content-md-between justify-content-center flex-lg-row flex-column">
-                    <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
+                <div class="d-md-flex justify-content-md-between justify-content-center flex-lg-row flex-column d-none">
+                    <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay="1s">
                         <div class="mb-3 mr-3 mr-lg-0"><img src="img/pia_lockman/circle_box_pia_lockman_infinity.svg" alt="Infinity"></div>
                         <div>
                             <h6 class="my-2 text-uppercase"><%- gettext("Unlimited bandwidth for streaming") %></h6>
                             <p class="mb-0"><%- gettext("Private Internet Access has no logs and does not throttle users") %></p>
                         </div>
                     </div>
-                    <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
+                    <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay="2s">
                         <div class="mb-3 mr-3 mr-lg-0"><img src="img/pia_lockman/circle_box_pia_lockman_devices.svg" alt="Devices"></div>
                         <div>
                             <h6 class="my-2 text-uppercase"><%- gettext("One click solution to bypass geographic restrictions") %></h6>
                             <p class="mb-0"><%- gettext("Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.") %></p>
                         </div>
                     </div>
-                    <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
+                    <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay="3s">
                         <div class="mb-3 mr-3 mr-lg-0"><img src="img/pia_lockman/circle_box_pia_lockman_one_click.svg" alt="One click"></div>
                         <div>
                             <h6 class="my-2 text-uppercase"><%- gettext("Stream on multiple devices") %></h6>
@@ -95,7 +124,77 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="d-block d-md-none accordion" id="accordion_needs">
+                    <div class="card">
+                        <div class="card-header">
+                            <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                                    data-toggle="collapse" data-target="#needs1" 
+                                    aria-expanded="false" aria-controls="needs1">
+                                <div class="d-flex align-items-center text-left">
+                                    <img src="img/pia_lockman/circle_box_pia_lockman_infinity.svg" alt="Secret" class="mr-3">
+                                    <h6 class="mb-0 text-uppercase"><%- gettext("Unlimited bandwidth for streaming") %></h6>
+                                </div>
+                                <div class="collapse_icon">
+                                    <i class="fal fa-plus"></i>
+                                    <i class="fal fa-minus"></i>
+                                </div>
+                            </button>
+                        </div>
+                        <div id="needs1" class="collapse" 
+                            aria-labelledby="heading1" data-parent="#accordion_needs">
+                            <div class="card-body">
+                                <p class="mb-0 text-left"><%- gettext("Private Internet Access has no logs and does not throttle users") %></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                                    data-toggle="collapse" data-target="#needs2" 
+                                    aria-expanded="false" aria-controls="needs2">
+                                <div class="d-flex align-items-center text-left">
+                                    <img src="img/pia_lockman/circle_box_pia_lockman_devices.svg" alt="Unblock" class="mr-3">
+                                    <h6 class="mb-0 text-uppercase"><%- gettext("One click solution to bypass geographic restrictions") %></h6>
+                                </div>
+                                <div class="collapse_icon">
+                                    <i class="fal fa-plus"></i>
+                                    <i class="fal fa-minus"></i>
+                                </div>
+                            </button>
+                        </div>
+                        <div id="needs2" class="collapse" 
+                            aria-labelledby="heading2" data-parent="#accordion_needs">
+                            <div class="card-body">
+                                <p class="mb-0 text-left"><%- gettext("Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.") %></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                                    data-toggle="collapse" data-target="#needs3" 
+                                    aria-expanded="false" aria-controls="needs3">
+                                <div class="d-flex align-items-center text-left">
+                                    <img src="img/pia_lockman/circle_box_pia_lockman_one_click.svg" alt="Best VPN" class="mr-3">
+                                    <h6 class="mb-0 text-uppercase"><%- gettext("Stream on multiple devices") %></h6>
+                                </div>
+                                <div class="collapse_icon">
+                                    <i class="fal fa-plus"></i>
+                                    <i class="fal fa-minus"></i>
+                                </div>
+                            </button>
+                        </div>
+                        <div id="needs3" class="collapse" 
+                            aria-labelledby="heading3" data-parent="#accordion_needs">
+                            <div class="card-body">
+                                <p class="mb-0 text-left"><%- gettext("One Private Internet Access subscription can be used on up to five devices simultaneously. Share Private Internet Access with your whole family!") %></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </section>
         <%- include('../partials/steps', {title: gettext('Four easy steps to stream with Private Internet Access'),
                                             subtitle: gettext('Start streaming with Private Internet Access in minutes'),

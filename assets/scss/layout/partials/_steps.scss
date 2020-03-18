@@ -1,3 +1,4 @@
+$strokeFill: 534;
 #steps {
   background-image: url(img/steps_bg.jpg);
   background-repeat: no-repeat;
@@ -6,6 +7,11 @@
   min-height: 705px;
   padding-top: 120px;
   color: #fff;
+  @media screen and (max-width: $brk-desktop-width) {
+    background-image: url(img/steps_bg_tablet.jpg);
+    background-size: 100% auto;
+    background-color: #263137;
+  }
   & p {
     & b {
       color: $pia-green;
@@ -24,8 +30,71 @@
     margin-top: 85px;
     font-size: 2.5rem;
   }
+  & [steps="4"] {
+    & .arrow {
+      &:nth-of-type(4) {
+        @media screen and (max-width: $brk-desktop-width) {
+          display: none;
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          display: block;
+        }
+      }
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        transform: rotateZ(90deg);
+      }
+    }
+    @media screen and (max-width: $brk-desktop-width) {
+      flex-wrap: wrap;
+    }
+    & .step {
+      -ms-flex: 0 0 calc(25% - 35px);
+      flex: 0 0 calc(25% - 35px);
+      max-width: calc(25% - 35px);
+      @media screen and (max-width: $brk-desktop-width) {
+        -ms-flex: 0 0 calc(50% - 35px);
+        flex: 0 0 calc(250% - 35px);
+        max-width: calc(50% - 35px);
+        margin-bottom: 3rem;
+      }
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        margin-bottom: 1rem;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+
   & .step {
-    $strokeFill: 534;
+    &.ani {
+      &[data-percent="25"] {
+        & .outer {
+          -webkit-animation: show25 0.5s forwards;
+          animation: show25 0.5s forwards;
+        }
+      }
+      &[data-percent="50"] {
+        & .outer {
+          -webkit-animation: show50 1s forwards;
+          animation: show50 1s forwards;
+        }
+      }
+      &[data-percent="75"] {
+        & .outer {
+          -webkit-animation: show75 1.5s forwards;
+          animation: show75 1.5s forwards;
+        }
+      }
+      &[data-percent="100"] {
+        & .outer {
+          -webkit-animation: show100 2s forwards;
+          animation: show100 2s forwards;
+        }
+      }
+    }
     & .circle {
       position: relative;
       width: 190px;
@@ -61,70 +130,46 @@
         line-height: 1;
         font-size: 3em;
         color: #fff;
-      }
-    }
-    &[data-percent="25"] {
-      & .outer {
-        stroke-dashoffset: $strokeFill * 0.75;
-        -webkit-animation: show25 2s;
-        animation: show25 2s;
-        @include keyframes(show25) {
-          0% {
-            stroke-dashoffset: $strokeFill + 3;
-          }
-          100% {
-            stroke-dashoffset: $strokeFill * 0.75;
-          }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          font-size: 5em;
+          font-weight: 900;
         }
       }
     }
-    &[data-percent="50"] {
-      & .outer {
-        stroke-dashoffset: $strokeFill * 0.5;
-        -webkit-animation: show50 2s;
-        animation: show50 2s;
-
-        @include keyframes(show50) {
-          0% {
-            stroke-dashoffset: $strokeFill + 3;
-          }
-          100% {
-            stroke-dashoffset: $strokeFill * 0.5;
-          }
-        }
-      }
+    & .outer {
+      stroke-dashoffset: $strokeFill - 1;
     }
-    &[data-percent="75"] {
-      & .outer {
-        stroke-dashoffset: $strokeFill * 0.25;
-        -webkit-animation: show75 2s;
-        animation: show75 2s;
-
-        @include keyframes(show75) {
-          0% {
-            stroke-dashoffset: $strokeFill + 3;
-          }
-          100% {
-            stroke-dashoffset: $strokeFill * 0.25;
-          }
-        }
-      }
-    }
-    &[data-percent="100"] {
-      & .outer {
-        stroke-dashoffset: 0;
-        -webkit-animation: show100 2s;
-        animation: show100 2s;
-
-        @include keyframes(show100) {
-          0% {
-            stroke-dashoffset: $strokeFill;
-          }
-          100% {
-            stroke-dashoffset: 0;
-          }
-        }
-      }
-    }
+  }
+}
+@include keyframes(show25) {
+  0% {
+    stroke-dashoffset: $strokeFill + 3;
+  }
+  100% {
+    stroke-dashoffset: $strokeFill * 0.75;
+  }
+}
+@include keyframes(show50) {
+  0% {
+    stroke-dashoffset: $strokeFill + 3;
+  }
+  100% {
+    stroke-dashoffset: $strokeFill * 0.5;
+  }
+}
+@include keyframes(show75) {
+  0% {
+    stroke-dashoffset: $strokeFill + 3;
+  }
+  100% {
+    stroke-dashoffset: $strokeFill * 0.25;
+  }
+}
+@include keyframes(show100) {
+  0% {
+    stroke-dashoffset: $strokeFill;
+  }
+  100% {
+    stroke-dashoffset: 0;
   }
 }

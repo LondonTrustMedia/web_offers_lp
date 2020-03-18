@@ -37,6 +37,35 @@
                 </div>
                 <div class="bg_container parallax d-md-block d-none">
                     <img src="img/streaming_LP_header_image.png" class="people">
+                    <div class="popcorn_container">
+                        <div class="big">
+                            <% for(var i=1;i<9;i++){ %>
+                                <% if(i>7) { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
+                                <% } else { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- i %>.png" alt="popcorn"></div>
+                                <% } %>
+                            <% } %>
+                        </div>
+                        <div class="medium">
+                            <% for(var i=1;i<9;i++){ %>
+                                <% if(i>7) { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
+                                <% } else { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- i %>.png" alt="popcorn"></div>
+                                <% } %>
+                            <% } %>
+                        </div>
+                        <div class="small">
+                            <% for(var i=1;i<9;i++){ %>
+                                <% if(i>7) { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- (i - 6) %>.png" alt="popcorn"></div>
+                                <% } else { %>
+                                    <div class="pop"><img src="img/streaming_popcorn<%- i %>.png" alt="popcorn"></div>
+                                <% } %>
+                            <% } %>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="d-block d-md-none mobile_header">

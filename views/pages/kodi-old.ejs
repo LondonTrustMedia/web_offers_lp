@@ -1,0 +1,143 @@
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('css/kodi-old.css') %>">
+    <link rel="stylesheet" href="https://use.typekit.net/syh7gcy.css">
+</head>
+
+    <body>
+        <% include ../navbar/navbar_white %>
+        <header class="mobile d-block d-lg-none text-center text">
+            <div class="bg">
+                <div class="container color_dark_green">
+                    <h2 class='d-inline-block mb-0'><%- gettext('The best VPN for Kodi') %></h2>
+                    <p class="my-3"><%- gettext("Stay safe while streaming on Kodi with Private Internet Access") %></p>
+                    <% include ../partials/circle_discount %>
+                </div>
+            </div>
+            <div class="sub_bg">
+                <div class="container color_dark_green">
+                    <a href="<%- offerLink %>" class="btn_pia orange mb-3"><%- gettext("Get Private Internet Access") %></a>
+                    <% if (query.brand) { %>
+                        <% include ../partials/brand %>
+                    <% } else { %>
+                        <div class="brands">
+                            <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                            <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                            <div class="d-inline-block"><img src="img/brand_logo_cnet.png" alt="cnet"></div>
+                        </div>
+                    <% } %>
+                </div>
+            </div>
+        </header>
+        <header class="d-lg-block d-none text">
+            <div class="container color_dark_green d-flex justify-content-between">
+                <div class="col-5 d-flex justify-content-center flex-column text-center">
+                    <h2 class='d-inline-block mb-0'><%- gettext('<span>The best</span><br>VPN <small>for</small> Kodi') %></h2>
+                    <p class="my-3 mx-auto"><%- gettext("Stay safe while streaming on Kodi with Private Internet Access") %></p>
+                    <div class="d-block">
+                        <a href="<%- offerLink %>" class="btn_pia orange mb-3"><%- gettext("Get Private Internet Access") %></a>
+                    </div>
+                    <% if (query.brand) { %>
+                        <% include ../partials/brand %>
+                    <% } else { %>
+                        <div class="brands">
+                            <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                            <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                            <div class="d-inline-block"><img src="img/brand_logo_cnet.png" alt="cnet"></div>
+                        </div>
+                    <% } %>
+                </div>
+                <div class="col-6">
+                    <% include ../partials/circle_discount %>
+                    <div class="header_circle">
+                        <div class="circle">
+                            <div class="tv">
+                                <img src="img/header_bg_kodi_tv1.png" alt="tv1">
+                                <img src="img/header_bg_kodi_tv2.png" alt="tv2">
+                                <img src="img/header_bg_kodi_tv3.png" alt="tv3">
+                                <img src="img/header_bg_kodi_tv4.png" alt="tv4">
+                            </div>
+                            <div class="remote"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="location">
+            <div class="container d-flex flex-column justify-content-between align-items-center text-center">
+                <h2><%- gettext("Don’t get into trouble while streaming on Kodi") %></h2>
+                <p><%- gettext("Whether you use Kodi TV to watch your personal content library or for the titles you find on their website, make sure nobody will be able to find out what you're doing online.") %></p>
+                <p class="my-4"><%- gettext("<b>Why? </b>Streaming content on Kodi works is basically P2P torrenting which might be illegal in your country. Luckily, with the Private Internet Access VPN, you can make all your internet activity totally anonymous. So, you'll never have any trouble with governmental authorities while using Kodi.") %></p>
+                <a href="<%- offerLink %>" class="btn_pia orange"><%- gettext("Get Private Internet Access") %></a>
+            </div>
+        </section>
+
+        <section id="needs">
+            <div class="container text-center">
+                <h2 class="mt-5"><%- gettext("A must have for streaming with Kodi") %></h2>
+                <div class="d-flex justify-content-center flex-lg-row flex-column mt-5">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img src="img/pia_lockman/box_pia_lockman_p2p.svg" alt="infinity">
+                        <h5 class="my-3"><%- gettext("P2P traffic allowed") %></h5>
+                        <p class="mb-0"><%- gettext("Private Internet Access supports P2P protocols such as torrents.") %></p>
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img src="img/pia_lockman/box_pia_lockman_no_logs.svg" alt="one click">
+                        <h5 class="my-3"><%- gettext("No Logs Policy") %></h5>
+                        <p class="mb-0"><%- gettext("Private Internet Access never records its users' online activity and never keeps any logs, so you'll have complete anonymity from the moment you connect to our servers.") %></p>
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img src="img/pia_lockman/box_pia_lockman_break_wall.svg" alt="devices">
+                        <h5 class="my-3"><%- gettext("Bypass geographical restrictions") %></h5>
+                        <p class="mb-0"><%- gettext("Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.") %></p>
+                    </div>
+                    <div class="col-lg-3 mb-3 mb-lg-0">
+                        <img src="img/pia_lockman/box_pia_lockman_devices.svg" alt="devices">
+                        <h5 class="my-3"><%- gettext("Use Kodi TV on multiple devices") %></h5>
+                        <p class="mb-0"><%- format(gettext("1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!"),[10]) %></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <%- include('../partials/unblock_steps', {  title: gettext('Start streaming with Private Internet Access in minutes'),
+                                                    subtitle: gettext('Watch Kodi anonymously in 4 easy steps'),
+                                                    steps:[
+                                                        gettext('Subscribe to Private Internet Access'),
+                                                        gettext('Download Private Internet Access'),
+                                                        gettext('Login on the Private Internet Access client with your username and password'),
+                                                        gettext('Turn on Private Internet Access and connect to the location of your choice')
+                                                    ],
+                                                    footer: gettext('You’re ready to start using Private Internet Access with your Kodi TV.')
+
+        }) %>
+
+        <%- include('../partials/faq', {title: gettext('Got questions?<br>Check out our FAQs'),
+                                        qas:[
+                                                {
+                                                    'question': gettext('Is it safe to use Kodi with Private Internet Access?'),
+                                                    'answer': gettext('Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?')
+                                                },
+                                                {
+                                                    'question': gettext('Do you have a refund policy?'),
+                                                    'answer': gettext('Yes. Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!')
+                                                },
+                                                {
+                                                    'question': gettext('Will my IP address be exposed while using Kodi add-ons?'),
+                                                    'answer': gettext('No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Any service or website accessed will only see our Private Internet Access IP address, not your device’s IP address.')
+                                                },
+                                                {
+                                                    'question': gettext('Does Private Internet Access limit bandwidth for Kodi users?'),
+                                                    'answer': gettext('No. Private Internet Access is the premier no log VPN - this means that we don’t even know what software you use in conjunction with ours. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.')
+                                                }
+                                            ]
+        }) %>
+        <% include ../partials/sponsors-old %>
+        <% include ../partials/footers/people_discount %>
+        <% include ../partials/tag_manager %>
+    </body>
+
+</html>

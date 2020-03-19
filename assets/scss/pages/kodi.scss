@@ -53,21 +53,27 @@ header {
   color: #fff;
   overflow: hidden;
 
+  @media screen and (max-width: $brk-ipad-width) {
+    background-image: url(img/Kodi_LP_tablet_with_white.jpg);
+    background-position: right top;
+    min-height: 700px;
+    background-size: 768px auto;
+  }
   @media screen and (max-width: $brk-ipad-width - 1) {
     background-color: #fff;
-    background-image: url(img/streaming_header_bg_tablet.jpg);
-    background-position: right top -355px;
+    background-image: url(img/Kodi_LP_tablet.jpg);
+    background-position: right top -210px;
     min-height: 585px;
     padding-bottom: 40px;
     background-size: 768px auto;
   }
-
   @media screen and (max-width: 575px) {
-    background-position: right top -125px;
+    background-position: right top -55px;
     background-size: 575px auto;
   }
   @media screen and (max-width: $brk-mobile-width) {
-    background-position: right calc(50% - -3px) top -150px;
+    background-image: url(img/Kodi_LP_mobile.jpg);
+    background-position: right calc(50% - -90px) top -20px;
   }
   & .btn_wave {
     @media screen and (max-width: $brk-ipad-width - 1) {
@@ -94,6 +100,8 @@ header {
     left: 0;
     bottom: 0;
     width: 100%;
+    background-color: #fff;
+
 
     & .dark {
       background-color: #263238;
@@ -146,14 +154,23 @@ header {
     @media screen and (max-width: $brk-mobile-width) {
       font-size: 1.2rem;
     }
-
+    & br {
+      display: none;
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        display: block;
+      }
+    }
     & b {
       font-size: 1.6em;
       font-weight: 500;
       color: $pia-light-orange;
     }
   }
-
+  & h3 {
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      font-size: 1.2rem;
+    }
+  }
   & .brands {
     & img {
       height: 50px;
@@ -200,13 +217,8 @@ header {
       width: 605px;
     }
 
-    @media screen and (max-width: $brk-ipad-width - 1) {
-      bottom: 50px;
-    }
-
-    @media screen and (max-width: 575px) {
-      width: 450px;
-      right: calc(50% - 415px);
+    @media screen and (max-width: $brk-ipad-width ) {
+      display: none!important;
     }
 
     & .people {

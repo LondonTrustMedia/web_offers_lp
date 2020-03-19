@@ -9,7 +9,7 @@
                 },
                 {
                     "months": 12,
-                    "USD": "$143.40"
+                    "USD": "$167.30"
                 },
                 {
                     "months": 6,
@@ -26,7 +26,7 @@
                 },
                 {
                     "months": 12,
-                    "USD": "$143.40"
+                    "USD": "$167.30"
                 },
                 {
                     "months": 6,
@@ -70,10 +70,10 @@
                     "best": true,
                     "months": 12,
                     "moneyBack": 30,
-                    "discount": 72,
+                    "discount": 76,
                     "USD": {
-                        "perMonthFull": "$3.33",
-                        "perMonthNumber": "3.33",
+                        "perMonthFull": "$2.85",
+                        "perMonthNumber": "2.85",
                         "total": "$39.95"
                     }
                 },

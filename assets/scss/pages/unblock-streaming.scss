@@ -319,6 +319,10 @@ header {
       right: -160px;
       top: 10px;
     }
+    @media screen and (max-width: $brk-mobile-width) {
+      right: -85px;
+      top: 25px;
+    }
   }
   & .stream {
     position: absolute;

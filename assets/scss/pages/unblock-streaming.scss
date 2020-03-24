@@ -54,10 +54,10 @@ header {
   overflow: hidden;
 
   @media screen and (max-width: $brk-ipad-width - 1) {
-    background-image: url(img/streaming_mobi_LP_header_img1.jpg);
+    // background-image: url(img/streaming_mobi_LP_header_img1.jpg);
     min-height: 605px;
-    background-size: 768px auto;
-    background-position: right top;
+    // background-size: 768px auto;
+    // background-position: right top;
   }
   & .btn_wave {
     @media screen and (max-width: $brk-ipad-width - 1) {
@@ -200,11 +200,12 @@ header {
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
       bottom: 50px;
+      width: 510px;
+      left: unset;
+      right: 0;
     }
-
-    @media screen and (max-width: 575px) {
-      width: 450px;
-      right: calc(50% - 415px);
+    @media screen and (max-width: $brk-mobile-width) {
+      width: 420px;
     }
     & .hand {
       position: absolute;
@@ -212,7 +213,12 @@ header {
       bottom: 0;
       z-index: 3;
       @media screen and (max-width: $brk-ipad-width) {
-       display: none;
+        left: 231px;
+        bottom: 0;
+        width: 340px;
+      }
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        left: 0;
       }
     }
     & .header {
@@ -222,7 +228,12 @@ header {
       z-index: 3;
       left: -3px;
       @media screen and (max-width: $brk-ipad-width) {
-        content: url("img/streaming_LP_tablet_header_window.png");
+        content: url("img/streaming_LP4_tablet_header_window.png");
+      }
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        content: url("img/streaming_lp_mobi_header4_window.png");
+        left: unset;
+        right: 0;
       }
     }
     & .streaming {
@@ -235,6 +246,11 @@ header {
       left: -130px;
       @media screen and (max-width: $brk-ipad-width) {
         content: url("img/netflix_tab1.jpg");
+        height: 398px;
+      }
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        content: url("img/netflix_mobi1.jpg");
+        
       }
       @include keyframes(zap) {
         0%,12.5%,100% {

@@ -1,6 +1,6 @@
 $strokeFill: 534;
 #steps {
-  background-image: url(img/steps_bg.jpg);
+  background-image: url(img/steps_bg.jpg?v2);
   background-repeat: no-repeat;
   background-size: 3840px 705px;
   background-position: center top;
@@ -12,6 +12,9 @@ $strokeFill: 534;
     background-size: 100% auto;
     background-color: #263137;
   }
+  @media screen and (max-width: $brk-ipad-width - 1) { 
+    min-height: unset;
+  }
   & p {
     & b {
       color: $pia-green;
@@ -19,6 +22,9 @@ $strokeFill: 534;
   }
   & h3 {
     font-weight: 300;
+  }
+  & h2.text-uppercase{
+    font-size: 1.85rem;
   }
   & .footer_text {
     font-weight: 600;
@@ -64,10 +70,13 @@ $strokeFill: 534;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
+        max-height: 300px;
       }
     }
   }
-
+  & .steps {
+    margin-bottom: 4.5rem;
+  }
   & .step {
     &.ani {
       &[data-percent="25"] {

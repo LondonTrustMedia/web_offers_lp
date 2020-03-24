@@ -136,7 +136,7 @@ header {
     }
   }
   & h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 500;
     @media screen and (max-width: $brk-min-desktop-width) {
       font-size: 1.7rem;
@@ -155,7 +155,7 @@ header {
       }
     }
     & b {
-      font-size: 1.4em;
+      font-size: 1.2em;
       font-weight: 500;
       color: $pia-light-orange;
       line-height: 1;
@@ -196,9 +196,6 @@ header {
     height: 100%;
     overflow: hidden;
 
-    @media screen and (max-width: $brk-min-desktop-width) {
-      // width: 605px;
-    }
     @media screen and (max-width: $brk-ipad-width) {
       width: 100vw;
       left: 0;
@@ -230,80 +227,22 @@ header {
       position: absolute;
       z-index: 1;
       transform: translateX(0);
-
-      // @include keyframes(zap) {
-      //   0%,12.5%,100% {
-      //     transform: translateX(0);
-      //   }
-      //   25%,37.5%,75%,87.5% {
-      //     transform: translateX(-135px);
-      //   }
-      //   50%,62.5% {
-      //     transform: translateX(-270px);
-      //   }
-      // }
-      // @include keyframes(zap2) {
-      //   0%,83.333%,100% {
-      //     transform: translateX(0);
-      //   }
-      //   8.333%,25%,58.333%,75% {
-      //     transform: translateX(135px);
-      //   }
-      //   33.333%,50% {
-      //     transform: translateX(270px);
-      //   }
-      // }
-
-      @include keyframes(zap2) {
-        0%,
-        16.666%,
-        100% {
-          transform: translateX(0);
-        }
-        25%,
-        41.666%,
-        75%,
-        91.666% {
-          transform: translateX(135px);
-        }
-        50%,
-        66.666% {
-          transform: translateX(270px);
-        }
+      bottom: 0;
+      height: 486px;
+      animation: zap 12s ease-in-out infinite;
+      left: -130px;
+      @media screen and (max-width: $brk-ipad-width) {
+        content: url("img/netflix_tab1.jpg");
       }
-
       @include keyframes(zap) {
-        0%,
-        12.5%,
-        100% {
+        0%,12.5%,100% {
           transform: translateX(0);
         }
-        25%,
-        37.5%,
-        75%,
-        87.5% {
+        25%,37.5%,75%,87.5% {
           transform: translateX(-135px);
         }
-        50%,
-        62.5% {
+        50%,62.5% {
           transform: translateX(-270px);
-        }
-      }
-      &:nth-of-type(1) {
-        bottom: 0;
-        height: 470px;
-        animation: zap2 12s ease-in-out infinite;
-        left: -130px;
-        @media screen and (max-width: $brk-ipad-width) {
-          content: url("img/netflix_tab1.jpg");
-        }
-      }
-      &:nth-of-type(2) {
-        bottom: 470px;
-        height: 235px;
-        animation: zap 12s ease-in-out infinite;
-        @media screen and (max-width: $brk-ipad-width) {
-          display: none;
         }
       }
     }
@@ -328,6 +267,7 @@ header {
     position: absolute;
     top: 0;
     height: 100%;
+    z-index: -1;
     @media screen and (min-width: 992px) {
       left: calc(50% - 960px / 2);
       max-width: 1080px;
@@ -359,6 +299,9 @@ header {
       height: 45px;
       @media screen and (max-width: $brk-desktop-width) {
         height: 40px;
+      }
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        height: 28px;
       }
     }
   }

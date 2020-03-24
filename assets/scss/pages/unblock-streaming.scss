@@ -42,7 +42,7 @@ p {
   }
 }
 header {
-  background-image: url(img/streaming_LP2_header_cut.jpg);
+  background-color: #263238;
   min-height: 768px;
   background-repeat: no-repeat;
   background-position: top;
@@ -52,16 +52,12 @@ header {
   z-index: 1;
   color: #fff;
   overflow: hidden;
-  @media screen and (max-width: $brk-ipad-width) {
-    background-image: url(img/streaming_LP_tablet_header_img1.jpg);
-    min-height: 768px;
-    background-size: 768px auto;
-    background-position: right top;
-  }
 
   @media screen and (max-width: $brk-ipad-width - 1) {
-    background-image: url(img/streaming_mobi_LP_header_img1.jpg);
+    // background-image: url(img/streaming_mobi_LP_header_img1.jpg);
     min-height: 605px;
+    // background-size: 768px auto;
+    // background-position: right top;
   }
   & .btn_wave {
     @media screen and (max-width: $brk-ipad-width - 1) {
@@ -190,8 +186,8 @@ header {
   & .bg_container {
     position: absolute;
     bottom: 5px;
-    right: -1px;
-    width: 88%;
+    right: 0;
+    width: 85%;
     z-index: -1;
     height: 100%;
     overflow: hidden;
@@ -204,23 +200,40 @@ header {
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
       bottom: 50px;
+      width: 510px;
+      left: unset;
+      right: 0;
     }
-
-    @media screen and (max-width: 575px) {
-      width: 450px;
-      right: calc(50% - 415px);
+    @media screen and (max-width: $brk-mobile-width) {
+      width: 420px;
     }
     & .hand {
+      position: absolute;
+      left: 110px;
+      bottom: 0;
+      z-index: 3;
+      @media screen and (max-width: $brk-ipad-width) {
+        left: 231px;
+        bottom: 0;
+        width: 340px;
+      }
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        left: 0;
+      }
+    }
+    & .header {
       position: absolute;
       bottom: 0;
       height: 101%;
       z-index: 3;
-      left: -1px;
+      left: -3px;
       @media screen and (max-width: $brk-ipad-width) {
-        content: url("img/streaming_LP_tablet_header_window.png");
+        content: url("img/streaming_LP4_tablet_header_window.png?v2");
       }
-      & img {
-        width: 100%;
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        content: url("img/streaming_lp_mobi_header4_window.png");
+        left: unset;
+        right: 0;
       }
     }
     & .streaming {
@@ -233,6 +246,11 @@ header {
       left: -130px;
       @media screen and (max-width: $brk-ipad-width) {
         content: url("img/netflix_tab1.jpg");
+        height: 398px;
+      }
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        content: url("img/netflix_mobi1.jpg");
+        
       }
       @include keyframes(zap) {
         0%,12.5%,100% {
@@ -277,7 +295,7 @@ header {
       max-width: 1635px;
     }
     @media screen and (max-width: 991px) {
-      left: calc(50% - 95% / 2);
+      left: 0;
       max-width: 100%;
     }
   }

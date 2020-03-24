@@ -66,5 +66,73 @@
     "streaming": {
         "offer_ID": 1378,
         "CPP_ID": ""
+    },
+    "best-vpn-au": {
+        "offer_ID": 1382,
+        "CPP_ID": ""
+    },
+    "best-vpn-fr": {
+        "offer_ID": 1386,
+        "CPP_ID": ""
+    },
+    "best-vpn-it": {
+        "offer_ID": 1384,
+        "CPP_ID": ""
+    },
+    "best-vpn-pt": {
+        "offer_ID": 1389,
+        "CPP_ID": ""
+    },
+    "best-vpn-br": {
+        "offer_ID": 1392,
+        "CPP_ID": ""
+    },
+    "devices-windows": {
+        "offer_ID": 1393,
+        "CPP_ID": ""
+    },
+    "best-vpn-ca": {
+        "offer_ID": 1381,
+        "CPP_ID": ""
+    },
+    "best-vpn-es": {
+        "offer_ID": 1397,
+        "CPP_ID": ""
+    },
+    "devices-android": {
+        "offer_ID": 1396,
+        "CPP_ID": ""
+    },
+    "best-vpn-nl": {
+        "offer_ID": 1387,
+        "CPP_ID": ""
+    },
+    "best-vpn-us": {
+        "offer_ID": 1385,
+        "CPP_ID": ""
+    },
+    "devices-mac": {
+        "offer_ID": 1395,
+        "CPP_ID": ""
+    },
+    "best-vpn-no": {
+        "offer_ID": 1391,
+        "CPP_ID": ""
+    },
+    "best-vpn-de": {
+        "offer_ID": 1388,
+        "CPP_ID": ""
+    },
+    "devices-ios": {
+        "offer_ID": 1394,
+        "CPP_ID": ""
+    },
+    "best-vpn-dk": {
+        "offer_ID": 1390,
+        "CPP_ID": ""
+    },
+    "best-vpn-gb": {
+        "offer_ID": 1383,
+        "CPP_ID": ""
     }
 }

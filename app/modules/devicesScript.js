@@ -2,7 +2,18 @@ const fs = require("fs")
 let backgrounds = {}
 
 module.exports = (req, res, next) => {
-    var os = req.userAgent.os.name
+    let os
+    if (req.params.os) {
+        os = req.params.os
+        if (os.toLowerCase() === 'ios')
+            os = 'iOS'
+        else if (os.toLowerCase().includes('mac'))
+            os = 'Mac OS'
+        else
+            os = os.charAt(0).toUpperCase() + os.slice(1);
+    } else
+        os = req.userAgent.os.name
+
     console.log(os)
    
     var backgrounds = {
@@ -38,6 +49,7 @@ module.exports = (req, res, next) => {
 
     const backgroundKey = Object.keys(backgrounds).find(key => os.toLowerCase().includes(key))
     let background = 'device-desktop'
+    console.log('backgroundKey', backgroundKey)
 
     if (backgroundKey)
         background = backgrounds[backgroundKey]

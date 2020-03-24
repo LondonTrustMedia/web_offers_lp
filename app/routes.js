@@ -7,7 +7,7 @@ module.exports = function (app) {
     const mws = require('./modules/mws.js')(app)
 
 
-    app.get(['/devices',
+    app.get(['/devices', '/devices-:os'
             ], mws.languageRedirects, locationScan.check, mws.setPrices, mws.setCurrency, mws.setSticker, mws.getLink, uaParser, mws.getDevices, function (req, res) {
             
             // console.log("device: " + req.os.name)
@@ -16,7 +16,7 @@ module.exports = function (app) {
     
             offersApi.impressionPixel(req)
     
-            res.render('pages/' + req.pageName + '.ejs' , {
+            res.render('pages/devices.ejs' , {
                 userAgent: req.userAgent,
                 device: req.os
             });

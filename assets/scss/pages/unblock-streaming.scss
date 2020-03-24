@@ -42,39 +42,33 @@ p {
   }
 }
 header {
-  background-image: url(img/header_bg.jpg);
-  min-height: 700px;
+  background-image: url(img/streaming_LP2_header_cut.jpg);
+  min-height: 768px;
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 3840px 700px;
+  background-size: 3840px 768px;
   padding-top: 45px;
   position: relative;
   z-index: 1;
   color: #fff;
   overflow: hidden;
+  @media screen and (max-width: $brk-ipad-width) {
+    background-image: url(img/streaming_LP_tablet_header_img1.jpg);
+    min-height: 768px;
+    background-size: 768px auto;
+    background-position: right top;
+  }
 
   @media screen and (max-width: $brk-ipad-width - 1) {
-    background-color: #fff;
-    background-image: url(img/streaming_header_bg_tablet.jpg);
-    background-position: right top -355px;
-    min-height: 585px;
-    padding-bottom: 40px;
-    background-size: 768px auto;
-  }
-
-  @media screen and (max-width: 575px) {
-    background-position: right top -125px;
-    background-size: 575px auto;
-  }
-  @media screen and (max-width: $brk-mobile-width) {
-    background-position: right calc(50% - -3px) top -150px;
+    background-image: url(img/streaming_mobi_LP_header_img1.jpg);
+    min-height: 605px;
   }
   & .btn_wave {
     @media screen and (max-width: $brk-ipad-width - 1) {
       max-width: 420px;
     }
 
-    @media screen and (max-width: $brk-mobile-width) {
+    @media screen and (max-width: 480px) {
       min-width: 180px;
       width: 100%;
     }
@@ -94,6 +88,10 @@ header {
     left: 0;
     bottom: 0;
     width: 100%;
+    background-color: #fff;
+    margin-bottom: -1px;
+    padding-bottom: 5px;
+    border-bottom: solid 5px #fff;
 
     & .dark {
       background-color: #263238;
@@ -132,12 +130,16 @@ header {
   & p {
     color: #fff;
   }
-
+  & h3 {
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      font-size: 1rem;
+    }
+  }
   & h1 {
-    font-size: 2.8rem;
-    font-weight: 800;
+    font-size: 2rem;
+    font-weight: 500;
     @media screen and (max-width: $brk-min-desktop-width) {
-      font-size: 2.5em;
+      font-size: 1.7rem;
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
       font-size: 1.5rem;
@@ -146,11 +148,20 @@ header {
     @media screen and (max-width: $brk-mobile-width) {
       font-size: 1.2rem;
     }
-
+    & br.m {
+      display: none;
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        display: block;
+      }
+    }
     & b {
-      font-size: 1.6em;
+      font-size: 1.4em;
       font-weight: 500;
       color: $pia-light-orange;
+      line-height: 1;
+      & span {
+        text-transform: uppercase;
+      }
     }
   }
 
@@ -176,30 +187,24 @@ header {
     }
   }
 
-  & .col-45 {
-    width: 45%;
-
-    @media screen and (max-width: $brk-desktop-width) {
-      width: 65%;
-    }
-
-    @media screen and (max-width: $brk-ipad-width) {
-      width: 100%;
-    }
-  }
-
   & .bg_container {
     position: absolute;
     bottom: 5px;
-    right: calc(50% - 600px);
-    width: 715px;
+    right: -1px;
+    width: 88%;
     z-index: -1;
     height: 100%;
+    overflow: hidden;
 
     @media screen and (max-width: $brk-min-desktop-width) {
-      width: 605px;
+      // width: 605px;
     }
-
+    @media screen and (max-width: $brk-ipad-width) {
+      width: 100vw;
+      left: 0;
+      right: unset;
+      bottom: 0;
+    }
     @media screen and (max-width: $brk-ipad-width - 1) {
       bottom: 50px;
     }
@@ -208,271 +213,165 @@ header {
       width: 450px;
       right: calc(50% - 415px);
     }
+    & .hand {
+      position: absolute;
+      bottom: 0;
+      height: 101%;
+      z-index: 3;
+      left: -1px;
+      @media screen and (max-width: $brk-ipad-width) {
+        content: url("img/streaming_LP_tablet_header_window.png");
+      }
+      & img {
+        width: 100%;
+      }
+    }
+    & .streaming {
+      position: absolute;
+      z-index: 1;
+      transform: translateX(0);
 
-    & .people {
-      height: 100%;
+      // @include keyframes(zap) {
+      //   0%,12.5%,100% {
+      //     transform: translateX(0);
+      //   }
+      //   25%,37.5%,75%,87.5% {
+      //     transform: translateX(-135px);
+      //   }
+      //   50%,62.5% {
+      //     transform: translateX(-270px);
+      //   }
+      // }
+      // @include keyframes(zap2) {
+      //   0%,83.333%,100% {
+      //     transform: translateX(0);
+      //   }
+      //   8.333%,25%,58.333%,75% {
+      //     transform: translateX(135px);
+      //   }
+      //   33.333%,50% {
+      //     transform: translateX(270px);
+      //   }
+      // }
+
+      @include keyframes(zap2) {
+        0%,
+        16.666%,
+        100% {
+          transform: translateX(0);
+        }
+        25%,
+        41.666%,
+        75%,
+        91.666% {
+          transform: translateX(135px);
+        }
+        50%,
+        66.666% {
+          transform: translateX(270px);
+        }
+      }
+
+      @include keyframes(zap) {
+        0%,
+        12.5%,
+        100% {
+          transform: translateX(0);
+        }
+        25%,
+        37.5%,
+        75%,
+        87.5% {
+          transform: translateX(-135px);
+        }
+        50%,
+        62.5% {
+          transform: translateX(-270px);
+        }
+      }
+      &:nth-of-type(1) {
+        bottom: 0;
+        height: 470px;
+        animation: zap2 12s ease-in-out infinite;
+        left: -130px;
+        @media screen and (max-width: $brk-ipad-width) {
+          content: url("img/netflix_tab1.jpg");
+        }
+      }
+      &:nth-of-type(2) {
+        bottom: 470px;
+        height: 235px;
+        animation: zap 12s ease-in-out infinite;
+        @media screen and (max-width: $brk-ipad-width) {
+          display: none;
+        }
+      }
     }
   }
-  & .popcorn_container {
+  & .b2mfree {
+    @media screen and (max-width: $brk-ipad-width) {
+      height: 165px;
+      width: 160px;
+      top: 80px;
+      right: -30px;
+    }
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      right: -160px;
+      top: 10px;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+      right: -85px;
+      top: 25px;
+    }
+  }
+  & .stream {
     position: absolute;
     top: 0;
     height: 100%;
-    width: 100%;
-    & .pop {
-      position: absolute;
-      top: 0;
-      left: 0;
-      @media screen and (max-width: $brk-desktop-width) {
-        top: -195px !important;
-      }
+    @media screen and (min-width: 992px) {
+      left: calc(50% - 960px / 2);
+      max-width: 1080px;
     }
-    & .big,
-    & .medium,
-    & .small {
-      position: absolute;
-      bottom: 0;
+    @media screen and (min-width: 1200px) {
+      left: calc(50% - 1140px / 2);
+      max-width: 1635px;
     }
-    & .big {
-      & .pop {
-        animation: woosh4 10s linear forwards infinite;
-        // opacity: 0;
-        transform: scale(0);
-        @for $i from 1 through 7 {
-          &:nth-child(#{$i}) {
-            animation-delay: 1 * $i + s;
-          }
-        }
-      }
-    }
-    & .medium {
-      & .pop {
-        animation: woosh4 8s linear forwards infinite;
-        // opacity: 0;
-        transform: scale(0);
-        @for $i from 1 through 7 {
-          &:nth-child(#{$i}) {
-            animation-delay: 1 * $i + 7 + s;
-          }
-        }
-      }
-    }
-    & .small {
-      & .pop {
-        animation: woosh4 6s linear forwards infinite;
-        // opacity: 0;
-        transform: scale(0);
-        @for $i from 1 through 7 {
-          &:nth-child(#{$i}) {
-            animation-delay: 1 * $i + 14 + s;
-          }
-        }
-      }
-    }
-    @include keyframes(woosh4) {
-      0%,
-      100% {
-        transform: scale(0) translateY(0);
-        -webkit-transform: scale(0) translateY(0);
-        -moz-transform: scale(0) translateY(0);
-        -ms-transform: scale(0) translateY(0);
-        -o-transform: scale(0) translateY(0);
-}
-      50% {
-        transform: scale(1) translateY(50px);
-        -webkit-transform: scale(1) translateY(50px);
-        -moz-transform: scale(1) translateY(50px);
-        -ms-transform: scale(1) translateY(50px);
-        -o-transform: scale(1) translateY(50px);
-}
-    }
-    & .big {
-      z-index: 3;
-      & .pop {
-        width: 30px;
-        & img {
-          animation: rotates 14s ease-in-out alternate infinite;
-          @include keyframes(rotates) {
-            100% {
-              transform: rotateZ(1turn);
-            }
-          }
-        }
-
-        &:nth-of-type(1) {
-            left: 440px;
-            top: -375px;
-        }
-
-        &:nth-of-type(2) {
-            left: 350px;
-            top: -125px;
-        }
-
-        &:nth-of-type(3) {
-            left: 290px;
-            top: -185px;
-        }
-
-        &:nth-of-type(4) {
-            left: 425px;
-            top: -205px;
-        }
-
-        &:nth-of-type(5) {
-            left: 575px;
-            top: -230px;
-        }
-
-        &:nth-of-type(6) {
-            left: 460px;
-            top: -155px;
-        }
-
-        &:nth-of-type(7) {
-            left: 545px;
-            top: -385px;
-        }
-        &:nth-of-type(8) {
-          left: 480px;
-          top: -240px;
-        }
-        &:nth-of-type(9) {
-            left: 555px;
-            top: -475px;
-        }
-      }
-    }
-    & .medium {
-      z-index: 2;
-      & .pop {
-        width: 25px;
-        & img {
-          animation: rotates 12s ease-in-out infinite;
-          @include keyframes(rotates) {
-            100% {
-              transform: rotateZ(1turn);
-            }
-          }
-        }
-        &:nth-of-type(1) {
-            left: 185px;
-            top: -230px;
-        }
-
-        &:nth-of-type(2) {
-            left: 225px;
-            top: -360px;
-        }
-
-        &:nth-of-type(3) {
-          left: 400px;
-          top: -225px;
-        }
-
-        &:nth-of-type(4) {
-            left: 505px;
-            top: -160px;        
-        }
-
-        &:nth-of-type(5) {
-            left: 275px;
-            top: -365px;
-        }
-
-        &:nth-of-type(6) {
-            left: 385px;
-            top: -350px;
-        }
-
-        &:nth-of-type(7) {
-            left: 380px;
-            top: -155px;        
-        }
-        &:nth-of-type(8) {
-            left: 220px;
-            top: -240px;;
-        }
-        &:nth-of-type(9) {
-          left: 415px;
-          top: -227px;
-        }
-      }
-    }
-    & .small {
-      z-index: 1;
-      & .pop {
-        width: 20px;
-        & img {
-          animation: rotates 16s ease-in-out infinite;
-          @include keyframes(rotates) {
-            100% {
-              transform: rotateZ(1turn);
-            }
-          }
-        }
-        &:nth-of-type(1) {
-            left: 140px;
-            top: -370px;
-        }
-
-        &:nth-of-type(2) {
-            left: 565px;
-            top: -325px;
-        }
-
-        &:nth-of-type(3) {
-            left: 490px;
-            top: -425px;
-        }
-
-        &:nth-of-type(4) {
-          left: 530px;
-          top: -225px;
-        }
-
-        &:nth-of-type(5) {
-            left: 335px;
-            top: -455px;
-        }
-
-        &:nth-of-type(6) {
-            left: 360px;
-            top: -570px;
-        }
-
-        &:nth-of-type(7) {
-            left: 405px;
-            top: -465px;
-        }
-        &:nth-of-type(8) {
-            left: 280px;
-            top: -310px;   
-        }
-        &:nth-of-type(9) {
-          left: 215px;
-          top: -227px;
-        }
-      }
-    }
-    & img {
-      width: 100%;
+    @media screen and (max-width: 991px) {
+      left: calc(50% - 95% / 2);
+      max-width: 100%;
     }
   }
 }
 #streaming_needs {
-  & img {
-    width: 185px;
-    @media screen and (max-width: $brk-min-desktop-width) {
-      width: 100px;
+  & .need {
+    & img {
+      width: 185px;
+      @media screen and (max-width: $brk-min-desktop-width) {
+        width: 100px;
+      }
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        width: 60px;
+      }
     }
-    @media screen and (max-width: $brk-ipad-width - 1) {
-      width: 60px;
+  }
+  & .unblock {
+    & img {
+      height: 45px;
+      @media screen and (max-width: $brk-desktop-width) {
+        height: 40px;
+      }
     }
   }
   & p {
     color: $color-text-light;
     &.color_dark {
       color: $color-text-dark;
+    }
+  }
+  & .fadeInUp {
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      animation: none !important;
+      visibility: visible !important;
     }
   }
   & h6 {

@@ -13,8 +13,8 @@
             <% include ../navbar/header_bar %>  
             <div class="container">
                 <div class="col-65">
-                    <h1 class="mt-3 mb-0"><%- gettext('The best VPN <br>for <b>Kodi</b>') %></h1>
-                    <h3 class="mb-0"><%- gettext("Stay safe while streaming on Kodi<br>with Private Internet Access") %></h3>
+                    <h1 class="mt-3 mb-0"><%- gettext('Discover an endless amount of <br><b>streaming content</b> on KODI') %></h1>
+                    <h3 class="mb-0"><%- gettext("Access geo-blocked TV shows and movies <br>while staying anonymous online") %></h3>
                     <div class="d-inline-block text-center position-relative">
                         <a href="<%- offerLink %>" class="btn_wave orange my-3 d-md-inline-block d-none"><%- gettext("Get Private Internet Access VPN") %></a>
                         <% include ../partials/discount_block %>
@@ -35,29 +35,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg_container parallax d-md-block d-none ">
-                    <img src="img/Kodi_LP_header_image.png" alt="kodi" class="people">
-                    <img src="img/Kodi_LP_header_rays.png" alt="rays" class="rays">
-                    <div class="stream_container">
-                        <div class="big">
-                            <% for(var i=1;i<10;i++){ %>
-                                <%  var num = Math.floor(Math.random() * (10)) + 1 %>
-                                <div class="stream"><img src="img/kodi_lp_box_<%- num %>.png" alt="stream"></div>
-                            <% } %>
-                        </div>
-                        <div class="medium">
-                            <% for(var i=1;i<10;i++){ %>
-                                <%  var num = Math.floor(Math.random() * (10)) + 1 %>
-                                <div class="stream"><img src="img/kodi_lp_box_<%- num %>.png" alt="stream"></div>
-                            <% } %>
-                        </div>
-                        <div class="small">
-                            <% for(var i=1;i<10;i++){ %>
-                                <%  var num = Math.floor(Math.random() * (10)) + 1 %>
-                                <div class="stream"><img src="img/kodi_lp_box_<%- num %>.png" alt="stream"></div>
-                            <% } %>
-                        </div>
-                    </div>
+            </div>
+            <div class="container stream">
+                <div class="bg_container parallax d-md-block d-none">
+                    <img src="img/kodi1.jpg" alt="streaming" class="streaming">
+                    <img src="img/kodi2.jpg" alt="streaming" class="streaming">
+                    <img src="img/kodi_LP3_header_window.png" alt="hand" class="hand">
                 </div>
             </div>
             <div class="d-block d-md-none mobile_header">

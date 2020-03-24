@@ -42,11 +42,11 @@ p {
   }
 }
 header {
-  background-image: url(img/header_bg.jpg);
-  min-height: 700px;
+  background-image: url(img/streaming_LP2_header_cut.jpg);
+  min-height: 768px;
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 3840px 700px;
+  background-size: 3840px 768px;
   padding-top: 45px;
   position: relative;
   z-index: 1;
@@ -54,26 +54,15 @@ header {
   overflow: hidden;
 
   @media screen and (max-width: $brk-ipad-width) {
-    background-image: url(img/Kodi_LP_tablet_with_white.jpg);
+    background-image: url(img/kodi_LP_tablet_header_img1.jpg);
+    min-height: 768px;
+    background-size: 768px auto;
     background-position: right top;
-    min-height: 700px;
-    background-size: 768px auto;
   }
+
   @media screen and (max-width: $brk-ipad-width - 1) {
-    background-color: #fff;
-    background-image: url(img/Kodi_LP_tablet.jpg);
-    background-position: right top -210px;
-    min-height: 585px;
-    padding-bottom: 40px;
-    background-size: 768px auto;
-  }
-  @media screen and (max-width: 575px) {
-    background-position: right top -55px;
-    background-size: 575px auto;
-  }
-  @media screen and (max-width: $brk-mobile-width) {
-    background-image: url(img/Kodi_LP_mobile.jpg);
-    background-position: right calc(50% - -90px) top -20px;
+    background-image: url(img/kodi_lp_mobi_header_image1.jpg);
+    min-height: 605px;
   }
   & .btn_wave {
     @media screen and (max-width: $brk-ipad-width - 1) {
@@ -101,7 +90,9 @@ header {
     bottom: 0;
     width: 100%;
     background-color: #fff;
-
+    margin-bottom: -1px;
+    padding-bottom: 5px;
+    border-bottom: solid 5px #fff;
 
     & .dark {
       background-color: #263238;
@@ -142,8 +133,8 @@ header {
   }
 
   & h1 {
-    font-size: 2.8rem;
-    font-weight: 800;
+    font-size: 2.5rem;
+    font-weight: 500;
     @media screen and (max-width: $brk-min-desktop-width) {
       font-size: 2.5em;
     }
@@ -154,14 +145,7 @@ header {
     @media screen and (max-width: $brk-mobile-width) {
       font-size: 1.2rem;
     }
-    & br {
-      display: none;
-      @media screen and (max-width: $brk-ipad-width - 1) {
-        display: block;
-      }
-    }
     & b {
-      font-size: 1.6em;
       font-weight: 500;
       color: $pia-light-orange;
     }
@@ -169,6 +153,9 @@ header {
   & h3 {
     @media screen and (max-width: $brk-ipad-width - 1) {
       font-size: 1.2rem;
+      & br {
+        display: none;
+      }
     }
   }
   & .brands {
@@ -193,234 +180,73 @@ header {
     }
   }
 
-  & .col-45 {
-    width: 45%;
-
-    @media screen and (max-width: $brk-desktop-width) {
-      width: 65%;
-    }
-
-    @media screen and (max-width: $brk-ipad-width) {
-      width: 100%;
-    }
-  }
-
   & .bg_container {
     position: absolute;
     bottom: 5px;
-    right: calc(50% - 600px);
-    width: 715px;
+    right: 0;
+    width: 69%;
     z-index: -1;
     height: 100%;
+    overflow: hidden;
 
     @media screen and (max-width: $brk-min-desktop-width) {
-      width: 605px;
+      // width: 605px;
+    }
+    @media screen and (max-width: $brk-ipad-width) {
+      width: 100vw;
+      left: 0;
+      right: unset;
+      bottom: 0;
+    }
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      bottom: 50px;
     }
 
-    @media screen and (max-width: $brk-ipad-width ) {
-      display: none!important;
+    @media screen and (max-width: 575px) {
+      width: 450px;
+      right: calc(50% - 415px);
     }
-
-    & .people {
+    & .hand {
+      position: absolute;
+      bottom: 0;
       height: 100%;
-    }
-    & .rays {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
-
-    & .stream_container {
-      position: absolute;
-      top: 0;
-      left: 0;
-      @include keyframes(woosh7) {
-        0% {
-          opacity: 0;
-        }
-        1% {
-          opacity: 1;
-        }
-        40% {
-          opacity: 1;
-        }
-        100% {
-          @include prefix((transform: translate(300px,150px)), webkit moz ms o);
-          opacity: 0;
-        }
-      }
-      @include keyframes(woosh6) {
-        0% {
-          opacity: 0;
-        }
-        1% {
-          opacity: 1;
-        }
-        40% {
-          opacity: 1;
-        }
-        100% {
-          @include prefix((transform: translate(300px,-150px)), webkit moz ms o);
-          opacity: 0;
-        }
-      }
-      @include keyframes(woosh5) {
-        0% {
-          opacity: 0;
-        }
-        1% {
-          opacity: 1;
-        }
-        40% {
-          opacity: 1;
-        }
-        100% {
-          @include prefix((transform: translate(300px,-250px)), webkit moz ms o);
-          opacity: 0;
-        }
-      }
-      @include keyframes(woosh4) {
-        0% {
-          opacity: 0;
-        }
-        1% {
-          opacity: 1;
-        }
-        40% {
-          opacity: 1;
-        }
-        100% {
-          @include prefix((transform: translate(300px,250px)), webkit moz ms o);
-          opacity: 0;
-        }
-      }
-      @include keyframes(woosh3) {
-        0% {
-          opacity: 0;
-        }
-        1% {
-          opacity: 1;
-        }
-        40% {
-          opacity: 1;
-        }
-        100% {
-          @include prefix((transform: translate(300px,500px)), webkit moz ms o);
-          opacity: 0;
-        }
-      }
-      @include keyframes(woosh2) {
-        0% {
-          opacity: 0;
-        }
-        1% {
-          opacity: 1;
-        }
-        40% {
-          opacity: 1;
-        }
-        100% {
-          @include prefix((transform: translate(300px,-500px)), webkit moz ms o);
-          opacity: 0;
-        }
-      }
-      @include keyframes(woosh1) {
-        0% {
-          opacity: 0;
-        }
-        1% {
-          opacity: 1;
-        }
-        40% {
-          opacity: 1;
-        }
-        100% {
-          @include prefix((transform: translate(300px,0px)), webkit moz ms o);
-          opacity: 0;
-        }
-      }
-      & .stream {
-        position: absolute;
-        top: 0;
-        left: 0;
-        opacity: 0;
-      }
-      & .big,
-      & .medium,
-      & .small {
-        position: absolute;
-        bottom: 0;
-      }
-      & .big {
-        & .stream {
-          @for $i from 1 through 10 {
-            &:nth-child(#{$i}) {
-              @include prefix((animation: woosh#{randomNum(1, 7)} 10s linear forwards infinite), webkit);
-              animation-delay: 1 * $i + s;
-            }
-          }
-        }
-      }
-      & .medium {
-        & .stream {
-          @for $i from 1 through 10 {
-            &:nth-child(#{$i}) {
-              animation: woosh#{randomNum(1, 7)} 10s linear forwards infinite;
-              animation-delay: 1 * $i + 7 + s;
-            }
-          }
-        }
-      }
-      & .small {
-        & .stream {
-          @for $i from 1 through 10 {
-            &:nth-child(#{$i}) {
-              animation: woosh#{randomNum(1, 7)} 10s linear forwards infinite;
-              animation-delay: 1 * $i + 14 + s;
-            }
-          }
-        }
-      }
-      & .big {
-        z-index: 3;
-        & .stream {
-          width: 60px;
-          left: 0px;
-          top: 415px;
-          & img {
-            animation: rotates 10s ease-in-out alternate infinite;
-            @include keyframes(rotates) {
-              100% {
-                transform: rotateZ(1turn);
-              }
-            }
-          }
-        }
-      }
-      & .medium {
-        z-index: 2;
-        & .stream {
-          width: 40px;
-          left: 0px;
-          top: 415px;
-          & img {
-            animation: rotates 8s ease-in-out infinite;
-          }
-        }
-      }
-      & .small {
-        z-index: 1;
-        & .stream {
-          width: 30px;
-          left: 0px;
-          top: 415px;
-          & img {
-            animation: rotates 7s ease-in-out infinite;
-          }
-        }
+      z-index: 3;
+      @media screen and (max-width: $brk-ipad-width) {
+        // content: url("img/streaming_LP_tablet_header_hand.png");
       }
       & img {
         width: 100%;
+      }
+    }
+    & .streaming {
+      position: absolute;
+      z-index: 1;
+      transform: translateX(0);
+      
+      @include keyframes(zap) {
+        0% {
+          transform: translateX(0);
+        }
+        25%,27% {
+          transform: translateX(-135px);
+        }
+        50%,52% {
+          transform: translateX(-270px);
+        }
+        75%,77% {
+          transform: translateX(-405px);
+        }
+      }
+      &:nth-of-type(1) {
+        bottom: 0;
+        height: 470px;
+        animation: zap 10s ease-in-out infinite alternate-reverse;
+        
+      }
+      &:nth-of-type(2) {
+        bottom: 470px;
+        height: 235px;
+        animation: zap 10s ease-in-out infinite alternate;
       }
     }
   }
@@ -449,6 +275,12 @@ header {
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
       font-size: 1rem;
+    }
+  }
+  & .fadeInUp {
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      animation: none!important;
+      visibility: visible!important;
     }
   }
   & .fa-minus {

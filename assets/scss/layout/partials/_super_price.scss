@@ -27,7 +27,7 @@
         }
         @media screen and (max-width: $brk-mobile-width ) {
             max-width: 100%;
-            flex: 0 0 100%;
+            flex: 0 0 335px;
         }
         & .btn_wave {
             @media screen and (max-width: $brk-desktop-width) {
@@ -100,7 +100,7 @@
             }
             @media screen and (max-width: $brk-mobile-width) {
                 max-width: 100%;
-                flex: 0 0 100%;
+                flex: 0 0 335px;
             }
             & .body {
                 padding: 0 20px 45px;

@@ -231,7 +231,7 @@ header {
       z-index: 3;
       left: -3px;
       @media screen and (max-width: $brk-ipad-width) {
-        content: url("img/kodi_LP_tablet_header_window.png");
+        content: url("img/kodi_LP_tablet_header_window.png?v2");
       }
       @media screen and (max-width: $brk-ipad-width - 1) {
         content: url("img/kodi_lp_mobi_header4_window.png");

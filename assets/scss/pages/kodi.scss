@@ -42,7 +42,7 @@ p {
   }
 }
 header {
-  background-image: url(img/streaming_LP2_header_cut.jpg);
+  background-color: #263238;
   min-height: 768px;
   background-repeat: no-repeat;
   background-position: top;
@@ -53,16 +53,11 @@ header {
   color: #fff;
   overflow: hidden;
 
-  @media screen and (max-width: $brk-ipad-width) {
-    background-image: url(img/kodi_LP_tablet_header_img1.jpg);
-    min-height: 768px;
-    background-size: 768px auto;
-    background-position: right top;
-  }
-
   @media screen and (max-width: $brk-ipad-width - 1) {
-    background-image: url(img/kodi_lp_mobi_header_image1.jpg);
+    // background-image: url(img/kodi_lp_mobi_header_image1.jpg);
     min-height: 605px;
+    // background-size: 768px auto;
+    // background-position: right top;
   }
   & .btn_wave {
     @media screen and (max-width: $brk-ipad-width - 1) {
@@ -135,9 +130,6 @@ header {
   & h1 {
     font-size: 2.5rem;
     font-weight: 500;
-    @media screen and (max-width: $brk-min-desktop-width) {
-      font-size: 2.5em;
-    }
     @media screen and (max-width: $brk-ipad-width - 1) {
       font-size: 1.5rem;
     }
@@ -148,11 +140,16 @@ header {
     & b {
       font-weight: 500;
       color: $pia-light-orange;
+      text-transform: capitalize;
+    }
+    & span {
+      color: $pia-light-orange;
     }
   }
   & h3 {
     @media screen and (max-width: $brk-ipad-width - 1) {
-      font-size: 1.2rem;
+      font-size: 1rem;
+      font-weight: 400
       & br {
         display: none;
       }
@@ -183,15 +180,12 @@ header {
   & .bg_container {
     position: absolute;
     bottom: 5px;
-    right: -1px;
-    width: 88%;
+    right: 0;
+    width: 85%;
     z-index: -1;
     height: 100%;
     overflow: hidden;
 
-    @media screen and (max-width: $brk-min-desktop-width) {
-      // width: 605px;
-    }
     @media screen and (max-width: $brk-ipad-width) {
       width: 100vw;
       left: 0;
@@ -200,95 +194,81 @@ header {
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
       bottom: 50px;
+      width: 510px;
+      left: unset;
+      right: 0;
     }
-
-    @media screen and (max-width: 575px) {
-      width: 450px;
-      right: calc(50% - 415px);
+    @media screen and (max-width: $brk-mobile-width) {
+      width: 420px;
     }
     & .hand {
+      position: absolute;
+      left: 110px;
+      bottom: 0;
+      z-index: 3;
+      @media screen and (max-width: $brk-ipad-width) {
+        left: 231px;
+        bottom: 0;
+        width: 340px;
+      }
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        left: 0;
+      }
+    }
+    & .kodi {
+      z-index: 3;
+      position: absolute;
+      left: 305px;
+      top: 0;
+      @media screen and (max-width: $brk-ipad-width) {
+        display: none;
+      }
+    }
+    & .header {
       position: absolute;
       bottom: 0;
       height: 101%;
       z-index: 3;
-      left: -1px;
+      left: -3px;
       @media screen and (max-width: $brk-ipad-width) {
-        content: url("img/kodi_LP_tablet_header_window.png");
+        content: url("img/kodi_LP_tablet_header_window.png?v2");
       }
-      & img {
-        width: 100%;
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        content: url("img/kodi_lp_mobi_header4_window.png");
+        left: unset;
+        right: 0;
       }
     }
     & .streaming {
       position: absolute;
       z-index: 1;
       transform: translateX(0);
-      height: 235px;
-
-      @include keyframes(zap2) {
-        0%,
-        16.666%,
-        100% {
-          transform: translateX(0);
-        }
-        25%,
-        41.666%,
-        75%,
-        91.666% {
-          transform: translateX(135px);
-        }
-        50%,
-        66.666% {
-          transform: translateX(270px);
-        }
+      bottom: 244px;
+      height: 282px;  
+      animation: zap 12s ease-in-out infinite;
+      left: -130px;
+      @media screen and (max-width: $brk-ipad-width) {
+        content: url("img/kodi_tab1.jpg");
+        bottom: 0;
+        height: 274px;
       }
-
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        content: url("img/kodi_mobi1.jpg");
+      }
       @include keyframes(zap) {
-        0%,
-        12.5%,
-        100% {
+        0%,12.5%,100% {
           transform: translateX(0);
         }
-        25%,
-        37.5%,
-        75%,
-        87.5% {
+        25%,37.5%,75%,87.5% {
           transform: translateX(-135px);
         }
-        50%,
-        62.5% {
+        50%,62.5% {
           transform: translateX(-270px);
-        }
-      }
-      &:nth-of-type(1) {
-        bottom: 37px;
-        animation: zap2 12s ease-in-out infinite;
-        left: -130px;
-        @media screen and (max-width: $brk-ipad-width) {
-          content: url("img/kodi_tab1.jpg");
-        }
-      }
-      &:nth-of-type(2) {
-        bottom: 272px;
-        animation: zap 12s ease-in-out infinite;
-        @media screen and (max-width: $brk-ipad-width) {
-          display: none;
         }
       }
     }
   }
-    & .hand {
-      position: absolute;
-      bottom: 0;
-      height: 100%;
-      z-index: 3;
-      @media screen and (max-width: $brk-ipad-width) {
-        // content: url("img/streaming_LP_tablet_header_hand.png");
-      }
-      & img {
-        width: 100%;
-      }
-    }
+
     & .b2mfree {
       @media screen and (max-width: $brk-ipad-width) {
         height: 165px;
@@ -309,6 +289,7 @@ header {
       position: absolute;
       top: 0;
       height: 100%;
+      z-index: -1;
       @media screen and (min-width: 992px) {
         left: calc(50% - 960px / 2);
         max-width: 1080px;
@@ -318,7 +299,7 @@ header {
         max-width: 1635px;
       }
       @media screen and (max-width: 991px) {
-        left: calc(50% - 95% / 2);
+        left: 0;
         max-width: 100%;
       }
     }

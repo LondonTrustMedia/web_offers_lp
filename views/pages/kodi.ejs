@@ -13,7 +13,7 @@
             <% include ../navbar/header_bar %>  
             <div class="container">
                 <div class="col-65">
-                    <h1 class="mt-3 mb-0"><%- gettext('Discover an endless amount of <br><b>streaming content</b> on KODI') %></h1>
+                    <h1 class="mt-3 mb-0"><%- gettext('Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>') %></h1>
                     <h3 class="mb-0"><%- gettext("Access geo-blocked TV shows and movies <br>while staying anonymous online") %></h3>
                     <div class="d-inline-block text-center position-relative">
                         <a href="<%- offerLink %>" class="btn_wave orange my-3 d-md-inline-block d-none"><%- gettext("Get Private Internet Access VPN") %></a>
@@ -37,10 +37,11 @@
                 </div>
             </div>
             <div class="container stream">
-                <div class="bg_container parallax d-md-block d-none">
-                    <img src="img/kodi1.jpg" alt="streaming" class="streaming">
+                <div class="bg_container parallax d-md-block">
                     <img src="img/kodi2.jpg" alt="streaming" class="streaming">
-                    <img src="img/kodi_LP3_header_window.png" alt="hand" class="hand">
+                    <img src="img/streaming_LP4_window.png?v2" alt="header" class="header">
+                    <img src="img/streaming_LP4_kodi_logo.png?v2" alt="kodi" class="kodi">
+                    <img src="img/streaming_LP4_hand.png?v2" alt="hand" class="hand">
                 </div>
             </div>
             <div class="d-block d-md-none mobile_header">
@@ -71,34 +72,34 @@
         <% include ../partials/trusted_companies %>
         <section id="streaming_needs">
             <div class="container text-center">
-                <div class="mb-lg-5 mb-3 wow fadeInUp">
+                <div class="mb-lg-5 mb-3 wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".4s">
                     <h2 class="mb-0"><%- gettext("Don’t get into trouble while streaming on Kodi") %></h2>
                     <p class="my-lg-5 my-3 color_dark mb-"><%- gettext("Whether you use Kodi TV to watch your personal content library or for the titles you find on their website, make sure nobody will be able to find out what you're doing online.<br><b>Why? </b>Streaming content on Kodi works is basically P2P torrenting which might be illegal in your country. Luckily, with the <b>Private Internet Access VPN</b>, you can make all your internet activity totally anonymous. So, you'll never have any trouble with governmental authorities while using Kodi.") %></p>
                     <a href="<%- offerLink %>" class="btn_wave orange my-3 d-md-inline-block d-none"><%- gettext("Sign up for Private Internet Access today!") %></a>
                 </div>
-                <div class="d-md-flex justify-content-md-between justify-content-center flex-lg-row flex-column d-none">
-                    <div class="col-lg-3 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay="1s">
+                <div class="d-md-flex justify-content-md-between justify-content-center flex-lg-row flex-column d-none wow fadeInUp"  data-wow-duration=".4s" data-wow-delay=".8s">
+                    <div class="col-lg-3 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
                         <div class="mb-3 mr-3 mr-lg-0"><img src="img/pia_lockman/circle_box_pia_lockman_p2p.svg" alt="Infinity"></div>
                         <div>
                             <h6 class="my-2 text-uppercase"><%- gettext("P2P traffic allowed") %></h6>
                             <p class="mb-0"><%- gettext("Private Internet Access supports P2P protocols such as torrents.") %></p>
                         </div>
                     </div>
-                    <div class="col-lg-3 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay="2s">
+                    <div class="col-lg-3 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
                         <div class="mb-3 mr-3 mr-lg-0"><img src="img/pia_lockman/circle_box_pia_lockman_no_logs.svg" alt="No logs"></div>
                         <div>
                             <h6 class="my-2 text-uppercase"><%- gettext("No Logs Policy") %></h6>
                             <p class="mb-0"><%- gettext("Private Internet Access never records its users' online activity and never keeps any logs, so you'll have complete anonymity from the moment you connect to our servers.") %></p>
                         </div>
                     </div>
-                    <div class="col-lg-3 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay="3s">
+                    <div class="col-lg-3 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
                         <div class="mb-3 mr-3 mr-lg-0"><img src="img/pia_lockman/circle_box_pia_lockman_break_wall.svg" alt="One click"></div>
                         <div>
                             <h6 class="my-2 text-uppercase"><%- gettext("Bypass geographical restrictions") %></h6>
                             <p class="mb-0"><%- gettext("Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.") %></p>
                         </div>
                     </div>
-                    <div class="col-lg-3 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0 wow fadeInUp" data-wow-duration=".8s" data-wow-delay="4s">
+                    <div class="col-lg-3 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
                         <div class="mb-3 mr-3 mr-lg-0"><img src="img/pia_lockman/circle_box_pia_lockman_devices.svg" alt="One click"></div>
                         <div>
                             <h6 class="my-2 text-uppercase"><%- gettext("Use Kodi TV on multiple devices") %></h6>

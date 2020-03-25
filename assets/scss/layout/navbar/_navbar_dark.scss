@@ -44,6 +44,9 @@ $nav_height_mobile: 55px;
             @media screen and (max-width: $brk-ipad-width - 1) {
                 height: 25px;
             }
+            @media screen and (max-width: $brk-mobile-width) {
+                height: 22px;
+            }
         }
     }
     & .btn_nav {

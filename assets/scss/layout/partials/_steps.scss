@@ -7,10 +7,10 @@ $strokeFill: 534;
   min-height: 705px;
   padding-top: 120px;
   color: #fff;
+  background-color: #263137;
   @media screen and (max-width: $brk-desktop-width) {
     background-image: url(img/steps_bg_tablet.jpg);
     background-size: 100% auto;
-    background-color: #263137;
   }
   @media screen and (max-width: $brk-ipad-width - 1) { 
     min-height: unset;
@@ -71,6 +71,11 @@ $strokeFill: 534;
         flex: 0 0 280px;
         max-width: 100%;
         max-height: 280px;
+        html[lang=fra] &,html[lang=deu] & {
+        -ms-flex: 0 0 300px;
+        flex: 0 0 300px;
+        max-height: 300px;
+        }
       }
     }
   }

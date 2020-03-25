@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-03-18 14:37+0000\n"
+"POT-Creation-Date: 2020-03-24 16:22+0000\n"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/mws.js:377
 msgid "US Dollars"
@@ -1067,12 +1067,12 @@ msgstr ""
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:21
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:40
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:74
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:21
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:40
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:74
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:21
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:42
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:116
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:21
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:40
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:74
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:31
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:52
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/unblock_steps.ejs:19
@@ -1161,24 +1161,24 @@ msgid "Start protecting your internet with Private Internet Access in minutes"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:119
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:119
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:156
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:119
 msgid "Subscribe to Private Internet Access"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:120
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:120
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:120
 msgid "Download Private Internet Access"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:121
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:121
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:121
 msgid "Login on the Private Internet Access client with your username and password"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:122
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:122
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:159
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:122
 msgid "Turn on Private Internet Access and connect to the location of your choice"
 msgstr ""
 
@@ -1206,14 +1206,15 @@ msgid ""
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:158
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:248
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:154
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:236
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:195
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:154
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:248
 msgid "Do you have a refund policy?"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:159
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:155
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:155
 msgid ""
 "Yes. Private Internet Access has a no questions asked 7-day money back "
 "guarantee. Subscribe to Private Internet Access today to start streaming "
@@ -1260,6 +1261,160 @@ msgid ""
 "travelers."
 msgstr ""
 
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:14
+msgid "The best VPN for Kodi"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:15
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:38
+msgid "Stay safe while streaming on Kodi with Private Internet Access"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:37
+msgid "<span>The best</span><br>VPN <small>for</small> Kodi"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:71
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:75
+msgid "Don’t get into trouble while streaming on Kodi"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:72
+msgid ""
+"Whether you use Kodi TV to watch your personal content library or for the "
+"titles you find on their website, make sure nobody will be able to find out "
+"what you're doing online."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:73
+msgid ""
+"<b>Why? </b>Streaming content on Kodi works is basically P2P torrenting "
+"which might be illegal in your country. Luckily, with the Private Internet "
+"Access VPN, you can make all your internet activity totally anonymous. So, "
+"you'll never have any trouble with governmental authorities while using "
+"Kodi."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:80
+msgid "A must have for streaming with Kodi"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:84
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:83
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:118
+msgid "P2P traffic allowed"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:85
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:84
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:129
+msgid "Private Internet Access supports P2P protocols such as torrents."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:89
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:90
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:140
+msgid "No Logs Policy"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:90
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:91
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:151
+msgid ""
+"Private Internet Access never records its users' online activity and never "
+"keeps any logs, so you'll have complete anonymity from the moment you "
+"connect to our servers."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:94
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:97
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:162
+msgid "Bypass geographical restrictions"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:95
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:98
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:173
+msgid ""
+"Once you have chosen the location you want to use the internet from, "
+"Private Internet Access will always be one click away."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:99
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:104
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:184
+msgid "Use Kodi TV on multiple devices"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:100
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:105
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:195
+msgid ""
+"1 Private Internet Access subscription can be used on up to %s devices "
+"simultaneously. Share Private Internet Access with your whole family!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:116
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:197
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:212
+msgid "Start streaming with Private Internet Access in minutes"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:117
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:213
+msgid "Watch Kodi anonymously in 4 easy steps"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:124
+msgid "You’re ready to start using Private Internet Access with your Kodi TV."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:147
+msgid "Got questions?<br>Check out our FAQs"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:150
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:244
+msgid "Is it safe to use Kodi with Private Internet Access?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:151
+msgid ""
+"Yes. Private Internet Access provides a VPN service with servers in 49 "
+"locations across 29 countries, including the United States, United Kingdom, "
+"Japan, and more. The better question is: Is it safe to use Kodi without "
+"Private Internet Access?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:158
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:252
+msgid "Will my IP address be exposed while using Kodi add-ons?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:159
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:253
+msgid ""
+"No. By using Private Internet Access, you are encrypting your traffic "
+"through our VPN tunnel which accesses the internet from one of our servers’ "
+"IP addresses. Any service or website accessed will only see our Private "
+"Internet Access IP address, not your device’s IP address."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:162
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:256
+msgid "Does Private Internet Access limit bandwidth for Kodi users?"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:163
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:257
+msgid ""
+"No. Private Internet Access is the premier no log VPN - this means that we "
+"don’t even know what software you use in conjunction with ours. All of our "
+"servers offer unlimited bandwidth and we do not throttle our users. Period. "
+"Sign up for Private Internet Access today to enjoy the unlimited and "
+"uncensored internet."
+msgstr ""
+
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection.ejs:19
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:14
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:45
@@ -1267,11 +1422,13 @@ msgid "Everyone needs<br><b>Protection</b>"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:16
-msgid "Best VPN for <b>streaming</b>"
+msgid ""
+"Discover all the <br class=\"m\"><b><span>streaming "
+"content</span></b><br>you’ve been missing out on"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:17
-msgid "Private Internet Access<br>streamlines your internet"
+msgid "Unblock restricted content libraries<br>easily with Private Internet Access"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:19
@@ -1279,6 +1436,7 @@ msgstr ""
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:33
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:90
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:63
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:19
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:24
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:61
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:65
@@ -1291,16 +1449,18 @@ msgstr ""
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:25
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:41
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:26
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:25
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:28
 msgid ""
 "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> "
 "%s-day money back guarantee</span>"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:86
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:62
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:57
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:85
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:58
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:61
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:56
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:60
 msgid ""
@@ -1308,112 +1468,127 @@ msgid ""
 "guarantee</span>"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:91
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:67
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:62
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:21
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:66
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:18
 msgid "Private Internet Access VPN for %s% OFF"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:100
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:76
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:96
+msgid "Discover Limitless Streaming Content"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:77
+msgid ""
+"Online streaming services and websites are becoming more popular every day "
+"all over the world. But sometimes geo-restrictions can limit the content "
+"you have access to. Don’t miss out on video streaming opportunities because "
+"of your location. <br><b class='mt-1 d-inline-block'>Sign up for Private "
+"Internet Access today!</b>"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:80
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:107
+msgid "Unblock content on:"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:89
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:77
+msgid "Sign up for Private Internet Access today!"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:91
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:122
 msgid "A must have for your streaming needs"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:101
-msgid ""
-"According to the Video Advertising Bureau (VAB), <b>over 71%</b> of "
-"internet users in the United States stream and watch video over the "
-"internet.<br>Online streaming services and websites are becoming more "
-"popular every day all over the world.<br><b class='mt-1 "
-"d-inline-block'>Don’t miss out on video streaming opportunities because of "
-"your location.</b>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:102
-msgid "Sign up for Private Internet Access today!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:108
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:136
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:96
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:124
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:126
 msgid "Unlimited bandwidth for streaming"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:109
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:147
-msgid "Private Internet Access has no logs and does not throttle users"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:115
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:158
-msgid "One click solution to bypass geographic restrictions"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:116
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:169
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:95
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:97
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:135
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:127
 msgid ""
-"Once you have chosen the location you want to use the internet from, "
-"Private Internet Access will always be one click away."
+"Private Internet Access has no logs, never records online activity and does "
+"not throttle users."
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:122
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:180
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:103
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:146
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:131
+msgid "One-click solution to override geographical restrictions"
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:104
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:157
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:132
+msgid ""
+"Once you have chosen your virtual location, you can connect to it using "
+"Private Internet Access with just one click."
+msgstr ""
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:110
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:168
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:136
 msgid "Stream on multiple devices"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:123
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:191
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:111
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:179
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:137
 msgid ""
-"One Private Internet Access subscription can be used on up to five devices "
-"simultaneously. Share Private Internet Access with your whole family!"
+"1 Private Internet Access subscription can be used on up to %s devices "
+"simultaneously. Share Private Internet Access with your entire family!"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:208
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:196
 msgid "Four easy steps to stream with Private Internet Access"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:209
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:116
-msgid "Start streaming with Private Internet Access in minutes"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:211
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:199
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:215
 msgid "<b>Subscribe</b><br>to Private Internet Access"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:212
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:200
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:216
 msgid "<b>Download</b><br>Private Internet Access"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:213
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:201
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:217
 msgid ""
 "<b>Login</b><br>on the Private Internet Access client with your username "
 "and password"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:214
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:202
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:218
 msgid ""
 "<b>Turn on</b><br>Private Internet Access and connect to the location of "
 "your choice"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:216
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:204
 msgid "You’re ready to start streaming with <span>Private Internet Access</span>"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:241
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:229
 msgid "Private Internet Access Streaming FAQ"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:244
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:232
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:191
 msgid "Is it safe to stream with Private Internet Access?"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:245
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:233
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:192
 msgid ""
 "Yes. Private Internet Access provides a VPN service with servers in 49 "
@@ -1422,19 +1597,19 @@ msgid ""
 "Private Internet Access?"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:249
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:237
 msgid ""
 "Private Internet Access has a no questions asked 7 day money back "
 "guarantee. Subscribe to Private Internet Access today to start streaming "
 "now!"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:252
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:240
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:199
 msgid "Will my IP address be exposed to streaming services or websites?"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:253
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:241
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:200
 msgid ""
 "By using Private Internet Access, you are encrypting your traffic through "
@@ -1443,12 +1618,12 @@ msgid ""
 "Internet Access IP address, not your device’s IP address."
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:256
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:244
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:203
 msgid "Does Private Internet Access limit the bandwidth that streamers can use?"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:257
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:245
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:204
 msgid ""
 "Private Internet Access is the premier no log VPN - this means that we "
@@ -1457,14 +1632,14 @@ msgid ""
 "Internet Access today to enjoy the unlimited and uncensored internet."
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:260
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:248
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:207
 msgid ""
 "Will Private Internet Access be blocked on my favorite streaming service or "
 "website?"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:261
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:249
 msgid ""
 " Private Internet Access believes in an open internet and is always working "
 "to make sure that no blocks exist for our VPN users. Use our service today "
@@ -1498,42 +1673,12 @@ msgstr ""
 msgid "The Best VPN for Streaming"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:96
-msgid "Discover Limitless Streaming Content"
-msgstr ""
-
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:97
 msgid ""
 "Online streaming services and websites are becoming more popular every day "
 "all over the world. But sometimes geo-restrictions can limit the content "
 "you have access to. Don’t miss out on video streaming opportunities because "
 "of your location. Sign up for Private Internet Access today!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:107
-msgid "Unblock content on:"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:127
-msgid ""
-"Private Internet Access has no logs, never records online activity and does "
-"not throttle users."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:131
-msgid "One-click solution to override geographical restrictions"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:132
-msgid ""
-"Once you have chosen your virtual location, you can connect to it using "
-"Private Internet Access with just one click."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:137
-msgid ""
-"1 Private Internet Access subscription can be used on up to %s devices "
-"simultaneously. Share Private Internet Access with your entire family!"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:153
@@ -1621,123 +1766,48 @@ msgid ""
 "text-uppercase'>Never Risk</span> Getting Hacked </b>"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:14
-msgid "The best VPN for Kodi"
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:16
+msgid "Discover an endless amount of <br><b>streaming content</b> on KODI"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:15
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:38
-msgid "Stay safe while streaming on Kodi with Private Internet Access"
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:17
+msgid "Access geo-blocked TV shows and movies <br>while staying anonymous online"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:37
-msgid "<span>The best</span><br>VPN <small>for</small> Kodi"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:71
-msgid "Don’t get into trouble while streaming on Kodi"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:72
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:76
 msgid ""
 "Whether you use Kodi TV to watch your personal content library or for the "
 "titles you find on their website, make sure nobody will be able to find out "
-"what you're doing online."
+"what you're doing online.<br><b>Why? </b>Streaming content on Kodi works is "
+"basically P2P torrenting which might be illegal in your country. Luckily, "
+"with the <b>Private Internet Access VPN</b>, you can make all your internet "
+"activity totally anonymous. So, you'll never have any trouble with "
+"governmental authorities while using Kodi."
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:73
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:220
 msgid ""
-"<b>Why? </b>Streaming content on Kodi works is basically P2P torrenting "
-"which might be illegal in your country. Luckily, with the Private Internet "
-"Access VPN, you can make all your internet activity totally anonymous. So, "
-"you'll never have any trouble with governmental authorities while using "
-"Kodi."
+"You’re ready to start using <span>Private Internet Access</span> with your "
+"Kodi TV"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:80
-msgid "A must have for streaming with Kodi"
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:241
+msgid "Got questions? <span class=\"color_pia_green\">Check out our FAQs</span>"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:84
-msgid "P2P traffic allowed"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:85
-msgid "Private Internet Access supports P2P protocols such as torrents."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:89
-msgid "No Logs Policy"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:90
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:245
 msgid ""
-"Private Internet Access never records its users' online activity and never "
-"keeps any logs, so you'll have complete anonymity from the moment you "
-"connect to our servers."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:94
-msgid "Bypass geographical restrictions"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:99
-msgid "Use Kodi TV on multiple devices"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:100
-msgid ""
-"1 Private Internet Access subscription can be used on up to %s devices "
-"simultaneously. Share Private Internet Access with your whole family!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:117
-msgid "Watch Kodi anonymously in 4 easy steps"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:124
-msgid "You’re ready to start using Private Internet Access with your Kodi TV."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:147
-msgid "Got questions?<br>Check out our FAQs"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:150
-msgid "Is it safe to use Kodi with Private Internet Access?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:151
-msgid ""
-"Yes. Private Internet Access provides a VPN service with servers in 49 "
-"locations across 29 countries, including the United States, United Kingdom, "
+"Yes. Private Internet Access provides a VPN service with servers in %s "
+"locations across %s countries, including the United States, United Kingdom, "
 "Japan, and more. The better question is: Is it safe to use Kodi without "
 "Private Internet Access?"
 msgstr ""
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:158
-msgid "Will my IP address be exposed while using Kodi add-ons?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:159
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:249
 msgid ""
-"No. By using Private Internet Access, you are encrypting your traffic "
-"through our VPN tunnel which accesses the internet from one of our servers’ "
-"IP addresses. Any service or website accessed will only see our Private "
-"Internet Access IP address, not your device’s IP address."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:162
-msgid "Does Private Internet Access limit bandwidth for Kodi users?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:163
-msgid ""
-"No. Private Internet Access is the premier no log VPN - this means that we "
-"don’t even know what software you use in conjunction with ours. All of our "
-"servers offer unlimited bandwidth and we do not throttle our users. Period. "
-"Sign up for Private Internet Access today to enjoy the unlimited and "
-"uncensored internet."
+"Yes. Private Internet Access has a no questions asked %s-day money back "
+"guarantee. Subscribe to Private Internet Access today to start streaming "
+"now!"
 msgstr ""
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:16

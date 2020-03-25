@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-03-17 17:52\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-17 17:50+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-03-25 12:57\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-25 09:05+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
       },
       "US Dollars": [
          null,
@@ -1175,258 +1175,6 @@
          null,
          "Non, mais si toutefois cela venait à se produire, n'hésitez pas à contacter nos équipes support 24/7. Private Internet Access croit en l'Internet ouvert et tente de toujours s'assurer que nos utilisateurs VPN ne rencontrent aucun obstacle. Optez pour notre service aujourd'hui et découvrez en quoi Private Internet Access est le meilleur VPN pour vos déplacements à l'étranger."
       ],
-      "Everyone needs<br><b>Protection</b>": [
-         null,
-         "Nous avons tous besoin d'une<br><b>Protection</b>"
-      ],
-      "The Best VPN for streaming": [
-         null,
-         "Le Meilleur VPN pour Streaming"
-      ],
-      "Unblock new content libraries with Private Internet Access": [
-         null,
-         "Débloquez de nouveaux contenus avec Private Internet Access"
-      ],
-      "The Best VPN for Streaming": [
-         null,
-         "Le Meilleur VPN pour Streaming"
-      ],
-      "Discover Limitless Streaming Content": [
-         null,
-         "Découvrez des contenus Streaming en Illimité"
-      ],
-      "Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. Sign up for Private Internet Access today!": [
-         null,
-         "Les plateformes et sites de Streaming en ligne prennent de plus en plus d'ampleur à travers le monde. Mais il arrive que les géo-restrictions en limitent l'accès. Ne passez pas à côté de contenus Streaming en raison de votre emplacement. Souscrivez un abonnement Private Internet Access dès aujourd'hui !"
-      ],
-      "Unblock content on:": [
-         null,
-         "Débloquez les contenus sur :"
-      ],
-      "A must have for your streaming needs": [
-         null,
-         "Un indispensable pour vos besoins de Streaming"
-      ],
-      "Unlimited bandwidth for streaming": [
-         null,
-         "Bande passante illimitée pour le Streaming"
-      ],
-      "Private Internet Access has no logs, never records online activity and does not throttle users.": [
-         null,
-         "Private Internet Access ne conserve aucun Log, n'enregistre jamais votre activité en ligne et ne restreint pas ses utilisateurs."
-      ],
-      "One-click solution to override geographical restrictions": [
-         null,
-         "Une solution en un clic pour contourner toutes les restrictions géographiques"
-      ],
-      "Once you have chosen your virtual location, you can connect to it using Private Internet Access with just one click.": [
-         null,
-         "Dès lors que vous avez choisi votre emplacement virtuel, vous serez en mesure de vous connecter en un seul clic via Private Internet Access."
-      ],
-      "Stream on multiple devices": [
-         null,
-         "Streamez sur une multitude d'appareils"
-      ],
-      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
-         null,
-         "1 abonnement Private Internet Access offre la possibilité d'utiliser jusqu'à %s appareils en simultané. Partagez Private Internet Access avec l'ensemble de votre famille !"
-      ],
-      "Unblock streaming in only 4 easy steps": [
-         null,
-         "Débloquez le Streaming en seulement 4 étapes"
-      ],
-      "Watch your favorite movies and shows in minutes": [
-         null,
-         "Accédez à vos films et programmes favoris en quelques minutes"
-      ],
-      "Download Private Internet Access on your device": [
-         null,
-         "Téléchargez Private Internet Access sur votre appareil"
-      ],
-      "Login-in using your username and password": [
-         null,
-         "Connectez-vous à l'aide de votre identifiant et mot de passe"
-      ],
-      "You’re ready to start streaming with Private Internet Access!": [
-         null,
-         "Vous voilà prêt à streamer avec Private Internet Access !"
-      ],
-      "Got questions about streaming?<br>Here are a few of our FAQs": [
-         null,
-         "Des questions relatives au Streaming ?<br> Voici quelques-unes de nos FAQs"
-      ],
-      "Is it safe to stream with Private Internet Access?": [
-         null,
-         "Est-il sûr de Streamer avec Private Internet Access ?"
-      ],
-      "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
-         null,
-         "Oui. Private Internet Access fournit un service VPN doté de serveurs dans 49 emplacements à travers ses 29 pays, notamment les États-Unis, le Royaume-Uni, le Japon et bien plus. La véritable question serait de savoir : s'il serait sûr de Streamer sans Private Internet Access ?"
-      ],
-      "Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
-         null,
-         "Private Internet Access offre une garantie de remboursement 7 jours sans devoir se justifier. Souscrivez un abonnement Private Internet Access dès aujourd'hui et Streamez sans plus tarder !"
-      ],
-      "Will my IP address be exposed to streaming services or websites?": [
-         null,
-         "Mon adresse IP sera t-elle divulguée aux plateformes et sites de Streaming ?"
-      ],
-      "By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
-         null,
-         "En utilisant Private Internet Access, votre traffic est crypté à l'aide de notre tunnel VPN relié à Internet à partir de l'une de nos adresses IP. Les plateformes et sites de Streaming ne verront que l'adresse IP fournie par Private Internet Access et non l'adresse IP de votre appareil."
-      ],
-      "Does Private Internet Access limit the bandwidth that streamers can use?": [
-         null,
-         "Private Internet Access est-il susceptible de limiter la bande passante utilisée par les Streamers ?"
-      ],
-      "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
-         null,
-         "Private Internet Access est le premier VPN \"No Log\" - cela implique que nous n'avons aucune idée de ce que vous Streamez. Tous nos serveurs offrent une bande passante illimitée et nous ne restreignons pas nos utilisateurs. Jamais. Optez pour Private Internet Access et profitez d'Internet en illimité et sans aucune censure."
-      ],
-      "Will Private Internet Access be blocked on my favorite streaming service or website?": [
-         null,
-         "Private Internet Access est-il susceptible d'être bloqué sur mes plateformes de Streaming ou sites web favoris ?"
-      ],
-      "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
-         null,
-         "Private Internet Access croit en l'Internet ouvert et tente de toujours s'assurer que nos utilisateurs VPN ne rencontrent aucun obstacle. Optez pour notre service aujourd'hui et découvrez en quoi Private Internet Access est le meilleur VPN pour votre Streaming en ligne."
-      ],
-      "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
-         null,
-         "Profitez d'une sécurité imparable avec <br><b>Le Meilleur VPN pour<br><span class=\"color_pia_light_orange\">%s</span></b>"
-      ],
-      "Get Private Internet Access VPN": [
-         null,
-         "Obtenez Private Internet Access VPN"
-      ],
-      "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>": [
-         null,
-         "Testez-le sans risque ! <i class='fas fa-award'></i><span class='text-uppercase'> remboursement garanti %s jours</span>"
-      ],
-      "Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>": [
-         null,
-         "Testez-le sans risque ! r<br><span class='text-uppercase'>remboursement garanti sous %s jours</span>"
-      ],
-      "Private Internet Access VPN for %s% OFF": [
-         null,
-         "Private Internet Access VPN - Moins %s %"
-      ],
-      "The Top VPN for<br><b>France</b>": [
-         null,
-         "Le Meilleur VPN pour<br><b>la France</b>"
-      ],
-      "<b>Unblock</b><br>a world of content": [
-         null,
-         "<b>Débloquez</b><br>une infinité de contenus"
-      ],
-      "Rated as the Best VPN Service In<br><b><span class=\"color_pia_light_orange\">%s</span></b>": [
-         null,
-         "Élu Meilleur Service VPN<br><b><span class=\"color_pia_light_orange\">%s</span></b>"
-      ],
-      "No Logs": [
-         null,
-         "Aucun Log"
-      ],
-      "Military-Grade Encryption": [
-         null,
-         "Chiffrement de niveau militaire"
-      ],
-      "%s Devices": [
-         null,
-         "%s Appareils"
-      ],
-      "Best VPN for <b>streaming</b>": [
-         null,
-         ""
-      ],
-      "Private Internet Access<br>streamlines your internet": [
-         null,
-         ""
-      ],
-      "According to the Video Advertising Bureau (VAB), <b>over 71%</b> of internet users in the United States stream and watch video over the internet.<br>Online streaming services and websites are becoming more popular every day all over the world.<br><b class='mt-1 d-inline-block'>Don’t miss out on video streaming opportunities because of your location.</b>": [
-         null,
-         ""
-      ],
-      "Sign up for Private Internet Access today!": [
-         null,
-         ""
-      ],
-      "Private Internet Access has no logs and does not throttle users": [
-         null,
-         ""
-      ],
-      "One click solution to bypass geographic restrictions": [
-         null,
-         ""
-      ],
-      "Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.": [
-         null,
-         "Dès lors que vous choisissez l'emplacement à partir duquel vous souhaitez être connecté à Internet, Private Internet Access n'est qu'à un clic."
-      ],
-      "One Private Internet Access subscription can be used on up to five devices simultaneously. Share Private Internet Access with your whole family!": [
-         null,
-         ""
-      ],
-      "Four easy steps to stream with Private Internet Access": [
-         null,
-         ""
-      ],
-      "Start streaming with Private Internet Access in minutes": [
-         null,
-         "Streamez avec Private Internet Access en quelques minutes"
-      ],
-      "<b>Subscribe</b><br>to Private Internet Access": [
-         null,
-         ""
-      ],
-      "<b>Download</b><br>Private Internet Access": [
-         null,
-         ""
-      ],
-      "<b>Login</b><br>on the Private Internet Access client with your username and password": [
-         null,
-         ""
-      ],
-      "<b>Turn on</b><br>Private Internet Access and connect to the location of your choice": [
-         null,
-         ""
-      ],
-      "You’re ready to start streaming with <span>Private Internet Access</span>": [
-         null,
-         ""
-      ],
-      "Private Internet Access Streaming FAQ": [
-         null,
-         ""
-      ],
-      "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
-         null,
-         ""
-      ],
-      " Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
-         null,
-         ""
-      ],
-      "The Top VPN for<br><b>Germany</b>": [
-         null,
-         "Le Meilleur VPN pour<br><b>l'Allemagne</b>"
-      ],
-      "<b>Privacy</b><br>is worth protecting": [
-         null,
-         "<b>La Confidentialité</b><br>vaut la peine d'être préservée"
-      ],
-      "Without our VPN, your internet activity can be tracked and you are vulnerable.": [
-         null,
-         "Sans VPN, votre activité Internet est susceptible d'être traquée et de vous rendre vulnérable."
-      ],
-      "Reclaim your privacy today": [
-         null,
-         "Retrouvez une veritable confidentialité en ligne"
-      ],
-      "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
-         null,
-         "Découvrez du Moyen le Plus Sûr de Garantir<br><b>de préserver<span class='color_pia_light_orange'><span class='text-uppercase'> votre Sécurité</span> sur les Réseaux Wi-Fi Publics</span><br>& <span class='color_pia_light_orange text-uppercase'> ne prenez jamais le risque</span> d'être Hacké </b>"
-      ],
       "The best VPN for Kodi": [
          null,
          "Le meilleur VPN pour Kodi"
@@ -1475,6 +1223,10 @@
          null,
          "Contournez les restrictions géographiques"
       ],
+      "Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.": [
+         null,
+         "Dès lors que vous choisissez l'emplacement à partir duquel vous souhaitez être connecté à Internet, Private Internet Access n'est qu'à un clic."
+      ],
       "Use Kodi TV on multiple devices": [
          null,
          "Utilisez Kodi TV sur une multitude d'appareils"
@@ -1482,6 +1234,10 @@
       "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
          null,
          "1 abonnement Private Internet Access offre la possibilité d'utiliser jusqu'à %s appareils en simultané. Partagez Private Internet Access avec l'ensemble de votre famille !"
+      ],
+      "Start streaming with Private Internet Access in minutes": [
+         null,
+         "Streamez avec Private Internet Access en quelques minutes"
       ],
       "Watch Kodi anonymously in 4 easy steps": [
          null,
@@ -1518,6 +1274,266 @@
       "No. Private Internet Access is the premier no log VPN - this means that we don’t even know what software you use in conjunction with ours. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
          null,
          "Non. Private Internet Access est le premier VPN \"No Log\" - cela implique que nous n'avons aucune idée du logiciel que vous utilisez en parallèle du nôtre. Tous nos serveurs offrent une bande passante illimitée et nous ne restreignons pas nos utilisateurs. Jamais. Optez pour Private Internet Access et profitez d'Internet en illimité et sans aucune censure."
+      ],
+      "Everyone needs<br><b>Protection</b>": [
+         null,
+         "Nous avons tous besoin d'une<br><b>Protection</b>"
+      ],
+      "<small>Discover all the</small><br class=\"\"><b><span>streaming content</span></b><br>you’ve been missing out on": [
+         null,
+         "<small>Découvrez tous les</small><br class=\"\"><b><span>contenus de Streaming</span></b><br>que vous avez manqué"
+      ],
+      "Unblock restricted content libraries easily<br> with Private Internet Access": [
+         null,
+         "Débloquez les catalogues de contenus restreints en toute facilité<br>avec Private Internet Access"
+      ],
+      "Get Private Internet Access VPN": [
+         null,
+         "Obtenez Private Internet Access VPN"
+      ],
+      "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>": [
+         null,
+         "Testez-le sans risque ! <i class='fas fa-award'></i><span class='text-uppercase'> remboursement garanti %s jours</span>"
+      ],
+      "Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>": [
+         null,
+         "Testez-le sans risque ! r<br><span class='text-uppercase'>remboursement garanti sous %s jours</span>"
+      ],
+      "Private Internet Access VPN for %s% OFF": [
+         null,
+         "Private Internet Access VPN - Moins %s %"
+      ],
+      "Discover Limitless Streaming Content": [
+         null,
+         "Découvrez des contenus Streaming en Illimité"
+      ],
+      "Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. <br><b class='mt-1 d-inline-block'>Sign up for Private Internet Access today!</b>": [
+         null,
+         "Les services de Streaming et sites Web sont en vogue dans le monde entier. Toutefois, certains contenus sont restreints en raison de géo-blocages. Ne manquez plus une seule opportunité de Streaming vidéo en raison de votre emplacement géographique. <br><b class='mt-1 d-inline-block'>Souscrivez un abonnement Private Internet Access dès aujourd'hui !</b>"
+      ],
+      "Unblock content on:": [
+         null,
+         "Débloquez les contenus sur :"
+      ],
+      "Sign up for Private Internet Access today!": [
+         null,
+         "Souscrivez un abonnement Private Internet Access dès aujourd'hui !"
+      ],
+      "A must have for your streaming needs": [
+         null,
+         "Un indispensable pour vos besoins de Streaming"
+      ],
+      "Unlimited bandwidth for streaming": [
+         null,
+         "Bande passante illimitée pour le Streaming"
+      ],
+      "Private Internet Access has no logs, never records online activity and does not throttle users.": [
+         null,
+         "Private Internet Access ne conserve aucun Log, n'enregistre jamais votre activité en ligne et ne restreint pas ses utilisateurs."
+      ],
+      "One-click solution to override geographical restrictions": [
+         null,
+         "Une solution en un clic pour contourner toutes les restrictions géographiques"
+      ],
+      "Once you have chosen your virtual location, you can connect to it using Private Internet Access with just one click.": [
+         null,
+         "Dès lors que vous avez choisi votre emplacement virtuel, vous serez en mesure de vous connecter en un seul clic via Private Internet Access."
+      ],
+      "Stream on multiple devices": [
+         null,
+         "Streamez sur une multitude d'appareils"
+      ],
+      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
+         null,
+         "1 abonnement Private Internet Access offre la possibilité d'utiliser jusqu'à %s appareils en simultané. Partagez Private Internet Access avec l'ensemble de votre famille !"
+      ],
+      "Four easy steps to stream with Private Internet Access": [
+         null,
+         "Quatre étapes ultra simples pour Streamer avec Private Internet Access"
+      ],
+      "<b>Subscribe</b><br>to Private Internet Access": [
+         null,
+         "<b>Souscrivez un abonnement</b><br>Private Internet Access"
+      ],
+      "<b>Download</b><br>Private Internet Access": [
+         null,
+         "<b>Téléchargez</b><br>Private Internet Access"
+      ],
+      "<b>Login</b><br>on the Private Internet Access client with your username and password": [
+         null,
+         "<b>Connectez-vous</b><br>sur le client Private Internet Access à l'aide de votre identifiant et mot de passe"
+      ],
+      "<b>Turn on</b><br>Private Internet Access and connect to the location of your choice": [
+         null,
+         "<b>Activez</b><br>Private Internet Access et connectez-vous à l'emplacement de votre choix"
+      ],
+      "You’re ready to start streaming with <span>Private Internet Access</span>": [
+         null,
+         "Vous voilà prêt à Streamer avec <span>Private Internet Access</span>"
+      ],
+      "Private Internet Access Streaming FAQ": [
+         null,
+         "FAQ Streaming Private Internet Access"
+      ],
+      "Is it safe to stream with Private Internet Access?": [
+         null,
+         "Est-il sûr de Streamer avec Private Internet Access ?"
+      ],
+      "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
+         null,
+         "Oui. Private Internet Access fournit un service VPN doté de serveurs dans 49 emplacements à travers ses 29 pays, notamment les États-Unis, le Royaume-Uni, le Japon et bien plus. La véritable question serait de savoir : s'il serait sûr de Streamer sans Private Internet Access ?"
+      ],
+      "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
+         null,
+         "Private Internet Access offre une garantie de remboursement 7 jours sans aucune justification requise. Souscrivez un abonnement Private Internet Access dès aujourd'hui et Streamez sans plus tarder !"
+      ],
+      "Will my IP address be exposed to streaming services or websites?": [
+         null,
+         "Mon adresse IP sera t-elle divulguée aux plateformes et sites de Streaming ?"
+      ],
+      "By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
+         null,
+         "En utilisant Private Internet Access, votre traffic est crypté à l'aide de notre tunnel VPN relié à Internet à partir de l'une de nos adresses IP. Les plateformes et sites de Streaming ne verront que l'adresse IP fournie par Private Internet Access et non l'adresse IP de votre appareil."
+      ],
+      "Does Private Internet Access limit the bandwidth that streamers can use?": [
+         null,
+         "Private Internet Access est-il susceptible de limiter la bande passante utilisée par les Streamers ?"
+      ],
+      "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
+         null,
+         "Private Internet Access est le premier VPN \"No Log\" - cela implique que nous n'avons aucune idée de ce que vous Streamez. Tous nos serveurs offrent une bande passante illimitée et nous ne restreignons pas nos utilisateurs. Jamais. Optez pour Private Internet Access et profitez d'Internet en illimité et sans aucune censure."
+      ],
+      "Will Private Internet Access be blocked on my favorite streaming service or website?": [
+         null,
+         "Private Internet Access est-il susceptible d'être bloqué sur mes plateformes de Streaming ou sites web favoris ?"
+      ],
+      " Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
+         null,
+         " Private Internet Access croit en l'Internet ouvert et tente de toujours s'assurer que nos utilisateurs VPN ne rencontrent aucun obstacle. Optez pour notre service aujourd'hui et découvrez en quoi Private Internet Access est le meilleur VPN pour votre Streaming en ligne."
+      ],
+      "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
+         null,
+         "Profitez d'une sécurité imparable avec <br><b>Le Meilleur VPN pour<br><span class=\"color_pia_light_orange\">%s</span></b>"
+      ],
+      "The Top VPN for<br><b>France</b>": [
+         null,
+         "Le Meilleur VPN pour<br><b>la France</b>"
+      ],
+      "<b>Unblock</b><br>a world of content": [
+         null,
+         "<b>Débloquez</b><br>une infinité de contenus"
+      ],
+      "The Best VPN for streaming": [
+         null,
+         "Le Meilleur VPN pour Streaming"
+      ],
+      "Unblock new content libraries with Private Internet Access": [
+         null,
+         "Débloquez de nouveaux contenus avec Private Internet Access"
+      ],
+      "The Best VPN for Streaming": [
+         null,
+         "Le Meilleur VPN pour Streaming"
+      ],
+      "Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. Sign up for Private Internet Access today!": [
+         null,
+         "Les plateformes et sites de Streaming en ligne prennent de plus en plus d'ampleur à travers le monde. Mais il arrive que les géo-restrictions en limitent l'accès. Ne passez pas à côté de contenus Streaming en raison de votre emplacement. Souscrivez un abonnement Private Internet Access dès aujourd'hui !"
+      ],
+      "Unblock streaming in only 4 easy steps": [
+         null,
+         "Débloquez le Streaming en seulement 4 étapes"
+      ],
+      "Watch your favorite movies and shows in minutes": [
+         null,
+         "Accédez à vos films et programmes favoris en quelques minutes"
+      ],
+      "Download Private Internet Access on your device": [
+         null,
+         "Téléchargez Private Internet Access sur votre appareil"
+      ],
+      "Login-in using your username and password": [
+         null,
+         "Connectez-vous à l'aide de votre identifiant et mot de passe"
+      ],
+      "You’re ready to start streaming with Private Internet Access!": [
+         null,
+         "Vous voilà prêt à streamer avec Private Internet Access !"
+      ],
+      "Got questions about streaming?<br>Here are a few of our FAQs": [
+         null,
+         "Des questions relatives au Streaming ?<br> Voici quelques-unes de nos FAQs"
+      ],
+      "Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
+         null,
+         "Private Internet Access offre une garantie de remboursement 7 jours sans devoir se justifier. Souscrivez un abonnement Private Internet Access dès aujourd'hui et Streamez sans plus tarder !"
+      ],
+      "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
+         null,
+         "Private Internet Access croit en l'Internet ouvert et tente de toujours s'assurer que nos utilisateurs VPN ne rencontrent aucun obstacle. Optez pour notre service aujourd'hui et découvrez en quoi Private Internet Access est le meilleur VPN pour votre Streaming en ligne."
+      ],
+      "Rated as the Best VPN Service In<br><b><span class=\"color_pia_light_orange\">%s</span></b>": [
+         null,
+         "Élu Meilleur Service VPN<br><b><span class=\"color_pia_light_orange\">%s</span></b>"
+      ],
+      "No Logs": [
+         null,
+         "Aucun Log"
+      ],
+      "Military-Grade Encryption": [
+         null,
+         "Chiffrement de niveau militaire"
+      ],
+      "%s Devices": [
+         null,
+         "%s Appareils"
+      ],
+      "The Top VPN for<br><b>Germany</b>": [
+         null,
+         "Le Meilleur VPN pour<br><b>l'Allemagne</b>"
+      ],
+      "<b>Privacy</b><br>is worth protecting": [
+         null,
+         "<b>La Confidentialité</b><br>vaut la peine d'être préservée"
+      ],
+      "Without our VPN, your internet activity can be tracked and you are vulnerable.": [
+         null,
+         "Sans VPN, votre activité Internet est susceptible d'être traquée et de vous rendre vulnérable."
+      ],
+      "Reclaim your privacy today": [
+         null,
+         "Retrouvez une veritable confidentialité en ligne"
+      ],
+      "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
+         null,
+         "Découvrez du Moyen le Plus Sûr de Garantir<br><b>de préserver<span class='color_pia_light_orange'><span class='text-uppercase'> votre Sécurité</span> sur les Réseaux Wi-Fi Publics</span><br>& <span class='color_pia_light_orange text-uppercase'> ne prenez jamais le risque</span> d'être Hacké </b>"
+      ],
+      "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>": [
+         null,
+         "Découvrez une infinité de <br><b>contenus en Streaming</b> sur <span>KODI</span>"
+      ],
+      "Access geo-blocked TV shows and movies <br>while staying anonymous online": [
+         null,
+         "Accédez à vox programmes TV et films géo-restreints <br>tout en préservant votre anonymat en ligne"
+      ],
+      "Whether you use Kodi TV to watch your personal content library or for the titles you find on their website, make sure nobody will be able to find out what you're doing online.<br><b>Why? </b>Streaming content on Kodi works is basically P2P torrenting which might be illegal in your country. Luckily, with the <b>Private Internet Access VPN</b>, you can make all your internet activity totally anonymous. So, you'll never have any trouble with governmental authorities while using Kodi.": [
+         null,
+         "Que vous utilisiez Kodi TV pour visionner vos contenus favoris ou découvrir les titres à l'affiche, assurez-vous que nul autre ne puisse accéder à vos activités en ligne.<br><b>Pourquoi ?</b>Streamer des contenus sur Kodi relève pratiquement du Torrenting P2P qui peut-être interdit dans votre pays. Heureusement, grâce au VPN <b>Private Internet Access</b>, votre activité en ligne est entièrement anonyme. Ainsi, vous n'encourez aucun risque d'un point de vue légal en utilisant Kodi."
+      ],
+      "You’re ready to start using <span>Private Internet Access</span> with your Kodi TV": [
+         null,
+         "Vous êtes prêt à utiliser <span>Private Internet Access</span> sur votre Kodi TV"
+      ],
+      "Got questions? <span class=\"color_pia_green\">Check out our FAQs</span>": [
+         null,
+         "Des questions ?<span class=\"color_pia_green\">Découvrez nos FAQs</span>"
+      ],
+      "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?": [
+         null,
+         "Oui. Private Internet Access fournit un service VPN doté de serveurs dans %s emplacements à travers ses %s pays, en y incluant les États-Unis, le Royaume-Uni, le Japon et bien d'autres. La véritable question serait de savoir : s'il serait sûr d'utiliser Kodi sans Private Internet Access ?"
+      ],
+      "Yes. Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
+         null,
+         "Oui. Private Internet Access offre une garantie de remboursement %s jours sans aucune justification requise. Souscrivez un abonnement Private Internet Access dès aujourd'hui et Streamez sans plus tarder !"
       ],
       "for ": [
          null,
@@ -1649,7 +1665,7 @@
       ],
       "+%s extra<br>months free": [
          null,
-         "+%s mois<br>extra gratuits"
+         "+ %s mois<br>extra gratuits"
       ],
       "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
          null,

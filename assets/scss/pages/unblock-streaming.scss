@@ -233,7 +233,7 @@ header {
       @media screen and (max-width: $brk-ipad-width - 1) {
         content: url("img/streaming_lp_mobi_header4_window.png");
         left: unset;
-        right: 0;
+        right: 1px;
       }
     }
     & .streaming {
@@ -277,7 +277,7 @@ header {
       top: 10px;
     }
     @media screen and (max-width: $brk-mobile-width) {
-      right: -85px;
+      right: -100px;
       top: 25px;
     }
   }
@@ -350,6 +350,10 @@ header {
   }
   & .btn-link {
     text-decoration: none;
+    @media screen and (max-width: $brk-mobile-width) {
+      padding-left: 0;
+      padding-right: 0;
+    }
     & h6,
     & .fal {
       text-decoration: none;
@@ -373,6 +377,15 @@ header {
   }
   & .card-body {
     padding-left: 110px;
+    @media screen and (max-width: $brk-mobile-width) {
+      padding-left: 80px;
+    }
+  }
+  & .card-header {
+    @media screen and (max-width: $brk-mobile-width) {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
   & .card-header,
   & .card {

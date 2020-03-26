@@ -88,26 +88,38 @@ $strokeFill: 534;
         & .outer {
           -webkit-animation: show25 0.5s forwards;
           animation: show25 0.5s forwards;
+          @include ie-only {
+            stroke-dashoffset: $strokeFill * 0.75;
+          }
         }
       }
       &[data-percent="50"] {
         & .outer {
           -webkit-animation: show50 1s forwards;
           animation: show50 1s forwards;
+          @include ie-only {
+            stroke-dashoffset: $strokeFill * 0.5;
+          }
         }
       }
       &[data-percent="75"] {
         & .outer {
           -webkit-animation: show75 1.5s forwards;
           animation: show75 1.5s forwards;
+          @include ie-only {
+            stroke-dashoffset: $strokeFill * 0.25;
+          }
         }
       }
       &[data-percent="100"] {
         & .outer {
           -webkit-animation: show100 2s forwards;
           animation: show100 2s forwards;
+          @include ie-only {
+            stroke-dashoffset: 0;
+          }
         }
-      }
+      } 
     }
     & .circle {
       position: relative;
@@ -125,9 +137,14 @@ $strokeFill: 534;
         stroke: $pia-green;
         stroke-width: 20;
         stroke-dasharray: $strokeFill;
+        stroke-dashoffset: $strokeFill - 1;
         transition: stroke-dashoffset 1s;
         -webkit-animation-play-state: running;
         -moz-transform: rotate(-89deg) translateX(-190px);
+        @include ie-only {
+          animation: unset!important;
+          -webkit-animation: unset!important;
+        }
       }
       & .shadow_circle {
         fill: transparent;
@@ -149,9 +166,6 @@ $strokeFill: 534;
           font-weight: 900;
         }
       }
-    }
-    & .outer {
-      stroke-dashoffset: $strokeFill - 1;
     }
   }
 }

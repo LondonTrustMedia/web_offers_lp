@@ -230,13 +230,27 @@ header {
       height: 101%;
       z-index: 3;
       left: -3px;
-      @media screen and (max-width: $brk-ipad-width) {
-        content: url("img/kodi_LP_tablet_header_window.png?v2");
-      }
-      @media screen and (max-width: $brk-ipad-width - 1) {
-        content: url("img/kodi_lp_mobi_header4_window.png");
+      &.mobi {
+        display: none;
         left: unset;
-        right: 1px;
+        right: 0;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          display: block;
+        }
+      }
+      &.ipad {
+        display: none;
+        @media screen and (max-width: $brk-ipad-width) {
+          display: block;
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          display: none;
+        }
+      }
+      &.desktop {
+        @media screen and (max-width: $brk-ipad-width) {
+          display: none;
+        }
       }
     }
     & .streaming {
@@ -246,14 +260,29 @@ header {
       bottom: 244px;
       height: 282px;  
       animation: zap 12s ease-in-out infinite;
-      left: -130px;
-      @media screen and (max-width: $brk-ipad-width) {
-        content: url("img/kodi_tab1.jpg");
+      left: 53px;
+      &.mobi {
+        display: none;
+        bottom: 0;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          display: block;
+        }
+      }
+      &.ipad {
+        display: none;
         bottom: 0;
         height: 274px;
+        @media screen and (max-width: $brk-ipad-width) {
+          display: block;
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          display: none;
+        }
       }
-      @media screen and (max-width: $brk-ipad-width - 1) {
-        content: url("img/kodi_mobi1.jpg");
+      &.desktop {
+        @media screen and (max-width: $brk-ipad-width) {
+          display: none;
+        }
       }
       @include keyframes(zap) {
         0%,12.5%,100% {

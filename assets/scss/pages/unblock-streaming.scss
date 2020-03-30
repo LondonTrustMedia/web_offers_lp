@@ -227,13 +227,27 @@ header {
       height: 101%;
       z-index: 3;
       left: -3px;
-      @media screen and (max-width: $brk-ipad-width) {
-        content: url("img/streaming_LP4_tablet_header_window.png?v2");
-      }
-      @media screen and (max-width: $brk-ipad-width - 1) {
-        content: url("img/streaming_lp_mobi_header4_window.png");
+      &.mobi {
+        display: none;
         left: unset;
-        right: 1px;
+        right: 0;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          display: block;
+        }
+      }
+      &.ipad {
+        display: none;
+        @media screen and (max-width: $brk-ipad-width) {
+          display: block;
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          display: none;
+        }
+      }
+      &.desktop {
+        @media screen and (max-width: $brk-ipad-width) {
+          display: none;
+        }
       }
     }
     & .streaming {
@@ -243,14 +257,27 @@ header {
       bottom: 0;
       height: 486px;
       animation: zap 12s ease-in-out infinite;
-      left: -130px;
-      @media screen and (max-width: $brk-ipad-width) {
-        content: url("img/netflix_tab1.jpg");
-        height: 398px;
+      left: 210px;
+      &.mobi {
+        display: none;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          display: block;
+        }
       }
-      @media screen and (max-width: $brk-ipad-width - 1) {
-        content: url("img/netflix_mobi1.jpg");
-        
+      &.ipad {
+        display: none;
+        height: 398px;
+        @media screen and (max-width: $brk-ipad-width) {
+          display: block;
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          display: none;
+        }
+      }
+      &.desktop {
+        @media screen and (max-width: $brk-ipad-width) {
+          display: none;
+        }
       }
       @include keyframes(zap) {
         0%,12.5%,100% {

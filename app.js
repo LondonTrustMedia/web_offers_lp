@@ -116,6 +116,7 @@ app.use(mws.rotatorIdCheck)
 // app.use(mws.setFakeCookie);
 
 // routes ======================================================================
+require('./app/oldRoutes.js')(app); // Old Pages Routes
 require('./app/routes.js')(app); // load our routes and pass in our app and fully configured passport
 
 // launch ======================================================================

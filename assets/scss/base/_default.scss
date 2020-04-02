@@ -131,6 +131,7 @@ h3.hp {
         font-size: 16px;
     }
     & img {
-        height: 40px;
+        max-height: 40px;
+        max-width: 100%;
     }
 }

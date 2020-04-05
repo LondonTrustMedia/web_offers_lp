@@ -40,15 +40,26 @@
                     <img src="img/youtube_LP_header_window.png" alt="header" class="header desktop">
                     <img src="img/youtube_LP_tab_header_window.png" alt="header" class="header ipad">
                     <img src="img/youtube_LP_mobi_header_window.png" alt="header" class="header mobi">
-
-                    <img src="img/youtube-channels/<%- query.channel ? query.channel : 'default' %>.jpg" alt="<%- query.channel %>" onerror="this.setAttribute('src','img/youtube-channels/default.jpg')" class="image desktop">
-                    <img src="img/youtube-channels/<%- query.channel ? query.channel : 'default' %>_tablet.jpg" alt="<%- query.channel %>" onerror="this.setAttribute('src','img/youtube-channels/default_tablet.jpg')" class="image ipad">
-                    <img src="img/youtube-channels/<%- query.channel ? query.channel : 'default' %>_mobile.jpg" alt="<%- query.channel %>" onerror="this.setAttribute('src','img/youtube-channels/default_mobile.jpg')" class="image mobi">
+                    <% if(query.channel) { %> 
+                        <% if (channels.indexOf(query.channel) >= 0) { %>
+                            <img src="img/youtube-channels/<%- query.channel %>.jpg" alt="<%- query.channel %>" class="image desktop">
+                            <img src="img/youtube-channels/<%- query.channel %>_tablet.jpg" alt="<%- query.channel %>" class="image ipad">
+                            <img src="img/youtube-channels/<%- query.channel %>_mobile.jpg" alt="<%- query.channel %>" class="image mobi">
+                            <% } else { %>
+                                <img src="img/youtube-channels/default.jpg" alt="default bg" class="image desktop">
+                                <img src="img/youtube-channels/default_tablet.jpg" alt="default bg" class="image ipad">
+                                <img src="img/youtube-channels/default_mobile.jpg" alt="default bg" class="image mobi">
+                            <% } %> 
+                    <% } else { %>
+                        <img src="img/youtube-channels/default.jpg" alt="default bg" class="image desktop">
+                        <img src="img/youtube-channels/default_tablet.jpg" alt="default bg" class="image ipad">
+                        <img src="img/youtube-channels/default_mobile.jpg" alt="default bg" class="image mobi">
+                    <% } %>  
                 </div>
             </div>
             <div class="d-block d-md-none mobile_header">
                 <div class="dark py-2">
-                    <div class="container d-flex align-items-center">
+                    <div class="container d-flex align-items-center text-sm-left text-center flex-sm-row flex-column-reverse">
                         <div class="mr-3">
                             <% if (query.brand) { %>
                                 <% include ../partials/brand %>
@@ -61,7 +72,7 @@
                             <% } %>
                         </div>
                         <div>
-                            <p class="mb-0"><%- format(gettext("Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>"), [30]) %></p>
+                            <p class="mb-md-0 mb-2"><%- format(gettext("Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>"), [30]) %></p>
                         </div>
                     </div>
                 </div>

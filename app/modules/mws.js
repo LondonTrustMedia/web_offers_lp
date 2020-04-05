@@ -2,6 +2,7 @@ const moment = require('moment');
 const fs = require('fs');
 const norobot = require('norobot');
 const prices = require('./../json/prices.json');
+const channels = require('./../json/youtube_channels.json');
 const slackApi = require('./slackApi.js');
 const offersApi = require('./offersApi.js');
 const path = require('path')
@@ -393,7 +394,10 @@ module.exports = (app) => {
         
             next()
         },
-
+        setChannels: (req, res, next) => {
+            res.locals.channels = req.channels = channels
+            next()
+        },
         show404: (err, req, res, next) => {
             console.log(err)
         

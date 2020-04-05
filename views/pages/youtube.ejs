@@ -12,9 +12,9 @@
             <% include ../navbar/header_bar %>  
             <div class="container">
                 <div class="col-65">
-                    <h1 class="mt-3 mb-0"><%- format(gettext('The VPN recommended by<br><b>%s</b>'),["asdasdasd asdasd"]) %></h1>
+                    <h1 class="mt-3 mb-0"><%- format(gettext('The VPN recommended by<br><b>%s</b>'),[query.channel]) %></h1>
                     <div class="d-inline-block text-center position-relative">
-                        <% include ../partials/discount_block %>
+                        <% include ../partials/price_block %>
                         <% include ../partials/b2mfree_new %>
                         <a href="<%- offerLink %>" class="btn_wave orange my-3 d-md-inline-block d-none"><%- format(gettext("Save %s% Now"),[prices.blocks[1].discount]) %></a>
                         <h3 class="mb-4"><%- format(gettext("Sign-up now & get %s extra months <span class='text-uppercase'>free</span>"),[2]) %></h3>
@@ -40,9 +40,10 @@
                     <img src="img/youtube_LP_header_window.png" alt="header" class="header desktop">
                     <img src="img/youtube_LP_tab_header_window.png" alt="header" class="header ipad">
                     <img src="img/youtube_LP_mobi_header_window.png" alt="header" class="header mobi">
-                    <img src="img/youtube_LP_header_image.jpg" alt="image" class="image desktop">
-                    <img src="img/youtube_LP_tab_header_image.jpg" alt="image" class="image ipad">
-                    <img src="img/youtube_LP_mobi_header_image.jpg" alt="image" class="image mobi">
+
+                    <img src="img/youtube-channels/<%- query.channel ? query.channel : 'default' %>.jpg" alt="<%- query.channel %>" onerror="this.setAttribute('src','img/youtube-channels/default.jpg')" class="image desktop">
+                    <img src="img/youtube-channels/<%- query.channel ? query.channel : 'default' %>_tablet.jpg" alt="<%- query.channel %>" onerror="this.setAttribute('src','img/youtube-channels/default_tablet.jpg')" class="image ipad">
+                    <img src="img/youtube-channels/<%- query.channel ? query.channel : 'default' %>_mobile.jpg" alt="<%- query.channel %>" onerror="this.setAttribute('src','img/youtube-channels/default_mobile.jpg')" class="image mobi">
                 </div>
             </div>
             <div class="d-block d-md-none mobile_header">

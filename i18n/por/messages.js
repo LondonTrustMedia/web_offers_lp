@@ -1,31 +1,31 @@
-{
+;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Italian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-03 10:31\nLanguage: it_IT\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-31 12:25+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: it\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Portuguese, Brazilian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-03 10:31\nLanguage: pt_BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-31 12:25+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: pt-BR\nX-Crowdin-File: messages.pot\n"
       },
       "US Dollars": [
          null,
-         "Dollari americani"
+         "Dólares dos EUA"
       ],
       "Afghanistan": [
          null,
-         "Afghanistan"
+         "Afeganistão"
       ],
       "Åland Islands": [
          null,
-         "Isole Åland"
+         "Ilhas de Aland"
       ],
       "Albania": [
          null,
-         "Albania"
+         "Albânia"
       ],
       "Algeria": [
          null,
-         "Algeria"
+         "Argélia"
       ],
       "American Samoa": [
          null,
-         "Samoa Americane"
+         "Samoa Americana"
       ],
       "Andorra": [
          null,
@@ -41,11 +41,11 @@
       ],
       "Antarctica": [
          null,
-         "Antartide"
+         "Antártida"
       ],
       "Antigua and Barbuda": [
          null,
-         "Antigua e Barbuda"
+         "Antígua e Barbuda"
       ],
       "Argentina": [
          null,
@@ -53,7 +53,7 @@
       ],
       "Armenia": [
          null,
-         "Armenia"
+         "Armênia"
       ],
       "Aruba": [
          null,
@@ -61,15 +61,15 @@
       ],
       "Australia": [
          null,
-         "Australia"
+         "Austrália"
       ],
       "Austria": [
          null,
-         "Austria"
+         "Áustria"
       ],
       "Azerbaijan": [
          null,
-         "Azerbaigian"
+         "Azerbaijão"
       ],
       "Bahamas": [
          null,
@@ -77,7 +77,7 @@
       ],
       "Bahrain": [
          null,
-         "Bahrain"
+         "Bahrein"
       ],
       "Bangladesh": [
          null,
@@ -89,11 +89,11 @@
       ],
       "Belarus": [
          null,
-         "Bielorussia"
+         "Bielorrússia"
       ],
       "Belgium": [
          null,
-         "Belgio"
+         "Bélgica"
       ],
       "Belize": [
          null,
@@ -109,43 +109,43 @@
       ],
       "Bhutan": [
          null,
-         "Bhutan"
+         "Butão"
       ],
       "Bolivia": [
          null,
-         "Bolivia"
+         "Bolívia"
       ],
       "Caribbean Netherlands": [
          null,
-         "Isole BES"
+         "Países Baixos Caribenhos"
       ],
       "Bosnia and Herzegovina": [
          null,
-         "Bosnia ed Erzegovina"
+         "Bósnia-Herzegovina"
       ],
       "Botswana": [
          null,
-         "Botswana"
+         "Botsuana"
       ],
       "Bouvet Island": [
          null,
-         "Isola Bouvet"
+         "Ilha Bouvet"
       ],
       "Brazil": [
          null,
-         "Brasile"
+         "Brasil"
       ],
       "British Indian Ocean Territory": [
          null,
-         "Territorio Britannico dell'Oceano Indiano"
+         "Território do Oceano Índico Britânico"
       ],
       "Brunei Darussalam": [
          null,
-         "Brunei"
+         "Brunei Darussalam"
       ],
       "Bulgaria": [
          null,
-         "Bulgaria"
+         "Bulgária"
       ],
       "Burkina Faso": [
          null,
@@ -157,55 +157,55 @@
       ],
       "Cabo Verde": [
          null,
-         "Capo Verde"
+         "Cabo Verde"
       ],
       "Cambodia": [
          null,
-         "Cambogia"
+         "Camboja"
       ],
       "Cameroon": [
          null,
-         "Camerun"
+         "Camarões"
       ],
       "Canada": [
          null,
-         "Canada"
+         "Canadá"
       ],
       "Cayman Islands": [
          null,
-         "Isole Cayman"
+         "Ilhas Cayman"
       ],
       "Central African Republic": [
          null,
-         "Repubblica Centrafricana"
+         "República Centro-Africana"
       ],
       "Chad": [
          null,
-         "Chad"
+         "Chade"
       ],
       "Chile": [
          null,
-         "Cile"
+         "Chile"
       ],
       "China": [
          null,
-         "Cina"
+         "China"
       ],
       "Christmas Island": [
          null,
-         "Isola di Natale"
+         "Ilha Christmas"
       ],
       "Cocos (Keeling) Islands": [
          null,
-         "Isole Cocos (Keeling)"
+         "Ilhas Cocos (Keeling)"
       ],
       "Colombia": [
          null,
-         "Colombia"
+         "Colômbia"
       ],
       "Comoros": [
          null,
-         "Comore"
+         "Comores"
       ],
       "Congo": [
          null,
@@ -213,11 +213,11 @@
       ],
       "Democratic Republic of the Congo": [
          null,
-         "Repubblica Democratica del Congo"
+         "República Democrática do Congo"
       ],
       "Cook Islands": [
          null,
-         "Isole Cook"
+         "Ilhas Cook"
       ],
       "Costa Rica": [
          null,
@@ -225,11 +225,11 @@
       ],
       "Côte d'Ivoire": [
          null,
-         "Costa d'Avorio"
+         "Costa do Marfim"
       ],
       "Croatia": [
          null,
-         "Croazia"
+         "Croácia"
       ],
       "Cuba": [
          null,
@@ -241,19 +241,19 @@
       ],
       "Cyprus": [
          null,
-         "Cipro"
+         "Chipre"
       ],
       "Czechia": [
          null,
-         "Repubblica Ceca"
+         "Tchéquia"
       ],
       "Denmark": [
          null,
-         "Danimarca"
+         "Dinamarca"
       ],
       "Djibouti": [
          null,
-         "Gibuti"
+         "Djibuti"
       ],
       "Dominica": [
          null,
@@ -261,15 +261,15 @@
       ],
       "Dominican Republic": [
          null,
-         "Repubblica Dominicana"
+         "República Dominicana"
       ],
       "Ecuador": [
          null,
-         "Ecuador"
+         "Equador"
       ],
       "Egypt": [
          null,
-         "Egitto"
+         "Egito"
       ],
       "El Salvador": [
          null,
@@ -277,31 +277,31 @@
       ],
       "Equatorial Guinea": [
          null,
-         "Guinea Equatoriale"
+         "Guiné Equatorial"
       ],
       "Eritrea": [
          null,
-         "Eritrea"
+         "Eritreia"
       ],
       "Estonia": [
          null,
-         "Estonia"
+         "Estônia"
       ],
       "Eswatini": [
          null,
-         "eSwatini"
+         "Eswatini"
       ],
       "Ethiopia": [
          null,
-         "Etiopia"
+         "Etiópia"
       ],
       "Falkland Islands (Malvinas)": [
          null,
-         "Isole Falkland (Malvine)"
+         "Ilhas Malvinas"
       ],
       "Faroe Islands": [
          null,
-         "Isole Fær Øer"
+         "Ilhas Faroé"
       ],
       "Fiji": [
          null,
@@ -309,63 +309,63 @@
       ],
       "Finland": [
          null,
-         "Finlandia"
+         "Finlândia"
       ],
       "France": [
          null,
-         "Francia"
+         "França"
       ],
       "French Guiana": [
          null,
-         "Guyana francese"
+         "Guiana Francesa"
       ],
       "French Polynesia": [
          null,
-         "Polinesia francese"
+         "Polinésia Francesa"
       ],
       "French Southern Territories": [
          null,
-         "Terre australi e antartiche francesi"
+         "Terras Austrais e Antárticas Francesas"
       ],
       "Gabon": [
          null,
-         "Gabon"
+         "Gabão"
       ],
       "Gambia": [
          null,
-         "Gambia"
+         "Gâmbia"
       ],
       "Georgia": [
          null,
-         "Georgia"
+         "Geórgia"
       ],
       "Germany": [
          null,
-         "Germania"
+         "Alemanha"
       ],
       "Ghana": [
          null,
-         "Ghana"
+         "Gana"
       ],
       "Gibraltar": [
          null,
-         "Gibilterra"
+         "Gibraltar"
       ],
       "Greece": [
          null,
-         "Grecia"
+         "Grécia"
       ],
       "Greenland": [
          null,
-         "Groenlandia"
+         "Groenlândia"
       ],
       "Grenada": [
          null,
-         "Grenada"
+         "Granada"
       ],
       "Guadeloupe": [
          null,
-         "Guadalupa"
+         "Guadalupe"
       ],
       "Guam": [
          null,
@@ -381,15 +381,15 @@
       ],
       "Guinea": [
          null,
-         "Guinea"
+         "Guiné"
       ],
       "Guinea-Bissau": [
          null,
-         "Guinea-Bissau"
+         "Guiné-Bissau"
       ],
       "Guyana": [
          null,
-         "Guyana"
+         "Guiana"
       ],
       "Haiti": [
          null,
@@ -397,11 +397,11 @@
       ],
       "Heard Island and McDonald Islands": [
          null,
-         "Isola Heard e Isole McDonald"
+         "Ilha Heard e as Ilhas McDonald"
       ],
       "Holy See": [
          null,
-         "Santa Sede"
+         "Santa Sé"
       ],
       "Honduras": [
          null,
@@ -413,27 +413,27 @@
       ],
       "Hungary": [
          null,
-         "Ungheria"
+         "Hungria"
       ],
       "Iceland": [
          null,
-         "Islanda"
+         "Islândia"
       ],
       "India": [
          null,
-         "India"
+         "Índia"
       ],
       "Indonesia": [
          null,
-         "Indonesia"
+         "Indonésia"
       ],
       "Iran": [
          null,
-         "Iran"
+         "Irã"
       ],
       "Iraq": [
          null,
-         "Iraq"
+         "Iraque"
       ],
       "Ireland": [
          null,
@@ -441,23 +441,23 @@
       ],
       "Isle of Man": [
          null,
-         "Isola di Man"
+         "Ilha de Man"
       ],
       "Israel": [
          null,
-         "Israele"
+         "Israel"
       ],
       "Italy": [
          null,
-         "Italia"
+         "Itália"
       ],
       "Jamaica": [
          null,
-         "Giamaica"
+         "Jamaica"
       ],
       "Japan": [
          null,
-         "Giappone"
+         "Japão"
       ],
       "Jersey": [
          null,
@@ -465,15 +465,15 @@
       ],
       "Jordan": [
          null,
-         "Giordania"
+         "Jordânia"
       ],
       "Kazakhstan": [
          null,
-         "Kazakistan"
+         "Cazaquistão"
       ],
       "Kenya": [
          null,
-         "Kenya"
+         "Quênia"
       ],
       "Kiribati": [
          null,
@@ -481,11 +481,11 @@
       ],
       "North Korea": [
          null,
-         "Corea del Nord"
+         "Coreia do Norte"
       ],
       "South Korea": [
          null,
-         "Corea del sud"
+         "Coreia do Sul"
       ],
       "Kuwait": [
          null,
@@ -493,7 +493,7 @@
       ],
       "Kyrgyzstan": [
          null,
-         "Kirghizistan"
+         "Quirguistão"
       ],
       "Laos": [
          null,
@@ -501,23 +501,23 @@
       ],
       "Latvia": [
          null,
-         "Lettonia"
+         "Letônia"
       ],
       "Lebanon": [
          null,
-         "Libano"
+         "Líbano"
       ],
       "Lesotho": [
          null,
-         "Lesotho"
+         "Lesoto"
       ],
       "Liberia": [
          null,
-         "Liberia"
+         "Libéria"
       ],
       "Libya": [
          null,
-         "Libia"
+         "Malta"
       ],
       "Liechtenstein": [
          null,
@@ -525,15 +525,15 @@
       ],
       "Lithuania": [
          null,
-         "Lituania"
+         "Lituânia"
       ],
       "Luxembourg": [
          null,
-         "Lussemburgo"
+         "Luxemburgo"
       ],
       "Macao": [
          null,
-         "Macao"
+         "Macau"
       ],
       "Madagascar": [
          null,
@@ -545,15 +545,15 @@
       ],
       "Malaysia": [
          null,
-         "Malaysia"
+         "Malásia"
       ],
       "Maldives": [
          null,
-         "Maldive"
+         "Maldivas"
       ],
       "Mali": [
          null,
-         "Mali"
+         "Máli"
       ],
       "Malta": [
          null,
@@ -561,7 +561,7 @@
       ],
       "Marshall Islands": [
          null,
-         "Isole Marshall"
+         "Ilhas Marshall"
       ],
       "Martinique": [
          null,
@@ -569,11 +569,11 @@
       ],
       "Mauritania": [
          null,
-         "Mauritania"
+         "Mauritânia"
       ],
       "Mauritius": [
          null,
-         "Mauritius"
+         "Ilhas Maurício"
       ],
       "Mayotte": [
          null,
@@ -581,23 +581,23 @@
       ],
       "Mexico": [
          null,
-         "Messico"
+         "México"
       ],
       "Federated States of Micronesia": [
          null,
-         "Stati Federati di Micronesia"
+         "Estados Federados da Micronésia"
       ],
       "Moldova": [
          null,
-         "Moldova"
+         "Moldávia"
       ],
       "Monaco": [
          null,
-         "Monaco"
+         "Mônaco"
       ],
       "Mongolia": [
          null,
-         "Mongolia"
+         "Mongólia"
       ],
       "Montenegro": [
          null,
@@ -609,19 +609,19 @@
       ],
       "Morocco": [
          null,
-         "Marocco"
+         "Marrocos"
       ],
       "Mozambique": [
          null,
-         "Mozambico"
+         "Moçambique"
       ],
       "Myanmar": [
          null,
-         "Birmania"
+         "Mianmar"
       ],
       "Namibia": [
          null,
-         "Namibia"
+         "Namíbia"
       ],
       "Nauru": [
          null,
@@ -633,27 +633,27 @@
       ],
       "Netherlands": [
          null,
-         "Paesi Bassi"
+         "Holanda"
       ],
       "New Caledonia": [
          null,
-         "Nuova Caledonia"
+         "Nova Caledônia"
       ],
       "New Zealand": [
          null,
-         "Nuova Zelanda"
+         "Nova Zelândia"
       ],
       "Nicaragua": [
          null,
-         "Nicaragua"
+         "Nicarágua"
       ],
       "Niger": [
          null,
-         "Niger"
+         "Níger"
       ],
       "Nigeria": [
          null,
-         "Nigeria"
+         "Nigéria"
       ],
       "Niue": [
          null,
@@ -661,27 +661,27 @@
       ],
       "Norfolk Island": [
          null,
-         "Isola Norfolk"
+         "Ilha Norfolk"
       ],
       "North Macedonia": [
          null,
-         "Macedonia del Nord"
+         "Macedônia do Norte"
       ],
       "Northern Mariana Islands": [
          null,
-         "Isole Marianne Settentrionali"
+         "Ilhas Marianas do Norte"
       ],
       "Norway": [
          null,
-         "Norvegia"
+         "Noruega"
       ],
       "Oman": [
          null,
-         "Oman"
+         "Omã"
       ],
       "Pakistan": [
          null,
-         "Pakistan"
+         "Paquistão"
       ],
       "Palau": [
          null,
@@ -689,23 +689,23 @@
       ],
       "Panama": [
          null,
-         "Panama"
+         "Panamá"
       ],
       "Papua New Guinea": [
          null,
-         "Papua Nuova Guinea"
+         "Papua-Nova Guiné"
       ],
       "Paraguay": [
          null,
-         "Paraguay"
+         "Paraguai"
       ],
       "Peru": [
          null,
-         "Perù"
+         "Peru"
       ],
       "Philippines": [
          null,
-         "Filippine"
+         "Filipinas"
       ],
       "Pitcairn": [
          null,
@@ -713,11 +713,11 @@
       ],
       "Poland": [
          null,
-         "Polonia"
+         "Polônia"
       ],
       "Portugal": [
          null,
-         "Portogallo"
+         "Portugal"
       ],
       "Puerto Rico": [
          null,
@@ -725,19 +725,19 @@
       ],
       "Qatar": [
          null,
-         "Qatar"
+         "Catar"
       ],
       "Réunion": [
          null,
-         "Riunione"
+         "Reunião"
       ],
       "Romania": [
          null,
-         "Romania"
+         "Romênia"
       ],
       "Russia": [
          null,
-         "Russia"
+         "Rússia"
       ],
       "Rwanda": [
          null,
@@ -745,31 +745,31 @@
       ],
       "Saint Barthélemy": [
          null,
-         "Saint-Barthélemy"
+         "São Bartolomeu"
       ],
       "Saint Helena, Ascension and Tristan da Cunha": [
          null,
-         "Sant'Elena, Ascensione e Tristan da Cunha"
+         "Santa Helena, Ascensão e Tristão da Cunha"
       ],
       "Saint Kitts and Nevis": [
          null,
-         "Saint Kitts e Nevis"
+         "São Cristóvão e Névis"
       ],
       "Saint Lucia": [
          null,
-         "Santa Lucia"
+         "Santa Lúcia"
       ],
       "Saint Martin (French part)": [
          null,
-         "Saint Martin (parte francese)"
+         "São Martinho (parte francesa)"
       ],
       "Saint Pierre and Miquelon": [
          null,
-         "Saint-Pierre e Miquelon"
+         "São Pedro e Miquelão"
       ],
       "Saint Vincent and the Grenadines": [
          null,
-         "Saint Vincent e Grenadine"
+         "São Vicente e Granadinas"
       ],
       "Samoa": [
          null,
@@ -785,7 +785,7 @@
       ],
       "Saudi Arabia": [
          null,
-         "Arabia Saudita"
+         "Arábia Saudita"
       ],
       "Senegal": [
          null,
@@ -793,7 +793,7 @@
       ],
       "Serbia": [
          null,
-         "Serbia"
+         "Sérvia"
       ],
       "Seychelles": [
          null,
@@ -801,47 +801,47 @@
       ],
       "Sierra Leone": [
          null,
-         "Sierra Leone"
+         "Serra Leoa"
       ],
       "Singapore": [
          null,
-         "Singapore"
+         "Singapura"
       ],
       "Sint Maarten (Dutch part)": [
          null,
-         "Sint Maarten (parte olandese)"
+         "São Martinho (parte holandesa)"
       ],
       "Slovakia": [
          null,
-         "Slovacchia"
+         "Eslováquia"
       ],
       "Slovenia": [
          null,
-         "Slovenia"
+         "Eslovênia"
       ],
       "Solomon Islands": [
          null,
-         "Isole Salomone"
+         "Ilhas Salomão"
       ],
       "Somalia": [
          null,
-         "Somalia"
+         "Somália"
       ],
       "South Africa": [
          null,
-         "Sudafrica"
+         "África do Sul"
       ],
       "South Georgia and the South Sandwich Islands": [
          null,
-         "Georgia del Sud e Isole Sandwich Australi"
+         "Ilhas Geórgia do Sul e Sandwich do Sul"
       ],
       "South Sudan": [
          null,
-         "Sudan del Sud"
+         "Sudão do Sul"
       ],
       "Spain": [
          null,
-         "Spagna"
+         "Espanha"
       ],
       "Sri Lanka": [
          null,
@@ -849,7 +849,7 @@
       ],
       "Sudan": [
          null,
-         "Sudan"
+         "Sudão"
       ],
       "Suriname": [
          null,
@@ -861,35 +861,35 @@
       ],
       "Sweden": [
          null,
-         "Svezia"
+         "Suécia"
       ],
       "Switzerland": [
          null,
-         "Svizzera"
+         "Suíça"
       ],
       "Syria": [
          null,
-         "Siria"
+         "Síria"
       ],
       "Taiwan, Province of China": [
          null,
-         "Taiwan"
+         "Taiwan (Província da China)"
       ],
       "Tajikistan": [
          null,
-         "Tagikistan"
+         "Tadjiquistão"
       ],
       "Tanzania": [
          null,
-         "Tanzania"
+         "Tanzânia"
       ],
       "Thailand": [
          null,
-         "Thailandia"
+         "Tailândia"
       ],
       "Timor-Leste": [
          null,
-         "Timor Est"
+         "Timor-Leste"
       ],
       "Togo": [
          null,
@@ -905,23 +905,23 @@
       ],
       "Trinidad and Tobago": [
          null,
-         "Trinidad e Tobago"
+         "Trindade e Tobago"
       ],
       "Tunisia": [
          null,
-         "Tunisia"
+         "Tunísia"
       ],
       "Turkey": [
          null,
-         "Turchia"
+         "Turquia"
       ],
       "Turkmenistan": [
          null,
-         "Turkmenistan"
+         "Turcomenistão"
       ],
       "Turks and Caicos Islands": [
          null,
-         "Isole Turks e Caicos"
+         "Ilhas Turcas e Caicos"
       ],
       "Tuvalu": [
          null,
@@ -933,31 +933,31 @@
       ],
       "Ukraine": [
          null,
-         "Ucraina"
+         "Ucrânia"
       ],
       "the United Arab Emirates": [
          null,
-         "Emirati Arabi Uniti"
+         "Emirados Árabes Unidos"
       ],
       "the United Kingdom": [
          null,
-         "Regno Unito"
+         "Reino Unido"
       ],
       "the United States": [
          null,
-         "Stati Uniti"
+         "Estados Unidos"
       ],
       "the United States Minor Outlying Islands": [
          null,
-         "Isole Minori Esterne degli Stati Uniti d'America"
+         "Ilhas Menores Distantes dos Estados Unidos"
       ],
       "Uruguay": [
          null,
-         "Uruguay"
+         "Uruguai"
       ],
       "Uzbekistan": [
          null,
-         "Uzbekistan"
+         "Uzbequistão"
       ],
       "Vanuatu": [
          null,
@@ -969,15 +969,15 @@
       ],
       "Viet Nam": [
          null,
-         "Vietnam"
+         "Vietnã"
       ],
       "Virgin Islands (British)": [
          null,
-         "Isole Vergini britanniche"
+         "Ilhas Virgens Britânicas"
       ],
       "Virgin Islands (U.S.)": [
          null,
-         "Isole Vergini americane"
+         "Ilhas Virgens Americanas"
       ],
       "Wallis and Futuna": [
          null,
@@ -985,571 +985,572 @@
       ],
       "Western Sahara": [
          null,
-         "Sahara Occidentale"
+         "Saara Ocidental"
       ],
       "Yemen": [
          null,
-         "Yemen"
+         "Iêmen"
       ],
       "Zambia": [
          null,
-         "Zambia"
+         "Zâmbia"
       ],
       "Zimbabwe": [
          null,
-         "Zimbabwe"
+         "Zimbábue"
       ],
       "Join now": [
          null,
-         "Unisciti ora"
+         "Cadastre-se agora"
       ],
       "OOPS!": [
          null,
-         "OPS!"
+         "OPA!"
       ],
       "It looks like the page you were looking for isn't here anymore. Feel free to visit our homepage by clicking the button below.": [
          null,
-         "Sembra che la pagina che stavi cercando non sia più qui. Visita la nostra pagina iniziale facendo clic sul pulsante qui sotto."
+         "Parece que a página que você estava procurando não está mais aqui. Fique à vontade para acessar a nossa página inicial clicando no botão abaixo."
       ],
       "Take Me To The Homepage": [
          null,
-         "Portami alla pagina iniziale"
+         "Direcione-me para a página inicial"
       ],
       "<small>Discover all the</small><br class=\"\"><b><span>streaming content</span></b><br>you’ve been missing out on": [
          null,
-         "<small>Scopri tutti i</small><br class=\"\"><b><span>contenuti streaming</span></b><br>che ti sei perso"
+         "<small>Descubra todo o</small><br class=\"\"><b><span>conteúdo de streaming</span></b><br>que você está perdendo"
       ],
       "Unblock restricted content libraries easily<br> with Private Internet Access": [
          null,
-         "Sblocca facilmente i cataloghi con contenuti limitati<br> con Private Internet Access"
+         "Desbloqueie bibliotecas de conteúdo restrito facilmente<br> com Private Internet Access"
       ],
       "Get Private Internet Access VPN": [
          null,
-         "Ottieni la VPN Private Internet Access"
+         "Obtenha a VPN do Private Internet Access"
       ],
       "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>": [
          null,
-         "Provala senza rischi! <i class='fas fa-award'></i><span class='text-uppercase'> Garanzia di rimborso di %s giorni</span>"
+         "Experimente sem riscos! <i class='fas fa-award'></i><span class='text-uppercase'> Garantia de devolução do seu dinheiro em até %s dias</span>"
       ],
       "Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>": [
          null,
-         "Provala senza rischi!<br><span class='text-uppercase'>Garanzia di rimborso di %s giorni</span>"
+         "Experimente sem riscos!<br><span class='text-uppercase'>Garantia de devolução do seu dinheiro em até %s dias</span>"
       ],
       "Private Internet Access VPN for %s% OFF": [
          null,
-         "VPN Private Internet Access con %s% di SCONTO"
+         "VPN do Private Internet Access com %s% de DESCONTO"
       ],
       "Discover Limitless Streaming Content": [
          null,
-         "Scopri contenuti in streaming illimitati"
+         "Descubra conteúdos de streaming ilimitados"
       ],
       "Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. <br><b class='mt-1 d-inline-block'>Sign up for Private Internet Access today!</b>": [
          null,
-         "I servizi di streaming online e i siti web stanno diventando sempre più popolari in tutto il mondo. Ma può capitare che le restrizioni geografiche limitino i contenuti a cui hai accesso. Non perderti opportunità di streaming video solo a causa della tua geolocalizzazione. <br><b class='mt-1 d-inline-block'>Registrati a Private Internet Access oggi stesso!</b>"
+         "Os serviços e sites de streaming on-line estão a cada dia mais populares em todo o mundo. Mas às vezes as restrições geográficas podem limitar o conteúdo a que você tem acesso. Não perca oportunidades de streaming de vídeos por causa da sua localização. <br><b class='mt-1 d-inline-block'>Cadastre-se para obter o Private Internet Access hoje mesmo!</b>"
       ],
       "Unblock content on:": [
          null,
-         "Sblocca contenuti su:"
+         "Desbloqueie conteúdo em:"
       ],
       "Sign up for Private Internet Access today!": [
          null,
-         "Registrati a Private Internet Access oggi stesso!"
+         "Cadastre-se para obter o Private Internet Access hoje mesmo!"
       ],
       "A must have for your streaming needs": [
          null,
-         "Un \"must\" per le tue esigenze di streaming"
+         "Essencial para suas necessidades de streaming"
       ],
       "Unlimited bandwidth for streaming": [
          null,
-         "Larghezza di banda illimitata per lo streaming"
+         "Largura de banda ilimitada para streaming"
       ],
       "Private Internet Access has no logs, never records online activity and does not throttle users.": [
          null,
-         "Private Internet Access non tiene registri, non conserva la tua attività online e non limita gli utenti."
+         "O Private Internet Access não tem registros, nunca registra atividades on-line e não limitam os usuários."
       ],
       "One-click solution to override geographical restrictions": [
          null,
-         "Soluzione one-click per superare le restrizioni geografiche"
+         "A solução de um clique para ignorar restrições geográficas"
       ],
       "Once you have chosen your virtual location, you can connect to it using Private Internet Access with just one click.": [
          null,
-         "Una volta scelta la tua località virtuale, puoi connetterti utilizzando Private Internet Access con un solo clic."
+         "Depois de escolher sua localização virtual, você pode se conectar a ela usando o Private Internet Access com apenas um clique."
       ],
       "Stream on multiple devices": [
          null,
-         "Guarda in streaming su più dispositivi"
+         "Faça streaming em vários dispositivos"
       ],
       "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
          null,
-         "Un abbonamento a Private Internet Access può essere utilizzato su un massimo di %s dispositivi contemporaneamente. Condividi Private Internet Access con tutta la famiglia!"
+         "1 assinatura do Private Internet Access pode ser usada em até %s dispositivos simultaneamente. Compartilhe o Private Internet Access com toda a sua família!"
       ],
       "Four easy steps to stream with Private Internet Access": [
          null,
-         "Quattro semplici passi per lo streaming con Private Internet Access"
+         "Quatro etapas simples para fazer streaming com o Private Internet Access"
       ],
       "Start streaming with Private Internet Access in minutes": [
          null,
-         "Inizia a guardare in streaming con Private Internet Access in pochi minuti"
+         "Comece a fazer streaming com Private Internet Access em minutos"
       ],
       "<b>Subscribe</b><br>to Private Internet Access": [
          null,
-         "<b>Abbonati</b><br>a Private Internet Access"
+         "<b>Assine</b><br>o Private Internet Access"
       ],
       "<b>Download</b><br>Private Internet Access": [
          null,
-         "<b>Scarica</b><br>Private Internet Access"
+         "<b>Baixe</b><br>o Private Internet Access"
       ],
       "<b>Login</b><br>on the Private Internet Access client with your username and password": [
          null,
-         "<b>Accedi</b><br>al client di Private Internet Access con nome utente e password"
+         "<b>Inicie sessão</b><br>no cliente do Private Internet Access com seu nome de usuário e senha"
       ],
       "<b>Turn on</b><br>Private Internet Access and connect to the location of your choice": [
          null,
-         "<b>Attiva</b><br>Private Internet Access e connettiti alla località che preferisci"
+         "<b>Ative</b><br>o Private Internet Access e conecte-se à localização da sua preferência"
       ],
       "You’re ready to start streaming with <span>Private Internet Access</span>": [
          null,
-         "Sei pronto per lo streaming con <span>Private Internet Access</span>"
+         "Você está pronto para começar a fazer streaming com o <span>Private Internet Access</span>"
       ],
       "Private Internet Access Streaming FAQ": [
          null,
-         "FAQ sullo streaming con Private Internet Access"
+         "Perguntas Frequentes sobre streaming com o Private Internet Access"
       ],
       "Is it safe to stream with Private Internet Access?": [
          null,
-         "Lo streaming con Private Internet Access è sicuro?"
+         "É seguro fazer streaming com o Private Internet Access?"
       ],
       "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
          null,
-         "Sì. Private Internet Access offre un servizio VPN con server in 49 località in 29 paesi, tra cui Stati Uniti, Regno Unito, Giappone e tanti altri. Ma la vera domanda è: è sicuro lo streaming senza Private Internet Access?"
+         "Sim. O Private Internet Access fornece um serviço de VPN com servidores em 49 localizações em 29 países, incluindo os Estados Unidos, Reino Unido, Japão e muito mais. A pergunta correta é: é seguro fazer streaming sem o Private Internet Access?"
       ],
       "Do you have a refund policy?": [
          null,
-         "Avete una politica di rimborso?"
+         "Vocês têm uma política de reembolso?"
       ],
       "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,
-         "Con Private Internet Access hai una garanzia di rimborso di 7 giorni, e non sei tenuto a dare spiegazioni. Abbonati a Private Internet Access oggi stesso e inizia subito con lo streaming!"
+         "O Private Internet Access oferece uma garantia de devolução do seu dinheiro em até 7 dias, sem fazer perguntas. Assine o Private Internet Access hoje mesmo para começar a fazer streaming agora!"
       ],
       "Will my IP address be exposed to streaming services or websites?": [
          null,
-         "Il mio indirizzo IP sarà esposto a servizi di streaming o siti web?"
+         "Meu endereço IP ficará exposto a serviços ou sites de streaming?"
       ],
       "By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
          null,
-         "Con Private Internet Access stai crittografando il tuo traffico tramite il nostro tunnel VPN, che accede a Internet con uno degli indirizzi IP dei nostri server. I servizi di streaming e i siti web vedranno solo l'indirizzo IP di Private Internet Access, e non quello del tuo dispositivo."
+         "Ao usar o Private Internet Access, você está criptografando seu tráfego por meio do nosso túnel VPN, que acessa a internet de um dos endereços IP dos nossos servidores. Os serviços e sites de streaming verão apenas o nosso endereço IP do Private Internet Access e não o endereço IP do seu dispositivo."
       ],
       "Does Private Internet Access limit the bandwidth that streamers can use?": [
          null,
-         "Private Internet Access limita la larghezza di banda che si può utilizzare?"
+         "O Private Internet Access limita a largura de banda que os usuários de streaming podem usar?"
       ],
       "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
          null,
-         "Private Internet Access è la VPN senza registri per eccellenza. Questo significa che non sappiamo neanche se stai guardando qualcosa in streaming. Tutti i nostri server offrono larghezza di banda illimitata, senza throttling per gli utenti. Punto. Registrati a Private Internet Access oggi stesso e approfitta di un Internet senza limiti o censure."
+         "O Private Internet Access é a primeira VPN com ausência de registros - isso significa que nem sequer sabemos se você está fazendo streaming. Todos os nossos servidores oferecem largura de banda ilimitada e nós não limitamos nossos usuários. E ponto final. Cadastre-se no Private Internet Access hoje mesmo para desfrutar de internet ilimitada e sem censura."
       ],
       "Will Private Internet Access be blocked on my favorite streaming service or website?": [
          null,
-         "Private Internet Access verrà bloccato dal mio servizio di streaming o sito web preferito?"
+         "O Private Internet Access será bloqueado no meu serviço de streaming ou site favorito?"
       ],
       " Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
          null,
-         "Private Internet Access crede in un Internet aperto e lavora costantemente per assicurare l'assenza di blocchi per gli utenti della VPN. Prova oggi stesso il nostro servizio e capirai perché Private Internet Access è la migliore VPN per lo streaming online."
+         "O Private Internet Access acredita em uma internet aberta e está sempre trabalhando para garantir que não haja nenhum bloqueio para os nossos usuários de VPN. Use o nosso serviço hoje mesmo para ver por que o Private Internet Access é a melhor VPN para fazer streaming on-line."
       ],
       "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
-         "Ottieni una sicurezza online infallibile con<br><b>la migliore VPN per<br><span class=\"color_pia_light_orange\">%s</span></b>"
+         "Obtenha uma segurança on-line indestrutível com<br><b>a melhor VPN para<br><span class=\"color_pia_light_orange\">%s</span></b>"
       ],
       "Rated as the Best VPN Service In<br><b><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
-         "Valutata come il miglior servizio VPN in:<br><b><span class=\"color_pia_light_orange\">%s</span></b>"
+         "Classificado como o melhor serviço de VPN para:<br><b><span class=\"color_pia_light_orange\">%s</span></b>"
       ],
       "No Logs": [
          null,
-         "Senza registri"
+         "Ausência de registros"
       ],
       "Military-Grade Encryption": [
          null,
-         "Crittografia di livello militare"
+         "Criptografia de nível militar"
       ],
       "%s Devices": [
          null,
-         "%s dispositivi"
+         "%s dispositivos"
       ],
       "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
          null,
-         "Sperimenta il modo migliore<br><b>per rimanere <span class='color_pia_light_orange'><span class='text-uppercase'>al sicuro</span> su Wi-Fi pubbliche</span><br>e <span class='color_pia_light_orange text-uppercase'>non rischiare mai</span> attacchi </b>"
+         "Experimente a melhor maneira<br><b>de ficar <span class='color_pia_light_orange'><span class='text-uppercase'>seguro</span> em uma rede Wi-Fi pública</span><br>e <span class='color_pia_light_orange text-uppercase'>nunca correr o risco</span> de ser atacado por hackers </b>"
       ],
       "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>": [
          null,
-         "Scopri una quantità infinita di <br><b>contenuti streaming</b> su <span>KODI</span>"
+         "Descubra uma quantidade interminável de <br><b>conteúdo de streaming</b> no <span>KODI</span>"
       ],
       "Access geo-blocked TV shows and movies <br>while staying anonymous online": [
          null,
-         "Accedi a programmi TV e film con restrizioni geografiche<br>rimanendo anonimo online"
+         "Acesse programas e filmes com restrição geográfica <br>enquanto fica anônimo on-line"
       ],
       "Don’t get into trouble while streaming on Kodi": [
          null,
-         "Non rischiare mentre guardi in streaming su Kodi"
+         "Fique longe de problemas enquanto faz streaming no Kodi"
       ],
       "Whether you use Kodi TV to watch your personal content library or for the titles you find on their website, make sure nobody will be able to find out what you're doing online.<br><b>Why? </b>Streaming content on Kodi works is basically P2P torrenting which might be illegal in your country. Luckily, with the <b>Private Internet Access VPN</b>, you can make all your internet activity totally anonymous. So, you'll never have any trouble with governmental authorities while using Kodi.": [
          null,
-         "Se usi Kodi TV per guardare la tua libreria personale di contenuti o per i titoli che trovi sul relativo sito web, assicurati che nessuno possa scoprire ciò che stai facendo online.<br><b>Perché? </b>I contenuti streaming su Kodi funzionano fondamentalmente con i torrent P2P, che potrebbero essere illegali nel tuo paese. Fortunatamente, con la <b>VPN Private Internet Access</b>, puoi rendere la tua attività su Internet completamente anonima. Così non avrai mai alcun problema con le autorità governative mentre utilizzi Kodi."
+         "Se você usa o Kodi TV para assistir à sua biblioteca de conteúdo pessoal ou aos títulos que encontra no site desse serviço, lembre-se de que ninguém conseguirá descobrir o que você está fazendo on-line.<br><b>Por quê? </b>Fazer streaming de conteúdo no Kodi funciona basicamente como baixar torrents P2P, o que pode ser ilegal no seu país. Felizmente, com o <b>Private Internet Access VPN</b>, você pode tornar toda a sua atividade na internet totalmente anônima. Assim, você nunca mais terá problema algum com autoridades governamentais enquanto usa o Kodi."
       ],
       "P2P traffic allowed": [
          null,
-         "Traffico P2P consentito"
+         "Tráfego P2P permitido"
       ],
       "Private Internet Access supports P2P protocols such as torrents.": [
          null,
-         "Private Internet Access supporta i protocolli P2P come i torrent."
+         "O Private Internet Access oferece suporte a protocolos P2P, como torrents."
       ],
       "No Logs Policy": [
          null,
-         "Politica No Log"
+         "Política de ausência de registros"
       ],
       "Private Internet Access never records its users' online activity and never keeps any logs, so you'll have complete anonymity from the moment you connect to our servers.": [
          null,
-         "Private Internet Access non registra mai le attività online dei suoi utenti né conserva alcun log, così avrai la garanzia del completo anonimato dal momento in cui ti connetterai ai nostri server."
+         "O Private Internet Access nunca registra a atividade on-line de seus usuários, tampouco mantém registros, portanto você terá anonimato total a partir do momento em que se conecta aos nossos servidores."
       ],
       "Bypass geographical restrictions": [
          null,
-         "Aggira le restrizioni geografiche"
+         "Ignore restrições geográficas"
       ],
       "Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.": [
          null,
-         "Una volta scelta la località da cui vuoi usare Internet, Private Internet Access sarà sempre a un clic di distanza."
+         "Depois de você escolher a localização de onde deseja usar a internet, o Private Internet Access estará sempre a um clique de distância."
       ],
       "Use Kodi TV on multiple devices": [
          null,
-         "Usa Kodi TV su più dispositivi"
+         "Use o Kodi TV em vários dispositivos"
       ],
       "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
          null,
-         "Un abbonamento a Private Internet Access può essere utilizzato su un massimo di %s dispositivi contemporaneamente. Condividi Private Internet Access con tutta la famiglia!"
+         "1 assinatura do Private Internet Access pode ser usada em até %s dispositivos simultaneamente. Compartilhe o Private Internet Access com toda a sua família!"
       ],
       "Watch Kodi anonymously in 4 easy steps": [
          null,
-         "Guarda Kodi in forma anonima in 4 semplici passi"
+         "Assista o Kodi anonimamente em 4 etapas simples"
       ],
       "You’re ready to start using <span>Private Internet Access</span> with your Kodi TV": [
          null,
-         "Sei pronto a usare <span>Private Internet Access</span> con il tuo Kodi TV"
+         "Você está pronto para começar a usar o <span>Private Internet Access</span> com o seu Kodi TV"
       ],
       "Got questions? <span class=\"color_pia_green\">Check out our FAQs</span>": [
          null,
-         "Hai domande? <span class=\"color_pia_green\">Leggi le nostre FAQ</span>"
+         "Alguma dúvida? <span class=\"color_pia_green\">Confira as nossas Perguntas Frequentes</span>"
       ],
       "Is it safe to use Kodi with Private Internet Access?": [
          null,
-         "È sicuro usare Kodi con Private Internet Access?"
+         "É seguro usar o Kodi com o Private Internet Access?"
       ],
       "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?": [
          null,
-         "Sì. Private Internet Access offre un servizio VPN con server in %s località in %s paesi, tra cui Stati Uniti, Regno Unito, Giappone e tanti altri. Ma la vera domanda è: è sicuro usare Kodi senza Private Internet Access?"
+         "Sim. O Private Internet Access fornece um serviço de VPN com servidores em %s localizações em %s países, incluindo os Estados Unidos, Reino Unido, Japão e muito mais. A pergunta correta é: é seguro usar o Kodi sem o Private Internet Access?"
       ],
       "Yes. Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,
-         "Sì. Con Private Internet Access hai una garanzia di rimborso di %s giorni, e non sei tenuto a dare spiegazioni. Abbonati a Private Internet Access oggi stesso e inizia subito con lo streaming!"
+         "Sim. O Private Internet Access oferece uma garantia de devolução do seu dinheiro em até %s dias, sem fazer perguntas. Assine o Private Internet Access hoje mesmo para começar a fazer streaming agora!"
       ],
       "Will my IP address be exposed while using Kodi add-ons?": [
          null,
-         "Il mio indirizzo IP sarà esposto mentre utilizzo gli add-on di Kodi?"
+         "Meu endereço IP ficará exposto enquanto eu estiver usando os complementos do Kodi?"
       ],
       "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Any service or website accessed will only see our Private Internet Access IP address, not your device’s IP address.": [
          null,
-         "No. Con Private Internet Access stai crittografando il tuo traffico tramite il nostro tunnel VPN, che accede a Internet con uno degli indirizzi IP dei nostri server. Qualunque sia il servizio o sito web a cui accedi, questo vedrà solo l'indirizzo IP di Private Internet Access, e non quello del tuo dispositivo."
+         "Não. Ao usar o Private Internet Access, você está criptografando seu tráfego por meio do nosso túnel VPN, que acessa a internet de um dos endereços IP dos nossos servidores. Todo o serviço ou site acessado verá apenas o nosso endereço IP do Private Internet Access e não o endereço IP do seu dispositivo."
       ],
       "Does Private Internet Access limit bandwidth for Kodi users?": [
          null,
-         "Private Internet Access limita la larghezza di banda per gli utenti Kodi?"
+         "O Private Internet Access limita a largura de banda para usuários do Kodi?"
       ],
       "No. Private Internet Access is the premier no log VPN - this means that we don’t even know what software you use in conjunction with ours. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
          null,
-         "No. Private Internet Access è la VPN senza registri per eccellenza. Questo significa che non sappiamo neanche quale software utilizzi in concomitanza col nostro. Tutti i nostri server offrono larghezza di banda illimitata, senza throttling per gli utenti. Punto. Registrati a Private Internet Access oggi stesso e approfitta di un Internet senza limiti o censure."
+         "Não. O Private Internet Access é a primeira VPN com ausência de registros - isso significa que nem sequer sabemos que software você usa em conjunto com o nosso. Todos os nossos servidores oferecem largura de banda ilimitada e nós não limitamos nossos usuários. E ponto final. Cadastre-se para obter o Private Internet Access hoje mesmo para desfrutar de internet ilimitada e sem censura."
       ],
       "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
          null,
-         "Prova la<br><b><span class='color_pia_light_orange'>VPN più affidabile</span><br>e <span class='color_pia_light_orange'>sicura</span> al mondo</b>"
+         "Experimente a<br><b><span class='color_pia_light_orange'>VPN mais confiável</span><br>e <span class='color_pia_light_orange'>segura</span>do mundo</b>"
       ],
       "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
          null,
-         "Provala senza rischi! <i class='fas fa-award'></i> Garanzia di rimborso di %s giorni"
+         "Experimente sem riscos! <i class='fas fa-award'></i> Garantia de devolução do seu dinheiro em até %s dias"
       ],
       "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN": [
          null,
-         "Scopri il modo più sicuro per ottenere la<br><b><span class=\"text-uppercase color_pia_light_orange\">privacy online totale</span></b><br>Ottieni la VPN Private Internet Access"
+         "Descubra a maneira mais segura de obter<br><b><span class=\"text-uppercase color_pia_light_orange\">total privacidade on-line</span></b><br>Obtenha a VPN do Private Internet Access"
       ],
       "100%</span> No Logs & Records": [
          null,
-         "100%</span> No Log e senza registri"
+         "100%</span> sem registros"
       ],
       "Proud Sponsor Of": [
          null,
-         "Orgoglioso sponsor di"
+         "Orgulhoso patrocinador das organizações"
       ],
       "Monthly": [
          null,
-         "Mensile"
+         "Por mês"
       ],
       "Months": [
          null,
-         "mesi"
+         "Meses"
       ],
       "Yearly": [
          null,
-         "Annuale"
+         "Por ano"
       ],
       "Years": [
          null,
-         "anni"
+         "Anos"
       ],
       "Best value": [
          null,
-         "Il più conveniente"
+         "Melhor valor"
       ],
       "Save <b>%s%</b>": [
          null,
-         "Risparmia <b>%s%</b>"
+         "Economize <b>%s%</b>"
       ],
       "/mo": [
          null,
-         "/mese"
+         "/mês"
       ],
       "<del>%s</del> %s per month": [
          null,
-         "<del>%s</del> %s al mese"
+         "<del>%s</del> %s por mês"
       ],
       "<del>%s</del> %s per %s months": [
          null,
-         "<del>%s</del> %s ogni %s mesi"
+         "<del>%s</del> %s por %s meses"
       ],
       "<del>%s</del> %s per year": [
          null,
-         "<del>%s</del> %s all'anno"
+         "<del>%s</del> %s por ano"
       ],
       "<del>%s</del>%s per %s years": [
          null,
-         "<del>%s</del>%s ogni %s anni"
+         "<del>%s</del> %s por %s anos"
       ],
       "Sign up now": [
          null,
-         "Registrati ora"
+         "Cadastre-se agora"
       ],
       "Best<br>value": [
          null,
-         "Offerta<br>migliore"
+         "Melhor<br>valor"
       ],
       "+%s extra<br>months free": [
          null,
-         "+%s mesi<br>extra gratis"
+         "+%s meses<br>extras gratuitos"
       ],
       "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
          null,
-         "Tutti gli importi mostrati sono in %s, e tutti gli sconti fanno riferimento a una riduzione basata sul servizio mensile corrente del costo di %s al mese."
+         "Todas as quantias são exibidas em %s e todos os descontos refletem uma redução com base no preço mensal atual do serviço a %s por mês"
       ],
       "Trusted By Companies Including:": [
          null,
-         "Utilizzata da aziende come:"
+         "Conquistamos a confiança de muitas empresas, incluindo:"
       ],
       "Why choose Private Internet Access?": [
          null,
-         "Perché abbonarsi a Private Internet Access?"
+         "Por que escolher o Private Internet Access?"
       ],
       "Total Privacy": [
          null,
-         "Privacy totale"
+         "Privacidade total"
       ],
       "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.": [
          null,
-         "Private Internet Access non conserva mai i log delle attività online degli utenti. Hai la garanzia della privacy completa e che nessuno sa cosa fai online."
+         "O Private Internet Access nunca mantém registros das atividades on-line de seus usuários. Você pode ficar tranquilo com a certeza que tem total privacidade e que ninguém sabe o que está fazendo on-line."
       ],
       "Easy to use": [
          null,
-         "Facile da usare"
+         "Fácil de usar"
       ],
       "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.": [
          null,
-         "A prescindere dalle tue abilità tecniche, Private Internet Access è una delle app VPN più intuitive sul mercato. Devi solo connetterti con un clic o tap, e i tuoi dati verranno cifrati all'istante."
+         "Não importa quais sejam as suas habilidades técnicas, o Private Internet Access é um dos aplicativos VPN mais fáceis de usar que existem. Para se conectar, basta 1 clique ou toque e seus dados serão criptografados instantaneamente."
       ],
       "Secure VPN Protocols": [
          null,
-         "Protocolli sicuri della VPN"
+         "Protocolos VPN seguros"
       ],
       "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
          null,
-         "La nostra app include i protocolli più recenti e avanzati come: PPTP, OpenVPN e L2TP/IPSec."
+         "Nosso aplicativo tem a tecnologia dos protocolos mais recentes e avançados, como: PPTP, OpenVPN e L2TP/IPSec."
       ],
       "%s devices simultaneously": [
          null,
-         "%s dispositivi contemporaneamente"
+         "%s dispositivos simultaneamente"
       ],
       "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time.": [
          null,
-         "Proteggi tutti i tuoi dispositivi. Con un solo abbonamento alla VPN Private Internet Access, puoi connetterti con un massimo di %s dispositivi alla volta."
+         "Mantenha todos os seus dispositivos protegidos. Com apenas 1 assinatura do Private Internet Access VPN você pode se conectar em até %s dispositivos ao mesmo tempo."
       ],
       "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
          null,
-         "I nostri lettori hanno ampiamente chiarito che Private Internet Access dovrebbe essere la tua prima scelta se vuoi proteggere i tuoi dati privati di navigazione."
+         "Nossos leitores deixam muito claro que o Private Internet Access deve ser a sua primeira opção para proteger seus dados de navegação privados."
       ],
       "World-class VPN service:": [
          null,
-         "Servizio VPN di prima classe:"
+         "Serviço de VPN de nível internacional:"
       ],
       "Protect your online privacy and identity": [
          null,
-         "Proteggi privacy e identità online"
+         "Proteja a sua privacidade e identidade on-line"
       ],
       "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
          null,
-         "Naviga in forma anonima con un indirizzo IP privato e abilita una crittografia forte per proteggerti dal tuo ISP e dalle reti Wi-Fi pubbliche."
+         "Navegue anonimamente com um IP privado e habilite uma criptografia forte para se proteger da seu provedor de internet e em redes Wi-Fi públicas."
       ],
       "Unblock Streaming": [
          null,
-         "Sblocca lo streaming"
+         "Desbloqueie streaming"
       ],
       "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.": [
          null,
-         "Accedi a tantissimi nuovi contenuti su piattaforme come Netflix, Disney Plus, Amazon Prime Video, HBO GO e molte altre."
+         "Obtenha acesso a inúmeros conteúdos novos em plataformas como Netflix, Disney Plus, Amazon Prime Video, HBO GO e muito mais."
       ],
       "The World's Leading VPN": [
          null,
-         "La VPN migliore al mondo"
+         "A VPN líder em todo o mundo"
       ],
       "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.": [
          null,
-         "Private Internet Access offre le velocità più elevate e la crittografia più potente, per un'esperienza di streaming perfetta, senza buffering né lunghi tempi di caricamento."
+         "O Private Internet Access fornece as velocidades mais altas e a criptografia mais eficaz. Portanto, desfrute de uma experiência de streaming perfeita sem buffering ou demora no carregamento."
       ],
       "Experience": [
          null,
-         "Sperimenta"
+         "Experimente"
       ],
       "Total Online Freedom": [
          null,
-         "Libertà online totale"
+         "Total liberdade on-line"
       ],
       "Bypass censorship and unblock sites and content you don't have access to": [
          null,
-         "Eludi la censura e sblocca siti e contenuti a cui non puoi accedere."
+         "Ignore a censura e desbloqueie sites e conteúdo aos quais você não tem acesso"
       ],
       "Secure Protection on Public Wi-Fi": [
          null,
-         "Protezione sicura sulle Wi-Fi pubbliche"
+         "Proteção segura em redes Wi-Fi públicas"
       ],
       "Keep your data safe and private while connecting to any poorly secured network": [
          null,
-         "Tieni al sicuro i tuoi dati quando ti connetti a una rete poco sicura."
+         "Mantenha seus dados protegidos e privados enquanto estiver conectado a uma rede pouco segura"
       ],
       "Unlimited Bandwidth & Fast Download Speeds": [
          null,
-         "Larghezza di banda illimitata e velocità di download elevate"
+         "Largura de banda ilimitada e velocidades de download rápidas"
       ],
       "Keep your downloads private and experience lightning fast speeds for P2P torrenting": [
          null,
-         "Proteggi la privacy dei tuoi download e prova le elevatissime velocità per i torrent P2P."
+         "Mantenha seus downloads privados e experimente velocidades ultrarrápidas para baixar torrents P2P"
       ],
       "Ad blocking": [
          null,
-         "Annunci bloccati"
+         "Bloqueio de anúncios"
       ],
       "With Private Internet Access you can block ads, trackers, and malware": [
          null,
-         "Con Private Internet Access puoi bloccare annunci, tracker e malware."
+         "Com o Private Internet Access você pode bloquear anúncios, rastreadores e malware"
       ],
       "Limited Time Only! <span class='color_pia_green'>Act Now</span>": [
          null,
-         "Solo per un tempo limitato! <span class='color_pia_green'>Fallo ora</span>"
+         "Somente por tempo limitado! <span class='color_pia_green'>Agora é a hora</span>"
       ],
       "%s<br><span>day</span>": [
          null,
-         "%s<br><span>giorni</span>"
+         "%s<br><span>dias</span>"
       ],
       "money back guarantee": [
          null,
-         "garanzia di rimborso"
+         "garantia de devolução do seu dinheiro"
       ],
       "Remember, you're not risking anything.": [
          null,
-         "Ricorda: non rischi nulla."
+         "Lembre-se: você não está correndo nenhum risco."
       ],
       "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back.": [
          null,
-         "Se non sei soddisfatto al 100% di <b>Private Internet Access</b>,<br>hai %s giorni di tempo per chiedere il rimborso, e ti restituiremo ogni centesimo."
+         "Se não estiver 100% satisfeito com o <b>Private Internet Access</b>,<br>você terá %s dias para solicitar um reembolso e nós lhe devolveremos o seu dinheiro."
       ],
       "Based on %s reviews": [
          null,
-         "Basato su %s recensioni"
+         "Com base em %s comentários"
       ],
       "Read full review": [
          null,
-         "Leggi la recensione completa"
+         "Ler comentário completo"
       ],
       "Compatible with all popular desktop and mobile operating systems": [
          null,
-         "Compatibile con tutti i sistemi operativi desktop e mobile più popolari"
+         "Compatível com todos os sistemas operacionais para desktop e dispositivos móveis"
       ],
       "FREE": [
          null,
-         "GRATIS"
+         "GRATUITOS"
       ],
       "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE": [
          null,
-         "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>MESI EXTRA</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATIS"
+         "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>MESES EXTRAS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATUITOS"
       ],
       "For a Limited Time Only<br>Grab our": [
          null,
-         "Solo per un tempo limitato<br>Approfitta del nostro"
+         "Somente por tempo limitado<br>Aproveite nosso"
       ],
       "DISCOUNT": [
          null,
-         "SCONTO"
+         "DESCONTO"
       ],
       "for ONLY": [
          null,
-         "SOLO per"
+         "por APENAS"
       ],
       "/month": [
          null,
-         "/mese"
+         "/mês"
       ],
       "Private Internet Access | Anonymous VPN Service Provider": [
          null,
-         "Private Internet Access | Service provider VPN anonimo"
+         "Private Internet Access | Provedor de serviço de VPN anônimo"
       ],
       "Connect to servers from all over the world": [
          null,
-         "Connettiti a server di tutto il mondo"
+         "Conecte-se a servidores de todo o mundo"
       ],
       "Servers": [
          null,
-         "Server"
+         "Servidores"
       ],
       "Countries": [
          null,
-         "Paesi"
+         "Países"
       ],
       "Your IP:": [
          null,
-         "Il tuo IP:"
+         "Seu IP:"
       ],
       "Your Location:": [
          null,
-         "La tua posizione:"
+         "Sua localização:"
       ],
       "Your ISP:": [
          null,
-         "Il tuo ISP:"
+         "Seu ISP:"
       ],
       "Your Status:": [
          null,
-         "Il tuo stato:"
+         "Seu status:"
       ],
       "You are not protected": [
          null,
-         "Non sei protetto"
+         "Você não está protegido"
       ],
       "As recommended by": [
          null,
-         "Raccomandato da"
+         "Conforme recomendado por"
       ]
    }
 }
+;

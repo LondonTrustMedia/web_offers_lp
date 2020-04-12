@@ -1,1555 +1,1555 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Italian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-03 10:31\nLanguage: it_IT\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-31 12:25+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: it\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-03 10:31\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-31 12:25+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
       },
       "US Dollars": [
          null,
-         "Dollari americani"
+         "米国ドル"
       ],
       "Afghanistan": [
          null,
-         "Afghanistan"
+         "アフガニスタン"
       ],
       "Åland Islands": [
          null,
-         "Isole Åland"
+         "オーランド諸島"
       ],
       "Albania": [
          null,
-         "Albania"
+         "アルバニア"
       ],
       "Algeria": [
          null,
-         "Algeria"
+         "アルジェリア"
       ],
       "American Samoa": [
          null,
-         "Samoa Americane"
+         "アメリカ領サモア"
       ],
       "Andorra": [
          null,
-         "Andorra"
+         "アンドラ"
       ],
       "Angola": [
          null,
-         "Angola"
+         "アンゴラ"
       ],
       "Anguilla": [
          null,
-         "Anguilla"
+         "アンギラ"
       ],
       "Antarctica": [
          null,
-         "Antartide"
+         "南極大陸"
       ],
       "Antigua and Barbuda": [
          null,
-         "Antigua e Barbuda"
+         "アンチグアバーブーダ"
       ],
       "Argentina": [
          null,
-         "Argentina"
+         "アルゼンチン"
       ],
       "Armenia": [
          null,
-         "Armenia"
+         "アルメニア"
       ],
       "Aruba": [
          null,
-         "Aruba"
+         "アルバ"
       ],
       "Australia": [
          null,
-         "Australia"
+         "オーストラリア"
       ],
       "Austria": [
          null,
-         "Austria"
+         "オーストリア"
       ],
       "Azerbaijan": [
          null,
-         "Azerbaigian"
+         "アゼルバイジャン"
       ],
       "Bahamas": [
          null,
-         "Bahamas"
+         "バハマ"
       ],
       "Bahrain": [
          null,
-         "Bahrain"
+         "バーレーン"
       ],
       "Bangladesh": [
          null,
-         "Bangladesh"
+         "バングラデシュ"
       ],
       "Barbados": [
          null,
-         "Barbados"
+         "バルバドス"
       ],
       "Belarus": [
          null,
-         "Bielorussia"
+         "ベラルーシ"
       ],
       "Belgium": [
          null,
-         "Belgio"
+         "ベルギー"
       ],
       "Belize": [
          null,
-         "Belize"
+         "ベリーズ"
       ],
       "Benin": [
          null,
-         "Benin"
+         "ベニン"
       ],
       "Bermuda": [
          null,
-         "Bermuda"
+         "バミューダ"
       ],
       "Bhutan": [
          null,
-         "Bhutan"
+         "ブータン"
       ],
       "Bolivia": [
          null,
-         "Bolivia"
+         "ボリビア"
       ],
       "Caribbean Netherlands": [
          null,
-         "Isole BES"
+         "カリブ・オランダ"
       ],
       "Bosnia and Herzegovina": [
          null,
-         "Bosnia ed Erzegovina"
+         "ボスニア・ヘルツェゴビナ"
       ],
       "Botswana": [
          null,
-         "Botswana"
+         "ボツワナ"
       ],
       "Bouvet Island": [
          null,
-         "Isola Bouvet"
+         "ブーベ島"
       ],
       "Brazil": [
          null,
-         "Brasile"
+         "ブラジル"
       ],
       "British Indian Ocean Territory": [
          null,
-         "Territorio Britannico dell'Oceano Indiano"
+         "英領インド洋領土"
       ],
       "Brunei Darussalam": [
          null,
-         "Brunei"
+         "ブルネイ・ダルサラーム"
       ],
       "Bulgaria": [
          null,
-         "Bulgaria"
+         "ブルガリア"
       ],
       "Burkina Faso": [
          null,
-         "Burkina Faso"
+         "ブルキナファソ"
       ],
       "Burundi": [
          null,
-         "Burundi"
+         "ブルンジ"
       ],
       "Cabo Verde": [
          null,
-         "Capo Verde"
+         "カーボベルデ"
       ],
       "Cambodia": [
          null,
-         "Cambogia"
+         "カンボジア"
       ],
       "Cameroon": [
          null,
-         "Camerun"
+         "カメルーン"
       ],
       "Canada": [
          null,
-         "Canada"
+         "カナダ"
       ],
       "Cayman Islands": [
          null,
-         "Isole Cayman"
+         "ケイマン諸島"
       ],
       "Central African Republic": [
          null,
-         "Repubblica Centrafricana"
+         "中央アフリカ共和国"
       ],
       "Chad": [
          null,
-         "Chad"
+         "チャド"
       ],
       "Chile": [
          null,
-         "Cile"
+         "チリ"
       ],
       "China": [
          null,
-         "Cina"
+         "中国"
       ],
       "Christmas Island": [
          null,
-         "Isola di Natale"
+         "クリスマス島"
       ],
       "Cocos (Keeling) Islands": [
          null,
-         "Isole Cocos (Keeling)"
+         "ココス（キーリング）諸島"
       ],
       "Colombia": [
          null,
-         "Colombia"
+         "コロンビア"
       ],
       "Comoros": [
          null,
-         "Comore"
+         "コモロ"
       ],
       "Congo": [
          null,
-         "Congo"
+         "コンゴ"
       ],
       "Democratic Republic of the Congo": [
          null,
-         "Repubblica Democratica del Congo"
+         "コンゴ民主共和国"
       ],
       "Cook Islands": [
          null,
-         "Isole Cook"
+         "クック諸島"
       ],
       "Costa Rica": [
          null,
-         "Costa Rica"
+         "コスタリカ"
       ],
       "Côte d'Ivoire": [
          null,
-         "Costa d'Avorio"
+         "コートジボワール"
       ],
       "Croatia": [
          null,
-         "Croazia"
+         "クロアチア"
       ],
       "Cuba": [
          null,
-         "Cuba"
+         "キューバ"
       ],
       "Curaçao": [
          null,
-         "Curaçao"
+         "キュラソー島"
       ],
       "Cyprus": [
          null,
-         "Cipro"
+         "キプロス"
       ],
       "Czechia": [
          null,
-         "Repubblica Ceca"
+         "チェコ"
       ],
       "Denmark": [
          null,
-         "Danimarca"
+         "デンマーク"
       ],
       "Djibouti": [
          null,
-         "Gibuti"
+         "ジブチ"
       ],
       "Dominica": [
          null,
-         "Dominica"
+         "ドミニカ"
       ],
       "Dominican Republic": [
          null,
-         "Repubblica Dominicana"
+         "ドミニカ共和国"
       ],
       "Ecuador": [
          null,
-         "Ecuador"
+         "エクアドル"
       ],
       "Egypt": [
          null,
-         "Egitto"
+         "エジプト"
       ],
       "El Salvador": [
          null,
-         "El Salvador"
+         "エルサルバドル"
       ],
       "Equatorial Guinea": [
          null,
-         "Guinea Equatoriale"
+         "赤道ギニア"
       ],
       "Eritrea": [
          null,
-         "Eritrea"
+         "エリトリア"
       ],
       "Estonia": [
          null,
-         "Estonia"
+         "エストニア"
       ],
       "Eswatini": [
          null,
-         "eSwatini"
+         "エスワティニ"
       ],
       "Ethiopia": [
          null,
-         "Etiopia"
+         "エチオピア"
       ],
       "Falkland Islands (Malvinas)": [
          null,
-         "Isole Falkland (Malvine)"
+         "フォークランド（マルビナス）諸島"
       ],
       "Faroe Islands": [
          null,
-         "Isole Fær Øer"
+         "フェロー諸島"
       ],
       "Fiji": [
          null,
-         "Fiji"
+         "フィジー"
       ],
       "Finland": [
          null,
-         "Finlandia"
+         "フィンランド"
       ],
       "France": [
          null,
-         "Francia"
+         "フランス"
       ],
       "French Guiana": [
          null,
-         "Guyana francese"
+         "フランス領ギアナ"
       ],
       "French Polynesia": [
          null,
-         "Polinesia francese"
+         "フランス領ポリネシア"
       ],
       "French Southern Territories": [
          null,
-         "Terre australi e antartiche francesi"
+         "フランス領南方"
       ],
       "Gabon": [
          null,
-         "Gabon"
+         "ガボン"
       ],
       "Gambia": [
          null,
-         "Gambia"
+         "ガンビア"
       ],
       "Georgia": [
          null,
-         "Georgia"
+         "ジョージア"
       ],
       "Germany": [
          null,
-         "Germania"
+         "ドイツ"
       ],
       "Ghana": [
          null,
-         "Ghana"
+         "ガーナ"
       ],
       "Gibraltar": [
          null,
-         "Gibilterra"
+         "ジブラルタル"
       ],
       "Greece": [
          null,
-         "Grecia"
+         "ギリシャ"
       ],
       "Greenland": [
          null,
-         "Groenlandia"
+         "グリーンランド"
       ],
       "Grenada": [
          null,
-         "Grenada"
+         "グレナダ"
       ],
       "Guadeloupe": [
          null,
-         "Guadalupa"
+         "グアドループ"
       ],
       "Guam": [
          null,
-         "Guam"
+         "グアム"
       ],
       "Guatemala": [
          null,
-         "Guatemala"
+         "グアテマラ"
       ],
       "Guernsey": [
          null,
-         "Guernsey"
+         "ガーンジー"
       ],
       "Guinea": [
          null,
-         "Guinea"
+         "ギニア"
       ],
       "Guinea-Bissau": [
          null,
-         "Guinea-Bissau"
+         "ギニアビサウ"
       ],
       "Guyana": [
          null,
-         "Guyana"
+         "ガイアナ"
       ],
       "Haiti": [
          null,
-         "Haiti"
+         "ハイチ"
       ],
       "Heard Island and McDonald Islands": [
          null,
-         "Isola Heard e Isole McDonald"
+         "ハード島とマクドナルド諸島"
       ],
       "Holy See": [
          null,
-         "Santa Sede"
+         "バチカン市国"
       ],
       "Honduras": [
          null,
-         "Honduras"
+         "ホンジュラス"
       ],
       "Hong Kong": [
          null,
-         "Hong Kong"
+         "香港"
       ],
       "Hungary": [
          null,
-         "Ungheria"
+         "ハンガリー"
       ],
       "Iceland": [
          null,
-         "Islanda"
+         "アイスランド"
       ],
       "India": [
          null,
-         "India"
+         "インド"
       ],
       "Indonesia": [
          null,
-         "Indonesia"
+         "インドネシア"
       ],
       "Iran": [
          null,
-         "Iran"
+         "イラン"
       ],
       "Iraq": [
          null,
-         "Iraq"
+         "イラク"
       ],
       "Ireland": [
          null,
-         "Irlanda"
+         "アイルランド"
       ],
       "Isle of Man": [
          null,
-         "Isola di Man"
+         "マン島"
       ],
       "Israel": [
          null,
-         "Israele"
+         "イスラエル"
       ],
       "Italy": [
          null,
-         "Italia"
+         "イタリア"
       ],
       "Jamaica": [
          null,
-         "Giamaica"
+         "ジャマイカ"
       ],
       "Japan": [
          null,
-         "Giappone"
+         "日本"
       ],
       "Jersey": [
          null,
-         "Jersey"
+         "ジャージー"
       ],
       "Jordan": [
          null,
-         "Giordania"
+         "ヨルダン"
       ],
       "Kazakhstan": [
          null,
-         "Kazakistan"
+         "カザフスタン"
       ],
       "Kenya": [
          null,
-         "Kenya"
+         "ケニア"
       ],
       "Kiribati": [
          null,
-         "Kiribati"
+         "キリバス"
       ],
       "North Korea": [
          null,
-         "Corea del Nord"
+         "北朝鮮"
       ],
       "South Korea": [
          null,
-         "Corea del sud"
+         "韓国"
       ],
       "Kuwait": [
          null,
-         "Kuwait"
+         "クウェート"
       ],
       "Kyrgyzstan": [
          null,
-         "Kirghizistan"
+         "キルギスタン"
       ],
       "Laos": [
          null,
-         "Laos"
+         "ラオス"
       ],
       "Latvia": [
          null,
-         "Lettonia"
+         "ラトビア"
       ],
       "Lebanon": [
          null,
-         "Libano"
+         "レバノン"
       ],
       "Lesotho": [
          null,
-         "Lesotho"
+         "レソト"
       ],
       "Liberia": [
          null,
-         "Liberia"
+         "リベリア"
       ],
       "Libya": [
          null,
-         "Libia"
+         "リビア"
       ],
       "Liechtenstein": [
          null,
-         "Liechtenstein"
+         "リヒテンシュタイン"
       ],
       "Lithuania": [
          null,
-         "Lituania"
+         "リトアニア"
       ],
       "Luxembourg": [
          null,
-         "Lussemburgo"
+         "ルクセンブルグ"
       ],
       "Macao": [
          null,
-         "Macao"
+         "マカオ"
       ],
       "Madagascar": [
          null,
-         "Madagascar"
+         "マダガスカル"
       ],
       "Malawi": [
          null,
-         "Malawi"
+         "マラウィ"
       ],
       "Malaysia": [
          null,
-         "Malaysia"
+         "マレーシア"
       ],
       "Maldives": [
          null,
-         "Maldive"
+         "モルジブ"
       ],
       "Mali": [
          null,
-         "Mali"
+         "マリ"
       ],
       "Malta": [
          null,
-         "Malta"
+         "マルタ"
       ],
       "Marshall Islands": [
          null,
-         "Isole Marshall"
+         "マーシャル諸島"
       ],
       "Martinique": [
          null,
-         "Martinica"
+         "マルチニーク島"
       ],
       "Mauritania": [
          null,
-         "Mauritania"
+         "モーリタニア"
       ],
       "Mauritius": [
          null,
-         "Mauritius"
+         "モーリシャス"
       ],
       "Mayotte": [
          null,
-         "Mayotte"
+         "マイヨット"
       ],
       "Mexico": [
          null,
-         "Messico"
+         "メキシコ"
       ],
       "Federated States of Micronesia": [
          null,
-         "Stati Federati di Micronesia"
+         "ミクロネシア連邦"
       ],
       "Moldova": [
          null,
-         "Moldova"
+         "モルドバ"
       ],
       "Monaco": [
          null,
-         "Monaco"
+         "モナコ"
       ],
       "Mongolia": [
          null,
-         "Mongolia"
+         "モンゴル"
       ],
       "Montenegro": [
          null,
-         "Montenegro"
+         "モンテネグロ"
       ],
       "Montserrat": [
          null,
-         "Montserrat"
+         "モントセラト"
       ],
       "Morocco": [
          null,
-         "Marocco"
+         "モロッコ"
       ],
       "Mozambique": [
          null,
-         "Mozambico"
+         "モザンビーク"
       ],
       "Myanmar": [
          null,
-         "Birmania"
+         "ミャンマー"
       ],
       "Namibia": [
          null,
-         "Namibia"
+         "ナミビア"
       ],
       "Nauru": [
          null,
-         "Nauru"
+         "ナウル"
       ],
       "Nepal": [
          null,
-         "Nepal"
+         "ネパール"
       ],
       "Netherlands": [
          null,
-         "Paesi Bassi"
+         "オランダ"
       ],
       "New Caledonia": [
          null,
-         "Nuova Caledonia"
+         "ニューカレドニア"
       ],
       "New Zealand": [
          null,
-         "Nuova Zelanda"
+         "ニュージーランド"
       ],
       "Nicaragua": [
          null,
-         "Nicaragua"
+         "ニカラグア"
       ],
       "Niger": [
          null,
-         "Niger"
+         "ニジェール"
       ],
       "Nigeria": [
          null,
-         "Nigeria"
+         "ナイジェリア"
       ],
       "Niue": [
          null,
-         "Niue"
+         "ニウエ"
       ],
       "Norfolk Island": [
          null,
-         "Isola Norfolk"
+         "ノーフォーク島"
       ],
       "North Macedonia": [
          null,
-         "Macedonia del Nord"
+         "北マケドニア"
       ],
       "Northern Mariana Islands": [
          null,
-         "Isole Marianne Settentrionali"
+         "北マリアナ諸"
       ],
       "Norway": [
          null,
-         "Norvegia"
+         "ノルウェー"
       ],
       "Oman": [
          null,
-         "Oman"
+         "オマーン"
       ],
       "Pakistan": [
          null,
-         "Pakistan"
+         "パキスタン"
       ],
       "Palau": [
          null,
-         "Palau"
+         "パラオ"
       ],
       "Panama": [
          null,
-         "Panama"
+         "パナマ"
       ],
       "Papua New Guinea": [
          null,
-         "Papua Nuova Guinea"
+         "パプアニューギニア"
       ],
       "Paraguay": [
          null,
-         "Paraguay"
+         "パラグアイ"
       ],
       "Peru": [
          null,
-         "Perù"
+         "ペルー"
       ],
       "Philippines": [
          null,
-         "Filippine"
+         "フィリピン"
       ],
       "Pitcairn": [
          null,
-         "Pitcairn"
+         "ピトケアン"
       ],
       "Poland": [
          null,
-         "Polonia"
+         "ポーランド"
       ],
       "Portugal": [
          null,
-         "Portogallo"
+         "ポルトガル"
       ],
       "Puerto Rico": [
          null,
-         "Porto Rico"
+         "プエルトリコ"
       ],
       "Qatar": [
          null,
-         "Qatar"
+         "カタール"
       ],
       "Réunion": [
          null,
-         "Riunione"
+         "レユニオン"
       ],
       "Romania": [
          null,
-         "Romania"
+         "ルーマニア"
       ],
       "Russia": [
          null,
-         "Russia"
+         "ロシア"
       ],
       "Rwanda": [
          null,
-         "Ruanda"
+         "ルワンダ"
       ],
       "Saint Barthélemy": [
          null,
-         "Saint-Barthélemy"
+         "サン・バルテルミー"
       ],
       "Saint Helena, Ascension and Tristan da Cunha": [
          null,
-         "Sant'Elena, Ascensione e Tristan da Cunha"
+         "セントヘレナ、アセンション、トリスタンダクーニャ諸島"
       ],
       "Saint Kitts and Nevis": [
          null,
-         "Saint Kitts e Nevis"
+         "セントキッツネビ"
       ],
       "Saint Lucia": [
          null,
-         "Santa Lucia"
+         "サンタルチア"
       ],
       "Saint Martin (French part)": [
          null,
-         "Saint Martin (parte francese)"
+         "サンマルタン島 (フランス領地域)"
       ],
       "Saint Pierre and Miquelon": [
          null,
-         "Saint-Pierre e Miquelon"
+         "サンピエール・エ・ミクロン"
       ],
       "Saint Vincent and the Grenadines": [
          null,
-         "Saint Vincent e Grenadine"
+         "セントビンセントおよびグレナディーン諸島"
       ],
       "Samoa": [
          null,
-         "Samoa"
+         "サモア"
       ],
       "San Marino": [
          null,
-         "San Marino"
+         "サンマリノ"
       ],
       "Sao Tome and Principe": [
          null,
-         "São Tomé e Príncipe"
+         "サントメプリンシ"
       ],
       "Saudi Arabia": [
          null,
-         "Arabia Saudita"
+         "サウジアラビア"
       ],
       "Senegal": [
          null,
-         "Senegal"
+         "セネガル"
       ],
       "Serbia": [
          null,
-         "Serbia"
+         "セルビア"
       ],
       "Seychelles": [
          null,
-         "Seychelles"
+         "セーシェル"
       ],
       "Sierra Leone": [
          null,
-         "Sierra Leone"
+         "シエラレオネ"
       ],
       "Singapore": [
          null,
-         "Singapore"
+         "シンガポール"
       ],
       "Sint Maarten (Dutch part)": [
          null,
-         "Sint Maarten (parte olandese)"
+         "シント・マールテン島 (オランダ領地域)"
       ],
       "Slovakia": [
          null,
-         "Slovacchia"
+         "スロバキア"
       ],
       "Slovenia": [
          null,
-         "Slovenia"
+         "スロベニア"
       ],
       "Solomon Islands": [
          null,
-         "Isole Salomone"
+         "ソロモン諸島"
       ],
       "Somalia": [
          null,
-         "Somalia"
+         "ソマリア"
       ],
       "South Africa": [
          null,
-         "Sudafrica"
+         "南アフリカ"
       ],
       "South Georgia and the South Sandwich Islands": [
          null,
-         "Georgia del Sud e Isole Sandwich Australi"
+         "サウスジョージア・サウスサンドウィッチ諸島"
       ],
       "South Sudan": [
          null,
-         "Sudan del Sud"
+         "南スーダン"
       ],
       "Spain": [
          null,
-         "Spagna"
+         "スペイン"
       ],
       "Sri Lanka": [
          null,
-         "Sri Lanka"
+         "スリランカ"
       ],
       "Sudan": [
          null,
-         "Sudan"
+         "スーダン"
       ],
       "Suriname": [
          null,
-         "Suriname"
+         "スリナム"
       ],
       "Svalbard and Jan Mayen": [
          null,
-         "Svalbard e Jan Mayen"
+         "スバールバル諸島・ヤンマイエン島"
       ],
       "Sweden": [
          null,
-         "Svezia"
+         "スウェーデン"
       ],
       "Switzerland": [
          null,
-         "Svizzera"
+         "スイス"
       ],
       "Syria": [
          null,
-         "Siria"
+         "シリア"
       ],
       "Taiwan, Province of China": [
          null,
-         "Taiwan"
+         "中国台湾省"
       ],
       "Tajikistan": [
          null,
-         "Tagikistan"
+         "タジキスタン"
       ],
       "Tanzania": [
          null,
-         "Tanzania"
+         "タンザニア"
       ],
       "Thailand": [
          null,
-         "Thailandia"
+         "タイ"
       ],
       "Timor-Leste": [
          null,
-         "Timor Est"
+         "東ティモール"
       ],
       "Togo": [
          null,
-         "Togo"
+         "トーゴ"
       ],
       "Tokelau": [
          null,
-         "Tokelau"
+         "トケラウ"
       ],
       "Tonga": [
          null,
-         "Tonga"
+         "トンガ"
       ],
       "Trinidad and Tobago": [
          null,
-         "Trinidad e Tobago"
+         "トリニダード・トバゴ"
       ],
       "Tunisia": [
          null,
-         "Tunisia"
+         "チュニジア"
       ],
       "Turkey": [
          null,
-         "Turchia"
+         "トルコ"
       ],
       "Turkmenistan": [
          null,
-         "Turkmenistan"
+         "トルクメニスタン"
       ],
       "Turks and Caicos Islands": [
          null,
-         "Isole Turks e Caicos"
+         "タークス・カイコス諸島"
       ],
       "Tuvalu": [
          null,
-         "Tuvalu"
+         "ツバル"
       ],
       "Uganda": [
          null,
-         "Uganda"
+         "ウガンダ"
       ],
       "Ukraine": [
          null,
-         "Ucraina"
+         "ウクライナ"
       ],
       "the United Arab Emirates": [
          null,
-         "Emirati Arabi Uniti"
+         "アラブ首長国連邦"
       ],
       "the United Kingdom": [
          null,
-         "Regno Unito"
+         "英国"
       ],
       "the United States": [
          null,
-         "Stati Uniti"
+         "米国"
       ],
       "the United States Minor Outlying Islands": [
          null,
-         "Isole Minori Esterne degli Stati Uniti d'America"
+         "その他の米領諸島"
       ],
       "Uruguay": [
          null,
-         "Uruguay"
+         "ウルグアイ"
       ],
       "Uzbekistan": [
          null,
-         "Uzbekistan"
+         "ウズベキスタン"
       ],
       "Vanuatu": [
          null,
-         "Vanuatu"
+         "バヌアツ"
       ],
       "Venezuela": [
          null,
-         "Venezuela"
+         "ベネズエラ"
       ],
       "Viet Nam": [
          null,
-         "Vietnam"
+         "ベトナム"
       ],
       "Virgin Islands (British)": [
          null,
-         "Isole Vergini britanniche"
+         "バージン諸島（英国）"
       ],
       "Virgin Islands (U.S.)": [
          null,
-         "Isole Vergini americane"
+         "バージン諸島（米国）"
       ],
       "Wallis and Futuna": [
          null,
-         "Wallis e Futuna"
+         "ワリス・フテュナ諸島"
       ],
       "Western Sahara": [
          null,
-         "Sahara Occidentale"
+         "西サハラ"
       ],
       "Yemen": [
          null,
-         "Yemen"
+         "イエメン"
       ],
       "Zambia": [
          null,
-         "Zambia"
+         "ザンビア"
       ],
       "Zimbabwe": [
          null,
-         "Zimbabwe"
+         "ジンバブエ"
       ],
       "Join now": [
          null,
-         "Unisciti ora"
+         "今すぐ申し込む"
       ],
       "OOPS!": [
          null,
-         "OPS!"
+         "問題発生！"
       ],
       "It looks like the page you were looking for isn't here anymore. Feel free to visit our homepage by clicking the button below.": [
          null,
-         "Sembra che la pagina che stavi cercando non sia più qui. Visita la nostra pagina iniziale facendo clic sul pulsante qui sotto."
+         "お探しのページは存在しないようです。弊社のホームページをご覧になるには、下のボタンをクリックしてください。"
       ],
       "Take Me To The Homepage": [
          null,
-         "Portami alla pagina iniziale"
+         "ホームページに移動"
       ],
       "<small>Discover all the</small><br class=\"\"><b><span>streaming content</span></b><br>you’ve been missing out on": [
          null,
-         "<small>Scopri tutti i</small><br class=\"\"><b><span>contenuti streaming</span></b><br>che ti sei perso"
+         "<small>今まで見れなかった</small><br class=\"\"><b><span>ストリーミングコンテンツ</span></b><br>がすべて見れる"
       ],
       "Unblock restricted content libraries easily<br> with Private Internet Access": [
          null,
-         "Sblocca facilmente i cataloghi con contenuti limitati<br> con Private Internet Access"
+         "Private Internet Accessで<br>制限がかけられたコンテンツライブラリを簡単にブロック解除"
       ],
       "Get Private Internet Access VPN": [
          null,
-         "Ottieni la VPN Private Internet Access"
+         "Private Internet Access VPNを購入"
       ],
       "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>": [
          null,
-         "Provala senza rischi! <i class='fas fa-award'></i><span class='text-uppercase'> Garanzia di rimborso di %s giorni</span>"
+         "リスクなしでお試しいただけます！<i class='fas fa-award'></i><span class='text-uppercase'> %s日返金保証</span>"
       ],
       "Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>": [
          null,
-         "Provala senza rischi!<br><span class='text-uppercase'>Garanzia di rimborso di %s giorni</span>"
+         "リスクなしでお試しいただけます！<br><span class='text-uppercase'> %s日返金保証</span>"
       ],
       "Private Internet Access VPN for %s% OFF": [
          null,
-         "VPN Private Internet Access con %s% di SCONTO"
+         "Private Internet Access VPNが%s% OFF"
       ],
       "Discover Limitless Streaming Content": [
          null,
-         "Scopri contenuti in streaming illimitati"
+         "無制限のストリーミングコンテンツを楽しむ"
       ],
       "Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. <br><b class='mt-1 d-inline-block'>Sign up for Private Internet Access today!</b>": [
          null,
-         "I servizi di streaming online e i siti web stanno diventando sempre più popolari in tutto il mondo. Ma può capitare che le restrizioni geografiche limitino i contenuti a cui hai accesso. Non perderti opportunità di streaming video solo a causa della tua geolocalizzazione. <br><b class='mt-1 d-inline-block'>Registrati a Private Internet Access oggi stesso!</b>"
+         "オンラインストリーミングサービスやWebサイトは、世界各地で益々利用されるようになってきました。しかし、アクセスできるコンテンツには、地域的制限がかけられていることがあります。このように、あなたの居場所が原因で見れない動画ストリーミングを見たいと思いませんか。<br><b class='mt-1 d-inline-block'>今すぐPrivate Internet Accessにお申し込みください！</b>"
       ],
       "Unblock content on:": [
          null,
-         "Sblocca contenuti su:"
+         "以下のサービスでコンテンツのブロックを解除："
       ],
       "Sign up for Private Internet Access today!": [
          null,
-         "Registrati a Private Internet Access oggi stesso!"
+         "今すぐPrivate Internet Accessにお申し込みください！"
       ],
       "A must have for your streaming needs": [
          null,
-         "Un \"must\" per le tue esigenze di streaming"
+         "ストリーミングに必要なもの"
       ],
       "Unlimited bandwidth for streaming": [
          null,
-         "Larghezza di banda illimitata per lo streaming"
+         "ストリーミングするための無制限の帯域幅"
       ],
       "Private Internet Access has no logs, never records online activity and does not throttle users.": [
          null,
-         "Private Internet Access non tiene registri, non conserva la tua attività online e non limita gli utenti."
+         "Private Internet Accessにはログがありません。オンライン活動が記録されることはなく、スロットリングもありません。"
       ],
       "One-click solution to override geographical restrictions": [
          null,
-         "Soluzione one-click per superare le restrizioni geografiche"
+         "地理的制限を無効にするワンクリックソリューション"
       ],
       "Once you have chosen your virtual location, you can connect to it using Private Internet Access with just one click.": [
          null,
-         "Una volta scelta la tua località virtuale, puoi connetterti utilizzando Private Internet Access con un solo clic."
+         "仮想の場所を選択したら、ワンクリックするだけで、Private Internet Accessを使ってその場所にアクセスできます。"
       ],
       "Stream on multiple devices": [
          null,
-         "Guarda in streaming su più dispositivi"
+         "複数のデバイスでストリーミング"
       ],
       "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
          null,
-         "Un abbonamento a Private Internet Access può essere utilizzato su un massimo di %s dispositivi contemporaneamente. Condividi Private Internet Access con tutta la famiglia!"
+         "Private Internet Accessは、1つの契約で、最大%s台のデバイスで同時に使用できます。ご家族全員でPrivate Internet Accessをご利用ください！"
       ],
       "Four easy steps to stream with Private Internet Access": [
          null,
-         "Quattro semplici passi per lo streaming con Private Internet Access"
+         "Private Internet Accessを使ってストリーミングするための4つの簡単なステップ"
       ],
       "Start streaming with Private Internet Access in minutes": [
          null,
-         "Inizia a guardare in streaming con Private Internet Access in pochi minuti"
+         "ほんの数分で、Private Internet Accessを使ってストリーミングを開始"
       ],
       "<b>Subscribe</b><br>to Private Internet Access": [
          null,
-         "<b>Abbonati</b><br>a Private Internet Access"
+         "<b>契約</b><br>Private Internet Accessに契約"
       ],
       "<b>Download</b><br>Private Internet Access": [
          null,
-         "<b>Scarica</b><br>Private Internet Access"
+         "<b>ダウンロード</b><br>Private Internet Accessをダウンロード"
       ],
       "<b>Login</b><br>on the Private Internet Access client with your username and password": [
          null,
-         "<b>Accedi</b><br>al client di Private Internet Access con nome utente e password"
+         "<b>ログイン</b><br>ユーザー名とパスワードを使ってPrivate Internet Accessにログイン"
       ],
       "<b>Turn on</b><br>Private Internet Access and connect to the location of your choice": [
          null,
-         "<b>Attiva</b><br>Private Internet Access e connettiti alla località che preferisci"
+         "<b>オンにする</b><br>Private Internet Accessをオンにし、選択した場所に接続"
       ],
       "You’re ready to start streaming with <span>Private Internet Access</span>": [
          null,
-         "Sei pronto per lo streaming con <span>Private Internet Access</span>"
+         "これで、<span>Private Internet Access</span>を使ってストリーミングを開始できます"
       ],
       "Private Internet Access Streaming FAQ": [
          null,
-         "FAQ sullo streaming con Private Internet Access"
+         "Private Internet Accessのストリーミングに関するFAQ"
       ],
       "Is it safe to stream with Private Internet Access?": [
          null,
-         "Lo streaming con Private Internet Access è sicuro?"
+         "Private Internet Accessを使ったストリーミングは安全ですか。"
       ],
       "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
          null,
-         "Sì. Private Internet Access offre un servizio VPN con server in 49 località in 29 paesi, tra cui Stati Uniti, Regno Unito, Giappone e tanti altri. Ma la vera domanda è: è sicuro lo streaming senza Private Internet Access?"
+         "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む29ヶ国（49か所）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでストリーミングしたときのことを心配した方がよいかもしれません。"
       ],
       "Do you have a refund policy?": [
          null,
-         "Avete una politica di rimborso?"
+         "返金ポリシーはありますか。"
       ],
       "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,
-         "Con Private Internet Access hai una garanzia di rimborso di 7 giorni, e non sei tenuto a dare spiegazioni. Abbonati a Private Internet Access oggi stesso e inizia subito con lo streaming!"
+         "Private Internet Accessには、一切不問の7日間返金保証があります。今すぐPrivate Internet Accessに契約してストリーミングを始めてください！"
       ],
       "Will my IP address be exposed to streaming services or websites?": [
          null,
-         "Il mio indirizzo IP sarà esposto a servizi di streaming o siti web?"
+         "ストリーミングサービスやWebサイトには私のIPアドレスが見えるのですか。"
       ],
       "By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
          null,
-         "Con Private Internet Access stai crittografando il tuo traffico tramite il nostro tunnel VPN, che accede a Internet con uno degli indirizzi IP dei nostri server. I servizi di streaming e i siti web vedranno solo l'indirizzo IP di Private Internet Access, e non quello del tuo dispositivo."
+         "Private Internet Accessを使用すると、あなたのトラフィックは暗号化され、弊社のVPNトンネルを通過するようになります。つまり、弊社サーバーのIPアドレスの1つからインターネットにアクセスすることになります。したがって、ストリーミングサービスやWebサイトから見えるのは弊社のPrivate Internet Access IPアドレスであり、あなたのデバイスのIPアドレスではありません。"
       ],
       "Does Private Internet Access limit the bandwidth that streamers can use?": [
          null,
-         "Private Internet Access limita la larghezza di banda che si può utilizzare?"
+         "Private Internet Accessには、ユーザーが使用できる帯域幅に対して制限がありますか。"
       ],
       "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
          null,
-         "Private Internet Access è la VPN senza registri per eccellenza. Questo significa che non sappiamo neanche se stai guardando qualcosa in streaming. Tutti i nostri server offrono larghezza di banda illimitata, senza throttling per gli utenti. Punto. Registrati a Private Internet Access oggi stesso e approfitta di un Internet senza limiti o censure."
+         "Private Internet Accessは、ログを一切残さないプレミアムVPNです。つまり、弊社は、あなたがストリーミングしているかどうかさえわかりません。また、弊社のサーバーはすべて無制限の帯域幅を提供しているため、スロットリングもありません。今すぐPrivate Internet Accessに申し込んで、検閲のない無制限のインターネットをお楽しみください。"
       ],
       "Will Private Internet Access be blocked on my favorite streaming service or website?": [
          null,
-         "Private Internet Access verrà bloccato dal mio servizio di streaming o sito web preferito?"
+         "私のお気に入りのストリーミングサービスやWebサイトによって、Private Internet Accessがブロックされることはありますか。"
       ],
       " Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
          null,
-         "Private Internet Access crede in un Internet aperto e lavora costantemente per assicurare l'assenza di blocchi per gli utenti della VPN. Prova oggi stesso il nostro servizio e capirai perché Private Internet Access è la migliore VPN per lo streaming online."
+         "Private Internet Accessは、オープンインターネットの信念の下、弊社のVPNユーザーがブロックに直面することがないよう常に機能しています。今すぐ弊社サービスをご利用ください。そうすれば、なぜPrivate Internet Accessが最も優れたオンラインストリーミング用VPNと言われているかがお分かりになるでしょう。"
       ],
       "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
-         "Ottieni una sicurezza online infallibile con<br><b>la migliore VPN per<br><span class=\"color_pia_light_orange\">%s</span></b>"
+         "攻撃不能なオンラインセキュリティ<br><b><span class=\"color_pia_light_orange\">%s用の</span><br>最も優れたVPN</b>"
       ],
       "Rated as the Best VPN Service In<br><b><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
-         "Valutata come il miglior servizio VPN in:<br><b><span class=\"color_pia_light_orange\">%s</span></b>"
+         "<b><span class=\"color_pia_light_orange\">%s</span></b><br>で最も優れたVPNサービス"
       ],
       "No Logs": [
          null,
-         "Senza registri"
+         "ログなし"
       ],
       "Military-Grade Encryption": [
          null,
-         "Crittografia di livello militare"
+         "軍用レベルの暗号化"
       ],
       "%s Devices": [
          null,
-         "%s dispositivi"
+         "%s台のデバイス"
       ],
       "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
          null,
-         "Sperimenta il modo migliore<br><b>per rimanere <span class='color_pia_light_orange'><span class='text-uppercase'>al sicuro</span> su Wi-Fi pubbliche</span><br>e <span class='color_pia_light_orange text-uppercase'>non rischiare mai</span> attacchi </b>"
+         "最良の対策<br><b>公衆WiFiで<span class='color_pia_light_orange'><span class='text-uppercase'>安全</span>を維持</span><br>＆ハッキングされる<span class='color_pia_light_orange text-uppercase'>リスクを回避</span></b>"
       ],
       "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>": [
          null,
-         "Scopri una quantità infinita di <br><b>contenuti streaming</b> su <span>KODI</span>"
+         "<span>KODI</span>で無制限の<br><b>ストリーミングコンテンツ</b>を楽しむ"
       ],
       "Access geo-blocked TV shows and movies <br>while staying anonymous online": [
          null,
-         "Accedi a programmi TV e film con restrizioni geografiche<br>rimanendo anonimo online"
+         "オンラインで匿名状態を保ちながら、地理的制限で<br>ブロックされたテレビ番組や映画にアクセス"
       ],
       "Don’t get into trouble while streaming on Kodi": [
          null,
-         "Non rischiare mentre guardi in streaming su Kodi"
+         "Kodiでのストリーミングで問題を回避"
       ],
       "Whether you use Kodi TV to watch your personal content library or for the titles you find on their website, make sure nobody will be able to find out what you're doing online.<br><b>Why? </b>Streaming content on Kodi works is basically P2P torrenting which might be illegal in your country. Luckily, with the <b>Private Internet Access VPN</b>, you can make all your internet activity totally anonymous. So, you'll never have any trouble with governmental authorities while using Kodi.": [
          null,
-         "Se usi Kodi TV per guardare la tua libreria personale di contenuti o per i titoli che trovi sul relativo sito web, assicurati che nessuno possa scoprire ciò che stai facendo online.<br><b>Perché? </b>I contenuti streaming su Kodi funzionano fondamentalmente con i torrent P2P, che potrebbero essere illegali nel tuo paese. Fortunatamente, con la <b>VPN Private Internet Access</b>, puoi rendere la tua attività su Internet completamente anonima. Così non avrai mai alcun problema con le autorità governative mentre utilizzi Kodi."
+         "Kodi TVを使用して個人のコンテンツライブラリを見る場合でも、Kodi TVのWebサイトで見つけたタイトルを見る場合でも、あなたのオンライン活動が確実に隠されるような手段を講じる必要があります。<br><b>理由：</b>Kodiを使用したコンテンツのストリーミングは、基本的にP2Pトレントです。これは、国によっては違法の場合があります。幸運なことに、<b>Private Internet Access VPN</b>を使えば、あなたのインターネット活動はすべて匿名になります。したがって、Kodiの使用中に政府機関と問題を起こすことはありません。"
       ],
       "P2P traffic allowed": [
          null,
-         "Traffico P2P consentito"
+         "P2Pトラフィック"
       ],
       "Private Internet Access supports P2P protocols such as torrents.": [
          null,
-         "Private Internet Access supporta i protocolli P2P come i torrent."
+         "Private Internet Accessは、トレントなどのP2Pプロトコルをサポートしています。"
       ],
       "No Logs Policy": [
          null,
-         "Politica No Log"
+         "ノーログポリシー"
       ],
       "Private Internet Access never records its users' online activity and never keeps any logs, so you'll have complete anonymity from the moment you connect to our servers.": [
          null,
-         "Private Internet Access non registra mai le attività online dei suoi utenti né conserva alcun log, così avrai la garanzia del completo anonimato dal momento in cui ti connetterai ai nostri server."
+         "Private Internet Accessでは、ユーザーのオンライン活動が記録されることはなく、ログも一切保存されません。したがって、あなたは弊社のサーバーに接続した瞬間から完全な匿名状態になります。"
       ],
       "Bypass geographical restrictions": [
          null,
-         "Aggira le restrizioni geografiche"
+         "地理的制限を迂回"
       ],
       "Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away.": [
          null,
-         "Una volta scelta la località da cui vuoi usare Internet, Private Internet Access sarà sempre a un clic di distanza."
+         "インターネットの接続元となる場所を選択したら、後はワンクリックするだけでPrivate Internet Accessをご利用になれます。"
       ],
       "Use Kodi TV on multiple devices": [
          null,
-         "Usa Kodi TV su più dispositivi"
+         "複数のデバイスでKodi TVを使用"
       ],
       "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
          null,
-         "Un abbonamento a Private Internet Access può essere utilizzato su un massimo di %s dispositivi contemporaneamente. Condividi Private Internet Access con tutta la famiglia!"
+         "Private Internet Accessは、1つの契約で、最大%s台のデバイスで同時に使用できます。ご家族全員でPrivate Internet Accessをご利用ください！"
       ],
       "Watch Kodi anonymously in 4 easy steps": [
          null,
-         "Guarda Kodi in forma anonima in 4 semplici passi"
+         "匿名でKodiを見るための4つの簡単なステップ"
       ],
       "You’re ready to start using <span>Private Internet Access</span> with your Kodi TV": [
          null,
-         "Sei pronto a usare <span>Private Internet Access</span> con il tuo Kodi TV"
+         "これで、お持ちのKodi TVで<span>Private Internet Access</span>を使い始めることができます"
       ],
       "Got questions? <span class=\"color_pia_green\">Check out our FAQs</span>": [
          null,
-         "Hai domande? <span class=\"color_pia_green\">Leggi le nostre FAQ</span>"
+         "ご質問がございますか - <span class=\"color_pia_green\">FAQをご覧ください</span>"
       ],
       "Is it safe to use Kodi with Private Internet Access?": [
          null,
-         "È sicuro usare Kodi con Private Internet Access?"
+         "Private Internet Accessを使ったKodiの利用は安全ですか。"
       ],
       "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?": [
          null,
-         "Sì. Private Internet Access offre un servizio VPN con server in %s località in %s paesi, tra cui Stati Uniti, Regno Unito, Giappone e tanti altri. Ma la vera domanda è: è sicuro usare Kodi senza Private Internet Access?"
+         "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む%sヶ国（%s箇所）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでKodiを利用したときのことを心配した方がよいかもしれません。"
       ],
       "Yes. Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,
-         "Sì. Con Private Internet Access hai una garanzia di rimborso di %s giorni, e non sei tenuto a dare spiegazioni. Abbonati a Private Internet Access oggi stesso e inizia subito con lo streaming!"
+         "はい。Private Internet Accessには、一切不問の%s日間返金保証があります。今すぐPrivate Internet Accessに契約してストリーミングを始めてください！"
       ],
       "Will my IP address be exposed while using Kodi add-ons?": [
          null,
-         "Il mio indirizzo IP sarà esposto mentre utilizzo gli add-on di Kodi?"
+         "Kodiアドオンを使用中、私のIPアドレスは外部から見えますか。"
       ],
       "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Any service or website accessed will only see our Private Internet Access IP address, not your device’s IP address.": [
          null,
-         "No. Con Private Internet Access stai crittografando il tuo traffico tramite il nostro tunnel VPN, che accede a Internet con uno degli indirizzi IP dei nostri server. Qualunque sia il servizio o sito web a cui accedi, questo vedrà solo l'indirizzo IP di Private Internet Access, e non quello del tuo dispositivo."
+         "いいえ。Private Internet Accessを使用すると、あなたのトラフィックは暗号化され、弊社のVPNトンネルを通過するようになります。つまり、弊社サーバーのIPアドレスの1つからインターネットにアクセスすることになります。したがって、あなたがアクセスしたサービスやWebサイトから見えるのは弊社のPrivate Internet Access IPアドレスであり、あなたのデバイスのIPアドレスではありません。"
       ],
       "Does Private Internet Access limit bandwidth for Kodi users?": [
          null,
-         "Private Internet Access limita la larghezza di banda per gli utenti Kodi?"
+         "Private Internet Accessには、Kodiユーザーに対する帯域幅制限がありますか。"
       ],
       "No. Private Internet Access is the premier no log VPN - this means that we don’t even know what software you use in conjunction with ours. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
          null,
-         "No. Private Internet Access è la VPN senza registri per eccellenza. Questo significa che non sappiamo neanche quale software utilizzi in concomitanza col nostro. Tutti i nostri server offrono larghezza di banda illimitata, senza throttling per gli utenti. Punto. Registrati a Private Internet Access oggi stesso e approfitta di un Internet senza limiti o censure."
+         "いいえ。Private Internet Accessは、ログを一切残さないプレミアムVPNです。つまり、弊社は、あなたが弊社のソフトウェアと共にどのようなソフトウェアを使用しているのかさえわかりません。また、弊社のサーバーはすべて無制限の帯域幅を提供しているため、スロットリングもありません。今すぐPrivate Internet Accessに申し込んで、検閲のない無制限のインターネットをお楽しみください。"
       ],
       "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
          null,
-         "Prova la<br><b><span class='color_pia_light_orange'>VPN più affidabile</span><br>e <span class='color_pia_light_orange'>sicura</span> al mondo</b>"
+         "是非お試しください！ 世界で<br><b>最も<span class='color_pia_light_orange'>信頼できる</span><br><span class='color_pia_light_orange'>安全なVPN</span></b>"
       ],
       "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
          null,
-         "Provala senza rischi! <i class='fas fa-award'></i> Garanzia di rimborso di %s giorni"
+         "リスクなしでお試しいただけます！<i class='fas fa-award'></i> %s日返金保証"
       ],
       "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN": [
          null,
-         "Scopri il modo più sicuro per ottenere la<br><b><span class=\"text-uppercase color_pia_light_orange\">privacy online totale</span></b><br>Ottieni la VPN Private Internet Access"
+         "最も安全な方法で<br><b><span class=\"text-uppercase color_pia_light_orange\">オンライン上での完全なプライバシー</span></b><br>Private Internet Access VPNを入手"
       ],
       "100%</span> No Logs & Records": [
          null,
-         "100%</span> No Log e senza registri"
+         "100%</span> ログ＆記録は一切なし"
       ],
       "Proud Sponsor Of": [
          null,
-         "Orgoglioso sponsor di"
+         "スポンサー："
       ],
       "Monthly": [
          null,
-         "Mensile"
+         "月々"
       ],
       "Months": [
          null,
-         "mesi"
+         "か月"
       ],
       "Yearly": [
          null,
-         "Annuale"
+         "年間"
       ],
       "Years": [
          null,
-         "anni"
+         "年"
       ],
       "Best value": [
          null,
-         "Il più conveniente"
+         "最もお得"
       ],
       "Save <b>%s%</b>": [
          null,
-         "Risparmia <b>%s%</b>"
+         "<b>%s%</b> OFF"
       ],
       "/mo": [
          null,
-         "/mese"
+         "／月"
       ],
       "<del>%s</del> %s per month": [
          null,
-         "<del>%s</del> %s al mese"
+         "<del>%s</del> %s（1か月ごと）"
       ],
       "<del>%s</del> %s per %s months": [
          null,
-         "<del>%s</del> %s ogni %s mesi"
+         "<del>%s</del> %s（%sか月ごと）"
       ],
       "<del>%s</del> %s per year": [
          null,
-         "<del>%s</del> %s all'anno"
+         "<del>%s</del> %s（1年ごと）"
       ],
       "<del>%s</del>%s per %s years": [
          null,
-         "<del>%s</del>%s ogni %s anni"
+         "<del>%s</del>%s（%s年ごと）"
       ],
       "Sign up now": [
          null,
-         "Registrati ora"
+         "今すぐ登録"
       ],
       "Best<br>value": [
          null,
-         "Offerta<br>migliore"
+         "最も<br>お得"
       ],
       "+%s extra<br>months free": [
          null,
-         "+%s mesi<br>extra gratis"
+         "追加の%sか月間<br>が無料"
       ],
       "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
          null,
-         "Tutti gli importi mostrati sono in %s, e tutti gli sconti fanno riferimento a una riduzione basata sul servizio mensile corrente del costo di %s al mese."
+         "金額はすべて%sで表示されています。また、割引は、現在の月間サービス料である%s／月に基づいて計算されています。"
       ],
       "Trusted By Companies Including:": [
          null,
-         "Utilizzata da aziende come:"
+         "以下を含む、さまざまな企業からの信頼を得ています："
       ],
       "Why choose Private Internet Access?": [
          null,
-         "Perché abbonarsi a Private Internet Access?"
+         "Private Internet Accessを選ぶ理由"
       ],
       "Total Privacy": [
          null,
-         "Privacy totale"
+         "完全なプライバシー"
       ],
       "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.": [
          null,
-         "Private Internet Access non conserva mai i log delle attività online degli utenti. Hai la garanzia della privacy completa e che nessuno sa cosa fai online."
+         "Private Internet Accessは、ユーザーのオンライン活動の記録を一切保持しません。完全なプライバシーを確保でき、あなたがオンラインで何をしているかは誰にも知られないため、安心です。"
       ],
       "Easy to use": [
          null,
-         "Facile da usare"
+         "使いやすい"
       ],
       "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.": [
          null,
-         "A prescindere dalle tue abilità tecniche, Private Internet Access è una delle app VPN più intuitive sul mercato. Devi solo connetterti con un clic o tap, e i tuoi dati verranno cifrati all'istante."
+         "ユーザーの技術的なスキルに関係なく、Private Internet Accessは市場で最も使いやすいVPNアプリの1つです。ワンクリックまたはワンタップで接続でき、あなたのデータは即座に暗号化されます。"
       ],
       "Secure VPN Protocols": [
          null,
-         "Protocolli sicuri della VPN"
+         "安全なVPNプロトコル"
       ],
       "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
          null,
-         "La nostra app include i protocolli più recenti e avanzati come: PPTP, OpenVPN e L2TP/IPSec."
+         "弊社のアプリは、PPTP、OpenVPN、L2TP/IPSecなど、最新かつ最も高度なプロトコルが原動力になっています。"
       ],
       "%s devices simultaneously": [
          null,
-         "%s dispositivi contemporaneamente"
+         "同時に%s台のデバイス"
       ],
       "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time.": [
          null,
-         "Proteggi tutti i tuoi dispositivi. Con un solo abbonamento alla VPN Private Internet Access, puoi connetterti con un massimo di %s dispositivi alla volta."
+         "お持ちのすべてのデバイスを保護できます。Private Internet Accessでは、1つの契約で、最大%s台のデバイスからの同時接続が可能です。"
       ],
       "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
          null,
-         "I nostri lettori hanno ampiamente chiarito che Private Internet Access dovrebbe essere la tua prima scelta se vuoi proteggere i tuoi dati privati di navigazione."
+         "弊社の読者たちは、プライベートな閲覧データを保護するにはPrivate Internet Accessが一番のおすすめと評価しています。"
       ],
       "World-class VPN service:": [
          null,
-         "Servizio VPN di prima classe:"
+         "世界一流のVPNサービス："
       ],
       "Protect your online privacy and identity": [
          null,
-         "Proteggi privacy e identità online"
+         "オンライン上でのプライバシーとアイデンティティを保護"
       ],
       "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
          null,
-         "Naviga in forma anonima con un indirizzo IP privato e abilita una crittografia forte per proteggerti dal tuo ISP e dalle reti Wi-Fi pubbliche."
+         "プライベートなIPアドレスを使って匿名で閲覧することや、強力な暗号化機能でISPや公衆WiFiネットワークからご自身を守ることができます。"
       ],
       "Unblock Streaming": [
          null,
-         "Sblocca lo streaming"
+         "ストリーミングのブロックを解除"
       ],
       "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.": [
          null,
-         "Accedi a tantissimi nuovi contenuti su piattaforme come Netflix, Disney Plus, Amazon Prime Video, HBO GO e molte altre."
+         "Netflix、Disney Plus、Amazonプライムビデオ、HBO GOなどのプラットフォームで、数多くの新しいコンテンツにアクセスできます。"
       ],
       "The World's Leading VPN": [
          null,
-         "La VPN migliore al mondo"
+         "世界をリードするVPN"
       ],
       "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.": [
          null,
-         "Private Internet Access offre le velocità più elevate e la crittografia più potente, per un'esperienza di streaming perfetta, senza buffering né lunghi tempi di caricamento."
+         "Private Internet Accessは、最速のスピードと最も充実した暗号化機能を提供します。そのため、バッファリングや読み込み時間の低下がない完璧なストリーミング体験をお楽しみいただけます。"
       ],
       "Experience": [
          null,
-         "Sperimenta"
+         "エクスペリエンス"
       ],
       "Total Online Freedom": [
          null,
-         "Libertà online totale"
+         "オンライン上での完全な自由"
       ],
       "Bypass censorship and unblock sites and content you don't have access to": [
          null,
-         "Eludi la censura e sblocca siti e contenuti a cui non puoi accedere."
+         "検閲を回避し、アクセスできないサイトやコンテンツのブロックを解除できます。"
       ],
       "Secure Protection on Public Wi-Fi": [
          null,
-         "Protezione sicura sulle Wi-Fi pubbliche"
+         "公衆WiFiでの確実な保護"
       ],
       "Keep your data safe and private while connecting to any poorly secured network": [
          null,
-         "Tieni al sicuro i tuoi dati quando ti connetti a una rete poco sicura."
+         "安全性の低いネットワークに接続しているときに、データを安全かつプライベートに保ちます。"
       ],
       "Unlimited Bandwidth & Fast Download Speeds": [
          null,
-         "Larghezza di banda illimitata e velocità di download elevate"
+         "無制限の帯域幅と高速ダウンロード"
       ],
       "Keep your downloads private and experience lightning fast speeds for P2P torrenting": [
          null,
-         "Proteggi la privacy dei tuoi download e prova le elevatissime velocità per i torrent P2P."
+         "P2Pトレントに対して、プライベートなダウンロードを実行し、超高速スピードを体験できます。"
       ],
       "Ad blocking": [
          null,
-         "Annunci bloccati"
+         "広告のブロック"
       ],
       "With Private Internet Access you can block ads, trackers, and malware": [
          null,
-         "Con Private Internet Access puoi bloccare annunci, tracker e malware."
+         "Private Internet Accessがあれば、広告、トラッカー、マルウェアをブロックできます。"
       ],
       "Limited Time Only! <span class='color_pia_green'>Act Now</span>": [
          null,
-         "Solo per un tempo limitato! <span class='color_pia_green'>Fallo ora</span>"
+         "期間限定！ <span class='color_pia_green'>今すぐご契約</span>"
       ],
       "%s<br><span>day</span>": [
          null,
-         "%s<br><span>giorni</span>"
+         "%s<br><span>日</span>"
       ],
       "money back guarantee": [
          null,
-         "garanzia di rimborso"
+         "返金保証"
       ],
       "Remember, you're not risking anything.": [
          null,
-         "Ricorda: non rischi nulla."
+         "リスクがないことをお忘れなく。"
       ],
       "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back.": [
          null,
-         "Se non sei soddisfatto al 100% di <b>Private Internet Access</b>,<br>hai %s giorni di tempo per chiedere il rimborso, e ti restituiremo ogni centesimo."
+         "<b>Private Internet Access</b>に100%ご満足いただけなかった場合には、<br>%s日間以内に返金をお求めください。そうすれば、全額を払い戻しいたします。"
       ],
       "Based on %s reviews": [
          null,
-         "Basato su %s recensioni"
+         "%s件のレビューに基づく"
       ],
       "Read full review": [
          null,
-         "Leggi la recensione completa"
+         "レビュー全体を読む"
       ],
       "Compatible with all popular desktop and mobile operating systems": [
          null,
-         "Compatibile con tutti i sistemi operativi desktop e mobile più popolari"
+         "主要なすべてのデスクトップ／モバイルオペレーティングシステムに対応"
       ],
       "FREE": [
          null,
-         "GRATIS"
+         "無料"
       ],
       "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE": [
          null,
-         "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>MESI EXTRA</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATIS"
+         "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>追加月間</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>無料"
       ],
       "For a Limited Time Only<br>Grab our": [
          null,
-         "Solo per un tempo limitato<br>Approfitta del nostro"
+         "期間限定<br>お得な"
       ],
       "DISCOUNT": [
          null,
-         "SCONTO"
+         "割引"
       ],
       "for ONLY": [
          null,
-         "SOLO per"
+         "たったの"
       ],
       "/month": [
          null,
-         "/mese"
+         "／月"
       ],
       "Private Internet Access | Anonymous VPN Service Provider": [
          null,
-         "Private Internet Access | Service provider VPN anonimo"
+         "Private Internet Access | 匿名VPNサービスプロバイダ"
       ],
       "Connect to servers from all over the world": [
          null,
-         "Connettiti a server di tutto il mondo"
+         "世界各地からサーバーに接続"
       ],
       "Servers": [
          null,
-         "Server"
+         "サーバー"
       ],
       "Countries": [
          null,
-         "Paesi"
+         "国"
       ],
       "Your IP:": [
          null,
-         "Il tuo IP:"
+         "IPアドレス:"
       ],
       "Your Location:": [
          null,
-         "La tua posizione:"
+         "場所："
       ],
       "Your ISP:": [
          null,
-         "Il tuo ISP:"
+         "ご利用のISP："
       ],
       "Your Status:": [
          null,
-         "Il tuo stato:"
+         "ステータス："
       ],
       "You are not protected": [
          null,
-         "Non sei protetto"
+         "保護されていません"
       ],
       "As recommended by": [
          null,
-         "Raccomandato da"
+         "推奨 - "
       ]
    }
 }

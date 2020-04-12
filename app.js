@@ -98,15 +98,7 @@ app.use(express.static(__dirname + '/assets', {maxAge: cacheTime }));
 
 // MiddleWares ======================================================================
 
-app.use((req, res, next) => {
-    console.log('req.subdomains', req.subdomains)
-    if (req.subdomains.length)
-        if (req.subdomains[0] === 'www')
-            req.setLocale('eng');
-        else
-            req.setLocale(req.subdomains[0]);
-    next()
-});
+app.use(mws.setLocaleFromSubdomain);
 
 
 app.use(mws.setVariables);

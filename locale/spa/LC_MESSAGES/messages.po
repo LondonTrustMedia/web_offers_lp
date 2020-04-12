@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: Spanish\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-03-25 12:58\n"
+"PO-Revision-Date: 2020-04-03 10:31\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-03-25 09:05+0000\n"
+"POT-Creation-Date: 2020-03-31 12:25+0000\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: es-ES\n"
@@ -20,1343 +20,1020 @@ msgstr "Dólares estadounidenses"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:5
 msgid "Afghanistan"
-msgstr ""
+msgstr "Afganistán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:6
 msgid "Åland Islands"
-msgstr ""
+msgstr "Islas de Aland"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:7
 msgid "Albania"
-msgstr ""
+msgstr "Albania"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:8
 msgid "Algeria"
-msgstr ""
+msgstr "Argelia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:9
 msgid "American Samoa"
-msgstr ""
+msgstr "Samoa Americana"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:10
 msgid "Andorra"
-msgstr ""
+msgstr "Andorra"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:11
 msgid "Angola"
-msgstr ""
+msgstr "Angola"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:12
 msgid "Anguilla"
-msgstr ""
+msgstr "Anguila"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:13
 msgid "Antarctica"
-msgstr ""
+msgstr "Antártida"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:14
 msgid "Antigua and Barbuda"
-msgstr ""
+msgstr "Antigua y Barbuda"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:15
 msgid "Argentina"
-msgstr ""
+msgstr "Argentina"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:16
 msgid "Armenia"
-msgstr ""
+msgstr "Armenia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:17
 msgid "Aruba"
-msgstr ""
+msgstr "Aruba"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:18
 msgid "Australia"
-msgstr ""
+msgstr "Australia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:19
 msgid "Austria"
-msgstr ""
+msgstr "Austria"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:20
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaiyán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:21
 msgid "Bahamas"
-msgstr ""
+msgstr "Bahamas"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:22
 msgid "Bahrain"
-msgstr ""
+msgstr "Bahrein"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:23
 msgid "Bangladesh"
-msgstr ""
+msgstr "Bangladesh"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:24
 msgid "Barbados"
-msgstr ""
+msgstr "Barbados"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:25
 msgid "Belarus"
-msgstr ""
+msgstr "Bielorrusia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:26
 msgid "Belgium"
-msgstr ""
+msgstr "Bélgica"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:27
 msgid "Belize"
-msgstr ""
+msgstr "Belice"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:28
 msgid "Benin"
-msgstr ""
+msgstr "Benín"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:29
 msgid "Bermuda"
-msgstr ""
+msgstr "Bermudas"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:30
 msgid "Bhutan"
-msgstr ""
+msgstr "Bután"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:31
 msgid "Bolivia"
-msgstr ""
+msgstr "Bolivia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:32
 msgid "Caribbean Netherlands"
-msgstr ""
+msgstr "Caribe Neerlandés"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:33
 msgid "Bosnia and Herzegovina"
-msgstr ""
+msgstr "Bosnia y Herzegovina"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:34
 msgid "Botswana"
-msgstr ""
+msgstr "Botswana"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:35
 msgid "Bouvet Island"
-msgstr ""
+msgstr "Isla Bouvet"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:36
 msgid "Brazil"
-msgstr ""
+msgstr "Brasil"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:37
 msgid "British Indian Ocean Territory"
-msgstr ""
+msgstr "Territorio Británico del Océano Índico"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:38
 msgid "Brunei Darussalam"
-msgstr ""
+msgstr "Brunei Darussalam"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:39
 msgid "Bulgaria"
-msgstr ""
+msgstr "Bulgaria"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:40
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Burkina Faso"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:41
 msgid "Burundi"
-msgstr ""
+msgstr "Burundi"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:42
 msgid "Cabo Verde"
-msgstr ""
+msgstr "Cabo Verde"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:43
 msgid "Cambodia"
-msgstr ""
+msgstr "Camboya"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:44
 msgid "Cameroon"
-msgstr ""
+msgstr "Camerún"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:45
 msgid "Canada"
-msgstr ""
+msgstr "Canadá"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:46
 msgid "Cayman Islands"
-msgstr ""
+msgstr "Islas Caimán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:47
 msgid "Central African Republic"
-msgstr ""
+msgstr "República Centroafricana"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:48
 msgid "Chad"
-msgstr ""
+msgstr "Chad"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:49
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:50
 msgid "China"
-msgstr ""
+msgstr "China"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:51
 msgid "Christmas Island"
-msgstr ""
+msgstr "Isla de Navidad"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:52
 msgid "Cocos (Keeling) Islands"
-msgstr ""
+msgstr "Islas Cocos (Keeling)"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:53
 msgid "Colombia"
-msgstr ""
+msgstr "Colombia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:54
 msgid "Comoros"
-msgstr ""
+msgstr "Comoras"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:55
 msgid "Congo"
-msgstr ""
+msgstr "Congo"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:56
 msgid "Democratic Republic of the Congo"
-msgstr ""
+msgstr "República Democrática del Congo"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:57
 msgid "Cook Islands"
-msgstr ""
+msgstr "Islas Cook"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:58
 msgid "Costa Rica"
-msgstr ""
+msgstr "Costa Rica"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:59
 msgid "Côte d'Ivoire"
-msgstr ""
+msgstr "Costa de Marfil"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:60
 msgid "Croatia"
-msgstr ""
+msgstr "Croacia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:61
 msgid "Cuba"
-msgstr ""
+msgstr "Cuba"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:62
 msgid "Curaçao"
-msgstr ""
+msgstr "Curazao"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:63
 msgid "Cyprus"
-msgstr ""
+msgstr "Chipre"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:64
 msgid "Czechia"
-msgstr ""
+msgstr "Chequia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:65
 msgid "Denmark"
-msgstr ""
+msgstr "Dinamarca"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:66
 msgid "Djibouti"
-msgstr ""
+msgstr "Yibuti"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:67
 msgid "Dominica"
-msgstr ""
+msgstr "Dominica"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:68
 msgid "Dominican Republic"
-msgstr ""
+msgstr "República Dominicana"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:69
 msgid "Ecuador"
-msgstr ""
+msgstr "Ecuador"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:70
 msgid "Egypt"
-msgstr ""
+msgstr "Egipto"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:71
 msgid "El Salvador"
-msgstr ""
+msgstr "El Salvador"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:72
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Guinea Ecuatorial"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:73
 msgid "Eritrea"
-msgstr ""
+msgstr "Eritrea"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:74
 msgid "Estonia"
-msgstr ""
+msgstr "Estonia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:75
 msgid "Eswatini"
-msgstr ""
+msgstr "Esuatini"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:76
 msgid "Ethiopia"
-msgstr ""
+msgstr "Etiopía"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:77
 msgid "Falkland Islands (Malvinas)"
-msgstr ""
+msgstr "Islas Malvinas (Falkland)"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:78
 msgid "Faroe Islands"
-msgstr ""
+msgstr "Islas Feroe"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:79
 msgid "Fiji"
-msgstr ""
+msgstr "Fiji"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:80
 msgid "Finland"
-msgstr ""
+msgstr "Finlandia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:81
 msgid "France"
-msgstr ""
+msgstr "Francia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:82
 msgid "French Guiana"
-msgstr ""
+msgstr "Guayana Francesa"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:83
 msgid "French Polynesia"
-msgstr ""
+msgstr "Polinesia Francesa"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:84
 msgid "French Southern Territories"
-msgstr ""
+msgstr "Territorios Franceses del Sur"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:85
 msgid "Gabon"
-msgstr ""
+msgstr "Gabón"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:86
 msgid "Gambia"
-msgstr ""
+msgstr "Gambia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:87
 msgid "Georgia"
-msgstr ""
+msgstr "Georgia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:88
 msgid "Germany"
-msgstr ""
+msgstr "Alemania"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:89
 msgid "Ghana"
-msgstr ""
+msgstr "Ghana"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:90
 msgid "Gibraltar"
-msgstr ""
+msgstr "Gibraltar"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:91
 msgid "Greece"
-msgstr ""
+msgstr "Grecia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:92
 msgid "Greenland"
-msgstr ""
+msgstr "Groenlandia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:93
 msgid "Grenada"
-msgstr ""
+msgstr "Granada"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:94
 msgid "Guadeloupe"
-msgstr ""
+msgstr "Guadalupe"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:95
 msgid "Guam"
-msgstr ""
+msgstr "Guam"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:96
 msgid "Guatemala"
-msgstr ""
+msgstr "Guatemala"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:97
 msgid "Guernsey"
-msgstr ""
+msgstr "Guernesey"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:98
 msgid "Guinea"
-msgstr ""
+msgstr "Guinea"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:99
 msgid "Guinea-Bissau"
-msgstr ""
+msgstr "Guinea-Bissau"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:100
 msgid "Guyana"
-msgstr ""
+msgstr "Guyana"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:101
 msgid "Haiti"
-msgstr ""
+msgstr "Haití"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:102
 msgid "Heard Island and McDonald Islands"
-msgstr ""
+msgstr "Isla Heard e Islas McDonald"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:103
 msgid "Holy See"
-msgstr ""
+msgstr "Santa Sede"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:104
 msgid "Honduras"
-msgstr ""
+msgstr "Honduras"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:105
 msgid "Hong Kong"
-msgstr ""
+msgstr "Hong Kong"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:106
 msgid "Hungary"
-msgstr ""
+msgstr "Hungría"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:107
 msgid "Iceland"
-msgstr ""
+msgstr "Islandia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:108
 msgid "India"
-msgstr ""
+msgstr "India"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:109
 msgid "Indonesia"
-msgstr ""
+msgstr "Indonesia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:110
 msgid "Iran"
-msgstr ""
+msgstr "Irán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:111
 msgid "Iraq"
-msgstr ""
+msgstr "Irak"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:112
 msgid "Ireland"
-msgstr ""
+msgstr "Irlanda"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:113
 msgid "Isle of Man"
-msgstr ""
+msgstr "Isla de Man"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:114
 msgid "Israel"
-msgstr ""
+msgstr "Israel"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:115
 msgid "Italy"
-msgstr ""
+msgstr "Italia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:116
 msgid "Jamaica"
-msgstr ""
+msgstr "Jamaica"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:117
 msgid "Japan"
-msgstr ""
+msgstr "Japón"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:118
 msgid "Jersey"
-msgstr ""
+msgstr "Jersey"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:119
 msgid "Jordan"
-msgstr ""
+msgstr "Jordania"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:120
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Kazajistán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:121
 msgid "Kenya"
-msgstr ""
+msgstr "Kenia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:122
 msgid "Kiribati"
-msgstr ""
+msgstr "Kiribati"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:123
 msgid "North Korea"
-msgstr ""
+msgstr "Corea del Norte"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:124
 msgid "South Korea"
-msgstr ""
+msgstr "Corea del Sur"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:125
 msgid "Kuwait"
-msgstr ""
+msgstr "Kuwait"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:126
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Kirguistán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:127
 msgid "Laos"
-msgstr ""
+msgstr "Laos"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:128
 msgid "Latvia"
-msgstr ""
+msgstr "Letonia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:129
 msgid "Lebanon"
-msgstr ""
+msgstr "Líbano"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:130
 msgid "Lesotho"
-msgstr ""
+msgstr "Lesoto"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:131
 msgid "Liberia"
-msgstr ""
+msgstr "Liberia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:132
 msgid "Libya"
-msgstr ""
+msgstr "Libia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:133
 msgid "Liechtenstein"
-msgstr ""
+msgstr "Liechtenstein"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:134
 msgid "Lithuania"
-msgstr ""
+msgstr "Lituania"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:135
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxemburgo"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:136
 msgid "Macao"
-msgstr ""
+msgstr "Macao"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:137
 msgid "Madagascar"
-msgstr ""
+msgstr "Madagascar"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:138
 msgid "Malawi"
-msgstr ""
+msgstr "Malawi"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:139
 msgid "Malaysia"
-msgstr ""
+msgstr "Malasia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:140
 msgid "Maldives"
-msgstr ""
+msgstr "Maldivas"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:141
 msgid "Mali"
-msgstr ""
+msgstr "Malí"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:142
 msgid "Malta"
-msgstr ""
+msgstr "Malta"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:143
 msgid "Marshall Islands"
-msgstr ""
+msgstr "Islas Marshall"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:144
 msgid "Martinique"
-msgstr ""
+msgstr "Martinica"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:145
 msgid "Mauritania"
-msgstr ""
+msgstr "Mauritania"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:146
 msgid "Mauritius"
-msgstr ""
+msgstr "Mauricio"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:147
 msgid "Mayotte"
-msgstr ""
+msgstr "Mayotte"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:148
 msgid "Mexico"
-msgstr ""
+msgstr "México"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:149
 msgid "Federated States of Micronesia"
-msgstr ""
+msgstr "Estados Federados de Micronesia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:150
 msgid "Moldova"
-msgstr ""
+msgstr "Moldavia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:151
 msgid "Monaco"
-msgstr ""
+msgstr "Mónaco"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:152
 msgid "Mongolia"
-msgstr ""
+msgstr "Mongolia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:153
 msgid "Montenegro"
-msgstr ""
+msgstr "Montenegro"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:154
 msgid "Montserrat"
-msgstr ""
+msgstr "Montserrat"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:155
 msgid "Morocco"
-msgstr ""
+msgstr "Marruecos"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:156
 msgid "Mozambique"
-msgstr ""
+msgstr "Mozambique"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:157
 msgid "Myanmar"
-msgstr ""
+msgstr "Myanmar"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:158
 msgid "Namibia"
-msgstr ""
+msgstr "Namibia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:159
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:160
 msgid "Nepal"
-msgstr ""
+msgstr "Nepal"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:161
 msgid "Netherlands"
-msgstr ""
+msgstr "Países Bajos"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:162
 msgid "New Caledonia"
-msgstr ""
+msgstr "Nueva Caledonia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:163
 msgid "New Zealand"
-msgstr ""
+msgstr "Nueva Zelanda"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:164
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nicaragua"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:165
 msgid "Niger"
-msgstr ""
+msgstr "Níger"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:166
 msgid "Nigeria"
-msgstr ""
+msgstr "Nigeria"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:167
 msgid "Niue"
-msgstr ""
+msgstr "Niue"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:168
 msgid "Norfolk Island"
-msgstr ""
+msgstr "Isla Norfolk"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:169
 msgid "North Macedonia"
-msgstr ""
+msgstr "Macedonia del Norte"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:170
 msgid "Northern Mariana Islands"
-msgstr ""
+msgstr "Islas Marianas del Norte"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:171
 msgid "Norway"
-msgstr ""
+msgstr "Noruega"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:172
 msgid "Oman"
-msgstr ""
+msgstr "Omán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:173
 msgid "Pakistan"
-msgstr ""
+msgstr "Pakistán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:174
 msgid "Palau"
-msgstr ""
+msgstr "Palau"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:175
 msgid "Panama"
-msgstr ""
+msgstr "Panamá"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:176
 msgid "Papua New Guinea"
-msgstr ""
+msgstr "Papúa Nueva Guinea"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:177
 msgid "Paraguay"
-msgstr ""
+msgstr "Paraguay"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:178
 msgid "Peru"
-msgstr ""
+msgstr "Perú"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:179
 msgid "Philippines"
-msgstr ""
+msgstr "Filipinas"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:180
 msgid "Pitcairn"
-msgstr ""
+msgstr "Islas Pitcairn"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:181
 msgid "Poland"
-msgstr ""
+msgstr "Polonia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:182
 msgid "Portugal"
-msgstr ""
+msgstr "Portugal"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:183
 msgid "Puerto Rico"
-msgstr ""
+msgstr "Puerto Rico"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:184
 msgid "Qatar"
-msgstr ""
+msgstr "Catar"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:185
 msgid "Réunion"
-msgstr ""
+msgstr "Reunión"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:186
 msgid "Romania"
-msgstr ""
+msgstr "Rumanía"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:187
 msgid "Russia"
-msgstr ""
+msgstr "Rusia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:188
 msgid "Rwanda"
-msgstr ""
+msgstr "Ruanda"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:189
 msgid "Saint Barthélemy"
-msgstr ""
+msgstr "San Bartolomé"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:190
 msgid "Saint Helena, Ascension and Tristan da Cunha"
-msgstr ""
+msgstr "Santa Elena, Ascensión y Tristán da Cunha"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:191
 msgid "Saint Kitts and Nevis"
-msgstr ""
+msgstr "San Cristóbal y Nieves"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:192
 msgid "Saint Lucia"
-msgstr ""
+msgstr "Santa Lucía"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:193
 msgid "Saint Martin (French part)"
-msgstr ""
+msgstr "San Martín (parte francesa)"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:194
 msgid "Saint Pierre and Miquelon"
-msgstr ""
+msgstr "San Pedro y Miquelón"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:195
 msgid "Saint Vincent and the Grenadines"
-msgstr ""
+msgstr "San Vicente y las Granadinas"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:196
 msgid "Samoa"
-msgstr ""
+msgstr "Samoa"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:197
 msgid "San Marino"
-msgstr ""
+msgstr "San Marino"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:198
 msgid "Sao Tome and Principe"
-msgstr ""
+msgstr "Santo Tomé y Príncipe"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:199
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Arabia Saudí"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:200
 msgid "Senegal"
-msgstr ""
+msgstr "Senegal"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:201
 msgid "Serbia"
-msgstr ""
+msgstr "Serbia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:202
 msgid "Seychelles"
-msgstr ""
+msgstr "Seychelles"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:203
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Sierra Leona"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:204
 msgid "Singapore"
-msgstr ""
+msgstr "Singapur"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:205
 msgid "Sint Maarten (Dutch part)"
-msgstr ""
+msgstr "Sint Maarten (parte holandesa)"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:206
 msgid "Slovakia"
-msgstr ""
+msgstr "Eslovaquia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:207
 msgid "Slovenia"
-msgstr ""
+msgstr "Eslovenia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:208
 msgid "Solomon Islands"
-msgstr ""
+msgstr "Islas Salomón"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:209
 msgid "Somalia"
-msgstr ""
+msgstr "Somalia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:210
 msgid "South Africa"
-msgstr ""
+msgstr "Sudáfrica"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:211
 msgid "South Georgia and the South Sandwich Islands"
-msgstr ""
+msgstr "Islas Georgias del Sur y Sandwich del Sur"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:212
 msgid "South Sudan"
-msgstr ""
+msgstr "Sudán del Sur"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:213
 msgid "Spain"
-msgstr ""
+msgstr "España"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:214
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Sri Lanka"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:215
 msgid "Sudan"
-msgstr ""
+msgstr "Sudán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:216
 msgid "Suriname"
-msgstr ""
+msgstr "Surinam"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:217
 msgid "Svalbard and Jan Mayen"
-msgstr ""
+msgstr "Svalbard y Jan Mayen"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:218
 msgid "Sweden"
-msgstr ""
+msgstr "Suecia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:219
 msgid "Switzerland"
-msgstr ""
+msgstr "Suiza"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:220
 msgid "Syria"
-msgstr ""
+msgstr "Siria"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:221
 msgid "Taiwan, Province of China"
-msgstr ""
+msgstr "Taiwán, provincia de China"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:222
 msgid "Tajikistan"
-msgstr ""
+msgstr "Tayikistán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:223
 msgid "Tanzania"
-msgstr ""
+msgstr "Tanzania"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:224
 msgid "Thailand"
-msgstr ""
+msgstr "Tailandia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:225
 msgid "Timor-Leste"
-msgstr ""
+msgstr "Timor Oriental"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:226
 msgid "Togo"
-msgstr ""
+msgstr "Togo"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:227
 msgid "Tokelau"
-msgstr ""
+msgstr "Tokelau"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:228
 msgid "Tonga"
-msgstr ""
+msgstr "Tonga"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:229
 msgid "Trinidad and Tobago"
-msgstr ""
+msgstr "Trinidad y Tobago"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:230
 msgid "Tunisia"
-msgstr ""
+msgstr "Túnez"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:231
 msgid "Turkey"
-msgstr ""
+msgstr "Turquía"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:232
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Turkmenistán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:233
 msgid "Turks and Caicos Islands"
-msgstr ""
+msgstr "Islas Turcas y Caicos"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:234
 msgid "Tuvalu"
-msgstr ""
+msgstr "Tuvalu"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:235
 msgid "Uganda"
-msgstr ""
+msgstr "Uganda"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:236
 msgid "Ukraine"
-msgstr ""
+msgstr "Ucrania"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:237
 msgid "the United Arab Emirates"
-msgstr ""
+msgstr "Emiratos Árabes Unidos"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:238
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:239
 msgid "the United Kingdom"
-msgstr ""
+msgstr "Reino Unido"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:240
 msgid "the United States"
-msgstr ""
+msgstr "Estados Unidos"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:241
 msgid "the United States Minor Outlying Islands"
-msgstr ""
+msgstr "Islas menores alejadas de los Estados Unidos"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:242
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguay"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:243
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Uzbekistán"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:244
 msgid "Vanuatu"
-msgstr ""
+msgstr "Vanuatu"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:245
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:246
 msgid "Viet Nam"
-msgstr ""
+msgstr "Vietnam"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:247
 msgid "Virgin Islands (British)"
-msgstr ""
+msgstr "Islas Vírgenes (Británicas)"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:248
 msgid "Virgin Islands (U.S.)"
-msgstr ""
+msgstr "Islas Vírgenes (Estados Unidos)"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:249
 msgid "Wallis and Futuna"
-msgstr ""
+msgstr "Wallis y Futuna"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:250
 msgid "Western Sahara"
-msgstr ""
+msgstr "Sáhara Occidental"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:251
 msgid "Yemen"
-msgstr ""
+msgstr "Yemen"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:252
 msgid "Zambia"
-msgstr ""
+msgstr "Zambia"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/app/modules/best-script.js:253
 msgid "Zimbabwe"
-msgstr ""
+msgstr "Zimbabue"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/navbar/navbar_dark.ejs:10
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/navbar/navbar_white.ejs:10
 msgid "Join now"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/navbar/old-navbar_white.ejs:9
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:6
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/lifehacker_bar.ejs:11
-msgid "Get started now"
-msgstr ""
+msgstr "Únase ahora"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/errors/404.ejs:16
 msgid "OOPS!"
-msgstr ""
+msgstr "¡Vaya!"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/errors/404.ejs:17
 msgid "It looks like the page you were looking for isn't here anymore. Feel free to visit our homepage by clicking the button below."
-msgstr ""
+msgstr "Parece que la página que busca ya no está aquí. Puede visitar nuestra página de inicio haciendo clic en el botón de abajo."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/errors/404.ejs:18
 msgid "Take Me To The Homepage"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-us.ejs:17
-msgid "The Top VPN for<br>the <b>USA</b>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-au.ejs:17
-msgid "The Top VPN for<br><b>Australia</b>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/protect-yourself.ejs:19
-msgid "<b>Protect</b><br>yourself & your family"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/protect-yourself.ejs:20
-msgid "With Private Internet Access®, your online activity is protected with encryption and an anonymous IP address."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/protect-yourself.ejs:21
-msgid "Reclaim your online privacy"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:14
-msgid "The best VPN for travel"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:15
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:38
-msgid "Get the best prices on flights and hotels with Private Internet Access"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:21
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:40
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:74
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:21
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:40
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:74
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:21
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:42
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:116
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:31
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:52
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/unblock_steps.ejs:19
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/people_discount.ejs:6
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/header_title.ejs:7
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/header_price.ejs:11
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:20
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:53
-msgid "Get Private Internet Access"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:37
-msgid "<span>The best</span><br>VPN <small>for</small> travel"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:70
-msgid "Save Money When Shopping Online"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:71
-msgid "Using Private Internet Access when planning an upcoming trip or when booking a flight, rental car, or a hotel can get you the best prices. Connect to different servers from all over the world and check the best offers. The results just might surprise you and save you some money."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:72
-msgid "<b>Plus</b>, Private Internet Access protects you from hackers. Stay shielded against cyber-criminals, that are trying to get their hands on your banking details, passwords, pictures or emails, especially when traveling abroad."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:80
-msgid "A must have for travelers before and during your trip"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:84
-msgid "Change your virtual location"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:85
-msgid "Private Internet Access has a network of thousands of servers across dozens of locations in over 29 countries. Connect to servers from multiple countries to discover the best prices."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:89
-msgid "Unlimited bandwidth"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:90
-msgid "Private Internet Access has no logs and does not throttle users."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:94
-msgid "Protect sensitive information while traveling"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:95
-msgid "Once you connect to one of Private Internet Access' remote servers your entire internet activity and sensitive data will be 100% shielded from hackers."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:99
-msgid "Protect multiple devices"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:100
-msgid "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Protect all your devices while you travel."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:116
-msgid "Four easy steps to use Private Internet Access for traveling"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:117
-msgid "Start protecting your internet with Private Internet Access in minutes"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:119
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:119
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:156
-msgid "Subscribe to Private Internet Access"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:120
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:120
-msgid "Download Private Internet Access"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:121
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:121
-msgid "Login on the Private Internet Access client with your username and password"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:122
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:122
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:159
-msgid "Turn on Private Internet Access and connect to the location of your choice"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:124
-msgid "Your internet connection is now being protected and your IP address has been changed by Private Internet Access."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:151
-msgid "Check out a few of our FAQs about online travel safety"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:154
-msgid "Is it safe to travel with Private Internet Access?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:155
-msgid "Yes. Private Internet Access provides a VPN service with thousands of servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. Our service encrypts your connection so you can use Wi-Fi networks in unknown places without fear. The better question is: Is it safe to travel without Private Internet Access?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:158
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:154
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:236
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:195
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:249
-msgid "Do you have a refund policy?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:159
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:155
-msgid "Yes. Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:162
-msgid "Will my IP address be exposed while I am traveling?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:163
-msgid "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:166
-msgid "Does Private Internet Access limit bandwidth for travelers?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:167
-msgid "No. Private Internet Access is the premier no log VPN - this means that we don’t analyze your traffic and try to limit your use, ever. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:170
-msgid "Will Private Internet Access be blocked in the country that I am traveling to?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/travel.ejs:171
-msgid "No, but if it is please reach out to our 24/7 Customer Support team for help connecting. Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for travelers."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:14
-msgid "The best VPN for Kodi"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:15
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:38
-msgid "Stay safe while streaming on Kodi with Private Internet Access"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:37
-msgid "<span>The best</span><br>VPN <small>for</small> Kodi"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:71
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:76
-msgid "Don’t get into trouble while streaming on Kodi"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:72
-msgid "Whether you use Kodi TV to watch your personal content library or for the titles you find on their website, make sure nobody will be able to find out what you're doing online."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:73
-msgid "<b>Why? </b>Streaming content on Kodi works is basically P2P torrenting which might be illegal in your country. Luckily, with the Private Internet Access VPN, you can make all your internet activity totally anonymous. So, you'll never have any trouble with governmental authorities while using Kodi."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:80
-msgid "A must have for streaming with Kodi"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:84
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:84
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:119
-msgid "P2P traffic allowed"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:85
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:85
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:130
-msgid "Private Internet Access supports P2P protocols such as torrents."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:89
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:91
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:141
-msgid "No Logs Policy"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:90
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:92
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:152
-msgid "Private Internet Access never records its users' online activity and never keeps any logs, so you'll have complete anonymity from the moment you connect to our servers."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:94
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:98
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:163
-msgid "Bypass geographical restrictions"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:95
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:99
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:174
-msgid "Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:99
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:105
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:185
-msgid "Use Kodi TV on multiple devices"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:100
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:106
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:196
-msgid "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:116
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:197
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:213
-msgid "Start streaming with Private Internet Access in minutes"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:117
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:214
-msgid "Watch Kodi anonymously in 4 easy steps"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:124
-msgid "You’re ready to start using Private Internet Access with your Kodi TV."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:147
-msgid "Got questions?<br>Check out our FAQs"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:150
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:245
-msgid "Is it safe to use Kodi with Private Internet Access?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:151
-msgid "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:158
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:253
-msgid "Will my IP address be exposed while using Kodi add-ons?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:159
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:254
-msgid "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Any service or website accessed will only see our Private Internet Access IP address, not your device’s IP address."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:162
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:257
-msgid "Does Private Internet Access limit bandwidth for Kodi users?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi-old.ejs:163
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:258
-msgid "No. Private Internet Access is the premier no log VPN - this means that we don’t even know what software you use in conjunction with ours. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection.ejs:19
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:14
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:45
-msgid "Everyone needs<br><b>Protection</b>"
-msgstr ""
+msgstr "Llévame a la página de inicio"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:16
 msgid "<small>Discover all the</small><br class=\"\"><b><span>streaming content</span></b><br>you’ve been missing out on"
-msgstr ""
+msgstr "<small>Descubra todo el</small><br class=\"\"><b><span>contenido en streaming</span></b><br>que se ha estado perdiendo"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:17
 msgid "Unblock restricted content libraries easily<br> with Private Internet Access"
-msgstr ""
+msgstr "Desbloquee fácilmente bibliotecas de contenido restringido<br> con Private Internet Access"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:19
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:19
@@ -1370,7 +1047,7 @@ msgstr ""
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:34
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:128
 msgid "Get Private Internet Access VPN"
-msgstr ""
+msgstr "Obtener la VPN de Private Internet Access"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:25
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:25
@@ -1379,981 +1056,587 @@ msgstr ""
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:25
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:28
 msgid "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>"
-msgstr ""
+msgstr "¡Pruébelo sin riesgos! <i class='fas fa-award'></i><span class='text-uppercase'> Garantía de reembolso durante %s días</span>"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:62
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:66
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:57
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:85
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:58
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:62
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:66
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:56
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:60
 msgid "Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>"
-msgstr ""
+msgstr "¡Pruébelo sin riesgos!<br><span class='text-uppercase'>Garantía de reembolso durante %s días</span>"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:67
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:71
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:62
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:21
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:67
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:71
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:18
 msgid "Private Internet Access VPN for %s% OFF"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:76
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:96
-msgid "Discover Limitless Streaming Content"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:77
-msgid "Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. <br><b class='mt-1 d-inline-block'>Sign up for Private Internet Access today!</b>"
-msgstr ""
+msgstr "VPN de Private Internet Access con el %s % de DESCUENTO"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:80
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:107
+msgid "Discover Limitless Streaming Content"
+msgstr "Descubra contenidos de streaming ilimitados"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:81
+msgid "Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. <br><b class='mt-1 d-inline-block'>Sign up for Private Internet Access today!</b>"
+msgstr "Los servicios y sitios web de streaming en línea son cada vez más populares en todo el mundo. Pero a veces las restricciones geográficas pueden limitar el contenido al que se tiene acceso. No pierda oportunidades de ver vídeos en streaming por culpa de su ubicación. <br><b class='mt-1 d-inline-block'>¡Dese de alta hoy mismo en Private Internet Access!</b>"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:84
 msgid "Unblock content on:"
-msgstr ""
+msgstr "Desbloquee contenido en:"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:89
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:78
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:93
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:82
 msgid "Sign up for Private Internet Access today!"
-msgstr ""
+msgstr "¡Dese de alta hoy mismo en Private Internet Access!"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:91
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:122
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:95
 msgid "A must have for your streaming needs"
-msgstr ""
+msgstr "Imprescindible para todas sus necesidades de streaming"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:96
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:124
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:126
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:100
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:128
 msgid "Unlimited bandwidth for streaming"
-msgstr ""
+msgstr "Ancho de banda ilimitado para streaming"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:97
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:135
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:127
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:101
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:139
 msgid "Private Internet Access has no logs, never records online activity and does not throttle users."
-msgstr ""
+msgstr "Private Internet Access no almacena ningún registro, nunca registra la actividad en línea y no limita la velocidad de los usuarios."
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:103
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:146
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:131
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:107
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:150
 msgid "One-click solution to override geographical restrictions"
-msgstr ""
+msgstr "Solución para superar las restricciones geográficas con un solo clic"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:104
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:157
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:132
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:108
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:161
 msgid "Once you have chosen your virtual location, you can connect to it using Private Internet Access with just one click."
-msgstr ""
+msgstr "Una vez elegida su ubicación virtual, puede conectarse a ella mediante Private Internet Access con un solo clic."
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:110
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:168
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:136
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:114
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:172
 msgid "Stream on multiple devices"
-msgstr ""
+msgstr "Streaming en varios dispositivos"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:111
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:179
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:137
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:115
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:183
 msgid "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:196
-msgid "Four easy steps to stream with Private Internet Access"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:199
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:216
-msgid "<b>Subscribe</b><br>to Private Internet Access"
-msgstr ""
+msgstr "1 suscripción a Private Internet Access se puede utilizar en hasta %s dispositivos simultáneamente. ¡Comparta Private Internet Access con toda la familia!"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:200
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:217
-msgid "<b>Download</b><br>Private Internet Access"
-msgstr ""
+msgid "Four easy steps to stream with Private Internet Access"
+msgstr "Cuatro pasos sencillos para el streaming con Private Internet Access"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:201
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:218
-msgid "<b>Login</b><br>on the Private Internet Access client with your username and password"
-msgstr ""
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:217
+msgid "Start streaming with Private Internet Access in minutes"
+msgstr "Comience el streaming con Private Internet Access en cuestión de minutos"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:202
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:219
-msgid "<b>Turn on</b><br>Private Internet Access and connect to the location of your choice"
-msgstr ""
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:203
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:220
+msgid "<b>Subscribe</b><br>to Private Internet Access"
+msgstr "<b>Suscríbase</b><br>a Private Internet Access"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:204
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:221
+msgid "<b>Download</b><br>Private Internet Access"
+msgstr "<b>Descargue</b><br>Private Internet Access"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:205
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:222
+msgid "<b>Login</b><br>on the Private Internet Access client with your username and password"
+msgstr "<b>Inicie sesión</b><br>en el cliente de Private Internet Access con su nombre de usuario y contraseña"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:206
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:223
+msgid "<b>Turn on</b><br>Private Internet Access and connect to the location of your choice"
+msgstr "<b>Active</b><br>Private Internet Access y conéctese a la ubicación que prefiera"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:208
 msgid "You’re ready to start streaming with <span>Private Internet Access</span>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:229
-msgid "Private Internet Access Streaming FAQ"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:232
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:191
-msgid "Is it safe to stream with Private Internet Access?"
-msgstr ""
+msgstr "Está a punto de comenzar el streaming con <span>Private Internet Access</span>"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:233
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:192
-msgid "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?"
-msgstr ""
+msgid "Private Internet Access Streaming FAQ"
+msgstr "Preguntas frecuentes sobre el streaming con Private Internet Access"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:236
+msgid "Is it safe to stream with Private Internet Access?"
+msgstr "¿Es seguro el streaming con Private Internet Access?"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:237
-msgid "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
-msgstr ""
+msgid "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?"
+msgstr "Sí. Private Internet Access proporciona un servicio de VPN con servidores en 49 ubicaciones de 29 países, incluidos Estados Unidos, Reino Unido, Japón y otros. De hecho, sería mejor preguntarse: ¿es seguro el streaming sin Private Internet Access?"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:240
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:199
-msgid "Will my IP address be exposed to streaming services or websites?"
-msgstr ""
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:253
+msgid "Do you have a refund policy?"
+msgstr "¿Tienen política de reembolsos?"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:241
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:200
-msgid "By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address."
-msgstr ""
+msgid "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
+msgstr "Private Internet Access tiene una garantía de reembolso de 7 días, sin preguntas. ¡Suscríbase a Private Internet Access para comenzar a ver contenidos en streaming hoy mismo!"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:244
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:203
-msgid "Does Private Internet Access limit the bandwidth that streamers can use?"
-msgstr ""
+msgid "Will my IP address be exposed to streaming services or websites?"
+msgstr "¿Mi dirección IP quedará expuesta a los servicios o sitios web de streaming?"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:245
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:204
-msgid "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet."
-msgstr ""
+msgid "By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address."
+msgstr "Al utilizar Private Internet Access, está encriptando su tráfico a través de nuestro túnel VPN, que accede a internet desde una de las direcciones IP de nuestros servidores. Los servicios y sitios web de streaming solo verán nuestra dirección IP de Private Internet Access, pero no la IP de su dispositivo."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:248
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:207
-msgid "Will Private Internet Access be blocked on my favorite streaming service or website?"
-msgstr ""
+msgid "Does Private Internet Access limit the bandwidth that streamers can use?"
+msgstr "¿Private Internet Access limita el ancho de banda que pueden usar los usuarios al hacer streaming?"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:249
+msgid "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet."
+msgstr "Private Internet Access es la mejor VPN sin registros. Esto significa que ni siquiera sabemos si está haciendo streaming. Todos nuestros servidores ofrecen ancho de banda ilimitado y no ponemos ningún tope a nuestros usuarios. Punto. Dese de alta en Private Internet Access hoy mismo para disfrutar de internet sin límites y sin censura."
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:252
+msgid "Will Private Internet Access be blocked on my favorite streaming service or website?"
+msgstr "¿Private Internet Access será bloqueado por mi servicio o sitio web de streaming favorito?"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming.ejs:253
 msgid " Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online."
-msgstr ""
+msgstr " En Private Internet Access, creemos en una internet abierta y trabajamos sin cesar para garantizar que no existan bloqueos para los usuarios de nuestra VPN. Use nuestro servicio hoy mismo para ver por qué Private Internet Access es la mejor VPN para el streaming en línea."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices.ejs:17
 msgid "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-fr.ejs:17
-msgid "The Top VPN for<br><b>France</b>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/unblock.ejs:17
-msgid "<b>Unblock</b><br>a world of content"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:14
-msgid "The Best VPN for streaming"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:15
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:40
-msgid "Unblock new content libraries with Private Internet Access"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:39
-msgid "The Best VPN for Streaming"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:97
-msgid "Online streaming services and websites are becoming more popular every day all over the world. But sometimes geo-restrictions can limit the content you have access to. Don’t miss out on video streaming opportunities because of your location. Sign up for Private Internet Access today!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:153
-msgid "Unblock streaming in only 4 easy steps"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:154
-msgid "Watch your favorite movies and shows in minutes"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:157
-msgid "Download Private Internet Access on your device"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:158
-msgid "Login-in using your username and password"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:161
-msgid "You’re ready to start streaming with Private Internet Access!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:188
-msgid "Got questions about streaming?<br>Here are a few of our FAQs"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:196
-msgid "Private Internet Access has a no questions asked 7-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/streaming-old.ejs:208
-msgid "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online."
-msgstr ""
+msgstr "Obtenga una seguridad en línea impenetrable con<br><b>la mejor VPN para<br><span class=\"color_pia_light_orange\">%s</span></b>"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:24
 msgid "Rated as the Best VPN Service In<br><b><span class=\"color_pia_light_orange\">%s</span></b>"
-msgstr ""
+msgstr "Calificado como el mejor servicio VPN en<br><b><span class=\"color_pia_light_orange\">%s</span></b>"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:27
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:58
 msgid "No Logs"
-msgstr ""
+msgstr "Cero registros"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:29
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:60
 msgid "Military-Grade Encryption"
-msgstr ""
+msgstr "Cifrado de grado militar"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:31
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/best-vpn.ejs:62
 msgid "%s Devices"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-de.ejs:17
-msgid "The Top VPN for<br><b>Germany</b>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/privacy.ejs:19
-msgid "<b>Privacy</b><br>is worth protecting"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/privacy.ejs:20
-msgid "Without our VPN, your internet activity can be tracked and you are vulnerable."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/privacy.ejs:21
-msgid "Reclaim your privacy today"
-msgstr ""
+msgstr "%s dispositivos"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/safe-wifi.ejs:16
 msgid "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>"
-msgstr ""
+msgstr "Experimente la mejor forma<br><b>de permanecer <span class='color_pia_light_orange'><span class='text-uppercase'>seguro</span> en redes wifi públicas</span><br>y <span class='color_pia_light_orange text-uppercase'>no se arriesgue nunca</span> a que le hackeen </b>"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:16
 msgid "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>"
-msgstr ""
+msgstr "Descubra un sinfín de <br><b>contenido en streaming</b> en <span>KODI</span>"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:17
 msgid "Access geo-blocked TV shows and movies <br>while staying anonymous online"
-msgstr ""
+msgstr "Acceda a películas y programas de TV bloqueados geográficamente <br>preservando el anonimato en línea"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:77
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:80
+msgid "Don’t get into trouble while streaming on Kodi"
+msgstr "No se meta en problemas mientras usa Kodi"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:81
 msgid "Whether you use Kodi TV to watch your personal content library or for the titles you find on their website, make sure nobody will be able to find out what you're doing online.<br><b>Why? </b>Streaming content on Kodi works is basically P2P torrenting which might be illegal in your country. Luckily, with the <b>Private Internet Access VPN</b>, you can make all your internet activity totally anonymous. So, you'll never have any trouble with governmental authorities while using Kodi."
-msgstr ""
+msgstr "Tanto si usa Kodi TV para ver su biblioteca personal de contenido o bien los títulos que encuentre en la web, asegúrese de que nadie pueda descubrir qué hace en línea.<br><b>¿Por qué? </b>La transmisión de contenidos en Kodi funciona básicamente en forma de torrents P2P, que podrían ser ilegales en su país. Por suerte, con la <b>VPN de Private Internet Access</b>, puede hacer que toda su actividad en internet sea completamente anónima. Así, nunca tendrá problemas con las autoridades gubernamentales por usar Kodi."
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:221
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:88
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:123
+msgid "P2P traffic allowed"
+msgstr "Tráfico P2P permitido"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:89
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:134
+msgid "Private Internet Access supports P2P protocols such as torrents."
+msgstr "Private Internet Access admite protocolos P2P como los de los torrents."
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:95
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:145
+msgid "No Logs Policy"
+msgstr "Política de cero registros"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:96
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:156
+msgid "Private Internet Access never records its users' online activity and never keeps any logs, so you'll have complete anonymity from the moment you connect to our servers."
+msgstr "Private Internet Access nunca registra la actividad en línea de sus usuarios y nunca guarda ningún registro, por lo que su anonimato será total desde el momento en que se conecte a nuestros servidores."
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:102
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:167
+msgid "Bypass geographical restrictions"
+msgstr "Eluda las restricciones geográficas"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:103
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:178
+msgid "Once you have chosen the location you want to use the internet from, Private Internet Access will always be one click away."
+msgstr "Una vez que haya elegido la ubicación desde la que desea usar internet, Private Internet Access estará siempre a un solo clic."
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:109
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:189
+msgid "Use Kodi TV on multiple devices"
+msgstr "Use Kodi TV en varios dispositivos"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:110
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:200
+msgid "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!"
+msgstr "1 suscripción a Private Internet Access se puede utilizar en hasta %s dispositivos simultáneamente. ¡Comparta Private Internet Access con toda la familia!"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:218
+msgid "Watch Kodi anonymously in 4 easy steps"
+msgstr "Vea Kodi anónimamente en 4 sencillos pasos"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:225
 msgid "You’re ready to start using <span>Private Internet Access</span> with your Kodi TV"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:242
-msgid "Got questions? <span class=\"color_pia_green\">Check out our FAQs</span>"
-msgstr ""
+msgstr "Está listo para empezar a utilizar <span>Private Internet Access</span> con su Kodi TV"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:246
-msgid "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?"
-msgstr ""
+msgid "Got questions? <span class=\"color_pia_green\">Check out our FAQs</span>"
+msgstr "¿Tiene dudas? <span class=\"color_pia_green\">Consulte nuestras preguntas frecuentes</span>"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:249
+msgid "Is it safe to use Kodi with Private Internet Access?"
+msgstr "¿Es seguro usar Kodi con Private Internet Access?"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:250
+msgid "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?"
+msgstr "Sí. Private Internet Access proporciona un servicio de VPN con servidores en %s ubicaciones de %s países, incluidos Estados Unidos, Reino Unido, Japón y otros. De hecho, sería mejor preguntarse: ¿es seguro usar Kodi sin Private Internet Access?"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:254
 msgid "Yes. Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
-msgstr ""
+msgstr "Sí. Private Internet Access ofrece una garantía de reembolso de %s días, sin preguntas. ¡Suscríbase a Private Internet Access para comenzar a ver contenidos en streaming hoy mismo!"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:16
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:47
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/header_price.ejs:6
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:7
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:44
-msgid "for "
-msgstr ""
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:257
+msgid "Will my IP address be exposed while using Kodi add-ons?"
+msgstr "¿Quedará expuesta mi dirección IP al usar complementos de Kodi?"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:18
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:49
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:41
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:32
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:16
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:35
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:57
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/header_price.ejs:8
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:9
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:46
-msgid "/mo"
-msgstr ""
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:258
+msgid "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Any service or website accessed will only see our Private Internet Access IP address, not your device’s IP address."
+msgstr "No. Al utilizar Private Internet Access, está encriptando su tráfico a través de nuestro túnel VPN, que accede a internet desde una de las direcciones IP de nuestros servidores. Cualquier servicio o sitio web al que acceda solo podrá ver nuestra dirección IP de Private Internet Access, pero no la IP de su dispositivo."
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:21
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:63
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:9
-msgid "%s extra<br>months free"
-msgstr ""
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:261
+msgid "Does Private Internet Access limit bandwidth for Kodi users?"
+msgstr "¿Private Internet Access limita el ancho de banda para los usuarios de Kodi?"
 
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:32
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/everyone-needs-protection2.ejs:53
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:22
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/newDesign_builder.ejs:55
-msgid "Try it risk free! %s day money back guarantee"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trust.ejs:17
-msgid "a VPN you can<br><b>trust</b>"
-msgstr ""
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/kodi.ejs:262
+msgid "No. Private Internet Access is the premier no log VPN - this means that we don’t even know what software you use in conjunction with ours. All of our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet."
+msgstr "No. Private Internet Access es la mejor VPN sin registros y esto significa que ni siquiera sabemos qué software usa junto con el nuestro. Todos nuestros servidores ofrecen ancho de banda ilimitado y no ponemos ningún tope a nuestros usuarios. Punto. Dese de alta en Private Internet Access hoy mismo para disfrutar de internet sin límites y sin censura."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:16
 msgid "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>"
-msgstr ""
+msgstr "Pruebe la<br><b><span class='color_pia_light_orange'>VPN más segura</span><br>y <span class='color_pia_light_orange'>fiable</span></b> del mundo"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/trusted-vpn.ejs:25
 msgid "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/devices-old.ejs:17
-msgid "The Top VPN for <br><b>%s</b>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-ca.ejs:17
-msgid "The Top VPN for<br><b>Canada</b>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/protect.ejs:17
-msgid "<b>Protect</b><br>your family’s devices today"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/top-vpn-uk.ejs:17
-msgid "The Top VPN for<br>the <b>UK</b>"
-msgstr ""
+msgstr "¡Pruébelo sin riesgos!<i class='fas fa-award'></i> Garantía de reembolso durante %s días"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:16
 msgid "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN"
-msgstr ""
+msgstr "Descubra la forma más segura de conseguir una<br><b><span class=\"text-uppercase color_pia_light_orange\">privacidad total en internet</span></b><br>Obtenga la VPN de Private Internet Access"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:19
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/pages/online-privacy.ejs:25
 msgid "100%</span> No Logs & Records"
-msgstr ""
+msgstr "100 %</span> sin registros"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sponsors.ejs:3
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sponsors-old.ejs:3
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-sponsors.ejs:3
 msgid "Proud Sponsor Of"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:4
-msgid "Customer <br>Review"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:13
-msgid "Review by John S."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:16
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:30
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:44
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:58
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:72
-msgid "31h ago"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:19
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trustpilot/singal_review.ejs:10
-msgid "…I'm glad you're here and I'm glad to put my money towards a great service. I wish you all the best of luck. I'm looking forward to enjoying a freer internet experience."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:27
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:41
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:55
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:69
-msgid "Review by %s"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/singal_review.ejs:92
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trustpilot/singal_review.ejs:6
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trustpilot/carousel.ejs:4
-msgid "Based on %s reviews"
-msgstr ""
+msgstr "Orgulloso patrocinador de"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:8
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:11
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:10
 msgid "Monthly"
-msgstr ""
+msgstr "Mensualmente"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:10
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:13
 msgid "Months"
-msgstr ""
+msgstr "Meses"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:14
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:17
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:29
 msgid "Yearly"
-msgstr ""
+msgstr "Anualmente"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:16
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:19
 msgid "Years"
-msgstr ""
+msgstr "Años"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:22
 msgid "Best value"
-msgstr ""
+msgstr "Mejor precio"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:33
 msgid "Save <b>%s%</b>"
-msgstr ""
+msgstr "Ahorre <b>%s %</b>"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:41
+msgid "/mo"
+msgstr "/mes"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:47
 msgid "<del>%s</del> %s per month"
-msgstr ""
+msgstr "<del>%s</del> %s al mes"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:49
 msgid "<del>%s</del> %s per %s months"
-msgstr ""
+msgstr "<del>%s</del> %s por %s meses"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:53
 msgid "<del>%s</del> %s per year"
-msgstr ""
+msgstr "<del>%s</del> %s al año"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:55
 msgid "<del>%s</del>%s per %s years"
-msgstr ""
+msgstr "<del>%s</del>%s por %s años"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:61
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:49
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:21
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:40
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:62
 msgid "Sign up now"
-msgstr ""
+msgstr "Dese de alta ahora"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:68
 msgid "Best<br>value"
-msgstr ""
+msgstr "Mejor<br>precio"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:69
 msgid "+%s extra<br>months free"
-msgstr ""
+msgstr "+ %s meses<br>extra gratis"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/super_price.ejs:76
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:54
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:67
 msgid "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month"
-msgstr ""
+msgstr "Todos los importes se muestran en %s y los descuentos reflejan una rebaja basada en el precio mensual actual del servicio de %s al mes"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trusted_companies.ejs:3
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-trusted_companies.ejs:3
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trusted_companies_old.ejs:3
 msgid "Trusted By Companies Including:"
-msgstr ""
+msgstr "Algunas de las empresas que confían en nosotros:"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:4
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:46
 msgid "Why choose Private Internet Access?"
-msgstr ""
+msgstr "¿Por qué elegir Private Internet Access?"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:9
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:55
 msgid "Total Privacy"
-msgstr ""
+msgstr "Privacidad total"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:10
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:66
 msgid "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online."
-msgstr ""
+msgstr "Private Internet Access nunca conserva ningún registro de las actividades en internet de los usuarios. Puede estar tranquilo sabiendo que su privacidad es absoluta y que nadie sabe lo que hace en línea."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:16
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:77
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:51
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:51
 msgid "Easy to use"
-msgstr ""
+msgstr "Fácil de usar"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:17
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:88
 msgid "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly."
-msgstr ""
+msgstr "Sean cuales sean sus conocimientos técnicos, Private Internet Access es una de las aplicaciones de VPN más fáciles que existen. Para conectarse, basta con 1 solo clic o toque y sus datos se encriptarán al instante."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:23
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:99
 msgid "Secure VPN Protocols"
-msgstr ""
+msgstr "Protocolos de VPN seguros"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:24
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:110
 msgid "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec."
-msgstr ""
+msgstr "Nuestra aplicación emplea los protocolos más recientes y avanzados, como PPTP, OpenVPN y L2TP/IPSec."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:30
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:121
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:23
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:23
 msgid "%s devices simultaneously"
-msgstr ""
+msgstr "%s dispositivos simultáneamente"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:31
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:132
 msgid "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time."
-msgstr ""
+msgstr "Mantenga protegidos todos sus dispositivos. Con solo 1 suscripción a la VPN de Private Internet Access, puede conectarse en hasta %s dispositivos al mismo tiempo."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:36
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_pia.ejs:142
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-lifehacker_bar.ejs:3
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/lifehacker_bar.ejs:6
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:59
 msgid "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:3
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:3
-msgid "Risk Free. %s day money back guarantee"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:4
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:4
-msgid "Limited Time Only! Act Now"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:7
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:26
-msgid "BEST VALUE"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:26
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:13
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:32
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:54
-msgid "SAVE %s%"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:37
-msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per month"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:39
-msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s months"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:43
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:38
-msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per year"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pricing.ejs:45
-msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per %s years"
-msgstr ""
+msgstr "Nuestros lectores dejaron meridianamente claro que Private Internet Access debería ser su primera opción para proteger los datos de navegación privados."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:3
 msgid "World-class VPN service:"
-msgstr ""
+msgstr "Servicio VPN de primer nivel mundial:"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:8
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:36
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:8
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:8
 msgid "Protect your online privacy and identity"
-msgstr ""
+msgstr "Proteja su privacidad e identidad en internet"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:9
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:47
 msgid "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks."
-msgstr ""
+msgstr "Navegue anónimamente con una dirección IP privada y habilite un cifrado robusto para protegerle de su proveedor de internet y de las redes wifi públicas."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:15
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:58
 msgid "Unblock Streaming"
-msgstr ""
+msgstr "Desbloquee el streaming"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:16
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:69
 msgid "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more."
-msgstr ""
+msgstr "Obtenga acceso a gran cantidad de contenidos nuevos en plataformas como Netflix, Disney Plus, Amazon Prime Video, HBO GO y otras."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:22
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:80
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:20
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:20
 msgid "The World's Leading VPN"
-msgstr ""
+msgstr "La VPN líder mundial"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:23
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/sevice.ejs:91
 msgid "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers.ejs:3
-msgid "Use the internet from wherever"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers.ejs:4
-msgid "Choose your location from cities in the United States, the United Kingdom, Japan, or 27 other countries. With Private Internet Access, you are in control of your connection and IP address. There are 200+ locations to choose from with our private, encrypted VPN connection."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers.ejs:11
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers_globe.ejs:31
-msgid "Servers"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers.ejs:15
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers_globe.ejs:35
-msgid "Countries"
-msgstr ""
+msgstr "Private Internet Access proporciona las velocidades más altas y el mejor cifrado. Disfrute de un streaming perfecto, sin problemas de búfer ni lentas descargas."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:3
 msgid "Experience"
-msgstr ""
+msgstr "Disfrute de"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:8
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:45
 msgid "Total Online Freedom"
-msgstr ""
+msgstr "Libertad total en internet"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:9
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:56
 msgid "Bypass censorship and unblock sites and content you don't have access to"
-msgstr ""
+msgstr "Eluda la censura y desbloquee sitios y contenidos a los que no tenga acceso"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:15
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:67
 msgid "Secure Protection on Public Wi-Fi"
-msgstr ""
+msgstr "Protección segura en wifis públicas"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:16
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:78
 msgid "Keep your data safe and private while connecting to any poorly secured network"
-msgstr ""
+msgstr "Preserve la seguridad y privacidad de sus datos mientras se conecta a cualquier red que tenga una seguridad deficiente"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:22
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:89
 msgid "Unlimited Bandwidth & Fast Download Speeds"
-msgstr ""
+msgstr "Ancho de banda ilimitado y altas velocidades de descarga"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:23
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:100
 msgid "Keep your downloads private and experience lightning fast speeds for P2P torrenting"
-msgstr ""
+msgstr "Preserve la privacidad de sus descargas y experimente velocidades ultrarrápidas para los torrents P2P"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:29
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:111
 msgid "Ad blocking"
-msgstr ""
+msgstr "Bloqueo de anuncios"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:30
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/experience.ejs:122
 msgid "With Private Internet Access you can block ads, trackers, and malware"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/b2mfree.ejs:2
-msgid "<b>+%s</b><br>extra months<br><span>free</span>"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/people_discount.ejs:4
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:4
-msgid "%s day money back guarantee"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/people_discount.ejs:5
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:5
-msgid "If you’re not 100% satisfied with Private Internet Access, we’ll give you your money back. Try us risk free, that’s our %s day money back guarantee."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/old-people_discount.ejs:10
-msgid "new"
-msgstr ""
+msgstr "Con Private Internet Access, puede bloquear anuncios, rastreadores y malware"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/dark_footer.ejs:3
 msgid "Limited Time Only! <span class='color_pia_green'>Act Now</span>"
-msgstr ""
+msgstr "¡Solo por tiempo limitado! <span class='color_pia_green'>Actúe ya</span>"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/dark_footer.ejs:11
 msgid "%s<br><span>day</span>"
-msgstr ""
+msgstr "%s<br><span>día</span>"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/dark_footer.ejs:12
 msgid "money back guarantee"
-msgstr ""
+msgstr "garantía de reembolso"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/dark_footer.ejs:14
 msgid "Remember, you're not risking anything."
-msgstr ""
+msgstr "Recuerde que no corre ningún riesgo."
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/footers/dark_footer.ejs:15
 msgid "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back."
-msgstr ""
+msgstr "Si no está satisfecho al 100 % con <b>Private Internet Access</b>,<br>tiene %s días enteros para solicitar un reembolso y le devolveremos el dinero."
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trustpilot/carousel.ejs:4
+msgid "Based on %s reviews"
+msgstr "Basado en %s reseñas"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trustpilot/carousel.ejs:33
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trustpilot/carousel.ejs:55
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trustpilot/carousel.ejs:77
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/trustpilot/carousel.ejs:99
 msgid "Read full review"
-msgstr ""
+msgstr "Leer reseña completa"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/operating_system.ejs:4
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/platforms_and_payment.ejs:4
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/platforms.ejs:4
 msgid "Compatible with all popular desktop and mobile operating systems"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:3
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:3
-msgid "Why Choose Us?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:7
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:7
-msgid "Dedicated VPN Service"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:11
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:11
-msgid "No Traffic or Request logs"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:15
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:15
-msgid "US based corporation"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:19
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:19
-msgid "Quality and reliability"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:23
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:23
-msgid "Unbeatable price"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:27
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:27
-msgid "Gigabit VPN port speeds"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:31
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:31
-msgid "VPN service specialists"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:35
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:35
-msgid "Professional support staff"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:39
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:39
-msgid "SOCKS5 Proxy Included"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:43
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:43
-msgid "OpenVPN, PPTP &amp; IPSEC/L2TP"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:47
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:47
-msgid "Premium VPN Bandwidth"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:51
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:51
-msgid "Unmetered VPN Transfer"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:55
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:55
-msgid "Anonymous VPN"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:59
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:59
-msgid "DD-WRT VPN Compatible"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-why_us.ejs:63
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/why_us.ejs:63
-msgid "Instant activation"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-servers.ejs:7
-msgid "%s+ Servers in %s Countries"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-servers.ejs:39
-msgid "... and growing"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-intro_video.ejs:3
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/intro_video.ejs:3
-msgid "Watch our 1 minute intro video"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-intro_video.ejs:15
-msgid "click anywhere to close"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:19
-msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s month"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:51
-msgid "6 Months"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pricing.ejs:60
-msgid "<span class=\"text-danger font-weight-bold\"><del>%s</del></span> %s per six months"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/platforms_and_payment.ejs:17
-msgid "We accept all kinds of payment methods"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-pcmag_bar.ejs:3
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/pcmag_bar.ejs:4
-msgid "Private Internet Access out-performs and out-features the competition"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:3
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:3
-msgid "Why do I need Private Internet Access?"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:9
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:9
-msgid "Browse anonymously with a private IP, and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:14
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:14
-msgid "Unblock Censorship Filters"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:15
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:15
-msgid "Enjoy unrestricted access to our anonymous VPN network. Unlock any geographic restrictions and protocol filters. Whether you're browsing or streaming, Private Internet Access will deliver."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-HP_why_PIA.ejs:21
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/HP_why_PIA.ejs:21
-msgid "Private Internet Access has the largest network capacity across the globe to provide the highest speeds and most encryption. Private Internet Access is the only proven no-log VPN service in the world."
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:3
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:3
-msgid "VPN Features"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:7
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:7
-msgid "Secure VPN Account"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:11
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:11
-msgid "Encrypted WiFi"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:15
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:15
-msgid "P2P Support"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:19
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:19
-msgid "PPTP, OpenVPN and L2TP/IPSec"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:27
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:27
-msgid "Block ads, trackers, and malware"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:31
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:31
-msgid "Multiple VPN Gateways"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:35
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:35
-msgid "Unlimited Bandwidth"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:39
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:39
-msgid "SOCKS5 Proxy Includeds"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:43
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:43
-msgid "No traffic logs"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/old/old-vpn_features.ejs:47
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:47
-msgid "Instant Setup"
-msgstr ""
+msgstr "Compatible con todos los sistemas operativos populares de escritorio y móviles"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/b2mfree_new.ejs:14
 msgid "FREE"
-msgstr ""
+msgstr "GRATIS"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/b2mfree_new.ejs:17
 msgid "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE"
-msgstr ""
+msgstr "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>MESES EXTRA</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATIS"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/discount_block.ejs:5
 msgid "For a Limited Time Only<br>Grab our"
-msgstr ""
+msgstr "Solo por tiempo limitado<br>Aproveche nuestro"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/discount_block.ejs:10
 msgid "DISCOUNT"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/intro_video.ejs:11
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/vpn_features.ejs:66
-msgid "Get VPN Access"
-msgstr ""
+msgstr "DESCUENTO"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/only_price.ejs:2
 msgid "for ONLY"
-msgstr ""
+msgstr "por SOLO"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/only_price.ejs:8
 msgid "/month"
-msgstr ""
+msgstr "/mes"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/head.ejs:1
 msgid "Private Internet Access | Anonymous VPN Service Provider"
-msgstr ""
+msgstr "Private Internet Access | Proveedor de servicio de VPN anónima"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers_globe.ejs:24
 msgid "Connect to servers from all over the world"
-msgstr ""
+msgstr "Conéctese a servidores de todo el mundo"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers_globe.ejs:31
+msgid "Servers"
+msgstr "Servidores"
+
+#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/servers_globe.ejs:35
+msgid "Countries"
+msgstr "Países"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/expose_bar.ejs:4
 msgid "Your IP:"
-msgstr ""
+msgstr "Su IP:"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/expose_bar.ejs:8
 msgid "Your Location:"
-msgstr ""
+msgstr "Su ubicación:"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/expose_bar.ejs:12
 msgid "Your ISP:"
-msgstr ""
+msgstr "Su ISP:"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/expose_bar.ejs:16
 msgid "Your Status:"
-msgstr ""
+msgstr "Su estado:"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/expose_bar.ejs:18
 msgid "You are not protected"
-msgstr ""
+msgstr "No está protegido"
 
 #: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/brand.ejs:2
 msgid "As recommended by"
-msgstr ""
-
-#: /Users/nitaybz/Projects/Kape/PrivateLand/views/partials/circle_discount.ejs:2
-msgid "today's<br>offer"
-msgstr ""
+msgstr "Recomendado por"
 

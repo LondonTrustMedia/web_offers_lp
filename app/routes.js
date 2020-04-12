@@ -41,6 +41,21 @@ module.exports = function (app) {
 
     })
 
+    app.get('/youtube', mws.languageRedirects, locationScan.check, mws.setPrices, mws.setChannels, mws.setCurrency, mws.setSticker, mws.getLink, uaParser, function (req, res) {
+        
+        console.log("Page Name: " + req.pageName)
+        console.log("HOST: " + req.hostname)
+        console.log("channels: " + req.channels)
+
+        offersApi.impressionPixel(req)
+
+        res.render('pages/' + req.pageName + '.ejs' , {
+            userAgent: req.userAgent
+        });
+            
+
+    })
+
     app.get('/*', mws.languageRedirects, locationScan.check, mws.setPrices, mws.setCurrency, mws.setSticker, mws.getLink, uaParser, function (req, res) {
         
         console.log("Page Name: " + req.pageName)

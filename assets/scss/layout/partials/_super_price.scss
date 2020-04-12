@@ -30,10 +30,19 @@
       flex: 0 0 335px;
     }
     & .btn_wave {
+      html[lang="rus"] & {
+        font-size: 16px;
+        min-width: 240px;
+        padding: 10px 10px;
+      }
       @media screen and (max-width: $brk-desktop-width) {
         min-width: 180px;
         width: unset;
         max-width: 100%;
+        html[lang="rus"] & {
+          font-size: 14px;
+           min-width: 180px;
+        }
         html[lang="fra"] & {
           font-size: 16px;
           padding: 10px 10px;
@@ -102,6 +111,17 @@
         max-width: 100%;
         flex: 0 0 335px;
       }
+      & .btn_wave {
+        html[lang="rus"] & { 
+          @media screen and (max-width: $brk-min-desktop-width) {
+            font-size: 16px;
+          }
+          @media screen and (max-width: $brk-ipad-width - 1) {
+            font-size: 14px;
+          }
+        }
+        
+      }
       & .body {
         padding: 0 20px 45px;
         height: unset;
@@ -111,6 +131,9 @@
         @media screen and (max-width: $brk-ipad-width - 1) {
           padding: 10px 20px 0;
           height: 275px;
+          html[lang="rus"] & { 
+            height: 245px;
+          }
         }
         @media screen and (max-width: $brk-mobile-width) {
           height: 250px;
@@ -122,6 +145,9 @@
       & .pricing-bill {
         color: $color-text-dark;
         font-size: 1.6em;
+        html[lang="rus"] & { 
+          font-size: 1.1em;
+        }
         @media screen and (max-width: $brk-desktop-width) {
           font-size: 1.2em;
         }
@@ -152,6 +178,7 @@
         height: 70px;
         border-top-right-radius: 0;
         border-top-left-radius: 0;
+        
         @media screen and (max-width: $brk-min-desktop-width) {
           padding: 15px 10px 0;
           height: 55px;
@@ -159,10 +186,14 @@
         @media screen and (max-width: $brk-ipad-width - 1) {
           padding: 0px 10px 0;
           width: 100%;
+          
         }
         & h5 {
           @media screen and (max-width: $brk-min-desktop-width) {
             font-size: 1rem;
+            html[lang="rus"] & { 
+              font-size: .8rem;
+            }
           }
         }
       }
@@ -285,7 +316,11 @@
       & .month {
         font-size: 1.2em;
       }
-
+      & .month {
+        html[lang="rus"] & { 
+            font-size: .8em;
+        }
+      }
       & .perMonthNumber {
         font-size: 3em;
       }
@@ -305,6 +340,9 @@
     & .pricing-save {
       font-weight: 300;
       height: 33px;
+      html[lang="rus"] & { 
+          font-size: 1.35rem;
+      }
       @media screen and (max-width: $brk-min-desktop-width) {
         margin-top: 1.5rem !important;
         margin-bottom: 1.5rem;

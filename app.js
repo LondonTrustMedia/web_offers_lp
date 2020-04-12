@@ -11,7 +11,7 @@ const assets = require('express-asset-versions')
 
 const mws = require('./app/modules/mws.js')(app)
 const offersApi = require('./app/modules/offersApi.js');
-const supportedLanguages = ['eng', 'fra', 'deu']
+const supportedLanguages = ['eng', 'fra', 'deu', 'dan', 'ita', 'jpn', 'nld', 'nor', 'por', 'rus', 'spa']
 
 try {
     app.rotators = require('./app/json/rotators.json');

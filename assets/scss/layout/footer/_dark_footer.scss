@@ -27,12 +27,28 @@ footer {
         background-repeat: no-repeat;
         display: inline-block;
         background-position: center;
-        padding: 30px 33px;
+        padding: 42px 33px;
+        width: 265px;
+        height: 203px;
+        @media screen and (max-width: $brk-mobile-width) {
+            padding: 25px 25px;
+            width: 240px;
+            height: 190px;
+        }
         html[lang=fra] & {
-            padding: 70px 40px 45px;
+            padding: 46px 45px;
+            width: 300px;
+            height: 215px;
             @media screen and (max-width: $brk-mobile-width) {
-                padding: 40px 40px 43px;
+                padding: 19px 30px;
+                width: 240px;
+                height: 180px;
             }
+        }
+        html[lang=por] & {
+            padding: 45px 33px;
+            width: 280px;
+            height: 215px;
         }
         & h1 {
             font-size: 4.5rem;
@@ -48,11 +64,6 @@ footer {
         }
         & h5 {
             font-size: .9rem;
-            @media screen and (max-width: $brk-mobile-width) {
-                html[lang=fra] & {
-                    font-size: .65rem;
-                }
-            }
         }
     }
     & .bg {

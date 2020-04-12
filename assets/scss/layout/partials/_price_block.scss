@@ -1,0 +1,87 @@
+#discount_block {
+  & .right_line {
+    background-image: url(img/price_badge_right.svg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 160px;
+    width: 245px;
+    @include ie-only {
+      width: 375px;
+    }
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      height: 105px;
+      width: 215px;
+    }
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      background-image: url(img/price_badge_right.svg);
+      width: 180px;
+    }
+  
+    & .top {
+      font-weight: 700;
+      margin-top: -13px;
+      font-size: 1.125rem;
+      margin-bottom: 18px;
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        margin-top: -10px;
+        font-size: .85rem;
+        margin-bottom: 8px;
+      }
+
+    }
+    & .discount {
+      font-size: 8.5rem;
+      line-height: 1;
+      align-items: end;
+      font-weight: 600;
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        font-size: 6rem;
+      }
+
+      & p {
+        font-size: .72em;
+        margin-left: -25px;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          margin-left: -15px;
+        }
+        & span {
+          font-size: .75em;
+        }
+      }
+
+    }
+    & .bottom {
+      font-weight: 700;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    padding-left: .5rem;
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      margin-top: 3px;
+        font-size: 1.2rem;
+      }
+    }
+  }
+  & .left_line {
+    height: 160px;
+    width: 43px;
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      height: 105px;
+      width: 30px;
+    }
+    & img {
+      height: 100%;
+    }
+  }
+  & + .b2mfree {
+    top: 15px;
+    right: 0;
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      right: -95px;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+      right: -66px;
+      top: 5px;
+    }
+  }
+}

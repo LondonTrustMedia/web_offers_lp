@@ -117,6 +117,7 @@ header {
     background-size: 102%;
     z-index: 2;
     background-size: 3840px 181px;
+    pointer-events: none;
 
     @media screen and (max-width: $brk-ipad-width - 1) {
       display: none;
@@ -310,10 +311,13 @@ header {
         top: 10px;
       }
       @media screen and (max-width: $brk-mobile-width) {
-        right: -100px;
+        right: -115px;
         top: 25px;
         html[lang=deu] & {
           top: 45px;
+        }
+        html[lang=rus] & {
+          top: 65px;
         }
       }
     }

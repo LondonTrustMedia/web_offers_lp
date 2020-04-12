@@ -44,18 +44,16 @@ header {
     @media screen and (max-width: $brk-ipad-width - 1) {
         background-color: #fff;
         background-image: url(img/header_bg_wtihout_white.jpg);
-        background-position: right calc(100% + 1565px) top -140px;
+        background-position: right calc(100% + 1565px) top ;
         min-height: 585px;
         padding-bottom: 40px;
     }
-
-    @media screen and (max-width: $brk-mobile-width) {
-        background-position: right calc(100% + 1565px) top -165px;
-        html[lang=deu] &,html[lang=fra] & {
-            background-position: right calc(0% + -10px) top calc(100% - 45px);
+    & .col-65 {
+        width: 65%;
+        @media screen and (max-width: 575px) {
+            width: 100%;
         }
     }
-
     & .btn_wave {
         @media screen and (max-width: $brk-ipad-width - 1) {
             max-width: 420px;
@@ -81,6 +79,7 @@ header {
         left: 0;
         bottom: 0;
         width: 100%;
+        background-color: #fff;
 
         & .dark {
             background-color: #263238;
@@ -110,6 +109,7 @@ header {
         background-size: 102%;
         z-index: 2;
         background-size: 3840px 181px;
+        pointer-events: none;
 
         @media screen and (max-width: $brk-ipad-width - 1) {
             display: none;
@@ -137,6 +137,9 @@ header {
 
         & b {
             font-size: 1.6em;
+            @media screen and (max-width:  $brk-min-desktop-width) {
+                font-size: 1.4em;
+            }
         }
     }
 

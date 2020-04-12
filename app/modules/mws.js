@@ -65,7 +65,7 @@ module.exports = (app) => {
                     break;
                     
                 default:
-                    res.locals.offerLink = req.offerLink = `https://www.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://${req.lang}.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
             }
             

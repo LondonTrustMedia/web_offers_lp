@@ -23,7 +23,7 @@ p {
     color: $color-text-light;
 }
 .b2mfree {
-    top: 0;
+    top: -35px;
     right: -160px;
     @media screen and (max-width: $brk-ipad-width - 1) {
         top: -60px;
@@ -109,6 +109,7 @@ header {
         background-size: 102%;
         z-index: 2;
         background-size: 3840px 181px;
+        pointer-events: none;
 
         @media screen and (max-width: $brk-ipad-width - 1) {
             display: none;

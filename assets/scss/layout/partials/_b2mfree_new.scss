@@ -32,7 +32,9 @@
   position: absolute;
   top: 85px;
   right: -175px;
-
+  html[lang=rus] & {
+    width: 200px;
+  }
   @media screen and (max-width: $brk-ipad-width - 1) {
     top: 10px;
   }
@@ -41,6 +43,9 @@
     width: 130px;
     right: -50px;
     top: 95px;
+    html[lang=rus] & {
+      width: 130px;
+    }
   }
 
   & svg {
@@ -50,16 +55,53 @@
         html[lang=fra] & {
           font-size: 30px;
         }
+        html[lang=por] & {
+          transform: matrix(0.9722, 0.2341, -0.2341, 0.9722, 10, 160);
+          font-size: 40px;
+        }
+        html[lang=rus] & {
+          transform: matrix(1, 0.2341, -0.2341, 1, 25, 170);
+          font-size: 30px;
+        }
        }
     }
     & .text {
+      fill: #fff;
       & text:nth-of-type(3) {
         html[lang=fra] & {
           font-size: 20px;
           transform: translate(55px, 130px) rotate(13deg);
         }
+        html[lang=dan] &,html[lang=nor] & {
+          transform: matrix(0.9722, 0.2341, -0.2341, 0.9722, 43, 120);
+          font-size: 15px;
+        }
+        html[lang=ita] &,html[lang=jpn] & {
+          font-size: 22px;
+        }
+        html[lang=nld] & {
+          transform: matrix(0.9722, 0.2341, -0.2341, 0.9722, 43, 119);
+          font-size: 16px;
+        }
+        
+      }
+      & text:nth-of-type(4) {
+        html[lang=fra] & {
+        font-size: 30px;
+        }
+        html[lang=por] & {
+          transform: matrix(0.9722, 0.2341, -0.2341, 0.9722, 10, 160);
+          font-size: 40px;
+        }
+      }
+      & text:nth-of-type(5) {
+        html[lang=rus] & {
+          transform: matrix(1, 0.2341, -0.2341, 1, 25, 170);
+          font-size: 30px;
+        }
       }
     }
+    
   }
   & .title {
     position: relative;

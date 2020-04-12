@@ -9,24 +9,48 @@
     @include ie-only {
       width: 375px;
     }
-    html[lang="deu"] & {
+    html[lang="deu"] &,
+    html[lang="ita"] &,
+    html[lang="rus"] &,
+    html[lang="spa"] & {
       background-image: url(img/badge_frame_arrow_right_short.svg);
     }
-    html[lang="fra"] & {
+    html[lang="fra"] &,
+    html[lang="dan"] &,
+    html[lang="por"] & {
       background-image: url(img/badge_frame_arrow_right_short_fr.svg);
+    }
+    html[lang="rus"] & {
+      width: 305px;
     }
     @media screen and (max-width: $brk-ipad-width) {
       height: 105px;
       width: 215px;
+      html[lang="rus"] & {
+        width:  270px;
+      }
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
       background-image: url(img/badge_frame_right.svg);
       width: 180px;
-      html[lang="deu"] & {
+      html[lang="deu"] &,
+      html[lang="ita"] &,
+      html[lang="rus"] &,
+      html[lang="por"] &, html[lang="spa"] &  {
         background-image: url(img/badge_frame_right_short.svg);
       }
-      html[lang="fra"] & {
+      html[lang="fra"] &,
+      html[lang="dan"] & {
         background-image: url(img/badge_frame_right_short_fr.svg);
+      }
+      html[lang="jpn"] & {
+        width: 160px;
+      }
+      html[lang="por"] & {
+        width: 220px;
+      }
+      html[lang="rus"] & {
+        width: 200px;
       }
     }
     @media screen and (max-width: $brk-mobile-width) {
@@ -38,16 +62,34 @@
       html[lang="deu"] & {
         width: 155px;
       }
+      html[lang="jpn"] & {
+        width: 135px;
+      }
+      html[lang="por"] & {
+        width: 200px;
+      }
+      html[lang="rus"] & {
+        width: 170px;
+      }
     }
     & .top {
       font-weight: 700;
       margin-top: -35px;
-      html[lang="deu"] & {
-        @media screen and (max-width: $brk-ipad-width - 1) {
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        html[lang="deu"] & {
           margin-top: -25px;
           font-size: 0.8em;
         }
+        html[lang="ita"] & {
+          margin-top: -27px;
+          font-size: 13px;
+        }
+        html[lang="por"] & {
+          margin-top: -25px;
+          font-size: 14px
+        }
       }
+
       @media screen and (max-width: $brk-mobile-width) {
         font-size: 14px;
         margin-top: -30px;
@@ -69,9 +111,14 @@
       @media screen and (max-width: $brk-ipad-width) {
         font-size: 5rem;
       }
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        html[lang="rus"] & {
+          font-size: 4rem;
+        }
+      }
       @media screen and (max-width: $brk-mobile-width) {
         font-size: 4rem;
-        html[lang="fra"] & {
+        html[lang="fra"] &, html[lang="rus"] & {
           font-size: 3rem;
         }
       }
@@ -88,9 +135,25 @@
       margin-top: -10px;
       font-size: 1.5rem;
       padding-left: 0.5rem;
+      html[lang="por"] & {
+        margin-top: -5px;
+        font-size: 1.1rem;
+      }
+      html[lang="spa"] & {
+        margin-top: -5px;
+        font-size: 1.2rem;
+        padding-left: 0;
+      }
       @media screen and (max-width: $brk-ipad-width) {
         margin-top: -5px;
         font-size: 1.2rem;
+        html[lang="por"] & {
+          font-size: 1rem;
+        }
+        html[lang="spa"] & {
+          margin-top: -1px;
+          font-size: 1rem;
+        }
       }
       @media screen and (max-width: $brk-mobile-width) {
         font-size: 1rem;

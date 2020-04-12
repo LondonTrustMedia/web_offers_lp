@@ -75,19 +75,12 @@ header {
     }
     @media screen and (max-width: 700px) {
         background-image: url(img/trust_background_people_mobile.jpg);
-        background-position: 0 calc(100% - 35px);
         min-height: 620px;
     }
-    @media screen and (max-width: 575px) {
-        background-position: 0 calc(100% - 25px);
-        min-height: 600px;
-    }
     @media screen and (max-width: $brk-mobile-width) {
-        background-position: right calc(0% + -33px) top calc(100% - 30px);
+        background-position: right calc(0% + -33px) top;
         min-height: 560px;
-        html[lang=deu] &,html[lang=fra] & {
-            background-position: right calc(0% + -10px) top calc(100% - 45px);
-        }
+
     }
     & .btn_wave {
         @media screen and (max-width: $brk-ipad-width - 1) {
@@ -103,6 +96,7 @@ header {
         left: 0;
         bottom: 0;
         width: 100%;
+        background-color: #fff;
 
         & .dark {
             background-color: #263238;
@@ -147,7 +141,7 @@ header {
     }
     & h1 {
         font-size: 2.2rem;
-        html[lang=deu] & {
+        html[lang=deu] &,html[lang=ita] &,html[lang=nld] &,html[lang=nor] &,html[lang=por] &,html[lang=rus] &,html[lang=spa] & {
             font-size: 2rem
         }
         html[lang=fra] & { 
@@ -158,13 +152,13 @@ header {
         }
         @media screen and (max-width: 700px) {
             font-size: 1.5rem;
-            html[lang=fra] &,html[lang=deu] & { 
+            html[lang=fra] &,html[lang=deu] &,html[lang=ita] &,html[lang=nld] &,html[lang=nor] &,html[lang=por] &,html[lang=rus] &,html[lang=spa] & { 
                 font-size: 1.2rem;
             }
         }
         @media screen and (max-width: $brk-mobile-width) {
             font-size: 1rem;
-            html[lang=fra] &,html[lang=deu] & {
+            html[lang=fra] &,html[lang=deu] &,html[lang=ita] &,html[lang=nld] &,html[lang=nor] &,html[lang=por] &,html[lang=rus] &,html[lang=spa] & {
                 font-size: 1rem;
             }
         }
@@ -172,6 +166,18 @@ header {
             font-size: 2em;
             html[lang=deu] &,html[lang=fra] & {
                 font-size: 1.85em;
+            }
+            html[lang=dan] &,html[lang=spa] & {
+                font-size: 1.8em;
+            }
+            html[lang=ita] & {
+                font-size: 1.6em;
+            }
+            html[lang=nld] &,html[lang=por] &,html[lang=rus] & {
+                font-size: 1.5em;
+            }
+            html[lang=nor] & {
+                font-size: 1.35em;
             }
         }
 

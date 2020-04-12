@@ -64,6 +64,15 @@ header {
             background-position: right calc(0% + -10px) top calc(100% - 45px);
         }
     }
+    & .price .b2mfree {
+        top: -30px;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            top: 20px;
+        }
+        @media screen and (max-width: $brk-mobile-width) {
+            left: 180px;
+        }
+    }
     & .pam {
         @media screen and (max-width: $brk-mobile-width) {
             html[lang=deu] & {

@@ -125,11 +125,29 @@ header {
 
         & b {
             font-size: 2em;
-            html[lang=deu] &,html[lang=fra] & {
+            html[lang=deu] &,html[lang=fra] &,html[lang=dan] &,html[lang=ita] &,html[lang=nld] &,html[lang=por] &,html[lang=spa] & {
                 font-size: 1.65em;
+            }
+            html[lang=rus] & {
+                font-size: 1.45em;
+            }
+            html[lang=dan] &,html[lang=por] &,html[lang=rus] &,html[lang=spa] & {
+                & br {
+                    display: none;
+                }
+            }
+            & span {
+                &:nth-of-type(1) {
+                    html[lang=dan] &,html[lang=por] &,html[lang=rus] &,html[lang=spa] & {
+                        margin-right: 9px;
+                    }
+                }
             }
             @media screen and (max-width: 575px) {
                 font-size: 1.3em;
+                html[lang=deu] &,html[lang=fra] &,html[lang=dan] &,html[lang=ita] &,html[lang=nld] &,html[lang=por] &,html[lang=rus] &,html[lang=spa] & {
+                    font-size: 1.3em;
+                }
             }
         }
 

@@ -1,0 +1,67 @@
+<script src="<%= asset('js/navbar.js') %>"></script>
+
+<nav id="navbar-main" class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <a href ="<%- offerLink %>">
+            <img src="img/pia_logo.svg" class="logo">
+        </a>
+        <div class="d-flex align-items-center justify-content-center">
+            <a href ="<%- offerLink %>" class="btn_nav d-md-inline-block d-none mr-4">
+                <%- gettext("Join now") %>
+            </a>
+            <div id="language">
+                <div class="language-content">
+                    <a id="eng" class="active d-flex justify-content-between align-items-center">
+                        <div><img src="img/icon_globe.svg" alt="Globe" class="globe"></div>
+                        <span class="lang-text mx-1">English</span>
+                        <i class="fas fa-caret-down"></i>
+                    </a>
+                </div>
+                <div class="languages_list">
+                    <a href="//www.<%- urlForLang %>" id="eng" class="lang">
+                        <span class="lang-text">English</span>
+                    </a>
+                    <a href="//deu.<%- urlForLang %>" id="deu" class="lang">
+                        <span class="lang-text">Deutsch</span>
+                    </a>
+                    <a href="//fra.<%- urlForLang %>" id="fra" class="lang">
+                        <span class="lang-text">Français</span>
+                    </a>
+                    <a href="//dnk.<%- urlForLang %>" id="dan" class="lang">
+                        <span class="lang-text">Dansk</span>
+                    </a>
+                    <a href="//ita.<%- urlForLang %>" id="ita" class="lang">
+                        <span class="lang-text">Italiano</span>
+                    </a>
+                    <a href="//jpn.<%- urlForLang %>" id="jpn" class="lang">
+                        <span class="lang-text">日本語</span>
+                    </a>
+                    <a href="//nld.<%- urlForLang %>" id="nld" class="lang">
+                        <span class="lang-text">Nederlands</span>
+                    </a>
+                    <a href="//nor.<%- urlForLang %>" id="nor" class="lang">
+                        <span class="lang-text">Norsk</span>
+                    </a>
+                    <a href="//bra.<%- urlForLang %>" id="por" class="lang">
+                        <span class="lang-text">Português</span>
+                    </a>
+                    <a href="//rus.<%- urlForLang %>" id="rus" class="lang">
+                        <span class="lang-text">Русский</span>
+                    </a>
+                    <a href="//mex.<%- urlForLang %>" id="spa" class="lang">
+                        <span class="lang-text">Español</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<script async>
+    $(window).ready(function() {
+        const language = '<%- lang %>';
+        if (language !== 'eng') {
+            const langText = $('#navbar-main #language .languages_list a#' + language + ' span').text()
+            $('#navbar-main #language .language-content a span').text(langText);
+        }
+    });
+</script>

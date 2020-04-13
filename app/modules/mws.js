@@ -88,11 +88,11 @@ module.exports = (app) => {
                     break;
                     
                 case 'dan':
-                    res.locals.offerLink = req.offerLink = `https://dan.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://dnk.privateinternetaccess.com/pages/dnk-buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
             
                 case 'ita':
-                    res.locals.offerLink = req.offerLink = `https://ita.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://ita.privateinternetaccess.com/pages/ita-buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
                     
                 case 'jpn':
@@ -100,23 +100,23 @@ module.exports = (app) => {
                     break;
             
                 case 'nld':
-                    res.locals.offerLink = req.offerLink = `https://nld.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://nld.privateinternetaccess.com/pages/nld-buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
                     
                 case 'nor':
-                    res.locals.offerLink = req.offerLink = `https://nor.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://nor.privateinternetaccess.com/pages/nor-buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
             
                 case 'por':
-                    res.locals.offerLink = req.offerLink = `https://bra.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://bra.privateinternetaccess.com/pages/bra-buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
                     
                 case 'rus':
-                    res.locals.offerLink = req.offerLink = `https://rus.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://rus.privateinternetaccess.com/pages/rus-buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
             
                 case 'spa':
-                    res.locals.offerLink = req.offerLink = `https://mex.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://mex.privateinternetaccess.com/pages/mex-buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
                     
                 default:

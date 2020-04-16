@@ -138,5 +138,9 @@
     "kodi": {
         "offer_ID": 1398,
         "CPP_ID": ""
+    },
+    "youtube": {
+        "offer_ID": 1406,
+        "CPP_ID": ""
     }
 }

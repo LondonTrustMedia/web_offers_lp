@@ -12,10 +12,11 @@
             <% include ../navbar/header_bar %>  
             <div class="container">
                 <div class="col-65">
-                    <h1 class="mt-3 mb-0"><%- format(gettext('The VPN recommended by<br><b>%s</b>'),[query.channel.replace(/_/g, " ")]) %></h1>
+                    <h1 class="mt-3 mb-0"><%- format(gettext('The VPN recommended by<br><b>%s</b>'),["<img src=\"https://nitool.s3.amazonaws.com/logos/" + escape(query.channel) + ".png\" alt=\"" + query.channel.replace(/_/g, " ") + "\" onerror=\"this.parentElement.innerHTML ='" + query.channel.replace(/_/g, " ") + "\'\">"]) %></h1>
                     <div class="d-inline-block text-center position-relative">
                         <% include ../partials/price_block %>
                         <% include ../partials/b2mfree_new %>
+                        
                         <a href="<%- offerLink %>" class="btn_wave orange my-3 d-md-inline-block d-none"><%- format(gettext("Save %s% Now"),[prices.blocks[1].discount]) %></a>
                         <h3 class="mb-4"><%- format(gettext("Sign-up now & get %s extra months <span class='text-uppercase'>free</span>"),[2]) %></h3>
                     </div>

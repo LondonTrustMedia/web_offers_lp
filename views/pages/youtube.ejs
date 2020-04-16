@@ -12,7 +12,7 @@
             <% include ../navbar/header_bar %>  
             <div class="container">
                 <div class="col-65">
-                    <h1 class="mt-3 mb-0"><%- format(gettext('The VPN recommended by<br><b>%s</b>'),[query.channel]) %></h1>
+                    <h1 class="mt-3 mb-0"><%- format(gettext('The VPN recommended by<br><b>%s</b>'),[query.channel.replace(/_/g, " ")]) %></h1>
                     <div class="d-inline-block text-center position-relative">
                         <% include ../partials/price_block %>
                         <% include ../partials/b2mfree_new %>

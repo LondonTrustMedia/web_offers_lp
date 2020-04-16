@@ -1,12 +1,8 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-03 10:31\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-31 12:25+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-16 13:13\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
       },
-      "US Dollars": [
-         null,
-         "米国ドル"
-      ],
       "Afghanistan": [
          null,
          "アフガニスタン"
@@ -999,9 +995,289 @@
          null,
          "ジンバブエ"
       ],
+      "US Dollars": [
+         null,
+         "米国ドル"
+      ],
       "Join now": [
          null,
          "今すぐ申し込む"
+      ],
+      "Based on %s reviews": [
+         null,
+         "%s件のレビューに基づく"
+      ],
+      "Read full review": [
+         null,
+         "レビュー全体を読む"
+      ],
+      "Trusted By Companies Including:": [
+         null,
+         "以下を含む、さまざまな企業からの信頼を得ています："
+      ],
+      "World-class VPN service:": [
+         null,
+         "世界一流のVPNサービス："
+      ],
+      "Protect your online privacy and identity": [
+         null,
+         "オンライン上でのプライバシーとアイデンティティを保護"
+      ],
+      "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
+         null,
+         "プライベートなIPアドレスを使って匿名で閲覧することや、強力な暗号化機能でISPや公衆WiFiネットワークからご自身を守ることができます。"
+      ],
+      "Unblock Streaming": [
+         null,
+         "ストリーミングのブロックを解除"
+      ],
+      "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.": [
+         null,
+         "Netflix、Disney Plus、Amazonプライムビデオ、HBO GOなどのプラットフォームで、数多くの新しいコンテンツにアクセスできます。"
+      ],
+      "The World's Leading VPN": [
+         null,
+         "世界をリードするVPN"
+      ],
+      "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.": [
+         null,
+         "Private Internet Accessは、最速のスピードと最も充実した暗号化機能を提供します。そのため、バッファリングや読み込み時間の低下がない完璧なストリーミング体験をお楽しみいただけます。"
+      ],
+      "Monthly": [
+         null,
+         "月々"
+      ],
+      "Months": [
+         null,
+         "か月"
+      ],
+      "Yearly": [
+         null,
+         "年間"
+      ],
+      "Years": [
+         null,
+         "年"
+      ],
+      "Best value": [
+         null,
+         "最もお得"
+      ],
+      "Save <b>%s%</b>": [
+         null,
+         "<b>%s%</b> OFF"
+      ],
+      "/mo": [
+         null,
+         "／月"
+      ],
+      "<del>%s</del> %s per month": [
+         null,
+         "<del>%s</del> %s（1か月ごと）"
+      ],
+      "<del>%s</del> %s per %s months": [
+         null,
+         "<del>%s</del> %s（%sか月ごと）"
+      ],
+      "<del>%s</del> %s per year": [
+         null,
+         "<del>%s</del> %s（1年ごと）"
+      ],
+      "<del>%s</del>%s per %s years": [
+         null,
+         "<del>%s</del>%s（%s年ごと）"
+      ],
+      "Sign up now": [
+         null,
+         "今すぐ登録"
+      ],
+      "Best<br>value": [
+         null,
+         "最も<br>お得"
+      ],
+      "+%s extra<br>months free": [
+         null,
+         "追加の%sか月間<br>が無料"
+      ],
+      "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
+         null,
+         "金額はすべて%sで表示されています。また、割引は、現在の月間サービス料である%s／月に基づいて計算されています。"
+      ],
+      "Why choose Private Internet Access?": [
+         null,
+         "Private Internet Accessを選ぶ理由"
+      ],
+      "Total Privacy": [
+         null,
+         "完全なプライバシー"
+      ],
+      "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.": [
+         null,
+         "Private Internet Accessは、ユーザーのオンライン活動の記録を一切保持しません。完全なプライバシーを確保でき、あなたがオンラインで何をしているかは誰にも知られないため、安心です。"
+      ],
+      "Easy to use": [
+         null,
+         "使いやすい"
+      ],
+      "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.": [
+         null,
+         "ユーザーの技術的なスキルに関係なく、Private Internet Accessは市場で最も使いやすいVPNアプリの1つです。ワンクリックまたはワンタップで接続でき、あなたのデータは即座に暗号化されます。"
+      ],
+      "Secure VPN Protocols": [
+         null,
+         "安全なVPNプロトコル"
+      ],
+      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
+         null,
+         "弊社のアプリは、PPTP、OpenVPN、L2TP/IPSecなど、最新かつ最も高度なプロトコルが原動力になっています。"
+      ],
+      "%s devices simultaneously": [
+         null,
+         "同時に%s台のデバイス"
+      ],
+      "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time.": [
+         null,
+         "お持ちのすべてのデバイスを保護できます。Private Internet Accessでは、1つの契約で、最大%s台のデバイスからの同時接続が可能です。"
+      ],
+      "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
+         null,
+         "弊社の読者たちは、プライベートな閲覧データを保護するにはPrivate Internet Accessが一番のおすすめと評価しています。"
+      ],
+      "Private Internet Access | Anonymous VPN Service Provider": [
+         null,
+         "Private Internet Access | 匿名VPNサービスプロバイダ"
+      ],
+      "As recommended by": [
+         null,
+         "推奨 - "
+      ],
+      "Limited Time Only! <span class='color_pia_green'>Act Now</span>": [
+         null,
+         "期間限定！ <span class='color_pia_green'>今すぐご契約</span>"
+      ],
+      "%s<br><span>day</span>": [
+         null,
+         "%s<br><span>日</span>"
+      ],
+      "money back guarantee": [
+         null,
+         "返金保証"
+      ],
+      "Remember, you're not risking anything.": [
+         null,
+         "リスクがないことをお忘れなく。"
+      ],
+      "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back.": [
+         null,
+         "<b>Private Internet Access</b>に100%ご満足いただけなかった場合には、<br>%s日間以内に返金をお求めください。そうすれば、全額を払い戻しいたします。"
+      ],
+      "FREE": [
+         null,
+         "無料"
+      ],
+      "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE": [
+         null,
+         "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>追加月間</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>無料"
+      ],
+      "Connect to servers from all over the world": [
+         null,
+         "世界各地からサーバーに接続"
+      ],
+      "Servers": [
+         null,
+         "サーバー"
+      ],
+      "Countries": [
+         null,
+         "国"
+      ],
+      "for ONLY": [
+         null,
+         "たったの"
+      ],
+      "/month": [
+         null,
+         "／月"
+      ],
+      "Proud Sponsor Of": [
+         null,
+         "スポンサー："
+      ],
+      "Compatible with all popular desktop and mobile operating systems": [
+         null,
+         "主要なすべてのデスクトップ／モバイルオペレーティングシステムに対応"
+      ],
+      "For a Limited Time Only<br>Grab our": [
+         null,
+         "期間限定<br>お得な"
+      ],
+      "DISCOUNT": [
+         null,
+         "割引"
+      ],
+      "Experience": [
+         null,
+         "エクスペリエンス"
+      ],
+      "Total Online Freedom": [
+         null,
+         "オンライン上での完全な自由"
+      ],
+      "Bypass censorship and unblock sites and content you don't have access to": [
+         null,
+         "検閲を回避し、アクセスできないサイトやコンテンツのブロックを解除できます。"
+      ],
+      "Secure Protection on Public Wi-Fi": [
+         null,
+         "公衆WiFiでの確実な保護"
+      ],
+      "Keep your data safe and private while connecting to any poorly secured network": [
+         null,
+         "安全性の低いネットワークに接続しているときに、データを安全かつプライベートに保ちます。"
+      ],
+      "Unlimited Bandwidth & Fast Download Speeds": [
+         null,
+         "無制限の帯域幅と高速ダウンロード"
+      ],
+      "Keep your downloads private and experience lightning fast speeds for P2P torrenting": [
+         null,
+         "P2Pトレントに対して、プライベートなダウンロードを実行し、超高速スピードを体験できます。"
+      ],
+      "Ad blocking": [
+         null,
+         "広告のブロック"
+      ],
+      "With Private Internet Access you can block ads, trackers, and malware": [
+         null,
+         "Private Internet Accessがあれば、広告、トラッカー、マルウェアをブロックできます。"
+      ],
+      "Get Private Internet Access VPN": [
+         null,
+         "Private Internet Access VPNを購入"
+      ],
+      "For a Limited Time Only": [
+         null,
+         ""
+      ],
+      "Your IP:": [
+         null,
+         "IPアドレス:"
+      ],
+      "Your Location:": [
+         null,
+         "場所："
+      ],
+      "Your ISP:": [
+         null,
+         "ご利用のISP："
+      ],
+      "Your Status:": [
+         null,
+         "ステータス："
+      ],
+      "You are not protected": [
+         null,
+         "保護されていません"
       ],
       "OOPS!": [
          null,
@@ -1022,10 +1298,6 @@
       "Unblock restricted content libraries easily<br> with Private Internet Access": [
          null,
          "Private Internet Accessで<br>制限がかけられたコンテンツライブラリを簡単にブロック解除"
-      ],
-      "Get Private Internet Access VPN": [
-         null,
-         "Private Internet Access VPNを購入"
       ],
       "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>": [
          null,
@@ -1155,9 +1427,33 @@
          null,
          "Private Internet Accessは、オープンインターネットの信念の下、弊社のVPNユーザーがブロックに直面することがないよう常に機能しています。今すぐ弊社サービスをご利用ください。そうすれば、なぜPrivate Internet Accessが最も優れたオンラインストリーミング用VPNと言われているかがお分かりになるでしょう。"
       ],
-      "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
+      "The VPN recommended by<br><b>%s</b>": [
          null,
-         "攻撃不能なオンラインセキュリティ<br><b><span class=\"color_pia_light_orange\">%s用の</span><br>最も優れたVPN</b>"
+         ""
+      ],
+      "Save %s% Now": [
+         null,
+         ""
+      ],
+      "Sign-up now & get %s extra months <span class='text-uppercase'>free</span>": [
+         null,
+         ""
+      ],
+      "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
+         null,
+         "是非お試しください！ 世界で<br><b>最も<span class='color_pia_light_orange'>信頼できる</span><br><span class='color_pia_light_orange'>安全なVPN</span></b>"
+      ],
+      "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
+         null,
+         "リスクなしでお試しいただけます！<i class='fas fa-award'></i> %s日返金保証"
+      ],
+      "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN": [
+         null,
+         "最も安全な方法で<br><b><span class=\"text-uppercase color_pia_light_orange\">オンライン上での完全なプライバシー</span></b><br>Private Internet Access VPNを入手"
+      ],
+      "100%</span> No Logs & Records": [
+         null,
+         "100%</span> ログ＆記録は一切なし"
       ],
       "Rated as the Best VPN Service In<br><b><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
@@ -1175,9 +1471,9 @@
          null,
          "%s台のデバイス"
       ],
-      "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
+      "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
-         "最良の対策<br><b>公衆WiFiで<span class='color_pia_light_orange'><span class='text-uppercase'>安全</span>を維持</span><br>＆ハッキングされる<span class='color_pia_light_orange text-uppercase'>リスクを回避</span></b>"
+         "攻撃不能なオンラインセキュリティ<br><b><span class=\"color_pia_light_orange\">%s用の</span><br>最も優れたVPN</b>"
       ],
       "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>": [
          null,
@@ -1267,289 +1563,9 @@
          null,
          "いいえ。Private Internet Accessは、ログを一切残さないプレミアムVPNです。つまり、弊社は、あなたが弊社のソフトウェアと共にどのようなソフトウェアを使用しているのかさえわかりません。また、弊社のサーバーはすべて無制限の帯域幅を提供しているため、スロットリングもありません。今すぐPrivate Internet Accessに申し込んで、検閲のない無制限のインターネットをお楽しみください。"
       ],
-      "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
+      "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
          null,
-         "是非お試しください！ 世界で<br><b>最も<span class='color_pia_light_orange'>信頼できる</span><br><span class='color_pia_light_orange'>安全なVPN</span></b>"
-      ],
-      "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
-         null,
-         "リスクなしでお試しいただけます！<i class='fas fa-award'></i> %s日返金保証"
-      ],
-      "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN": [
-         null,
-         "最も安全な方法で<br><b><span class=\"text-uppercase color_pia_light_orange\">オンライン上での完全なプライバシー</span></b><br>Private Internet Access VPNを入手"
-      ],
-      "100%</span> No Logs & Records": [
-         null,
-         "100%</span> ログ＆記録は一切なし"
-      ],
-      "Proud Sponsor Of": [
-         null,
-         "スポンサー："
-      ],
-      "Monthly": [
-         null,
-         "月々"
-      ],
-      "Months": [
-         null,
-         "か月"
-      ],
-      "Yearly": [
-         null,
-         "年間"
-      ],
-      "Years": [
-         null,
-         "年"
-      ],
-      "Best value": [
-         null,
-         "最もお得"
-      ],
-      "Save <b>%s%</b>": [
-         null,
-         "<b>%s%</b> OFF"
-      ],
-      "/mo": [
-         null,
-         "／月"
-      ],
-      "<del>%s</del> %s per month": [
-         null,
-         "<del>%s</del> %s（1か月ごと）"
-      ],
-      "<del>%s</del> %s per %s months": [
-         null,
-         "<del>%s</del> %s（%sか月ごと）"
-      ],
-      "<del>%s</del> %s per year": [
-         null,
-         "<del>%s</del> %s（1年ごと）"
-      ],
-      "<del>%s</del>%s per %s years": [
-         null,
-         "<del>%s</del>%s（%s年ごと）"
-      ],
-      "Sign up now": [
-         null,
-         "今すぐ登録"
-      ],
-      "Best<br>value": [
-         null,
-         "最も<br>お得"
-      ],
-      "+%s extra<br>months free": [
-         null,
-         "追加の%sか月間<br>が無料"
-      ],
-      "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
-         null,
-         "金額はすべて%sで表示されています。また、割引は、現在の月間サービス料である%s／月に基づいて計算されています。"
-      ],
-      "Trusted By Companies Including:": [
-         null,
-         "以下を含む、さまざまな企業からの信頼を得ています："
-      ],
-      "Why choose Private Internet Access?": [
-         null,
-         "Private Internet Accessを選ぶ理由"
-      ],
-      "Total Privacy": [
-         null,
-         "完全なプライバシー"
-      ],
-      "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.": [
-         null,
-         "Private Internet Accessは、ユーザーのオンライン活動の記録を一切保持しません。完全なプライバシーを確保でき、あなたがオンラインで何をしているかは誰にも知られないため、安心です。"
-      ],
-      "Easy to use": [
-         null,
-         "使いやすい"
-      ],
-      "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.": [
-         null,
-         "ユーザーの技術的なスキルに関係なく、Private Internet Accessは市場で最も使いやすいVPNアプリの1つです。ワンクリックまたはワンタップで接続でき、あなたのデータは即座に暗号化されます。"
-      ],
-      "Secure VPN Protocols": [
-         null,
-         "安全なVPNプロトコル"
-      ],
-      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
-         null,
-         "弊社のアプリは、PPTP、OpenVPN、L2TP/IPSecなど、最新かつ最も高度なプロトコルが原動力になっています。"
-      ],
-      "%s devices simultaneously": [
-         null,
-         "同時に%s台のデバイス"
-      ],
-      "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time.": [
-         null,
-         "お持ちのすべてのデバイスを保護できます。Private Internet Accessでは、1つの契約で、最大%s台のデバイスからの同時接続が可能です。"
-      ],
-      "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
-         null,
-         "弊社の読者たちは、プライベートな閲覧データを保護するにはPrivate Internet Accessが一番のおすすめと評価しています。"
-      ],
-      "World-class VPN service:": [
-         null,
-         "世界一流のVPNサービス："
-      ],
-      "Protect your online privacy and identity": [
-         null,
-         "オンライン上でのプライバシーとアイデンティティを保護"
-      ],
-      "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
-         null,
-         "プライベートなIPアドレスを使って匿名で閲覧することや、強力な暗号化機能でISPや公衆WiFiネットワークからご自身を守ることができます。"
-      ],
-      "Unblock Streaming": [
-         null,
-         "ストリーミングのブロックを解除"
-      ],
-      "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.": [
-         null,
-         "Netflix、Disney Plus、Amazonプライムビデオ、HBO GOなどのプラットフォームで、数多くの新しいコンテンツにアクセスできます。"
-      ],
-      "The World's Leading VPN": [
-         null,
-         "世界をリードするVPN"
-      ],
-      "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.": [
-         null,
-         "Private Internet Accessは、最速のスピードと最も充実した暗号化機能を提供します。そのため、バッファリングや読み込み時間の低下がない完璧なストリーミング体験をお楽しみいただけます。"
-      ],
-      "Experience": [
-         null,
-         "エクスペリエンス"
-      ],
-      "Total Online Freedom": [
-         null,
-         "オンライン上での完全な自由"
-      ],
-      "Bypass censorship and unblock sites and content you don't have access to": [
-         null,
-         "検閲を回避し、アクセスできないサイトやコンテンツのブロックを解除できます。"
-      ],
-      "Secure Protection on Public Wi-Fi": [
-         null,
-         "公衆WiFiでの確実な保護"
-      ],
-      "Keep your data safe and private while connecting to any poorly secured network": [
-         null,
-         "安全性の低いネットワークに接続しているときに、データを安全かつプライベートに保ちます。"
-      ],
-      "Unlimited Bandwidth & Fast Download Speeds": [
-         null,
-         "無制限の帯域幅と高速ダウンロード"
-      ],
-      "Keep your downloads private and experience lightning fast speeds for P2P torrenting": [
-         null,
-         "P2Pトレントに対して、プライベートなダウンロードを実行し、超高速スピードを体験できます。"
-      ],
-      "Ad blocking": [
-         null,
-         "広告のブロック"
-      ],
-      "With Private Internet Access you can block ads, trackers, and malware": [
-         null,
-         "Private Internet Accessがあれば、広告、トラッカー、マルウェアをブロックできます。"
-      ],
-      "Limited Time Only! <span class='color_pia_green'>Act Now</span>": [
-         null,
-         "期間限定！ <span class='color_pia_green'>今すぐご契約</span>"
-      ],
-      "%s<br><span>day</span>": [
-         null,
-         "%s<br><span>日</span>"
-      ],
-      "money back guarantee": [
-         null,
-         "返金保証"
-      ],
-      "Remember, you're not risking anything.": [
-         null,
-         "リスクがないことをお忘れなく。"
-      ],
-      "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back.": [
-         null,
-         "<b>Private Internet Access</b>に100%ご満足いただけなかった場合には、<br>%s日間以内に返金をお求めください。そうすれば、全額を払い戻しいたします。"
-      ],
-      "Based on %s reviews": [
-         null,
-         "%s件のレビューに基づく"
-      ],
-      "Read full review": [
-         null,
-         "レビュー全体を読む"
-      ],
-      "Compatible with all popular desktop and mobile operating systems": [
-         null,
-         "主要なすべてのデスクトップ／モバイルオペレーティングシステムに対応"
-      ],
-      "FREE": [
-         null,
-         "無料"
-      ],
-      "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE": [
-         null,
-         "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>追加月間</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>無料"
-      ],
-      "For a Limited Time Only<br>Grab our": [
-         null,
-         "期間限定<br>お得な"
-      ],
-      "DISCOUNT": [
-         null,
-         "割引"
-      ],
-      "for ONLY": [
-         null,
-         "たったの"
-      ],
-      "/month": [
-         null,
-         "／月"
-      ],
-      "Private Internet Access | Anonymous VPN Service Provider": [
-         null,
-         "Private Internet Access | 匿名VPNサービスプロバイダ"
-      ],
-      "Connect to servers from all over the world": [
-         null,
-         "世界各地からサーバーに接続"
-      ],
-      "Servers": [
-         null,
-         "サーバー"
-      ],
-      "Countries": [
-         null,
-         "国"
-      ],
-      "Your IP:": [
-         null,
-         "IPアドレス:"
-      ],
-      "Your Location:": [
-         null,
-         "場所："
-      ],
-      "Your ISP:": [
-         null,
-         "ご利用のISP："
-      ],
-      "Your Status:": [
-         null,
-         "ステータス："
-      ],
-      "You are not protected": [
-         null,
-         "保護されていません"
-      ],
-      "As recommended by": [
-         null,
-         "推奨 - "
+         "最良の対策<br><b>公衆WiFiで<span class='color_pia_light_orange'><span class='text-uppercase'>安全</span>を維持</span><br>＆ハッキングされる<span class='color_pia_light_orange text-uppercase'>リスクを回避</span></b>"
       ]
    }
 }

@@ -140,6 +140,15 @@ header {
     & span {
       color: $pia-light-orange;
     }
+    & + .position-relative {
+      max-width: 500px;
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        max-width: 285px;
+      }
+      & + div {
+        max-width: 500px;
+      }
+    }
   }
   & h3 {
     @media screen and (max-width: $brk-ipad-width - 1) {

@@ -1,12 +1,8 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Norwegian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-03 10:31\nLanguage: no_NO\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-31 12:25+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: no\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Norwegian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-16 13:13\nLanguage: no_NO\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: no\nX-Crowdin-File: messages.pot\n"
       },
-      "US Dollars": [
-         null,
-         "Amerikanske dollar (USD)"
-      ],
       "Afghanistan": [
          null,
          "Afghanistan"
@@ -999,9 +995,289 @@
          null,
          "Zimbabwe"
       ],
+      "US Dollars": [
+         null,
+         "Amerikanske dollar (USD)"
+      ],
       "Join now": [
          null,
          "Bli med nå"
+      ],
+      "Based on %s reviews": [
+         null,
+         "Basert på %s omtaler"
+      ],
+      "Read full review": [
+         null,
+         "Les hele omtalen"
+      ],
+      "Trusted By Companies Including:": [
+         null,
+         "Betrodd av blant annet disse selskapene:"
+      ],
+      "World-class VPN service:": [
+         null,
+         "VPN-tjeneste i verdensklasse:"
+      ],
+      "Protect your online privacy and identity": [
+         null,
+         "Beskytt personopplysninger og identitet på nettet"
+      ],
+      "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
+         null,
+         "Surf anonymt med skjult IP-adresse og bruk sterk kryptering til å beskytte deg mot ISP-er og på offentlige Wi-Fi-nettverk."
+      ],
+      "Unblock Streaming": [
+         null,
+         "Strømming uten blokkering"
+      ],
+      "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.": [
+         null,
+         "Få tilgang til massevis av nytt innhold på plattformer som Netflix, Disney Plus, Amazon Prime Video, HBO GO med flere."
+      ],
+      "The World's Leading VPN": [
+         null,
+         "Verdens ledende VPN"
+      ],
+      "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.": [
+         null,
+         "Private Internet Access har de høyeste hastighetene og den beste krypteringen. Så skaff deg en perfekt strømmeopplevelse uten bufring og treg nedlasting."
+      ],
+      "Monthly": [
+         null,
+         "Månedlig"
+      ],
+      "Months": [
+         null,
+         "måneder"
+      ],
+      "Yearly": [
+         null,
+         "Årlig"
+      ],
+      "Years": [
+         null,
+         "år"
+      ],
+      "Best value": [
+         null,
+         "Mest for pengene"
+      ],
+      "Save <b>%s%</b>": [
+         null,
+         "Spar <b>%s %</b>"
+      ],
+      "/mo": [
+         null,
+         "/md."
+      ],
+      "<del>%s</del> %s per month": [
+         null,
+         "<del>%s</del> %s per måned"
+      ],
+      "<del>%s</del> %s per %s months": [
+         null,
+         "<del>%s</del> %s per %s måneder"
+      ],
+      "<del>%s</del> %s per year": [
+         null,
+         "<del>%s</del> %s per år"
+      ],
+      "<del>%s</del>%s per %s years": [
+         null,
+         "<del>%s</del>%s per %s år"
+      ],
+      "Sign up now": [
+         null,
+         "Registrer deg nå"
+      ],
+      "Best<br>value": [
+         null,
+         "Mest for<br>pengene"
+      ],
+      "+%s extra<br>months free": [
+         null,
+         "+ %s ekstra<br>måneder gratis"
+      ],
+      "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
+         null,
+         "Alle beløp vises i %s, og alle rabatter viser et avslag som er basert på gjeldende månedlige tjenestepris på %s per måned"
+      ],
+      "Why choose Private Internet Access?": [
+         null,
+         "Hvorfor velge Private Internet Access?"
+      ],
+      "Total Privacy": [
+         null,
+         "Fullstendig personvern"
+      ],
+      "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.": [
+         null,
+         "Private Internet Access registrerer aldri brukernes nettaktiviteter. Du kan stole på at personvernet ditt blir helt og fullt ivaretatt, og at ingen kan få vite hva du gjør på nettet."
+      ],
+      "Easy to use": [
+         null,
+         "Enkel bruk"
+      ],
+      "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.": [
+         null,
+         "Uansett hvilke tekniske ferdigheter du har, så er Private Internet Access en av markedets mest brukervennlige VPN-apper. Det eneste som kreves, er ett klikk eller trykk, så krypteres dataene umiddelbart."
+      ],
+      "Secure VPN Protocols": [
+         null,
+         "Sikre VPN-protokoller"
+      ],
+      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
+         null,
+         "Appen vår er basert på de nyeste og mest avanserte protokollene, blant annet PPTP, OpenVPN og L2TP/IPSec."
+      ],
+      "%s devices simultaneously": [
+         null,
+         "%s enheter samtidig"
+      ],
+      "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time.": [
+         null,
+         "Hold alle enhetene dine beskyttet. Med bare ett Private Internet Access VPN-abonnement kan du koble til opptil %s enheter samtidig."
+      ],
+      "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
+         null,
+         "Leserne våre har gjort det klinkende klart at Private Internet Access bør være førstevalget for den som ønsker å beskytte surfedataene sine."
+      ],
+      "Private Internet Access | Anonymous VPN Service Provider": [
+         null,
+         "Private Internet Access | Tilbyder av anonymt VPN"
+      ],
+      "As recommended by": [
+         null,
+         "Som anbefalt av"
+      ],
+      "Limited Time Only! <span class='color_pia_green'>Act Now</span>": [
+         null,
+         "Kun begrenset tid! <span class='color_pia_green'>Handle nå</span>"
+      ],
+      "%s<br><span>day</span>": [
+         null,
+         "%s<br><span>dag</span>"
+      ],
+      "money back guarantee": [
+         null,
+         "pengene-tilbake-garanti"
+      ],
+      "Remember, you're not risking anything.": [
+         null,
+         "Husk at du ikke risikerer noe som helst."
+      ],
+      "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back.": [
+         null,
+         "Hvis du ikke blir 100 % fornøyd med <b>Private Internet Access</b>,<br>har du %s dager på deg til å be om refusjon, og vi gir deg da pengene tilbake."
+      ],
+      "FREE": [
+         null,
+         "GRATIS"
+      ],
+      "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE": [
+         null,
+         "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EKSTRA MÅNEDER</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATIS"
+      ],
+      "Connect to servers from all over the world": [
+         null,
+         "Koble til servere over hele verden"
+      ],
+      "Servers": [
+         null,
+         "Servere"
+      ],
+      "Countries": [
+         null,
+         "Land"
+      ],
+      "for ONLY": [
+         null,
+         "for KUN"
+      ],
+      "/month": [
+         null,
+         "/måned"
+      ],
+      "Proud Sponsor Of": [
+         null,
+         "Stolt sponsor av"
+      ],
+      "Compatible with all popular desktop and mobile operating systems": [
+         null,
+         "Kompatibelt med alle vanlige operativsystemer for datamaskiner og mobilenheter"
+      ],
+      "For a Limited Time Only<br>Grab our": [
+         null,
+         "Kun begrenset tid<br>Benytt vår"
+      ],
+      "DISCOUNT": [
+         null,
+         "RABATT"
+      ],
+      "Experience": [
+         null,
+         "Ting å glede seg over"
+      ],
+      "Total Online Freedom": [
+         null,
+         "Fullstendig frihet på nettet"
+      ],
+      "Bypass censorship and unblock sites and content you don't have access to": [
+         null,
+         "Unngå sensur og få tilgang til nettsteder og innhold som ellers ville være blokkert"
+      ],
+      "Secure Protection on Public Wi-Fi": [
+         null,
+         "Vær beskyttet på offentlige Wi-Fi-nettverk"
+      ],
+      "Keep your data safe and private while connecting to any poorly secured network": [
+         null,
+         "Hold dataene sikre og private når du kobler deg til nettverk med dårlig sikkerhet"
+      ],
+      "Unlimited Bandwidth & Fast Download Speeds": [
+         null,
+         "Ubegrenset båndbredde og rask nedlasting"
+      ],
+      "Keep your downloads private and experience lightning fast speeds for P2P torrenting": [
+         null,
+         "Beskytt nedlastingen mot innsyn og gled deg over lynrask P2P-torrenting"
+      ],
+      "Ad blocking": [
+         null,
+         "Annonseblokkering"
+      ],
+      "With Private Internet Access you can block ads, trackers, and malware": [
+         null,
+         "Med Private Internet Access kan du blokkere annonser, sporing og skadevare"
+      ],
+      "Get Private Internet Access VPN": [
+         null,
+         "Få Private Internet Access VPN"
+      ],
+      "For a Limited Time Only": [
+         null,
+         ""
+      ],
+      "Your IP:": [
+         null,
+         "Din IP:"
+      ],
+      "Your Location:": [
+         null,
+         "Din plassering:"
+      ],
+      "Your ISP:": [
+         null,
+         "Din ISP:"
+      ],
+      "Your Status:": [
+         null,
+         "Din Status:"
+      ],
+      "You are not protected": [
+         null,
+         "Du er ikke beskyttet"
       ],
       "OOPS!": [
          null,
@@ -1022,10 +1298,6 @@
       "Unblock restricted content libraries easily<br> with Private Internet Access": [
          null,
          "Fjern enkelt blokkering av biblioteker med begrenset<br> innhold med Private Internet Access"
-      ],
-      "Get Private Internet Access VPN": [
-         null,
-         "Få Private Internet Access VPN"
       ],
       "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>": [
          null,
@@ -1155,9 +1427,33 @@
          null,
          " Private Internet Access tror på et åpent Internett og arbeider alltid for å sikre at det ikke finnes blokkeringer for VPN-brukerne våre. Prøv tjenesten vår i dag og se hvorfor Private Internet Access er den beste VPN-tjenesten for strømming på nettet."
       ],
-      "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
+      "The VPN recommended by<br><b>%s</b>": [
          null,
-         "Få ubrytelig nettsikkerhet med<br><b>den beste VPN-tjenesten for<br><span class=\"color_pia_light_orange\">%s</span></b>"
+         ""
+      ],
+      "Save %s% Now": [
+         null,
+         ""
+      ],
+      "Sign-up now & get %s extra months <span class='text-uppercase'>free</span>": [
+         null,
+         ""
+      ],
+      "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
+         null,
+         "Prøv verdens<br><b>mest <span class='color_pia_light_orange'>betrodde</span><br>og <span class='color_pia_light_orange'>sikre VPN-tjeneste</span></b>"
+      ],
+      "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
+         null,
+         "Prøv uten risiko! <i class='fas fa-award'></i> %s-dagers pengene-tilbake-garanti"
+      ],
+      "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN": [
+         null,
+         "Oppdag den sikreste metoden for<br><b><span class=\"text-uppercase color_pia_light_orange\">fullstendig personvern på nettet</span></b><br>Skaff deg Private Internet Access VPN"
+      ],
+      "100%</span> No Logs & Records": [
+         null,
+         "100 %</span> fritt for loggføring og registrering"
       ],
       "Rated as the Best VPN Service In<br><b><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
@@ -1175,9 +1471,9 @@
          null,
          "%s enheter"
       ],
-      "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
+      "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
-         "Opplev den beste metoden<br><b>for <span class='color_pia_light_orange'><span class='text-uppercase'>sikker</span> surfing på offentlig Wi-Fi,</span><br>og <span class='color_pia_light_orange text-uppercase'>bli aldri</span> hacket </b>"
+         "Få ubrytelig nettsikkerhet med<br><b>den beste VPN-tjenesten for<br><span class=\"color_pia_light_orange\">%s</span></b>"
       ],
       "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>": [
          null,
@@ -1267,289 +1563,9 @@
          null,
          "Nei. Private Internet Access er en førsteklasses VPN-tjeneste uten loggføring – noe som betyr at vi ikke engang vet hvilken programvare du bruker sammen med vår. Alle serverne vår tilbyr ubegrenset båndbredde, og vi struper ikke båndbredden til brukerne. Basta. Registrer deg for Private Internet Access i dag og gled deg over ubegrenset og usensurert Internett-tilgang."
       ],
-      "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
+      "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
          null,
-         "Prøv verdens<br><b>mest <span class='color_pia_light_orange'>betrodde</span><br>og <span class='color_pia_light_orange'>sikre VPN-tjeneste</span></b>"
-      ],
-      "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
-         null,
-         "Prøv uten risiko! <i class='fas fa-award'></i> %s-dagers pengene-tilbake-garanti"
-      ],
-      "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN": [
-         null,
-         "Oppdag den sikreste metoden for<br><b><span class=\"text-uppercase color_pia_light_orange\">fullstendig personvern på nettet</span></b><br>Skaff deg Private Internet Access VPN"
-      ],
-      "100%</span> No Logs & Records": [
-         null,
-         "100 %</span> fritt for loggføring og registrering"
-      ],
-      "Proud Sponsor Of": [
-         null,
-         "Stolt sponsor av"
-      ],
-      "Monthly": [
-         null,
-         "Månedlig"
-      ],
-      "Months": [
-         null,
-         "måneder"
-      ],
-      "Yearly": [
-         null,
-         "Årlig"
-      ],
-      "Years": [
-         null,
-         "år"
-      ],
-      "Best value": [
-         null,
-         "Mest for pengene"
-      ],
-      "Save <b>%s%</b>": [
-         null,
-         "Spar <b>%s %</b>"
-      ],
-      "/mo": [
-         null,
-         "/md."
-      ],
-      "<del>%s</del> %s per month": [
-         null,
-         "<del>%s</del> %s per måned"
-      ],
-      "<del>%s</del> %s per %s months": [
-         null,
-         "<del>%s</del> %s per %s måneder"
-      ],
-      "<del>%s</del> %s per year": [
-         null,
-         "<del>%s</del> %s per år"
-      ],
-      "<del>%s</del>%s per %s years": [
-         null,
-         "<del>%s</del>%s per %s år"
-      ],
-      "Sign up now": [
-         null,
-         "Registrer deg nå"
-      ],
-      "Best<br>value": [
-         null,
-         "Mest for<br>pengene"
-      ],
-      "+%s extra<br>months free": [
-         null,
-         "+ %s ekstra<br>måneder gratis"
-      ],
-      "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
-         null,
-         "Alle beløp vises i %s, og alle rabatter viser et avslag som er basert på gjeldende månedlige tjenestepris på %s per måned"
-      ],
-      "Trusted By Companies Including:": [
-         null,
-         "Betrodd av blant annet disse selskapene:"
-      ],
-      "Why choose Private Internet Access?": [
-         null,
-         "Hvorfor velge Private Internet Access?"
-      ],
-      "Total Privacy": [
-         null,
-         "Fullstendig personvern"
-      ],
-      "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.": [
-         null,
-         "Private Internet Access registrerer aldri brukernes nettaktiviteter. Du kan stole på at personvernet ditt blir helt og fullt ivaretatt, og at ingen kan få vite hva du gjør på nettet."
-      ],
-      "Easy to use": [
-         null,
-         "Enkel bruk"
-      ],
-      "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.": [
-         null,
-         "Uansett hvilke tekniske ferdigheter du har, så er Private Internet Access en av markedets mest brukervennlige VPN-apper. Det eneste som kreves, er ett klikk eller trykk, så krypteres dataene umiddelbart."
-      ],
-      "Secure VPN Protocols": [
-         null,
-         "Sikre VPN-protokoller"
-      ],
-      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
-         null,
-         "Appen vår er basert på de nyeste og mest avanserte protokollene, blant annet PPTP, OpenVPN og L2TP/IPSec."
-      ],
-      "%s devices simultaneously": [
-         null,
-         "%s enheter samtidig"
-      ],
-      "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time.": [
-         null,
-         "Hold alle enhetene dine beskyttet. Med bare ett Private Internet Access VPN-abonnement kan du koble til opptil %s enheter samtidig."
-      ],
-      "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
-         null,
-         "Leserne våre har gjort det klinkende klart at Private Internet Access bør være førstevalget for den som ønsker å beskytte surfedataene sine."
-      ],
-      "World-class VPN service:": [
-         null,
-         "VPN-tjeneste i verdensklasse:"
-      ],
-      "Protect your online privacy and identity": [
-         null,
-         "Beskytt personopplysninger og identitet på nettet"
-      ],
-      "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
-         null,
-         "Surf anonymt med skjult IP-adresse og bruk sterk kryptering til å beskytte deg mot ISP-er og på offentlige Wi-Fi-nettverk."
-      ],
-      "Unblock Streaming": [
-         null,
-         "Strømming uten blokkering"
-      ],
-      "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.": [
-         null,
-         "Få tilgang til massevis av nytt innhold på plattformer som Netflix, Disney Plus, Amazon Prime Video, HBO GO med flere."
-      ],
-      "The World's Leading VPN": [
-         null,
-         "Verdens ledende VPN"
-      ],
-      "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.": [
-         null,
-         "Private Internet Access har de høyeste hastighetene og den beste krypteringen. Så skaff deg en perfekt strømmeopplevelse uten bufring og treg nedlasting."
-      ],
-      "Experience": [
-         null,
-         "Ting å glede seg over"
-      ],
-      "Total Online Freedom": [
-         null,
-         "Fullstendig frihet på nettet"
-      ],
-      "Bypass censorship and unblock sites and content you don't have access to": [
-         null,
-         "Unngå sensur og få tilgang til nettsteder og innhold som ellers ville være blokkert"
-      ],
-      "Secure Protection on Public Wi-Fi": [
-         null,
-         "Vær beskyttet på offentlige Wi-Fi-nettverk"
-      ],
-      "Keep your data safe and private while connecting to any poorly secured network": [
-         null,
-         "Hold dataene sikre og private når du kobler deg til nettverk med dårlig sikkerhet"
-      ],
-      "Unlimited Bandwidth & Fast Download Speeds": [
-         null,
-         "Ubegrenset båndbredde og rask nedlasting"
-      ],
-      "Keep your downloads private and experience lightning fast speeds for P2P torrenting": [
-         null,
-         "Beskytt nedlastingen mot innsyn og gled deg over lynrask P2P-torrenting"
-      ],
-      "Ad blocking": [
-         null,
-         "Annonseblokkering"
-      ],
-      "With Private Internet Access you can block ads, trackers, and malware": [
-         null,
-         "Med Private Internet Access kan du blokkere annonser, sporing og skadevare"
-      ],
-      "Limited Time Only! <span class='color_pia_green'>Act Now</span>": [
-         null,
-         "Kun begrenset tid! <span class='color_pia_green'>Handle nå</span>"
-      ],
-      "%s<br><span>day</span>": [
-         null,
-         "%s<br><span>dag</span>"
-      ],
-      "money back guarantee": [
-         null,
-         "pengene-tilbake-garanti"
-      ],
-      "Remember, you're not risking anything.": [
-         null,
-         "Husk at du ikke risikerer noe som helst."
-      ],
-      "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back.": [
-         null,
-         "Hvis du ikke blir 100 % fornøyd med <b>Private Internet Access</b>,<br>har du %s dager på deg til å be om refusjon, og vi gir deg da pengene tilbake."
-      ],
-      "Based on %s reviews": [
-         null,
-         "Basert på %s omtaler"
-      ],
-      "Read full review": [
-         null,
-         "Les hele omtalen"
-      ],
-      "Compatible with all popular desktop and mobile operating systems": [
-         null,
-         "Kompatibelt med alle vanlige operativsystemer for datamaskiner og mobilenheter"
-      ],
-      "FREE": [
-         null,
-         "GRATIS"
-      ],
-      "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE": [
-         null,
-         "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EKSTRA MÅNEDER</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATIS"
-      ],
-      "For a Limited Time Only<br>Grab our": [
-         null,
-         "Kun begrenset tid<br>Benytt vår"
-      ],
-      "DISCOUNT": [
-         null,
-         "RABATT"
-      ],
-      "for ONLY": [
-         null,
-         "for KUN"
-      ],
-      "/month": [
-         null,
-         "/måned"
-      ],
-      "Private Internet Access | Anonymous VPN Service Provider": [
-         null,
-         "Private Internet Access | Tilbyder av anonymt VPN"
-      ],
-      "Connect to servers from all over the world": [
-         null,
-         "Koble til servere over hele verden"
-      ],
-      "Servers": [
-         null,
-         "Servere"
-      ],
-      "Countries": [
-         null,
-         "Land"
-      ],
-      "Your IP:": [
-         null,
-         "Din IP:"
-      ],
-      "Your Location:": [
-         null,
-         "Din plassering:"
-      ],
-      "Your ISP:": [
-         null,
-         "Din ISP:"
-      ],
-      "Your Status:": [
-         null,
-         "Din Status:"
-      ],
-      "You are not protected": [
-         null,
-         "Du er ikke beskyttet"
-      ],
-      "As recommended by": [
-         null,
-         "Som anbefalt av"
+         "Opplev den beste metoden<br><b>for <span class='color_pia_light_orange'><span class='text-uppercase'>sikker</span> surfing på offentlig Wi-Fi,</span><br>og <span class='color_pia_light_orange text-uppercase'>bli aldri</span> hacket </b>"
       ]
    }
 }

@@ -1,12 +1,8 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Spanish\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-03 10:31\nLanguage: es_ES\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-03-31 12:25+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: es-ES\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Spanish\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-16 13:13\nLanguage: es_ES\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: es-ES\nX-Crowdin-File: messages.pot\n"
       },
-      "US Dollars": [
-         null,
-         "Dólares estadounidenses"
-      ],
       "Afghanistan": [
          null,
          "Afganistán"
@@ -999,9 +995,289 @@
          null,
          "Zimbabue"
       ],
+      "US Dollars": [
+         null,
+         "Dólares estadounidenses"
+      ],
       "Join now": [
          null,
          "Únase ahora"
+      ],
+      "Based on %s reviews": [
+         null,
+         "Basado en %s reseñas"
+      ],
+      "Read full review": [
+         null,
+         "Leer reseña completa"
+      ],
+      "Trusted By Companies Including:": [
+         null,
+         "Algunas de las empresas que confían en nosotros:"
+      ],
+      "World-class VPN service:": [
+         null,
+         "Servicio VPN de primer nivel mundial:"
+      ],
+      "Protect your online privacy and identity": [
+         null,
+         "Proteja su privacidad e identidad en internet"
+      ],
+      "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
+         null,
+         "Navegue anónimamente con una dirección IP privada y habilite un cifrado robusto para protegerle de su proveedor de internet y de las redes wifi públicas."
+      ],
+      "Unblock Streaming": [
+         null,
+         "Desbloquee el streaming"
+      ],
+      "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.": [
+         null,
+         "Obtenga acceso a gran cantidad de contenidos nuevos en plataformas como Netflix, Disney Plus, Amazon Prime Video, HBO GO y otras."
+      ],
+      "The World's Leading VPN": [
+         null,
+         "La VPN líder mundial"
+      ],
+      "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.": [
+         null,
+         "Private Internet Access proporciona las velocidades más altas y el mejor cifrado. Disfrute de un streaming perfecto, sin problemas de búfer ni lentas descargas."
+      ],
+      "Monthly": [
+         null,
+         "Mensualmente"
+      ],
+      "Months": [
+         null,
+         "Meses"
+      ],
+      "Yearly": [
+         null,
+         "Anualmente"
+      ],
+      "Years": [
+         null,
+         "Años"
+      ],
+      "Best value": [
+         null,
+         "Mejor precio"
+      ],
+      "Save <b>%s%</b>": [
+         null,
+         "Ahorre <b>%s %</b>"
+      ],
+      "/mo": [
+         null,
+         "/mes"
+      ],
+      "<del>%s</del> %s per month": [
+         null,
+         "<del>%s</del> %s al mes"
+      ],
+      "<del>%s</del> %s per %s months": [
+         null,
+         "<del>%s</del> %s por %s meses"
+      ],
+      "<del>%s</del> %s per year": [
+         null,
+         "<del>%s</del> %s al año"
+      ],
+      "<del>%s</del>%s per %s years": [
+         null,
+         "<del>%s</del>%s por %s años"
+      ],
+      "Sign up now": [
+         null,
+         "Dese de alta ahora"
+      ],
+      "Best<br>value": [
+         null,
+         "Mejor<br>precio"
+      ],
+      "+%s extra<br>months free": [
+         null,
+         "+ %s meses<br>extra gratis"
+      ],
+      "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
+         null,
+         "Todos los importes se muestran en %s y los descuentos reflejan una rebaja basada en el precio mensual actual del servicio de %s al mes"
+      ],
+      "Why choose Private Internet Access?": [
+         null,
+         "¿Por qué elegir Private Internet Access?"
+      ],
+      "Total Privacy": [
+         null,
+         "Privacidad total"
+      ],
+      "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.": [
+         null,
+         "Private Internet Access nunca conserva ningún registro de las actividades en internet de los usuarios. Puede estar tranquilo sabiendo que su privacidad es absoluta y que nadie sabe lo que hace en línea."
+      ],
+      "Easy to use": [
+         null,
+         "Fácil de usar"
+      ],
+      "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.": [
+         null,
+         "Sean cuales sean sus conocimientos técnicos, Private Internet Access es una de las aplicaciones de VPN más fáciles que existen. Para conectarse, basta con 1 solo clic o toque y sus datos se encriptarán al instante."
+      ],
+      "Secure VPN Protocols": [
+         null,
+         "Protocolos de VPN seguros"
+      ],
+      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
+         null,
+         "Nuestra aplicación emplea los protocolos más recientes y avanzados, como PPTP, OpenVPN y L2TP/IPSec."
+      ],
+      "%s devices simultaneously": [
+         null,
+         "%s dispositivos simultáneamente"
+      ],
+      "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time.": [
+         null,
+         "Mantenga protegidos todos sus dispositivos. Con solo 1 suscripción a la VPN de Private Internet Access, puede conectarse en hasta %s dispositivos al mismo tiempo."
+      ],
+      "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
+         null,
+         "Nuestros lectores dejaron meridianamente claro que Private Internet Access debería ser su primera opción para proteger los datos de navegación privados."
+      ],
+      "Private Internet Access | Anonymous VPN Service Provider": [
+         null,
+         "Private Internet Access | Proveedor de servicio de VPN anónima"
+      ],
+      "As recommended by": [
+         null,
+         "Recomendado por"
+      ],
+      "Limited Time Only! <span class='color_pia_green'>Act Now</span>": [
+         null,
+         "¡Solo por tiempo limitado! <span class='color_pia_green'>Actúe ya</span>"
+      ],
+      "%s<br><span>day</span>": [
+         null,
+         "%s<br><span>día</span>"
+      ],
+      "money back guarantee": [
+         null,
+         "garantía de reembolso"
+      ],
+      "Remember, you're not risking anything.": [
+         null,
+         "Recuerde que no corre ningún riesgo."
+      ],
+      "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back.": [
+         null,
+         "Si no está satisfecho al 100 % con <b>Private Internet Access</b>,<br>tiene %s días enteros para solicitar un reembolso y le devolveremos el dinero."
+      ],
+      "FREE": [
+         null,
+         "GRATIS"
+      ],
+      "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE": [
+         null,
+         "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>MESES EXTRA</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATIS"
+      ],
+      "Connect to servers from all over the world": [
+         null,
+         "Conéctese a servidores de todo el mundo"
+      ],
+      "Servers": [
+         null,
+         "Servidores"
+      ],
+      "Countries": [
+         null,
+         "Países"
+      ],
+      "for ONLY": [
+         null,
+         "por SOLO"
+      ],
+      "/month": [
+         null,
+         "/mes"
+      ],
+      "Proud Sponsor Of": [
+         null,
+         "Orgulloso patrocinador de"
+      ],
+      "Compatible with all popular desktop and mobile operating systems": [
+         null,
+         "Compatible con todos los sistemas operativos populares de escritorio y móviles"
+      ],
+      "For a Limited Time Only<br>Grab our": [
+         null,
+         "Solo por tiempo limitado<br>Aproveche nuestro"
+      ],
+      "DISCOUNT": [
+         null,
+         "DESCUENTO"
+      ],
+      "Experience": [
+         null,
+         "Disfrute de"
+      ],
+      "Total Online Freedom": [
+         null,
+         "Libertad total en internet"
+      ],
+      "Bypass censorship and unblock sites and content you don't have access to": [
+         null,
+         "Eluda la censura y desbloquee sitios y contenidos a los que no tenga acceso"
+      ],
+      "Secure Protection on Public Wi-Fi": [
+         null,
+         "Protección segura en wifis públicas"
+      ],
+      "Keep your data safe and private while connecting to any poorly secured network": [
+         null,
+         "Preserve la seguridad y privacidad de sus datos mientras se conecta a cualquier red que tenga una seguridad deficiente"
+      ],
+      "Unlimited Bandwidth & Fast Download Speeds": [
+         null,
+         "Ancho de banda ilimitado y altas velocidades de descarga"
+      ],
+      "Keep your downloads private and experience lightning fast speeds for P2P torrenting": [
+         null,
+         "Preserve la privacidad de sus descargas y experimente velocidades ultrarrápidas para los torrents P2P"
+      ],
+      "Ad blocking": [
+         null,
+         "Bloqueo de anuncios"
+      ],
+      "With Private Internet Access you can block ads, trackers, and malware": [
+         null,
+         "Con Private Internet Access, puede bloquear anuncios, rastreadores y malware"
+      ],
+      "Get Private Internet Access VPN": [
+         null,
+         "Obtener la VPN de Private Internet Access"
+      ],
+      "For a Limited Time Only": [
+         null,
+         ""
+      ],
+      "Your IP:": [
+         null,
+         "Su IP:"
+      ],
+      "Your Location:": [
+         null,
+         "Su ubicación:"
+      ],
+      "Your ISP:": [
+         null,
+         "Su ISP:"
+      ],
+      "Your Status:": [
+         null,
+         "Su estado:"
+      ],
+      "You are not protected": [
+         null,
+         "No está protegido"
       ],
       "OOPS!": [
          null,
@@ -1022,10 +1298,6 @@
       "Unblock restricted content libraries easily<br> with Private Internet Access": [
          null,
          "Desbloquee fácilmente bibliotecas de contenido restringido<br> con Private Internet Access"
-      ],
-      "Get Private Internet Access VPN": [
-         null,
-         "Obtener la VPN de Private Internet Access"
       ],
       "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>": [
          null,
@@ -1155,9 +1427,33 @@
          null,
          " En Private Internet Access, creemos en una internet abierta y trabajamos sin cesar para garantizar que no existan bloqueos para los usuarios de nuestra VPN. Use nuestro servicio hoy mismo para ver por qué Private Internet Access es la mejor VPN para el streaming en línea."
       ],
-      "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
+      "The VPN recommended by<br><b>%s</b>": [
          null,
-         "Obtenga una seguridad en línea impenetrable con<br><b>la mejor VPN para<br><span class=\"color_pia_light_orange\">%s</span></b>"
+         ""
+      ],
+      "Save %s% Now": [
+         null,
+         ""
+      ],
+      "Sign-up now & get %s extra months <span class='text-uppercase'>free</span>": [
+         null,
+         ""
+      ],
+      "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
+         null,
+         "Pruebe la<br><b><span class='color_pia_light_orange'>VPN más segura</span><br>y <span class='color_pia_light_orange'>fiable</span></b> del mundo"
+      ],
+      "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
+         null,
+         "¡Pruébelo sin riesgos!<i class='fas fa-award'></i> Garantía de reembolso durante %s días"
+      ],
+      "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN": [
+         null,
+         "Descubra la forma más segura de conseguir una<br><b><span class=\"text-uppercase color_pia_light_orange\">privacidad total en internet</span></b><br>Obtenga la VPN de Private Internet Access"
+      ],
+      "100%</span> No Logs & Records": [
+         null,
+         "100 %</span> sin registros"
       ],
       "Rated as the Best VPN Service In<br><b><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
@@ -1175,9 +1471,9 @@
          null,
          "%s dispositivos"
       ],
-      "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
+      "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
-         "Experimente la mejor forma<br><b>de permanecer <span class='color_pia_light_orange'><span class='text-uppercase'>seguro</span> en redes wifi públicas</span><br>y <span class='color_pia_light_orange text-uppercase'>no se arriesgue nunca</span> a que le hackeen </b>"
+         "Obtenga una seguridad en línea impenetrable con<br><b>la mejor VPN para<br><span class=\"color_pia_light_orange\">%s</span></b>"
       ],
       "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>": [
          null,
@@ -1267,289 +1563,9 @@
          null,
          "No. Private Internet Access es la mejor VPN sin registros y esto significa que ni siquiera sabemos qué software usa junto con el nuestro. Todos nuestros servidores ofrecen ancho de banda ilimitado y no ponemos ningún tope a nuestros usuarios. Punto. Dese de alta en Private Internet Access hoy mismo para disfrutar de internet sin límites y sin censura."
       ],
-      "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
+      "Experience the Best Way<br><b>to Stay <span class='color_pia_light_orange'><span class='text-uppercase'>Safe</span> on Public Wi-Fi</span><br>& <span class='color_pia_light_orange text-uppercase'>Never Risk</span> Getting Hacked </b>": [
          null,
-         "Pruebe la<br><b><span class='color_pia_light_orange'>VPN más segura</span><br>y <span class='color_pia_light_orange'>fiable</span></b> del mundo"
-      ],
-      "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee": [
-         null,
-         "¡Pruébelo sin riesgos!<i class='fas fa-award'></i> Garantía de reembolso durante %s días"
-      ],
-      "Discover The Safest Way to Get<br><b><span class=\"text-uppercase color_pia_light_orange\">Total Online Privacy</span></b><br>Get Private Internet Access VPN": [
-         null,
-         "Descubra la forma más segura de conseguir una<br><b><span class=\"text-uppercase color_pia_light_orange\">privacidad total en internet</span></b><br>Obtenga la VPN de Private Internet Access"
-      ],
-      "100%</span> No Logs & Records": [
-         null,
-         "100 %</span> sin registros"
-      ],
-      "Proud Sponsor Of": [
-         null,
-         "Orgulloso patrocinador de"
-      ],
-      "Monthly": [
-         null,
-         "Mensualmente"
-      ],
-      "Months": [
-         null,
-         "Meses"
-      ],
-      "Yearly": [
-         null,
-         "Anualmente"
-      ],
-      "Years": [
-         null,
-         "Años"
-      ],
-      "Best value": [
-         null,
-         "Mejor precio"
-      ],
-      "Save <b>%s%</b>": [
-         null,
-         "Ahorre <b>%s %</b>"
-      ],
-      "/mo": [
-         null,
-         "/mes"
-      ],
-      "<del>%s</del> %s per month": [
-         null,
-         "<del>%s</del> %s al mes"
-      ],
-      "<del>%s</del> %s per %s months": [
-         null,
-         "<del>%s</del> %s por %s meses"
-      ],
-      "<del>%s</del> %s per year": [
-         null,
-         "<del>%s</del> %s al año"
-      ],
-      "<del>%s</del>%s per %s years": [
-         null,
-         "<del>%s</del>%s por %s años"
-      ],
-      "Sign up now": [
-         null,
-         "Dese de alta ahora"
-      ],
-      "Best<br>value": [
-         null,
-         "Mejor<br>precio"
-      ],
-      "+%s extra<br>months free": [
-         null,
-         "+ %s meses<br>extra gratis"
-      ],
-      "All amounts are shown in %s, and any discounts reflect a reduction based on the current monthly service pricing at %s per month": [
-         null,
-         "Todos los importes se muestran en %s y los descuentos reflejan una rebaja basada en el precio mensual actual del servicio de %s al mes"
-      ],
-      "Trusted By Companies Including:": [
-         null,
-         "Algunas de las empresas que confían en nosotros:"
-      ],
-      "Why choose Private Internet Access?": [
-         null,
-         "¿Por qué elegir Private Internet Access?"
-      ],
-      "Total Privacy": [
-         null,
-         "Privacidad total"
-      ],
-      "Private Internet Access never keeps any records of users' online activities. You can rest assured knowing you have complete privacy, and nobody knows what you're doing online.": [
-         null,
-         "Private Internet Access nunca conserva ningún registro de las actividades en internet de los usuarios. Puede estar tranquilo sabiendo que su privacidad es absoluta y que nadie sabe lo que hace en línea."
-      ],
-      "Easy to use": [
-         null,
-         "Fácil de usar"
-      ],
-      "No matter your technical skills Private Internet Access is one of the easiest VPN apps out there. All it takes to connect is just 1 click or tap and your data will be encrypted instantly.": [
-         null,
-         "Sean cuales sean sus conocimientos técnicos, Private Internet Access es una de las aplicaciones de VPN más fáciles que existen. Para conectarse, basta con 1 solo clic o toque y sus datos se encriptarán al instante."
-      ],
-      "Secure VPN Protocols": [
-         null,
-         "Protocolos de VPN seguros"
-      ],
-      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
-         null,
-         "Nuestra aplicación emplea los protocolos más recientes y avanzados, como PPTP, OpenVPN y L2TP/IPSec."
-      ],
-      "%s devices simultaneously": [
-         null,
-         "%s dispositivos simultáneamente"
-      ],
-      "Keep all your devices protected. With just 1 Private Internet Access VPN subscription you can connect on up to %s devices at the same time.": [
-         null,
-         "Mantenga protegidos todos sus dispositivos. Con solo 1 suscripción a la VPN de Private Internet Access, puede conectarse en hasta %s dispositivos al mismo tiempo."
-      ],
-      "Our readers made it abundantly clear that Private Internet Access should be your first stop for protecting your private browsing data.": [
-         null,
-         "Nuestros lectores dejaron meridianamente claro que Private Internet Access debería ser su primera opción para proteger los datos de navegación privados."
-      ],
-      "World-class VPN service:": [
-         null,
-         "Servicio VPN de primer nivel mundial:"
-      ],
-      "Protect your online privacy and identity": [
-         null,
-         "Proteja su privacidad e identidad en internet"
-      ],
-      "Browse anonymously with a private IP address and enable strong encryption to protect yourself from your ISP and public Wi-Fi networks.": [
-         null,
-         "Navegue anónimamente con una dirección IP privada y habilite un cifrado robusto para protegerle de su proveedor de internet y de las redes wifi públicas."
-      ],
-      "Unblock Streaming": [
-         null,
-         "Desbloquee el streaming"
-      ],
-      "Get access to tons of new content on platforms like Netflix, Disney Plus, Amazon Prime Video, HBO GO, and more.": [
-         null,
-         "Obtenga acceso a gran cantidad de contenidos nuevos en plataformas como Netflix, Disney Plus, Amazon Prime Video, HBO GO y otras."
-      ],
-      "The World's Leading VPN": [
-         null,
-         "La VPN líder mundial"
-      ],
-      "Private Internet Access provides the highest speeds and most encryption. So, get a perfect streaming experience without any buffering or slow loading times.": [
-         null,
-         "Private Internet Access proporciona las velocidades más altas y el mejor cifrado. Disfrute de un streaming perfecto, sin problemas de búfer ni lentas descargas."
-      ],
-      "Experience": [
-         null,
-         "Disfrute de"
-      ],
-      "Total Online Freedom": [
-         null,
-         "Libertad total en internet"
-      ],
-      "Bypass censorship and unblock sites and content you don't have access to": [
-         null,
-         "Eluda la censura y desbloquee sitios y contenidos a los que no tenga acceso"
-      ],
-      "Secure Protection on Public Wi-Fi": [
-         null,
-         "Protección segura en wifis públicas"
-      ],
-      "Keep your data safe and private while connecting to any poorly secured network": [
-         null,
-         "Preserve la seguridad y privacidad de sus datos mientras se conecta a cualquier red que tenga una seguridad deficiente"
-      ],
-      "Unlimited Bandwidth & Fast Download Speeds": [
-         null,
-         "Ancho de banda ilimitado y altas velocidades de descarga"
-      ],
-      "Keep your downloads private and experience lightning fast speeds for P2P torrenting": [
-         null,
-         "Preserve la privacidad de sus descargas y experimente velocidades ultrarrápidas para los torrents P2P"
-      ],
-      "Ad blocking": [
-         null,
-         "Bloqueo de anuncios"
-      ],
-      "With Private Internet Access you can block ads, trackers, and malware": [
-         null,
-         "Con Private Internet Access, puede bloquear anuncios, rastreadores y malware"
-      ],
-      "Limited Time Only! <span class='color_pia_green'>Act Now</span>": [
-         null,
-         "¡Solo por tiempo limitado! <span class='color_pia_green'>Actúe ya</span>"
-      ],
-      "%s<br><span>day</span>": [
-         null,
-         "%s<br><span>día</span>"
-      ],
-      "money back guarantee": [
-         null,
-         "garantía de reembolso"
-      ],
-      "Remember, you're not risking anything.": [
-         null,
-         "Recuerde que no corre ningún riesgo."
-      ],
-      "If you’re not 100% satisfied with <b>Private Internet Access</b>,<br>you have %s full days to ask for a refund and we’ll give you your money back.": [
-         null,
-         "Si no está satisfecho al 100 % con <b>Private Internet Access</b>,<br>tiene %s días enteros para solicitar un reembolso y le devolveremos el dinero."
-      ],
-      "Based on %s reviews": [
-         null,
-         "Basado en %s reseñas"
-      ],
-      "Read full review": [
-         null,
-         "Leer reseña completa"
-      ],
-      "Compatible with all popular desktop and mobile operating systems": [
-         null,
-         "Compatible con todos los sistemas operativos populares de escritorio y móviles"
-      ],
-      "FREE": [
-         null,
-         "GRATIS"
-      ],
-      "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE": [
-         null,
-         "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>MESES EXTRA</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATIS"
-      ],
-      "For a Limited Time Only<br>Grab our": [
-         null,
-         "Solo por tiempo limitado<br>Aproveche nuestro"
-      ],
-      "DISCOUNT": [
-         null,
-         "DESCUENTO"
-      ],
-      "for ONLY": [
-         null,
-         "por SOLO"
-      ],
-      "/month": [
-         null,
-         "/mes"
-      ],
-      "Private Internet Access | Anonymous VPN Service Provider": [
-         null,
-         "Private Internet Access | Proveedor de servicio de VPN anónima"
-      ],
-      "Connect to servers from all over the world": [
-         null,
-         "Conéctese a servidores de todo el mundo"
-      ],
-      "Servers": [
-         null,
-         "Servidores"
-      ],
-      "Countries": [
-         null,
-         "Países"
-      ],
-      "Your IP:": [
-         null,
-         "Su IP:"
-      ],
-      "Your Location:": [
-         null,
-         "Su ubicación:"
-      ],
-      "Your ISP:": [
-         null,
-         "Su ISP:"
-      ],
-      "Your Status:": [
-         null,
-         "Su estado:"
-      ],
-      "You are not protected": [
-         null,
-         "No está protegido"
-      ],
-      "As recommended by": [
-         null,
-         "Recomendado por"
+         "Experimente la mejor forma<br><b>de permanecer <span class='color_pia_light_orange'><span class='text-uppercase'>seguro</span> en redes wifi públicas</span><br>y <span class='color_pia_light_orange text-uppercase'>no se arriesgue nunca</span> a que le hackeen </b>"
       ]
    }
 }

@@ -41,16 +41,10 @@
                     <img src="img/youtube_LP_header_window.png" alt="header" class="header desktop">
                     <img src="img/youtube_LP_tab_header_window.png" alt="header" class="header ipad">
                     <img src="img/youtube_LP_mobi_header_window.png" alt="header" class="header mobi">
-                    <% if(query.channel) { %> 
-                        <% if (channels.indexOf(query.channel.replace(/ /g, "_")) >= 0) { %>
-                            <img src="img/youtube-channels/<%- query.channel.replace(/ /g, "_") %>.jpg" alt="<%- query.channel %>" class="image desktop">
-                            <img src="img/youtube-channels/<%- query.channel.replace(/ /g, "_") %>_tablet.jpg" alt="<%- query.channel %>" class="image ipad">
-                            <img src="img/youtube-channels/<%- query.channel.replace(/ /g, "_") %>_mobile.jpg" alt="<%- query.channel %>" class="image mobi">
-                            <% } else { %>
-                                <img src="img/youtube-channels/default.jpg" alt="default bg" class="image desktop">
-                                <img src="img/youtube-channels/default_tablet.jpg" alt="default bg" class="image ipad">
-                                <img src="img/youtube-channels/default_mobile.jpg" alt="default bg" class="image mobi">
-                            <% } %> 
+                    <% if (query.channel && channels.includes(query.channel.toLowerCase())) { %> 
+                        <img src="img/youtube-channels/<%- query.channel.toLowerCase().replace(/ /g, "_") %>.jpg" alt="<%- query.channel %>" class="image desktop">
+                        <img src="img/youtube-channels/<%- query.channel.toLowerCase().replace(/ /g, "_") %>_tablet.jpg" alt="<%- query.channel %>" class="image ipad">
+                        <img src="img/youtube-channels/<%- query.channel.toLowerCase().replace(/ /g, "_") %>_mobile.jpg" alt="<%- query.channel %>" class="image mobi">
                     <% } else { %>
                         <img src="img/youtube-channels/default.jpg" alt="default bg" class="image desktop">
                         <img src="img/youtube-channels/default_tablet.jpg" alt="default bg" class="image ipad">

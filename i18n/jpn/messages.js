@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-19 09:29\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-19 12:30\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-19 12:23+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1391,9 +1391,9 @@
          null,
          "Private Internet Accessを使ったストリーミングは安全ですか。"
       ],
-      "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
+      "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
          null,
-         "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む29ヶ国（49か所）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでストリーミングしたときのことを心配した方がよいかもしれません。"
+         "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む%sヶ国（%sか所）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでストリーミングしたときのことを心配した方がよいかもしれません。"
       ],
       "Do you have a refund policy?": [
          null,

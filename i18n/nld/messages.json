@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Dutch\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-19 09:28\nLanguage: nl_NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: nl\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Dutch\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-19 12:30\nLanguage: nl_NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-19 12:23+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: nl\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1391,9 +1391,9 @@
          null,
          "Is het veilig om te streamen met Private Internet Access?"
       ],
-      "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
+      "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
          null,
-         "Ja. Private Internet Access biedt een VPN-service met servers op 49 locaties in 29 landen, waaronder de Verenigde Staten, het Verenigd Koninkrijk, Japan en meer. Eigenlijk is de vraag: is het veilig om zonder Private Internet Access te streamen?"
+         "Ja. Private Internet Access biedt een VPN-service met servers op %s locaties in %s landen, waaronder de Verenigde Staten, het Verenigd Koninkrijk, Japan en meer. Eigenlijk is de vraag: is het veilig om zonder Private Internet Access te streamen?"
       ],
       "Do you have a refund policy?": [
          null,

@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Norwegian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-16 13:13\nLanguage: no_NO\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: no\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Norwegian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-19 09:29\nLanguage: no_NO\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: no\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1257,7 +1257,7 @@
       ],
       "For a Limited Time Only": [
          null,
-         ""
+         "Kun begrenset tid"
       ],
       "Your IP:": [
          null,
@@ -1429,15 +1429,15 @@
       ],
       "The VPN recommended by<br><b>%s</b>": [
          null,
-         ""
+         "VPN-løsningen anbefalt av<br><b>%s</b>"
       ],
       "Save %s% Now": [
          null,
-         ""
+         "Spar %s% nå"
       ],
       "Sign-up now & get %s extra months <span class='text-uppercase'>free</span>": [
          null,
-         ""
+         "Registrer deg nå og få %s ekstra måneder <span class='text-uppercase'>gratis</span>"
       ],
       "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
          null,

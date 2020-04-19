@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: Russian\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-04-16 13:13\n"
+"PO-Revision-Date: 2020-04-19 10:09\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1208,7 +1208,7 @@ msgstr "БЕСПЛАТНО"
 
 #: /home/guy/kape/Privateland/views/partials/b2mfree_new.ejs:17
 msgid "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE"
-msgstr "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(1, 0.2341, -0.2341, 1, 46, 120)' font-size='13px'>ДОПОЛНИТЕЛЬНЫХ</text><text font-size='17px' transform='matrix(1, 0.2341, -0.2341, 1, 70, 144)'>МЕСЯЦА</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>БЕСПЛАТНО"
+msgstr "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text font-size='25px' transform='matrix(1, 0.2341, -0.2341, 1, 55, 135)'>МЕСЯЦА</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>БЕСПЛАТНО"
 
 #: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:24
 msgid "Connect to servers from all over the world"

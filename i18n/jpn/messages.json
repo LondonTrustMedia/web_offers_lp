@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-16 13:13\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-19 09:29\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1257,7 +1257,7 @@
       ],
       "For a Limited Time Only": [
          null,
-         ""
+         "期間限定"
       ],
       "Your IP:": [
          null,
@@ -1429,15 +1429,15 @@
       ],
       "The VPN recommended by<br><b>%s</b>": [
          null,
-         ""
+         "<b>%s</b>推奨<br>のVPN"
       ],
       "Save %s% Now": [
          null,
-         ""
+         "今なら%s% OFF"
       ],
       "Sign-up now & get %s extra months <span class='text-uppercase'>free</span>": [
          null,
-         ""
+         "今すぐ申し込めば、追加の2か月間が<span class='text-uppercase'>無料</span>"
       ],
       "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
          null,

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: Danish\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-04-16 13:13\n"
+"PO-Revision-Date: 2020-04-19 09:28\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1307,7 +1307,7 @@ msgstr "Få VPN fra Private Internet Access"
 
 #: /home/guy/kape/Privateland/views/partials/price_block.ejs:4
 msgid "For a Limited Time Only"
-msgstr ""
+msgstr "Kun i begrænset tid"
 
 #: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:4
 msgid "Your IP:"
@@ -1509,16 +1509,16 @@ msgstr " Private Internet Access tror på et åbent internet og arbejder løbend
 
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:15
 msgid "The VPN recommended by<br><b>%s</b>"
-msgstr ""
+msgstr "VPN anbefalet af<br><b>%s</b>"
 
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:19
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:80
 msgid "Save %s% Now"
-msgstr ""
+msgstr "Spar %s% nu"
 
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:20
 msgid "Sign-up now & get %s extra months <span class='text-uppercase'>free</span>"
-msgstr ""
+msgstr "Tilmeld dig nu og få %s måneder ekstra <span class='text-uppercase'>gratis</span>"
 
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:16
 msgid "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>"

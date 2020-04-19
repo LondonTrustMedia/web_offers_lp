@@ -252,12 +252,23 @@ header {
         top: 10px;
       }
       @media screen and (max-width: $brk-mobile-width) {
-        right: -100px;
-        top: 25px;
-        html[lang=deu] & {
-          top: 45px;
-        }
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 140px;
+        width: 140px;
       }
     }
+  & h3.sign {
+    @media screen and (max-width: $brk-mobile-width) {
+      margin-left: -20px;
+          margin-top: 30px;
+    }
+  }
+  & .d-flex.d-md-block {
+    @media screen and (max-width: $brk-mobile-width) {
+      margin-bottom: 135px;
+    }
+  }
 }
 

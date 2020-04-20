@@ -73,6 +73,9 @@ header {
       }
     }
   }
+  html[lang="fra"] & h5, html[lang="por"] & h5, html[lang="rus"] & h5 {
+    font-size: 1em;
+  }
   & .mobile_header {
     position: absolute;
     left: 0;

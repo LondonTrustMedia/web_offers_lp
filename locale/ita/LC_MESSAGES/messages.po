@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: Italian\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-04-19 12:30\n"
+"PO-Revision-Date: 2020-04-20 22:19\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1515,7 +1515,7 @@ msgstr "La VPN raccomandata da<br><b>%s</b>"
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:22
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:82
 msgid "Save %s% Now"
-msgstr "Risparmia ora -%s%"
+msgstr "Risparmia ora %s%"
 
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:27
 msgid "Sign-up now & get %s extra months <span class='text-uppercase'>free</span>"

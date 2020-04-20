@@ -96,7 +96,7 @@ module.exports = (app) => {
                     break;
                     
                 case 'jpn':
-                    res.locals.offerLink = req.offerLink = `https://jpn.privateinternetaccess.com/pages/buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
+                    res.locals.offerLink = req.offerLink = `https://jpn.privateinternetaccess.com/pages/jpn-buy-now${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
                     break;
             
                 case 'nld':

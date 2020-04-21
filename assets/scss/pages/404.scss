@@ -1,54 +1,75 @@
 @import 'index';
 
-@import '../layout/navbar/navbar_white';
+@import '../layout/navbar/navbar_dark';
+@import '../layout/navbar/header-bar';
+@import '../layout/partials/expose_bar';
 
-#page_404 {
+header {
     height: 100vh;
-
+    width: 100vw;
+    background-image: url(img/404_background.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    min-height: 600px;
+    overflow: hidden;
+    @media screen and (max-width: $brk-ipad-width - 1) {
+        min-height: 645px;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+        background-image: url(img/404_background_mobile.jpg);
+    }
     & h1 {
-        font-size: 72px;
-        margin-top: 100px;
-        font-weight: bold;
+        font-size: 142px;
+        font-weight: 800;
+        html[lang="jpn"] & {
+            font-size: 95px;
+        }
+        @media screen and (max-width: $brk-desktop-width) {
+            font-size: 100px;
+            html[lang="fra"] & {
+                font-size: 90px;
+            }
+            html[lang="jpn"] & {
+                font-size: 55px;
+            }
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            font-size: 90px;
+            html[lang="fra"] & {
+                font-size: 80px;
+            }
+            html[lang="jpn"] & {
+                font-size: 50px;
+            }
+        }
     }
-
     & p {
-        color: #939598;
-        font-size: 16px;
-        line-height: 24px;
-        max-width: 380px;
-    }
-
-    & .img_404 {
-        width: 335px;
-        html[lang=deu] & {
-            width: 285px;
-        }
-        @media screen and (max-width: $brk-ipad-width - 1) {
-            width: 190px;
-            html[lang=deu] & {
-                width: 190px;
-            }
+        font-size: 18px;
+        font-weight: 300;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            font-size: 16px;
         }
     }
-
-    & .container {
-        & div:nth-of-type(2) {
-            width: 330px;
-            margin-left: 30px;
-            html[lang=deu] & {
-                width: 350px;
+    & .content {
+        height: calc(100% - 41px);
+        & img {
+            width: 335px;
+            @media screen and (max-width: $brk-desktop-width) {
+                width: 280px;
             }
-            @media screen and (max-width: $brk-mobile-width) {
-                width: 100%;
-                margin: 0;
-                html[lang=deu] & {
-                    width: 100%;
-                }
+            @media screen and (max-width: $brk-ipad-width - 1) {
+                width: 155px;
             }
         }
-
+    }
+    & .btn_wave {
+        @media screen and (max-width: $brk-desktop-width) {
+            min-width: 305px;
+        }
         @media screen and (max-width: $brk-ipad-width - 1) {
-            text-align: center;
+            min-width: 250px;
         }
     }
 }

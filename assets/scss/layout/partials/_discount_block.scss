@@ -56,6 +56,8 @@
     @media screen and (max-width: $brk-mobile-width) {
       width: 165px;
       height: 85px;
+      width: 150px;
+      height: 85px;
       html[lang="fra"] & {
         width: 140px;
       }
@@ -69,7 +71,10 @@
         width: 200px;
       }
       html[lang="rus"] & {
-        width: 170px;
+        width: 190px;
+      }
+      html[lang="ita"] & {
+        width: 160px;
       }
     }
     & .top {
@@ -93,6 +98,8 @@
       @media screen and (max-width: $brk-mobile-width) {
         font-size: 14px;
         margin-top: -30px;
+        font-size: 12px;
+        margin-top: -25px;
         html[lang="deu"] & {
           font-size: 0.7em;
           margin-top: -20px;
@@ -118,7 +125,7 @@
       }
       @media screen and (max-width: $brk-mobile-width) {
         font-size: 4rem;
-        html[lang="fra"] &, html[lang="rus"] & {
+        html[lang="fra"] & {
           font-size: 3rem;
         }
       }
@@ -152,7 +159,7 @@
         }
         html[lang="spa"] & {
           margin-top: -1px;
-          font-size: 1rem;
+          font-size: .8rem;
         }
       }
       @media screen and (max-width: $brk-mobile-width) {

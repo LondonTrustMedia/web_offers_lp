@@ -53,7 +53,7 @@ header {
         }
     }
     & .content {
-        height: calc(100% - 41px);
+        height: calc(88% - 41px);
         & img {
             width: 335px;
             @media screen and (max-width: $brk-desktop-width) {

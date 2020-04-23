@@ -225,6 +225,7 @@ header {
       }
       &.ipad {
         display: none;
+        left: calc(50% - 385px);
         @media screen and (max-width: $brk-ipad-width) {
           display: block;
         }

@@ -49,6 +49,9 @@
   }
 
   & svg {
+    & text {
+      font-weight: 600;
+    }
     & .Text_White {
       fill: #fff;
        & text:nth-of-type(4) {

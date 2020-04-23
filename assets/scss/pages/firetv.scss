@@ -146,6 +146,13 @@ header {
         text-transform: uppercase;
       }
     }
+    & small {
+      font-size: 100%;
+      font-weight: 500;
+      @media screen and (max-width: $brk-mobile-width) {
+        font-size: 80%;
+      }
+    }
   }
   & h3 {
     @media screen and (max-width: $brk-ipad-width - 1) {
@@ -194,12 +201,14 @@ header {
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
       bottom: 50px;
-      width: 510px;
+      width: 440px;
       left: unset;
       right: 0;
     }
     @media screen and (max-width: $brk-mobile-width) {
-      width: 420px;
+      width: 320px;
+      height: calc(100% - 100px);
+      bottom: 100px;
     }
     & .hand {
       position: absolute;
@@ -212,9 +221,14 @@ header {
         width: 285px;
       }
       @media screen and (max-width: $brk-ipad-width - 1) {
-        left: 285px;
+        left: 255px;
         bottom: 45px;
-        width: 215px;
+        width: 175px;    
+      }
+      @media screen and (max-width: $brk-mobile-width) {
+        left: 160px;
+        width: 175px;
+        bottom: 0;
       }
     }
     & .amazon {
@@ -269,7 +283,7 @@ header {
       &.mobi {
         display: none;
         bottom: 0;
-        height: 185px;
+        height: 120px;
         @media screen and (max-width: $brk-ipad-width - 1) {
           display: block;
         }
@@ -312,6 +326,9 @@ header {
   & .bod {
     @media screen and (max-width: $brk-ipad-width - 1) {
       margin-bottom: 120px;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+      margin-bottom: 135px;
     }
   }
   & .b2mfree {

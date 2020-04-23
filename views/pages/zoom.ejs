@@ -1,0 +1,298 @@
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('css/zoom.css') %>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+    <body>
+        <% include ../navbar/navbar_dark %>  
+        <% include ../partials/expose_bar %>  
+        <header class="color_white parallax_container">
+            <% include ../navbar/header_bar %>  
+            <div class="container">
+                <div class="col-65">
+                    <h1 class="mt-3 mb-0"><%- gettext('Using <span>Zoom</span> for video calls?') %></h1>
+                    <h4 class="mb-0 font-weight-light"><%- gettext("Make sure your online activity stays hidden") %></h4>
+                    <div class="d-inline-block text-center position-relative bod">
+                        <a href="<%- offerLink %>" class="btn_wave orange my-3 d-md-inline-block d-none"><%- gettext("Get Private Internet Access VPN") %></a>
+                        <% include ../partials/discount_block %>
+                        <% include ../partials/b2mfree_new %>
+                    </div>
+                    <div class="d-md-block text-left d-none">
+                        <div class="text-center d-inline-block d-none">
+                            <p><%- format(gettext("Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>"), [30]) %></p>
+                            <% if (query.brand) { %>
+                                <% include ../partials/brand %>
+                            <% } else { %>
+                                <div class="brands d-block">
+                                    <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                                    <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                                    <div class="d-inline-block"><img src="img/brand_logo_cnet_white.png" alt="cnet"></div>
+                                </div>
+                            <% } %>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container stream">
+                <div class="bg_container d-md-block">
+                    <img src="img/Zoom_LP_header_bg.jpg" alt="header" class="header desktop">
+                    <img src="img/Zoom_LP_tablet_header_bg.jpg" alt="header" class="header ipad">
+                    <img src="img/Zoom_LP_mobile_header_bg.jpg" alt="header" class="header mobi">
+                    <img src="img/Zoom_LP_header_man.png" alt="zoom" class="people parallax">
+                </div>
+            </div>
+            <div class="d-block d-md-none mobile_header">
+                <div class="dark py-2">
+                    <div class="container d-flex align-items-center">
+                        <div class="mr-3">
+                            <% if (query.brand) { %>
+                                <% include ../partials/brand %>
+                            <% } else { %>
+                                <div class="brands d-block">
+                                    <div class="d-inline-block mr-1"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                                    <div class="d-inline-block mr-1"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                                    <div class="d-inline-block"><img src="img/brand_logo_cnet_white.png" alt="cnet"></div>
+                                </div>
+                            <% } %>
+                        </div>
+                        <div>
+                            <p class="mb-0"><%- format(gettext("Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>"), [30]) %></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <a href="<%- offerLink %>" class="btn_wave orange"><%- format(gettext("Private Internet Access VPN for %s% OFF"),[prices.blocks[1].discount]) %></a>
+                </div>
+            </div>
+            <div class="corners"></div>
+        </header>
+        <% include ../partials/trusted_companies %>
+        <section id="streaming_needs">
+            <div class="container text-center">
+                <div class="mb-lg-5 mb-3 wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".4s">
+                    <h2 class="mb-0"><%- gettext("Why use a VPN with Zoom?") %></h2>
+                    <p class="my-lg-5 my-3 color_dark mb-"><%- gettext("Zoom has been accused of sharing user data with Facebook, they lied about the app having end-to-end encryption, and the app allowed meeting hosts to track attendees.<br><br><b>So get Private Internet Access to encrypt your data, hide your IP address and become anonymous while using Zoom.</b>") %></p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="experience">
+            <div class="container text-center">
+                <h2 class="mb-5"><%- gettext("First-rate VPN service:")%></h2>
+                <div class="text-left d-md-flex d-none flex-lg-wrap justify-content-lg-between flex-lg-row justify-content-start flex-column">
+                    <div class="col-46 d-flex mb-5">
+                        <div class="mr-3"><img src="img/icon_global.svg" alt="Global"></div>
+                        <div>
+                            <h5 class="mb-2"><%- gettext("Total Online Freedom") %></h5>
+                            <p class="mb-0"><%- gettext("Bypass censorship and unblock streaming content and sites you don't have access to. Discover geo-restricted content on platforms like Netflix, HBO GO, Amazon Prime, Disney Plus, and more.") %></p>
+                        </div>
+                    </div>
+                    <div class="col-46 d-flex mb-5">
+                        <div class="mr-3"><img src="img/icon_fast.svg" alt="Fast"></div>
+                        <div>
+                            <h5 class="mb-2"><%- gettext("Lightning-fast Internet") %></h5>
+                            <p class="mb-0"><%- gettext("Private Internet Access provides the highest speeds possible. So, you can have calls without any buffering or connectivity issues.") %></p>
+                        </div>
+                    </div>
+                    <div class="col-46 d-flex mb-5">
+                        <div class="mr-3"><img src="img/icon_secure.svg" alt="Secure"></div>
+                        <div>
+                            <h5 class="mb-2"><%- gettext("Unbreakable Encryption") %></h5>
+                            <p class="mb-0"><%- gettext("Encrypt your data to make sure nobody can hack your connection and get access to your data.") %></p>
+                        </div>
+                    </div>
+                    <div class="col-46 d-flex mb-5">
+                        <div class="mr-3"><img src="img/icon_lock_check.svg" alt="Block"></div>
+                        <div>
+                            <h5 class="mb-2"><%- gettext("Become Anonymous") %></h5>
+                            <p class="mb-0"><%- gettext("Browse anonymously with a private IP address and protect yourself from your companies that want to get their hands on your data.") %></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="d-block d-md-none accordion" id="accordion_experience">
+                <div class="card">
+                    <div class="card-header">
+                        <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                                data-toggle="collapse" data-target="#experience1" 
+                                aria-expanded="false" aria-controls="experience1">
+                            <div class="d-flex align-items-center text-left">
+                                <img src="img/icon_global.svg" alt="Global">
+                                <h5 class="mb-0 text-uppercase"><%- gettext("Total Online Freedom") %></h5>
+                            </div>
+                            <div class="collapse_icon">
+                                <i class="fal fa-plus"></i>
+                                <i class="fal fa-minus"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="experience1" class="collapse" 
+                        aria-labelledby="heading1" data-parent="#accordion_experience">
+                        <div class="card-body">
+                            <p class="mb-0"><%- gettext("Bypass censorship and unblock streaming content and sites you don't have access to. Discover geo-restricted content on platforms like Netflix, HBO GO, Amazon Prime, Disney Plus, and more.") %></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                                data-toggle="collapse" data-target="#experience2" 
+                                aria-expanded="false" aria-controls="experience2">
+                            <div class="d-flex align-items-center text-left">
+                                <img src="img/icon_fast.svg" alt="Fast">
+                                <h5 class="mb-0 text-uppercase"><%- gettext("Lightning-fast Internet") %></h5>
+                            </div>
+                            <div class="collapse_icon">
+                                <i class="fal fa-plus"></i>
+                                <i class="fal fa-minus"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="experience2" class="collapse" 
+                        aria-labelledby="heading2" data-parent="#accordion_experience">
+                        <div class="card-body">
+                            <p class="mb-0"><%- gettext("Private Internet Access provides the highest speeds possible. So, you can have calls without any buffering or connectivity issues.") %></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                                data-toggle="collapse" data-target="#experience3" 
+                                aria-expanded="false" aria-controls="experience3">
+                            <div class="d-flex align-items-center text-left">
+                                <img src="img/icon_secure.svg" alt="Secure">
+                                <h5 class="mb-0 text-uppercase"><%- gettext("Unbreakable Encryption") %></h5>
+                            </div>
+                            <div class="collapse_icon">
+                                <i class="fal fa-plus"></i>
+                                <i class="fal fa-minus"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="experience3" class="collapse" 
+                        aria-labelledby="heading3" data-parent="#accordion_experience">
+                        <div class="card-body">
+                            <p class="mb-0"><%- gettext("Encrypt your data to make sure nobody can hack your connection and get access to your data.") %></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <button class="btn btn-link d-flex align-items-center justify-content-between w-100" type="button" 
+                                data-toggle="collapse" data-target="#experience4" 
+                                aria-expanded="false" aria-controls="experience4">
+                            <div class="d-flex align-items-center text-left">
+                                <img src="img/icon_lock_check.svg" alt="Block">
+                                <h5 class="mb-0 text-uppercase"><%- gettext("Become Anonymous") %></h5>
+                            </div>
+                            <div class="collapse_icon">
+                                <i class="fal fa-plus"></i>
+                                <i class="fal fa-minus"></i>
+                            </div>
+                        </button>
+                    </div>
+                    <div id="experience4" class="collapse" 
+                        aria-labelledby="heading4" data-parent="#accordion_experience">
+                        <div class="card-body">
+                            <p class="mb-0"><%- gettext("Browse anonymously with a private IP address and protect yourself from your companies that want to get their hands on your data.") %></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-block d-md-none text-center">
+                <a href="<%- offerLink %>" class="btn_wave orange mt-3"><%- gettext("Get Private Internet Access VPN") %></a>
+            </div>
+        </section>
+
+        <%- include('../partials/steps', {title: gettext('Connect in 4 easy steps:'),
+                                            subtitle: " ",
+                                            steps:[
+                                                    gettext('<b>Subscribe</b><br>to Private Internet Access'),
+                                                    gettext('<b>Download</b><br>Private Internet Access'),
+                                                    gettext('<b>Login</b><br>on the Private Internet Access client with your username and password'),
+                                                    gettext('<b>Turn on</b><br>Private Internet Access and connect')
+                                                ],
+                                            footer: gettext('You’re ready to start using <span>Private Internet Access</span> with zoom')
+        }) %>
+
+        <section id="operating_system">
+            <div class="bg">
+                <div class="container text-center">
+                    <h2 class="mb-5"><%- format(gettext("Use PIA on up to %s devices simultaneously"),[10]) %></h2>
+                    <div class="d-flex justify-content-between flex-wrap mx-auto">
+                        <div>
+                            <div class="mb-2"><img src="img/os_green_windows.svg" alt="Windows"></div>
+                            <h6>Windows</h6>
+                        </div>
+                        <div>
+                            <div class="mb-2"><img src="img/os_green_macos.svg" alt="MacOS"></div>
+                            <h6>Macos</h6>
+                        </div>
+                        <div>
+                            <div class="mb-2"><img src="img/os_green_linux.svg" alt="Linux"></div>
+                            <h6>Linux</h6>
+                        </div>
+                        <div>
+                            <div class="mb-2"><img src="img/os_green_android.svg" alt="Android"></div>
+                            <h6>Android</h6>
+                        </div>
+                        <div>
+                            <div class="mb-2"><img src="img/os_green_ios.svg" alt="Iphone/Ipad"></div>
+                            <h6>iPhone/iPad</h6>
+                        </div>
+                        <div>
+                            <div class="mb-2"><img src="img/os_green_chrome.svg" alt="Chrome"></div>
+                            <h6>Chrome</h6>
+                        </div>
+                        <div>
+                            <div class="mb-2"><img src="img/os_green_firefox.svg" alt="Firefox"></div>
+                            <h6>Firefox</h6>
+                        </div>
+                        <div>
+                            <div class="mb-2"><img src="img/os_green_opera.svg" alt="Opera"></div>
+                            <h6>Opera</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn_container">
+                <div class="container text-center">
+                    <a href="<%- offerLink %>" class="btn_wave orange mb-3"><%- gettext("Get Private Internet Access VPN") %></a>
+                    <p><%-  format(gettext("%s-Day money back guarantee"),[30]) %></p>
+                </div>
+            </div>
+        </section>
+
+        <%- include('../partials/new_faq', {title: gettext('<span class="color_pia_green">Frequently asked questions</span>'),
+                                    qas:[
+                                            {
+                                                'question': gettext('How to use Private Internet Access with Zoom?'),
+                                                'answer': gettext('First download and install the Private Internet Access app on the device you\'re planning to use for your Zoom call. Then create and verify your account. Sing-in to the PIA app using your username and password and connect to a server by clicking or tapping the big, round power button. You\'re now completely anonymous and protected, all that\'s left to do is to fire-up your Zoom app and join your conference.')
+                                            },
+                                            {
+                                                'question': gettext('Do you have a refund policy?'),
+                                                'answer': format(gettext('Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!'),[30])
+                                            },
+                                            {
+                                                'question': gettext('Is it safe to use Private Internet Access?'),
+                                                'answer': format(gettext('Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. Private Internet access never records any of its users\' data. We follow a strict no-logs policy that ensures we never keep any logs of our users\' activities online.'),[49,29])
+                                            },
+                                            {
+                                                'question': gettext('Will my IP address be exposed while using Zoom?'),
+                                                'answer': gettext('No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services, apps and websites will only see our Private Internet Access IP address, not your device’s IP address.')
+                                            }
+                                        ]
+        }) %>
+        <% include ../partials/footers/dark_footer %>
+        <% include ../partials/tag_manager %>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        <script src="<%= asset('js/trust.js') %>"></script>
+    </body>
+
+</html>

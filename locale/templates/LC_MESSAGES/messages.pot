@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-04-23 07:34+0000\n"
+"POT-Creation-Date: 2020-04-23 11:47+0000\n"
 
 #: /home/guy/kape/Privateland/app/modules/best-script.js:5
 msgid "Afghanistan"
@@ -1279,6 +1279,8 @@ msgstr ""
 
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:8
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:45
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:89
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:125
 msgid "Total Online Freedom"
 msgstr ""
 
@@ -1329,6 +1331,9 @@ msgstr ""
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:65
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:33
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:90
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:19
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:208
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:274
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:19
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:19
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:94
@@ -1389,6 +1394,7 @@ msgstr ""
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:32
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:28
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:41
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:25
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:25
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:25
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:25
@@ -1403,6 +1409,7 @@ msgstr ""
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:56
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:60
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:85
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:62
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:57
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:67
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:66
@@ -1414,6 +1421,7 @@ msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:71
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:18
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:67
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:62
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:72
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:71
@@ -1496,18 +1504,21 @@ msgid "Start streaming with Private Internet Access in minutes"
 msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:203
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:224
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:204
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:220
 msgid "<b>Subscribe</b><br>to Private Internet Access"
 msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:204
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:225
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:205
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:221
 msgid "<b>Download</b><br>Private Internet Access"
 msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:205
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:226
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:222
 msgid ""
 "<b>Login</b><br>on the Private Internet Access client with your username "
@@ -1546,6 +1557,7 @@ msgid ""
 msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:240
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:306
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:241
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:253
 msgid "Do you have a refund policy?"
@@ -1656,6 +1668,145 @@ msgstr ""
 msgid "%s Devices"
 msgstr ""
 
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:16
+msgid "Using <span>Zoom</span> for video calls?"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:17
+msgid "Make sure your online activity stays hidden"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:76
+msgid "Why use a VPN with Zoom?"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:77
+msgid ""
+"Zoom has been accused of sharing user data with Facebook, they lied about "
+"the app having end-to-end encryption, and the app allowed meeting hosts to "
+"track attendees.<br><br><b>So get Private Internet Access to encrypt your "
+"data, hide your IP address and become anonymous while using Zoom.</b>"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:84
+msgid "First-rate VPN service:"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:90
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:136
+msgid ""
+"Bypass censorship and unblock streaming content and sites you don't have "
+"access to. Discover geo-restricted content on platforms like Netflix, HBO "
+"GO, Amazon Prime, Disney Plus, and more."
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:96
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:147
+msgid "Lightning-fast Internet"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:97
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:158
+msgid ""
+"Private Internet Access provides the highest speeds possible. So, you can "
+"have calls without any buffering or connectivity issues."
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:103
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:169
+msgid "Unbreakable Encryption"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:104
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:180
+msgid ""
+"Encrypt your data to make sure nobody can hack your connection and get "
+"access to your data."
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:110
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:191
+msgid "Become Anonymous"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:111
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:202
+msgid ""
+"Browse anonymously with a private IP address and protect yourself from your "
+"companies that want to get their hands on your data."
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:221
+msgid "Connect in 4 easy steps:"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:227
+msgid "<b>Turn on</b><br>Private Internet Access and connect"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:229
+msgid "You’re ready to start using <span>Private Internet Access</span> with zoom"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:235
+msgid "Use PIA on up to %s devices simultaneously"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:275
+msgid "%s-Day money back guarantee"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:299
+msgid "<span class=\"color_pia_green\">Frequently asked questions</span>"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:302
+msgid "How to use Private Internet Access with Zoom?"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:303
+msgid ""
+"First download and install the Private Internet Access app on the device "
+"you're planning to use for your Zoom call. Then create and verify your "
+"account. Sing-in to the PIA app using your username and password and "
+"connect to a server by clicking or tapping the big, round power button. "
+"You're now completely anonymous and protected, all that's left to do is to "
+"fire-up your Zoom app and join your conference."
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:307
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:242
+msgid ""
+"Private Internet Access has a no questions asked %s-day money back "
+"guarantee. Subscribe to Private Internet Access today to start streaming "
+"now!"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:310
+msgid "Is it safe to use Private Internet Access?"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:311
+msgid ""
+"Yes. Private Internet Access provides a VPN service with servers in %s "
+"locations across %s countries, including the United States, United Kingdom, "
+"Japan, and more. Private Internet access never records any of its users' "
+"data. We follow a strict no-logs policy that ensures we never keep any logs "
+"of our users' activities online."
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:314
+msgid "Will my IP address be exposed while using Zoom?"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:315
+msgid ""
+"No. By using Private Internet Access, you are encrypting your traffic "
+"through our VPN tunnel which accesses the internet from one of our servers’ "
+"IP addresses. Streaming services, apps and websites will only see our "
+"Private Internet Access IP address, not your device’s IP address."
+msgstr ""
+
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:17
 msgid ""
 "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span "
@@ -1741,13 +1892,6 @@ msgstr ""
 msgid ""
 "Got questions about streaming? <span class=\"color_pia_green\">Here are a "
 "few of our FAQs</span>"
-msgstr ""
-
-#: /home/guy/kape/Privateland/views/pages/firetv.ejs:242
-msgid ""
-"Private Internet Access has a no questions asked %s-day money back "
-"guarantee. Subscribe to Private Internet Access today to start streaming "
-"now!"
 msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:250

@@ -1,0 +1,371 @@
+@import "index";
+
+@import "../layout/navbar/navbar_dark";
+@import "../layout/navbar/header-bar";
+@import "../layout/partials/expose_bar";
+
+@import "../layout/partials/discount_block";
+@import "../layout/partials/b2mfree_new";
+
+@import "../layout/partials/trusted_companies";
+@import "../layout/partials/steps";
+@import "../layout/partials/new_faq";
+@import "../layout/footer/dark_footer";
+@import '../layout/partials/experience';
+@import '../layout/partials/operating_system';
+
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  color: $color-text-dark;
+
+  @media screen and (max-width: $brk-ipad-width - 1) {
+    font-size: 1.6rem;
+  }
+}
+
+.border_bottom {
+  border-bottom: 1px solid #5eb258;
+  padding-bottom: 30px;
+}
+p {
+  color: $color-text-light;
+  font-size: 1.125rem;
+  @media screen and (max-width: $brk-min-desktop-width) {
+    font-size: 1rem;
+  }
+}
+
+.container {
+  @media screen and (max-width: $brk-min-desktop-width) {
+    max-width: 95%;
+  }
+}
+.b2mfree {
+  @media screen and (max-width: $brk-mobile-width) {
+    right: -85px;
+    top: 25px;
+  }
+}
+header {
+  background-color: #263238;
+  min-height: 768px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 3840px 768px;
+  padding-top: 45px;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  overflow: hidden;
+
+  @media screen and (max-width: $brk-ipad-width - 1) {
+    min-height: 605px;
+  }
+  & .btn_wave {
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      max-width: 420px;
+    }
+
+    @media screen and (max-width: 480px) {
+      min-width: 180px;
+      width: 100%;
+    }
+  }
+  & > .content {
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      margin-bottom: 115px;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+      html[lang="fra"] & {
+        margin-bottom: 155px;
+      }
+    }
+  }
+  & .mobile_header {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: -1px;
+    padding-bottom: 5px;
+    border-bottom: solid 5px #fff;
+
+    & .dark {
+      background-color: #263238;
+      padding-bottom: 30px !important;
+
+      & p {
+        @media screen and (max-width: 575px) {
+          font-size: 13px !important;
+        }
+      }
+    }
+
+    & > .container {
+      margin-top: -25px;
+      margin-bottom: 0;
+    }
+  }
+
+  & .corners {
+    background-image: url(img/top_uneven_corners.svg);
+    width: 100%;
+    height: 181px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    bottom: -1px;
+    position: absolute;
+    background-size: 102%;
+    z-index: 2;
+    background-size: 3840px 181px;
+    pointer-events: none;
+
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      display: none;
+    }
+  }
+
+  & p {
+    color: #fff;
+  }
+
+  & h1 {
+    font-size: 3.2rem;
+    font-weight: 500;
+    @media screen and (max-width: $brk-desktop-width) {
+      font-size: 2.5rem;
+    }
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      font-size: 1.5rem;
+    }
+    & b {
+      font-weight: 500;
+      color: $pia-light-orange;
+      text-transform: capitalize;
+    }
+    & span {
+      color: $pia-light-orange;
+      &:nth-of-type(1) {
+        text-transform: uppercase;
+      }
+    }
+    & small {
+      font-size: 100%;
+      font-weight: 500;
+      @media screen and (max-width: $brk-mobile-width) {
+        font-size: 80%;
+      }
+    }
+  }
+  & h4 {
+    font-size: 2.1rem;
+    @media screen and (max-width: $brk-desktop-width) {
+      font-size: 1.5rem;
+    }
+  }
+  & h3 {
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      font-size: 1rem;
+      font-weight: 400 & br {
+        display: none;
+      }
+    }
+  }
+  & .brands {
+    & img {
+      height: 50px;
+
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        height: 30px;
+      }
+
+      @media screen and (max-width: 575px) {
+        height: 25px;
+      }
+    }
+
+    & > div:nth-of-type(3) {
+      & img {
+        @media screen and (max-width: 575px) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  & .bg_container {
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 85%;
+    z-index: -1;
+    height: 100%;
+    overflow: hidden;
+
+    @media screen and (max-width: $brk-ipad-width) {
+      width: 100vw;
+      left: 0;
+      right: unset;
+      bottom: 0;
+    }
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      bottom: 50px;
+      width: 510px;
+      left: unset;
+      right: 0;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+      width: 420px;
+    }
+    & .people {
+      position: absolute;
+      left: 250px;
+      bottom: -20px;
+      z-index: 3;
+      width: 880px;
+      @media screen and (max-width: $brk-ipad-width) {
+        display: none;
+      }
+    }
+    & .header {
+      position: absolute;
+      bottom: 0;
+      height: 101%;
+      z-index: 3;
+      left: -3px;
+      &.mobi {
+        display: none;
+        left: unset;
+        right: 0;
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          display: block;
+        }
+      }
+      &.ipad {
+        display: none;
+        @media screen and (max-width: $brk-ipad-width) {
+          display: block;
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          display: none;
+        }
+      }
+      &.desktop {
+        @media screen and (max-width: $brk-ipad-width) {
+          display: none;
+        }
+      }
+    }
+  }
+  & .col-65 {
+    width: 65%;
+    @media screen and (max-width: $brk-desktop-width) {
+        width: 65%;
+    }
+    @media screen and (max-width: $brk-ipad-width) {
+        width: 100%;
+    }
+}
+  & .bod {
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      margin-bottom: 120px;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+      margin-bottom: 135px;
+    }
+  }
+  & .b2mfree {
+    @media screen and (max-width: $brk-ipad-width) {
+      height: 165px;
+      width: 160px;
+      top: 80px;
+      right: -30px;
+    }
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      display: block;
+      position: relative;
+      top: 0;
+      left: 0;
+      right: unset;
+      height: 150px;
+      width: 145px;
+    }
+  }
+  & .stream {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+    @media screen and (min-width: $brk-min-desktop-width + 1) {
+      left: calc(50% - 960px / 2);
+      max-width: 1080px;
+    }
+    @media screen and (min-width: $brk-desktop-width) {
+      left: calc(50% - 1140px / 2);
+      max-width: 1635px;
+    }
+    @media screen and (max-width: $brk-min-desktop-width) {
+      left: 0;
+      max-width: 100%;
+    }
+  }
+  & h4 {
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      font-size: 1.2rem;
+    }
+    @media screen and (max-width: $brk-mobile-width) {
+      font-size: 1rem;
+    }
+  }
+}
+#streaming_needs {
+  & p {
+    color: $color-text-light;
+    &.color_dark {
+      color: $color-text-dark;
+    }
+  }
+  & .fadeInUp {
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      animation: none !important;
+      visibility: visible !important;
+    }
+  }
+}
+#experience {
+  background-color: #ECEFF1;
+  background-image: url(img/first_rate_grey_bg.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 1200px auto;
+  padding: 60px 0;
+  & .card-header, & .card {
+    background-color: #ECEFF1;
+  }
+}
+#steps {
+  background-image: url(img/Zoom_LP_steps_bg.jpg);
+}
+#operating_system {
+  padding: 0;
+  & .bg {
+    padding: 90px 0 75px;
+    background-color: #ECEFF1;
+  }
+  & .btn_container {
+    margin-top: -25px;
+    & p {
+      color: #000;
+    }
+    & .btn_wave {
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        min-width: 360px;
+      }
+      @media screen and (max-width: $brk-mobile-width) {
+        min-width: 100%;
+      }
+    }
+  }
+}

@@ -140,10 +140,6 @@ header {
     @media screen and (max-width: $brk-ipad-width - 1) {
       font-size: 1.5rem;
     }
-
-    @media screen and (max-width: $brk-mobile-width) {
-      font-size: 1.2rem;
-    }
     & b {
       font-weight: 500;
       color: $pia-light-orange;
@@ -230,12 +226,7 @@ header {
       z-index: 3;
       width: 880px;
       @media screen and (max-width: $brk-ipad-width) {
-        left: 231px;
-        bottom: 0;
-        width: 340px;
-      }
-      @media screen and (max-width: $brk-ipad-width - 1) {
-        left: 0;
+        display: none;
       }
     }
     & .header {

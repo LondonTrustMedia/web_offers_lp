@@ -142,5 +142,13 @@
     "youtube": {
         "offer_ID": 1406,
         "CPP_ID": ""
+    },
+    "zoom": {
+        "offer_ID": 1408,
+        "CPP_ID": ""
+    },
+    "firetv": {
+        "offer_ID": 1407,
+        "CPP_ID": ""
     }
 }

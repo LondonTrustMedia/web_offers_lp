@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Norwegian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-19 09:29\nLanguage: no_NO\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: no\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Norwegian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-19 12:30\nLanguage: no_NO\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-19 12:23+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: no\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1391,9 +1391,9 @@
          null,
          "Er det trygt å strømme med Private Internet Access?"
       ],
-      "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
+      "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
          null,
-         "Ja. Private Internet Access gir deg en VPN-tjeneste med servere på 49 plasseringer i 29 land, inkludert USA, Storbritannia og Japan. Et bedre spørsmål er kanskje: Er det trygt å strømme uten Private Internet Access?"
+         "Ja. Private Internet Access gir deg en VPN-tjeneste med servere på %s plasseringer i %s land, inkludert USA, Storbritannia og Japan. Et bedre spørsmål er kanskje: Er det trygt å strømme uten Private Internet Access?"
       ],
       "Do you have a refund policy?": [
          null,

@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Spanish\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-19 09:29\nLanguage: es_ES\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: es-ES\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Spanish\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-19 12:30\nLanguage: es_ES\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-19 12:23+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: es-ES\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1391,9 +1391,9 @@
          null,
          "¿Es seguro el streaming con Private Internet Access?"
       ],
-      "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
+      "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
          null,
-         "Sí. Private Internet Access proporciona un servicio de VPN con servidores en 49 ubicaciones de 29 países, incluidos Estados Unidos, Reino Unido, Japón y otros. De hecho, sería mejor preguntarse: ¿es seguro el streaming sin Private Internet Access?"
+         "Sí. Private Internet Access proporciona un servicio de VPN con servidores en %s ubicaciones de %s países, incluidos Estados Unidos, Reino Unido, Japón y otros. De hecho, sería mejor preguntarse: ¿es seguro el streaming sin Private Internet Access?"
       ],
       "Do you have a refund policy?": [
          null,

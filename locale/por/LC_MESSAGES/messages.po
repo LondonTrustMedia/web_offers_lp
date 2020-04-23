@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: Portuguese, Brazilian\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-04-16 13:13\n"
+"PO-Revision-Date: 2020-04-20 22:19\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-04-12 15:02+0000\n"
+"POT-Creation-Date: 2020-04-19 12:23+0000\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: pt-BR\n"
@@ -1007,11 +1007,12 @@ msgstr "Zâmbia"
 msgid "Zimbabwe"
 msgstr "Zimbábue"
 
-#: /home/guy/kape/Privateland/app/modules/mws.js:378
+#: /home/guy/kape/Privateland/app/modules/mws.js:433
 msgid "US Dollars"
 msgstr "Dólares dos EUA"
 
 #: /home/guy/kape/Privateland/views/navbar/navbar_dark.ejs:10
+#: /home/guy/kape/Privateland/views/navbar/navbar_white.ejs:10
 msgid "Join now"
 msgstr "Cadastre-se agora"
 
@@ -1307,7 +1308,7 @@ msgstr "Obtenha a VPN do Private Internet Access"
 
 #: /home/guy/kape/Privateland/views/partials/price_block.ejs:4
 msgid "For a Limited Time Only"
-msgstr ""
+msgstr "Somente por tempo limitado"
 
 #: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:4
 msgid "Your IP:"
@@ -1350,7 +1351,7 @@ msgid "Unblock restricted content libraries easily<br> with Private Internet Acc
 msgstr "Desbloqueie bibliotecas de conteúdo restrito facilmente<br> com Private Internet Access"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:25
-#: /home/guy/kape/Privateland/views/pages/youtube.ejs:24
+#: /home/guy/kape/Privateland/views/pages/youtube.ejs:32
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:28
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:41
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:25
@@ -1360,7 +1361,7 @@ msgid "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase
 msgstr "Experimente sem riscos! <i class='fas fa-award'></i><span class='text-uppercase'> Garantia de devolução do seu dinheiro em até %s dias</span>"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:66
-#: /home/guy/kape/Privateland/views/pages/youtube.ejs:75
+#: /home/guy/kape/Privateland/views/pages/youtube.ejs:77
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:56
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:60
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:85
@@ -1471,8 +1472,8 @@ msgid "Is it safe to stream with Private Internet Access?"
 msgstr "É seguro fazer streaming com o Private Internet Access?"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:237
-msgid "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?"
-msgstr "Sim. O Private Internet Access fornece um serviço de VPN com servidores em 49 localizações em 29 países, incluindo os Estados Unidos, Reino Unido, Japão e muito mais. A pergunta correta é: é seguro fazer streaming sem o Private Internet Access?"
+msgid "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?"
+msgstr "Sim. O Private Internet Access fornece um serviço de VPN com servidores em %s localizações em %s países, incluindo os Estados Unidos, Reino Unido, Japão e muito mais. A pergunta correta é: é seguro fazer streaming sem o Private Internet Access?"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:240
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:253
@@ -1509,16 +1510,16 @@ msgstr "O Private Internet Access acredita em uma internet aberta e está sempre
 
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:15
 msgid "The VPN recommended by<br><b>%s</b>"
-msgstr ""
+msgstr "A VPN recomendada por<br><b>%s</b>"
 
-#: /home/guy/kape/Privateland/views/pages/youtube.ejs:19
-#: /home/guy/kape/Privateland/views/pages/youtube.ejs:80
+#: /home/guy/kape/Privateland/views/pages/youtube.ejs:22
+#: /home/guy/kape/Privateland/views/pages/youtube.ejs:82
 msgid "Save %s% Now"
-msgstr ""
+msgstr "Economize %s% agora"
 
-#: /home/guy/kape/Privateland/views/pages/youtube.ejs:20
+#: /home/guy/kape/Privateland/views/pages/youtube.ejs:27
 msgid "Sign-up now & get %s extra months <span class='text-uppercase'>free</span>"
-msgstr ""
+msgstr "Cadastre-se agora e obtenha %s meses extras <span class='text-uppercase'>gratuitos</span>"
 
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:16
 msgid "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>"

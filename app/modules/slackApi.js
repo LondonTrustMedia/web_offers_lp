@@ -38,11 +38,12 @@ var slackApi = module.exports = {
         var webhook = new IncomingWebhook(url);
 
 
-        var fullUrl = req.protocol + '://' + req.hostname + req.path + req.search
+        var fullUrl = req.protocol + '://' + req.fixedHost + req.path + req.search
         var text = '\n Error: ```' + JSON.stringify(errText) + '```\n'
         text += '\n\n\n URL: ```' + fullUrl + '```\n'
         text += '\n Page Name: ```' + req.pageName + '```\n'
         text += '\n User Location: ```' + JSON.stringify(req.userLocation, null, 4) + '```\n'
+        text += '\n User Agent: ```' + (JSON.stringify(req.userAgent, null, 4) || req.headers['user-agent'] || req.get('User-Agent')) + '```\n'
         text += '\n Referrer: ```' + req.header('Referer') + '```\n'
 
         var options = {
@@ -74,7 +75,7 @@ var slackApi = module.exports = {
         var webhook = new IncomingWebhook(url);
 
 
-        var fullUrl = req.protocol + '://' + req.hostname + req.originalUrl
+        var fullUrl = req.protocol + '://' + req.fixedHost + req.originalUrl
         var offerId = fullUrl.replace(/.*offerId:(.*?)&.*/, '$1')
         var affId = fullUrl.replace(/.*affId:(.*?)&.*/, '$1')
 

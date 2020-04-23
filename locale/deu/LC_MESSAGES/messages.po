@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: German\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-04-16 13:13\n"
+"PO-Revision-Date: 2020-04-19 12:30\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-04-12 15:02+0000\n"
+"POT-Creation-Date: 2020-04-19 12:23+0000\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: de\n"
@@ -1007,11 +1007,12 @@ msgstr "Sambia"
 msgid "Zimbabwe"
 msgstr "Simbabwe"
 
-#: /home/guy/kape/Privateland/app/modules/mws.js:378
+#: /home/guy/kape/Privateland/app/modules/mws.js:433
 msgid "US Dollars"
 msgstr "US Dollar"
 
 #: /home/guy/kape/Privateland/views/navbar/navbar_dark.ejs:10
+#: /home/guy/kape/Privateland/views/navbar/navbar_white.ejs:10
 msgid "Join now"
 msgstr "Jetzt registrieren"
 
@@ -1350,7 +1351,7 @@ msgid "Unblock restricted content libraries easily<br> with Private Internet Acc
 msgstr "Entsperren Sie ganz einfach neue Inhaltsbibliotheken<br>mit Private Internet Access"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:25
-#: /home/guy/kape/Privateland/views/pages/youtube.ejs:24
+#: /home/guy/kape/Privateland/views/pages/youtube.ejs:32
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:28
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:41
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:25
@@ -1360,7 +1361,7 @@ msgid "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase
 msgstr "Kostenlos ausprobieren! <i class='fas fa-award'></i><span class='text-uppercase'> %s Tage Geld-zurück-Garantie</span>"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:66
-#: /home/guy/kape/Privateland/views/pages/youtube.ejs:75
+#: /home/guy/kape/Privateland/views/pages/youtube.ejs:77
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:56
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:60
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:85
@@ -1471,8 +1472,8 @@ msgid "Is it safe to stream with Private Internet Access?"
 msgstr "Ist das Streaming mit Private Internet Access sicher?"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:237
-msgid "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?"
-msgstr "Ja. Private Internet Access bietet einen VPN-Service mit Servern an 49 Standorten in 29 Ländern an – darunter die USA, das Vereinigte Königreich, Japan und weitere. Die Frage würde besser so lauten: Ist es sicher, ohne Private Internet Access zu streamen?"
+msgid "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?"
+msgstr "Ja. Private Internet Access bietet einen VPN-Service mit Servern an %s Standorten in %s Ländern an – darunter die USA, das Vereinigte Königreich, Japan und weitere. Die Frage würde besser so lauten: Ist es sicher, ohne Private Internet Access zu streamen?"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:240
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:253
@@ -1511,12 +1512,12 @@ msgstr "Bei Private Internet Access glauben wir an ein offenes Internet und arbe
 msgid "The VPN recommended by<br><b>%s</b>"
 msgstr "Dieses VPN wird empfohlen von<br><b>%s</b>"
 
-#: /home/guy/kape/Privateland/views/pages/youtube.ejs:19
-#: /home/guy/kape/Privateland/views/pages/youtube.ejs:80
+#: /home/guy/kape/Privateland/views/pages/youtube.ejs:22
+#: /home/guy/kape/Privateland/views/pages/youtube.ejs:82
 msgid "Save %s% Now"
 msgstr "Sparen Sie jetzt %s %"
 
-#: /home/guy/kape/Privateland/views/pages/youtube.ejs:20
+#: /home/guy/kape/Privateland/views/pages/youtube.ejs:27
 msgid "Sign-up now & get %s extra months <span class='text-uppercase'>free</span>"
 msgstr "Jetzt registrieren & %s Extra-Monate <span class='text-uppercase'>gratis</span> erhalten"
 

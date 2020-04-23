@@ -11,8 +11,10 @@ module.exports = (req, res, next) => {
             os = 'Mac OS'
         else
             os = os.charAt(0).toUpperCase() + os.slice(1);
-    } else
+    } else if (req.userAgent && req.userAgent.os && req.userAgent.os.name)
         os = req.userAgent.os.name
+    else
+        os = 'Windows'
 
     console.log(os)
    
@@ -54,7 +56,7 @@ module.exports = (req, res, next) => {
     if (backgroundKey)
         background = backgrounds[backgroundKey]
 
-    else if (req.userAgent.device.type === "mobile")
+    else if (req.userAgent && req.userAgent.device && req.userAgent.device.type === "mobile")
         background =  'device-mobile'
 
     res.locals.os = req.os = {

@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Portuguese, Brazilian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-16 13:13\nLanguage: pt_BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-12 15:02+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: pt-BR\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Portuguese, Brazilian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-20 22:19\nLanguage: pt_BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-19 12:23+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: pt-BR\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1257,7 +1257,7 @@
       ],
       "For a Limited Time Only": [
          null,
-         ""
+         "Somente por tempo limitado"
       ],
       "Your IP:": [
          null,
@@ -1391,9 +1391,9 @@
          null,
          "É seguro fazer streaming com o Private Internet Access?"
       ],
-      "Yes. Private Internet Access provides a VPN service with servers in 49 locations across 29 countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
+      "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
          null,
-         "Sim. O Private Internet Access fornece um serviço de VPN com servidores em 49 localizações em 29 países, incluindo os Estados Unidos, Reino Unido, Japão e muito mais. A pergunta correta é: é seguro fazer streaming sem o Private Internet Access?"
+         "Sim. O Private Internet Access fornece um serviço de VPN com servidores em %s localizações em %s países, incluindo os Estados Unidos, Reino Unido, Japão e muito mais. A pergunta correta é: é seguro fazer streaming sem o Private Internet Access?"
       ],
       "Do you have a refund policy?": [
          null,
@@ -1429,15 +1429,15 @@
       ],
       "The VPN recommended by<br><b>%s</b>": [
          null,
-         ""
+         "A VPN recomendada por<br><b>%s</b>"
       ],
       "Save %s% Now": [
          null,
-         ""
+         "Economize %s% agora"
       ],
       "Sign-up now & get %s extra months <span class='text-uppercase'>free</span>": [
          null,
-         ""
+         "Cadastre-se agora e obtenha %s meses extras <span class='text-uppercase'>gratuitos</span>"
       ],
       "Try Out the World's<br><b>Most <span class='color_pia_light_orange'>Trusted</span><br>& <span class='color_pia_light_orange'>Secure VPN</span></b>": [
          null,

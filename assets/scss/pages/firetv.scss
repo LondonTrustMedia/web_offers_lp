@@ -326,9 +326,15 @@ header {
   & .bod {
     @media screen and (max-width: $brk-ipad-width - 1) {
       margin-bottom: 120px;
+      html[lang="rus"] & {
+        margin-bottom: 170px;
+      }
     }
     @media screen and (max-width: $brk-mobile-width) {
       margin-bottom: 135px;
+      html[lang="rus"] & {
+        margin-bottom: 135px;
+      }
     }
   }
   & .b2mfree {

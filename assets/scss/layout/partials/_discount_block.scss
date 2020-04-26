@@ -15,7 +15,6 @@
     html[lang="spa"] & {
       background-image: url(img/badge_frame_arrow_right_short.svg);
     }
-    html[lang="fra"] &,
     html[lang="dan"] &,
     html[lang="por"] & {
       background-image: url(img/badge_frame_arrow_right_short_fr.svg);
@@ -23,11 +22,17 @@
     html[lang="rus"] & {
       width: 305px;
     }
+    html[lang="fra"] & {
+      width: 320px;
+    }
     @media screen and (max-width: $brk-ipad-width) {
       height: 105px;
       width: 215px;
       html[lang="rus"] & {
         width:  270px;
+      }
+      html[lang="fra"] & {
+        width: 235px;
       }
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
@@ -39,7 +44,6 @@
       html[lang="por"] &, html[lang="spa"] &  {
         background-image: url(img/badge_frame_right_short.svg);
       }
-      html[lang="fra"] &,
       html[lang="dan"] & {
         background-image: url(img/badge_frame_right_short_fr.svg);
       }
@@ -52,6 +56,9 @@
       html[lang="rus"] & {
         width: 200px;
       }
+      html[lang="fra"] & {
+        width: 190px;
+      }
     }
     @media screen and (max-width: $brk-mobile-width) {
       width: 165px;
@@ -59,7 +66,7 @@
       width: 150px;
       height: 85px;
       html[lang="fra"] & {
-        width: 140px;
+        width: 150px;
       }
       html[lang="deu"] & {
         width: 155px;
@@ -80,6 +87,12 @@
     & .top {
       font-weight: 700;
       margin-top: -35px;
+      @media screen and (max-width: $brk-ipad-width) {
+        html[lang="fra"] & {
+          margin-top: -23px;
+          line-height: 1;
+        }
+      }
       @media screen and (max-width: $brk-ipad-width - 1) {
         html[lang="deu"] & {
           margin-top: -25px;
@@ -106,7 +119,7 @@
         }
         html[lang="fra"] & {
           font-size: 12px;
-          margin-top: -25px;
+          margin-top: -16px;
         }
       }
     }
@@ -117,6 +130,9 @@
       font-weight: 600;
       @media screen and (max-width: $brk-ipad-width) {
         font-size: 5rem;
+        html[lang="fra"] & {
+          font-size: 4.5rem;
+        }
       }
       @media screen and (max-width: $brk-ipad-width - 1) {
         html[lang="rus"] & {
@@ -126,7 +142,7 @@
       @media screen and (max-width: $brk-mobile-width) {
         font-size: 4rem;
         html[lang="fra"] & {
-          font-size: 3rem;
+          font-size: 3.5rem;
         }
       }
       & p:nth-of-type(1) {

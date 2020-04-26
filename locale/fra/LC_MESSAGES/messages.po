@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: French\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-04-19 12:30\n"
+"PO-Revision-Date: 2020-04-26 10:06\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-04-19 12:23+0000\n"
+"POT-Creation-Date: 2020-04-23 11:47+0000\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: fr\n"
@@ -1087,7 +1087,7 @@ msgstr "Meilleure offre"
 
 #: /home/guy/kape/Privateland/views/partials/super_price.ejs:33
 msgid "Save <b>%s%</b>"
-msgstr "Économisez<b>%s</b>"
+msgstr "Économisez <b>%s %</b>"
 
 #: /home/guy/kape/Privateland/views/partials/super_price.ejs:41
 msgid "/mo"
@@ -1099,7 +1099,7 @@ msgstr "<del>%s</del> %s par mois"
 
 #: /home/guy/kape/Privateland/views/partials/super_price.ejs:49
 msgid "<del>%s</del> %s per %s months"
-msgstr "<del>%s</del> %s par %s mois"
+msgstr "<del>%s</del> %s tous les %s mois"
 
 #: /home/guy/kape/Privateland/views/partials/super_price.ejs:53
 msgid "<del>%s</del> %s per year"
@@ -1185,7 +1185,7 @@ msgstr "Recommandé par"
 
 #: /home/guy/kape/Privateland/views/partials/footers/dark_footer.ejs:3
 msgid "Limited Time Only! <span class='color_pia_green'>Act Now</span>"
-msgstr "Offre Limitée !<span class='color_pia_green'>Soyez Réactifs</span>"
+msgstr "Offre Limitée ! <span class='color_pia_green'>Soyez Réactifs</span>"
 
 #: /home/guy/kape/Privateland/views/partials/footers/dark_footer.ejs:11
 msgid "%s<br><span>day</span>"
@@ -1234,7 +1234,7 @@ msgstr "/ mois"
 
 #: /home/guy/kape/Privateland/views/partials/sponsors.ejs:3
 msgid "Proud Sponsor Of"
-msgstr "Fier Sponsor De"
+msgstr "Fier Sponsor De "
 
 #: /home/guy/kape/Privateland/views/partials/operating_system.ejs:4
 msgid "Compatible with all popular desktop and mobile operating systems"
@@ -1242,11 +1242,11 @@ msgstr "Compatible avec la plupart des systèmes d'exploitation bureau et mobile
 
 #: /home/guy/kape/Privateland/views/partials/discount_block.ejs:5
 msgid "For a Limited Time Only<br>Grab our"
-msgstr "Sur une Durée Limitée Seulement<br>Saisissez notre"
+msgstr "Sur une Durée Limitée Seulement<br>Saisissez nos"
 
 #: /home/guy/kape/Privateland/views/partials/discount_block.ejs:10
 msgid "DISCOUNT"
-msgstr "REMISE"
+msgstr "de REMISE"
 
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:3
 msgid "Experience"
@@ -1254,6 +1254,8 @@ msgstr "Expérience"
 
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:8
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:45
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:89
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:125
 msgid "Total Online Freedom"
 msgstr "Totale Liberté en Ligne"
 
@@ -1300,7 +1302,12 @@ msgstr "Avec Private Internet Access, vous serez en mesure de bloquer les pubs, 
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:65
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:33
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:90
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:19
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:208
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:274
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:19
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:19
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:94
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:19
 #: /home/guy/kape/Privateland/views/pages/safe-wifi.ejs:63
 msgid "Get Private Internet Access VPN"
@@ -1330,15 +1337,15 @@ msgstr "Votre Statut :"
 msgid "You are not protected"
 msgstr "Vous n'êtes pas protégé"
 
-#: /home/guy/kape/Privateland/views/errors/404.ejs:16
+#: /home/guy/kape/Privateland/views/errors/404.ejs:18
 msgid "OOPS!"
 msgstr "OUPS !"
 
-#: /home/guy/kape/Privateland/views/errors/404.ejs:17
+#: /home/guy/kape/Privateland/views/errors/404.ejs:19
 msgid "It looks like the page you were looking for isn't here anymore. Feel free to visit our homepage by clicking the button below."
 msgstr "Il semble que la page que vous cherchiez ne soit plus là. N'hésitez pas à vous rendre sur notre page d'accueil en cliquant sur le bouton ci-dessous."
 
-#: /home/guy/kape/Privateland/views/errors/404.ejs:18
+#: /home/guy/kape/Privateland/views/errors/404.ejs:20
 msgid "Take Me To The Homepage"
 msgstr "Retourner sur la page d'Accueil"
 
@@ -1354,7 +1361,9 @@ msgstr "Débloquez les catalogues de contenus restreints en toute facilité<br>a
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:32
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:28
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:41
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:25
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:25
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:25
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:25
 #: /home/guy/kape/Privateland/views/pages/safe-wifi.ejs:26
 msgid "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>"
@@ -1365,7 +1374,9 @@ msgstr "Testez-le sans risque ! <i class='fas fa-award'></i><span class='text-up
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:56
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:60
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:85
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:62
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:57
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:67
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:66
 #: /home/guy/kape/Privateland/views/pages/safe-wifi.ejs:58
 msgid "Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>"
@@ -1373,7 +1384,9 @@ msgstr "Testez-le sans risque ! r<br><span class='text-uppercase'>remboursement 
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:71
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:18
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:67
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:62
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:72
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:71
 #: /home/guy/kape/Privateland/views/pages/safe-wifi.ejs:21
 msgid "Private Internet Access VPN for %s% OFF"
@@ -1422,11 +1435,14 @@ msgstr "Dès lors que vous avez choisi votre emplacement virtuel, vous serez en 
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:114
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:172
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:115
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:173
 msgid "Stream on multiple devices"
 msgstr "Streamez sur une multitude d'appareils"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:115
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:183
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:184
 msgid "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!"
 msgstr "1 abonnement Private Internet Access offre la possibilité d'utiliser jusqu'à %s appareils en simultané. Partagez Private Internet Access avec l'ensemble de votre famille !"
 
@@ -1440,26 +1456,33 @@ msgid "Start streaming with Private Internet Access in minutes"
 msgstr "Streamez avec Private Internet Access en quelques minutes"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:203
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:224
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:204
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:220
 msgid "<b>Subscribe</b><br>to Private Internet Access"
 msgstr "<b>Souscrivez un abonnement</b><br>Private Internet Access"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:204
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:225
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:205
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:221
 msgid "<b>Download</b><br>Private Internet Access"
 msgstr "<b>Téléchargez</b><br>Private Internet Access"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:205
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:226
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:222
 msgid "<b>Login</b><br>on the Private Internet Access client with your username and password"
 msgstr "<b>Connectez-vous</b><br>sur le client Private Internet Access à l'aide de votre identifiant et mot de passe"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:206
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:207
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:223
 msgid "<b>Turn on</b><br>Private Internet Access and connect to the location of your choice"
 msgstr "<b>Activez</b><br>Private Internet Access et connectez-vous à l'emplacement de votre choix"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:208
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:209
 msgid "You’re ready to start streaming with <span>Private Internet Access</span>"
 msgstr "Vous voilà prêt à Streamer avec <span>Private Internet Access</span>"
 
@@ -1468,14 +1491,18 @@ msgid "Private Internet Access Streaming FAQ"
 msgstr "FAQ Streaming Private Internet Access"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:236
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:237
 msgid "Is it safe to stream with Private Internet Access?"
 msgstr "Est-il sûr de Streamer avec Private Internet Access ?"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:237
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:238
 msgid "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?"
 msgstr "Oui. Private Internet Access fournit un service VPN doté de serveurs dans %s emplacements à travers ses %s pays, notamment les États-Unis, le Royaume-Uni, le Japon et bien plus. La véritable question serait de savoir : s'il serait sûr de Streamer sans Private Internet Access ?"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:240
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:306
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:241
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:253
 msgid "Do you have a refund policy?"
 msgstr "Disposez-vous d'une politique de remboursement en vigueur ?"
@@ -1485,14 +1512,17 @@ msgid "Private Internet Access has a no questions asked 7 day money back guarant
 msgstr "Private Internet Access offre une garantie de remboursement 7 jours sans aucune justification requise. Souscrivez un abonnement Private Internet Access dès aujourd'hui et Streamez sans plus tarder !"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:244
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:245
 msgid "Will my IP address be exposed to streaming services or websites?"
 msgstr "Mon adresse IP sera t-elle divulguée aux plateformes et sites de Streaming ?"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:245
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:246
 msgid "By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services and websites will only see our Private Internet Access IP address, not your device’s IP address."
 msgstr "En utilisant Private Internet Access, votre traffic est crypté à l'aide de notre tunnel VPN relié à Internet à partir de l'une de nos adresses IP. Les plateformes et sites de Streaming ne verront que l'adresse IP fournie par Private Internet Access et non l'adresse IP de votre appareil."
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:248
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:249
 msgid "Does Private Internet Access limit the bandwidth that streamers can use?"
 msgstr "Private Internet Access est-il susceptible de limiter la bande passante utilisée par les Streamers ?"
 
@@ -1501,6 +1531,7 @@ msgid "Private Internet Access is the premier no log VPN - this means that we do
 msgstr "Private Internet Access est le premier VPN \"No Log\" - cela implique que nous n'avons aucune idée de ce que vous Streamez. Tous nos serveurs offrent une bande passante illimitée et nous ne restreignons pas nos utilisateurs. Jamais. Optez pour Private Internet Access et profitez d'Internet en illimité et sans aucune censure."
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:252
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:253
 msgid "Will Private Internet Access be blocked on my favorite streaming service or website?"
 msgstr "Private Internet Access est-il susceptible d'être bloqué sur mes plateformes de Streaming ou sites web favoris ?"
 
@@ -1557,9 +1588,189 @@ msgstr "Chiffrement de niveau militaire"
 msgid "%s Devices"
 msgstr "%s Appareils"
 
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:16
+msgid "Using <span>Zoom</span> for video calls?"
+msgstr "Vous utilisez <span>Zoom</span> pour vos appels vidéo ?"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:17
+msgid "Make sure your online activity stays hidden"
+msgstr "Assurez-vous que votre activité en ligne reste confidentielle"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:76
+msgid "Why use a VPN with Zoom?"
+msgstr "Pourquoi utiliser un VPN sur Zoom ?"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:77
+msgid "Zoom has been accused of sharing user data with Facebook, they lied about the app having end-to-end encryption, and the app allowed meeting hosts to track attendees.<br><br><b>So get Private Internet Access to encrypt your data, hide your IP address and become anonymous while using Zoom.</b>"
+msgstr "Zoom a subi des accusations concernant un éventuel partage des données utilisateurs avec Facebook. Ces derniers auraient menti quant à l'existence d'un cryptage de bout-en-bout et l'app aurait permis aux organisateurs de traquer les participants.<br><br><b>Obtenez Private Internet Access pour chiffrer vos données, masquer votre adresse IP et utiliser Zoom de manière anonyme.</b>"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:84
+msgid "First-rate VPN service:"
+msgstr "Un service VPN hautement performant :"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:90
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:136
+msgid "Bypass censorship and unblock streaming content and sites you don't have access to. Discover geo-restricted content on platforms like Netflix, HBO GO, Amazon Prime, Disney Plus, and more."
+msgstr "Contournez la censure et débloquez vos contenus en Streaming et sites auxquels vous n'aviez pas accès. Découvrez de nouveaux contenus géo-restreints sur les plateformes telles que : Netflix, HBO Go, Amazon Prime, Disney Plus et bien d'autres."
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:96
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:147
+msgid "Lightning-fast Internet"
+msgstr "Internet Haut Débit"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:97
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:158
+msgid "Private Internet Access provides the highest speeds possible. So, you can have calls without any buffering or connectivity issues."
+msgstr "Private Internet Access offre les meilleures vitesses possibles. Ainsi, vous passez et recevez vos appels sans problème de mise en mémoire tampon ou soucis de connectivité."
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:103
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:169
+msgid "Unbreakable Encryption"
+msgstr "Un Cryptage impénétrable"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:104
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:180
+msgid "Encrypt your data to make sure nobody can hack your connection and get access to your data."
+msgstr "Chiffrez vos données et assurez-vous que personne ne puisse hacker votre connexion et accéder à vos données."
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:110
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:191
+msgid "Become Anonymous"
+msgstr "Devenez Anonyme"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:111
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:202
+msgid "Browse anonymously with a private IP address and protect yourself from your companies that want to get their hands on your data."
+msgstr "Surfez anonymement à l'aide d'une adresse IP privée et protégez-vous des entreprises qui souhaiteraient mettre la main sur vos données."
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:221
+msgid "Connect in 4 easy steps:"
+msgstr "Connectez-vous en 4 petites étapes :"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:227
+msgid "<b>Turn on</b><br>Private Internet Access and connect"
+msgstr "<b>Activez</b><br>Private Internet Access et connectez-vous"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:229
+msgid "You’re ready to start using <span>Private Internet Access</span> with zoom"
+msgstr "Vous voilà prêt à utiliser <span>Private Internet Access</span> sur Zoom"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:235
+msgid "Use PIA on up to %s devices simultaneously"
+msgstr "Utilisez PIA sur un maximum de %s appareils en simultané"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:275
+msgid "%s-Day money back guarantee"
+msgstr "Remboursement garanti %s jours"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:299
+msgid "<span class=\"color_pia_green\">Frequently asked questions</span>"
+msgstr "<span class=\"color_pia_green\">Foire aux questions</span>"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:302
+msgid "How to use Private Internet Access with Zoom?"
+msgstr "Comment utiliser Private Internet Access avec Zoom ?"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:303
+msgid "First download and install the Private Internet Access app on the device you're planning to use for your Zoom call. Then create and verify your account. Sing-in to the PIA app using your username and password and connect to a server by clicking or tapping the big, round power button. You're now completely anonymous and protected, all that's left to do is to fire-up your Zoom app and join your conference."
+msgstr "Commencez par télécharger et installer l'app Private Internet Access sur l'appareil utilisé pour vos appels Zoom. Créez et validez votre compte, puis connectez-vous à l'app PIA à l'aide de vos identifiants. Choisissez le serveur à partir duquel vous souhaitez être relié à Internet en cliquant ou en appuyant sur le bouton d'alimentation. Une fois chose faite, vous serez désormais entièrement anonyme et protégé, il ne vous restera plus qu'à lancer votre application Zoom et rejoindre votre conférence."
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:307
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:242
+msgid "Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
+msgstr "Private Internet Access offre une garantie de remboursement de %s jours, sans la moindre justification requise. Souscrivez un abonnement Private Internet Access et Streamez en illimité dès à présent !"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:310
+msgid "Is it safe to use Private Internet Access?"
+msgstr "Est-il sûr d'utiliser Private Internet Access ?"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:311
+msgid "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. Private Internet access never records any of its users' data. We follow a strict no-logs policy that ensures we never keep any logs of our users' activities online."
+msgstr "Oui. Private Internet Access offre un service VPN avec des serveurs répartis dans %s emplacements, à travers %s pays, notamment aux États-Unis, au Royaume-Uni, au Japon et bien d'autres. Private Internet Access ne conserve jamais les données utilisateurs. Nous appliquons une politique No Log, soit zéro maintien des données relatives aux activités en ligne de nos utilisateurs."
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:314
+msgid "Will my IP address be exposed while using Zoom?"
+msgstr "Mon adresse IP sera t-elle divulguée lors de mon utilisation Zoom ?"
+
+#: /home/guy/kape/Privateland/views/pages/zoom.ejs:315
+msgid "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services, apps and websites will only see our Private Internet Access IP address, not your device’s IP address."
+msgstr "Non. En utilisant Private Internet Access, vous chiffrez votre trafic à travers notre tunnel VPN, lui-même relié à Internet via l'une de nos adresses IP de serveurs. Les plateformes de Streaming, apps et sites ne verront que notre adresse IP Private Internet Access et non celle de votre appareil."
+
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:17
 msgid "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>"
 msgstr "Profitez d'une sécurité imparable avec <br><b>Le Meilleur VPN pour<br><span class=\"color_pia_light_orange\">%s</span></b>"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:16
+msgid "Unblock <span>new streaming content</span><br><small>on your <span>Fire Stick TV</span></small>"
+msgstr "Débloquez <span>de nouveaux contenus en Streaming</span><br><small>sur votre <span>Fire Stick TV</span></small>"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:17
+msgid "with Private Internet Access VPN"
+msgstr "avec Private Internet Access VPN"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:81
+msgid "Tired of watching the same shows and movies on streaming platforms?"
+msgstr "Vous en avez assez de regarder en boucle les mêmes séries et films en Streaming ?"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:82
+msgid "Private Internet Access changes your IP address to one from a different location so you can discover new streaming properties.<br><b>Sign up to Private Internet Access today and unblock tons of new content from different countries around the world.</b>"
+msgstr "Private Internet Access remplace votre adresse IP par une adresse située dans une région vous permettant de bénéficier de nouvelles conditions de Streaming.<br><b>Souscrivez un abonnement Private Internet Access aujourd'hui et débloquez des tonnes de nouveaux contenus à travers le monde.</b>"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:85
+msgid "Stream new content on your Fire Stick TV:"
+msgstr "Accédez à de nouveaux contenus en Streaming sur votre Fire Stick TV :"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:96
+msgid "A must have for your Fire Stick TV"
+msgstr "Un indispensable pour votre Fire Stick TV"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:101
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:129
+msgid "Access content from all over the world"
+msgstr "Accédez aux contenus du monde entier"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:102
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:140
+msgid "Private Internet Access has thousands of servers in over %s countries world-wide. Connect to either one of them and discover new films, TV shows and documentaries."
+msgstr "Private Internet Access compte des milliers de serveurs répartis dans plus de %s pays à travers le monde. Connectez-vous à l'un d'entre eux et découvrez de nouveaux films, programmes TV et documentaires."
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:108
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:151
+msgid "Override geographical restrictions"
+msgstr "Contournez les restrictions géographiques"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:109
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:162
+msgid "Connect to a server from a different country with just one click, straight from the Private Internet Access app, and unblock content that's not available in your country."
+msgstr "À partir de l'application Private Internet Access et en un clic, connectez-vous à l'un de nos serveurs localisés à l'étranger et débloquez les contenus restreints dans votre région."
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:116
+msgid "With just 1 Private Internet Access VPN subscription you can use the app on up to %s devices at the same time. This way you can unblock content on anything that has a screen and an internet connection."
+msgstr "Un seul abonnement VPN à Private Internet Access vous permet d'utiliser l'application sur un total de %s appareils en simultané. Vous pouvez ainsi débloquer vos contenus sur l'ensemble de vos écrans connectés."
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:201
+msgid "All it takes are 4 easy steps:"
+msgstr "Il suffit de 4 petites étapes :"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:202
+msgid "Watch your favorite movies and shows in minutes"
+msgstr "Accédez à vos films et programmes favoris en quelques minutes"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:206
+msgid "<b>Login</b><br>sing your username and password"
+msgstr "<b>Connectez-vous</b><br> à l'aide de vos identifiants"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:234
+msgid "Got questions about streaming? <span class=\"color_pia_green\">Here are a few of our FAQs</span>"
+msgstr "Vous avez des questions relatives au Streaming ? <span class=\"color_pia_green\">Découvrez les questions les plus fréquemment posées à ce sujet</span>"
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:250
+msgid "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet."
+msgstr "Private Internet Access est le VPN No-Log par excellence - nous ne disposons d'aucune information relative à vos activités de Streaming, ou autres ! Nos serveurs vous offrent une bande passante illimitée et nous ne restreignons jamais nos utilisateurs. Optez pour Private Internet Access dès aujourd'hui et profitez d'Internet dans toute sa splendeur, loin des limitations et de la censure."
+
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:254
+msgid "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online."
+msgstr "Private Internet Access est un fervent défenseur des libertés Internet et s'efforce de veiller à ce que ses utilisateurs VPN jouissent d'une expérience en ligne sans entrave. Optez pour nos services et découvrez pourquoi Private Internet Access est le meilleur VPN de Streaming en ligne."
 
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:16
 msgid "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>"

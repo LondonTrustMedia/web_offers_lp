@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Danish\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-19 12:30\nLanguage: da_DK\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-19 12:23+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: da\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Danish\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-24 12:14\nLanguage: da_DK\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-23 11:47+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: da\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1471,9 +1471,177 @@
          null,
          "%s enheder"
       ],
+      "Using <span>Zoom</span> for video calls?": [
+         null,
+         ""
+      ],
+      "Make sure your online activity stays hidden": [
+         null,
+         ""
+      ],
+      "Why use a VPN with Zoom?": [
+         null,
+         ""
+      ],
+      "Zoom has been accused of sharing user data with Facebook, they lied about the app having end-to-end encryption, and the app allowed meeting hosts to track attendees.<br><br><b>So get Private Internet Access to encrypt your data, hide your IP address and become anonymous while using Zoom.</b>": [
+         null,
+         ""
+      ],
+      "First-rate VPN service:": [
+         null,
+         ""
+      ],
+      "Bypass censorship and unblock streaming content and sites you don't have access to. Discover geo-restricted content on platforms like Netflix, HBO GO, Amazon Prime, Disney Plus, and more.": [
+         null,
+         ""
+      ],
+      "Lightning-fast Internet": [
+         null,
+         ""
+      ],
+      "Private Internet Access provides the highest speeds possible. So, you can have calls without any buffering or connectivity issues.": [
+         null,
+         ""
+      ],
+      "Unbreakable Encryption": [
+         null,
+         ""
+      ],
+      "Encrypt your data to make sure nobody can hack your connection and get access to your data.": [
+         null,
+         ""
+      ],
+      "Become Anonymous": [
+         null,
+         ""
+      ],
+      "Browse anonymously with a private IP address and protect yourself from your companies that want to get their hands on your data.": [
+         null,
+         ""
+      ],
+      "Connect in 4 easy steps:": [
+         null,
+         ""
+      ],
+      "<b>Turn on</b><br>Private Internet Access and connect": [
+         null,
+         ""
+      ],
+      "You’re ready to start using <span>Private Internet Access</span> with zoom": [
+         null,
+         ""
+      ],
+      "Use PIA on up to %s devices simultaneously": [
+         null,
+         ""
+      ],
+      "%s-Day money back guarantee": [
+         null,
+         ""
+      ],
+      "<span class=\"color_pia_green\">Frequently asked questions</span>": [
+         null,
+         ""
+      ],
+      "How to use Private Internet Access with Zoom?": [
+         null,
+         ""
+      ],
+      "First download and install the Private Internet Access app on the device you're planning to use for your Zoom call. Then create and verify your account. Sing-in to the PIA app using your username and password and connect to a server by clicking or tapping the big, round power button. You're now completely anonymous and protected, all that's left to do is to fire-up your Zoom app and join your conference.": [
+         null,
+         ""
+      ],
+      "Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
+         null,
+         ""
+      ],
+      "Is it safe to use Private Internet Access?": [
+         null,
+         ""
+      ],
+      "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. Private Internet access never records any of its users' data. We follow a strict no-logs policy that ensures we never keep any logs of our users' activities online.": [
+         null,
+         ""
+      ],
+      "Will my IP address be exposed while using Zoom?": [
+         null,
+         ""
+      ],
+      "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services, apps and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
+         null,
+         ""
+      ],
       "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
          "Få ubrydelig online sikkerhed med<br><b>den bedste VPN til<br><span class=\"color_pia_light_orange\">%s</span></b>"
+      ],
+      "Unblock <span>new streaming content</span><br><small>on your <span>Fire Stick TV</span></small>": [
+         null,
+         ""
+      ],
+      "with Private Internet Access VPN": [
+         null,
+         ""
+      ],
+      "Tired of watching the same shows and movies on streaming platforms?": [
+         null,
+         ""
+      ],
+      "Private Internet Access changes your IP address to one from a different location so you can discover new streaming properties.<br><b>Sign up to Private Internet Access today and unblock tons of new content from different countries around the world.</b>": [
+         null,
+         ""
+      ],
+      "Stream new content on your Fire Stick TV:": [
+         null,
+         ""
+      ],
+      "A must have for your Fire Stick TV": [
+         null,
+         ""
+      ],
+      "Access content from all over the world": [
+         null,
+         ""
+      ],
+      "Private Internet Access has thousands of servers in over %s countries world-wide. Connect to either one of them and discover new films, TV shows and documentaries.": [
+         null,
+         ""
+      ],
+      "Override geographical restrictions": [
+         null,
+         ""
+      ],
+      "Connect to a server from a different country with just one click, straight from the Private Internet Access app, and unblock content that's not available in your country.": [
+         null,
+         ""
+      ],
+      "With just 1 Private Internet Access VPN subscription you can use the app on up to %s devices at the same time. This way you can unblock content on anything that has a screen and an internet connection.": [
+         null,
+         ""
+      ],
+      "All it takes are 4 easy steps:": [
+         null,
+         ""
+      ],
+      "Watch your favorite movies and shows in minutes": [
+         null,
+         ""
+      ],
+      "<b>Login</b><br>sing your username and password": [
+         null,
+         ""
+      ],
+      "Got questions about streaming? <span class=\"color_pia_green\">Here are a few of our FAQs</span>": [
+         null,
+         ""
+      ],
+      "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
+         null,
+         ""
+      ],
+      "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
+         null,
+         ""
       ],
       "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>": [
          null,

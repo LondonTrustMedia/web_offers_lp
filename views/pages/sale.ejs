@@ -39,7 +39,7 @@
             </div>
             <div class="d-block d-md-none mobile_header color_white py-2">
                 <div class="container">
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center <%- query.brand ? 'brand' : '' %>">
                         <div class="mr-3">
                             <% if (query.brand) { %>
                                 <% include ../partials/brand %>

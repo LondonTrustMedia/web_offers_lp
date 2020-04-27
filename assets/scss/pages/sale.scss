@@ -49,6 +49,18 @@ header {
     background-size: cover;
     min-height: 600px;
   }
+  & #brand {
+    margin-top: 4rem;
+    @media screen and (max-width: $brk-min-desktop-width) {
+      margin-top: 2rem;
+    }
+    & p {
+      color: #000;
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        color: #fff;
+      }
+    }
+  }
   & .content {
     padding-top: 80px;
     position: relative;
@@ -56,6 +68,7 @@ header {
     @media screen and (max-width: $brk-ipad-width - 1) {
         padding-top: 100px;
     }
+    
     & .logo {
         height: 45px;
         @media screen and (max-width: $brk-ipad-width - 1) {
@@ -182,6 +195,13 @@ header {
     }
     & p {
         font-size: 14px;
+    }
+    & .brand {
+      flex-direction: column-reverse;
+      text-align: center!important;
+      & p {
+        text-align: center!important;
+      }
     }
   }
   & .corners {

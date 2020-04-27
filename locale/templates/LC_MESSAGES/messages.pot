@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-04-27 13:37+0000\n"
+"POT-Creation-Date: 2020-04-27 15:31+0000\n"
 
 #: /home/guy/kape/Privateland/app/modules/best-script.js:5
 msgid "Afghanistan"
@@ -1351,10 +1351,10 @@ msgstr ""
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:34
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:128
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:19
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:23
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:58
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:24
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:61
-#: /home/guy/kape/Privateland/views/pages/price-sale.ejs:23
-#: /home/guy/kape/Privateland/views/pages/price-sale.ejs:58
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:65
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:33
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:90
@@ -1398,8 +1398,8 @@ msgid "Unblock restricted content libraries easily<br> with Private Internet Acc
 msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:25
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:27
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:32
-#: /home/guy/kape/Privateland/views/pages/price-sale.ejs:27
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:28
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:41
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:25
@@ -1413,9 +1413,9 @@ msgid ""
 msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:66
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:54
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:77
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:56
-#: /home/guy/kape/Privateland/views/pages/price-sale.ejs:54
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:60
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:85
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:62
@@ -1621,6 +1621,28 @@ msgid ""
 "to see why Private Internet Access is the best VPN for streaming online."
 msgstr ""
 
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:15
+msgid ""
+"Save <b>%s%</b><br><span class=\"lines\">& get <b>%s extra months "
+"<span>free</span></b></span>"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:16
+msgid ""
+"Save <b>%s%</b> & get<br><b class=\"lines\">%s extra "
+"months</b><br><span>free</span>"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:17
+msgid ""
+"Save <b>%s%</b><br>& get<br><b class=\"lines\">%s extra "
+"months</b><br><span>free</span>"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:20
+msgid "for only <b class=\"mx-md-3 mx-2\">$<span>%s</span></b> /month"
+msgstr ""
+
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:15
 msgid "The VPN recommended by<br><b>%s</b>"
 msgstr ""
@@ -1643,28 +1665,6 @@ msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:25
 msgid "Try it risk free! <i class='fas fa-award'></i> %s day money back guarantee"
-msgstr ""
-
-#: /home/guy/kape/Privateland/views/pages/price-sale.ejs:15
-msgid ""
-"Save <b>%s%</b><br><span class=\"lines\">& get <b>%s extra months "
-"<span>free</span></b></span>"
-msgstr ""
-
-#: /home/guy/kape/Privateland/views/pages/price-sale.ejs:16
-msgid ""
-"Save <b>%s%</b> & get<br><b class=\"lines\">%s extra "
-"months</b><br><span>free</span>"
-msgstr ""
-
-#: /home/guy/kape/Privateland/views/pages/price-sale.ejs:17
-msgid ""
-"Save <b>%s%</b><br>& get<br><b class=\"lines\">%s extra "
-"months</b><br><span>free</span>"
-msgstr ""
-
-#: /home/guy/kape/Privateland/views/pages/price-sale.ejs:20
-msgid "for only <b class=\"mx-md-3 mx-2\">$<span>%s</span></b> /month"
 msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:16

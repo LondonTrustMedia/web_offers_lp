@@ -1,0 +1,69 @@
+<html lang="<%= lang %>" dir="<%= lang_dir %>">
+
+<head>
+    <% include ../partials/head %>
+    <link rel="stylesheet" href="<%= asset('css/sale.css') %>">
+    <link rel="stylesheet" href="https://use.typekit.net/syh7gcy.css">
+</head>
+
+    <body>
+        <% include ../navbar/navbar_dark %>      
+        <header class="color_white text-center">
+            <% include ../partials/expose_bar_lang %>  
+            <div class="container content mb-md-0 mb-2">
+                <img src="img/logo_pia_white.svg" class="logo mx-auto mb-md-3 mb-2">
+                <h1 class="mt-3 mb-4 d-lg-block d-none"><%- format(gettext('Save <b>%s%</b><br><span class="lines">& get <b>%s extra months <span>free</span></b></span>'),[ prices.blocks[1].discount , 2 ]) %></h1>
+                <h1 class="d-lg-none d-md-block d-none mt-3 mb-4"><%- format(gettext('Save <b>%s%</b> & get<br><b class="lines">%s extra months</b><br><span>free</span>'),[ prices.blocks[1].discount , 2 ]) %></h1>
+                <h1 class="d-md-none d-block mt-3 mb-md-4 mb-3"><%- format(gettext('Save <b>%s%</b><br>& get<br><b class="lines">%s extra months</b><br><span>free</span>'),[ prices.blocks[1].discount , 2 ]) %></h1>
+                
+                <div class="price mt-3">
+                    <p class="text-uppercase color_pia_light_orange d-flex justify-content-center align-items-md-center align-items-baseline mb-0"><%- format(gettext('for only <b class="mx-md-3 mx-2">$<span>%s</span></b> /month'),[ prices.blocks[1].USD.perMonthNumber ]) %></p>
+                </div>
+                <div class="d-inline-block text-center position-relative">
+                    <a href="<%- offerLink %>" class="btn_wave orange mt-3 mb-4 d-md-inline-block d-none"><%- gettext("Get Private Internet Access VPN") %></a>
+                </div>
+                <div class="d-md-block d-none">
+                    <div class="text-center d-inline-block d-none">
+                        <p class="color_white risk"><%- format(gettext("Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase'> %s-day money back guarantee</span>"), [30]) %></p>
+                        <% if (query.brand) { %>
+                            <% include ../partials/brand %>
+                        <% } else { %>
+                            <div class="brands d-block">
+                                <div class="d-inline-block mr-4"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                                <div class="d-inline-block mr-4"><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                                <div class="d-inline-block"><img src="img/brand_logo_cnet.png" alt="cnet"></div>
+                            </div>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+            <div class="d-block d-md-none mobile_header color_white py-2">
+                <div class="container">
+                    <div class="d-flex align-items-center">
+                        <div class="mr-3">
+                            <% if (query.brand) { %>
+                                <% include ../partials/brand %>
+                            <% } else { %>
+                                <div class="brands d-flex">
+                                    <div class="mr-2"><img src="img/brand_logo_pcmag.png" alt="pcmag"></div>
+                                    <div><img src="img/brand_logo_editor_choice.png" alt="editor choice"></div>
+                                </div>
+                            <% } %>
+                        </div>
+                        <div>
+                            <p class="mb-0 color_white text-left"><%- format(gettext("Try it risk free!<br><span class='text-uppercase'>%s-day money back guarantee</span>"), [30]) %></p>
+                        </div>
+                    </div>
+                    <div class="d-block">
+                        <a href="<%- offerLink %>" class="btn_wave orange my-3"><%- gettext("Get Private Internet Access VPN") %></a>
+                    </div>
+                </div>
+            </div>
+            <div class="corners"></div>
+        </header>
+        <% include ../body/general %>
+        <% include ../partials/tag_manager %>
+        <script src="<%= asset('js/trust.js') %>"></script>
+    </body>
+
+</html>

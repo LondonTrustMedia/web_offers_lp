@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="108.969" viewBox="0 0 768 108.969">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Bottom_white_cutter" data-name="Bottom white cutter" class="cls-1" d="M158,768L0,659.022V768H768L664,696Z" transform="translate(0 -659.031)"/>
+</svg>

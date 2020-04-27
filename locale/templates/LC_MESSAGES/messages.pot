@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-04-23 11:47+0000\n"
+"POT-Creation-Date: 2020-04-27 08:42+0000\n"
 
 #: /home/guy/kape/Privateland/app/modules/best-script.js:5
 msgid "Afghanistan"
@@ -1519,6 +1519,7 @@ msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:205
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:226
+#: /home/guy/kape/Privateland/views/pages/firetv.ejs:206
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:222
 msgid ""
 "<b>Login</b><br>on the Private Internet Access client with your username "
@@ -1882,10 +1883,6 @@ msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:202
 msgid "Watch your favorite movies and shows in minutes"
-msgstr ""
-
-#: /home/guy/kape/Privateland/views/pages/firetv.ejs:206
-msgid "<b>Login</b><br>sing your username and password"
 msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:234

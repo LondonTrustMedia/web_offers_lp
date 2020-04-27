@@ -1,6 +1,6 @@
 $strokeFill: 534;
 #steps {
-  background-image: url(img/steps_bg.jpg?v2);
+  background-image: url(img/steps_bg_white.jpg);
   background-repeat: no-repeat;
   background-size: 3840px 705px;
   background-position: center top;
@@ -9,7 +9,7 @@ $strokeFill: 534;
   color: #fff;
   background-color: #263137;
   @media screen and (max-width: $brk-desktop-width) {
-    background-image: url(img/steps_bg_tablet.jpg);
+    background-image: url(img/steps_bg_white_tablet.jpg);
     background-size: 100% auto;
   }
   @media screen and (max-width: $brk-ipad-width - 1) { 

@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-24 12:14\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-23 11:47+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-27 08:44\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-27 08:42+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1624,10 +1624,6 @@
          ""
       ],
       "Watch your favorite movies and shows in minutes": [
-         null,
-         ""
-      ],
-      "<b>Login</b><br>sing your username and password": [
          null,
          ""
       ],

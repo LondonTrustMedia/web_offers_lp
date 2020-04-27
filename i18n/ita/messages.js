@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Italian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-24 12:14\nLanguage: it_IT\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-23 11:47+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: it\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Italian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-27 08:44\nLanguage: it_IT\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-27 08:42+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: it\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1626,10 +1626,6 @@
       "Watch your favorite movies and shows in minutes": [
          null,
          "Guarda i tuoi film e programmi preferiti in questione di minuti"
-      ],
-      "<b>Login</b><br>sing your username and password": [
-         null,
-         "<b>Accedi</b><br>con nome utente e password"
       ],
       "Got questions about streaming? <span class=\"color_pia_green\">Here are a few of our FAQs</span>": [
          null,

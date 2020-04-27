@@ -346,7 +346,10 @@ header {
   }
 }
 #steps {
-  background-image: url(img/Zoom_LP_steps_bg.jpg);
+  background-image: url(img/steps_bg_gray.jpg);
+  @media screen and (max-width: $brk-desktop-width) {
+    background-image: url(img/steps_bg_gray_tablet.jpg);
+  }
 }
 #operating_system {
   padding: 0;

@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Dutch\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-24 12:14\nLanguage: nl_NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-23 11:47+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: nl\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Dutch\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-27 08:44\nLanguage: nl_NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-27 08:42+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: nl\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1626,10 +1626,6 @@
       "Watch your favorite movies and shows in minutes": [
          null,
          "Bekijk binnen enkele minuten uw favoriete films en series"
-      ],
-      "<b>Login</b><br>sing your username and password": [
-         null,
-         "<b>Meld u aan</b><br>met uw gebruikersnaam en wachtwoord"
       ],
       "Got questions about streaming? <span class=\"color_pia_green\">Here are a few of our FAQs</span>": [
          null,

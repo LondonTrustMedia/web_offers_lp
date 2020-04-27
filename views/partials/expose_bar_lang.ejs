@@ -1,0 +1,79 @@
+<div id="expose_bar">
+    <div class="container d-flex justify-content-between">
+        <div class="d-flex">
+            <div class="mr-md-3 mr-1 d-block">
+                <div class="lable d-inline-block"><%- gettext("Your IP:") %></div>
+                <div class="ip info d-inline-block"><%- userLocation.ip %></div>
+            </div>
+            <div class="mr-md-3 mr-1 d-md-block d-none">
+                <div class="lable d-inline-block"><%- gettext("Your Location:") %></div>
+                <div class="location info d-inline-block"><%- userLocation.cty + "(" + userLocation.cn + ")" %></div>
+            </div>
+            <div class="mr-md-3 mr-1 d-lg-block d-none">
+                <div class="lable d-inline-block"><%- gettext("Your ISP:") %></div>
+                <div class="isp info d-inline-block"><%- userLocation.isp %></div>
+            </div>
+            <div class="ml-md-3 ml-1 d-block">
+                <div class="lable d-inline-block"><%- gettext("Your Status:") %></div>
+                <div class="status color_pia_light_orange d-inline-block">
+                    <%- gettext("You are not protected") %>
+                    <i class="fal fa-exclamation-square ml-1"></i>
+                </div>
+            </div>
+        </div>
+
+        <div id="language">
+            <div class="language-content">
+                <a class="active d-flex justify-content-between align-items-center">
+                    <div><img src="img/icon_globe.svg" alt="Globe" class="globe"></div>
+                    <span class="lang-text mx-1">English</span>
+                    <i class="fas fa-caret-down"></i>
+                </a>
+            </div>
+            <div class="languages_list">
+                <a href="//www.<%- urlForLang %>" id="eng" class="lang">
+                    <span class="lang-text">English</span>
+                </a>
+                <a href="//deu.<%- urlForLang %>" id="deu" class="lang">
+                    <span class="lang-text">Deutsch</span>
+                </a>
+                <a href="//fra.<%- urlForLang %>" id="fra" class="lang">
+                    <span class="lang-text">Français</span>
+                </a>
+                <a href="//dnk.<%- urlForLang %>" id="dan" class="lang">
+                    <span class="lang-text">Dansk</span>
+                </a>
+                <a href="//ita.<%- urlForLang %>" id="ita" class="lang">
+                    <span class="lang-text">Italiano</span>
+                </a>
+                <a href="//jpn.<%- urlForLang %>" id="jpn" class="lang">
+                    <span class="lang-text">日本語</span>
+                </a>
+                <a href="//nld.<%- urlForLang %>" id="nld" class="lang">
+                    <span class="lang-text">Nederlands</span>
+                </a>
+                <a href="//nor.<%- urlForLang %>" id="nor" class="lang">
+                    <span class="lang-text">Norsk</span>
+                </a>
+                <a href="//bra.<%- urlForLang %>" id="por" class="lang">
+                    <span class="lang-text">Português</span>
+                </a>
+                <a href="//rus.<%- urlForLang %>" id="rus" class="lang">
+                    <span class="lang-text">Русский</span>
+                </a>
+                <a href="//mex.<%- urlForLang %>" id="spa" class="lang">
+                    <span class="lang-text">Español</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<script async>
+    $(window).ready(function() {
+        const language = '<%- lang %>';
+        if (language !== 'eng') {
+            const langText = $('#hexpose_bar #language .languages_list a#' + language + ' span').text()
+            $('#expose_bar #language .language-content a span').text(langText);
+        }
+    });
+</script>

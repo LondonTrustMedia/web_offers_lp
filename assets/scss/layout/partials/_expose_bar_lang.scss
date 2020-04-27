@@ -1,0 +1,117 @@
+#expose_bar {
+    color: #fff;
+    background-color: #263238c7;
+    padding: 10px 0;
+    font-size: 14px;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    width: 100%;
+    html[lang=rus] & {
+        font-size: 13px;
+    }
+    @media screen and (max-width: $brk-ipad-width - 1) {
+        font-size: 10px;
+        html[lang=rus] & {
+            font-size: 10px;
+        }
+    }
+    & .conatiner {
+        @media screen and (max-width: $brk-ipad-width) {
+            max-width: 95%;
+        }
+    }
+    & .lable {
+        opacity: .6;
+    }
+    & .info {
+        opacity: .8;
+        // max-width: 100px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        height: 20px;
+        vertical-align: middle;
+        @media screen and (max-width: $brk-ipad-width) {
+            max-width: 60px;
+        }
+    }
+    & .status {
+        text-transform: uppercase;
+    }
+    & #language {
+        float: right;
+        position: relative;
+        @media screen and (max-width: $brk-min-desktop-width) {
+            right: calc(2.5% + 15px);
+            position: absolute;
+            top: 85px
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+            left: calc(50% - 45px);
+            width: 90px;
+            top: 60px;
+        }
+        & a {
+            display: inline-block;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 300;
+
+            &:hover,
+            &:active,
+            &:hover span,
+            &:active span {
+                color: $pia-green;
+            }
+
+            & span {
+                @include prefix((transition: color .1s linear), webkit moz ms);
+            }
+        }
+
+        & .languages_list {
+            @include flexy(flex, column);
+            position: absolute;
+            background-color: #263238;
+            @include prefix((transition: opacity 0.3s ease), webkit moz ms);
+            visibility: hidden;
+            opacity: 0;
+            width: 150px;
+            box-shadow: 0 5px 8px 3px rgba($black, 0.08);
+            right: -20px;
+        }
+
+        &:hover .languages_list {
+            visibility: visible;
+            opacity: 1;
+
+            & a {
+                padding: 10px 15px;
+
+                &:nth-of-type(1) {
+                    margin-top: 10px;
+                }
+
+                &:nth-last-of-type(1) {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        & .language-content {
+            @include flexy(flex, $align-i: center);
+            & .globe {
+                width: 15px;
+            }
+            & a {
+                &:hover,
+                &:active,
+                &:hover span,
+                &:active span {
+                    color: $color-text-dark;
+                }
+            }
+        }
+    }
+}

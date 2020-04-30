@@ -320,9 +320,20 @@
         html[lang="rus"] & { 
             font-size: .8em;
         }
+        html[currency="EUR"] & {
+          order: 3;
+        }
       }
       & .perMonthNumber {
         font-size: 3em;
+        html[currency="EUR"] & {
+          order: 1;
+        }
+      }
+      & .price-currency {
+        html[currency="EUR"] & {
+          order: 2;
+        }
       }
     }
 

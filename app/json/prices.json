@@ -5,15 +5,24 @@
             "blocks": [
                 {
                     "months": 1,
-                    "USD": "$11.95"
+                    "USD": "$11.95",
+                    "EUR": "11.69€",
+                    "CHF": "CHF 11.69",
+                    "GBP": "£9.99"
                 },
                 {
                     "months": 12,
-                    "USD": "$167.30"
+                    "USD": "$167.30",
+                    "EUR": "163.66€",
+                    "CHF": "CHF 163.66",
+                    "GBP": "£139.86"
                 },
                 {
                     "months": 6,
-                    "USD": "$71.70"
+                    "USD": "$71.70",
+                    "EUR": "70.14€",
+                    "CHF": "CHF 70.14",
+                    "GBP": "£59.94"
                 }
             ]
         },
@@ -22,15 +31,18 @@
             "blocks": [
                 {
                     "months": 1,
-                    "USD": "$11.95"
+                    "USD": "$11.95",
+                    "EUR": "11.69"
                 },
                 {
                     "months": 12,
-                    "USD": "$167.30"
+                    "USD": "$167.30",
+                    "EUR": "163.66"
                 },
                 {
                     "months": 6,
-                    "USD": "$71.70"
+                    "USD": "$71.70",
+                    "EUR": "70.14"
                 }
             ]
         },
@@ -64,6 +76,21 @@
                         "perMonthFull": "$11.95",
                         "perMonthNumber": "11.95",
                         "total": "$11.95"
+                    },
+                    "EUR": {
+                        "perMonthFull": "11.69€",
+                        "perMonthNumber": "11.69",
+                        "total": "11.69€"
+                    },
+                    "CHF": {
+                        "perMonthFull": "CHF 11.69",
+                        "perMonthNumber": "11.69",
+                        "total": "CHF 11.69"
+                    },
+                    "GBP": {
+                        "perMonthFull": "£9.99",
+                        "perMonthNumber": "9.99",
+                        "total": "£9.99"
                     }
                 },
                 {
@@ -75,6 +102,21 @@
                         "perMonthFull": "$2.85",
                         "perMonthNumber": "2.85",
                         "total": "$39.95"
+                    },
+                    "EUR": {
+                        "perMonthFull": "2.65€",
+                        "perMonthNumber": "2.65",
+                        "total": "37.19€"
+                    },
+                    "CHF": {
+                        "perMonthFull": "CHF 2.80",
+                        "perMonthNumber": "2.80",
+                        "total": "CHF 39.29"
+                    },
+                    "GBP": {
+                        "perMonthFull": "£2.32",
+                        "perMonthNumber": "2.32",
+                        "total": "£32.49"
                     }
                 },
                 {
@@ -85,6 +127,21 @@
                         "perMonthFull": "$5.99",
                         "perMonthNumber": "5.99",
                         "total": "$35.95"
+                    },
+                    "EUR": {
+                        "perMonthFull": "5.66€",
+                        "perMonthNumber": "5.66",
+                        "total": "34.00€"
+                    },
+                    "CHF": {
+                        "perMonthFull": "CHF 4.19",
+                        "perMonthNumber": "4.19",
+                        "total": "CHF 35.19"
+                    },
+                    "GBP": {
+                        "perMonthFull": "4.86",
+                        "perMonthNumber": "4.86",
+                        "total": "£29.19"
                     }
                 }
             ]

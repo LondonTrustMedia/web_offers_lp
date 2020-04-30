@@ -56,8 +56,12 @@
         & span {
           font-size: .75em;
         }
+        html[currency="EUR"] & {
+          display: flex;
+          flex-direction: row-reverse;
+        }
       }
-
+      
     }
     & .bottom {
       font-weight: 700;

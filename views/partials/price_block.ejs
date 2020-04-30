@@ -3,7 +3,7 @@
     <div class="right_line">
         <p class="text-left top"><%- gettext("For a Limited Time Only") %></p>
         <div class="discount d-flex">
-            <p class="mb-0"><span>$</span><%- prices.blocks[1].USD.perMonthNumber %></p>
+            <p class="mb-0"><span>$</span><%- prices.blocks[1][currency.iso].perMonthNumber %></p>
         </div>
         <p class="mb-0 text-left bottom"><%- gettext("/month") %></p>
     </div>

@@ -29,5 +29,10 @@
                 order: 3;
             }
         }
+        html[currency="CHF"] & {
+            & small:nth-of-type(1) {
+                font-size: .2em;
+            }
+        }
     }
 }

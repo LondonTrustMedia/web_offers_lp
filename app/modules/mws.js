@@ -347,46 +347,46 @@ module.exports = (app) => {
             ]
 
             try {
-                if ((req.userLocation.cn === "Russia" || req.userLocation.cn === "Ukraine") && isCurrencyExists(req.price, "RUB"))
+                if ((req.userLocation.cn === "Russia" || req.userLocation.cn === "Ukraine") && isCurrencyExists(req.prices, "RUB"))
                     res.locals.currency = req.currency = {
                         iso: "RUB",
                         symbol: "руб",
                         text: req.gettext('Russian Rubles')
             
                     }
-                else if (req.userLocation.cn === "India" && isCurrencyExists(req.price, "INR"))
-                    res.locals.currency = req.currency = {
-                        iso: "INR",
-                        symbol: "₹",
-                        text: req.gettext('Indian Rupee')
+                // else if (req.userLocation.cn === "India" && isCurrencyExists(req.prices, "INR"))
+                //     res.locals.currency = req.currency = {
+                //         iso: "INR",
+                //         symbol: "₹",
+                //         text: req.gettext('Indian Rupee')
             
-                    }
-                else if (req.userLocation.cn === "Brazil" && isCurrencyExists(req.price, "BRL"))
-                        res.locals.currency = req.currency = {
-                            iso: "BRL",
-                            symbol: "R$",
-                            text: req.gettext('Brazilian Reals')
-                        }
-                else if (req.userLocation.cn === "United Kingdom" && isCurrencyExists(req.price, "GBP"))
+                //     }
+                // else if (req.userLocation.cn === "Brazil" && isCurrencyExists(req.prices, "BRL"))
+                //         res.locals.currency = req.currency = {
+                //             iso: "BRL",
+                //             symbol: "R$",
+                //             text: req.gettext('Brazilian Reals')
+                //         }
+                else if (req.userLocation.cn === "United Kingdom" && isCurrencyExists(req.prices, "GBP"))
                     res.locals.currency = req.currency = {
                         iso: "GBP",
                         symbol: "£",
                         text: 'British Pounds Sterling'
                     }
-                else if (req.userLocation.cn === "Japan" && isCurrencyExists(req.price, "JPY"))
-                    res.locals.currency = req.currency = {
-                        iso: "JPY",
-                        symbol: "¥",
-                        text: req.gettext('Japanese Yen')
+                // else if (req.userLocation.cn === "Japan" && isCurrencyExists(req.prices, "JPY"))
+                //     res.locals.currency = req.currency = {
+                //         iso: "JPY",
+                //         symbol: "¥",
+                //         text: req.gettext('Japanese Yen')
             
-                    }
-                else if (req.userLocation.cn === "Australia" && isCurrencyExists(req.price, "AUD"))
-                        res.locals.currency = req.currency = {
-                            iso: "AUD",
-                            symbol: "AU$",
-                            text: req.gettext('Australian Dollars')
-                        }
-                else if (req.userLocation.cn === "Switzerland" && isCurrencyExists(req.price, "CHF"))
+                //     }
+                // else if (req.userLocation.cn === "Australia" && isCurrencyExists(req.prices, "AUD"))
+                //         res.locals.currency = req.currency = {
+                //             iso: "AUD",
+                //             symbol: "AU$",
+                //             text: req.gettext('Australian Dollars')
+                //         }
+                else if (req.userLocation.cn === "Switzerland" && isCurrencyExists(req.prices, "CHF"))
                         res.locals.currency = req.currency = {
                             iso: "CHF",
                             symbol: "CHF",
@@ -558,7 +558,8 @@ function getEvent() {
 }
 
 function isCurrencyExists(prices, currency) {
-    if (prices[0][currency])
+    console.log('prices', prices)
+    if (prices.blocks[0][currency])
         return true
     else
         return false

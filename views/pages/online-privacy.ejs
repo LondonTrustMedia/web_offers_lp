@@ -15,7 +15,7 @@
                 <div class="col-65">
                     <h1 class="mt-3 mb-0"><%- gettext('Discover The Safest Way to Get<br><b><span class="text-uppercase color_pia_light_orange">Total Online Privacy</span></b><br>Get Private Internet Access VPN') %></h1>
                     <div class="d-md-inline-block text-center d-none">
-                        <a href="<%- offerLink %>" class="btn_wave orange my-3"><%- format(gettext("Private Internet Access VPN for %s% OFF"),[prices.blocks[1].discount]) %></a>
+                        <a href="<%- offerLink %>" class="btn_wave orange my-3"><%- format(gettext("Private Internet Access VPN for %s% OFF"),[prices.blocks[1][currency.iso].discount]) %></a>
                         <p class="color_white mb-0"><span class="color_pia_light_orange"><i class="fas fa-circle mr-2"></i><%- gettext("100%</span> No Logs & Records") %><span class="color_pia_light_orange"><i class="fas fa-circle ml-2"></i></span></p>
                     </div>
                     <div class="position-relative price">

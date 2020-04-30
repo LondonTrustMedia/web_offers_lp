@@ -18,7 +18,7 @@
                         <% include ../partials/only_price %> 
                         <% include ../partials/b2mfree_new %>
                         <div class="d-md-inline-block d-none">
-                            <a href="<%- offerLink %>" class="btn_wave orange my-3"><%- format(gettext("Private Internet Access VPN for %s% OFF"),[prices.blocks[1].discount]) %></a>
+                            <a href="<%- offerLink %>" class="btn_wave orange my-3"><%- format(gettext("Private Internet Access VPN for %s% OFF"),[prices.blocks[1][currency.iso].discount]) %></a>
                         </div>
                     </div>
                     <div class="d-md-block text-left d-none">

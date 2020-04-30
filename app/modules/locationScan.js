@@ -40,7 +40,7 @@ var locationScan = module.exports = {
                     console.log(body)
                 }
                 // console.log(body)
-                // console.log(req.userLocation)
+                console.log(req.userLocation)
                 callback();
             }
         })

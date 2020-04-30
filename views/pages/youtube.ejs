@@ -19,7 +19,7 @@
                             <% include ../partials/b2mfree_new %>
                         </div>
                         
-                        <a href="<%- offerLink %>" class="btn_wave orange my-3 d-md-inline-block d-none"><%- format(gettext("Save %s% Now"),[prices.blocks[1].discount]) %></a>
+                        <a href="<%- offerLink %>" class="btn_wave orange my-3 d-md-inline-block d-none"><%- format(gettext("Save %s% Now"),[prices.blocks[1][currency.iso].discount]) %></a>
                         <div class="d-flex d-md-block align-items-center">
                             <div class="d-inline-block d-md-none">
                                 <% include ../partials/b2mfree_new %>
@@ -79,7 +79,7 @@
                     </div>
                 </div>
                 <div class="container">
-                    <a href="<%- offerLink %>" class="btn_wave orange"><%- format(gettext("Save %s% Now"),[prices.blocks[1].discount]) %></a>
+                    <a href="<%- offerLink %>" class="btn_wave orange"><%- format(gettext("Save %s% Now"),[prices.blocks[1][currency.iso].discount]) %></a>
                 </div>
             </div>
             <div class="corners"></div>

@@ -50,14 +50,14 @@ module.exports = (req, res, next) => {
     }
 
     const backgroundKey = Object.keys(backgrounds).find(key => os.toLowerCase().includes(key))
-    let background = 'device-desktop'
+    let background = 'device-windows'
     console.log('backgroundKey', backgroundKey)
 
     if (backgroundKey)
         background = backgrounds[backgroundKey]
 
     else if (req.userAgent && req.userAgent.device && req.userAgent.device.type === "mobile")
-        background =  'device-mobile'
+        background =  'device-iphone'
 
     res.locals.os = req.os = {
         name: os,

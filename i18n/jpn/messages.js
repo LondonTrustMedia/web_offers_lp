@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-27 08:44\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-27 08:42+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-03 12:33\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-03 12:16+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -995,6 +995,34 @@
          null,
          "ジンバブエ"
       ],
+      "Russian Rubles": [
+         null,
+         "ロシアルーブル"
+      ],
+      "Indian Rupee": [
+         null,
+         ""
+      ],
+      "Brazilian Reals": [
+         null,
+         ""
+      ],
+      "Japanese Yen": [
+         null,
+         ""
+      ],
+      "Australian Dollars": [
+         null,
+         ""
+      ],
+      "Swiss Francs": [
+         null,
+         "スイスフラン"
+      ],
+      "Euros": [
+         null,
+         "ユーロ"
+      ],
       "US Dollars": [
          null,
          "米国ドル"
@@ -1179,6 +1207,26 @@
          null,
          "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>追加月間</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>無料"
       ],
+      "Your IP:": [
+         null,
+         "IPアドレス:"
+      ],
+      "Your Location:": [
+         null,
+         "場所："
+      ],
+      "Your ISP:": [
+         null,
+         "ご利用のISP："
+      ],
+      "Your Status:": [
+         null,
+         "ステータス："
+      ],
+      "You are not protected": [
+         null,
+         "保護されていません"
+      ],
       "Connect to servers from all over the world": [
          null,
          "世界各地からサーバーに接続"
@@ -1258,26 +1306,6 @@
       "For a Limited Time Only": [
          null,
          "期間限定"
-      ],
-      "Your IP:": [
-         null,
-         "IPアドレス:"
-      ],
-      "Your Location:": [
-         null,
-         "場所："
-      ],
-      "Your ISP:": [
-         null,
-         "ご利用のISP："
-      ],
-      "Your Status:": [
-         null,
-         "ステータス："
-      ],
-      "You are not protected": [
-         null,
-         "保護されていません"
       ],
       "OOPS!": [
          null,
@@ -1393,7 +1421,7 @@
       ],
       "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?": [
          null,
-         "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む%sヶ国（%sか所）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでストリーミングしたときのことを心配した方がよいかもしれません。"
+         "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む%s箇所（%sヶ国）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでストリーミングしたときのことを心配した方がよいかもしれません。"
       ],
       "Do you have a refund policy?": [
          null,
@@ -1426,6 +1454,22 @@
       " Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
          null,
          "Private Internet Accessは、オープンインターネットの信念の下、弊社のVPNユーザーがブロックに直面することがないよう常に機能しています。今すぐ弊社サービスをご利用ください。そうすれば、なぜPrivate Internet Accessが最も優れたオンラインストリーミング用VPNと言われているかがお分かりになるでしょう。"
+      ],
+      "Save <b>%s%</b><br><span class=\"lines\">& get <b>%s extra months <span>free</span></b></span>": [
+         null,
+         "<b>%s%</b> OFF <br><span class=\"lines\">＆<b>追加の%sか月間<span>が無料</span></b></span>"
+      ],
+      "Save <b>%s%</b> & get<br><b class=\"lines\">%s extra months</b><br><span>free</span>": [
+         null,
+         "<b>%s%</b> OFF ＆<br><b class=\"lines\">追加の%sか月間</b><br><span>が無料</span>"
+      ],
+      "Save <b>%s%</b><br>& get<br><b class=\"lines\">%s extra months</b><br><span>free</span>": [
+         null,
+         "<b>%s%</b> OFF <br>＆<br><b class=\"lines\">追加の%sか月間</b><br><span>が無料</span>"
+      ],
+      "for only <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /month": [
+         null,
+         "たったの<b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b>／月"
       ],
       "The VPN recommended by<br><b>%s</b>": [
          null,
@@ -1473,103 +1517,103 @@
       ],
       "Using <span>Zoom</span> for video calls?": [
          null,
-         ""
+         "ビデオ通話に<span>Zoom</span>をお使いですか"
       ],
       "Make sure your online activity stays hidden": [
          null,
-         ""
+         "あなたのオンライン活動を確実に隠す"
       ],
       "Why use a VPN with Zoom?": [
          null,
-         ""
+         "ZoomにVPNを使用する理由"
       ],
       "Zoom has been accused of sharing user data with Facebook, they lied about the app having end-to-end encryption, and the app allowed meeting hosts to track attendees.<br><br><b>So get Private Internet Access to encrypt your data, hide your IP address and become anonymous while using Zoom.</b>": [
          null,
-         ""
+         "Zoomは、ユーザーデータをFacebookと共有していることで非難を受けています。また、アプリでエンドツーエンド暗号化が使用されていると偽り、ミーティングホストが参加者を追跡することも可能です。<br><br><b>ぜひPrivate Internet Accessをご利用ください。そうすれば、Zoomの使用中、データを暗号化し、IPアドレスをカムフラージュして、匿名になることができます。</b>"
       ],
       "First-rate VPN service:": [
          null,
-         ""
+         "一流のVPNサービス："
       ],
       "Bypass censorship and unblock streaming content and sites you don't have access to. Discover geo-restricted content on platforms like Netflix, HBO GO, Amazon Prime, Disney Plus, and more.": [
          null,
-         ""
+         "検閲を回避し、アクセスできないストリーミングコンテンツやサイトのブロックを解除できます。Netflix、HBO GO、Amazonプライム、Disney+などのサービスで地域的制限のかかったコンテンツをお楽しみください。"
       ],
       "Lightning-fast Internet": [
          null,
-         ""
+         "超高速インターネット"
       ],
       "Private Internet Access provides the highest speeds possible. So, you can have calls without any buffering or connectivity issues.": [
          null,
-         ""
+         "Private Internet Accessは、可能な限り高速な通信速度をお届けします。したがって、バッファリングや通信問題のない通話が可能です。"
       ],
       "Unbreakable Encryption": [
          null,
-         ""
+         "揺るぎない暗号化"
       ],
       "Encrypt your data to make sure nobody can hack your connection and get access to your data.": [
          null,
-         ""
+         "誰もあなたの接続をハックできないように、また、あなたのデータにアクセスできないように、ご自分のデータを暗号化できます。"
       ],
       "Become Anonymous": [
          null,
-         ""
+         "匿名になる"
       ],
       "Browse anonymously with a private IP address and protect yourself from your companies that want to get their hands on your data.": [
          null,
-         ""
+         "プライベートIPアドレスを使って匿名で閲覧することはもちろん、あわよくばあなたのデータを手に入れようとする仲間からご自身を守ることもできます。"
       ],
       "Connect in 4 easy steps:": [
          null,
-         ""
+         "4つの簡単なステップで接続："
       ],
       "<b>Turn on</b><br>Private Internet Access and connect": [
          null,
-         ""
+         "<b>有効にする</b><br>Private Internet Accessを有効にして接続"
       ],
       "You’re ready to start using <span>Private Internet Access</span> with zoom": [
          null,
-         ""
+         "これで、Zoomで<span>Private Internet Access</span>を使い始めることができます"
       ],
       "Use PIA on up to %s devices simultaneously": [
          null,
-         ""
+         "同時に最大%s台のデバイスでPIAを使用可能"
       ],
       "%s-Day money back guarantee": [
          null,
-         ""
+         "%s日間返金保証"
       ],
       "<span class=\"color_pia_green\">Frequently asked questions</span>": [
          null,
-         ""
+         "<span class=\"color_pia_green\">FAQ</span>"
       ],
       "How to use Private Internet Access with Zoom?": [
          null,
-         ""
+         "Private Internet Accessの使い方を教えてください。"
       ],
       "First download and install the Private Internet Access app on the device you're planning to use for your Zoom call. Then create and verify your account. Sing-in to the PIA app using your username and password and connect to a server by clicking or tapping the big, round power button. You're now completely anonymous and protected, all that's left to do is to fire-up your Zoom app and join your conference.": [
          null,
-         ""
+         "まず、Zoom通話に使用する予定のデバイスにPrivate Internet Accessアプリをダウンロードしてインストールします。次に、ご自分のアカウントを作成し、検証します。ユーザー名とパスワードを使ってPIAアプリにサインインし、大きな円形の電源ボタンをクリックまたはタップしてサーバーに接続します。これで、あなたは完全に匿名で保護された状態になります。後は、Zoomアプリを起動し、ミーティングに参加するだけです。"
       ],
       "Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,
-         ""
+         "Private Internet Accessには、一切不問の%s日間返金保証があります。今すぐPrivate Internet Accessに契約してストリーミングを始めてください！"
       ],
       "Is it safe to use Private Internet Access?": [
          null,
-         ""
+         "Private Internet Accessの使用は安全ですか。"
       ],
       "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. Private Internet access never records any of its users' data. We follow a strict no-logs policy that ensures we never keep any logs of our users' activities online.": [
          null,
-         ""
+         "はい。Private Internet Accessは、米国、英国、日本など、%s箇所（%sヶ国）に設置されたサーバーによるVPNサービスを提供しています。Private Internet Accessは、ユーザーのデータを一切記録しません。弊社には厳格なノーログポリシーがあるため、ユーザーのオンライン活動のログが保持されることは絶対にありません。"
       ],
       "Will my IP address be exposed while using Zoom?": [
          null,
-         ""
+         "Zoomの使用中、私のIPアドレスは外部から見えますか。"
       ],
       "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services, apps and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
          null,
-         ""
+         "いいえ。Private Internet Accessを使用すると、あなたのトラフィックは暗号化され、弊社のVPNトンネルを通過するようになります。つまり、弊社サーバーのIPアドレスの1つからインターネットにアクセスすることになります。したがって、ストリーミングサービス、アプリ、およびWebサイトから見えるのは弊社のPrivate Internet Access IPアドレスであり、あなたのデバイスのIPアドレスではありません。"
       ],
       "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
@@ -1577,67 +1621,67 @@
       ],
       "Unblock <span>new streaming content</span><br><small>on your <span>Fire Stick TV</span></small>": [
          null,
-         ""
+         "<small><span>Fire TV Stick</span>で<br></small><span>新しいストリーミングコンテンツ</span>をブロック解除"
       ],
       "with Private Internet Access VPN": [
          null,
-         ""
+         "Private Internet Access VPNをご利用ください"
       ],
       "Tired of watching the same shows and movies on streaming platforms?": [
          null,
-         ""
+         "ストリーミングサービスで同じテレビ番組や映画を見飽きたという方へ"
       ],
       "Private Internet Access changes your IP address to one from a different location so you can discover new streaming properties.<br><b>Sign up to Private Internet Access today and unblock tons of new content from different countries around the world.</b>": [
          null,
-         ""
+         "Private Internet Accessは、あなたのIPアドレスを別の場所のIPアドレスに置き換えるため、新しいストリーミングコンテンツを見れるようになります。<br><b>今すぐPrivate Internet Accessにお申し込みください。そうすれば、世界各地で視聴されている数多くのコンテンツのブロックを解除できます。</b>"
       ],
       "Stream new content on your Fire Stick TV:": [
          null,
-         ""
+         "Fire TV Stickで新しいコンテンツをストリーミング"
       ],
       "A must have for your Fire Stick TV": [
          null,
-         ""
+         "あなたのFire TV Stickが生まれ変わります"
       ],
       "Access content from all over the world": [
          null,
-         ""
+         "世界中のコンテンツにアクセス"
       ],
       "Private Internet Access has thousands of servers in over %s countries world-wide. Connect to either one of them and discover new films, TV shows and documentaries.": [
          null,
-         ""
+         "Private Internet Accessには、世界%sヶ国以上に数千台ものサーバーがあります。これらのいずれかに接続し、映画やテレビ番組、ドキュメンタリーをお楽しみください。"
       ],
       "Override geographical restrictions": [
          null,
-         ""
+         "地理的制限を無効化"
       ],
       "Connect to a server from a different country with just one click, straight from the Private Internet Access app, and unblock content that's not available in your country.": [
          null,
-         ""
+         "Private Internet Accessアプリからワンクリックするだけで別の国のサーバーに接続し、あなたの国では見れないコンテンツのブロックを解除できます。"
       ],
       "With just 1 Private Internet Access VPN subscription you can use the app on up to %s devices at the same time. This way you can unblock content on anything that has a screen and an internet connection.": [
          null,
-         ""
+         "Private Internet Access VPNの契約が1つあれば、同時に%s台のデバイスでアプリを使用できます。つまり、どのようなデバイスでも、画面とインターネット接続がある限り、コンテンツのブロックを解除できます。"
       ],
       "All it takes are 4 easy steps:": [
          null,
-         ""
+         "簡単な4つのステップ："
       ],
       "Watch your favorite movies and shows in minutes": [
          null,
-         ""
+         "数分でお気に入りの映画やテレビ番組を視聴開始"
       ],
       "Got questions about streaming? <span class=\"color_pia_green\">Here are a few of our FAQs</span>": [
          null,
-         ""
+         "ストリーミングに関するご質問については、<span class=\"color_pia_green\">以下のFAQをご覧ください</span>"
       ],
       "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
          null,
-         ""
+         "Private Internet Accessは、ログを一切残さないプレミアムVPNです。つまり、弊社は、あなたがストリーミングしているかどうかさえわかりません。また、弊社のサーバーはすべて無制限の帯域幅を提供しているため、スロットリングもありません。今すぐPrivate Internet Accessにお申込みいただき、検閲のない無制限のインターネットをお楽しみください。"
       ],
       "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
          null,
-         ""
+         "Private Internet Accessは、オープンインターネットの信念の下、弊社のVPNユーザーがブロックに直面することがないよう常に機能しています。今すぐ弊社サービスをご利用ください。そうすれば、なぜPrivate Internet Accessが最も優れたオンラインストリーミング用VPNと言われているかがお分かりになるでしょう。"
       ],
       "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>": [
          null,
@@ -1705,7 +1749,7 @@
       ],
       "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?": [
          null,
-         "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む%sヶ国（%s箇所）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでKodiを利用したときのことを心配した方がよいかもしれません。"
+         "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む%s箇所（%sヶ国）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでKodiを利用したときのことを心配した方がよいかもしれません。"
       ],
       "Yes. Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,

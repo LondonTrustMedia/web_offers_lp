@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: Japanese\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-04-27 08:44\n"
+"PO-Revision-Date: 2020-05-03 12:33\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-04-27 08:42+0000\n"
+"POT-Creation-Date: 2020-05-03 12:16+0000\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: ja\n"
@@ -1007,6 +1007,37 @@ msgstr "ザンビア"
 msgid "Zimbabwe"
 msgstr "ジンバブエ"
 
+#: /home/guy/kape/Privateland/app/modules/mws.js:354
+msgid "Russian Rubles"
+msgstr "ロシアルーブル"
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:361
+msgid "Indian Rupee"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:368
+msgid "Brazilian Reals"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:380
+msgid "Japanese Yen"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:387
+msgid "Australian Dollars"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:393
+msgid "Swiss Francs"
+msgstr "スイスフラン"
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:399
+#: /home/guy/kape/Privateland/app/modules/mws.js:418
+msgid "Euros"
+msgstr "ユーロ"
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:405
+#: /home/guy/kape/Privateland/app/modules/mws.js:425
 #: /home/guy/kape/Privateland/app/modules/mws.js:433
 msgid "US Dollars"
 msgstr "米国ドル"
@@ -1211,6 +1242,31 @@ msgstr "無料"
 msgid "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE"
 msgstr "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>追加月間</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>無料"
 
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:5
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:4
+msgid "Your IP:"
+msgstr "IPアドレス:"
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:9
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:8
+msgid "Your Location:"
+msgstr "場所："
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:13
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:12
+msgid "Your ISP:"
+msgstr "ご利用のISP："
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:17
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:16
+msgid "Your Status:"
+msgstr "ステータス："
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:19
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:18
+msgid "You are not protected"
+msgstr "保護されていません"
+
 #: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:24
 msgid "Connect to servers from all over the world"
 msgstr "世界各地からサーバーに接続"
@@ -1297,6 +1353,8 @@ msgstr "Private Internet Accessがあれば、広告、トラッカー、マル�
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:34
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:128
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:19
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:23
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:58
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:24
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:61
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:65
@@ -1316,26 +1374,6 @@ msgstr "Private Internet Access VPNを購入"
 #: /home/guy/kape/Privateland/views/partials/price_block.ejs:4
 msgid "For a Limited Time Only"
 msgstr "期間限定"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:4
-msgid "Your IP:"
-msgstr "IPアドレス:"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:8
-msgid "Your Location:"
-msgstr "場所："
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:12
-msgid "Your ISP:"
-msgstr "ご利用のISP："
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:16
-msgid "Your Status:"
-msgstr "ステータス："
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:18
-msgid "You are not protected"
-msgstr "保護されていません"
 
 #: /home/guy/kape/Privateland/views/errors/404.ejs:18
 msgid "OOPS!"
@@ -1358,6 +1396,7 @@ msgid "Unblock restricted content libraries easily<br> with Private Internet Acc
 msgstr "Private Internet Accessで<br>制限がかけられたコンテンツライブラリを簡単にブロック解除"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:25
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:27
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:32
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:28
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:41
@@ -1370,6 +1409,7 @@ msgid "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase
 msgstr "リスクなしでお試しいただけます！<i class='fas fa-award'></i><span class='text-uppercase'> %s日返金保証</span>"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:66
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:54
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:77
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:56
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:60
@@ -1499,7 +1539,7 @@ msgstr "Private Internet Accessを使ったストリーミングは安全です�
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:237
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:238
 msgid "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?"
-msgstr "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む%sヶ国（%sか所）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでストリーミングしたときのことを心配した方がよいかもしれません。"
+msgstr "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む%s箇所（%sヶ国）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでストリーミングしたときのことを心配した方がよいかもしれません。"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:240
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:306
@@ -1539,6 +1579,22 @@ msgstr "私のお気に入りのストリーミングサービスやWebサイト
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:253
 msgid " Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online."
 msgstr "Private Internet Accessは、オープンインターネットの信念の下、弊社のVPNユーザーがブロックに直面することがないよう常に機能しています。今すぐ弊社サービスをご利用ください。そうすれば、なぜPrivate Internet Accessが最も優れたオンラインストリーミング用VPNと言われているかがお分かりになるでしょう。"
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:15
+msgid "Save <b>%s%</b><br><span class=\"lines\">& get <b>%s extra months <span>free</span></b></span>"
+msgstr "<b>%s%</b> OFF <br><span class=\"lines\">＆<b>追加の%sか月間<span>が無料</span></b></span>"
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:16
+msgid "Save <b>%s%</b> & get<br><b class=\"lines\">%s extra months</b><br><span>free</span>"
+msgstr "<b>%s%</b> OFF ＆<br><b class=\"lines\">追加の%sか月間</b><br><span>が無料</span>"
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:17
+msgid "Save <b>%s%</b><br>& get<br><b class=\"lines\">%s extra months</b><br><span>free</span>"
+msgstr "<b>%s%</b> OFF <br>＆<br><b class=\"lines\">追加の%sか月間</b><br><span>が無料</span>"
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:20
+msgid "for only <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /month"
+msgstr "たったの<b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b>／月"
 
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:15
 msgid "The VPN recommended by<br><b>%s</b>"
@@ -1591,111 +1647,111 @@ msgstr "%s台のデバイス"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:16
 msgid "Using <span>Zoom</span> for video calls?"
-msgstr ""
+msgstr "ビデオ通話に<span>Zoom</span>をお使いですか"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:17
 msgid "Make sure your online activity stays hidden"
-msgstr ""
+msgstr "あなたのオンライン活動を確実に隠す"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:76
 msgid "Why use a VPN with Zoom?"
-msgstr ""
+msgstr "ZoomにVPNを使用する理由"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:77
 msgid "Zoom has been accused of sharing user data with Facebook, they lied about the app having end-to-end encryption, and the app allowed meeting hosts to track attendees.<br><br><b>So get Private Internet Access to encrypt your data, hide your IP address and become anonymous while using Zoom.</b>"
-msgstr ""
+msgstr "Zoomは、ユーザーデータをFacebookと共有していることで非難を受けています。また、アプリでエンドツーエンド暗号化が使用されていると偽り、ミーティングホストが参加者を追跡することも可能です。<br><br><b>ぜひPrivate Internet Accessをご利用ください。そうすれば、Zoomの使用中、データを暗号化し、IPアドレスをカムフラージュして、匿名になることができます。</b>"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:84
 msgid "First-rate VPN service:"
-msgstr ""
+msgstr "一流のVPNサービス："
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:90
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:136
 msgid "Bypass censorship and unblock streaming content and sites you don't have access to. Discover geo-restricted content on platforms like Netflix, HBO GO, Amazon Prime, Disney Plus, and more."
-msgstr ""
+msgstr "検閲を回避し、アクセスできないストリーミングコンテンツやサイトのブロックを解除できます。Netflix、HBO GO、Amazonプライム、Disney+などのサービスで地域的制限のかかったコンテンツをお楽しみください。"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:96
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:147
 msgid "Lightning-fast Internet"
-msgstr ""
+msgstr "超高速インターネット"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:97
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:158
 msgid "Private Internet Access provides the highest speeds possible. So, you can have calls without any buffering or connectivity issues."
-msgstr ""
+msgstr "Private Internet Accessは、可能な限り高速な通信速度をお届けします。したがって、バッファリングや通信問題のない通話が可能です。"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:103
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:169
 msgid "Unbreakable Encryption"
-msgstr ""
+msgstr "揺るぎない暗号化"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:104
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:180
 msgid "Encrypt your data to make sure nobody can hack your connection and get access to your data."
-msgstr ""
+msgstr "誰もあなたの接続をハックできないように、また、あなたのデータにアクセスできないように、ご自分のデータを暗号化できます。"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:110
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:191
 msgid "Become Anonymous"
-msgstr ""
+msgstr "匿名になる"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:111
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:202
 msgid "Browse anonymously with a private IP address and protect yourself from your companies that want to get their hands on your data."
-msgstr ""
+msgstr "プライベートIPアドレスを使って匿名で閲覧することはもちろん、あわよくばあなたのデータを手に入れようとする仲間からご自身を守ることもできます。"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:221
 msgid "Connect in 4 easy steps:"
-msgstr ""
+msgstr "4つの簡単なステップで接続："
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:227
 msgid "<b>Turn on</b><br>Private Internet Access and connect"
-msgstr ""
+msgstr "<b>有効にする</b><br>Private Internet Accessを有効にして接続"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:229
 msgid "You’re ready to start using <span>Private Internet Access</span> with zoom"
-msgstr ""
+msgstr "これで、Zoomで<span>Private Internet Access</span>を使い始めることができます"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:235
 msgid "Use PIA on up to %s devices simultaneously"
-msgstr ""
+msgstr "同時に最大%s台のデバイスでPIAを使用可能"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:275
 msgid "%s-Day money back guarantee"
-msgstr ""
+msgstr "%s日間返金保証"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:299
 msgid "<span class=\"color_pia_green\">Frequently asked questions</span>"
-msgstr ""
+msgstr "<span class=\"color_pia_green\">FAQ</span>"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:302
 msgid "How to use Private Internet Access with Zoom?"
-msgstr ""
+msgstr "Private Internet Accessの使い方を教えてください。"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:303
 msgid "First download and install the Private Internet Access app on the device you're planning to use for your Zoom call. Then create and verify your account. Sing-in to the PIA app using your username and password and connect to a server by clicking or tapping the big, round power button. You're now completely anonymous and protected, all that's left to do is to fire-up your Zoom app and join your conference."
-msgstr ""
+msgstr "まず、Zoom通話に使用する予定のデバイスにPrivate Internet Accessアプリをダウンロードしてインストールします。次に、ご自分のアカウントを作成し、検証します。ユーザー名とパスワードを使ってPIAアプリにサインインし、大きな円形の電源ボタンをクリックまたはタップしてサーバーに接続します。これで、あなたは完全に匿名で保護された状態になります。後は、Zoomアプリを起動し、ミーティングに参加するだけです。"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:307
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:242
 msgid "Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
-msgstr ""
+msgstr "Private Internet Accessには、一切不問の%s日間返金保証があります。今すぐPrivate Internet Accessに契約してストリーミングを始めてください！"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:310
 msgid "Is it safe to use Private Internet Access?"
-msgstr ""
+msgstr "Private Internet Accessの使用は安全ですか。"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:311
 msgid "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. Private Internet access never records any of its users' data. We follow a strict no-logs policy that ensures we never keep any logs of our users' activities online."
-msgstr ""
+msgstr "はい。Private Internet Accessは、米国、英国、日本など、%s箇所（%sヶ国）に設置されたサーバーによるVPNサービスを提供しています。Private Internet Accessは、ユーザーのデータを一切記録しません。弊社には厳格なノーログポリシーがあるため、ユーザーのオンライン活動のログが保持されることは絶対にありません。"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:314
 msgid "Will my IP address be exposed while using Zoom?"
-msgstr ""
+msgstr "Zoomの使用中、私のIPアドレスは外部から見えますか。"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:315
 msgid "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services, apps and websites will only see our Private Internet Access IP address, not your device’s IP address."
-msgstr ""
+msgstr "いいえ。Private Internet Accessを使用すると、あなたのトラフィックは暗号化され、弊社のVPNトンネルを通過するようになります。つまり、弊社サーバーのIPアドレスの1つからインターネットにアクセスすることになります。したがって、ストリーミングサービス、アプリ、およびWebサイトから見えるのは弊社のPrivate Internet Access IPアドレスであり、あなたのデバイスのIPアドレスではありません。"
 
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:17
 msgid "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>"
@@ -1703,71 +1759,71 @@ msgstr "攻撃不能なオンラインセキュリティ<br><b><span class=\"col
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:16
 msgid "Unblock <span>new streaming content</span><br><small>on your <span>Fire Stick TV</span></small>"
-msgstr ""
+msgstr "<small><span>Fire TV Stick</span>で<br></small><span>新しいストリーミングコンテンツ</span>をブロック解除"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:17
 msgid "with Private Internet Access VPN"
-msgstr ""
+msgstr "Private Internet Access VPNをご利用ください"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:81
 msgid "Tired of watching the same shows and movies on streaming platforms?"
-msgstr ""
+msgstr "ストリーミングサービスで同じテレビ番組や映画を見飽きたという方へ"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:82
 msgid "Private Internet Access changes your IP address to one from a different location so you can discover new streaming properties.<br><b>Sign up to Private Internet Access today and unblock tons of new content from different countries around the world.</b>"
-msgstr ""
+msgstr "Private Internet Accessは、あなたのIPアドレスを別の場所のIPアドレスに置き換えるため、新しいストリーミングコンテンツを見れるようになります。<br><b>今すぐPrivate Internet Accessにお申し込みください。そうすれば、世界各地で視聴されている数多くのコンテンツのブロックを解除できます。</b>"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:85
 msgid "Stream new content on your Fire Stick TV:"
-msgstr ""
+msgstr "Fire TV Stickで新しいコンテンツをストリーミング"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:96
 msgid "A must have for your Fire Stick TV"
-msgstr ""
+msgstr "あなたのFire TV Stickが生まれ変わります"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:101
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:129
 msgid "Access content from all over the world"
-msgstr ""
+msgstr "世界中のコンテンツにアクセス"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:102
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:140
 msgid "Private Internet Access has thousands of servers in over %s countries world-wide. Connect to either one of them and discover new films, TV shows and documentaries."
-msgstr ""
+msgstr "Private Internet Accessには、世界%sヶ国以上に数千台ものサーバーがあります。これらのいずれかに接続し、映画やテレビ番組、ドキュメンタリーをお楽しみください。"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:108
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:151
 msgid "Override geographical restrictions"
-msgstr ""
+msgstr "地理的制限を無効化"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:109
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:162
 msgid "Connect to a server from a different country with just one click, straight from the Private Internet Access app, and unblock content that's not available in your country."
-msgstr ""
+msgstr "Private Internet Accessアプリからワンクリックするだけで別の国のサーバーに接続し、あなたの国では見れないコンテンツのブロックを解除できます。"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:116
 msgid "With just 1 Private Internet Access VPN subscription you can use the app on up to %s devices at the same time. This way you can unblock content on anything that has a screen and an internet connection."
-msgstr ""
+msgstr "Private Internet Access VPNの契約が1つあれば、同時に%s台のデバイスでアプリを使用できます。つまり、どのようなデバイスでも、画面とインターネット接続がある限り、コンテンツのブロックを解除できます。"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:201
 msgid "All it takes are 4 easy steps:"
-msgstr ""
+msgstr "簡単な4つのステップ："
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:202
 msgid "Watch your favorite movies and shows in minutes"
-msgstr ""
+msgstr "数分でお気に入りの映画やテレビ番組を視聴開始"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:234
 msgid "Got questions about streaming? <span class=\"color_pia_green\">Here are a few of our FAQs</span>"
-msgstr ""
+msgstr "ストリーミングに関するご質問については、<span class=\"color_pia_green\">以下のFAQをご覧ください</span>"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:250
 msgid "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet."
-msgstr ""
+msgstr "Private Internet Accessは、ログを一切残さないプレミアムVPNです。つまり、弊社は、あなたがストリーミングしているかどうかさえわかりません。また、弊社のサーバーはすべて無制限の帯域幅を提供しているため、スロットリングもありません。今すぐPrivate Internet Accessにお申込みいただき、検閲のない無制限のインターネットをお楽しみください。"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:254
 msgid "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online."
-msgstr ""
+msgstr "Private Internet Accessは、オープンインターネットの信念の下、弊社のVPNユーザーがブロックに直面することがないよう常に機能しています。今すぐ弊社サービスをご利用ください。そうすれば、なぜPrivate Internet Accessが最も優れたオンラインストリーミング用VPNと言われているかがお分かりになるでしょう。"
 
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:16
 msgid "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>"
@@ -1843,7 +1899,7 @@ msgstr "Private Internet Accessを使ったKodiの利用は安全ですか。"
 
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:250
 msgid "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to use Kodi without Private Internet Access?"
-msgstr "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む%sヶ国（%s箇所）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでKodiを利用したときのことを心配した方がよいかもしれません。"
+msgstr "はい。Private Internet Accessは、米国、英国、日本、その他の国々を含む%s箇所（%sヶ国）に設置されたサーバーを使ってVPNサービスを提供しています。逆に、Private Internet Accessを使わないでKodiを利用したときのことを心配した方がよいかもしれません。"
 
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:254
 msgid "Yes. Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"

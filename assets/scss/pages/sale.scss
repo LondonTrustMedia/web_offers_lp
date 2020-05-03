@@ -35,19 +35,43 @@ header {
   z-index: 1;
   color: #fff;
   overflow: hidden;
+  html[lang="rus"] & {
+    min-height: 725px;
+  }
+  html[lang="spa"] & {
+    min-height: 745px;
+  }
   @media screen and (max-width: $brk-desktop-width) {
     background-size: 1200px 750px;
     min-height: 685px;
+    html[lang="rus"] & {
+      min-height: 665px;
+    }
+    html[lang="spa"] & {
+      min-height: 660px;
+    }
   }
   @media screen and (max-width: $brk-min-desktop-width) {
     background-image: url(img/PriceSale_top_bg_tablet.jpg);
     background-size: 991px 768px;
     min-height: 768px;
+    html[lang="rus"] & {
+      min-height: 690px;
+    }
+    html[lang="spa"] & {
+      min-height: 715px;
+    }
   }
   @media screen and (max-width: $brk-ipad-width - 1) {
     background-image: url(img/PriceSale_top_bg_mobile.jpg);
     background-size: cover;
     min-height: 600px;
+    html[lang="deu"] &,html[lang="fra"] & {
+      min-height: 540px;
+    }
+    html[lang="rus"] & ,html[lang="spa"] &{
+      min-height: 600px;
+    }
   }
   & #brand {
     margin-top: 4rem;
@@ -66,43 +90,105 @@ header {
     position: relative;
     z-index: 3;
     @media screen and (max-width: $brk-ipad-width - 1) {
-        padding-top: 100px;
+      padding-top: 100px;
     }
-    
+
     & .logo {
-        height: 45px;
-        @media screen and (max-width: $brk-ipad-width - 1) {
-            height: 35px;
-        }
+      height: 45px;
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        height: 35px;
+      }
     }
     & h1 {
       font-size: 5rem;
       font-weight: 400;
+      html[lang="ita"] &,html[lang="rus"] & {
+        font-size: 4.8rem;
+      }
+      html[lang="nld"] &,html[lang="spa"] & {
+        font-size: 4.35rem;
+      }
+      html[lang="por"] & {
+        font-size: 3.284rem;
+      }
       @media screen and (max-width: $brk-desktop-width) {
         font-size: 4rem;
+        html[lang="ita"] & { 
+          font-size: 4rem;
+        }
+        html[lang="nld"] & {
+          font-size: 3.65rem;
+        }
+        html[lang="por"] & {
+          font-size: 2.75rem;
+        }
+        html[lang="rus"] &,html[lang="spa"] & {
+          font-size: 3.3rem;
+        }
       }
       @media screen and (max-width: $brk-min-desktop-width) {
         font-size: 4.875rem;
+        html[lang="deu"] &,html[lang="fra"] & {
+          font-size: 4rem;
+        }
+        html[lang="ita"] & { 
+          font-size: 4.185rem;
+        }
+        html[lang="nld"] &,html[lang="spa"] & {
+          font-size: 4.8rem;
+        }
+        html[lang="por"] & {
+          font-size: 3.7rem;
+        }
+        html[lang="rus"] & {
+          font-size: 3.2rem;
+        }
       }
       @media screen and (max-width: $brk-ipad-width - 1) {
-          line-height: 1;
+        line-height: 1;
+        font-size: 2.875rem;
+        html[lang="deu"] &,html[lang="fra"] & {
+          font-size: 2.35rem;
+        }
+        html[lang="ita"] &, html[lang="nld"] &,html[lang="rus"] &,html[lang="spa"] & {
           font-size: 2.875rem;
+        }
+        html[lang="por"] & {
+          font-size: 2rem;
+        }
       }
       & > b {
         color: $pia-light-orange;
         font-weight: 900;
-        margin-bottom: .5rem;
+        margin-bottom: 0.5rem;
         display: inline-block;
-        @media screen and (max-width: $brk-ipad-width - 1) {
+       
+        @media screen and (max-width: $brk-min-desktop-width) {
+          html[lang="deu"] & {
             margin-bottom: 0;
+          }
+        }
+        @media screen and (max-width: $brk-ipad-width - 1) {
+          margin-bottom: 0;
         }
       }
       & .lines {
+        html[lang="deu"] &,html[lang="fra"] & {
+          font-size: .7em;
+          line-height: 1.9;
+        }
+        html[lang="dan"] & {
+          font-size: .85em;
+        }
         @media screen and (max-width: $brk-min-desktop-width) {
-            text-transform: uppercase;
+          text-transform: uppercase;
         }
         @media screen and (max-width: $brk-ipad-width - 1) {
-            line-height: .9;
+          line-height: 0.9;
+          html[lang="deu"] &,html[lang="fra"] &  {
+            font-size: 1em;
+          line-height: 1;
+          }
         }
         &::after,
         &::before {
@@ -120,17 +206,17 @@ header {
           }
         }
         &::after {
-            @media screen and (max-width: $brk-ipad-width - 1) {
-                margin: 4px auto;
-              }
+          @media screen and (max-width: $brk-ipad-width - 1) {
+            margin: 4px auto;
+          }
         }
       }
       & > span {
         line-height: 1.3;
         font-weight: 400;
         @media screen and (max-width: $brk-min-desktop-width) {
-            text-transform: uppercase;
-            font-weight: 900;
+          text-transform: uppercase;
+          font-weight: 900;
         }
         & b {
           text-transform: uppercase;
@@ -148,34 +234,69 @@ header {
         line-height: 1;
         font-weight: 300;
         @media screen and (max-width: $brk-ipad-width - 1) {
-            font-size: 1rem;
+          font-size: 1rem;
+          html[lang="deu"] & {
+            font-size: .8rem;
+          }
         }
         & span {
           font-size: 1.50001em;
           @media screen and (max-width: $brk-min-desktop-width) {
             font-size: 1.666666em;
           }
+          &:nth-of-type(1) {
+            html[currency="CHF"] &,
+            html[currency="AUD"] & {
+              font-size: 0.5em;
+              margin-right: 1rem;
+            }
+            html[currency="BRL"] &,
+            html[currency="RUB"] & {
+              font-size: 0.5em;
+              margin-right: 0.5rem;
+            }
+          }
         }
         & b {
           color: #fff;
           font-size: 3.6363em;
           font-weight: 900;
+          display: flex;
+          align-items: center;
+          html[currency="JPY"] &,
+          html[currency="INR"] &,
+          html[currency="BRL"] &,
+          html[currency="RUB"] & {
+            font-size: 3em;
+          }
           @media screen and (max-width: $brk-min-desktop-width) {
             font-size: 2.727275em;
+            html[currency="JPY"] &,
+            html[currency="INR"] &,
+            html[currency="BRL"] &,
+            html[currency="RUB"] & {
+              font-size: 2em;
+            }
           }
           @media screen and (max-width: $brk-ipad-width - 1) {
             font-size: 1.875em;
+            html[currency="JPY"] &,
+            html[currency="INR"] &,
+            html[currency="BRL"] &,
+            html[currency="RUB"] & {
+              font-size: 1.5em;
+            }
           }
         }
       }
     }
     & .brands {
-        & img {
-            height: 45px;
-        }
+      & img {
+        height: 45px;
+      }
     }
     & .risk {
-        margin-bottom: 2rem;
+      margin-bottom: 2rem;
     }
   }
   & .btn_wave {
@@ -191,16 +312,16 @@ header {
   & .mobile_header {
     background-color: #263238;
     & img {
-        height: 40px;
+      height: 40px;
     }
     & p {
-        font-size: 14px;
+      font-size: 14px;
     }
     & .brand {
       flex-direction: column-reverse;
-      text-align: center!important;
+      text-align: center !important;
       & p {
-        text-align: center!important;
+        text-align: center !important;
       }
     }
   }
@@ -216,13 +337,13 @@ header {
     background-size: 3840px 768px;
     pointer-events: none;
     @media screen and (max-width: $brk-desktop-width) {
-        background-size: 2500px 475px;
-        height: 120px;
+      background-size: 2500px 475px;
+      height: 120px;
     }
     @media screen and (max-width: $brk-min-desktop-width) {
-        background-image: url(img/top_uneven_corners_sale_tablet.svg);
-        background-size: 992px 141px;
-        height: 235px;
+      background-image: url(img/top_uneven_corners_sale_tablet.svg);
+      background-size: 992px 141px;
+      height: 235px;
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
       display: none;

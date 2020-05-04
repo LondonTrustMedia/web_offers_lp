@@ -150,5 +150,9 @@
     "firetv": {
         "offer_ID": 1407,
         "CPP_ID": ""
+    },
+    "sale": {
+        "offer_ID": 1410,
+        "CPP_ID": ""
     }
 }

@@ -1,38 +1,62 @@
 #only_price {
-    font-size: 24px;
-    html[lang="nld"] & {
-        font-size: 21px;
+  font-size: 24px;
+  html[lang="nld"] & {
+    font-size: 21px;
+  }
+  & .white {
+    color: #fff;
+    font-size: 1em;
+    border-bottom: solid 1px $pia-light-orange;
+    border-top: solid 1px $pia-light-orange;
+    padding: 2px 0;
+    @media screen and (max-width: $brk-ipad-width - 1) {
+      border-bottom: none;
+      border-top: none;
     }
-    & .white {
-        color: #fff;
-        font-size: 1em;
-        border-bottom: solid 1px $pia-light-orange;
-        border-top: solid 1px $pia-light-orange;
-        padding: 2px 0;
-        @media screen and (max-width: $brk-ipad-width - 1) {
-            border-bottom: none;
-            border-top: none;
-        }
+  }
+  & .white,
+  & .color_pia_light_orange,
+  & small,
+  & span {
+    vertical-align: middle;
+  }
+  & .color_pia_light_orange {
+    font-size: 6em;
+    font-weight: 500;
+    line-height: 0.8;
+    html[currency="JPY"] &,
+    html[currency="INR"] &,
+    html[currency="RUB"] & {
+      font-size: 3.5em;
     }
-    & .white,& .color_pia_light_orange,& small,& span {
-        vertical-align: middle;
+    html[currency="RUB"] & {
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        font-size: 3em;
+      }
     }
-    & .color_pia_light_orange {
-        font-size: 6em;
-        font-weight: 500;
-        line-height: .8;
-        & small {
-            font-size: .4em;
-        }
-        html[currency="EUR"] & {
-            & small:nth-of-type(1) {
-                order: 3;
-            }
-        }
-        html[currency="CHF"] & {
-            & small:nth-of-type(1) {
-                font-size: .2em;
-            }
-        }
+    html[currency="BRL"] & {
+      font-size: 4em;
     }
+    & small {
+      font-size: 0.4em;
+    }
+    html[currency="EUR"] &,
+    html[currency="RUB"] & {
+      & small:nth-of-type(1) {
+        order: 3;
+      }
+    }
+    html[currency="CHF"] &,
+    html[currency="AUD"] & {
+      & small:nth-of-type(1) {
+        font-size: 0.2em;
+      }
+    }
+    html[currency="RUB"] & {
+      & small:nth-of-type(1) {
+        margin-left: 0.5rem;
+        font-size: 0.25em;
+      }
+    }
+  }
 }

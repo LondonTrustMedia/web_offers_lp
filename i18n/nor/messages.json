@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Norwegian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-27 08:44\nLanguage: no_NO\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-27 08:42+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: no\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Norwegian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-03 12:33\nLanguage: no_NO\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-03 12:16+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: no\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -995,6 +995,34 @@
          null,
          "Zimbabwe"
       ],
+      "Russian Rubles": [
+         null,
+         ""
+      ],
+      "Indian Rupee": [
+         null,
+         ""
+      ],
+      "Brazilian Reals": [
+         null,
+         ""
+      ],
+      "Japanese Yen": [
+         null,
+         ""
+      ],
+      "Australian Dollars": [
+         null,
+         ""
+      ],
+      "Swiss Francs": [
+         null,
+         ""
+      ],
+      "Euros": [
+         null,
+         ""
+      ],
       "US Dollars": [
          null,
          "Amerikanske dollar (USD)"
@@ -1179,6 +1207,26 @@
          null,
          "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EKSTRA MÅNEDER</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATIS"
       ],
+      "Your IP:": [
+         null,
+         "Din IP:"
+      ],
+      "Your Location:": [
+         null,
+         "Din plassering:"
+      ],
+      "Your ISP:": [
+         null,
+         "Din ISP:"
+      ],
+      "Your Status:": [
+         null,
+         "Din Status:"
+      ],
+      "You are not protected": [
+         null,
+         "Du er ikke beskyttet"
+      ],
       "Connect to servers from all over the world": [
          null,
          "Koble til servere over hele verden"
@@ -1258,26 +1306,6 @@
       "For a Limited Time Only": [
          null,
          "Kun begrenset tid"
-      ],
-      "Your IP:": [
-         null,
-         "Din IP:"
-      ],
-      "Your Location:": [
-         null,
-         "Din plassering:"
-      ],
-      "Your ISP:": [
-         null,
-         "Din ISP:"
-      ],
-      "Your Status:": [
-         null,
-         "Din Status:"
-      ],
-      "You are not protected": [
-         null,
-         "Du er ikke beskyttet"
       ],
       "OOPS!": [
          null,
@@ -1427,6 +1455,22 @@
          null,
          " Private Internet Access tror på et åpent Internett og arbeider alltid for å sikre at det ikke finnes blokkeringer for VPN-brukerne våre. Prøv tjenesten vår i dag og se hvorfor Private Internet Access er den beste VPN-tjenesten for strømming på nettet."
       ],
+      "Save <b>%s%</b><br><span class=\"lines\">& get <b>%s extra months <span>free</span></b></span>": [
+         null,
+         "Spar <b>%s%</b><br><span class=\"lines\">og få <b>%s ekstra måneder <span>gratis</span></b></span>"
+      ],
+      "Save <b>%s%</b> & get<br><b class=\"lines\">%s extra months</b><br><span>free</span>": [
+         null,
+         "Spar <b>%s%</b> og få<br><b class=\"lines\">%s ekstra måneder</b><br><span>gratis</span>"
+      ],
+      "Save <b>%s%</b><br>& get<br><b class=\"lines\">%s extra months</b><br><span>free</span>": [
+         null,
+         "Spar <b>%s%</b><br>og få<br><b class=\"lines\">%s ekstra måneder</b><br><span>gratis</span>"
+      ],
+      "for only <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /month": [
+         null,
+         "for bare <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /måned"
+      ],
       "The VPN recommended by<br><b>%s</b>": [
          null,
          "VPN-løsningen anbefalt av<br><b>%s</b>"
@@ -1473,103 +1517,103 @@
       ],
       "Using <span>Zoom</span> for video calls?": [
          null,
-         ""
+         "Bruker du <span>Zoom</span> til videosamtaler?"
       ],
       "Make sure your online activity stays hidden": [
          null,
-         ""
+         "Sørg for at nettaktiviteten din holdes skjult"
       ],
       "Why use a VPN with Zoom?": [
          null,
-         ""
+         "Hvorfor bruke et VPN med Zoom?"
       ],
       "Zoom has been accused of sharing user data with Facebook, they lied about the app having end-to-end encryption, and the app allowed meeting hosts to track attendees.<br><br><b>So get Private Internet Access to encrypt your data, hide your IP address and become anonymous while using Zoom.</b>": [
          null,
-         ""
+         "Zoom er blitt anklaget for å dele brukerdata med Facebook, de har snakket usant om at appen hadde ende-til-ende-kryptering, og appen har tillatt møteverter å spore deltakere.<br><br><b>Så du bør skaffe deg Private Internet Access for å kryptere dataene dine, skjule IP-adressen din og være anonym mens du bruker Zoom.</b>"
       ],
       "First-rate VPN service:": [
          null,
-         ""
+         "Førsteklasses VPN-tjeneste:"
       ],
       "Bypass censorship and unblock streaming content and sites you don't have access to. Discover geo-restricted content on platforms like Netflix, HBO GO, Amazon Prime, Disney Plus, and more.": [
          null,
-         ""
+         "Omgå sensurering og fjern blokkering av strømmeinnhold og nettsteder du ikke har tilgang til. Utforsk geografisk begrenset innhold på plattformer som Netflix, HBO GO, Amazon Prime, Disney Plus med flere."
       ],
       "Lightning-fast Internet": [
          null,
-         ""
+         "Lynraskt Internett"
       ],
       "Private Internet Access provides the highest speeds possible. So, you can have calls without any buffering or connectivity issues.": [
          null,
-         ""
+         "Private Internet Access gir deg de høyest mulige hastighetene. Dermed kan du ha samtaler uten bufring eller tilkoblingsproblemer."
       ],
       "Unbreakable Encryption": [
          null,
-         ""
+         "Ubrytelig kryptering"
       ],
       "Encrypt your data to make sure nobody can hack your connection and get access to your data.": [
          null,
-         ""
+         "Krypter dataene dine for å forsikre deg om at ingen kan hacke tilkoblingen og få tilgang til dataene."
       ],
       "Become Anonymous": [
          null,
-         ""
+         "Bli anonym"
       ],
       "Browse anonymously with a private IP address and protect yourself from your companies that want to get their hands on your data.": [
          null,
-         ""
+         "Surf anonymt med skjult IP-adresse og beskytt deg mot selskaper som er ute etter dataene dine."
       ],
       "Connect in 4 easy steps:": [
          null,
-         ""
+         "Koble til med fire enkle trinn:"
       ],
       "<b>Turn on</b><br>Private Internet Access and connect": [
          null,
-         ""
+         "<b>Slå på</b><br>Private Internet Access og koble til"
       ],
       "You’re ready to start using <span>Private Internet Access</span> with zoom": [
          null,
-         ""
+         "Du er klar til å begynne å bruke <span>Private Internet Access</span> med Zoom"
       ],
       "Use PIA on up to %s devices simultaneously": [
          null,
-         ""
+         "Bruk PIA på opptil %s enheter samtidig"
       ],
       "%s-Day money back guarantee": [
          null,
-         ""
+         "%s-dagers pengene-tilbake-garanti"
       ],
       "<span class=\"color_pia_green\">Frequently asked questions</span>": [
          null,
-         ""
+         "<span class=\"color_pia_green\">Vanlige spørsmål</span>"
       ],
       "How to use Private Internet Access with Zoom?": [
          null,
-         ""
+         "Hvordan bruker jeg Private Internet Access med Zoom?"
       ],
       "First download and install the Private Internet Access app on the device you're planning to use for your Zoom call. Then create and verify your account. Sing-in to the PIA app using your username and password and connect to a server by clicking or tapping the big, round power button. You're now completely anonymous and protected, all that's left to do is to fire-up your Zoom app and join your conference.": [
          null,
-         ""
+         "Først laster du ned og installerer Private Internet Access-appen på enheten du har tenkt å bruke til Zoom-samtaler. Deretter oppretter du og verifiserer kontoen din. Logg inn på PIA-appen med brukernavn og passord og koble til en server ved å klikke eller trykke på den store, runde av/på-knappen. Du er nå fullstendig anonym og beskyttet, og det eneste som gjenstår er å starte Zoom-appen og delta i samtalen."
       ],
       "Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,
-         ""
+         "Private Internet Access har en %s-dagers pengene-tilbake-garanti uten spørsmål. Abonner på Private Internet Access i dag og begynn å strømme med det samme!"
       ],
       "Is it safe to use Private Internet Access?": [
          null,
-         ""
+         "Er det trygt å bruke Private Internet Access?"
       ],
       "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. Private Internet access never records any of its users' data. We follow a strict no-logs policy that ensures we never keep any logs of our users' activities online.": [
          null,
-         ""
+         "Ja. Private Internet Access gir deg en VPN-tjeneste med servere på %s plasseringer fordelt over %s land, inkludert blant annet USA, Storbritannia og Japan. Private Internet Access registrerer aldri brukernes data. Vi følger en streng policy helt uten loggføring som sikrer at vi aldri fører logger over brukernes aktiviteter på nettet."
       ],
       "Will my IP address be exposed while using Zoom?": [
          null,
-         ""
+         "Blir IP-adressen min synlig når jeg bruker Zoom?"
       ],
       "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services, apps and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
          null,
-         ""
+         "Nei. Når du bruker Private Internet Access, krypterer du trafikken din gjennom VPN-tunnelen vår, som skaffer tilgang til Internett fra IP-adressen til en av serverne våre. Strømmetjenester, apper og nettsteder ser bare IP-adressen til Private Internet Access, ikke IP-adressen til enheten din."
       ],
       "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
@@ -1577,67 +1621,67 @@
       ],
       "Unblock <span>new streaming content</span><br><small>on your <span>Fire Stick TV</span></small>": [
          null,
-         ""
+         "Fjern blokkering av <span>nytt strømmeinnhold</span><br><small>på <span>Fire TV Stick</span></small>"
       ],
       "with Private Internet Access VPN": [
          null,
-         ""
+         "med Private Internet Access VPN"
       ],
       "Tired of watching the same shows and movies on streaming platforms?": [
          null,
-         ""
+         "Lei av å se de samme programmene og filmene på strømmeplattformene?"
       ],
       "Private Internet Access changes your IP address to one from a different location so you can discover new streaming properties.<br><b>Sign up to Private Internet Access today and unblock tons of new content from different countries around the world.</b>": [
          null,
-         ""
+         "Private Internet Access endrer IP-adressen din til en adresse fra en annen geografisk plassering, slik at du kan utforske nytt strømmeinnhold.<br><b>Registrer deg for Private Internet Access i dag og fjern blokkeringen av tonnevis av nytt innhold fra ulike land rundt om i verden.</b>"
       ],
       "Stream new content on your Fire Stick TV:": [
          null,
-         ""
+         "Strøm nytt innhold på Fire TV Stick:"
       ],
       "A must have for your Fire Stick TV": [
          null,
-         ""
+         "Noe du bare må ha til din Fire TV Stick"
       ],
       "Access content from all over the world": [
          null,
-         ""
+         "Få tilgang til innhold fra hele verden"
       ],
       "Private Internet Access has thousands of servers in over %s countries world-wide. Connect to either one of them and discover new films, TV shows and documentaries.": [
          null,
-         ""
+         "Private Internet Access har tusener av servere i mer enn %s land over hele verden. Koble deg til hvilken som helst av dem og gled deg over nye filmer, TV-programmer og dokumentarer."
       ],
       "Override geographical restrictions": [
          null,
-         ""
+         "Overvinn geografiske begrensninger"
       ],
       "Connect to a server from a different country with just one click, straight from the Private Internet Access app, and unblock content that's not available in your country.": [
          null,
-         ""
+         "Koble deg til en server i et annet land med ett klikk, direkte innenfra Private Internet Access-appen, og fjern blokkeringen av innhold som ikke er tilgjengelig i landet der du bor."
       ],
       "With just 1 Private Internet Access VPN subscription you can use the app on up to %s devices at the same time. This way you can unblock content on anything that has a screen and an internet connection.": [
          null,
-         ""
+         "Med bare ett Private Internet Access VPN-abonnement kan du bruke appen på opptil %s enheter samtidig. På den måten kan du fjerne blokkering av innhold på alt som har en skjerm og en Internett-tilkobling."
       ],
       "All it takes are 4 easy steps:": [
          null,
-         ""
+         "Alt som kreves er fire enkle trinn:"
       ],
       "Watch your favorite movies and shows in minutes": [
          null,
-         ""
+         "Få tilgang til favorittfilmene og -programmene dine i løpet av noen minutter"
       ],
       "Got questions about streaming? <span class=\"color_pia_green\">Here are a few of our FAQs</span>": [
          null,
-         ""
+         "Noe du lurer på om strømming? <span class=\"color_pia_green\">Her er noen av våre vanlige spørsmål</span>"
       ],
       "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
          null,
-         ""
+         "Private Internet Access er en førsteklasses VPN-tjeneste uten loggføring – noe som betyr at vi ikke engang vet om du strømmer eller ikke. Alle serverne vår tilbyr ubegrenset båndbredde, og vi struper ikke båndbredden til brukerne. Basta. Registrer deg for Private Internet Access i dag og gled deg over ubegrenset og usensurert Internett-tilgang."
       ],
       "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
          null,
-         ""
+         "Private Internet Access tror på et åpent Internett og arbeider alltid for å sikre at det ikke finnes blokkeringer for VPN-brukerne våre. Prøv tjenesten vår i dag og se hvorfor Private Internet Access er den beste VPN-tjenesten for strømming på nettet."
       ],
       "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>": [
          null,

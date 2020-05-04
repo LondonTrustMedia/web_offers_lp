@@ -29,7 +29,7 @@
       height: 105px;
       width: 215px;
       html[lang="rus"] & {
-        width:  270px;
+        width: 270px;
       }
       html[lang="fra"] & {
         width: 235px;
@@ -41,7 +41,8 @@
       html[lang="deu"] &,
       html[lang="ita"] &,
       html[lang="rus"] &,
-      html[lang="por"] &, html[lang="spa"] &  {
+      html[lang="por"] &,
+      html[lang="spa"] & {
         background-image: url(img/badge_frame_right_short.svg);
       }
       html[lang="dan"] & {
@@ -86,7 +87,8 @@
     }
     & .top {
       font-weight: 700;
-      margin-top: -35px;
+      margin-top: -40px;
+      margin-left: -15px;
       @media screen and (max-width: $brk-ipad-width) {
         html[lang="fra"] & {
           margin-top: -23px;
@@ -94,6 +96,7 @@
         }
       }
       @media screen and (max-width: $brk-ipad-width - 1) {
+        margin-left: 0;
         html[lang="deu"] & {
           margin-top: -25px;
           font-size: 0.8em;
@@ -104,7 +107,7 @@
         }
         html[lang="por"] & {
           margin-top: -25px;
-          font-size: 14px
+          font-size: 14px;
         }
       }
 
@@ -175,7 +178,7 @@
         }
         html[lang="spa"] & {
           margin-top: -1px;
-          font-size: .8rem;
+          font-size: 0.8rem;
         }
       }
       @media screen and (max-width: $brk-mobile-width) {

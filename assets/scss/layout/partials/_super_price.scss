@@ -41,7 +41,7 @@
         max-width: 100%;
         html[lang="rus"] & {
           font-size: 14px;
-           min-width: 180px;
+          min-width: 180px;
         }
         html[lang="fra"] & {
           font-size: 16px;
@@ -112,7 +112,7 @@
         flex: 0 0 335px;
       }
       & .btn_wave {
-        html[lang="rus"] & { 
+        html[lang="rus"] & {
           @media screen and (max-width: $brk-min-desktop-width) {
             font-size: 16px;
           }
@@ -120,7 +120,6 @@
             font-size: 14px;
           }
         }
-        
       }
       & .body {
         padding: 0 20px 45px;
@@ -131,7 +130,7 @@
         @media screen and (max-width: $brk-ipad-width - 1) {
           padding: 10px 20px 0;
           height: 275px;
-          html[lang="rus"] & { 
+          html[lang="rus"] & {
             height: 245px;
           }
         }
@@ -145,7 +144,7 @@
       & .pricing-bill {
         color: $color-text-dark;
         font-size: 1.6em;
-        html[lang="rus"] & { 
+        html[lang="rus"] & {
           font-size: 1.1em;
         }
         @media screen and (max-width: $brk-desktop-width) {
@@ -178,7 +177,7 @@
         height: 70px;
         border-top-right-radius: 0;
         border-top-left-radius: 0;
-        
+
         @media screen and (max-width: $brk-min-desktop-width) {
           padding: 15px 10px 0;
           height: 55px;
@@ -186,13 +185,12 @@
         @media screen and (max-width: $brk-ipad-width - 1) {
           padding: 0px 10px 0;
           width: 100%;
-          
         }
         & h5 {
           @media screen and (max-width: $brk-min-desktop-width) {
             font-size: 1rem;
-            html[lang="rus"] & { 
-              font-size: .8rem;
+            html[lang="rus"] & {
+              font-size: 0.8rem;
             }
           }
         }
@@ -317,21 +315,30 @@
         font-size: 1.2em;
       }
       & .month {
-        html[lang="rus"] & { 
-            font-size: .8em;
+        html[lang="rus"] & {
+          font-size: 0.8em;
         }
-        html[currency="EUR"] & {
+        html[currency="EUR"] &,
+        html[currency="RUB"] & {
           order: 3;
         }
       }
       & .perMonthNumber {
         font-size: 3em;
-        html[currency="EUR"] & {
+        html[currency="EUR"] &,
+        html[currency="RUB"] & {
           order: 1;
+        }
+        html[currency="JPY"] &,
+        html[currency="RUB"] &,
+        html[currency="INR"] &,
+        html[currency="BRL"] & {
+          font-size: 2.2em;
         }
       }
       & .price-currency {
-        html[currency="EUR"] & {
+        html[currency="EUR"] &,
+        html[currency="RUB"] & {
           order: 2;
         }
       }
@@ -351,8 +358,8 @@
     & .pricing-save {
       font-weight: 300;
       height: 33px;
-      html[lang="rus"] & { 
-          font-size: 1.35rem;
+      html[lang="rus"] & {
+        font-size: 1.35rem;
       }
       @media screen and (max-width: $brk-min-desktop-width) {
         margin-top: 1.5rem !important;

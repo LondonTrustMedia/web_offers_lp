@@ -17,13 +17,13 @@
       background-image: url(img/price_badge_right.svg);
       width: 180px;
     }
-  
+
     & .top {
       font-weight: 700;
       margin-top: -13px;
       font-size: 1.125rem;
       margin-bottom: 18px;
-      html[lang=fra] & {
+      html[lang="fra"] & {
         margin-top: -30px;
         margin-bottom: 5px;
         @media screen and (max-width: $brk-ipad-width - 1) {
@@ -33,10 +33,9 @@
       }
       @media screen and (max-width: $brk-ipad-width - 1) {
         margin-top: -10px;
-        font-size: .85rem;
+        font-size: 0.85rem;
         margin-bottom: 8px;
       }
-
     }
     & .discount {
       font-size: 8.5rem;
@@ -48,28 +47,54 @@
       }
 
       & p {
-        font-size: .72em;
+        font-size: 0.72em;
         margin-left: -25px;
         @media screen and (max-width: $brk-ipad-width - 1) {
           margin-left: -15px;
+          html[currency="JPY"] &,
+          html[currency="INR"] &,
+          html[currency="RUB"] & {
+            margin: 1rem 0 0.5rem -15 !important;
+          }
+          html[currency="BRL"] & {
+            margin: 1rem 0 0 -15 !important;
+          }
         }
         & span {
-          font-size: .75em;
+          font-size: 0.75em;
+          html[currency="CHF"] &,
+          html[currency="AUD"] &,
+          html[currency="BRL"] & {
+            font-size: 0.2em;
+          }
+          html[currency="RUB"] & {
+            font-size: 0.3em;
+          }
         }
-        html[currency="EUR"] & {
+        html[currency="EUR"] &,
+        html[currency="RUB"] & {
           display: flex;
           flex-direction: row-reverse;
         }
+        html[currency="JPY"] &,
+        html[currency="INR"] &,
+        html[currency="RUB"] & {
+          font-size: 0.45em;
+          margin: 1rem 0 1rem -25 !important;
+        }
+        html[currency="BRL"] & {
+          font-size: 0.6em;
+          margin: 0.5rem 0 0.5rem -25 !important;
+        }
       }
-      
     }
     & .bottom {
       font-weight: 700;
-    margin-top: 10px;
-    font-size: 1.5rem;
-    padding-left: .5rem;
-    @media screen and (max-width: $brk-ipad-width - 1) {
-      margin-top: 3px;
+      margin-top: 10px;
+      font-size: 1.5rem;
+      padding-left: 0.5rem;
+      @media screen and (max-width: $brk-ipad-width - 1) {
+        margin-top: 3px;
         font-size: 1.2rem;
       }
     }

@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Portuguese, Brazilian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-27 08:44\nLanguage: pt_BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-27 08:42+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: pt-BR\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Portuguese, Brazilian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-03 12:33\nLanguage: pt_BR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-03 12:16+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: pt-BR\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -995,6 +995,34 @@
          null,
          "Zimbábue"
       ],
+      "Russian Rubles": [
+         null,
+         "Rublos Russos"
+      ],
+      "Indian Rupee": [
+         null,
+         ""
+      ],
+      "Brazilian Reals": [
+         null,
+         ""
+      ],
+      "Japanese Yen": [
+         null,
+         ""
+      ],
+      "Australian Dollars": [
+         null,
+         ""
+      ],
+      "Swiss Francs": [
+         null,
+         "Franco Suíço"
+      ],
+      "Euros": [
+         null,
+         "Euros"
+      ],
       "US Dollars": [
          null,
          "Dólares dos EUA"
@@ -1179,6 +1207,26 @@
          null,
          "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>MESES EXTRAS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATUITOS"
       ],
+      "Your IP:": [
+         null,
+         "Seu IP:"
+      ],
+      "Your Location:": [
+         null,
+         "Sua localização:"
+      ],
+      "Your ISP:": [
+         null,
+         "Seu ISP:"
+      ],
+      "Your Status:": [
+         null,
+         "Seu status:"
+      ],
+      "You are not protected": [
+         null,
+         "Você não está protegido"
+      ],
       "Connect to servers from all over the world": [
          null,
          "Conecte-se a servidores de todo o mundo"
@@ -1258,26 +1306,6 @@
       "For a Limited Time Only": [
          null,
          "Somente por tempo limitado"
-      ],
-      "Your IP:": [
-         null,
-         "Seu IP:"
-      ],
-      "Your Location:": [
-         null,
-         "Sua localização:"
-      ],
-      "Your ISP:": [
-         null,
-         "Seu ISP:"
-      ],
-      "Your Status:": [
-         null,
-         "Seu status:"
-      ],
-      "You are not protected": [
-         null,
-         "Você não está protegido"
       ],
       "OOPS!": [
          null,
@@ -1427,6 +1455,22 @@
          null,
          "O Private Internet Access acredita em uma internet aberta e está sempre trabalhando para garantir que não haja nenhum bloqueio para os nossos usuários de VPN. Use o nosso serviço hoje mesmo para ver por que o Private Internet Access é a melhor VPN para fazer streaming on-line."
       ],
+      "Save <b>%s%</b><br><span class=\"lines\">& get <b>%s extra months <span>free</span></b></span>": [
+         null,
+         "Economize <b>%s%</b><br><span class=\"lines\">e obtenha <b>%s meses extras <span>gratuitamente</span></b></span>"
+      ],
+      "Save <b>%s%</b> & get<br><b class=\"lines\">%s extra months</b><br><span>free</span>": [
+         null,
+         "Economize <b>%s%</b> e obtenha<br><b class=\"lines\">%s meses extras</b><br><span>gratuitamente</span>"
+      ],
+      "Save <b>%s%</b><br>& get<br><b class=\"lines\">%s extra months</b><br><span>free</span>": [
+         null,
+         "Economize <b>%s%</b><br>e obtenha<br><b class=\"lines\">%s meses extras</b><br><span>gratuitamente</span>"
+      ],
+      "for only <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /month": [
+         null,
+         "por apenas <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /mês"
+      ],
       "The VPN recommended by<br><b>%s</b>": [
          null,
          "A VPN recomendada por<br><b>%s</b>"
@@ -1473,103 +1517,103 @@
       ],
       "Using <span>Zoom</span> for video calls?": [
          null,
-         ""
+         "Usando o <span>Zoom</span> para chamadas de vídeo?"
       ],
       "Make sure your online activity stays hidden": [
          null,
-         ""
+         "Certifique-se de que a sua atividade on-line permaneça oculta"
       ],
       "Why use a VPN with Zoom?": [
          null,
-         ""
+         "Por que usar uma VPN com o Zoom?"
       ],
       "Zoom has been accused of sharing user data with Facebook, they lied about the app having end-to-end encryption, and the app allowed meeting hosts to track attendees.<br><br><b>So get Private Internet Access to encrypt your data, hide your IP address and become anonymous while using Zoom.</b>": [
          null,
-         ""
+         "O Zoom foi acusado de compartilhar dados de usuários com o Facebook, eles mentiram sobre o aplicativo ter criptografia de ponta a ponta e o aplicativo permitia que anfitriões de reuniões rastreassem os participantes.<br><br><b>Portanto, obtenha o Private Internet Access para criptografar seus dados, ocultar seu endereço IP e ficar anônimo ao usar o Zoom.</b>"
       ],
       "First-rate VPN service:": [
          null,
-         ""
+         "Serviço de VPN de primeira classe:"
       ],
       "Bypass censorship and unblock streaming content and sites you don't have access to. Discover geo-restricted content on platforms like Netflix, HBO GO, Amazon Prime, Disney Plus, and more.": [
          null,
-         ""
+         "Desvie da censura e desbloqueie conteúdos e sites de streaming aos quais não tem acesso. Descubra conteúdos com restrição geográfica em plataformas como Netflix, HBO GO, Amazon Prime, Disney Plus e muito mais."
       ],
       "Lightning-fast Internet": [
          null,
-         ""
+         "Internet ultrarrápida"
       ],
       "Private Internet Access provides the highest speeds possible. So, you can have calls without any buffering or connectivity issues.": [
          null,
-         ""
+         "O Private Internet Access fornece as velocidades mais altas possíveis. Então, você pode fazer chamadas sem buffering ou problemas de conectividade."
       ],
       "Unbreakable Encryption": [
          null,
-         ""
+         "Criptografia indestrutível"
       ],
       "Encrypt your data to make sure nobody can hack your connection and get access to your data.": [
          null,
-         ""
+         "Criptografe seus dados para se certificar de que ninguém possa invadir sua conexão e obter acesso aos seus dados."
       ],
       "Become Anonymous": [
          null,
-         ""
+         "Fique anônimo"
       ],
       "Browse anonymously with a private IP address and protect yourself from your companies that want to get their hands on your data.": [
          null,
-         ""
+         "Navegue anonimamente com um endereço IP privado e protejas-se contra empresas que querem colocar as mãos nos seus dados."
       ],
       "Connect in 4 easy steps:": [
          null,
-         ""
+         "Conecte-se em 4 passos simples:"
       ],
       "<b>Turn on</b><br>Private Internet Access and connect": [
          null,
-         ""
+         "<b>Ative</b><br>o Private Internet Access e conecte-se"
       ],
       "You’re ready to start using <span>Private Internet Access</span> with zoom": [
          null,
-         ""
+         "Você está pronto para começar a usar o <span>Private Internet Access</span> com o Zoom"
       ],
       "Use PIA on up to %s devices simultaneously": [
          null,
-         ""
+         "Use o PIA em até %s dispositivos ao mesmo tempo"
       ],
       "%s-Day money back guarantee": [
          null,
-         ""
+         "Garantia de devolução do seu dinheiro em até %s dias"
       ],
       "<span class=\"color_pia_green\">Frequently asked questions</span>": [
          null,
-         ""
+         "<span class=\"color_pia_green\">Perguntas Frequentes</span>"
       ],
       "How to use Private Internet Access with Zoom?": [
          null,
-         ""
+         "Como usar o Private Internet Access com o Zoom?"
       ],
       "First download and install the Private Internet Access app on the device you're planning to use for your Zoom call. Then create and verify your account. Sing-in to the PIA app using your username and password and connect to a server by clicking or tapping the big, round power button. You're now completely anonymous and protected, all that's left to do is to fire-up your Zoom app and join your conference.": [
          null,
-         ""
+         "Primeiro baixe e instale o aplicativo do Private Internet Access no dispositivo em que planeja usar para sua chamada com o Zoom. Em seguida, crie e confirme sua conta. Inicie sessão no aplicativo do PIA usando seu nome de usuário e senha e conecte-se a um servidor clicando ou tocando no botão de energia grande e redondo. Você está agora completamente anônimo e protegido, tudo o que precisa fazer é iniciar o aplicativo do Zoom e participar da chamada."
       ],
       "Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,
-         ""
+         "O Private Internet Access oferece uma garantia de devolução do seu dinheiro em até %s dias, sem fazer perguntas. Assine o Private Internet Access hoje mesmo para começar a fazer streaming agora!"
       ],
       "Is it safe to use Private Internet Access?": [
          null,
-         ""
+         "É seguro usar o Private Internet Access?"
       ],
       "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. Private Internet access never records any of its users' data. We follow a strict no-logs policy that ensures we never keep any logs of our users' activities online.": [
          null,
-         ""
+         "Sim. O Private Internet Access fornece um serviço de VPN com servidores em %s localizações em %s países, incluindo os Estados Unidos, Reino Unido, Japão e muito mais. O Private Internet Access nunca registra nenhum dado de seus usuários. Seguimos uma política rigorosa de ausência de registros que garante que nunca mantenhamos nenhum registro das atividades on-line dos nossos usuários."
       ],
       "Will my IP address be exposed while using Zoom?": [
          null,
-         ""
+         "Meu endereço IP ficará exposto enquanto eu estiver usando o Zoom?"
       ],
       "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services, apps and websites will only see our Private Internet Access IP address, not your device’s IP address.": [
          null,
-         ""
+         "Não. Ao usar o Private Internet Access, você está criptografando seu tráfego por meio do nosso túnel VPN, que acessa a internet de um dos endereços IP dos nossos servidores. Os serviços, aplicativos e sites de streaming verão apenas o nosso endereço IP do Private Internet Access e não o endereço IP do seu dispositivo."
       ],
       "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>": [
          null,
@@ -1577,67 +1621,67 @@
       ],
       "Unblock <span>new streaming content</span><br><small>on your <span>Fire Stick TV</span></small>": [
          null,
-         ""
+         "Desbloqueie <span>novos conteúdos de streaming</span><br><small>no seu <span>Fire TV Stick</span></small>"
       ],
       "with Private Internet Access VPN": [
          null,
-         ""
+         "com a VPN do Private Internet Access"
       ],
       "Tired of watching the same shows and movies on streaming platforms?": [
          null,
-         ""
+         "Cansado de assistir os mesmos programas e filmes nas plataformas de streaming?"
       ],
       "Private Internet Access changes your IP address to one from a different location so you can discover new streaming properties.<br><b>Sign up to Private Internet Access today and unblock tons of new content from different countries around the world.</b>": [
          null,
-         ""
+         "O Private Internet Access troca seu endereço IP por um de uma localização diferente para que você possa descobrir novas propriedades de streaming.<br><b>Cadastre-se no Private Internet Access hoje mesmo e desbloqueie inúmeros conteúdos novos de diferente países no mundo todo.</b>"
       ],
       "Stream new content on your Fire Stick TV:": [
          null,
-         ""
+         "Faça streaming de novos conteúdos no seu Fire TV Stick:"
       ],
       "A must have for your Fire Stick TV": [
          null,
-         ""
+         "Essencial para o seu Fire TV Stick"
       ],
       "Access content from all over the world": [
          null,
-         ""
+         "Acesse conteúdo de todo o mundo"
       ],
       "Private Internet Access has thousands of servers in over %s countries world-wide. Connect to either one of them and discover new films, TV shows and documentaries.": [
          null,
-         ""
+         "O Private Internet Access tem milhares de servidores em mais de %s países em todo o mundo. Conecte-se a um deles e descubra novos filmes, programas de TV e documentários."
       ],
       "Override geographical restrictions": [
          null,
-         ""
+         "Ignore restrições geográficas"
       ],
       "Connect to a server from a different country with just one click, straight from the Private Internet Access app, and unblock content that's not available in your country.": [
          null,
-         ""
+         "Conecte-se a um servidor de um país diferente com apenas um clique, diretamente do aplicativo do Private Internet Access, e desbloqueie conteúdo não disponível em seu país."
       ],
       "With just 1 Private Internet Access VPN subscription you can use the app on up to %s devices at the same time. This way you can unblock content on anything that has a screen and an internet connection.": [
          null,
-         ""
+         "Com apenas 1 assinatura do Private Internet Access VPN, você pode usar o aplicativo em até %s dispositivos ao mesmo tempo. Dessa forma, você pode desbloquear conteúdos em tudo que tiver uma tela e uma conexão à internet."
       ],
       "All it takes are 4 easy steps:": [
          null,
-         ""
+         "Bastam 4 passos simples:"
       ],
       "Watch your favorite movies and shows in minutes": [
          null,
-         ""
+         "Assista a seus filmes e programas favoritos em minutos"
       ],
       "Got questions about streaming? <span class=\"color_pia_green\">Here are a few of our FAQs</span>": [
          null,
-         ""
+         "Tem alguma dúvida sobre streaming? <span class=\"color_pia_green\">Aqui estão algumas das nossas Perguntas Frequentes</span>"
       ],
       "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet.": [
          null,
-         ""
+         "O Private Internet Access é a primeira VPN com ausência de registros - isso significa que nem sequer sabemos se você está fazendo streaming. Todos os nossos servidores oferecem largura de banda ilimitada e nós não limitamos nossos usuários. E ponto final. Cadastre-se no Private Internet Access hoje mesmo para desfrutar de internet ilimitada e sem censura."
       ],
       "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
          null,
-         ""
+         "O Private Internet Access acredita em uma internet aberta e está sempre trabalhando para garantir que não haja nenhum bloqueio para os nossos usuários de VPN. Use o nosso serviço hoje mesmo para ver por que o Private Internet Access é a melhor VPN para fazer streaming on-line."
       ],
       "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>": [
          null,

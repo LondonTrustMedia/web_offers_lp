@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: Danish\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-04-27 08:44\n"
+"PO-Revision-Date: 2020-05-03 12:33\n"
 "Language: da_DK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-04-27 08:42+0000\n"
+"POT-Creation-Date: 2020-05-03 12:16+0000\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: da\n"
@@ -1007,6 +1007,37 @@ msgstr "Zambia"
 msgid "Zimbabwe"
 msgstr "Zimbabwe"
 
+#: /home/guy/kape/Privateland/app/modules/mws.js:354
+msgid "Russian Rubles"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:361
+msgid "Indian Rupee"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:368
+msgid "Brazilian Reals"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:380
+msgid "Japanese Yen"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:387
+msgid "Australian Dollars"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:393
+msgid "Swiss Francs"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:399
+#: /home/guy/kape/Privateland/app/modules/mws.js:418
+msgid "Euros"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:405
+#: /home/guy/kape/Privateland/app/modules/mws.js:425
 #: /home/guy/kape/Privateland/app/modules/mws.js:433
 msgid "US Dollars"
 msgstr "US dollars"
@@ -1211,6 +1242,31 @@ msgstr "GRATIS"
 msgid "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE"
 msgstr "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EKSTRA MÅNEDER</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATIS"
 
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:5
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:4
+msgid "Your IP:"
+msgstr "Din IP:"
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:9
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:8
+msgid "Your Location:"
+msgstr "Din placering:"
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:13
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:12
+msgid "Your ISP:"
+msgstr "Din ISP:"
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:17
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:16
+msgid "Your Status:"
+msgstr "Din status:"
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:19
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:18
+msgid "You are not protected"
+msgstr "Du er ikke beskyttet"
+
 #: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:24
 msgid "Connect to servers from all over the world"
 msgstr "Etabler forbindelse til vores servere, uanset hvor i verden du befinder dig"
@@ -1297,6 +1353,8 @@ msgstr "Med Private Internet Access kan du blokere annoncer, trackere og malware
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:34
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:128
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:19
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:23
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:58
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:24
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:61
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:65
@@ -1316,26 +1374,6 @@ msgstr "Få VPN fra Private Internet Access"
 #: /home/guy/kape/Privateland/views/partials/price_block.ejs:4
 msgid "For a Limited Time Only"
 msgstr "Kun i begrænset tid"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:4
-msgid "Your IP:"
-msgstr "Din IP:"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:8
-msgid "Your Location:"
-msgstr "Din placering:"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:12
-msgid "Your ISP:"
-msgstr "Din ISP:"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:16
-msgid "Your Status:"
-msgstr "Din status:"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:18
-msgid "You are not protected"
-msgstr "Du er ikke beskyttet"
 
 #: /home/guy/kape/Privateland/views/errors/404.ejs:18
 msgid "OOPS!"
@@ -1358,6 +1396,7 @@ msgid "Unblock restricted content libraries easily<br> with Private Internet Acc
 msgstr "Fjern nemt blokeringen af begrænsede indholdsbiblioteker<br> med Private Internet Access"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:25
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:27
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:32
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:28
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:41
@@ -1370,6 +1409,7 @@ msgid "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase
 msgstr "Prøv det helt uden risiko! <i class='fas fa-award'></i><span class='text-uppercase'> %s-dages pengene tilbage-garanti</span>"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:66
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:54
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:77
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:56
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:60
@@ -1540,6 +1580,22 @@ msgstr "Vil Private Internet Access blive blokeret på min favoritstreamingtjene
 msgid " Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online."
 msgstr " Private Internet Access tror på et åbent internet og arbejder løbende på at sikre, at ingen af vores VPN-brugere bliver blokeret. Brug vores tjeneste i dag, og du vil se, hvorfor Private Internet Access er den bedste VPN til online streaming."
 
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:15
+msgid "Save <b>%s%</b><br><span class=\"lines\">& get <b>%s extra months <span>free</span></b></span>"
+msgstr "Spar <b>%s%</b><br><span class=\"lines\">og få <b>%s ekstra måneder <span>gratis</span></b></span>"
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:16
+msgid "Save <b>%s%</b> & get<br><b class=\"lines\">%s extra months</b><br><span>free</span>"
+msgstr "Spar <b>%s%</b> og få<br><b class=\"lines\">%s ekstra måneder</b><br><span>gratis</span>"
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:17
+msgid "Save <b>%s%</b><br>& get<br><b class=\"lines\">%s extra months</b><br><span>free</span>"
+msgstr "Spar <b>%s%</b><br>og få<br><b class=\"lines\">%s ekstra måneder</b><br><span>gratis</span>"
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:20
+msgid "for only <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /month"
+msgstr "for kun <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /måned"
+
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:15
 msgid "The VPN recommended by<br><b>%s</b>"
 msgstr "VPN anbefalet af<br><b>%s</b>"
@@ -1591,111 +1647,111 @@ msgstr "%s enheder"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:16
 msgid "Using <span>Zoom</span> for video calls?"
-msgstr ""
+msgstr "Bruger du <span>Zoom</span> til videoopkald?"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:17
 msgid "Make sure your online activity stays hidden"
-msgstr ""
+msgstr "Sørg for, at din onlineaktiviter forbliver skjult"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:76
 msgid "Why use a VPN with Zoom?"
-msgstr ""
+msgstr "Hvorfor bør jeg bruge en VPN med Zoom?"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:77
 msgid "Zoom has been accused of sharing user data with Facebook, they lied about the app having end-to-end encryption, and the app allowed meeting hosts to track attendees.<br><br><b>So get Private Internet Access to encrypt your data, hide your IP address and become anonymous while using Zoom.</b>"
-msgstr ""
+msgstr "Zoom er blevet beskyldt for at dele brugerdata med Facebook, de løj, da de fortalte, at appen har komplet kryptering, og appen gjorde det muligt for mødeværter at spore deltagerne.<br><br><b>Derfor har du brug for Private Internet Access, så du kan kryptere dine data, skjule din IP-adresse og forblive helt anonym, når du bruger Zoom.</b>"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:84
 msgid "First-rate VPN service:"
-msgstr ""
+msgstr "Førsteklasses VPN-tjeneste:"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:90
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:136
 msgid "Bypass censorship and unblock streaming content and sites you don't have access to. Discover geo-restricted content on platforms like Netflix, HBO GO, Amazon Prime, Disney Plus, and more."
-msgstr ""
+msgstr "Omgå censur og fjern blokeringen af streamingindhold og hjemmesider, du ikke har adgang til. Gå på opdagelse i geo-blokeret indhold på platforme som Netflix, HBO GO, Amazon Prime, Disney Plus og mange flere."
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:96
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:147
 msgid "Lightning-fast Internet"
-msgstr ""
+msgstr "Lynhurtigt internet"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:97
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:158
 msgid "Private Internet Access provides the highest speeds possible. So, you can have calls without any buffering or connectivity issues."
-msgstr ""
+msgstr "Private Internet Access sikrer dig de højest mulige hastigheder. Du kan derfor gennemføre opkald helt uden buffering eller forbindelsesproblemer."
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:103
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:169
 msgid "Unbreakable Encryption"
-msgstr ""
+msgstr "Ubrydelig kryptering"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:104
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:180
 msgid "Encrypt your data to make sure nobody can hack your connection and get access to your data."
-msgstr ""
+msgstr "Kryptér dine data for at sikre, at ingen kan hacke din forbindelse og få adgang til dine data."
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:110
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:191
 msgid "Become Anonymous"
-msgstr ""
+msgstr "Bliv anonym"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:111
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:202
 msgid "Browse anonymously with a private IP address and protect yourself from your companies that want to get their hands on your data."
-msgstr ""
+msgstr "Søg anonymt på internettet med en privat IP-adresse, og beskyt dig selv mod alle dem, der vil have fingre i dine data."
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:221
 msgid "Connect in 4 easy steps:"
-msgstr ""
+msgstr "Opret forbindelse med 4 lette trin:"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:227
 msgid "<b>Turn on</b><br>Private Internet Access and connect"
-msgstr ""
+msgstr "<b>Aktivér</b><br>Private Internet Access, og tilslut"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:229
 msgid "You’re ready to start using <span>Private Internet Access</span> with zoom"
-msgstr ""
+msgstr "Du er nu klar til at bruge <span>Private Internet Access</span> sammen med Zoom"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:235
 msgid "Use PIA on up to %s devices simultaneously"
-msgstr ""
+msgstr "Brug PIA på op til %s enheder på samme tid"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:275
 msgid "%s-Day money back guarantee"
-msgstr ""
+msgstr "%s-dages pengene tilbage-garanti"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:299
 msgid "<span class=\"color_pia_green\">Frequently asked questions</span>"
-msgstr ""
+msgstr "<span class=\"color_pia_green\">Ofte stillede spørgsmål</span>"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:302
 msgid "How to use Private Internet Access with Zoom?"
-msgstr ""
+msgstr "Hvordan kan jeg bruge Private Internet Access sammen med Zoom?"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:303
 msgid "First download and install the Private Internet Access app on the device you're planning to use for your Zoom call. Then create and verify your account. Sing-in to the PIA app using your username and password and connect to a server by clicking or tapping the big, round power button. You're now completely anonymous and protected, all that's left to do is to fire-up your Zoom app and join your conference."
-msgstr ""
+msgstr "Først skal du downloade og installere Private Internet Access appen på den enhed, du vil bruge til dit Zoom-opkald. Derefter skal du oprette og verificere din konto. Log ind på PIA appen med dit brugernavn og din adgangskode, og etabler forbindelse til en server ved at klikke på eller berøre den store, runde afbryderknap. Du er nu fuldstændig anonym og beskyttet, så du kan ny fyre op under din Zoom app og deltage i enhver konference."
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:307
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:242
 msgid "Private Internet Access has a no questions asked %s-day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
-msgstr ""
+msgstr "Private Internet Access har en %s-dages pengene tilbage-garanti, hvor vi ikke stiller nogen som helst spørgsmål. Abonner på Private Internet Access allerede i dag, så kan du streame med det samme!"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:310
 msgid "Is it safe to use Private Internet Access?"
-msgstr ""
+msgstr "Er det sikkert at bruge Private Internet Access?"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:311
 msgid "Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. Private Internet access never records any of its users' data. We follow a strict no-logs policy that ensures we never keep any logs of our users' activities online."
-msgstr ""
+msgstr "Ja. Private Internet Access tilbyder en VPN-tjeneste med servere placeret %s forskellige steder i %s lande, herunder USA, Storbritannien, Japan og mange flere. Private Internet Access registrerer aldrig nogen som helst brugerdata. Vi følger en streng politik om ikke at logge noget som helst, hvilket sikrer, at vi aldrig logfører vores brugeres onlineaktiviteter."
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:314
 msgid "Will my IP address be exposed while using Zoom?"
-msgstr ""
+msgstr "Vil min IP-adresse kunne ses, når jeg bruger Zoom?"
 
 #: /home/guy/kape/Privateland/views/pages/zoom.ejs:315
 msgid "No. By using Private Internet Access, you are encrypting your traffic through our VPN tunnel which accesses the internet from one of our servers’ IP addresses. Streaming services, apps and websites will only see our Private Internet Access IP address, not your device’s IP address."
-msgstr ""
+msgstr "Nej. Når du bruger Private Internet Access, bliver din trafik krypteret gennem vores VPN-tunnel, som har adgang til internettet fra en af vores serveres IP-adresser. Streamingtjenester, apps og websites kan kun se vores Private Internet Access IP-adresse, ikke din enheds IP-adresse."
 
 #: /home/guy/kape/Privateland/views/pages/devices.ejs:17
 msgid "Get Unbreakable Online Security With<br><b>The Best VPN for<br><span class=\"color_pia_light_orange\">%s</span></b>"
@@ -1703,71 +1759,71 @@ msgstr "Få ubrydelig online sikkerhed med<br><b>den bedste VPN til<br><span cla
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:16
 msgid "Unblock <span>new streaming content</span><br><small>on your <span>Fire Stick TV</span></small>"
-msgstr ""
+msgstr "Få adgang til <span>nyt streamingindhold</span><br><small>på din <span>Fire TV Stick</span></small>"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:17
 msgid "with Private Internet Access VPN"
-msgstr ""
+msgstr "med VPN fra Private Internet Access"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:81
 msgid "Tired of watching the same shows and movies on streaming platforms?"
-msgstr ""
+msgstr "Er du træt af at se de samme shows og film på streamingplatformene?"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:82
 msgid "Private Internet Access changes your IP address to one from a different location so you can discover new streaming properties.<br><b>Sign up to Private Internet Access today and unblock tons of new content from different countries around the world.</b>"
-msgstr ""
+msgstr "Private Internet Access ændrer din IP-adresse til en, der befinder sig et andet sted, så du kan få adgang til helt nye streamingmuligheder.<br><b>Tilmeld dig Private Internet Access allerede i dag og få adgang til tonsvis af nyt indhold fra forskellige lande rundt om i hele verden.</b>"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:85
 msgid "Stream new content on your Fire Stick TV:"
-msgstr ""
+msgstr "Stream nyt indhold på din Fire TV Stick:"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:96
 msgid "A must have for your Fire Stick TV"
-msgstr ""
+msgstr "Et must, hvis du har en Fire TV Stick"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:101
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:129
 msgid "Access content from all over the world"
-msgstr ""
+msgstr "Få adgang til indhold fra hele verden"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:102
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:140
 msgid "Private Internet Access has thousands of servers in over %s countries world-wide. Connect to either one of them and discover new films, TV shows and documentaries."
-msgstr ""
+msgstr "Private Internet Access har tusinder af servere i over %s lande verden rundt. Forbind til en af disse for at gå på opdagelse og finde nye film, TV-shows og dokumentarprogrammer."
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:108
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:151
 msgid "Override geographical restrictions"
-msgstr ""
+msgstr "Tilsidesæt de geografiske restriktioner"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:109
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:162
 msgid "Connect to a server from a different country with just one click, straight from the Private Internet Access app, and unblock content that's not available in your country."
-msgstr ""
+msgstr "Opret forbindelse til en server i et andet land med et enkelt klik, lige fra Private Internet Access appen, og få adgang til indhold, som ikke er tilgængeligt i dit land."
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:116
 msgid "With just 1 Private Internet Access VPN subscription you can use the app on up to %s devices at the same time. This way you can unblock content on anything that has a screen and an internet connection."
-msgstr ""
+msgstr "Med et enkelt Private Internet Access VPN-abonnement kan du bruge appen på op til %s enheder på samme tid. På den måde kan du få adgang til indholdet på en hvilken som helst enhed, der har en skærm og en internetforbindelse."
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:201
 msgid "All it takes are 4 easy steps:"
-msgstr ""
+msgstr "4 nemme trin og du er i gang:"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:202
 msgid "Watch your favorite movies and shows in minutes"
-msgstr ""
+msgstr "Bliv klar til at se dine yndlingsfilm og shows på få minutter"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:234
 msgid "Got questions about streaming? <span class=\"color_pia_green\">Here are a few of our FAQs</span>"
-msgstr ""
+msgstr "Har du spørgsmål om streaming? <span class=\"color_pia_green\">Her er nogle af vores ofte stillede spørgsmål</span>"
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:250
 msgid "Private Internet Access is the premier no log VPN - this means that we don’t even know if you are streaming. All our servers offer unlimited bandwidth and we do not throttle our users. Period. Sign up for Private Internet Access today to enjoy the unlimited and uncensored internet."
-msgstr ""
+msgstr "Private Internet Access er den førende VPN uden logning - det betyder, at vi ikke engang ved, at du streamer. Alle vores servere tilbyder ubegrænset båndbredde, og vi begrænser ikke vores brugere. Punktum. Tilmeld dig Private Internet Access allerede i dag for at udnytte det ubegrænsede internet uden censur."
 
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:254
 msgid "Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online."
-msgstr ""
+msgstr "Private Internet Access tror på et åbent internet og arbejder løbende på at sikre, at ingen af vores VPN-brugere bliver blokeret. Brug vores tjeneste i dag, og du vil se, hvorfor Private Internet Access er den bedste VPN til online streaming."
 
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:16
 msgid "Discover an endless amount of <br><b>streaming content</b> on <span>KODI</span>"

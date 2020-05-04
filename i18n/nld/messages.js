@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Dutch\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-04-27 08:44\nLanguage: nl_NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-04-27 08:42+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: nl\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Dutch\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-03 12:33\nLanguage: nl_NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-03 12:16+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: nl\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -995,6 +995,34 @@
          null,
          "Zimbabwe"
       ],
+      "Russian Rubles": [
+         null,
+         "Russische Roebels"
+      ],
+      "Indian Rupee": [
+         null,
+         ""
+      ],
+      "Brazilian Reals": [
+         null,
+         ""
+      ],
+      "Japanese Yen": [
+         null,
+         ""
+      ],
+      "Australian Dollars": [
+         null,
+         ""
+      ],
+      "Swiss Francs": [
+         null,
+         "Zwitserse Franken"
+      ],
+      "Euros": [
+         null,
+         "Euro"
+      ],
       "US Dollars": [
          null,
          "Amerikaanse dollars"
@@ -1179,6 +1207,26 @@
          null,
          "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MAANDEN</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>GRATIS"
       ],
+      "Your IP:": [
+         null,
+         "Uw IP:"
+      ],
+      "Your Location:": [
+         null,
+         "Uw locatie:"
+      ],
+      "Your ISP:": [
+         null,
+         "Uw ISP:"
+      ],
+      "Your Status:": [
+         null,
+         "Uw status:"
+      ],
+      "You are not protected": [
+         null,
+         "U bent niet beschermd"
+      ],
       "Connect to servers from all over the world": [
          null,
          "Maak verbinding met servers van over de hele wereld"
@@ -1258,26 +1306,6 @@
       "For a Limited Time Only": [
          null,
          "Slechts beperkt geldig"
-      ],
-      "Your IP:": [
-         null,
-         "Uw IP:"
-      ],
-      "Your Location:": [
-         null,
-         "Uw locatie:"
-      ],
-      "Your ISP:": [
-         null,
-         "Uw ISP:"
-      ],
-      "Your Status:": [
-         null,
-         "Uw status:"
-      ],
-      "You are not protected": [
-         null,
-         "U bent niet beschermd"
       ],
       "OOPS!": [
          null,
@@ -1426,6 +1454,22 @@
       " Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online.": [
          null,
          "Private Internet Access gelooft in een open internet en doet er alles aan om alle blokkades voor onze VPN-gebruikers weg te nemen. Gebruik onze service vandaag nog en ontdek waarom Private Internet Access de beste VPN is voor online streaming."
+      ],
+      "Save <b>%s%</b><br><span class=\"lines\">& get <b>%s extra months <span>free</span></b></span>": [
+         null,
+         "Bespaar <b>%s%</b><br><span class=\"lines\">& krijg <b>%s extra maanden <span>gratis</span></b></span>"
+      ],
+      "Save <b>%s%</b> & get<br><b class=\"lines\">%s extra months</b><br><span>free</span>": [
+         null,
+         "Bespaar <b>%s%</b> & krijg<br><b class=\"lines\">%s extra maanden</b><br><span>gratis</span>"
+      ],
+      "Save <b>%s%</b><br>& get<br><b class=\"lines\">%s extra months</b><br><span>free</span>": [
+         null,
+         "Bespaar <b>%s%</b><br>& krijg<br><b class=\"lines\">%s extra maanden</b><br><span>gratis</span>"
+      ],
+      "for only <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /month": [
+         null,
+         "voor slechts <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /maand"
       ],
       "The VPN recommended by<br><b>%s</b>": [
          null,

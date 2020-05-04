@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: French\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-04-27 08:44\n"
+"PO-Revision-Date: 2020-05-03 12:33\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-04-27 08:42+0000\n"
+"POT-Creation-Date: 2020-05-03 12:16+0000\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: fr\n"
@@ -1007,6 +1007,37 @@ msgstr "en Zambie"
 msgid "Zimbabwe"
 msgstr "au Zimbabwe"
 
+#: /home/guy/kape/Privateland/app/modules/mws.js:354
+msgid "Russian Rubles"
+msgstr "Roubles Russes"
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:361
+msgid "Indian Rupee"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:368
+msgid "Brazilian Reals"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:380
+msgid "Japanese Yen"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:387
+msgid "Australian Dollars"
+msgstr ""
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:393
+msgid "Swiss Francs"
+msgstr "Franc Suisse"
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:399
+#: /home/guy/kape/Privateland/app/modules/mws.js:418
+msgid "Euros"
+msgstr "Euros"
+
+#: /home/guy/kape/Privateland/app/modules/mws.js:405
+#: /home/guy/kape/Privateland/app/modules/mws.js:425
 #: /home/guy/kape/Privateland/app/modules/mws.js:433
 msgid "US Dollars"
 msgstr "Dollars américains"
@@ -1211,6 +1242,31 @@ msgstr "GRATUITS"
 msgid "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>EXTRA MONTHS</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'>FREE"
 msgstr "2</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 42.4821 73.5978)' font-size='83px'>+</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 46.0271 120.4594)' font-size='17px'>MOIS EXTRA</text><text transform='matrix(0.9722 0.2341 -0.2341 0.9722 39.0927 169.5558)' font-size='53px'> GRATUITS"
 
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:5
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:4
+msgid "Your IP:"
+msgstr "Votre IP :"
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:9
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:8
+msgid "Your Location:"
+msgstr "Votre Emplacement :"
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:13
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:12
+msgid "Your ISP:"
+msgstr "Votre FAI :"
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:17
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:16
+msgid "Your Status:"
+msgstr "Votre Statut :"
+
+#: /home/guy/kape/Privateland/views/partials/expose_bar_lang.ejs:19
+#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:18
+msgid "You are not protected"
+msgstr "Vous n'êtes pas protégé"
+
 #: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:24
 msgid "Connect to servers from all over the world"
 msgstr "Connectez-vous à des serveurs dans le monde entier"
@@ -1297,6 +1353,8 @@ msgstr "Avec Private Internet Access, vous serez en mesure de bloquer les pubs, 
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:34
 #: /home/guy/kape/Privateland/views/partials/experience.ejs:128
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:19
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:23
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:58
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:24
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:61
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:65
@@ -1316,26 +1374,6 @@ msgstr "Obtenez Private Internet Access VPN"
 #: /home/guy/kape/Privateland/views/partials/price_block.ejs:4
 msgid "For a Limited Time Only"
 msgstr "Pour une durée limitée seulement"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:4
-msgid "Your IP:"
-msgstr "Votre IP :"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:8
-msgid "Your Location:"
-msgstr "Votre Emplacement :"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:12
-msgid "Your ISP:"
-msgstr "Votre FAI :"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:16
-msgid "Your Status:"
-msgstr "Votre Statut :"
-
-#: /home/guy/kape/Privateland/views/partials/expose_bar.ejs:18
-msgid "You are not protected"
-msgstr "Vous n'êtes pas protégé"
 
 #: /home/guy/kape/Privateland/views/errors/404.ejs:18
 msgid "OOPS!"
@@ -1358,6 +1396,7 @@ msgid "Unblock restricted content libraries easily<br> with Private Internet Acc
 msgstr "Débloquez les catalogues de contenus restreints en toute facilité<br>avec Private Internet Access"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:25
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:27
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:32
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:28
 #: /home/guy/kape/Privateland/views/pages/best-vpn.ejs:41
@@ -1370,6 +1409,7 @@ msgid "Try it risk free! <i class='fas fa-award'></i><span class='text-uppercase
 msgstr "Testez-le sans risque ! <i class='fas fa-award'></i><span class='text-uppercase'> remboursement garanti %s jours</span>"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:66
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:54
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:77
 #: /home/guy/kape/Privateland/views/pages/trusted-vpn.ejs:56
 #: /home/guy/kape/Privateland/views/pages/online-privacy.ejs:60
@@ -1539,6 +1579,22 @@ msgstr "Private Internet Access est-il susceptible d'être bloqué sur mes plate
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:253
 msgid " Private Internet Access believes in an open internet and is always working to make sure that no blocks exist for our VPN users. Use our service today to see why Private Internet Access is the best VPN for streaming online."
 msgstr " Private Internet Access croit en l'Internet ouvert et tente de toujours s'assurer que nos utilisateurs VPN ne rencontrent aucun obstacle. Optez pour notre service aujourd'hui et découvrez en quoi Private Internet Access est le meilleur VPN pour votre Streaming en ligne."
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:15
+msgid "Save <b>%s%</b><br><span class=\"lines\">& get <b>%s extra months <span>free</span></b></span>"
+msgstr "Économisez <b>%s %</b><br><span class=\"lines\">et bénéficiez de <b>%s mois extra<span> gratuits </span></b></span>"
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:16
+msgid "Save <b>%s%</b> & get<br><b class=\"lines\">%s extra months</b><br><span>free</span>"
+msgstr "Économisez <b>%s %</b> et bénéficiez de<br><b class=\"lines\">%s mois extra</b><br><span>gratuits</span>"
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:17
+msgid "Save <b>%s%</b><br>& get<br><b class=\"lines\">%s extra months</b><br><span>free</span>"
+msgstr "Économisez <b>%s %</b><br>et bénéficiez de<br><b class=\"lines\">%s mois extra</b><br><span>gratuits</span>"
+
+#: /home/guy/kape/Privateland/views/pages/sale.ejs:20
+msgid "for only <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /month"
+msgstr "pour seulement <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /mois"
 
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:15
 msgid "The VPN recommended by<br><b>%s</b>"

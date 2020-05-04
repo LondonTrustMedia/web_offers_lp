@@ -7,22 +7,37 @@
                     "months": 1,
                     "USD": "$11.95",
                     "EUR": "11.69€",
-                    "CHF": "CHF11.69",
-                    "GBP": "£9.99"
+                    "CHF": "CHF 11.69",
+                    "GBP": "£9.99",
+                    "AUD": "AU$ 19.79",
+                    "JPY": "¥1,304",
+                    "INR": "₹ 900.76",
+                    "BRL": "R$ 63.29",
+                    "RUB": "902.99 руб"
                 },
                 {
                     "months": 12,
                     "USD": "$167.30",
                     "EUR": "163.66€",
-                    "CHF": "CHF163.66",
-                    "GBP": "£139.86"
+                    "CHF": "CHF 163.66",
+                    "GBP": "£139.86",
+                    "AUD": "AU$ 277.06",
+                    "JPY": "¥18,256",
+                    "INR": "₹ 12,611.06",
+                    "BRL": "R$ 886.06",
+                    "RUB": "12,641.86 руб"
                 },
                 {
                     "months": 6,
                     "USD": "$71.70",
                     "EUR": "70.14€",
-                    "CHF": "CHF70.14",
-                    "GBP": "£59.94"
+                    "CHF": "CHF 70.14",
+                    "GBP": "£59.94",
+                    "AUD": "AU$ 118.74",
+                    "JPY": "¥7,824",
+                    "INR": "₹ 5,404.74",
+                    "BRL": "R$ 379.74",
+                    "RUB": "5,417.94 руб"
                 }
             ]
         },
@@ -84,15 +99,45 @@
                         "discount": null
                     },
                     "CHF": {
-                        "perMonthFull": "CHF11.69",
+                        "perMonthFull": "CHF 11.69",
                         "perMonthNumber": "11.69",
-                        "total": "CHF11.69",
+                        "total": "CHF 11.69",
                         "discount": null
                     },
                     "GBP": {
                         "perMonthFull": "£9.99",
                         "perMonthNumber": "9.99",
                         "total": "£9.99",
+                        "discount": null
+                    },
+                    "AUD": {
+                        "perMonthFull": "AU$ 19.79",
+                        "perMonthNumber": "19.79",
+                        "total": "AU$ 19.79",
+                        "discount": null
+                    },
+                    "JPY": {
+                        "perMonthFull": "¥1,304",
+                        "perMonthNumber": "1,304",
+                        "total": "¥1,304",
+                        "discount": null
+                    },
+                    "INR": {
+                        "perMonthFull": "₹ 900.76",
+                        "perMonthNumber": "900.76",
+                        "total": "₹ 900.76",
+                        "discount": null
+                    },
+                    "BRL": {
+                        "perMonthFull": "R$ 63.29",
+                        "perMonthNumber": "63.29",
+                        "total": "R$ 63.29",
+                        "discount": null
+                    },
+                    "RUB": {
+                        "perMonthFull": "902.99 руб",
+                        "perMonthNumber": "902.99",
+                        "total": "902.99 руб",
                         "discount": null
                     }
                 },
@@ -113,16 +158,46 @@
                         "discount": 77
                     },
                     "CHF": {
-                        "perMonthFull": "CHF2.81",
+                        "perMonthFull": "CHF 2.81",
                         "perMonthNumber": "2.81",
-                        "total": "CHF39.29",
+                        "total": "CHF 39.29",
                         "discount": 76
                     },
                     "GBP": {
                         "perMonthFull": "£2.32",
                         "perMonthNumber": "2.32",
                         "total": "£32.49",
-                        "discount": 77
+                        "discount": 76
+                    },
+                    "AUD": {
+                        "perMonthFull": "AU$ 4.64",
+                        "perMonthNumber": "4.64",
+                        "total": "AU$ 65.00",
+                        "discount": 76
+                    },
+                    "JPY": {
+                        "perMonthFull": "¥311.35",
+                        "perMonthNumber": "311.35",
+                        "total": "¥4,359",
+                        "discount": 76
+                    },
+                    "INR": {
+                        "perMonthFull": "₹ 214.99",
+                        "perMonthNumber": "214.99",
+                        "total": "₹ 3,009.93",
+                        "discount": 76
+                    },
+                    "BRL": {
+                        "perMonthFull": "R$ 15.08",
+                        "perMonthNumber": "15.08",
+                        "total": "R$ 211.19",
+                        "discount": 76
+                    },
+                    "RUB": {
+                        "perMonthFull": "215.35 руб",
+                        "perMonthNumber": "215.35",
+                        "total": "3,015.00 руб",
+                        "discount": 76
                     }
                 },
                 {
@@ -141,9 +216,9 @@
                         "discount": 52
                     },
                     "CHF": {
-                        "perMonthFull": "CHF5.87",
+                        "perMonthFull": "CHF 5.87",
                         "perMonthNumber": "5.87",
-                        "total": "CHF35.19",
+                        "total": "CHF 35.19",
                         "discount": 50
                     },
                     "GBP": {
@@ -151,6 +226,36 @@
                         "perMonthNumber": "4.87",
                         "total": "£29.19",
                         "discount": 51
+                    },
+                    "AUD": {
+                        "perMonthFull": "AU$ 9.83",
+                        "perMonthNumber": "9.83",
+                        "total": "AU$ 58.99",
+                        "discount": 50
+                    },
+                    "JPY": {
+                        "perMonthFull": "¥653.83",
+                        "perMonthNumber": "653.83",
+                        "total": "¥3,923",
+                        "discount": 50
+                    },
+                    "INR": {
+                        "perMonthFull": "₹ 346.63",
+                        "perMonthNumber": "346.63",
+                        "total": "₹ 2,079.83",
+                        "discount": 50
+                    },
+                    "BRL": {
+                        "perMonthFull": "R$ 31.83",
+                        "perMonthNumber": "31.83",
+                        "total": "R$ 191.00",
+                        "discount": 50
+                    },
+                    "RUB": {
+                        "perMonthFull": "452.41 руб",
+                        "perMonthNumber": "452.41",
+                        "total": "2,714.5 руб",
+                        "discount": 50
                     }
                 }
             ]

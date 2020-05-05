@@ -72,7 +72,7 @@
     $(window).ready(function() {
         const language = '<%- lang %>';
         if (language !== 'eng') {
-            const langText = $('#hexpose_bar #language .languages_list a#' + language + ' span').text()
+            const langText = $('#expose_bar #language .languages_list a#' + language + ' span').text()
             $('#expose_bar #language .language-content a span').text(langText);
         }
     });

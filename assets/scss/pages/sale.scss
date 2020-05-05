@@ -35,42 +35,72 @@ header {
   z-index: 1;
   color: #fff;
   overflow: hidden;
-  html[lang="rus"] & {
-    min-height: 725px;
-  }
+  html[lang="dan"] &,
+  html[lang="nld"] &,
+  html[lang="nor"] &,
+  html[lang="rus"] &,
   html[lang="spa"] & {
-    min-height: 745px;
+    min-height: 740px;
+    background-size: 1920px 740px;
+  }
+  html[lang="ita"] & {
+    min-height: 755px;
   }
   @media screen and (max-width: $brk-desktop-width) {
     background-size: 1200px 750px;
     min-height: 685px;
-    html[lang="rus"] & {
-      min-height: 665px;
+    html[lang="deu"] &,
+    html[lang="fra"] & {
+      min-height: 705px;
     }
+    html[lang="dan"] &,
+    html[lang="nld"] &,
+    html[lang="nor"] &,
     html[lang="spa"] & {
-      min-height: 660px;
+      background-size: 1200px 750px;
+    }
+    html[lang="ita"] & {
+      min-height: 685px;
+    }
+    html[lang="rus"] & {
+      min-height: 670px;
+      background-size: 1200px 750px;
     }
   }
   @media screen and (max-width: $brk-min-desktop-width) {
     background-image: url(img/PriceSale_top_bg_tablet.jpg);
     background-size: 991px 768px;
     min-height: 768px;
-    html[lang="rus"] & {
-      min-height: 690px;
+    html[lang="deu"] &,
+    html[lang="fra"] & {
+      min-height: 620px;
     }
+    html[lang="dan"] &,
+    html[lang="nld"] &,
+    html[lang="nor"] &,
+    html[lang="rus"] &,
     html[lang="spa"] & {
-      min-height: 715px;
+      background-size: 991px 768px;
+    }
+    html[lang="por"] & {
+      min-height: 710px;
     }
   }
   @media screen and (max-width: $brk-ipad-width - 1) {
     background-image: url(img/PriceSale_top_bg_mobile.jpg);
     background-size: cover;
-    min-height: 600px;
-    html[lang="deu"] &,html[lang="fra"] & {
+    min-height: 540px;
+    html[lang="deu"] &,
+    html[lang="fra"] &,
+    html[lang="dan"] &,
+    html[lang="nld"] &,
+    html[lang="nor"] &,
+    html[lang="ita"] &,
+    html[lang="por"] &,
+    html[lang="rus"] &,
+    html[lang="spa"] & {
+      background-size: cover;
       min-height: 540px;
-    }
-    html[lang="rus"] & ,html[lang="spa"] &{
-      min-height: 600px;
     }
   }
   & #brand {
@@ -102,59 +132,71 @@ header {
     & h1 {
       font-size: 5rem;
       font-weight: 400;
-      html[lang="ita"] &,html[lang="rus"] & {
-        font-size: 4.8rem;
+      html[lang="deu"] &,
+      html[lang="fra"] &,
+      html[lang="rus"] & {
+        font-size: 3.725rem;
       }
-      html[lang="nld"] &,html[lang="spa"] & {
+      html[lang="dan"] &,
+      html[lang="nld"] &,
+      html[lang="nor"] &,
+      html[lang="spa"] & {
         font-size: 4.35rem;
       }
+      html[lang="ita"] & {
+        font-size: 4.8rem;
+      }
       html[lang="por"] & {
-        font-size: 3.284rem;
+        font-size: 3.3rem;
       }
       @media screen and (max-width: $brk-desktop-width) {
         font-size: 4rem;
-        html[lang="ita"] & { 
+        html[lang="deu"] &,
+        html[lang="fra"] &,
+        html[lang="rus"] & {
+          font-size: 3.15rem;
+        }
+        html[lang="dan"] &,
+        html[lang="nld"] &,
+        html[lang="nor"] &,
+        html[lang="spa"] & {
+          font-size: 3.8rem;
+        }
+        html[lang="ita"] & {
           font-size: 4rem;
-        }
-        html[lang="nld"] & {
-          font-size: 3.65rem;
-        }
-        html[lang="por"] & {
-          font-size: 2.75rem;
-        }
-        html[lang="rus"] &,html[lang="spa"] & {
-          font-size: 3.3rem;
         }
       }
       @media screen and (max-width: $brk-min-desktop-width) {
         font-size: 4.875rem;
-        html[lang="deu"] &,html[lang="fra"] & {
-          font-size: 4rem;
-        }
-        html[lang="ita"] & { 
-          font-size: 4.185rem;
-        }
-        html[lang="nld"] &,html[lang="spa"] & {
-          font-size: 4.8rem;
-        }
-        html[lang="por"] & {
-          font-size: 3.7rem;
-        }
+        html[lang="deu"] &,
+        html[lang="fra"] &,
         html[lang="rus"] & {
-          font-size: 3.2rem;
+          font-size: 3.725rem;
+        }
+        html[lang="dan"] &,
+        html[lang="nld"] &,
+        html[lang="nor"] &,
+        html[lang="spa"] & {
+          font-size: 4.35rem;
         }
       }
       @media screen and (max-width: $brk-ipad-width - 1) {
         line-height: 1;
         font-size: 2.875rem;
-        html[lang="deu"] &,html[lang="fra"] & {
+        html[lang="deu"] &,
+        html[lang="fra"] &,
+        html[lang="dan"] &,
+        html[lang="nld"] &,
+        html[lang="nor"] &,
+        html[lang="rus"] &,
+        html[lang="spa"] & {
           font-size: 2.35rem;
         }
-        html[lang="ita"] &, html[lang="nld"] &,html[lang="rus"] &,html[lang="spa"] & {
+        html[lang="ita"] & {
           font-size: 2.875rem;
         }
         html[lang="por"] & {
-          font-size: 2rem;
+          font-size: 2.15rem;
         }
       }
       & > b {
@@ -162,9 +204,10 @@ header {
         font-weight: 900;
         margin-bottom: 0.5rem;
         display: inline-block;
-       
+
         @media screen and (max-width: $brk-min-desktop-width) {
-          html[lang="deu"] & {
+          html[lang="deu"] &,
+          html[lang="fra"] & {
             margin-bottom: 0;
           }
         }
@@ -173,22 +216,11 @@ header {
         }
       }
       & .lines {
-        html[lang="deu"] &,html[lang="fra"] & {
-          font-size: .7em;
-          line-height: 1.9;
-        }
-        html[lang="dan"] & {
-          font-size: .85em;
-        }
         @media screen and (max-width: $brk-min-desktop-width) {
           text-transform: uppercase;
         }
         @media screen and (max-width: $brk-ipad-width - 1) {
           line-height: 0.9;
-          html[lang="deu"] &,html[lang="fra"] &  {
-            font-size: 1em;
-          line-height: 1;
-          }
         }
         &::after,
         &::before {
@@ -222,6 +254,7 @@ header {
           text-transform: uppercase;
           color: $pia-light-orange;
           font-weight: 900;
+          line-height: 1;
           & span {
             color: #fff;
           }
@@ -236,7 +269,7 @@ header {
         @media screen and (max-width: $brk-ipad-width - 1) {
           font-size: 1rem;
           html[lang="deu"] & {
-            font-size: .8rem;
+            font-size: 0.8rem;
           }
         }
         & span {
@@ -297,6 +330,10 @@ header {
     }
     & .risk {
       margin-bottom: 2rem;
+      max-width: 420px;
+      // html[lang="por"] & {
+      //   margin-bottom: 4rem;
+      // }
     }
   }
   & .btn_wave {

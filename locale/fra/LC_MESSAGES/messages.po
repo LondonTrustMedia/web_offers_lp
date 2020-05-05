@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: French\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-03 12:33\n"
+"PO-Revision-Date: 2020-05-05 08:23\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1594,7 +1594,7 @@ msgstr "Économisez <b>%s %</b><br>et bénéficiez de<br><b class=\"lines\">%s m
 
 #: /home/guy/kape/Privateland/views/pages/sale.ejs:20
 msgid "for only <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /month"
-msgstr "pour seulement <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /mois"
+msgstr "pour<br>seulement <b class=\"mx-md-3 mx-2\"><span>%s</span><span>%s</span></b> /mois"
 
 #: /home/guy/kape/Privateland/views/pages/youtube.ejs:15
 msgid "The VPN recommended by<br><b>%s</b>"

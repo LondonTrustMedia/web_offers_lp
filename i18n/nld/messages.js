@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Dutch\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-05 08:23\nLanguage: nl_NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-03 12:16+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: nl\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Dutch\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-07 13:07\nLanguage: nl_NL\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-07 11:08+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: nl\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1155,9 +1155,9 @@
          null,
          "Veilige VPN-protocollen"
       ],
-      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
+      "Our app is powered by the latest and most advanced protocols like: Wireguard, PPTP, OpenVPN and L2TP/IPSec.": [
          null,
-         "Onze app wordt aangedreven door de nieuwste en meest geavanceerde protocollen, zoals PPTP, OpenVPN en L2TP/IPSec."
+         "Onze app wordt aangedreven door de nieuwste en meest geavanceerde protocollen, zoals Wireguard, PPTP, OpenVPN en L2TP/IPSec."
       ],
       "%s devices simultaneously": [
          null,
@@ -1226,6 +1226,10 @@
       "You are not protected": [
          null,
          "U bent niet beschermd"
+      ],
+      "<p><b class='text-uppercase'>\"Private Internet Access</b></p><p>out-performs and out-features the competition\"</p>": [
+         null,
+         ""
       ],
       "Connect to servers from all over the world": [
          null,
@@ -1379,9 +1383,9 @@
          null,
          "Streamen op meerdere apparaten"
       ],
-      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
+      "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
          null,
-         "U kunt 1 abonnement op Private Internet Access tegelijkertijd gebruiken op maximaal %s apparaten. Deel Private Internet Access met het hele gezin!"
+         ""
       ],
       "Four easy steps to stream with Private Internet Access": [
          null,
@@ -1427,9 +1431,9 @@
          null,
          "Hebben jullie een restitutiebeleid?"
       ],
-      "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
+      "Private Internet Access has a no questions asked %s day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,
-         "Private Internet Access biedt 7 dagen onvoorwaardelijke geld-teruggarantie. Abonneer u vandaag nog op Private Internet Access en begin direct met streamen!"
+         "Private Internet Access biedt %s dagen onvoorwaardelijke geld-teruggarantie. Abonneer u vandaag nog op Private Internet Access en begin direct met streamen!"
       ],
       "Will my IP address be exposed to streaming services or websites?": [
          null,
@@ -1727,9 +1731,9 @@
          null,
          "Gebruik Kodi TV op meerdere apparaten"
       ],
-      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
+      "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
          null,
-         "U kunt 1 abonnement op Private Internet Access tegelijkertijd gebruiken op maximaal %s apparaten. Deel Private Internet Access met het hele gezin!"
+         ""
       ],
       "Watch Kodi anonymously in 4 easy steps": [
          null,

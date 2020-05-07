@@ -10,6 +10,11 @@ footer {
         @media screen and (max-width: $brk-ipad-width - 1) {
             margin-bottom: 0;
         }
+        & h2 {
+            @media screen and (max-width: $brk-mobile-width) {
+                display: block;
+            }
+        }
     }
     & .corners {
         background-image: url(img/even_corners.svg);

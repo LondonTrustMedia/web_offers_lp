@@ -34,6 +34,10 @@
         vertical-align: middle;
         @media screen and (max-width: $brk-ipad-width) {
             max-width: 60px;
+            &.ip {
+                max-width: unset;
+                overflow: visible;
+            }
         }
     }
     & .status {

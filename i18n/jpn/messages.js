@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-03 12:33\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-03 12:16+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-07 13:08\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-07 11:08+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1155,9 +1155,9 @@
          null,
          "安全なVPNプロトコル"
       ],
-      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
+      "Our app is powered by the latest and most advanced protocols like: Wireguard, PPTP, OpenVPN and L2TP/IPSec.": [
          null,
-         "弊社のアプリは、PPTP、OpenVPN、L2TP/IPSecなど、最新かつ最も高度なプロトコルが原動力になっています。"
+         "弊社のアプリは、Wireguard、PPTP、OpenVPN、L2TP/IPSecなど、最新かつ最も高度なプロトコルが原動力になっています。"
       ],
       "%s devices simultaneously": [
          null,
@@ -1226,6 +1226,10 @@
       "You are not protected": [
          null,
          "保護されていません"
+      ],
+      "<p><b class='text-uppercase'>\"Private Internet Access</b></p><p>out-performs and out-features the competition\"</p>": [
+         null,
+         ""
       ],
       "Connect to servers from all over the world": [
          null,
@@ -1379,9 +1383,9 @@
          null,
          "複数のデバイスでストリーミング"
       ],
-      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
+      "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
          null,
-         "Private Internet Accessは、1つの契約で、最大%s台のデバイスで同時に使用できます。ご家族全員でPrivate Internet Accessをご利用ください！"
+         ""
       ],
       "Four easy steps to stream with Private Internet Access": [
          null,
@@ -1427,9 +1431,9 @@
          null,
          "返金ポリシーはありますか。"
       ],
-      "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
+      "Private Internet Access has a no questions asked %s day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,
-         "Private Internet Accessには、一切不問の7日間返金保証があります。今すぐPrivate Internet Accessに契約してストリーミングを始めてください！"
+         "Private Internet Accessには、一切不問の%s日間返金保証があります。今すぐPrivate Internet Accessに契約してストリーミングを始めてください！"
       ],
       "Will my IP address be exposed to streaming services or websites?": [
          null,
@@ -1727,9 +1731,9 @@
          null,
          "複数のデバイスでKodi TVを使用"
       ],
-      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
+      "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
          null,
-         "Private Internet Accessは、1つの契約で、最大%s台のデバイスで同時に使用できます。ご家族全員でPrivate Internet Accessをご利用ください！"
+         ""
       ],
       "Watch Kodi anonymously in 4 easy steps": [
          null,

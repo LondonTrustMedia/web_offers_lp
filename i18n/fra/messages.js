@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-05 08:23\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-03 12:16+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-07 13:07\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-07 11:08+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1155,9 +1155,9 @@
          null,
          "Protocoles VPN sécurisés"
       ],
-      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
+      "Our app is powered by the latest and most advanced protocols like: Wireguard, PPTP, OpenVPN and L2TP/IPSec.": [
          null,
-         "Notre application est dotée des protocoles les plus récents et avancés sur le marché, tels que : PPTP, OpenVPN et L2TP / IPSec."
+         "Notre application est dotée des protocoles les plus récents et avancés sur le marché, tels que :  Wireguard, PPTP, OpenVPN et L2TP / IPSec."
       ],
       "%s devices simultaneously": [
          null,
@@ -1226,6 +1226,10 @@
       "You are not protected": [
          null,
          "Vous n'êtes pas protégé"
+      ],
+      "<p><b class='text-uppercase'>\"Private Internet Access</b></p><p>out-performs and out-features the competition\"</p>": [
+         null,
+         ""
       ],
       "Connect to servers from all over the world": [
          null,
@@ -1379,9 +1383,9 @@
          null,
          "Streamez sur une multitude d'appareils"
       ],
-      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
+      "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
          null,
-         "1 abonnement Private Internet Access offre la possibilité d'utiliser jusqu'à %s appareils en simultané. Partagez Private Internet Access avec l'ensemble de votre famille !"
+         ""
       ],
       "Four easy steps to stream with Private Internet Access": [
          null,
@@ -1427,9 +1431,9 @@
          null,
          "Disposez-vous d'une politique de remboursement en vigueur ?"
       ],
-      "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
+      "Private Internet Access has a no questions asked %s day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,
-         "Private Internet Access offre une garantie de remboursement 7 jours sans aucune justification requise. Souscrivez un abonnement Private Internet Access dès aujourd'hui et Streamez sans plus tarder !"
+         "Private Internet Access offre une garantie de remboursement %s jours, sans la moindre justification requise. Souscrivez un abonnement Private Internet Access et Streamez en illimité, sans plus tarder !"
       ],
       "Will my IP address be exposed to streaming services or websites?": [
          null,
@@ -1727,9 +1731,9 @@
          null,
          "Utilisez Kodi TV sur une multitude d'appareils"
       ],
-      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
+      "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
          null,
-         "1 abonnement Private Internet Access offre la possibilité d'utiliser jusqu'à %s appareils en simultané. Partagez Private Internet Access avec l'ensemble de votre famille !"
+         ""
       ],
       "Watch Kodi anonymously in 4 easy steps": [
          null,

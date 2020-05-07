@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: German\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-03 12:33\nLanguage: de_DE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-03 12:16+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: de\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: German\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-07 13:08\nLanguage: de_DE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-07 11:08+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: de\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1155,9 +1155,9 @@
          null,
          "Sichere VPN-Protokolle"
       ],
-      "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec.": [
+      "Our app is powered by the latest and most advanced protocols like: Wireguard, PPTP, OpenVPN and L2TP/IPSec.": [
          null,
-         "Unsere App unterstützt die neuesten und fortschrittlichsten Protokolle wie: PPTP, OpenVPN und L2TP/IPSec."
+         "Unsere App unterstützt die neuesten und fortschrittlichsten Protokolle wie:  Wireguard, PPTP, OpenVPN und L2TP/IPSec."
       ],
       "%s devices simultaneously": [
          null,
@@ -1226,6 +1226,10 @@
       "You are not protected": [
          null,
          "Sie sind ungeschützt"
+      ],
+      "<p><b class='text-uppercase'>\"Private Internet Access</b></p><p>out-performs and out-features the competition\"</p>": [
+         null,
+         ""
       ],
       "Connect to servers from all over the world": [
          null,
@@ -1379,7 +1383,7 @@
          null,
          "Streamen Sie auf mehreren Geräten"
       ],
-      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
+      "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!": [
          null,
          "Ein einziges Abo von Private Internet Access ist auf bis zu %s Geräten gleichzeitig nutzbar. Teilen Sie Private Internet Access mit Ihrer ganzen Familie!"
       ],
@@ -1427,9 +1431,9 @@
          null,
          "Habt ihr eine Rückerstattungs-Richtlinie?"
       ],
-      "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
+      "Private Internet Access has a no questions asked %s day money back guarantee. Subscribe to Private Internet Access today to start streaming now!": [
          null,
-         "Private Internet Access bietet eine 7-tägige Geld-zurück-Garantie, bei der keinen Fragen gestellt werden. Melden Sie sich noch heute bei Private Internet Access an und legen Sie direkt mit dem Streaming los!"
+         "Private Internet Access bietet eine %s-tägige Geld-zurück-Garantie, bei der keinen Fragen gestellt werden. Melden Sie sich noch heute bei Private Internet Access an und legen Sie direkt mit dem Streaming los!"
       ],
       "Will my IP address be exposed to streaming services or websites?": [
          null,
@@ -1727,7 +1731,7 @@
          null,
          "Nutzen Sie Kodi TV auf mehreren Geräten"
       ],
-      "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
+      "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!": [
          null,
          "Ein einziges Abo von Private Internet Access ist auf bis zu %s Geräten gleichzeitig nutzbar. Teilen Sie Private Internet Access mit Ihrer ganzen Familie!"
       ],

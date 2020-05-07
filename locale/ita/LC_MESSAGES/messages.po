@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: Italian\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-03 12:33\n"
+"PO-Revision-Date: 2020-05-07 13:08\n"
 "Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-05-03 12:16+0000\n"
+"POT-Creation-Date: 2020-05-07 11:08+0000\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: it\n"
@@ -1188,8 +1188,8 @@ msgstr "Protocolli sicuri della VPN"
 
 #: /home/guy/kape/Privateland/views/partials/why_pia.ejs:24
 #: /home/guy/kape/Privateland/views/partials/why_pia.ejs:110
-msgid "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec."
-msgstr "La nostra app include i protocolli più recenti e avanzati come: PPTP, OpenVPN e L2TP/IPSec."
+msgid "Our app is powered by the latest and most advanced protocols like: Wireguard, PPTP, OpenVPN and L2TP/IPSec."
+msgstr "La nostra app include i protocolli più recenti e avanzati come: Wireguard, PPTP, OpenVPN e L2TP/IPSec."
 
 #: /home/guy/kape/Privateland/views/partials/why_pia.ejs:30
 #: /home/guy/kape/Privateland/views/partials/why_pia.ejs:121
@@ -1267,15 +1267,19 @@ msgstr "Il tuo stato:"
 msgid "You are not protected"
 msgstr "Non sei protetto"
 
-#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:24
+#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:9
+msgid "<p><b class='text-uppercase'>\"Private Internet Access</b></p><p>out-performs and out-features the competition\"</p>"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:22
 msgid "Connect to servers from all over the world"
 msgstr "Connettiti a server di tutto il mondo"
 
-#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:31
+#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:29
 msgid "Servers"
 msgstr "Server"
 
-#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:35
+#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:33
 msgid "Countries"
 msgstr "Paesi"
 
@@ -1483,7 +1487,7 @@ msgstr "Guarda in streaming su più dispositivi"
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:115
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:183
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:184
-msgid "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!"
+msgid "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!"
 msgstr "Un abbonamento a Private Internet Access può essere utilizzato su un massimo di %s dispositivi contemporaneamente. Condividi Private Internet Access con tutta la famiglia!"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:200
@@ -1549,8 +1553,8 @@ msgid "Do you have a refund policy?"
 msgstr "Avete una politica di rimborso?"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:241
-msgid "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
-msgstr "Con Private Internet Access hai una garanzia di rimborso di 7 giorni, e non sei tenuto a dare spiegazioni. Abbonati a Private Internet Access oggi stesso e inizia subito con lo streaming!"
+msgid "Private Internet Access has a no questions asked %s day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
+msgstr "Con Private Internet Access hai una garanzia di rimborso di %s giorni, e non sei tenuto a dare spiegazioni. Abbonati a Private Internet Access oggi stesso e inizia subito con lo streaming!"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:244
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:245
@@ -1878,7 +1882,7 @@ msgstr "Usa Kodi TV su più dispositivi"
 
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:110
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:200
-msgid "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!"
+msgid "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!"
 msgstr "Un abbonamento a Private Internet Access può essere utilizzato su un massimo di %s dispositivi contemporaneamente. Condividi Private Internet Access con tutta la famiglia!"
 
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:218

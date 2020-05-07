@@ -145,6 +145,9 @@ $strokeFill: 534;
           animation: unset!important;
           -webkit-animation: unset!important;
         }
+        @include firefox-only {
+          transform-origin: 0 0;
+        }
       }
       & .shadow_circle {
         fill: transparent;

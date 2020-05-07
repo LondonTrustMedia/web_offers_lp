@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: Japanese\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-03 12:33\n"
+"PO-Revision-Date: 2020-05-07 13:08\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-05-03 12:16+0000\n"
+"POT-Creation-Date: 2020-05-07 11:08+0000\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: ja\n"
@@ -1188,8 +1188,8 @@ msgstr "安全なVPNプロトコル"
 
 #: /home/guy/kape/Privateland/views/partials/why_pia.ejs:24
 #: /home/guy/kape/Privateland/views/partials/why_pia.ejs:110
-msgid "Our app is powered by the latest and most advanced protocols like: PPTP, OpenVPN and L2TP/IPSec."
-msgstr "弊社のアプリは、PPTP、OpenVPN、L2TP/IPSecなど、最新かつ最も高度なプロトコルが原動力になっています。"
+msgid "Our app is powered by the latest and most advanced protocols like: Wireguard, PPTP, OpenVPN and L2TP/IPSec."
+msgstr "弊社のアプリは、Wireguard、PPTP、OpenVPN、L2TP/IPSecなど、最新かつ最も高度なプロトコルが原動力になっています。"
 
 #: /home/guy/kape/Privateland/views/partials/why_pia.ejs:30
 #: /home/guy/kape/Privateland/views/partials/why_pia.ejs:121
@@ -1267,15 +1267,19 @@ msgstr "ステータス："
 msgid "You are not protected"
 msgstr "保護されていません"
 
-#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:24
+#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:9
+msgid "<p><b class='text-uppercase'>\"Private Internet Access</b></p><p>out-performs and out-features the competition\"</p>"
+msgstr ""
+
+#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:22
 msgid "Connect to servers from all over the world"
 msgstr "世界各地からサーバーに接続"
 
-#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:31
+#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:29
 msgid "Servers"
 msgstr "サーバー"
 
-#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:35
+#: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:33
 msgid "Countries"
 msgstr "国"
 
@@ -1483,8 +1487,8 @@ msgstr "複数のデバイスでストリーミング"
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:115
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:183
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:184
-msgid "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!"
-msgstr "Private Internet Accessは、1つの契約で、最大%s台のデバイスで同時に使用できます。ご家族全員でPrivate Internet Accessをご利用ください！"
+msgid "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your entire family!"
+msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:200
 msgid "Four easy steps to stream with Private Internet Access"
@@ -1549,8 +1553,8 @@ msgid "Do you have a refund policy?"
 msgstr "返金ポリシーはありますか。"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:241
-msgid "Private Internet Access has a no questions asked 7 day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
-msgstr "Private Internet Accessには、一切不問の7日間返金保証があります。今すぐPrivate Internet Accessに契約してストリーミングを始めてください！"
+msgid "Private Internet Access has a no questions asked %s day money back guarantee. Subscribe to Private Internet Access today to start streaming now!"
+msgstr "Private Internet Accessには、一切不問の%s日間返金保証があります。今すぐPrivate Internet Accessに契約してストリーミングを始めてください！"
 
 #: /home/guy/kape/Privateland/views/pages/streaming.ejs:244
 #: /home/guy/kape/Privateland/views/pages/firetv.ejs:245
@@ -1878,8 +1882,8 @@ msgstr "複数のデバイスでKodi TVを使用"
 
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:110
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:200
-msgid "1 Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!"
-msgstr "Private Internet Accessは、1つの契約で、最大%s台のデバイスで同時に使用できます。ご家族全員でPrivate Internet Accessをご利用ください！"
+msgid "One Private Internet Access subscription can be used on up to %s devices simultaneously. Share Private Internet Access with your whole family!"
+msgstr ""
 
 #: /home/guy/kape/Privateland/views/pages/kodi.ejs:218
 msgid "Watch Kodi anonymously in 4 easy steps"

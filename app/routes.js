@@ -18,7 +18,11 @@ module.exports = function (app) {
     
             res.render('pages/devices.ejs' , {
                 userAgent: req.userAgent,
-                device: req.os
+                device: req.os,
+                trustScore: app.liveData.Trustpilot.trustScore,
+                stars: app.liveData.Trustpilot.trustStars,
+                numberOfReviews: app.liveData.Trustpilot.trustNumberOfReviews,
+                langReviews: app.liveData.Trustpilot.trustpilotReviews[req.lang.split("_")[0]]
             });
         
     })
@@ -36,7 +40,11 @@ module.exports = function (app) {
         offersApi.impressionPixel(req)
 
         res.render('pages/best-vpn.ejs', {
-            userAgent: req.userAgent
+            userAgent: req.userAgent,
+            trustScore: app.liveData.Trustpilot.trustScore,
+            stars: app.liveData.Trustpilot.trustStars,
+            numberOfReviews: app.liveData.Trustpilot.trustNumberOfReviews,
+            langReviews: app.liveData.Trustpilot.trustpilotReviews[req.lang.split("_")[0]]
         });
 
     })
@@ -50,7 +58,11 @@ module.exports = function (app) {
         offersApi.impressionPixel(req)
 
         res.render('pages/' + req.pageName + '.ejs' , {
-            userAgent: req.userAgent
+            userAgent: req.userAgent,
+            trustScore: app.liveData.Trustpilot.trustScore,
+            stars: app.liveData.Trustpilot.trustStars,
+            numberOfReviews: app.liveData.Trustpilot.trustNumberOfReviews,
+            langReviews: app.liveData.Trustpilot.trustpilotReviews[req.lang.split("_")[0]]
         });
             
 
@@ -64,7 +76,11 @@ module.exports = function (app) {
         offersApi.impressionPixel(req)
 
         res.render('pages/' + req.pageName + '.ejs' , {
-            userAgent: req.userAgent
+            userAgent: req.userAgent,
+            trustScore: app.liveData.Trustpilot.trustScore,
+            stars: app.liveData.Trustpilot.trustStars,
+            numberOfReviews: app.liveData.Trustpilot.trustNumberOfReviews,
+            langReviews: app.liveData.Trustpilot.trustpilotReviews[req.lang.split("_")[0]]
         });
             
 

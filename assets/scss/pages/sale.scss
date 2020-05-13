@@ -49,21 +49,24 @@ header {
   @media screen and (max-width: $brk-desktop-width) {
     background-size: 1200px 750px;
     min-height: 685px;
-    html[lang="deu"] &,
-    html[lang="fra"] & {
+    html[lang="nor"] & {
       min-height: 705px;
-    }
-    html[lang="dan"] &,
-    html[lang="nld"] &,
-    html[lang="nor"] &,
-    html[lang="spa"] & {
       background-size: 1200px 750px;
     }
-    html[lang="ita"] & {
+    html[lang="ita"] &,
+    html[lang="nld"] &,
+    html[lang="spa"] &,
+    html[lang="dan"] & {
       min-height: 685px;
+      background-size: 1200px 750px;
     }
     html[lang="rus"] & {
       min-height: 670px;
+      background-size: 1200px 750px;
+    }
+    html[lang="deu"] &,
+    html[lang="fra"] & {
+      min-height: 680px;
       background-size: 1200px 750px;
     }
   }
@@ -74,6 +77,7 @@ header {
     html[lang="deu"] &,
     html[lang="fra"] & {
       min-height: 620px;
+      background-size: 991px 768px;
     }
     html[lang="dan"] &,
     html[lang="nld"] &,

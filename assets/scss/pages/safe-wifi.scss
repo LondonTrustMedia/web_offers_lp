@@ -61,6 +61,20 @@ header {
             background-position: right calc(0% + -10px) top calc(100% - 45px);
         }
     }
+    & .b2mfree {
+        html[lang=por] &,html[lang=spa] & {
+            top: -10px;
+            left: 390px;
+            @media screen and (max-width: $brk-ipad-width - 1) {
+                top: 15px;
+                left: 185px;
+            }
+            @media screen and (max-width: $brk-mobile-width) {
+                top: 0px;
+                left: 160px;
+            }
+        }
+    }
     & .btn_wave {
         @media screen and (max-width: $brk-ipad-width - 1) {
             max-width: 420px;

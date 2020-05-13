@@ -12,6 +12,7 @@ const assets = require('express-asset-versions')
 const mws = require('./app/modules/mws.js')(app)
 const offersApi = require('./app/modules/offersApi.js');
 const supportedLanguages = ['eng', 'fra', 'deu', 'dan', 'ita', 'jpn', 'nld', 'nor', 'por', 'rus', 'spa']
+const trustpilotApi = require('./app/modules/trustpilotApi.js')
 
 try {
     app.rotators = require('./app/json/rotators.json');
@@ -19,6 +20,18 @@ try {
     app.rotators = {}
 }
 
+app.liveData = {
+    Trustpilot: {
+        trustScore: 4.1,
+        trustStars: 4,
+        trustNumberOfReviews: 5813,
+        trustpilotReviews: {}
+    },
+    servers: {
+        serversCount: 3288,
+        countriesCount: 44
+    }
+}
 
 if (process.env.NODE_ENV === 'local')
     offersApi.createNewOffers()
@@ -114,4 +127,44 @@ require('./app/routes.js')(app); // load our routes and pass in our app and full
 // launch ======================================================================
 app.listen(port, '0.0.0.0', function () {
     console.log('app listening on port ' + port + '!')
+})
+
+// Get Live Data ======================================================================
+
+setInterval(() => {
+    trustpilotApi.getData((err, Score, stars, numberOfReviews) => {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        app.liveData.Trustpilot.trustScore = Score
+        app.liveData.Trustpilot.trustStars = stars
+        app.liveData.Trustpilot.trustNumberOfReviews = numberOfReviews
+    })
+
+    trustpilotApi.getReviews((err, trustReviews) => {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        app.liveData.Trustpilot.trustpilotReviews = trustReviews
+    })
+}, 1800000)
+
+trustpilotApi.getData((err, score, stars, numberOfReviews) => {
+    if (err) {
+        console.log(err);
+        return;
+    }
+    app.liveData.Trustpilot.trustScore = score
+    app.liveData.Trustpilot.trustStars = stars
+    app.liveData.Trustpilot.trustNumberOfReviews = numberOfReviews
+})
+
+trustpilotApi.getReviews((err, trustReviews) => {
+    if (err) {
+        console.log(err);
+        return;
+    }
+    app.liveData.Trustpilot.trustpilotReviews = trustReviews
 })

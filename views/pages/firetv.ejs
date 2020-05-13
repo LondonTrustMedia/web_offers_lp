@@ -2,7 +2,7 @@
 
 <head>
     <% include ../partials/head %>
-    <link rel="stylesheet" href="<%= asset('css/firetv.css') %>">
+    <link rel="stylesheet" href="<%= asset('css/pages/firetv.css') %>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 
@@ -99,7 +99,7 @@
                         <div class="mb-3 mr-3 mr-lg-0"><img src="img/pia_lockman/circle_box_pia_lockman_streaming.svg" alt="Infinity"></div>
                         <div>
                             <h6 class="my-2 text-uppercase"><%- gettext("Access content from all over the world") %></h6>
-                            <p class="mb-0"><%- format(gettext("Private Internet Access has thousands of servers in over %s countries world-wide. Connect to either one of them and discover new films, TV shows and documentaries."),[29]) %></p>
+                            <p class="mb-0"><%- format(gettext("Private Internet Access has thousands of servers in over %s countries world-wide. Connect to either one of them and discover new films, TV shows and documentaries."),[countriesCount]) %></p>
                         </div>
                     </div>
                     <div class="col-lg-4 text-lg-center text-left d-lg-block d-flex align-items-center mb-5 mb-lg-0">
@@ -137,7 +137,7 @@
                         <div id="needs1" class="collapse" 
                             aria-labelledby="heading1" data-parent="#accordion_needs">
                             <div class="card-body">
-                                <p class="mb-0 text-left"><%- format(gettext("Private Internet Access has thousands of servers in over %s countries world-wide. Connect to either one of them and discover new films, TV shows and documentaries."),[29]) %></p>
+                                <p class="mb-0 text-left"><%- format(gettext("Private Internet Access has thousands of servers in over %s countries world-wide. Connect to either one of them and discover new films, TV shows and documentaries."),[countriesCount]) %></p>
                             </div>
                         </div>
                     </div>
@@ -203,7 +203,7 @@
                                     qas:[
                                             {
                                                 'question': gettext('Is it safe to stream with Private Internet Access?'),
-                                                'answer': format(gettext('Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?'),[49,29])
+                                                'answer': format(gettext('Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. The better question is: Is it safe to stream without Private Internet Access?'),[49, countriesCount])
                                             },
                                             {
                                                 'question': gettext('Do you have a refund policy?'),

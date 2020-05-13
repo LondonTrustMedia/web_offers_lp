@@ -343,6 +343,10 @@ header {
       width: 160px;
       top: 80px;
       right: -30px;
+      html[lang=rus] & {
+        top: 70px;
+        right: -85px;
+      }
     }
     @media screen and (max-width: $brk-ipad-width - 1) {
       display: block;
@@ -352,6 +356,10 @@ header {
       right: unset;
       height: 150px;
       width: 145px;
+      html[lang=rus] & {
+        top: 0;
+        left: 0;
+      }
     }
     @media screen and (max-width: $brk-mobile-width) {
       // html[lang=deu] & {

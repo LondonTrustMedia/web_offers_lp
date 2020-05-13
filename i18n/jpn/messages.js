@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-07 13:08\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-07 11:08+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Japanese\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-13 11:06\nLanguage: ja_JP\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-13 10:52+0000\nPlural-Forms: nplurals=1; plural=0;\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ja\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1030,6 +1030,10 @@
       "Join now": [
          null,
          "今すぐ申し込む"
+      ],
+      "Great": [
+         null,
+         "ほぼ満足"
       ],
       "Based on %s reviews": [
          null,

@@ -1,7 +1,7 @@
 {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Danish\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-07 13:07\nLanguage: da_DK\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-07 11:08+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: da\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Danish\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-13 11:06\nLanguage: da_DK\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-13 10:52+0000\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: da\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1030,6 +1030,10 @@
       "Join now": [
          null,
          "Tilmeld dig nu"
+      ],
+      "Great": [
+         null,
+         "God"
       ],
       "Based on %s reviews": [
          null,

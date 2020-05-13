@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: German\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-07 13:08\n"
+"PO-Revision-Date: 2020-05-13 11:06\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-05-07 11:08+0000\n"
+"POT-Creation-Date: 2020-05-13 10:52+0000\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: pia-lps\n"
 "X-Crowdin-Language: de\n"
@@ -1048,13 +1048,15 @@ msgid "Join now"
 msgstr "Jetzt registrieren"
 
 #: /home/guy/kape/Privateland/views/partials/trustpilot/carousel.ejs:4
+msgid "Great"
+msgstr "Gut"
+
+#: /home/guy/kape/Privateland/views/partials/trustpilot/carousel.ejs:8
 msgid "Based on %s reviews"
 msgstr "Basierend auf %s Bewertungen"
 
-#: /home/guy/kape/Privateland/views/partials/trustpilot/carousel.ejs:33
-#: /home/guy/kape/Privateland/views/partials/trustpilot/carousel.ejs:55
-#: /home/guy/kape/Privateland/views/partials/trustpilot/carousel.ejs:77
-#: /home/guy/kape/Privateland/views/partials/trustpilot/carousel.ejs:99
+#: /home/guy/kape/Privateland/views/partials/trustpilot/carousel.ejs:37
+#: /home/guy/kape/Privateland/views/partials/trustpilot/carousel.ejs:60
 msgid "Read full review"
 msgstr "Mehr erfahren"
 

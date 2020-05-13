@@ -82,7 +82,6 @@ module.exports = function (app) {
         
         console.log("Page Name: " + req.pageName)
         console.log("HOST: " + req.hostname)
-        console.log(`langs[req.lang]: ${langs[req.lang]}`)
         offersApi.impressionPixel(req)
 
         res.render('pages/' + req.pageName + '.ejs' , {

@@ -29,8 +29,8 @@
                         </div>
                     <% } %>
 
-                    <% if (block.discount) { %>
-                        <h3 class="pricing-save color_pia_orange mt-3"><%- format(gettext('Save <b>%s%</b>'), [block.discount]) %>*</h3>
+                    <% if (block[currency.iso].discount) { %>
+                        <h3 class="pricing-save color_pia_orange mt-3"><%- format(gettext('Save <b>%s%</b>'), [block[currency.iso].discount]) %>*</h3>
                     <% } else { %>
                         <div class="spacer mt-3"></div>
                     <% } %>

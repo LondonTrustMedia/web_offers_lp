@@ -206,56 +206,47 @@
                     "USD": {
                         "perMonthFull": "$5.99",
                         "perMonthNumber": "5.99",
-                        "total": "$35.95",
-                        "discount": 50
+                        "total": "$35.95"
                     },
                     "EUR": {
                         "perMonthFull": "5.67€",
                         "perMonthNumber": "5.67",
-                        "total": "34.00€",
-                        "discount": 52
+                        "total": "34.00€"
                     },
                     "CHF": {
                         "perMonthFull": "CHF 5.87",
                         "perMonthNumber": "5.87",
-                        "total": "CHF 35.19",
-                        "discount": 50
+                        "total": "CHF 35.19"
                     },
                     "GBP": {
                         "perMonthFull": "£4.87",
                         "perMonthNumber": "4.87",
-                        "total": "£29.19",
-                        "discount": 51
+                        "total": "£29.19"
                     },
                     "AUD": {
                         "perMonthFull": "AU$ 9.83",
                         "perMonthNumber": "9.83",
-                        "total": "AU$ 58.99",
-                        "discount": 50
+                        "total": "AU$ 58.99"
                     },
                     "JPY": {
                         "perMonthFull": "¥653.83",
                         "perMonthNumber": "653.83",
-                        "total": "¥3,923",
-                        "discount": 50
+                        "total": "¥3,923"
                     },
                     "INR": {
                         "perMonthFull": "₹ 346.63",
                         "perMonthNumber": "346.63",
-                        "total": "₹ 2,079.83",
-                        "discount": 50
+                        "total": "₹ 2,079.83"
                     },
                     "BRL": {
                         "perMonthFull": "R$ 31.83",
                         "perMonthNumber": "31.83",
-                        "total": "R$ 191.00",
-                        "discount": 50
+                        "total": "R$ 191.00"
                     },
                     "RUB": {
                         "perMonthFull": "452.41 руб",
                         "perMonthNumber": "452.41",
-                        "total": "2,714.5 руб",
-                        "discount": 50
+                        "total": "2,714.5 руб"
                     }
                 }
             ]

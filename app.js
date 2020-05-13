@@ -28,8 +28,8 @@ app.liveData = {
         trustpilotReviews: {}
     },
     servers: {
-        serversCount: 3288,
-        countriesCount: 44
+        serversCount: 3292,
+        countriesCount: 46
     }
 }
 

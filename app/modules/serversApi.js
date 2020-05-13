@@ -19,7 +19,7 @@ const serversgApi = module.exports = {
                 callback(err || body || response)
             } else {
                 const data = JSON.parse(body.split('\n')[0])
-                console.log(data)
+                // console.log(data)
                 const serversCount = Object.keys(data).length
                 const locationsCount = Object.keys(data).length
                 const countries = []

@@ -10,6 +10,7 @@ const assets = require('express-asset-versions')
 // const autoprefixer = require('express-autoprefixer')({ browsers: 'last 4 versions', grid: true })
 
 const mws = require('./app/modules/mws.js')(app)
+const serversApi = require('./app/modules/serversApi.js')
 const offersApi = require('./app/modules/offersApi.js');
 const supportedLanguages = ['eng', 'fra', 'deu', 'dan', 'ita', 'jpn', 'nld', 'nor', 'por', 'rus', 'spa']
 const trustpilotApi = require('./app/modules/trustpilotApi.js')
@@ -29,7 +30,8 @@ app.liveData = {
     },
     servers: {
         serversCount: 3292,
-        countriesCount: 46
+        countriesCount: 46,
+        locationsCount: 68
     }
 }
 
@@ -149,6 +151,16 @@ setInterval(() => {
         }
         app.liveData.Trustpilot.trustpilotReviews = trustReviews
     })
+
+    serversApi.getLiveData((err, servers, countries, locations) => {
+        if (err) {
+            console.log(err);
+            return;
+        }
+        // app.liveData.servers.serversCount = servers
+        app.liveData.servers.countriesCount = countries
+        app.liveData.servers.locationsCount = locations
+    })
 }, 1800000)
 
 trustpilotApi.getData((err, score, stars, numberOfReviews) => {
@@ -167,4 +179,14 @@ trustpilotApi.getReviews((err, trustReviews) => {
         return;
     }
     app.liveData.Trustpilot.trustpilotReviews = trustReviews
+})
+
+serversApi.getLiveData((err, servers, countries, locations) => {
+    if (err) {
+        console.log(err);
+        return;
+    }
+    // app.liveData.servers.serversCount = servers
+    app.liveData.servers.countriesCount = countries
+    app.liveData.servers.locationsCount = locations
 })

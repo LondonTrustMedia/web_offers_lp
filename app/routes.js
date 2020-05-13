@@ -26,7 +26,8 @@ module.exports = function (app) {
                 langReviews: app.liveData.Trustpilot.trustpilotReviews[langs[req.lang]],
                 
                 serversCount: app.liveData.servers.serversCount,
-                countriesCount: app.liveData.servers.countriesCount
+                countriesCount: app.liveData.servers.countriesCount,
+                locationsCount: app.liveData.servers.locationsCount
             });
         
     })
@@ -51,7 +52,8 @@ module.exports = function (app) {
             langReviews: app.liveData.Trustpilot.trustpilotReviews[langs[req.lang]],
 
             serversCount: app.liveData.servers.serversCount,
-            countriesCount: app.liveData.servers.countriesCount
+            countriesCount: app.liveData.servers.countriesCount,
+            locationsCount: app.liveData.servers.locationsCount
         });
 
     })
@@ -72,7 +74,8 @@ module.exports = function (app) {
             langReviews: app.liveData.Trustpilot.trustpilotReviews[langs[req.lang]],
 
             serversCount: app.liveData.servers.serversCount,
-            countriesCount: app.liveData.servers.countriesCount
+            countriesCount: app.liveData.servers.countriesCount,
+            locationsCount: app.liveData.servers.locationsCount
         });
             
 
@@ -92,7 +95,8 @@ module.exports = function (app) {
             langReviews: app.liveData.Trustpilot.trustpilotReviews[langs[req.lang]],
 
             serversCount: app.liveData.servers.serversCount,
-            countriesCount: app.liveData.servers.countriesCount
+            countriesCount: app.liveData.servers.countriesCount,
+            locationsCount: app.liveData.servers.locationsCount
         });
             
 

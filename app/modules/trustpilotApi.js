@@ -110,7 +110,7 @@ function getReview(lang, callback) {
 
           reviews = reviews.filter(
             review =>
-              review.text.length < 120 &&
+              review.text.length > 120 &&
               !review.title.includes("@") &&
               review.title.length < 60
           );
@@ -119,7 +119,9 @@ function getReview(lang, callback) {
             timeDifference = Date.parse(new Date()) - Date.parse(review.createdAt);
             
 
+            // console.log(review)
             return {
+              id: review.id,
               name: review.consumer.displayName,
               title: review.title,
               text: review.text,

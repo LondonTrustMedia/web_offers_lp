@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('#loading-el').remove()
-    $('a[href]:not(.lang):not([data-slide])').click(toCheckout);
+    $('a[href]:not(.lang):not([data-slide]):not(.read-more)').click(toCheckout);
 });
 
 function toCheckout(e) {

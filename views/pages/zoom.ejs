@@ -2,7 +2,7 @@
 
 <head>
     <% include ../partials/head %>
-    <link rel="stylesheet" href="<%= asset('css/zoom.css') %>">
+    <link rel="stylesheet" href="<%= asset('css/pages/zoom.css') %>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 </head>
 
@@ -280,7 +280,7 @@
                                             },
                                             {
                                                 'question': gettext('Is it safe to use Private Internet Access?'),
-                                                'answer': format(gettext('Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. Private Internet access never records any of its users\' data. We follow a strict no-logs policy that ensures we never keep any logs of our users\' activities online.'),[49,29])
+                                                'answer': format(gettext('Yes. Private Internet Access provides a VPN service with servers in %s locations across %s countries, including the United States, United Kingdom, Japan, and more. Private Internet access never records any of its users\' data. We follow a strict no-logs policy that ensures we never keep any logs of our users\' activities online.'),[49, countriesCount])
                                             },
                                             {
                                                 'question': gettext('Will my IP address be exposed while using Zoom?'),

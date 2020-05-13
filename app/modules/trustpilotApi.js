@@ -47,7 +47,7 @@ const trustpilotApi = (module.exports = {
       "pt",
       "ru",
       "ja",
-      "dk",
+      "da",
       "no"
     ];
 

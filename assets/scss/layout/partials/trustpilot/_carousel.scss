@@ -2,9 +2,20 @@
 
 #carousel {
     & .trustpilot {
-        height: 30px;
-        @media screen and (max-width: $brk-mobile-width) {
-            height: 20px;
+        & p {
+            vertical-align: middle;
+            color: #263238;
+            font-weight: 700;
+            font-size: 1.5rem;
+            @media screen and (max-width: $brk-mobile-width) {
+                font-size: 1rem;
+            }
+        }
+        & img {
+            height: 30px;
+            @media screen and (max-width: $brk-mobile-width) {
+                height: 20px;
+            }
         }
     }
     & .container-fluid {

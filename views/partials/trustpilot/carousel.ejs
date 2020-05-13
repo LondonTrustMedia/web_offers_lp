@@ -1,6 +1,10 @@
 <section id="carousel">
     <div class="container text-center border_bottom">
-        <div class="mb-3"><img src="img/trustpilot3.svg" alt="trustpilot" class="trustpilot"></div>
+        <div class="mb-3 trustpilot">
+            <p class="mb-0 d-inline-block"><%- gettext("Great") %></p>
+            <img src="img/trustpilot/Trustpilot_ratings_4.svg" alt="4 stars" class="d-inline-block mx-2">
+            <img src="img/trustpilot/Trustpilot_brandmark_gr-black_RGB.png" alt="trustpilot" class="d-inline-block">
+        </div>
         <p>[<%- format(gettext("Based on %s reviews"), [numberOfReviews]) %>]</p>
     <div class="container-fluid">
         <div id="reviews_caousel" class="carousel slide" data-ride="carousel">

@@ -29,9 +29,9 @@ app.liveData = {
         trustpilotReviews: {}
     },
     servers: {
-        serversCount: 3292,
+        serversCount: 3314,
         countriesCount: 46,
-        locationsCount: 68
+        locationsCount: 67
     }
 }
 
@@ -154,10 +154,10 @@ setInterval(() => {
 
     serversApi.getLiveData((err, servers, countries, locations) => {
         if (err) {
-            console.log(err);
+            // console.log(err);
             return;
         }
-        // app.liveData.servers.serversCount = servers
+        app.liveData.servers.serversCount = servers
         app.liveData.servers.countriesCount = countries
         app.liveData.servers.locationsCount = locations
     })
@@ -183,10 +183,10 @@ trustpilotApi.getReviews((err, trustReviews) => {
 
 serversApi.getLiveData((err, servers, countries, locations) => {
     if (err) {
-        console.log(err);
+        // console.log(err);
         return;
     }
-    // app.liveData.servers.serversCount = servers
+    app.liveData.servers.serversCount = servers
     app.liveData.servers.countriesCount = countries
     app.liveData.servers.locationsCount = locations
 })

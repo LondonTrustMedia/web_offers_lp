@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: Russian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-13 11:06\nLanguage: ru_RU\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-13 10:52+0000\nPlural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ru\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: Russian\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-20 14:02\nLanguage: ru_RU\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-13 10:52+0000\nPlural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: ru\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1233,7 +1233,7 @@
       ],
       "<p><b class='text-uppercase'>\"Private Internet Access</b></p><p>out-performs and out-features the competition\"</p>": [
          null,
-         ""
+         "<p><b class='text-uppercase'>\"Private Internet Access</b></p><p>лучше и качественнее любых конкурентов\" </p>"
       ],
       "Connect to servers from all over the world": [
          null,

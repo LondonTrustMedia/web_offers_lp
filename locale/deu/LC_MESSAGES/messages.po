@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pia-lps\n"
 "Language-Team: German\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2020-05-13 11:06\n"
+"PO-Revision-Date: 2020-05-20 14:02\n"
 "Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1271,7 +1271,7 @@ msgstr "Sie sind ungeschützt"
 
 #: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:9
 msgid "<p><b class='text-uppercase'>\"Private Internet Access</b></p><p>out-performs and out-features the competition\"</p>"
-msgstr ""
+msgstr "<p><b class='text-uppercase'>\"Privater Internetzugang</b></p><p>hat die Konkurrenz übertroffen in Leistungen und Eigenschaften\" </p>"
 
 #: /home/guy/kape/Privateland/views/partials/servers_globe.ejs:22
 msgid "Connect to servers from all over the world"

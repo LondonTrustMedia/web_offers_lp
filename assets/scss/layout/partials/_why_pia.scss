@@ -31,6 +31,9 @@
         bottom: -1%;
         position: absolute;
         background-size: 102%;
+        html[browser="explorer"] &, html[browser="ie"] &  {
+            bottom: -10%;
+        }
     }
     & .people {
         width: 80%;
@@ -82,6 +85,9 @@
         color: $color-text-dark;
         text-align: center;
         z-index: 2;
+        html[browser="explorer"] &, html[browser="ie"] &  {
+            margin: 0px auto -10px; 
+        }
         @media screen and (max-width: $brk-ipad-width - 1) {
             margin: 0 auto 30px;
             border-radius: 0;
@@ -97,6 +103,9 @@
             margin: 0 auto;
             background-color: #fff;
             padding: 5%;
+            html[browser="explorer"] &, html[browser="ie"] &  {
+                display: none;
+            }
             @media screen and (max-width: $brk-ipad-width - 1) {
                 width: 75px;
                 margin: -30px auto 0;

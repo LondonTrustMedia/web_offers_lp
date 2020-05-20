@@ -1,7 +1,7 @@
 ;var json_locale_data = {
    "messages": {
       "": {
-         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-13 11:06\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-13 10:52+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
+         "Project-Id-Version": " pia-lps\nLanguage-Team: French\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-05-20 14:01\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPOT-Creation-Date: 2020-05-13 10:52+0000\nPlural-Forms: nplurals=2; plural=(n > 1);\nX-Crowdin-Project: pia-lps\nX-Crowdin-Language: fr\nX-Crowdin-File: messages.pot\n"
       },
       "Afghanistan": [
          null,
@@ -1233,7 +1233,7 @@
       ],
       "<p><b class='text-uppercase'>\"Private Internet Access</b></p><p>out-performs and out-features the competition\"</p>": [
          null,
-         ""
+         "<p><b class='text-uppercase'>\"Private Internet Access</b></p><p>est plus puissant et a plus de fonctionnalités que ses concurrents\"</p>"
       ],
       "Connect to servers from all over the world": [
          null,

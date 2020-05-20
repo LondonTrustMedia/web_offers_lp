@@ -76,8 +76,8 @@ module.exports = (app) => {
         getLink: function(req, res, next){
 
             let deal = ''
-            if (req.query.deal && prices.coupons[req.query.deal])
-                deal = req.query.deal
+            // if (req.query.deal && prices.coupons[req.query.deal])
+            //     deal = req.query.deal
             switch (req.lang) {
                 case 'deu':
                     res.locals.offerLink = req.offerLink = `https://deu.privateinternetaccess.com/pages/jetzt-kaufen${deal}/` + (req.query && req.query.coupon ? req.query.coupon : '')
@@ -441,11 +441,11 @@ module.exports = (app) => {
             res.locals.oldPrices = req.oldPrices = prices.original.main
             res.locals.prices = req.prices = prices.coupons.main
 
-            if (req.query.deal && prices.coupons[req.query.deal])
-                res.locals.prices = req.prices = prices.coupons[req.query.deal]
+            // if (req.query.deal && prices.coupons[req.query.deal])
+            //     res.locals.prices = req.prices = prices.coupons[req.query.deal]
 
-            if (req.query.deal && prices.original[req.query.deal])
-                res.locals.oldPrices = req.oldPrices = prices.original[req.query.deal]
+            // if (req.query.deal && prices.original[req.query.deal])
+            //     res.locals.oldPrices = req.oldPrices = prices.original[req.query.deal]
         
             next()
         },

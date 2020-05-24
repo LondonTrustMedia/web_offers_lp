@@ -31,7 +31,7 @@
         bottom: -1%;
         position: absolute;
         background-size: 102%;
-        html[browser="explorer"] &, html[browser="ie"] &  {
+        div[browser="explorer"] &, div[browser="ie"] &  {
             bottom: -10%;
         }
     }
@@ -85,7 +85,7 @@
         color: $color-text-dark;
         text-align: center;
         z-index: 2;
-        html[browser="explorer"] &, html[browser="ie"] &  {
+        div[browser="explorer"] &, div[browser="ie"] &  {
             margin: 0px auto -10px; 
         }
         @media screen and (max-width: $brk-ipad-width - 1) {
@@ -103,7 +103,7 @@
             margin: 0 auto;
             background-color: #fff;
             padding: 5%;
-            html[browser="explorer"] &, html[browser="ie"] &  {
+            div[browser="explorer"] &, div[browser="ie"] &  {
                 display: none;
             }
             @media screen and (max-width: $brk-ipad-width - 1) {

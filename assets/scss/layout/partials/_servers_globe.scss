@@ -7,7 +7,7 @@
     overflow: initial;
     margin-top: 165px;
     position: relative;
-    html[browser="explorer"] &, html[browser="ie"] &  {
+    div[browser="explorer"] &, div[browser="ie"] &  {
         min-height: 740px;
         background-size: 3840px 740px;
     }
@@ -81,7 +81,7 @@
         -o-border-radius: 50%;
         color: $color-text-dark;
         text-align: center;
-        html[browser="explorer"] &, html[browser="ie"] &  {
+        div[browser="explorer"] &, div[browser="ie"] &  {
             margin: 0 auto 30px;
             padding-top: 85px;
         }
@@ -100,7 +100,7 @@
             margin: -10% auto 10%;
             background-color: #fff;
             padding: 5%;
-            html[browser="explorer"] &, html[browser="ie"] &  {
+            div[browser="explorer"] &, div[browser="ie"] &  {
                 margin: 5px auto 0;
                 background-color: unset;
             }
@@ -198,7 +198,7 @@
         &:nth-of-type(1) {
             top: -30px;
             right: calc(50% - 300px);
-            html[browser="explorer"] &, html[browser="ie"] &  {
+            div[browser="explorer"] &, div[browser="ie"] &  {
                 top: 30px;
             }
             @media screen and (max-width: $brk-ipad-width) {
@@ -210,7 +210,7 @@
                 top: unset;
                 bottom: 40px;
                 transform: rotate(-30deg);
-                html[browser="explorer"] &, html[browser="ie"] &  {
+                div[browser="explorer"] &, div[browser="ie"] &  {
                     top: unset;
                 }
             }
@@ -237,8 +237,8 @@
             bottom: -20px;
             left: calc(50% - 500px);
             animation-delay: 1s;
-            html[browser="explorer"] &, html[browser="ie"] &  {
-                top: 10px;
+            div[browser="explorer"] &, div[browser="ie"] &  {
+                bottom: 10px;
             }
             @media screen and (max-width: 575px) {
                 bottom: 350px;

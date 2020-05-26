@@ -1,4 +1,4 @@
-<div browser="<%- userAgent.browser.name.toLowerCase() %>">
+<div browser="<%- (userAgent && userAgent.browser && userAgent.browser.name ) ? userAgent.browser.name.toLowerCase(): '' %>">
     <% include ../partials/trusted_companies %>
     <% include ../partials/sevice %>
     <% include ../partials/servers_globe %>

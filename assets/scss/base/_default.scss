@@ -3,135 +3,198 @@
 // ======================================
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    color: $color-text;
-    font-family: $stack-roboto;
-    overflow-x: hidden;
+  color: $color-text;
+  font-family: $stack-roboto;
+  overflow-x: hidden;
 }
 
 a {
+  color: $color-text;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
     color: $color-text;
     text-decoration: none;
-    cursor: pointer;
-
-    &:hover {
-        color: $color-text;
-        text-decoration: none;
-    }
+  }
 }
 
 %nav-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 70px;
-    width: 100%;
-    z-index: 11111111111111111;
-    margin: 0;
-    border: none;
-    border-radius: unset;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  z-index: 11111111111111111;
+  margin: 0;
+  border: none;
+  border-radius: unset;
 }
 
 %container {
-    width: 100%;
-    max-width: $brk-desktop-width;
-    margin: 0 auto;
+  width: 100%;
+  max-width: $brk-desktop-width;
+  margin: 0 auto;
 }
 
 %contain-all {
-    display: block;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 0;
-    margin: 0;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
 }
 
 // font color
 
 .color_pia_orange {
-    color: $pia-orange; 
+  color: $pia-orange;
 }
 .color_pia_light_orange {
-    color: $pia-light-orange; 
+  color: $pia-light-orange;
 }
 .color_pia_green {
-    color: $pia-green;
+  color: $pia-green;
 }
 .color_pia_yellow {
-    color: $pia-yellow;
+  color: $pia-yellow;
 }
 .color_white {
-    color: $white;
+  color: $white;
 }
 .color_dark_green {
-    color: #004249;
+  color: #004249;
 }
 // flex containers
 .flex_container_column {
-    @include flexy($just: center); 
-    @media screen and (max-width: $brk-ipad-width ) {
-        flex-direction: column;
-    } 
+  @include flexy($just: center);
+  @media screen and (max-width: $brk-ipad-width) {
+    flex-direction: column;
+  }
 }
 // section
 section {
-    padding: 50px 0;
-    padding: 30px 0;
-    overflow: hidden;
-    @media screen and (max-width: $brk-mobile-width) {
-        padding: 20px 0;
-    }
+  padding: 50px 0;
+  padding: 30px 0;
+  overflow: hidden;
+  @media screen and (max-width: $brk-mobile-width) {
+    padding: 20px 0;
+  }
 }
-p,q {
-    @media screen and (max-width: $brk-mobile-width) {
-        font-size: 16px;
-    } 
+p,
+q {
+  @media screen and (max-width: $brk-mobile-width) {
+    font-size: 16px;
+  }
 }
 h3.hp {
-    font-size: 23px;
-    color: lighten($black, 26.5%);
-    padding: 20px 0 40px;
-    font-weight: 400;
+  font-size: 23px;
+  color: lighten($black, 26.5%);
+  padding: 20px 0 40px;
+  font-weight: 400;
 }
 .new_title {
-    font-size: 35px;
-    color: #004249;
-    padding: 0px 0 30px;
-    font-weight: 400; 
-    @media screen and (max-width: $brk-ipad-width) {
-        font-size: 25px;
-        padding: 0px 0 20px;
-    }
-    @media screen and (max-width: $brk-mobile-width) {
-        padding: 0px 0 10px;
-    }
+  font-size: 35px;
+  color: #004249;
+  padding: 0px 0 30px;
+  font-weight: 400;
+  @media screen and (max-width: $brk-ipad-width) {
+    font-size: 25px;
+    padding: 0px 0 20px;
+  }
+  @media screen and (max-width: $brk-mobile-width) {
+    padding: 0px 0 10px;
+  }
 }
 .new_subtitle {
-    font-weight: 300;
-    margin: 0 auto;
-    font-size: 30px;
-    color: #004249;
-    @media screen and (max-width: $brk-ipad-width) {
-        font-size: 20px;
-    }
+  font-weight: 300;
+  margin: 0 auto;
+  font-size: 30px;
+  color: #004249;
+  @media screen and (max-width: $brk-ipad-width) {
+    font-size: 20px;
+  }
 }
 .tob_bottom_borders {
-    border-bottom: solid 3px #F6F9FE;
-    border-top: solid 3px #F6F9FE;
-    padding: 30px 0;
+  border-bottom: solid 3px #f6f9fe;
+  border-top: solid 3px #f6f9fe;
+  padding: 30px 0;
 }
 
 #brand {
-    & p {
-        font-size: 16px;
+  & p {
+    font-size: 16px;
+  }
+  & img {
+    max-height: 40px;
+    max-width: 100%;
+  }
+}
+
+#badge {
+  &.french_days {
+    display: none;
+    html[lang="fra"] & {
+      display: block;
+      position: fixed;
+      bottom: 0;
+      left: 25px;
+      width: 300px;
+      height: 400px;
+      background-image: url(img/french_days.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      z-index: 1111111;
+      @media screen and (max-width: 575px) {
+       position: relative;
+       width: 100%;
+       background-color: #192d49;
+       color: #fff;
+       background-image: unset;
+       height: 75px;
+       left: 0;
+       box-shadow: 0px 2px 5px #000;
+       padding: 1rem 2rem;
+      }
+      @media screen and (max-width: $brk-mobile-width) {
+        padding: 1rem;
+      }
     }
-    & img {
-        max-height: 40px;
-        max-width: 100%;
+    & .content {
+        @media screen and (max-width:  575px) {
+            & p {
+                color: #fff;
+                margin: 0 2rem;
+                line-height: 1.2;
+                font-size: .875rem;
+            }            
+        }
+        & img {
+            height: 45px;
+        }
     }
+    & .close {
+      width: 30px;
+      position: absolute;
+      right: 0;
+      top: 20px;
+      border-radius: 50%;
+      background-color: #192d49;
+      padding: .5rem;
+      cursor: pointer;
+      @media screen and (max-width: 575px) {
+        display: none;
+      }
+      & img {
+        width: 100%;
+      }
+    }
+  }
 }

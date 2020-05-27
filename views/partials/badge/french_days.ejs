@@ -1,0 +1,16 @@
+<div id="badge" class="french_days text-center">
+    <div class="closeIt close"><img src="img/x_exit.svg" class="closeIt" alt="Exit"></div>
+    <div class="content d-flex d-sm-none justify-content-between align-items-center">
+        <img src="img/french_days2.svg" alt="french">
+        <p class="mb-0 text-uppercase">French Days<br>OFFRE SPÉCIALE</p>
+        <img src="img/french_days1.svg" alt="french">
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $("#badge").children().click(function (e) {
+            if ($(this).hasClass("closeIt"))
+                $("#badge").fadeOut("slow");
+        });
+    });
+</script>

@@ -26,7 +26,6 @@
                             <div class="d-inline-block d-md-none">
                                 <% include ../partials/b2mfree_new %>
                             </div>
-                            <h5 class="mb-md-4 mb-0 text-md-left sign"><%- format(gettext("Sign-up now & get %s extra months <span class='text-uppercase'>free</span>"),[2]) %></h5>
                         </div>
                     </div>
                     <div class="d-md-block text-left d-none">
@@ -53,7 +52,7 @@
                     <% if (query.channel && channels.includes(query.channel.toLowerCase())) { %> 
                         <img src="img/youtube-channels/<%- query.channel.toLowerCase().replace(/ /g, "_") %>.jpg" alt="<%- query.channel %>" class="image desktop">
                         <img src="img/youtube-channels/<%- query.channel.toLowerCase().replace(/ /g, "_") %>_tablet.jpg" alt="<%- query.channel %>" class="image ipad">
-                        <img src="img/youtube-channels/<%- query.channel.toLowerCase().replace(/ /g, "_") %>_mobile.jpg?v2" alt="<%- query.channel %>" class="image mobi">
+                        <img src="img/youtube-channels/<%- query.channel.toLowerCase().replace(/ /g, "_") %>_mobile.jpg?v3" alt="<%- query.channel %>" class="image mobi">
                     <% } else { %>
                         <img src="img/youtube-channels/default.jpg" alt="default bg" class="image desktop">
                         <img src="img/youtube-channels/default_tablet.jpg" alt="default bg" class="image ipad">

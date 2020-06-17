@@ -1,6 +1,6 @@
 stages:
   - staging
-  #- production
+  - production
 build_image_staging:
   stage: staging
   script:
@@ -18,14 +18,14 @@ build_image_staging:
     - privateland-k8s
   only:
     - staging
-#build_image_production:
-#    stage: production
-#    script:
-#    - version=$(kubectl describe deployment zenland-staging -n zenland | grep Image | awk '{print $2}' | cut -f 2 -d ':')
-#    - echo $version
-#    - echo "Deploying to production"
-#    - kubectl set image deployment.v1.apps/zenland -n zenland zenland=657354073878.dkr.ecr.eu-west-1.amazonaws.com/zenland:$version --record
-#    tags:
-#    - k8s-zenland
-#    only:
-#    - master
+build_image_production:
+    stage: production
+    script:
+    - version=$(kubectl describe deployment privateland-staging -n privateland | grep Image | awk '{print $2}' | cut -f 2 -d ':')
+    - echo $version
+    - echo "Deploying to production"
+    - kubectl set image deployment.v1.apps/privateland -n privateland privateland=657354073878.dkr.ecr.eu-west-1.amazonaws.com/zenland:$version --record
+    tags:
+    - privateland-k8s
+    only:
+    - master

@@ -398,25 +398,19 @@ module.exports = (app) => {
                         symbol: "€",
                         text: req.gettext('Euros')
                     }
-                else if (usdCountries.includes(req.userLocation.cn))
-                    res.locals.currency = req.currency = {
-                        iso: "USD",
-                        symbol: "$",
-                        text: req.gettext('US Dollars')
-                    }
-                else if (req.lang === 'de' ||
-                    req.lang === 'es' ||
-                    req.lang === 'fr' ||
-                    req.lang === 'it' ||
-                    req.lang === 'pl' ||
-                    req.lang === 'ro' ||
-                    req.lang === 'nl' ||
-                    req.lang === 'ko' )
-                    res.locals.currency = req.currency = {
-                        iso: "EUR",
-                        symbol: "€",
-                        text: req.gettext('Euros')
-                    }
+                // else if (req.lang === 'de' ||
+                //     req.lang === 'es' ||
+                //     req.lang === 'fr' ||
+                //     req.lang === 'it' ||
+                //     req.lang === 'pl' ||
+                //     req.lang === 'ro' ||
+                //     req.lang === 'nl' ||
+                //     req.lang === 'ko' )
+                //     res.locals.currency = req.currency = {
+                //         iso: "EUR",
+                //         symbol: "€",
+                //         text: req.gettext('Euros')
+                //     }
             
                 else 
                     res.locals.currency = req.currency = {

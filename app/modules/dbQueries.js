@@ -1,36 +1,13 @@
 const fs = require('fs')
 const mysql = require('mysql');
 
-let pool
-
-if (process.env.NODE_ENV === 'local') {
-
-    const mysqlSsh = require('mysql-ssh');
-    mysqlSsh.createPool({
-        host: '66.175.208.210',
-        user: 'deployer',
-        privateKey: fs.readFileSync(process.env.HOME + '/.ssh/id_rsa')
-    },
-    {
+const pool = mysql.createPool({
         host: process.env.MYSQL_PRIVATELAND_URL,
         port: 3306,
         user: process.env.MYSQL_PRIVATELAND_USER,
         password: process.env.MYSQL_PRIVATELAND_PASSWORD,
         database: process.env.MYSQL_PRIVATELAND_DB
-    })
-    .then(conn => {
-        pool = conn
-    })
-    
-} else {
-    pool = mysql.createPool({
-        host: 'localhost',
-        port: 3306,
-        user: process.env.MYSQL_PRIVATELAND_USER,
-        password: process.env.MYSQL_PRIVATELAND_PASSWORD,
-        database: process.env.MYSQL_PRIVATELAND_DB
     });
-}
 
 const dbQueries = module.exports = {
     rotators: {
